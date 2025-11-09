@@ -10,11 +10,11 @@
         "description":
           "Renowned for its stunning granite peaks, glaciers, and diverse wildlife, offering some of the best hiking trails in the world.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/01.jpg",
+        "imageUrl": "/01.jpg",
         "imageAuthor": "Claudio Mota",
         "authorLink": "https://www.pexels.com/pt-br/foto/papel-de-parede-4k-wallpaper-4k-antartica-antartida-9638234/",
         "hikingExplained" : "Chile's Torres del Paine National Park showcases a breathtaking blend of glaciers, towering peaks, and serene lakes. The W Circuit hike traverses through an array of landscapes, from the iconic granite spires known as the Torres to vast valleys adorned with electric-blue icebergs. Each turn on this trek offers stunning vistas, crossing diverse terrain that includes dense forests, tranquil lakes like Nordenskjöld, and the challenging but rewarding climb to the base of the iconic towers themselves.",
-        "map": "https://www.yuricooke.com/mvp/maps/SouthAmerica.svg"
+        "map": "/maps/SouthAmerica.svg"
 
 
     
@@ -28,11 +28,11 @@
         "description":
           "Ancient Incan city nestled in the Andes Mountains, surrounded by breathtaking scenery and hiking trails like the Inca Trail.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/02.jpg",
+        "imageUrl": "/02.jpg",
         "imageAuthor": "Alberto Capparelli",
         "authorLink": "https://www.pexels.com/pt-br/foto/fotografia-aerea-aerofotografia-arquitetura-tiro-com-drone-13973204/",
         "hikingExplained" : "Nestled high in the Andes Mountains of Peru, Machu Picchu stands as a testament to ancient Incan engineering and culture. The Inca Trail trek leading to this mystical city winds through mountain passes, cloud forests, and impressive ruins before finally revealing the awe-inspiring sight of the Lost City of the Incas. This challenging hike not only offers historical intrigue but also stunning natural beauty as it passes through diverse ecosystems and culminates with a sunrise view over the enigmatic ruins.",
-        "map": "https://www.yuricooke.com/mvp/maps/SouthAmerica.svg"
+        "map": "/maps/SouthAmerica.svg"
 
 
     
@@ -46,11 +46,11 @@
         "description":
           "A paradise for outdoor enthusiasts with pristine lakes, snow-capped peaks, and extensive hiking opportunities.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/03.jpg",
+        "imageUrl": "/03.jpg",
         "imageAuthor": "Jaime Reimer: ",
         "authorLink": "https://www.pexels.com/pt-br/foto/bela-vista-do-lago-moraine-2662116/",
         "hikingExplained" : "Canada's Banff National Park is a picturesque haven for hikers, boasting turquoise lakes, rugged peaks, and abundant wildlife. Trails like the Plain of Six Glaciers lead through awe-inspiring landscapes of glaciers and alpine meadows, offering stunning vistas of the surrounding mountains and pristine natural beauty. The park's diverse terrain and well-maintained trails cater to hikers of various skill levels, providing ample opportunities to immerse in the grandeur of the Canadian Rockies.",
-        "map": "https://www.yuricooke.com/mvp/maps/NorthAmerica.svg"
+        "map": "/maps/NorthAmerica.svg"
 
 
 
@@ -67,11 +67,11 @@
         "description":
           "Home to geysers, hot springs, diverse wildlife, and numerous hiking trails through forests and canyons.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/04.jpg",
+        "imageUrl": "/04.jpg",
         "imageAuthor": "James Lee",
         "authorLink":"https://www.pexels.com/pt-br/foto/geotermico-termas-fonte-termal-ponto-de-referencia-9326694/",
         "hikingExplained" : "America's iconic Yellowstone National Park is a geothermal wonderland, offering an array of hiking trails amidst bubbling geysers, colorful hot springs, and diverse ecosystems. The Grand Canyon of the Yellowstone presents dramatic vistas, with trails leading to majestic waterfalls and the fascinating geological features that define this unique landscape. Hiking here is an adventure through a land where nature's forces are on full display, creating an unforgettable experience for visitors.",
-        "map": "https://www.yuricooke.com/mvp/maps/NorthAmerica.svg"
+        "map": "/maps/NorthAmerica.svg"
 
 
 
@@ -86,11 +86,11 @@
         "description":
           "Famous for the annual wildebeest migration, offering vast plains and exceptional wildlife viewing on foot or via safaris.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/05.jpg",
+        "imageUrl": "/05.jpg",
         "imageAuthor": "Antony Trivet",
         "authorLink": "https://www.pexels.com/pt-br/foto/ceu-espetacular-ceu-com-cores-intensas-hora-dourada-hora-magica-6057960/",
         "hikingExplained" : "Tanzania's Serengeti National Park is a sprawling savanna renowned for the Great Migration and its diverse wildlife. Hiking through this iconic landscape offers encounters with lions, elephants, and wildebeests in their natural habitat. The vast plains, framed by golden grasses and acacia trees, create an immersive experience in the heart of Africa's wilderness.",
-        "map": "https://www.yuricooke.com/mvp/maps/Africa.svg"
+        "map": "/maps/Africa.svg"
 
 
 
@@ -105,11 +105,11 @@
         "description":
           "Iconic mountain with diverse flora and fauna, featuring hiking trails and panoramic views of Cape Town and the coast.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/06.jpg",
+        "imageUrl": "/06.jpg",
         "imageAuthor": "Thomas Bennie",
         "authorLink": "https://unsplash.com/photos/brown-rocky-mountain-under-blue-sky-during-daytime-B21WLsX6a5c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Overlooking Cape Town, South Africa, Table Mountain National Park features an array of hiking trails winding through fynbos-covered slopes. These trails offer panoramic views of the city, coastline, and unique rock formations, providing hikers with a mix of natural beauty and cultural significance.",
-        "map": "https://www.yuricooke.com/mvp/maps/Africa.svg"
+        "map": "/maps/Africa.svg"
 
 
 
@@ -125,11 +125,11 @@
         "description":
           "Stunning terraced rice fields, ethnic villages, and challenging trekking routes in the Hoàng Liên Son Mountains.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/07.jpg",
+        "imageUrl": "/07.jpg",
         "imageAuthor": "Damien Kopp",
         "authorLink": "https://unsplash.com/@dpkopp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Nestled in the mountains of Vietnam, Sapa is famed for its terraced rice fields and ethnic minority villages. Hikes here unveil breathtaking landscapes and cultural encounters with local hill tribes. The trails meander through lush greenery and misty valleys, offering glimpses into traditional rural life and panoramic vistas of the surrounding mountains.",
-        "map": "https://www.yuricooke.com/mvp/maps/Asia.svg"
+        "map": "/maps/Asia.svg"
 
 
 
@@ -145,11 +145,11 @@
         "description":
           "One of the world's classic treks, circling the Annapurna Massif, showcasing diverse landscapes and rich culture.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/08.jpg",
+        "imageUrl": "/08.jpg",
         "imageAuthor": "Sibu Khadka",
         "authorLink": "https://unsplash.com/@sibukdk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Circumnavigating the Annapurna Massif in Nepal, this trek is renowned for its varied landscapes, from lush forests to arid high-altitude terrain, and diverse cultures encountered in the villages along the way. Hikers traverse deep gorges, cascading waterfalls, and mountain passes like Thorong La, soaking in the majestic Himalayan scenery and the warm hospitality of local communities.",
-        "map": "https://www.yuricooke.com/mvp/maps/Asia.svg"
+        "map": "/maps/Asia.svg"
 
         
 
@@ -167,11 +167,11 @@
         "description":
           "A land of fiords, waterfalls, and dramatic landscapes with multi-day hiking trails like the Milford Track.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/09.jpg",
+        "imageUrl": "/09.jpg",
         "imageAuthor": "Paul Huisman",
         "authorLink": "https://unsplash.com/@paulhuisman?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "In New Zealand, Fiordland captivates with its deep fjords, cascading waterfalls, and ancient forests. Hiking trails like the Milford Track offer a glimpse into the region's pristine wilderness, with opportunities to witness breathtaking landscapes and encounters with unique wildlife amid the tranquility of this remote corner of the world.",
-        "map": "https://www.yuricooke.com/mvp/maps/Oceania.svg"
+        "map": "/maps/Oceania.svg"
 
 
 
@@ -185,11 +185,11 @@
         "description":
           "Boasting diverse ecosystems, Aboriginal rock art, and walking trails showcasing unique wildlife and landscapes.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/10.jpg",
+        "imageUrl": "/10.jpg",
         "imageAuthor": "Vladimir Haltakov",
         "authorLink": "https://unsplash.com/@haltakov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Australia's largest national park, Kakadu, showcases diverse landscapes, from wetlands to sandstone escarpments. Hikes here reveal Aboriginal rock art, stunning waterfalls, and unique wildlife. Exploring this vast terrain provides insight into both the cultural heritage and natural beauty of the Northern Territory.",
-        "map": "https://www.yuricooke.com/mvp/maps/Oceania.svg"
+        "map": "/maps/Oceania.svg"
 
 
       
@@ -204,11 +204,11 @@
         "description":
           "Scenic isle with lochs, mountains, and forests, offering hiking, wildlife spotting, and stunning views.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/11.jpg",
+        "imageUrl": "/11.jpg",
         "imageAuthor": "Sheng L",
         "authorLink": "https://unsplash.com/@parachutel_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Scotland's Isle of Skye is a rugged paradise, featuring dramatic landscapes of jagged peaks, sheer cliffs, and picturesque lochs. Hiking trails like the Quiraing and the Old Man of Storr lead through enchanting scenery, offering panoramic views of the coastline and ancient rock formations that evoke a sense of otherworldly beauty.",
-        "map": "https://www.yuricooke.com/mvp/maps/Europe.svg"
+        "map": "/maps/Europe.svg"
 
 
     
@@ -222,11 +222,11 @@
         "description":
           "A series of cascading lakes and waterfalls amid lush forests, featuring picturesque hiking trails.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/12.jpg",
+        "imageUrl": "/12.jpg",
         "imageAuthor": "Ante Hamersmit",
         "authorLink": "https://unsplash.com/@ante_kante?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Croatia's Plitvice Lakes National Park is a wonderland of interconnected lakes, waterfalls, and lush forests. Trails here wind through wooden walkways and bridges, allowing hikers to explore the park's natural splendor while witnessing the mesmerizing turquoise waters cascading between terraced pools.",
-        "map": "https://www.yuricooke.com/mvp/maps/Europe.svg"
+        "map": "/maps/Europe.svg"
 
 
       },
@@ -239,11 +239,11 @@
         "description":
           "Home to the famous Perito Moreno Glacier and stunning landscapes ideal for hiking and glacier exploration.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/13.jpg",
+        "imageUrl": "/13.jpg",
         "imageAuthor": "Hans-Jürgen Weinhardt",
         "authorLink": "https://unsplash.com/@hansjuergen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Argentina's Los Glaciares National Park is home to the iconic Perito Moreno Glacier and a network of stunning trails that offer close encounters with the park's namesake glaciers. Hiking here presents awe-inspiring views of towering ice walls, glacial lakes, and the breathtaking beauty of Patagonia's rugged landscapes.",
-        "map": "https://www.yuricooke.com/mvp/maps/SouthAmerica.svg"
+        "map": "/maps/SouthAmerica.svg"
 
 
       },
@@ -256,11 +256,11 @@
         "description":
           "Offers rugged mountains, alpine lakes, and a variety of hiking trails, including the Overland Track.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/14.jpg",
+        "imageUrl": "/14.jpg",
         "imageAuthor": "Laura Smetsers",
         "authorLink": "https://unsplash.com/@letsersgo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Tasmania's Cradle Mountain-Lake St Clair National Park boasts ancient rainforests, alpine heaths, and glacial lakes. Hiking trails like the Overland Track traverse diverse terrain, from serene lakes to rugged mountain landscapes, providing hikers with a unique glimpse into Tasmania's natural beauty.",
-        "map": "https://www.yuricooke.com/mvp/maps/Oceania.svg"
+        "map": "/maps/Oceania.svg"
 
 
       },
@@ -273,11 +273,11 @@
         "description":
           "Home to Africa's highest peak, Mount Kilimanjaro, offering various trekking routes with stunning vistas.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/15.jpg",
+        "imageUrl": "/15.jpg",
         "imageAuthor": "Sergey Pesterev",
         "authorLink": "https://unsplash.com/@sickle?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Home to Africa's highest peak, Mount Kilimanjaro, this park in Tanzania offers several trekking routes leading to the summit. Hiking through different ecological zones, from lush rainforests to alpine deserts, allows trekkers to experience varying climates and breathtaking vistas before reaching the iconic snow-capped summit.",
-        "map": "https://www.yuricooke.com/mvp/maps/Africa.svg"
+        "map": "/maps/Africa.svg"
 
 
       },
@@ -290,11 +290,11 @@
         "description":
           "Picturesque coastal villages connected by hiking trails along the rugged Italian Riviera.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/16.jpg",
+        "imageUrl": "/16.jpg",
         "imageAuthor": "Xavier Photography",
         "authorLink": "https://unsplash.com/@xavierqu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Italy's Cinque Terre National Park is characterized by its colorful coastal villages, terraced vineyards, and scenic hiking trails along the Ligurian coastline. Trails connecting the five villages offer picturesque views of the Mediterranean Sea, charming villages, and terraced hillsides adorned with vineyards and olive groves.",
-        "map": "https://www.yuricooke.com/mvp/maps/Europe.svg"
+        "map": "/maps/Europe.svg"
 
 
     
@@ -308,11 +308,11 @@
         "description":
           "Offers golden beaches, coastal walks, and kayaking routes in a stunning coastal setting.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/17.jpg",
+        "imageUrl": "/17.jpg",
         "imageAuthor": "Mark de Jong",
         "authorLink": "https://unsplash.com/@mrmarkdejong?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "New Zealand's Abel Tasman National Park features golden beaches, turquoise waters, and lush coastal forests. Hiking trails here lead through pristine landscapes, offering glimpses of secluded bays and abundant birdlife amid the natural beauty of New Zealand's South Island.",
-        "map": "https://www.yuricooke.com/mvp/maps/Oceania.svg"
+        "map": "/maps/Oceania.svg"
 
 
       },
@@ -325,11 +325,11 @@
         "description":
           "Sections of the iconic Great Wall surrounded by scenic landscapes and hiking trails.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/18.jpg",
+        "imageUrl": "/18.jpg",
         "imageAuthor": "Hanson Lu",
         "authorLink": "https://unsplash.com/@hansonluu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "China's Great Wall is an ancient architectural marvel that spans thousands of miles across diverse landscapes. Hiking along sections like Mutianyu or Jiankou provides breathtaking views of this historic monument as it winds through mountains, forests, and picturesque valleys.",
-        "map": "https://www.yuricooke.com/mvp/maps/Asia.svg"
+        "map": "/maps/Asia.svg"
 
 
       },
@@ -342,11 +342,11 @@
         "description":
           "A medieval site amid picturesque landscapes.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/19.jpg",
+        "imageUrl": "/19.jpg",
         "imageAuthor": "Florian Delée",
         "authorLink": "https://unsplash.com/@florian_delee?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "France's Mont Saint-Michel is an iconic island commune crowned by a medieval abbey. Hiking around this UNESCO World Heritage Site offers stunning views of the abbey, surrounding tidal flats, and the picturesque Normandy coastline.",
-        "map": "https://www.yuricooke.com/mvp/maps/Europe.svg"
+        "map": "/maps/Europe.svg"
 
 
       },
@@ -359,11 +359,11 @@
         "description":
           "Majestic peaks, ancient pine trees, and stunning vistas in a UNESCO World Heritage Site.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/20.jpg",
+        "imageUrl": "/20.jpg",
         "imageAuthor": "Alexander Schimmeck",
         "authorLink": "https://unsplash.com/@alschim?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "China's Wulingyuan National Park, home to the mesmerizing Zhangjiajie sandstone pillars, offers hiking trails through unique landscapes resembling something out of a fantasy. Trails like the Avatar Hallelujah Mountain Trail reveal towering stone pillars amid lush forests, providing a surreal experience for hikers.",
-        "map": "https://www.yuricooke.com/mvp/maps/Asia.svg"
+        "map": "/maps/Asia.svg"
 
 
       },
@@ -376,11 +376,11 @@
         "description":
           "It was built in a time when castles were no longer necessary as strongholds. Exceptional hiking experiences in the Alps. ",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/21.jpg",
+        "imageUrl": "/21.jpg",
         "imageAuthor": "Jacek Dylag",
         "authorLink": "https://unsplash.com/@dylu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Germany's Neuschwanstein Castle, nestled in the Bavarian Alps, is surrounded by picturesque landscapes and enchanting trails. Hiking paths like the Marienbrücke trail provide panoramic views of the fairytale castle and the stunning Alpine scenery.",
-        "map": "https://www.yuricooke.com/mvp/maps/Europe.svg"
+        "map": "/maps/Europe.svg"
 
 
       },
@@ -393,11 +393,11 @@
         "description":
           "A nature reserve with crystal-clear lakes, waterfalls, and colorful landscapes in the Tibetan Plateau.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/22.jpg",
+        "imageUrl": "/22.jpg",
         "imageAuthor": "Lindy Kazu",
         "authorLink": "https://unsplash.com/@linnagard?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "China's Jiuzhaigou Valley is a UNESCO World Heritage Site known for its turquoise lakes, multi-tiered waterfalls, and snow-capped peaks. Hiking through this scenic wonderland unveils breathtaking natural beauty amid the vibrant colors of the valley's lakes and forests.",
-        "map": "https://www.yuricooke.com/mvp/maps/Asia.svg"
+        "map": "/maps/Asia.svg"
 
 
 
@@ -413,11 +413,11 @@
         "description":
           "Home to iconic granite cliffs, waterfalls, and diverse ecosystems, providing exceptional hiking experiences.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/23.jpg",
+        "imageUrl": "/23.jpg",
         "imageAuthor": "Mathilda Khoo",
         "authorLink": "https://unsplash.com/@mcthilda?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "America's Yosemite National Park is a treasure trove of granite cliffs, waterfalls, and giant sequoias. Trails like the Mist Trail lead to iconic landmarks such as Yosemite Falls and Half Dome, offering hikers unparalleled views of the park's stunning landscapes.",
-        "map": "https://www.yuricooke.com/mvp/maps/NorthAmerica.svg"
+        "map": "/maps/NorthAmerica.svg"
 
 
     
@@ -431,11 +431,11 @@
         "description":
           "A beautiful island with a blend of mountains, forests, and waterfalls with hiking trails in a peaceful setting.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/24.jpg",
+        "imageUrl": "/24.jpg",
         "imageAuthor": "Thomas Winkler",
         "authorLink": "https://unsplash.com/@thomsonwinkler?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Portugal's Madeira Island boasts rugged coastlines, lush forests, and panoramic hiking trails. \nThe levada walks, following irrigation channels, offer hikers access to the island's interior, showcasing its diverse flora and magnificent vistas of mountains and ocean.",
-        "map": "https://www.yuricooke.com/mvp/maps/Europe.svg"
+        "map": "/maps/Europe.svg"
 
 
     
@@ -450,11 +450,11 @@
         "description":
           "A stunning complex of waterfalls on the border of Brazil and Argentina, surrounded by lush rainforest.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/25.jpg",
+        "imageUrl": "/25.jpg",
         "imageAuthor": "Christhian Gruhn",
         "authorLink": "https://unsplash.com/@gruhh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Straddling the border of Brazil and Argentina, Iguaçú Falls is a natural wonder of cascading waterfalls set amidst lush rainforests. Hiking trails here allow visitors to experience the sheer power and beauty of the falls from various viewpoints.",
-        "map": "https://www.yuricooke.com/mvp/maps/SouthAmerica.svg"
+        "map": "/maps/SouthAmerica.svg"
 
 
     
@@ -469,11 +469,11 @@
         "description":
           "Spectacular mountain landscapes close to the city of Monterrey, with numerous hiking trails.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/26.jpg",
+        "imageUrl": "/26.jpg",
         "imageAuthor": "David Liceaga",
         "authorLink": "https://unsplash.com/@liceagadavid?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Mexico's Cumbres de Monterrey National Park showcases rugged canyons, towering cliffs, and diverse ecosystems. Hiking trails like the Chipinque Ecological Park offer stunning views of the surrounding mountains and lush valleys.",
-        "map": "https://www.yuricooke.com/mvp/maps/NorthAmerica.svg"
+        "map": "/maps/NorthAmerica.svg"
 
 
     
@@ -487,11 +487,11 @@
         "description":
           "Features dramatic landscapes, caves, waterfalls, and table-top mountains, ideal for trekking and exploration.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/27.jpg",
+        "imageUrl": "/27.jpg",
         "imageAuthor": "Matheus Seiji Goto",
         "authorLink": "https://unsplash.com/@seijigoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Brazil's Chapada Diamantina National Park features stunning table-top mountains, crystal-clear rivers, and hidden caves. Hikes through this Brazilian paradise offer encounters with unique rock formations and breathtaking landscapes.",
-        "map": "https://www.yuricooke.com/mvp/maps/SouthAmerica.svg"
+        "map": "/maps/SouthAmerica.svg"
 
 
       },
@@ -504,11 +504,11 @@
         "description":
           "An archipelago known for its pristine beaches, crystal-clear waters, and exceptional marine biodiversity.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/28.jpg",
+        "imageUrl": "/28.jpg",
         "imageAuthor": "Ze Paulo Gasparotto",
         "authorLink": "https://unsplash.com/@euzepaulo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Brazil's Fernando de Noronha is an archipelago characterized by its pristine beaches, crystal-clear waters, and diverse marine life. Hiking trails here provide access to secluded beaches, panoramic viewpoints, and the chance to witness the island's natural beauty and thriving ecosystems.",
-        "map": "https://www.yuricooke.com/mvp/maps/SouthAmerica.svg"
+        "map": "/maps/SouthAmerica.svg"
 
 
       },
@@ -521,11 +521,11 @@
         "description":
           "Boasts vast expanses of sand dunes dotted with freshwater lagoons, creating a unique landscape.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/29.jpg",
+        "imageUrl": "/29.jpg",
         "imageAuthor": "Léo Castro",
         "authorLink": "https://unsplash.com/@leocastrofilms?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Brazil's Lençóis Maranhenses National Park showcases a unique landscape of sweeping sand dunes and freshwater lagoons. Exploring this surreal environment via hiking trails offers glimpses of turquoise lagoons amid vast expanses of pristine sand.",
-        "map": "https://www.yuricooke.com/mvp/maps/SouthAmerica.svg"
+        "map": "/maps/SouthAmerica.svg"
 
 
       },
@@ -538,11 +538,11 @@
         "description":
           "The world's largest rainforest, teeming with wildlife, rivers, and unparalleled biodiversity.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/30.jpg",
+        "imageUrl": "/30.jpg",
         "imageAuthor": "unknown",
         "authorLink": "",
         "hikingExplained" : "The Amazon Rainforest is a sprawling natural wonder, hosting unparalleled biodiversity and complex ecosystems. Hiking through the rainforest provides an immersive experience amidst towering trees, diverse wildlife, and the symphony of natural sounds.",
-        "map": "https://www.yuricooke.com/mvp/maps/SouthAmerica.svg"
+        "map": "/maps/SouthAmerica.svg"
 
 
     
@@ -558,11 +558,11 @@
         "description":
           "A series of cascading turquoise waterfalls surrounded by lush jungle, with swimming pools and hiking trails.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/31.jpg",
+        "imageUrl": "/31.jpg",
         "imageAuthor": "Hongbin",
         "authorLink": "https://unsplash.com/@hbsun2013?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Laos' Kuang Si Falls is a series of cascading turquoise pools surrounded by lush forests. Hiking trails lead through the serene landscape, offering opportunities for a refreshing dip in the crystal-clear waters and tranquil moments amid nature's beauty.",
-        "map": "https://www.yuricooke.com/mvp/maps/Asia.svg"
+        "map": "/maps/Asia.svg"
 
 
     
@@ -576,11 +576,11 @@
         "description":
           "Boasts ancient rainforests, limestone cliffs, stunning lakes, and diverse wildlife, perfect for trekking and wildlife spotting.",
         "link_to_site": "",
-        "imageUrl": "https://www.yuricooke.com/mvp/32.jpg",
+        "imageUrl": "/32.jpg",
         "imageAuthor": "Colton Duke",
         "authorLink": "https://unsplash.com/@csoref?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "hikingExplained" : "Thailand's Khao Sok National Park is characterized by its ancient rainforests, limestone cliffs, and emerald-green lakes. Hiking trails through this biodiverse haven offer encounters with exotic wildlife and stunning vistas of the park's natural wonders.",
-        "map": "https://www.yuricooke.com/mvp/maps/Asia.svg"
+        "map": "/maps/Asia.svg"
 
 
       }
