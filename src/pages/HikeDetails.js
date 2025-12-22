@@ -70,7 +70,7 @@ export default function HikeDetails() {
         </div>
         <div className="hikedetails_title">
           <div className="Great_Hikes">
-            <img src="https://yuricooke.com/mvp/great_hikes.svg" alt="Great Hikes" width="50px" />
+            <img src="/great_hikes.svg" alt="Great Hikes" width="50px" />
             <h3>Great Hikes</h3>
             
           </div>

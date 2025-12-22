@@ -42,7 +42,7 @@ export default function Hikes() {
       <div className="row">
         <div className="col-lg-6 Hikes_Content">
           <div className="Great_Hikes">
-            <img src="https://yuricooke.com/mvp/great_hikes.svg" alt="Great Hikes" width="110px"/>
+            <img src="/great_hikes.svg" alt="Great Hikes" width="110px"/>
             <h1>Great Hikes</h1>
           </div>
             

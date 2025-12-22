@@ -58,3 +58,18 @@
   min-width: 100%;
   min-height: 100%;
 }
+
+@media screen and (max-width: 576px) {
+  .Home h1 {
+    font-size: 2rem;
+  }
+
+  .Glassbox {
+    width: 90%;
+    margin: 0 20px;
+  }
+
+  .Logo_Home img {
+    width: 150px;
+  }
+}

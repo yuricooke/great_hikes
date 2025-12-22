@@ -84,3 +84,38 @@
     display: flex;
     align-items: center;
   }
+
+@media screen and (max-width: 991px) {
+  .HikeDetails {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .Great_Hikes img {
+    width: 40px !important;
+  }
+
+  .Great_Hikes h3 {
+    font-size: 1.2rem;
+  }
+
+  .d-hikedetails_title--title {
+    flex-wrap: wrap;
+  }
+
+  .d-hikedetails_title--title h1 {
+    font-size: 1.8rem;
+  }
+
+  .hikedetails_card {
+    padding: 20px 15px;
+  }
+
+  .hikedetails_card .border-start {
+    border-left: none !important;
+  }
+
+  .map-control {
+    max-width: 100%;
+  }
+}
