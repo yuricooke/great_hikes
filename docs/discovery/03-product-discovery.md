@@ -8,7 +8,7 @@ Status: draft · 2026-10-07
 |---------|-------------|----------------|
 | **Lia, the hiker-photographer** | Posts trail photos, tags #great_hikes, 1–10k followers | "When I share a great hike, I want lasting credit and visibility so my work is recognized." |
 | **Marco, the trip dreamer-planner** | Saves Instagram photos of places he'd like to go | "When a photo inspires me, I want to know where it is and whether I can do the hike, so I can plan it." |
-| **The owner (curator)** | Runs @great_hikes, limited time | "When I find a great post, I want to feature it in a few clicks with credit handled, so the community keeps growing without eating my week." |
+| **The owner (approver)** | Runs @great_hikes, wants curation automated | "When agents find a great post, I want it fully prepared (credit, place, facts, consent message) so I only approve or reject." |
 
 ## Value propositions
 
@@ -30,7 +30,8 @@ photographer shares their feature → followers visit & follow → more posts.
 | H3 | Visitors from Instagram explore beyond the first page | Bio link to site; analytics | ≥ 40% of IG visitors view 2+ pages |
 | H4 | Practical facts (map/km/elevation) increase engagement vs photo-only | Compare hike pages with vs. without enrichment | Longer time on page, more clicks to map/official site |
 | H5 | Followers want gear suggestions | Instagram story poll; affiliate click-through on gear lists | Poll ≥ 50% yes; CTR ≥ 2% |
-| H6 | Curation fits in ~2 h/week | Run the curation flow for 4 weeks | Owner time log |
+| H6 | Automated curation needs ≤ 30 min/week of owner approval | Run the agent-prepared approval queue for 4 weeks | Owner time log; ≥ 70% of proposals approved without edits |
+| H7 | Paid promotion acquires engaged community members at an acceptable cost | Small test budget on Instagram ads to a featured-hike page | Cost per engaged visitor / per follower within the target set in 04 |
 
 ## Prioritization (what this means for the roadmap)
 

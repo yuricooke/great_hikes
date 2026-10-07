@@ -1,6 +1,6 @@
 # 04 · Business Outcomes & Production Metrics
 
-Status: draft targets — owner to confirm (see 01, Q1–Q3) · 2026-10-07
+Status: draft targets · owner goals confirmed 2026-10-07 (growth + income + brand; see 01)
 
 ## North-star metric
 
@@ -17,6 +17,21 @@ Great Hikes page. It captures the whole loop: curation → value to photographer
 | O-4 | The community contributes beyond Instagram | Reviews/tips per month; submissions | 30 reviews/tips; 10 submissions | 004, 005 |
 | O-5 | The project covers its running costs | Affiliate revenue vs. monthly costs | ≥ 100% of costs (≈ $40–70/month) | 006 |
 | O-6 | Great Hikes owns its audience | Newsletter subscribers / IG followers growth | 500 subscribers; +30% followers | 002, 007 |
+
+## Marketing investment & return (to be completed in the go-to-market plan)
+
+Growth is bought with paid ads and marketing, so every spend needs a measurable return:
+
+| Metric | Definition |
+|--------|------------|
+| Cost per engaged visitor | Ad spend ÷ visitors who view 2+ pages |
+| Cost per follower / subscriber | Ad spend ÷ new IG followers or newsletter sign-ups attributed to the campaign |
+| Revenue per 1,000 visitors | Affiliate (later merch) revenue ÷ visitors × 1,000 |
+| Payback | Months until cumulative revenue from acquired users ≥ spend |
+
+Approach: start with a small test budget per channel, keep what meets target, stop what doesn't.
+Affiliate income per visitor is typically small, so early spend is partly a brand investment —
+the plan must state how much is investment vs. expected to pay back. Budget: TBD by owner.
 
 ## Quality guardrails (must not regress)
 

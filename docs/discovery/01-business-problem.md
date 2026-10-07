@@ -43,8 +43,11 @@ Hikers share great photos and experiences, but:
 - Guided tours / booking.
 - Social network features beyond featuring, reviews and tips.
 
-## Open questions for the owner
+## Owner decisions (2026-10-07)
 
-- Q1: What matters most in year one — community growth, income, or personal brand/portfolio?
-- Q2: Is there a target launch date?
-- Q3: How much time per week can go into curation?
+- **Year-one goals: all three** — community growth, income, and personal brand. Growth will be
+  driven by paid ads and marketing with a planned investment and expected return.
+- **Launch date: none yet.** Launch happens when the strategy is complete on both fronts: product
+  (code) and marketing (go-to-market).
+- **Owner time: approve only.** Curation must be automated — agents find, prepare and propose;
+  the owner approves or rejects.
