@@ -31,7 +31,10 @@ Growth is bought with paid ads and marketing, so every spend needs a measurable 
 
 Approach: start with a small test budget per channel, keep what meets target, stop what doesn't.
 Affiliate income per visitor is typically small, so early spend is partly a brand investment —
-the plan must state how much is investment vs. expected to pay back. Budget: TBD by owner.
+the plan must state how much is investment vs. expected to pay back.
+
+**Approved (2026-10-07):** ads test budget up to **US$ 150** (M3); running costs approved:
+Claude API (curation agents, a few US$/month) and Behold Starter (US$ 10/month).
 
 ## Quality guardrails (must not regress)
 
