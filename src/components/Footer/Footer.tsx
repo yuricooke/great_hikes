@@ -13,6 +13,7 @@ const COLUMNS: { title: string; links: FooterLink[] }[] = [
     links: [
       { label: "All hikes", href: "/hikes" },
       { label: "Our top 10", href: "/explore/top-10" },
+      { label: "Map", href: "/map" },
       { label: "Search", href: "/search" },
       { label: "Journal", href: "/journal" },
     ],

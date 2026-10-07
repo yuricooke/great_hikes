@@ -199,3 +199,14 @@ test("no dead links and no placeholder review", async ({ page }) => {
     expect(await page.getByText("John Muir").count()).toBe(0);
   }
 });
+
+test("map: filters narrow the list and a result opens its page", async ({ page }) => {
+  await page.goto("/map?lat=37.74&lng=-119.56&z=11.5");
+  const list = page.getByRole("list", { name: "Hikes in view" });
+  await expect(list.getByRole("listitem").first()).toBeVisible({ timeout: 15000 });
+  await page.getByRole("combobox", { name: "Difficulty" }).selectOption("easy");
+  await expect(list.getByRole("listitem")).toHaveCount(1);
+  await list.getByRole("button", { name: /Sentinel Dome/ }).click();
+  await page.getByRole("complementary", { name: "Selected: Sentinel Dome" }).getByRole("link", { name: "Open trail" }).click();
+  await expect(page).toHaveURL("/hikes/yosemite-national-park/sentinel-dome");
+});

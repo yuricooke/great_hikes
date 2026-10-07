@@ -1,7 +1,7 @@
 # Spec 014 — Find a hike on the map
 
 **Outcomes served:** O-3 (discover hikes), O-1 (a signature, visual way to browse).
-**Status:** specified — build later (owner, 2026-10-07).
+**Status:** built on `014-map-explore` (MapLibre GL + OpenFreeMap dark style, no key).
 
 ## The experience
 
@@ -30,3 +30,11 @@
 
 008 (coordinates — done), 008b (trail lines — pilot done). Later: 013 AI finder can open its
 results in map view.
+
+## Built (2026-10-07)
+
+- `/map`: clustered place pins, trail start points and difficulty-coloured lines (zoom ≥ 8),
+  legend, filters (landscape, continent, difficulty, good-in month), "Near me" (opt-in, not stored),
+  list synced to the view, glass preview card, URL state, menu + footer links.
+- Phones: map 62dvh with two-finger gestures so the page still scrolls; list below.
+- Not yet: "See on the map" links from hike pages and search, featured-photo pins.

@@ -15,6 +15,7 @@ const PAGES = [
   "/favorites",
   "/login",
   "/about",
+  "/map",
   "/contact",
   "/privacy",
   `/hikes/${hikes[0].slug}`,
@@ -47,7 +48,7 @@ test("V7 menu: every section reachable once; card holds what the bar doesn't; Es
   for (const name of ["Community", "Our feed"]) {
     await expect(nav.getByRole("link", { name, exact: true })).toBeVisible();
   }
-  for (const name of ["Hikes", "Search", "Journal", "Shop"]) {
+  for (const name of ["Hikes", "Map", "Search", "Journal", "Shop"]) {
     const inCard = nav.getByRole("link", { name, exact: true });
     const inBar = page.getByRole("navigation", { name: "Primary" }).getByRole("link", { name, exact: true });
     await expect(isMobile ? inCard : inBar).toBeVisible();
@@ -91,7 +92,7 @@ test("footer links to every section", async ({ page }) => {
   await page.goto("/");
   const footer = page.getByRole("contentinfo");
   for (const name of [
-    "All hikes", "Our top 10", "Search", "Journal", "Our community", "Our feed", "Gear we trust",
+    "All hikes", "Our top 10", "Map", "Search", "Journal", "Our community", "Our feed", "Gear we trust",
     "About", "Contact", "Affiliate disclosure", "Privacy", "Terms",
   ]) {
     await expect(footer.getByRole("link", { name, exact: true })).toBeVisible();
