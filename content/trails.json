@@ -1,0 +1,299 @@
+[
+  {
+    "place": "yosemite-national-park",
+    "slug": "mist-trail",
+    "name": "Mist Trail to Vernal and Nevada Falls",
+    "status": "published",
+    "summary": "Granite stairs beside two of Yosemite's great waterfalls — soaked in spring spray, with a gentler way down on the John Muir Trail.",
+    "osmRelation": 6451906,
+    "details": {
+      "route": "Happy Isles to the top of Nevada Fall via the Mist Trail",
+      "distanceKm": 8.7,
+      "elevationGainM": 610,
+      "maxAltitudeM": null,
+      "duration": "5–6 hours",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "permit": null,
+      "gettingThere": "Free Valley shuttle to Happy Isles (stop #16).",
+      "tips": [
+        "Turn around at the Vernal Fall footbridge (1.6 mi round trip) for a short version.",
+        "The lower Mist Trail closes in winter; the John Muir Trail is the alternate route."
+      ]
+    },
+    "sources": [
+      {
+        "label": "NPS — Vernal Fall and Nevada Fall Trails",
+        "url": "https://www.nps.gov/yose/planyourvisit/vernalnevadatrail.htm"
+      }
+    ]
+  },
+  {
+    "place": "yosemite-national-park",
+    "slug": "upper-yosemite-fall",
+    "name": "Upper Yosemite Fall",
+    "status": "published",
+    "summary": "One of the park's oldest and toughest trails, climbing beside North America's tallest waterfall to the Valley rim.",
+    "osmRelation": 14418361,
+    "details": {
+      "route": "Camp 4 to the top of Yosemite Falls",
+      "distanceKm": 11.6,
+      "elevationGainM": 823,
+      "maxAltitudeM": null,
+      "duration": "6–8 hours",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        4,
+        5,
+        6
+      ],
+      "permit": null,
+      "gettingThere": "Start near Camp 4 (Valley shuttle stop #7).",
+      "tips": [
+        "No water on the trail — the park suggests about 4 quarts for the full hike.",
+        "Columbia Rock (2 mi round trip) makes a good shorter goal."
+      ]
+    },
+    "sources": [
+      {
+        "label": "NPS — Yosemite Falls Trail",
+        "url": "https://www.nps.gov/yose/planyourvisit/yosemitefallstrail.htm"
+      }
+    ]
+  },
+  {
+    "place": "yosemite-national-park",
+    "slug": "half-dome",
+    "name": "Half Dome",
+    "status": "published",
+    "summary": "The bucket-list day hike: waterfalls, forest, and a final climb up steel cables on bare granite. Permit required.",
+    "details": {
+      "route": "Happy Isles to the summit of Half Dome",
+      "distanceKm": 24,
+      "elevationGainM": 1463,
+      "maxAltitudeM": 2694,
+      "duration": "10–12 hours",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "permit": "Permit required while the cables are up: preseason lottery on Recreation.gov (apply March 1–31) plus a daily lottery two days before.",
+      "gettingThere": "Free Valley shuttle to Happy Isles (stop #16); start before dawn.",
+      "tips": [
+        "Never go up the cables when the rock is wet or storms are building.",
+        "Bring gloves with good grip for the cables."
+      ]
+    },
+    "sources": [
+      {
+        "label": "NPS — Half Dome Day Hike",
+        "url": "https://www.nps.gov/yose/planyourvisit/halfdome.htm"
+      },
+      {
+        "label": "NPS — Half Dome Permits",
+        "url": "https://www.nps.gov/yose/planyourvisit/hdpermits.htm"
+      }
+    ]
+  },
+  {
+    "place": "yosemite-national-park",
+    "slug": "four-mile-trail",
+    "name": "Four Mile Trail to Glacier Point",
+    "status": "published",
+    "summary": "A relentless switchback climb from the Valley floor to Glacier Point, with Yosemite Falls and Half Dome in view the whole way.",
+    "osmRelation": 4137055,
+    "details": {
+      "route": "Valley floor (Southside Drive) to Glacier Point",
+      "distanceKm": 15.4,
+      "elevationGainM": 975,
+      "maxAltitudeM": 2199,
+      "duration": "6–8 hours",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "permit": null,
+      "gettingThere": "Trailhead on Southside Drive near Sentinel Beach; or hike down from Glacier Point when the road is open.",
+      "tips": [
+        "The trail closes in winter and early spring because of snow and ice.",
+        "Combine with the Panorama Trail for a big loop past Nevada and Vernal Falls."
+      ]
+    },
+    "sources": [
+      {
+        "label": "NPS — Yosemite Valley Day Hikes",
+        "url": "https://www.nps.gov/yose/planyourvisit/valleyhikes.htm"
+      }
+    ]
+  },
+  {
+    "place": "yosemite-national-park",
+    "slug": "sentinel-dome",
+    "name": "Sentinel Dome",
+    "status": "published",
+    "summary": "A short walk and a scramble up open granite to a 360-degree view of Half Dome, El Capitan and Yosemite Falls.",
+    "osmRelation": 20627277,
+    "details": {
+      "route": "Sentinel Dome/Taft Point Trailhead to the summit",
+      "distanceKm": 3.2,
+      "elevationGainM": 122,
+      "maxAltitudeM": 2476,
+      "duration": "1–2 hours",
+      "difficulty": "easy",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "permit": null,
+      "gettingThere": "Glacier Point Road (usually open May–November, depending on conditions).",
+      "tips": [
+        "Stay off the dome during thunderstorms.",
+        "Add Taft Point from the same trailhead for cliff-edge views."
+      ]
+    },
+    "sources": [
+      {
+        "label": "NPS — Day Hikes along the Glacier Point Road",
+        "url": "https://www.nps.gov/yose/planyourvisit/glacierhikes.htm"
+      }
+    ]
+  },
+  {
+    "place": "annapurna-circuit",
+    "slug": "annapurna-circuit-trek",
+    "name": "Annapurna Circuit",
+    "status": "published",
+    "summary": "The classic loop around the Annapurna massif, from subtropical valleys over the 5,416 m Thorong La to the Kali Gandaki gorge.",
+    "osmRelation": 1187310,
+    "details": {
+      "route": "Besisahar to Jomsom over Thorong La",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": 5416,
+      "duration": "12–18 days",
+      "difficulty": "strenuous",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        10,
+        11,
+        3,
+        4
+      ],
+      "permit": "ACAP permit; foreign trekkers must hike with a licensed guide.",
+      "gettingThere": "Bus from Kathmandu or Pokhara to Besisahar.",
+      "tips": [
+        "Plan acclimatisation days in Manang before Thorong La.",
+        "Roads now cover parts of the route — side trails like the Tilicho Lake detour keep it wild."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Nepal Tourism Board",
+        "url": "https://ntb.gov.np/"
+      },
+      {
+        "label": "OpenStreetMap — Annapurna Circuit route",
+        "url": "https://www.openstreetmap.org/relation/1187310"
+      }
+    ]
+  },
+  {
+    "place": "annapurna-circuit",
+    "slug": "annapurna-base-camp",
+    "name": "Annapurna Base Camp",
+    "status": "published",
+    "summary": "Into the Annapurna Sanctuary: rhododendron forest, Gurung villages and a ring of 7,000 m peaks around base camp.",
+    "osmRelation": 17548991,
+    "details": {
+      "route": "Into the Annapurna Sanctuary to Annapurna Base Camp",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": 4130,
+      "duration": "7–11 days",
+      "difficulty": "challenging",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        10,
+        11,
+        3,
+        4
+      ],
+      "permit": "ACAP permit; foreign trekkers must hike with a licensed guide.",
+      "gettingThere": "Drive from Pokhara to the trailhead (Nayapul or further by jeep).",
+      "tips": [
+        "The section above Deurali crosses avalanche terrain — follow local advice after snowfall.",
+        "Combine with Poon Hill at the start for a sunrise over Dhaulagiri."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Nepal Tourism Board",
+        "url": "https://ntb.gov.np/"
+      },
+      {
+        "label": "OpenStreetMap — Annapurna Base Camp Trek",
+        "url": "https://www.openstreetmap.org/relation/17548991"
+      }
+    ],
+    "maxGapM": 1500
+  },
+  {
+    "place": "annapurna-circuit",
+    "slug": "mardi-himal",
+    "name": "Mardi Himal",
+    "status": "published",
+    "summary": "A quieter ridge trek straight toward Machhapuchhre (Fishtail), with big mountain views from the first days.",
+    "osmRelation": 19267496,
+    "details": {
+      "route": "Kande or Phedi to Mardi Himal High Camp and viewpoint",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "4–6 days",
+      "difficulty": "challenging",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        10,
+        11,
+        3,
+        4
+      ],
+      "permit": "ACAP permit; foreign trekkers must hike with a licensed guide.",
+      "gettingThere": "About 1 hour by road from Pokhara to Kande.",
+      "tips": [
+        "Teahouses are smaller here — book ahead in peak season.",
+        "Start the viewpoint hike before dawn for clear morning views."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Nepal Tourism Board",
+        "url": "https://ntb.gov.np/"
+      },
+      {
+        "label": "OpenStreetMap — Mardi Himal trek",
+        "url": "https://www.openstreetmap.org/relation/19267496"
+      }
+    ]
+  }
+]

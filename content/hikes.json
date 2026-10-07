@@ -81,9 +81,9 @@
     },
     "details": {
       "route": "Classic Inca Trail",
-      "distanceKm": 42,
-      "elevationGainM": 1700,
-      "maxAltitudeM": 4215,
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
       "duration": "4 days",
       "difficulty": "challenging",
       "routeType": "point-to-point",
@@ -94,16 +94,20 @@
         8,
         9
       ],
-      "permit": "Inca Trail permits are sold only through licensed operators and sell out months ahead; the trail closes every February.",
+      "permit": "Inca Trail permits are sold only through authorized agencies and spaces are limited; the trail closes every February for maintenance. Machu Picchu needs its own timed ticket.",
       "gettingThere": "Fly to Cusco; operators drive you to the trailhead at Km 82 near Ollantaytambo.",
       "tips": [
-        "Spend 2–3 days in Cusco to acclimatise before Dead Woman's Pass (4,215 m).",
+        "Spend a few days around Cusco (about 3,350 m) to acclimatise before the high pass.",
         "Bring your passport — it's checked at the trail and at Machu Picchu."
       ]
     },
     "sources": [
       {
-        "label": "Machu Picchu official site",
+        "label": "SERNANP — Historic Sanctuary of Machupicchu",
+        "url": "https://www.gob.pe/sernanp"
+      },
+      {
+        "label": "Ministry of Culture — Machu Picchu",
         "url": "https://www.machupicchu.gob.pe/"
       }
     ],
@@ -1260,12 +1264,12 @@
     },
     "details": {
       "route": "Mist Trail to Vernal and Nevada Falls",
-      "distanceKm": 11,
-      "elevationGainM": 600,
-      "maxAltitudeM": 1814,
+      "distanceKm": 8.7,
+      "elevationGainM": 610,
+      "maxAltitudeM": null,
       "duration": "5–6 hours",
-      "difficulty": "challenging",
-      "routeType": "loop",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
       "bestMonths": [
         5,
         6,
