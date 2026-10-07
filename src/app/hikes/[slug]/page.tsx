@@ -14,6 +14,7 @@ import PillButton from "@/components/PillButton/PillButton";
 import { pickAd } from "@/lib/ads";
 import { allHikes, continentKey, hikeBySlug, hikePath, relatedHikes } from "@/lib/hikes";
 import { communityFor } from "@/lib/community";
+import { approvedFor } from "@/lib/submissions";
 import { featuredPosts } from "@/lib/instagram";
 import Community from "@/components/Community/Community";
 import { trailGeo, trailsFor } from "@/lib/trails";
@@ -60,7 +61,7 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
     hike.instagram.length ? featuredPosts() : Promise.resolve([]),
   ]);
   const features = posts.filter((p) => hike.instagram.includes(p.id));
-  const community = await communityFor({ hike: hike.slug });
+  const [community, shared] = await Promise.all([communityFor({ hike: hike.slug }), approvedFor(hike.slug)]);
   const trails = trailsFor(hike);
   const measuredKm = Object.fromEntries(
     await Promise.all(trails.map(async (t) => [t.slug, (await trailGeo(t))?.lengthKm ?? 0] as const)),
@@ -190,6 +191,43 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
                 initialReviews={community.reviews}
                 initialTips={community.tips}
               />
+            </section>
+
+            <section aria-labelledby="shared">
+              <h2 id="shared" className={styles.sectionTitle}>
+                From the community
+              </h2>
+              {shared.length > 0 && (
+                <ul className={styles.shared}>
+                  {shared.map((s) => (
+                    <li key={s.id}>
+                      <figure className={styles.figure}>
+                        <Image
+                          src={s.public_url!}
+                          alt={`${hike.title} — photo by ${s.credit_name}`}
+                          width={s.width ?? 1200}
+                          height={s.height ?? 800}
+                          sizes="(min-width: 992px) 30vw, 50vw"
+                          className={styles.photo}
+                        />
+                        <figcaption className={styles.sharedCredit}>
+                          Photo: {s.instagram_handle ? (
+                            <a href={`https://www.instagram.com/${s.instagram_handle}/`} target="_blank" rel="noopener noreferrer">
+                              {s.credit_name}
+                            </a>
+                          ) : (
+                            s.credit_name
+                          )}
+                          {s.story && <span className={styles.sharedStory}>{s.story}</span>}
+                        </figcaption>
+                      </figure>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              <PillButton href={`/share?hike=${hike.slug}`} icon="add" variant="outline">
+                Share your photo of {hike.title}
+              </PillButton>
             </section>
 
             {features.length > 0 && (

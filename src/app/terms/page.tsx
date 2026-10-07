@@ -49,6 +49,14 @@ export default function TermsPage() {
         delete your posts at any time.
       </p>
 
+      <h2>Photos you share</h2>
+      <p>
+        When you share a photo you confirm you took it and that anyone recognisable agreed to share
+        it. You keep your copyright and give Great Hikes a free, non-exclusive license to show it on
+        the site and on @great_hikes, always credited to you. Ask us any time and we&apos;ll remove it.
+        We review every photo before it appears.
+      </p>
+
       <h2>Your account</h2>
       <p>
         Keep access to your email secure — sign-in links are sent there. We may suspend accounts that

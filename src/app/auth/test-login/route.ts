@@ -6,7 +6,7 @@ import { supabaseAdmin, supabaseServer } from "@/lib/supabase/server";
 
 /**
  * Preview/local only: signs in one of the seeded test accounts without email
- * (fixtures/test-users.json). Returns 404 in production. `reset=1` clears its favorites (tests).
+ * (fixtures/test-users.json). Returns 404 in production. `reset` clears its favorites, reviews, tips and submissions (tests).
  */
 export async function POST(request: NextRequest) {
   if (IS_PRODUCTION || !SUPABASE_CONFIGURED) return new NextResponse(null, { status: 404 });
@@ -26,6 +26,10 @@ export async function POST(request: NextRequest) {
   });
   if (verifyError || !session.user) return NextResponse.json({ error: "Could not sign in" }, { status: 500 });
 
-  if (reset) await admin.from("favorites").delete().eq("user_id", session.user.id);
+  if (reset) {
+    // Test accounts only: clear everything they created in earlier runs.
+    const uid = session.user.id;
+    await Promise.all(["favorites", "reviews", "tips", "submissions"].map((t) => admin.from(t).delete().eq("user_id", uid)));
+  }
   return NextResponse.json({ ok: true });
 }
