@@ -4,7 +4,7 @@ import { Exo_2, Mukta } from "next/font/google";
 import AuthProvider from "@/components/Auth/AuthProvider";
 import Footer from "@/components/Footer/Footer";
 import Menu from "@/components/Menu/Menu";
-import { DEMO_AUTH } from "@/lib/flags";
+import { AUTH_MODE, GOOGLE_AUTH, TEST_LOGIN } from "@/lib/flags";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "@/styles/globals.css";
 
@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${exo2.variable} ${mukta.variable}`}>
       <body>
-        <AuthProvider enabled={DEMO_AUTH}>
+        <AuthProvider mode={AUTH_MODE} testLogin={TEST_LOGIN} google={GOOGLE_AUTH}>
           <a href="#main" className="skip-link">
             Skip to content
           </a>

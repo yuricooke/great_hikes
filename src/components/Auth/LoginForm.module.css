@@ -62,3 +62,44 @@
   background: rgba(255, 209, 102, 0.12);
   border: 1px solid rgba(255, 209, 102, 0.35);
 }
+
+.google {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gh-space-3);
+  min-height: 48px;
+  padding: 0 var(--gh-space-5);
+  border: 0;
+  border-radius: var(--gh-radius-pill);
+  background: #fff;
+  color: #1f1f1f;
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.google:focus-visible {
+  outline: 3px solid var(--gh-focus);
+  outline-offset: 2px;
+}
+
+.google:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: var(--gh-space-3);
+  color: var(--gh-text-muted);
+  font-size: var(--gh-text-sm);
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
