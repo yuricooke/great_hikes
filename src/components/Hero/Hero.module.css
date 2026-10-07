@@ -13,8 +13,26 @@
   min-height: 100dvh;
 }
 
+.landing {
+  min-height: 80dvh;
+  align-items: center;
+  justify-content: center;
+}
+
 .medium {
   min-height: 58dvh;
+}
+
+.mediaLayer {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+}
+
+/* Taller than the hero so the slower-moving media never shows a gap. */
+.parallax {
+  inset: -12% 0 -30% 0;
+  will-change: transform;
 }
 
 .image {

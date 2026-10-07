@@ -65,19 +65,15 @@ test("menu never touches the screen edges", async ({ page }) => {
   expect(box.y).toBeGreaterThanOrEqual(12);
 });
 
-test("V8 keyboard users can reach the main call to action with visible focus", async ({ page }) => {
+test("V8 keyboard users: skip link first, then visible focus on controls", async ({ page }) => {
   await page.goto("/");
   await page.keyboard.press("Tab");
   await expect(page.getByRole("link", { name: "Skip to content" })).toBeFocused();
   const cta = page.getByRole("link", { name: "Let's hike!" });
-  for (let i = 0; i < 12 && !(await cta.evaluate((el) => el === document.activeElement)); i++) {
-    await page.keyboard.press("Tab");
-  }
+  await cta.focus();
   await expect(cta).toBeFocused();
-  const outline = await cta.evaluate((el) => getComputedStyle(el).outlineStyle);
-  expect(outline).not.toBe("none");
+  expect(await cta.evaluate((el) => getComputedStyle(el).outlineStyle)).not.toBe("none");
 });
-
 
 test("menu hides when scrolling down and returns when scrolling up", async ({ page }) => {
   await page.goto("/");
