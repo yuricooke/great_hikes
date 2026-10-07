@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import { Exo_2, Mukta } from "next/font/google";
 
@@ -45,6 +46,8 @@ export default function RootLayout({
           <Footer />
           {modal}
         </AuthProvider>
+        {/* Cookieless page-view counts (privacy policy: "Visit statistics"). */}
+        <Analytics />
       </body>
     </html>
   );

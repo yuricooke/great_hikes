@@ -14,6 +14,9 @@ const PAGES = [
   "/our-feed",
   "/favorites",
   "/login",
+  "/about",
+  "/contact",
+  "/privacy",
   `/hikes/${hikes[0].slug}`,
   "/no-such-page",
 ];
@@ -87,8 +90,37 @@ test("menu hides when scrolling down and returns when scrolling up", async ({ pa
 test("footer links to every section", async ({ page }) => {
   await page.goto("/");
   const footer = page.getByRole("contentinfo");
-  for (const name of ["All hikes", "Our top 10", "Search", "Journal", "Our community", "Our feed", "Gear we trust"]) {
+  for (const name of [
+    "All hikes", "Our top 10", "Search", "Journal", "Our community", "Our feed", "Gear we trust",
+    "About", "Contact", "Affiliate disclosure", "Privacy", "Terms",
+  ]) {
     await expect(footer.getByRole("link", { name, exact: true })).toBeVisible();
   }
   await expect(footer.getByText(/affiliate links/)).toBeVisible();
+});
+
+test("trust pages: each has a title, date and links back to the others", async ({ page }) => {
+  for (const [url, title] of [
+    ["/about", "About Great Hikes"],
+    ["/affiliate-disclosure", "Affiliate disclosure"],
+    ["/privacy", "Privacy policy"],
+    ["/terms", "Terms of use"],
+  ]) {
+    const res = await page.goto(url);
+    expect(res?.status(), url).toBe(200);
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText(title);
+    await expect(page.getByText(/Last updated/)).toBeVisible();
+  }
+});
+
+test("contact form validates before sending", async ({ page }) => {
+  await page.goto("/contact");
+  await page.getByLabel("Name").fill("Test Hiker");
+  await page.getByLabel("Email").fill("hiker@greathikes.test");
+  await page.getByLabel("Message").fill("Too short");
+  // Skip the browser's own minlength check to exercise the server validation.
+  await page.locator("form").evaluate((f) => f.setAttribute("novalidate", ""));
+  await page.getByRole("button", { name: "Send message" }).click();
+  await expect(page.locator("form").getByRole("alert")).toContainText("a little short");
+  await expect(page.getByLabel("Name")).toHaveValue("Test Hiker");
 });

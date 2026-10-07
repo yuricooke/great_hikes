@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Suspense } from "react";
 
 import AdBanner from "@/components/AdBanner/AdBanner";
@@ -28,7 +29,9 @@ export default function ShopPage() {
       />
       <section className={styles.section}>
         {/* FTC: clear disclosure before any affiliate link, on the same page. */}
-        <p className={shop.disclosure}>{shopDisclosure()}</p>
+        <p className={shop.disclosure}>
+          {shopDisclosure()} <Link href="/affiliate-disclosure">Learn more</Link>
+        </p>
         {list.length > 0 ? (
           <Suspense>
             <ShopBrowser products={list} categories={shopCategories()} />

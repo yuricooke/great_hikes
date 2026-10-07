@@ -1,0 +1,69 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gh-space-4);
+  margin-top: var(--gh-space-5);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-2);
+  width: 100%;
+}
+
+.field label {
+  font-weight: 500;
+  font-size: var(--gh-text-base, 1rem);
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  min-height: 48px;
+  padding: var(--gh-space-3) var(--gh-space-4);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-sm);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--gh-text);
+  font: inherit;
+  font-size: 1rem;
+}
+
+.field select option {
+  background: #1b1b1b;
+}
+
+.field textarea {
+  resize: vertical;
+}
+
+.field input:focus-visible,
+.field select:focus-visible,
+.field textarea:focus-visible {
+  outline: 3px solid var(--gh-focus);
+  outline-offset: 2px;
+}
+
+.trap {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.error {
+  color: #ffb3ba;
+}
+
+.note {
+  font-size: var(--gh-text-sm);
+  color: var(--gh-text-muted);
+}
+
+.sent h2 {
+  margin-bottom: var(--gh-space-2);
+}

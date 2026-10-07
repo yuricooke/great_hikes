@@ -14,6 +14,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.7,
     })),
+    ...["/about", "/contact", "/affiliate-disclosure", "/privacy", "/terms"].map((path) => ({
+      url: `${SITE_URL}${path}`,
+      changeFrequency: "yearly" as const,
+      priority: 0.3,
+    })),
     ...articles()
       .filter((a) => a.status === "published")
       .map((a) => ({ url: `${SITE_URL}${articlePath(a)}`, changeFrequency: "monthly" as const, priority: 0.7 })),
