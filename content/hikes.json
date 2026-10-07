@@ -2078,7 +2078,7 @@
       "distanceKm": null,
       "elevationGainM": null,
       "maxAltitudeM": null,
-      "duration": "About 2 weeks (round trip from Lukla)",
+      "duration": "About 2 weeks",
       "difficulty": "strenuous",
       "routeType": "out-and-back",
       "bestMonths": [
@@ -2173,7 +2173,7 @@
       "distanceKm": 19,
       "elevationGainM": 728,
       "maxAltitudeM": null,
-      "duration": "Full day (NPS lists it among full-day hikes of 5+ hours)",
+      "duration": "Full day (5+ hours)",
       "difficulty": "challenging",
       "routeType": "point-to-point",
       "bestMonths": [
@@ -2258,7 +2258,7 @@
       "distanceKm": 9.7,
       "elevationGainM": 622,
       "maxAltitudeM": 2213,
-      "duration": "4–6 hours round trip (allow twice as long for the climb out as for the descent)",
+      "duration": "4–6 hours",
       "difficulty": "strenuous",
       "routeType": "out-and-back",
       "bestMonths": [
@@ -2271,6 +2271,7 @@
       "permit": "No permit needed for day hikes. A park entrance pass is required ($35 per private vehicle, valid 7 days; non-US residents aged 16+ pay an extra $100 per person). Camping below the rim needs a backcountry permit.",
       "gettingThere": "Drive to the South Rim of Grand Canyon National Park in Arizona and park at the Backcountry Information Center. Private vehicles are not allowed at the trailhead: take the free Kaibab Rim (Orange) shuttle or the early-morning Hiker's Express to the South Kaibab Trailhead near Yaki Point.",
       "tips": [
+        "Allow about twice as long for the climb out as for the descent.",
         "There is no water on the trail and very little shade: fill up at the trailhead and carry water and salty snacks for every person in your group.",
         "Start early and turn around in good time. In summer, rangers advise not going past Cedar Ridge (1.5 miles down), and never try to hike rim to river and back in one day.",
         "Mules use this trail: step off on the uphill side, stay quiet and still, and follow the wrangler's directions until they have passed."
@@ -2350,7 +2351,7 @@
       "distanceKm": 170,
       "elevationGainM": 10000,
       "maxAltitudeM": 2600,
-      "duration": "7–12 days (usually 10–11 stages)",
+      "duration": "7–12 days",
       "difficulty": "challenging",
       "routeType": "loop",
       "bestMonths": [
