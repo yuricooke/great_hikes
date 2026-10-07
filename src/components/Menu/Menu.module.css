@@ -58,7 +58,7 @@
 }
 
 .bar {
-  gap: var(--gh-space-1);
+  gap: 2px;
   padding: 0 var(--gh-space-1) 0 var(--gh-space-2);
 }
 
@@ -112,16 +112,28 @@
   background: rgba(255, 255, 255, 0.14);
 }
 
+/* Phones and tablets: only the outer bar carries colour; the Menu button is transparent. */
 .menuButton {
-  padding: 0 var(--gh-space-4);
-  background: var(--gh-pill);
+  padding: 0 var(--gh-space-3);
   font-family: var(--gh-font-heading);
   font-weight: 500;
 }
 
 .menuButton:hover,
 .menuButton[aria-expanded="true"] {
-  background: var(--gh-pill-hover);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+@media (min-width: 992px) {
+  .menuButton {
+    padding: 0 var(--gh-space-4);
+    background: var(--gh-pill);
+  }
+
+  .menuButton:hover,
+  .menuButton[aria-expanded="true"] {
+    background: var(--gh-pill-hover);
+  }
 }
 
 /* Visually hidden on phones (icon only) but always the button's accessible name. */
@@ -241,5 +253,23 @@
 
   .bar {
     padding-left: var(--gh-space-2);
+  }
+}
+
+@media (min-width: 992px) {
+  .compactOnly {
+    display: none;
+  }
+}
+
+/* Narrow phones: icon-only logo pill so the bar's four icons fit without touching the edges. */
+@media (max-width: 380px) {
+  .logoName {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
   }
 }

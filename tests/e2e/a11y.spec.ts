@@ -49,7 +49,10 @@ test("V7 menu: every section reachable once; card holds what the bar doesn't; Es
   for (const name of ["Share your hike", "Community", "Our feed"]) {
     await expect(nav.getByRole("link", { name, exact: true })).toBeVisible();
   }
-  for (const name of ["Hikes", "Map", "Search", "Journal", "Shop"]) {
+  // Shop is an icon in the bar on phones/tablets and a text link on wide screens — never in the card.
+  await expect(page.getByRole("banner").getByRole("link", { name: "Shop", exact: true }).filter({ visible: true })).toHaveCount(1);
+  await expect(page.getByRole("banner").getByRole("link", { name: "Favorites", exact: true })).toBeVisible();
+  for (const name of ["Hikes", "Map", "Search", "Journal"]) {
     const inCard = nav.getByRole("link", { name, exact: true });
     const inBar = page.getByRole("navigation", { name: "Primary" }).getByRole("link", { name, exact: true });
     await expect(isMobile ? inCard : inBar).toBeVisible();
