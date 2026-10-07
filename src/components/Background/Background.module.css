@@ -1,0 +1,43 @@
+/* Sits behind the page content: main (.page) creates the stacking context at z-index 1. */
+.layer {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: var(--gh-page);
+  overflow: hidden;
+}
+
+.media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: fadeIn 0.5s ease;
+}
+
+/* The original vignette (inset black shadow at 50%) plus a bottom gradient for text contrast. */
+.scrim,
+.scrimLight {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.scrim {
+  box-shadow: inset 0 0 20rem 10rem rgba(0, 0, 0, 0.5);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.35) 100%);
+}
+
+.scrimLight {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

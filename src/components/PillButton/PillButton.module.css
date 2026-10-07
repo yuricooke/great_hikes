@@ -1,0 +1,57 @@
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gh-space-2);
+  min-height: var(--gh-tap);
+  padding: var(--gh-space-2) var(--gh-space-5);
+  border: 1px solid transparent;
+  border-radius: var(--gh-radius-pill);
+  font-family: var(--gh-font-body);
+  font-size: var(--gh-text-base);
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.pill:hover {
+  transform: translateY(-1px);
+}
+
+.lg {
+  min-height: 52px;
+  padding: var(--gh-space-3) var(--gh-space-6);
+  font-size: var(--gh-text-lg);
+}
+
+.dark {
+  background: var(--gh-pill);
+  color: var(--gh-text);
+}
+
+.dark:hover {
+  background: var(--gh-pill-hover);
+}
+
+.accent {
+  background: var(--gh-accent);
+  color: #fff;
+}
+
+.accent:hover {
+  background: var(--gh-accent-hover);
+}
+
+.outline {
+  background: rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.7);
+  color: var(--gh-text);
+}
+
+.outline:hover {
+  background: rgba(255, 255, 255, 0.12);
+}

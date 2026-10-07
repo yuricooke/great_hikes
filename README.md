@@ -1,40 +1,49 @@
-![Great Hikes Logo](public/gh.png "Great Hikes logo")
+![Great Hikes logo](public/great_hikes.svg "Great Hikes")
 
-# Great Hikes 
+# Great Hikes
 
-**Veja a aplicação em: [Great Hikes](www.yuricooke.github.io/great_hikes).**
+Great hikes from hikers for hikers — a community-fed website for hikers and nature lovers,
+growing from the [@great_hikes](https://www.instagram.com/great_hikes/) Instagram collective.
 
-Este projeto MVP faz parte da Sprint de Desenvolvimento Frontend Avançado, do curso de Pós-graduação - Desenvovimento FullStack, da PUC-Rio.
+Live: **https://great-hikes.vercel.app**
 
-O objtivo é criar à comunidade de trilheiros, ou _Hikers_, uma aplicação onde possam ter informações sobre trilhas dos 4 cantos do planeta, favoritar, avaliar e criar grupos para fazer trilhas. 
+Originally an MVP for the PUC-Rio postgraduate course in Full-Stack Development
+([Figma prototype](https://www.figma.com/file/M9rx0jiaPSyYfFKNZ3Njl5/great_hikes-mvp),
+[presentation video](https://www.youtube.com/watch?v=orzSUKWyznQ)); now being relaunched.
 
-O projeto foi produzido em React. Abaixo seguem as especificações para instalar a aplicão em seu dispositivo local. 
+## Stack
 
-Veja a aplicação online: [Great Hikes] (www.yuricooke.github.io/great_hikes)
+- [Next.js](https://nextjs.org) (App Router) + React + TypeScript, statically generated
+- Plain CSS Modules with design tokens (`src/styles/tokens.css`) — photo backgrounds and
+  frosted-glass panels are the visual identity
+- Hike data in `content/hikes.json`, validated with Zod at build time
+- Hosted on Vercel; `main` deploys to production
 
-## Prototipação - Figma: 
-Veja a prototipação do projeto feito no figma: [Great Hikes | Figma] (https://www.figma.com/file/M9rx0jiaPSyYfFKNZ3Njl5/great_hikes-mvp?type=design&node-id=0%3A1&mode=design&t=2CPs2fHHxmjY3LXY-1).
+## Getting started
 
-## Video de Apresentação - Youtube:
+Requires Node ≥ 20.9.
 
-Assita ao vídeo da apresentação do projeto no Youtube: [Great Hikes | Figma] (https://www.youtube.com/watch?v=orzSUKWyznQ).
-
-
-
-## Instalando o React:
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Available Scripts
-
-In the project directory, you can run:
-```
+```bash
 npm install
-npm start
+npm run dev        # http://localhost:3000
 ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Quality checks
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm run typecheck
+npm run lint
+npm test           # unit tests (Vitest)
+npm run build
+npm run test:e2e   # end-to-end + accessibility (Playwright + axe); run after build
+```
+
+CI runs all of these on every pull request (`.github/workflows/ci.yml`).
+
+## Project docs
+
+- Principles: `.specify/memory/constitution.md`
+- Discovery (problem, domain, product, outcomes): `docs/discovery/`
+- Roadmap: `docs/roadmap.md`
+- Feature specs (Spec Kit): `specs/`
+- API & integration research: `docs/research/apis-and-integrations.md`
