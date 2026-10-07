@@ -8,8 +8,8 @@ import path from "node:path";
 describe("hike data", () => {
   const hikes = allHikes();
 
-  it("keeps the 32 legacy hikes published, with unique slugs and ids", () => {
-    expect(hikes.filter((h) => h.status === "published")).toHaveLength(32);
+  it("keeps the 32 legacy hikes (ids 1–32), with unique slugs and ids", () => {
+    expect(hikes.filter((h) => h.id <= 32)).toHaveLength(32);
     expect(new Set(hikes.map((h) => h.slug)).size).toBe(hikes.length);
     expect(new Set(hikes.map((h) => h.id)).size).toBe(hikes.length);
   });

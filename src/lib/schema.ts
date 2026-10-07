@@ -30,9 +30,12 @@ export const PhotoSchema = z.object({
   src: z.union([
     z.string().regex(/^\/hikes\/[a-z0-9-]+\.(jpg|jpeg|png|webp)$/),
     z.url().regex(/^https:\/\/(cdn2\.)?behold\.pictures\//),
+    z.url().regex(/^https:\/\/(images\.unsplash\.com|images\.pexels\.com)\//),
   ]),
   alt: z.string().min(1).max(200),
   author: z.string().min(1),
+  /** Photographer's profile (Unsplash/Pexels credit). */
+  authorUrl: z.url().optional(),
   sourceUrl: z.url().nullable(),
   license: z.string().min(1),
 });

@@ -17,7 +17,9 @@
     "db:migrate": "node scripts/db-migrate.mjs",
     "db:seed": "node scripts/seed-test-users.mjs",
     "hikes:sync-instagram": "node scripts/sync-instagram-hikes.mjs",
-    "trails:import": "node scripts/import-trails.mjs"
+    "trails:import": "node scripts/import-trails.mjs",
+    "photos:suggest": "node scripts/suggest-photos.mjs",
+    "photos:apply": "node scripts/apply-photo.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
