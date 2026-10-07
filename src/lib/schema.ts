@@ -60,7 +60,13 @@ export const TopicSchema = z.discriminatedUnion("kind", [
 ]);
 
 export const TopicsFileSchema = z.object({
-  hero: z.object({ title: z.string(), rotation: z.literal("daily"), excludeWithoutPhotoSource: z.boolean() }),
+  hero: z.object({
+    title: z.string(),
+    rotation: z.literal("daily"),
+    excludeWithoutPhotoSource: z.boolean(),
+    /** Pick the featured hike for specific dates (UTC, YYYY-MM-DD → hike slug). */
+    overrides: z.record(z.string().regex(/^\d{4}-\d{2}-\d{2}$/), z.string()).optional(),
+  }),
   /** Landing order: topic slugs, plus "continents" for the continent rail. */
   landing: z.array(z.string()),
   topics: z.array(TopicSchema),

@@ -2,7 +2,10 @@
   "hero": {
     "title": "Today's feature",
     "rotation": "daily",
-    "excludeWithoutPhotoSource": true
+    "excludeWithoutPhotoSource": true,
+    "overrides": {
+      "2026-10-07": "fiordland-national-park"
+    }
   },
   "landing": [
     "top-10",

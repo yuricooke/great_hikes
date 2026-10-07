@@ -1,4 +1,4 @@
-import { allHikes } from "./hikes";
+import { allHikes, hikeBySlug } from "./hikes";
 import type { Hike } from "./schema";
 import { heroConfig } from "./topics";
 
@@ -33,8 +33,15 @@ export function heroCandidates(): Hike[] {
 /**
  * Today's featured hike (UTC). Each cycle walks through every candidate once in a shuffled
  * order, so there are no repeats within a cycle; the next cycle uses a new order.
+ * Dates listed in `hero.overrides` (content/topics.json) feature a chosen hike instead.
  */
 export function featuredHike(date = new Date()): Hike {
+  const override = heroConfig().overrides?.[date.toISOString().slice(0, 10)];
+  if (override) {
+    const hike = hikeBySlug(override);
+    if (!hike) throw new Error(`Featured override: unknown hike ${override}`);
+    return hike;
+  }
   const candidates = heroCandidates();
   const day = Math.floor(date.getTime() / DAY_MS);
   const cycle = Math.floor(day / candidates.length);

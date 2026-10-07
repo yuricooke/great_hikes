@@ -2,11 +2,14 @@ import Image from "next/image";
 import type { ReactNode } from "react";
 
 import styles from "./Hero.module.css";
+import HeroVideo from "./HeroVideo";
 
 type Props = {
   image: string;
   /** full = first screen (landing, hike); medium = listing and article headers */
   size?: "full" | "medium";
+  /** Optional looping background video; `image` is its poster/fallback. */
+  video?: string;
   priority?: boolean;
   children: ReactNode;
   className?: string;
@@ -16,10 +19,11 @@ type Props = {
  * Edge-to-edge photo hero that scrolls with the page (no fixed background), fading into the
  * black page. Content (glass panels) sits at the bottom.
  */
-export default function Hero({ image, size = "full", priority = true, children, className }: Props) {
+export default function Hero({ image, video, size = "full", priority = true, children, className }: Props) {
   return (
     <section className={[styles.hero, styles[size], className].filter(Boolean).join(" ")}>
       <Image src={image} alt="" fill priority={priority} sizes="100vw" quality={70} className={styles.image} />
+      {video && <HeroVideo src={video} />}
       <div className={styles.scrim} aria-hidden="true" />
       <div className={styles.content}>{children}</div>
     </section>
