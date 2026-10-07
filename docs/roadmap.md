@@ -24,12 +24,12 @@ Each row is one Spec Kit feature (`specs/NNN-name/`). Discovery behind the order
 | 000 | Foundation | Spec Kit, constitution, agents/skills, research | ✅ Done |
 | 001 | Platform rebuild (O-1) | Next.js/TS, design tokens, readable URLs, SEO, tests/CI | ✅ Live |
 | 002 | Landing & navigation (O-1) | Video hero + logo (parallax), top 10, today's feature, community features, journal/shop/explore rails, search, topic pages, floating menu, footer, ad slots; demo sign-in & favorites (preview only) | ✅ Live (samples hidden in production); spec docs need a catch-up of the later layout changes |
-| 003 | Accounts & favorites (O-4, O-6) | Supabase Auth (email link, then Google), profiles/favorites tables with RLS, seeded test user, favorites on any device; sign-in live in production | Next — waiting on owner: `vercel env pull` + Supabase redirect URLs |
+| 003 | Accounts & favorites (O-4, O-6) | Supabase Auth (email link, then Google), profiles/favorites tables with RLS, seeded test user, favorites on any device; sign-in live in production | ✅ Built — production switch waits on owner: Supabase redirect URLs, then `AUTH_LIVE=1` |
 | 004 | Trust pages & analytics (O-5, O-6) | About, affiliate disclosure, privacy policy, terms, contact; Vercel Web Analytics; needed before applying to affiliates | Planned |
 | 005 | Journal content (O-1, O-6) | 10+ real guides (MDX), editorial workflow, replace samples | Planned (content from owner + drafts) |
 | 006 | Shop with partner feeds (O-5) | AvantLink feeds → nightly import (Vercel Cron) → Supabase `products`; curated SKUs, licensed images & prices, `/go` click logging, gear per hike; merch (Printful) later | Planned — after affiliate approval |
 | 007 | Ads management (O-5) | Ads from the database, click/impression counts, frequency caps, targeting by favorites/search; partner campaigns | Planned |
-| 008 | Hike enrichment (O-3) | Coordinates, OSM trail data, distance/elevation/difficulty/season, interactive map, elevation profile, weather | Planned |
+| 008 | Hike enrichment (O-3, O-2) | Coordinates, route facts, best season, permits, map, weather, Instagram features → draft hikes | ✅ Built (elevation profile + trail line next) |
 | 009 | Reviews & tips (O-4) | Ratings, reviews and tips from signed-in users, moderation | Planned |
 | 010 | Community submissions (O-4) | "Share your hike" with contributor license, moderation, contributor profiles | Planned |
 | 011 | Instagram curation agents (O-2) | AI-prepared approval inbox | Paused by owner |

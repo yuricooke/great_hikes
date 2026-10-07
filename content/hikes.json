@@ -11,7 +11,7 @@
     ],
     "description": "Renowned for its stunning granite peaks, glaciers, and diverse wildlife, offering some of the best hiking trails in the world.",
     "hikingExplained": "Chile's Torres del Paine National Park showcases a breathtaking blend of glaciers, towering peaks, and serene lakes. The W Circuit hike traverses through an array of landscapes, from the iconic granite spires known as the Torres to vast valleys adorned with electric-blue icebergs. Each turn on this trek offers stunning vistas, crossing diverse terrain that includes dense forests, tranquil lakes like Nordenskjöld, and the challenging but rewarding climb to the base of the iconic towers themselves.",
-    "officialUrl": null,
+    "officialUrl": "https://www.conaf.cl/parques/parque-nacional-torres-del-paine/",
     "map": "/maps/SouthAmerica.svg",
     "photo": {
       "src": "/hikes/torres-del-paine-national-park.jpg",
@@ -19,7 +19,40 @@
       "author": "Claudio Mota",
       "sourceUrl": "https://www.pexels.com/pt-br/foto/papel-de-parede-4k-wallpaper-4k-antartica-antartida-9638234/",
       "license": "Pexels License"
-    }
+    },
+    "location": {
+      "lat": -50.942,
+      "lng": -72.968
+    },
+    "details": {
+      "route": "W Trek",
+      "distanceKm": 80,
+      "elevationGainM": 2400,
+      "maxAltitudeM": 870,
+      "duration": "4–5 days",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "permit": "Park entry ticket bought online in advance; every campsite or refugio night must be booked before you arrive.",
+      "gettingThere": "Fly to Punta Arenas or Puerto Natales, then take the bus to Laguna Amarga (about 2 hours from Puerto Natales).",
+      "tips": [
+        "Book campsites months ahead for December–February.",
+        "Wind above 80 km/h is common — pack a windproof shell and trekking poles."
+      ]
+    },
+    "sources": [
+      {
+        "label": "CONAF — Torres del Paine",
+        "url": "https://www.conaf.cl/parques/parque-nacional-torres-del-paine/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 2,
@@ -33,7 +66,7 @@
     ],
     "description": "Ancient Incan city nestled in the Andes Mountains, surrounded by breathtaking scenery and hiking trails like the Inca Trail.",
     "hikingExplained": "Nestled high in the Andes Mountains of Peru, Machu Picchu stands as a testament to ancient Incan engineering and culture. The Inca Trail trek leading to this mystical city winds through mountain passes, cloud forests, and impressive ruins before finally revealing the awe-inspiring sight of the Lost City of the Incas. This challenging hike not only offers historical intrigue but also stunning natural beauty as it passes through diverse ecosystems and culminates with a sunrise view over the enigmatic ruins.",
-    "officialUrl": null,
+    "officialUrl": "https://www.machupicchu.gob.pe/",
     "map": "/maps/SouthAmerica.svg",
     "photo": {
       "src": "/hikes/machu-picchu.jpg",
@@ -41,7 +74,40 @@
       "author": "Alberto Capparelli",
       "sourceUrl": "https://www.pexels.com/pt-br/foto/fotografia-aerea-aerofotografia-arquitetura-tiro-com-drone-13973204/",
       "license": "Pexels License"
-    }
+    },
+    "location": {
+      "lat": -13.163,
+      "lng": -72.545
+    },
+    "details": {
+      "route": "Classic Inca Trail",
+      "distanceKm": 42,
+      "elevationGainM": 1700,
+      "maxAltitudeM": 4215,
+      "duration": "4 days",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "permit": "Inca Trail permits are sold only through licensed operators and sell out months ahead; the trail closes every February.",
+      "gettingThere": "Fly to Cusco; operators drive you to the trailhead at Km 82 near Ollantaytambo.",
+      "tips": [
+        "Spend 2–3 days in Cusco to acclimatise before Dead Woman's Pass (4,215 m).",
+        "Bring your passport — it's checked at the trail and at Machu Picchu."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Machu Picchu official site",
+        "url": "https://www.machupicchu.gob.pe/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 3,
@@ -56,7 +122,7 @@
     ],
     "description": "A paradise for outdoor enthusiasts with pristine lakes, snow-capped peaks, and extensive hiking opportunities.",
     "hikingExplained": "Canada's Banff National Park is a picturesque haven for hikers, boasting turquoise lakes, rugged peaks, and abundant wildlife. Trails like the Plain of Six Glaciers lead through awe-inspiring landscapes of glaciers and alpine meadows, offering stunning vistas of the surrounding mountains and pristine natural beauty. The park's diverse terrain and well-maintained trails cater to hikers of various skill levels, providing ample opportunities to immerse in the grandeur of the Canadian Rockies.",
-    "officialUrl": null,
+    "officialUrl": "https://parks.canada.ca/pn-np/ab/banff",
     "map": "/maps/NorthAmerica.svg",
     "photo": {
       "src": "/hikes/banff-national-park.jpg",
@@ -64,7 +130,38 @@
       "author": "Jaime Reimer: ",
       "sourceUrl": "https://www.pexels.com/pt-br/foto/bela-vista-do-lago-moraine-2662116/",
       "license": "Pexels License"
-    }
+    },
+    "location": {
+      "lat": 51.403,
+      "lng": -116.257
+    },
+    "details": {
+      "route": "Plain of Six Glaciers",
+      "distanceKm": 13.6,
+      "elevationGainM": 590,
+      "maxAltitudeM": 2100,
+      "duration": "4–5 hours",
+      "difficulty": "moderate",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "Parks Canada pass required for every visitor.",
+      "gettingThere": "Fly to Calgary, then drive about 2 hours to Lake Louise; parking fills by early morning, so use the Parks Canada shuttle.",
+      "tips": [
+        "The teahouse halfway up serves tea and cake — cash only.",
+        "Carry bear spray and know how to use it."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parks Canada — Banff",
+        "url": "https://parks.canada.ca/pn-np/ab/banff"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 4,
@@ -79,7 +176,7 @@
     ],
     "description": "Home to geysers, hot springs, diverse wildlife, and numerous hiking trails through forests and canyons.",
     "hikingExplained": "America's iconic Yellowstone National Park is a geothermal wonderland, offering an array of hiking trails amidst bubbling geysers, colorful hot springs, and diverse ecosystems. The Grand Canyon of the Yellowstone presents dramatic vistas, with trails leading to majestic waterfalls and the fascinating geological features that define this unique landscape. Hiking here is an adventure through a land where nature's forces are on full display, creating an unforgettable experience for visitors.",
-    "officialUrl": null,
+    "officialUrl": "https://www.nps.gov/yell/",
     "map": "/maps/NorthAmerica.svg",
     "photo": {
       "src": "/hikes/yellowstone-national-park.jpg",
@@ -87,7 +184,38 @@
       "author": "James Lee",
       "sourceUrl": "https://www.pexels.com/pt-br/foto/geotermico-termas-fonte-termal-ponto-de-referencia-9326694/",
       "license": "Pexels License"
-    }
+    },
+    "location": {
+      "lat": 44.797,
+      "lng": -110.434
+    },
+    "details": {
+      "route": "Mount Washburn via Dunraven Pass",
+      "distanceKm": 10,
+      "elevationGainM": 430,
+      "maxAltitudeM": 3122,
+      "duration": "4–5 hours",
+      "difficulty": "moderate",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "Park entrance pass; overnight trips need a backcountry permit.",
+      "gettingThere": "Fly to Bozeman, Jackson or West Yellowstone; the Dunraven Pass trailhead is between Canyon and Tower.",
+      "tips": [
+        "Afternoon thunderstorms are common in summer — be off the summit by early afternoon.",
+        "Bighorn sheep and grizzlies live on the slopes; carry bear spray."
+      ]
+    },
+    "sources": [
+      {
+        "label": "U.S. National Park Service",
+        "url": "https://www.nps.gov/yell/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 5,
@@ -101,7 +229,7 @@
     ],
     "description": "Famous for the annual wildebeest migration, offering vast plains and exceptional wildlife viewing on foot or via safaris.",
     "hikingExplained": "Tanzania's Serengeti National Park is a sprawling savanna renowned for the Great Migration and its diverse wildlife. Hiking through this iconic landscape offers encounters with lions, elephants, and wildebeests in their natural habitat. The vast plains, framed by golden grasses and acacia trees, create an immersive experience in the heart of Africa's wilderness.",
-    "officialUrl": null,
+    "officialUrl": "https://www.tanzaniaparks.go.tz/",
     "map": "/maps/Africa.svg",
     "photo": {
       "src": "/hikes/serengeti-national-park.jpg",
@@ -109,7 +237,42 @@
       "author": "Antony Trivet",
       "sourceUrl": "https://www.pexels.com/pt-br/foto/ceu-espetacular-ceu-com-cores-intensas-hora-dourada-hora-magica-6057960/",
       "license": "Pexels License"
-    }
+    },
+    "location": {
+      "lat": -2.333,
+      "lng": 34.833
+    },
+    "details": {
+      "route": "Guided walking safari",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "2–4 hours",
+      "difficulty": "easy",
+      "routeType": "network",
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        1,
+        2
+      ],
+      "permit": "Walking is only allowed with an armed park ranger; park fees are paid per day.",
+      "gettingThere": "Fly to Kilimanjaro or Arusha, then a light aircraft or a long drive to the park.",
+      "tips": [
+        "Book walks through your lodge or operator — they arrange the ranger.",
+        "January–February is calving season in the south; June–October is the dry season."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Tanzania National Parks",
+        "url": "https://www.tanzaniaparks.go.tz/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 6,
@@ -124,7 +287,7 @@
     ],
     "description": "Iconic mountain with diverse flora and fauna, featuring hiking trails and panoramic views of Cape Town and the coast.",
     "hikingExplained": "Overlooking Cape Town, South Africa, Table Mountain National Park features an array of hiking trails winding through fynbos-covered slopes. These trails offer panoramic views of the city, coastline, and unique rock formations, providing hikers with a mix of natural beauty and cultural significance.",
-    "officialUrl": null,
+    "officialUrl": "https://www.sanparks.org/parks/table-mountain",
     "map": "/maps/Africa.svg",
     "photo": {
       "src": "/hikes/table-mountain-national-park.jpg",
@@ -132,7 +295,42 @@
       "author": "Thomas Bennie",
       "sourceUrl": "https://unsplash.com/photos/brown-rocky-mountain-under-blue-sky-during-daytime-B21WLsX6a5c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": -33.963,
+      "lng": 18.41
+    },
+    "details": {
+      "route": "Platteklip Gorge",
+      "distanceKm": 3,
+      "elevationGainM": 700,
+      "maxAltitudeM": 1085,
+      "duration": "2–3 hours up",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "permit": "No permit for Platteklip Gorge; some other park sections charge conservation fees.",
+      "gettingThere": "Start from Tafelberg Road in Cape Town; ride the cable car down if it's running.",
+      "tips": [
+        "Check the cable car status before you go — wind closes it and the 'tablecloth' cloud rolls in fast.",
+        "Start early in summer; there's almost no shade."
+      ]
+    },
+    "sources": [
+      {
+        "label": "SANParks — Table Mountain",
+        "url": "https://www.sanparks.org/parks/table-mountain"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 7,
@@ -154,7 +352,41 @@
       "author": "Damien Kopp",
       "sourceUrl": "https://unsplash.com/@dpkopp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 22.3,
+      "lng": 103.88
+    },
+    "details": {
+      "route": "Sa Pa to Lao Chai and Ta Van",
+      "distanceKm": 12,
+      "elevationGainM": 300,
+      "maxAltitudeM": 1600,
+      "duration": "1 day",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "permit": "Small village entry fee for the Muong Hoa valley; local guides are recommended.",
+      "gettingThere": "Night train or bus from Hanoi to Lao Cai, then 1 hour by road to Sa Pa (about 5–6 hours by direct bus).",
+      "tips": [
+        "Rice terraces are greenest in June–July and golden in September.",
+        "Trails turn to mud after rain — wear shoes with grip."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Vietnam National Authority of Tourism",
+        "url": "https://vietnam.travel/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 8,
@@ -176,7 +408,39 @@
       "author": "Sibu Khadka",
       "sourceUrl": "https://unsplash.com/@sibukdk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 28.793,
+      "lng": 83.941
+    },
+    "details": {
+      "route": "Annapurna Circuit over Thorong La",
+      "distanceKm": 160,
+      "elevationGainM": 5000,
+      "maxAltitudeM": 5416,
+      "duration": "12–18 days",
+      "difficulty": "strenuous",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        10,
+        11,
+        3,
+        4
+      ],
+      "permit": "ACAP permit and TIMS card; since 2023 foreign trekkers must hike with a licensed guide.",
+      "gettingThere": "Fly to Kathmandu, then bus to Besisahar (about 7 hours) to start.",
+      "tips": [
+        "Build in rest days at Manang to acclimatise before Thorong La.",
+        "Cross the pass at dawn, before wind picks up."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Nepal Tourism Board",
+        "url": "https://ntb.gov.np/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 9,
@@ -192,7 +456,7 @@
     ],
     "description": "A land of fiords, waterfalls, and dramatic landscapes with multi-day hiking trails like the Milford Track.",
     "hikingExplained": "In New Zealand, Fiordland captivates with its deep fjords, cascading waterfalls, and ancient forests. Hiking trails like the Milford Track offer a glimpse into the region's pristine wilderness, with opportunities to witness breathtaking landscapes and encounters with unique wildlife amid the tranquility of this remote corner of the world.",
-    "officialUrl": null,
+    "officialUrl": "https://www.doc.govt.nz/milfordtrack",
     "map": "/maps/Oceania.svg",
     "photo": {
       "src": "/hikes/fiordland-national-park.jpg",
@@ -200,7 +464,42 @@
       "author": "Paul Huisman",
       "sourceUrl": "https://unsplash.com/@paulhuisman?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": -44.8,
+      "lng": 167.78
+    },
+    "details": {
+      "route": "Milford Track",
+      "distanceKm": 53.5,
+      "elevationGainM": 1000,
+      "maxAltitudeM": 1154,
+      "duration": "4 days",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "permit": "Great Walk season (late October–April): huts must be booked with DOC; walk one way only, north to south.",
+      "gettingThere": "Te Anau is the base; a bus and boat take you to Glade Wharf at the head of Lake Te Anau.",
+      "tips": [
+        "Bookings open months ahead and sell out within hours.",
+        "It's one of the wettest places on Earth — waterfalls are best on rainy days."
+      ]
+    },
+    "sources": [
+      {
+        "label": "New Zealand Department of Conservation",
+        "url": "https://www.doc.govt.nz/milfordtrack"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 10,
@@ -215,7 +514,7 @@
     ],
     "description": "Boasting diverse ecosystems, Aboriginal rock art, and walking trails showcasing unique wildlife and landscapes.",
     "hikingExplained": "Australia's largest national park, Kakadu, showcases diverse landscapes, from wetlands to sandstone escarpments. Hikes here reveal Aboriginal rock art, stunning waterfalls, and unique wildlife. Exploring this vast terrain provides insight into both the cultural heritage and natural beauty of the Northern Territory.",
-    "officialUrl": null,
+    "officialUrl": "https://parksaustralia.gov.au/kakadu/",
     "map": "/maps/Oceania.svg",
     "photo": {
       "src": "/hikes/kakadu-national-park.jpg",
@@ -223,7 +522,40 @@
       "author": "Vladimir Haltakov",
       "sourceUrl": "https://unsplash.com/@haltakov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": -12.86,
+      "lng": 132.82
+    },
+    "details": {
+      "route": "Barrk Sandstone Walk",
+      "distanceKm": 12,
+      "elevationGainM": 250,
+      "maxAltitudeM": 250,
+      "duration": "6–8 hours",
+      "difficulty": "challenging",
+      "routeType": "loop",
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "permit": "Kakadu park pass required.",
+      "gettingThere": "Drive about 3 hours from Darwin to Jabiru; Burrungkuy (Nourlangie) is 30 minutes south.",
+      "tips": [
+        "Walk in the dry season and start at dawn — it gets very hot.",
+        "Respect closed rock-art sites; they are sacred to Bininj/Mungguy people."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parks Australia — Kakadu",
+        "url": "https://parksaustralia.gov.au/kakadu/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 11,
@@ -246,7 +578,40 @@
       "author": "Sheng L",
       "sourceUrl": "https://unsplash.com/@parachutel_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 57.627,
+      "lng": -6.29
+    },
+    "details": {
+      "route": "Quiraing loop",
+      "distanceKm": 6.8,
+      "elevationGainM": 300,
+      "maxAltitudeM": 543,
+      "duration": "2–3 hours",
+      "difficulty": "moderate",
+      "routeType": "loop",
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "permit": "No permit needed.",
+      "gettingThere": "Drive about 2.5 hours from Inverness, or take the train to Kyle of Lochalsh and drive over the bridge.",
+      "tips": [
+        "Park early at the Quiraing car park; it fills by mid-morning in summer.",
+        "Midges bite from June to August — bring repellent."
+      ]
+    },
+    "sources": [
+      {
+        "label": "VisitScotland — Isle of Skye",
+        "url": "https://www.visitscotland.com/places-to-go/islands/isle-skye"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 12,
@@ -261,7 +626,7 @@
     ],
     "description": "A series of cascading lakes and waterfalls amid lush forests, featuring picturesque hiking trails.",
     "hikingExplained": "Croatia's Plitvice Lakes National Park is a wonderland of interconnected lakes, waterfalls, and lush forests. Trails here wind through wooden walkways and bridges, allowing hikers to explore the park's natural splendor while witnessing the mesmerizing turquoise waters cascading between terraced pools.",
-    "officialUrl": null,
+    "officialUrl": "https://np-plitvicka-jezera.hr/en/",
     "map": "/maps/Europe.svg",
     "photo": {
       "src": "/hikes/plitvice-lakes-national-park.jpg",
@@ -269,7 +634,40 @@
       "author": "Ante Hamersmit",
       "sourceUrl": "https://unsplash.com/@ante_kante?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 44.865,
+      "lng": 15.582
+    },
+    "details": {
+      "route": "Upper and Lower Lakes (Programme C)",
+      "distanceKm": 8,
+      "elevationGainM": 150,
+      "maxAltitudeM": 640,
+      "duration": "4–6 hours",
+      "difficulty": "easy",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "permit": "Entry ticket bought online with a timed entry in summer.",
+      "gettingThere": "Drive or bus about 2 hours from Zagreb or Zadar; the park's boat and panoramic train link the routes.",
+      "tips": [
+        "Arrive at opening time to have the boardwalks to yourself.",
+        "Swimming is not allowed anywhere in the park."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Plitvice Lakes National Park",
+        "url": "https://np-plitvicka-jezera.hr/en/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 13,
@@ -283,7 +681,7 @@
     ],
     "description": "Home to the famous Perito Moreno Glacier and stunning landscapes ideal for hiking and glacier exploration.",
     "hikingExplained": "Argentina's Los Glaciares National Park is home to the iconic Perito Moreno Glacier and a network of stunning trails that offer close encounters with the park's namesake glaciers. Hiking here presents awe-inspiring views of towering ice walls, glacial lakes, and the breathtaking beauty of Patagonia's rugged landscapes.",
-    "officialUrl": null,
+    "officialUrl": "https://www.argentina.gob.ar/parquesnacionales/losglaciares",
     "map": "/maps/SouthAmerica.svg",
     "photo": {
       "src": "/hikes/los-glaciares-national-park.jpg",
@@ -291,7 +689,40 @@
       "author": "Hans-Jürgen Weinhardt",
       "sourceUrl": "https://unsplash.com/@hansjuergen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": -49.27,
+      "lng": -73.01
+    },
+    "details": {
+      "route": "Laguna de los Tres from El Chaltén",
+      "distanceKm": 20,
+      "elevationGainM": 1000,
+      "maxAltitudeM": 1170,
+      "duration": "8–10 hours",
+      "difficulty": "challenging",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "permit": "El Chaltén trails are free; the Perito Moreno glacier sector charges an entry fee.",
+      "gettingThere": "Fly to El Calafate, then bus about 3 hours to El Chaltén.",
+      "tips": [
+        "The last kilometre is very steep — poles help.",
+        "Watch for clear-weather windows; Fitz Roy can hide in cloud for days."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parques Nacionales de Argentina",
+        "url": "https://www.argentina.gob.ar/parquesnacionales/losglaciares"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 14,
@@ -306,7 +737,7 @@
     ],
     "description": "Offers rugged mountains, alpine lakes, and a variety of hiking trails, including the Overland Track.",
     "hikingExplained": "Tasmania's Cradle Mountain-Lake St Clair National Park boasts ancient rainforests, alpine heaths, and glacial lakes. Hiking trails like the Overland Track traverse diverse terrain, from serene lakes to rugged mountain landscapes, providing hikers with a unique glimpse into Tasmania's natural beauty.",
-    "officialUrl": null,
+    "officialUrl": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain",
     "map": "/maps/Oceania.svg",
     "photo": {
       "src": "/hikes/cradle-mountain-lake-st-clair-national-park.jpg",
@@ -314,7 +745,41 @@
       "author": "Laura Smetsers",
       "sourceUrl": "https://unsplash.com/@letsersgo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": -41.684,
+      "lng": 145.951
+    },
+    "details": {
+      "route": "Overland Track",
+      "distanceKm": 65,
+      "elevationGainM": 1500,
+      "maxAltitudeM": 1545,
+      "duration": "6 days",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "permit": "Overland Track pass booked in advance for the October–May season; walk north to south.",
+      "gettingThere": "Drive about 2.5 hours from Launceston or Devonport to Cradle Mountain.",
+      "tips": [
+        "Snow can fall in any month — pack for winter.",
+        "Side trip: Mount Ossa, Tasmania's highest peak (1,617 m)."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Tasmania Parks and Wildlife — Cradle Mountain",
+        "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 15,
@@ -328,7 +793,7 @@
     ],
     "description": "Home to Africa's highest peak, Mount Kilimanjaro, offering various trekking routes with stunning vistas.",
     "hikingExplained": "Home to Africa's highest peak, Mount Kilimanjaro, this park in Tanzania offers several trekking routes leading to the summit. Hiking through different ecological zones, from lush rainforests to alpine deserts, allows trekkers to experience varying climates and breathtaking vistas before reaching the iconic snow-capped summit.",
-    "officialUrl": null,
+    "officialUrl": "https://www.tanzaniaparks.go.tz/",
     "map": "/maps/Africa.svg",
     "photo": {
       "src": "/hikes/kilimanjaro-national-park.jpg",
@@ -336,7 +801,43 @@
       "author": "Sergey Pesterev",
       "sourceUrl": "https://unsplash.com/@sickle?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": -3.067,
+      "lng": 37.356
+    },
+    "details": {
+      "route": "Machame Route",
+      "distanceKm": 62,
+      "elevationGainM": 4000,
+      "maxAltitudeM": 5895,
+      "duration": "7 days",
+      "difficulty": "strenuous",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "permit": "You must climb with a licensed operator; park and hut/camp fees are included in their price.",
+      "gettingThere": "Fly to Kilimanjaro International Airport and stay in Moshi.",
+      "tips": [
+        "Choose 7 days or more — slower climbs reach the summit far more often.",
+        "Summit night is very cold; bring a warm down jacket and spare batteries."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Tanzania National Parks",
+        "url": "https://www.tanzaniaparks.go.tz/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 16,
@@ -350,7 +851,7 @@
     ],
     "description": "Picturesque coastal villages connected by hiking trails along the rugged Italian Riviera.",
     "hikingExplained": "Italy's Cinque Terre National Park is characterized by its colorful coastal villages, terraced vineyards, and scenic hiking trails along the Ligurian coastline. Trails connecting the five villages offer picturesque views of the Mediterranean Sea, charming villages, and terraced hillsides adorned with vineyards and olive groves.",
-    "officialUrl": null,
+    "officialUrl": "https://www.parconazionale5terre.it/",
     "map": "/maps/Europe.svg",
     "photo": {
       "src": "/hikes/cinque-terre-national-park.jpg",
@@ -358,7 +859,40 @@
       "author": "Xavier Photography",
       "sourceUrl": "https://unsplash.com/@xavierqu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 44.135,
+      "lng": 9.684
+    },
+    "details": {
+      "route": "Sentiero Azzurro (Monterosso–Riomaggiore)",
+      "distanceKm": 12,
+      "elevationGainM": 600,
+      "maxAltitudeM": 210,
+      "duration": "5–6 hours",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "permit": "Cinque Terre Card required for the Sentiero Azzurro; some sections may close after storms.",
+      "gettingThere": "Train to La Spezia, then the Cinque Terre Express that stops in every village.",
+      "tips": [
+        "Walk Monterosso to Vernazza early, before the day-trip crowds.",
+        "Check trail status on the park site each morning."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parco Nazionale delle Cinque Terre",
+        "url": "https://www.parconazionale5terre.it/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 17,
@@ -373,7 +907,7 @@
     ],
     "description": "Offers golden beaches, coastal walks, and kayaking routes in a stunning coastal setting.",
     "hikingExplained": "New Zealand's Abel Tasman National Park features golden beaches, turquoise waters, and lush coastal forests. Hiking trails here lead through pristine landscapes, offering glimpses of secluded bays and abundant birdlife amid the natural beauty of New Zealand's South Island.",
-    "officialUrl": null,
+    "officialUrl": "https://www.doc.govt.nz/abeltasmantrack",
     "map": "/maps/Oceania.svg",
     "photo": {
       "src": "/hikes/abel-tasman-national-park.jpg",
@@ -381,7 +915,42 @@
       "author": "Mark de Jong",
       "sourceUrl": "https://unsplash.com/@mrmarkdejong?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": -40.93,
+      "lng": 173.05
+    },
+    "details": {
+      "route": "Abel Tasman Coast Track",
+      "distanceKm": 60,
+      "elevationGainM": 1000,
+      "maxAltitudeM": 250,
+      "duration": "3–5 days",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "permit": "Huts and campsites must be booked with DOC all year.",
+      "gettingThere": "Fly to Nelson, then 1 hour by road to Marahau; water taxis let you walk any section.",
+      "tips": [
+        "Check tide times — some crossings are only passable at low tide.",
+        "Kayak one day and walk the next."
+      ]
+    },
+    "sources": [
+      {
+        "label": "New Zealand Department of Conservation",
+        "url": "https://www.doc.govt.nz/abeltasmantrack"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 18,
@@ -403,7 +972,39 @@
       "author": "Hanson Lu",
       "sourceUrl": "https://unsplash.com/@hansonluu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 40.676,
+      "lng": 117.244
+    },
+    "details": {
+      "route": "Jinshanling section",
+      "distanceKm": 6,
+      "elevationGainM": 400,
+      "maxAltitudeM": 980,
+      "duration": "3–4 hours",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "Entrance ticket at the Jinshanling gate.",
+      "gettingThere": "About 2.5 hours by car or tourist bus from Beijing.",
+      "tips": [
+        "Jinshanling is partly restored — far fewer people than Badaling or Mutianyu.",
+        "Stay off unrestored 'wild wall' sections that are officially closed."
+      ]
+    },
+    "sources": [
+      {
+        "label": "China Highlights — Jinshanling",
+        "url": "https://www.chinahighlights.com/greatwall/jinshanling-great-wall.htm"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 19,
@@ -417,7 +1018,7 @@
     ],
     "description": "A medieval site amid picturesque landscapes.",
     "hikingExplained": "France's Mont Saint-Michel is an iconic island commune crowned by a medieval abbey. Hiking around this UNESCO World Heritage Site offers stunning views of the abbey, surrounding tidal flats, and the picturesque Normandy coastline.",
-    "officialUrl": null,
+    "officialUrl": "https://www.ot-montsaintmichel.com/",
     "map": "/maps/Europe.svg",
     "photo": {
       "src": "/hikes/mont-saint-michel.jpg",
@@ -425,7 +1026,42 @@
       "author": "Florian Delée",
       "sourceUrl": "https://unsplash.com/@florian_delee?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 48.636,
+      "lng": -1.511
+    },
+    "details": {
+      "route": "Guided bay crossing from Genêts",
+      "distanceKm": 13,
+      "elevationGainM": 0,
+      "maxAltitudeM": 80,
+      "duration": "5–6 hours",
+      "difficulty": "moderate",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "permit": "Cross the bay only with a certified guide — tides and quicksand are dangerous.",
+      "gettingThere": "Train to Rennes or Pontorson, then the shuttle bus to the Mont.",
+      "tips": [
+        "Walk barefoot or in old trainers; the sand is wet and muddy.",
+        "Guides set the time by the tide — book in advance."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Mont-Saint-Michel Tourist Office",
+        "url": "https://www.ot-montsaintmichel.com/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 20,
@@ -448,7 +1084,41 @@
       "author": "Alexander Schimmeck",
       "sourceUrl": "https://unsplash.com/@alschim?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 29.33,
+      "lng": 110.44
+    },
+    "details": {
+      "route": "Golden Whip Stream",
+      "distanceKm": 7.5,
+      "elevationGainM": 50,
+      "maxAltitudeM": null,
+      "duration": "2–3 hours",
+      "difficulty": "easy",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "permit": "Multi-day park ticket covers the trails and shuttle buses.",
+      "gettingThere": "Fly or take the high-speed train to Zhangjiajie, then about 1 hour to the Wulingyuan gate.",
+      "tips": [
+        "Combine the stream walk with the Yuanjiajie pillars (the 'Avatar' viewpoints).",
+        "Mist often hangs in the valleys in the morning — beautiful but bring a light rain jacket."
+      ]
+    },
+    "sources": [
+      {
+        "label": "UNESCO — Wulingyuan",
+        "url": "https://whc.unesco.org/en/list/640/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 21,
@@ -463,7 +1133,7 @@
     ],
     "description": "It was built in a time when castles were no longer necessary as strongholds. Exceptional hiking experiences in the Alps.",
     "hikingExplained": "Germany's Neuschwanstein Castle, nestled in the Bavarian Alps, is surrounded by picturesque landscapes and enchanting trails. Hiking paths like the Marienbrücke trail provide panoramic views of the fairytale castle and the stunning Alpine scenery.",
-    "officialUrl": null,
+    "officialUrl": "https://www.neuschwanstein.de/englisch/",
     "map": "/maps/Europe.svg",
     "photo": {
       "src": "/hikes/neuschwanstein-castle.jpg",
@@ -471,7 +1141,41 @@
       "author": "Jacek Dylag",
       "sourceUrl": "https://unsplash.com/@dylu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 47.556,
+      "lng": 10.751
+    },
+    "details": {
+      "route": "Pöllat Gorge and Marienbrücke",
+      "distanceKm": 5,
+      "elevationGainM": 200,
+      "maxAltitudeM": null,
+      "duration": "2 hours",
+      "difficulty": "easy",
+      "routeType": "loop",
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "permit": "Trail is free; castle tours need a timed ticket. The Pöllat Gorge closes in winter.",
+      "gettingThere": "Train from Munich to Füssen (about 2 hours), then the bus to Hohenschwangau.",
+      "tips": [
+        "Go early for the Marienbrücke view before the tour buses arrive.",
+        "Extend to the Tegelberg for views over the Alpine foreland."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Bavarian Palace Department — Neuschwanstein",
+        "url": "https://www.neuschwanstein.de/englisch/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 22,
@@ -494,7 +1198,39 @@
       "author": "Lindy Kazu",
       "sourceUrl": "https://unsplash.com/@linnagard?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 33.26,
+      "lng": 103.92
+    },
+    "details": {
+      "route": "Shuzheng and Rize valley boardwalks",
+      "distanceKm": 14,
+      "elevationGainM": 0,
+      "maxAltitudeM": 3060,
+      "duration": "1 day",
+      "difficulty": "easy",
+      "routeType": "network",
+      "bestMonths": [
+        9,
+        10,
+        5,
+        6
+      ],
+      "permit": "Entry ticket with a daily visitor cap; buy online in advance.",
+      "gettingThere": "Fly to Jiuzhai Huanglong Airport, then about 1.5 hours by road.",
+      "tips": [
+        "Ride the park bus up and walk the boardwalks down.",
+        "Autumn colours peak in mid-October."
+      ]
+    },
+    "sources": [
+      {
+        "label": "UNESCO — Jiuzhaigou Valley",
+        "url": "https://whc.unesco.org/en/list/637/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 23,
@@ -509,7 +1245,7 @@
     ],
     "description": "Home to iconic granite cliffs, waterfalls, and diverse ecosystems, providing exceptional hiking experiences.",
     "hikingExplained": "America's Yosemite National Park is a treasure trove of granite cliffs, waterfalls, and giant sequoias. Trails like the Mist Trail lead to iconic landmarks such as Yosemite Falls and Half Dome, offering hikers unparalleled views of the park's stunning landscapes.",
-    "officialUrl": null,
+    "officialUrl": "https://www.nps.gov/yose/",
     "map": "/maps/NorthAmerica.svg",
     "photo": {
       "src": "/hikes/yosemite-national-park.jpg",
@@ -517,7 +1253,39 @@
       "author": "Mathilda Khoo",
       "sourceUrl": "https://unsplash.com/@mcthilda?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 37.728,
+      "lng": -119.558
+    },
+    "details": {
+      "route": "Mist Trail to Vernal and Nevada Falls",
+      "distanceKm": 11,
+      "elevationGainM": 600,
+      "maxAltitudeM": 1814,
+      "duration": "5–6 hours",
+      "difficulty": "challenging",
+      "routeType": "loop",
+      "bestMonths": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "permit": "Park entrance pass; peak-season vehicle reservations may apply — check the park site.",
+      "gettingThere": "Fly to Fresno (about 2.5 hours) or San Francisco (about 4 hours); YARTS buses run to Yosemite Valley.",
+      "tips": [
+        "Waterfalls peak in May and June; the Mist Trail is slippery — rain jacket and good soles.",
+        "Come down the John Muir Trail for gentler grades and different views."
+      ]
+    },
+    "sources": [
+      {
+        "label": "U.S. National Park Service",
+        "url": "https://www.nps.gov/yose/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 24,
@@ -533,7 +1301,7 @@
     ],
     "description": "A beautiful island with a blend of mountains, forests, and waterfalls with hiking trails in a peaceful setting.",
     "hikingExplained": "Portugal's Madeira Island boasts rugged coastlines, lush forests, and panoramic hiking trails. \nThe levada walks, following irrigation channels, offer hikers access to the island's interior, showcasing its diverse flora and magnificent vistas of mountains and ocean.",
-    "officialUrl": null,
+    "officialUrl": "https://visitmadeira.com/",
     "map": "/maps/Europe.svg",
     "photo": {
       "src": "/hikes/ilha-da-madeira.jpg",
@@ -541,7 +1309,42 @@
       "author": "Thomas Winkler",
       "sourceUrl": "https://unsplash.com/@thomsonwinkler?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 32.736,
+      "lng": -16.929
+    },
+    "details": {
+      "route": "PR1 Pico do Arieiro to Pico Ruivo",
+      "distanceKm": 7,
+      "elevationGainM": 600,
+      "maxAltitudeM": 1862,
+      "duration": "3–4 hours one way",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "permit": "Non-residents pay a small trail fee online before walking official PR routes.",
+      "gettingThere": "Fly to Funchal; Pico do Arieiro is about 40 minutes by car.",
+      "tips": [
+        "Start before sunrise for a sea of clouds below you.",
+        "Bring a headlamp — the trail goes through tunnels."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Visit Madeira",
+        "url": "https://visitmadeira.com/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 25,
@@ -556,7 +1359,7 @@
     ],
     "description": "A stunning complex of waterfalls on the border of Brazil and Argentina, surrounded by lush rainforest.",
     "hikingExplained": "Straddling the border of Brazil and Argentina, Iguaçú Falls is a natural wonder of cascading waterfalls set amidst lush rainforests. Hiking trails here allow visitors to experience the sheer power and beauty of the falls from various viewpoints.",
-    "officialUrl": null,
+    "officialUrl": "https://cataratasdoiguacu.com.br/",
     "map": "/maps/SouthAmerica.svg",
     "photo": {
       "src": "/hikes/iguacu-falls.jpg",
@@ -564,7 +1367,42 @@
       "author": "Christhian Gruhn",
       "sourceUrl": "https://unsplash.com/@gruhh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": -25.695,
+      "lng": -54.437
+    },
+    "details": {
+      "route": "Trilha das Cataratas and Argentine circuits",
+      "distanceKm": 7,
+      "elevationGainM": 100,
+      "maxAltitudeM": null,
+      "duration": "1–2 days",
+      "difficulty": "easy",
+      "routeType": "network",
+      "bestMonths": [
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "permit": "Separate park tickets on the Brazilian and Argentine sides; bring your passport to cross.",
+      "gettingThere": "Fly to Foz do Iguaçu (Brazil) or Puerto Iguazú (Argentina).",
+      "tips": [
+        "Brazil gives the panorama; Argentina gets you close — do both.",
+        "You will get soaked at the Devil's Throat — protect your phone."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parque Nacional do Iguaçu",
+        "url": "https://cataratasdoiguacu.com.br/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 26,
@@ -586,7 +1424,40 @@
       "author": "David Liceaga",
       "sourceUrl": "https://unsplash.com/@liceagadavid?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 25.632,
+      "lng": -100.233
+    },
+    "details": {
+      "route": "Cerro de la Silla (Chupón trail)",
+      "distanceKm": 12,
+      "elevationGainM": 1200,
+      "maxAltitudeM": 1820,
+      "duration": "6–7 hours",
+      "difficulty": "challenging",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "permit": "Check access rules on the day; carry ID.",
+      "gettingThere": "Fly to Monterrey; the trailhead is in Guadalupe, on the city's eastern edge.",
+      "tips": [
+        "Start before dawn — summer afternoons are extremely hot.",
+        "Carry at least 3 litres of water; there is none on the trail."
+      ]
+    },
+    "sources": [
+      {
+        "label": "CONANP — Cumbres de Monterrey",
+        "url": "https://www.gob.mx/conanp"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 27,
@@ -609,7 +1480,42 @@
       "author": "Matheus Seiji Goto",
       "sourceUrl": "https://unsplash.com/@seijigoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": -12.86,
+      "lng": -41.43
+    },
+    "details": {
+      "route": "Vale do Pati trek",
+      "distanceKm": 70,
+      "elevationGainM": 2000,
+      "maxAltitudeM": 1400,
+      "duration": "3–5 days",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "permit": "No permit; a local guide is strongly recommended and stays in local family homes are booked through them.",
+      "gettingThere": "Bus from Salvador to Lençóis (about 6 hours), the base for the park.",
+      "tips": [
+        "Families in the valley host trekkers — bring cash for meals and beds.",
+        "Add the Cachoeira da Fumaça viewpoint on the way."
+      ]
+    },
+    "sources": [
+      {
+        "label": "ICMBio — Chapada Diamantina",
+        "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-chapada-diamantina"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 28,
@@ -623,7 +1529,7 @@
     ],
     "description": "An archipelago known for its pristine beaches, crystal-clear waters, and exceptional marine biodiversity.",
     "hikingExplained": "Brazil's Fernando de Noronha is an archipelago characterized by its pristine beaches, crystal-clear waters, and diverse marine life. Hiking trails here provide access to secluded beaches, panoramic viewpoints, and the chance to witness the island's natural beauty and thriving ecosystems.",
-    "officialUrl": null,
+    "officialUrl": "https://www.noronha.pe.gov.br/",
     "map": "/maps/SouthAmerica.svg",
     "photo": {
       "src": "/hikes/fernando-de-noronha.jpg",
@@ -631,7 +1537,41 @@
       "author": "Ze Paulo Gasparotto",
       "sourceUrl": "https://unsplash.com/@euzepaulo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": -3.854,
+      "lng": -32.424
+    },
+    "details": {
+      "route": "Trilha dos Golfinhos to Baía do Sancho",
+      "distanceKm": 3.6,
+      "elevationGainM": 60,
+      "maxAltitudeM": null,
+      "duration": "2 hours",
+      "difficulty": "easy",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        1
+      ],
+      "permit": "Environmental fee (TPA) per day plus the national park ticket; some trails need a booked slot.",
+      "gettingThere": "Flights from Recife or Natal; visitor numbers are limited.",
+      "tips": [
+        "Spinner dolphins gather in the bay early in the morning.",
+        "Book the guided trails (Atalaia, Capim-Açu) as soon as you arrive."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Administração de Fernando de Noronha",
+        "url": "https://www.noronha.pe.gov.br/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 29,
@@ -654,7 +1594,39 @@
       "author": "Léo Castro",
       "sourceUrl": "https://unsplash.com/@leocastrofilms?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": -2.53,
+      "lng": -43.12
+    },
+    "details": {
+      "route": "Atins to Santo Amaro dune crossing",
+      "distanceKm": 45,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "3 days",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "permit": "Hike with a local guide — there are no marked trails across the dunes.",
+      "gettingThere": "Fly to São Luís, then about 4 hours by road to Barreirinhas.",
+      "tips": [
+        "The lagoons are fullest from June to September.",
+        "Walk at dawn and late afternoon; midday sand is scorching."
+      ]
+    },
+    "sources": [
+      {
+        "label": "ICMBio — Lençóis Maranhenses",
+        "url": "https://www.gov.br/icmbio/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 30,
@@ -676,7 +1648,41 @@
       "author": "Unknown",
       "sourceUrl": null,
       "license": "Unknown — replace this photo"
-    }
+    },
+    "location": {
+      "lat": -3.1,
+      "lng": -60.02
+    },
+    "details": {
+      "route": "Guided jungle trails from Manaus lodges",
+      "distanceKm": 5,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "Half day",
+      "difficulty": "easy",
+      "routeType": "network",
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "permit": "Go with a licensed guide or lodge; never walk the forest alone.",
+      "gettingThere": "Fly to Manaus; lodges pick you up by boat.",
+      "tips": [
+        "Long sleeves and light, quick-dry trousers beat repellent alone.",
+        "Night walks show the forest at its busiest."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Visit Brasil — Amazon",
+        "url": "https://visitbrasil.com/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 31,
@@ -699,7 +1705,42 @@
       "author": "Hongbin",
       "sourceUrl": "https://unsplash.com/@hbsun2013?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 19.749,
+      "lng": 101.993
+    },
+    "details": {
+      "route": "Trail to the top of the falls",
+      "distanceKm": 2,
+      "elevationGainM": 100,
+      "maxAltitudeM": null,
+      "duration": "1–2 hours",
+      "difficulty": "moderate",
+      "routeType": "loop",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "permit": "Entry ticket at the gate.",
+      "gettingThere": "About 30 km (45 minutes) by tuk-tuk or minivan from Luang Prabang.",
+      "tips": [
+        "The water is most turquoise in the dry season.",
+        "The trail up is steep and slippery — sandals with grip at least."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Tourism Laos",
+        "url": "https://www.tourismlaos.org/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
   },
   {
     "id": 32,
@@ -722,6 +1763,284 @@
       "author": "Colton Duke",
       "sourceUrl": "https://unsplash.com/@csoref?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
       "license": "Unsplash License"
-    }
+    },
+    "location": {
+      "lat": 8.92,
+      "lng": 98.53
+    },
+    "details": {
+      "route": "Ton Kloi waterfall trail",
+      "distanceKm": 14,
+      "elevationGainM": 150,
+      "maxAltitudeM": null,
+      "duration": "5–6 hours",
+      "difficulty": "moderate",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "permit": "National park fee; some trails beyond the first waterfalls require a guide.",
+      "gettingThere": "Fly to Surat Thani or Phuket, then about 2 hours by road.",
+      "tips": [
+        "Spend a night on a floating raft house on Cheow Lan Lake.",
+        "Leeches love the wet season — leech socks help."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Department of National Parks, Thailand",
+        "url": "https://portal.dnp.go.th/"
+      }
+    ],
+    "checkedAt": "2026-10-07"
+  },
+  {
+    "id": 33,
+    "slug": "refugio-laguna-negra",
+    "title": "Refugio Laguna Negra",
+    "continent": "South America",
+    "country": "Argentina",
+    "biome": "Patagonian Andes",
+    "landscapes": [
+      "mountains",
+      "waterfalls"
+    ],
+    "description": "A lakeside mountain hut above Bariloche, reached by a forest-and-scree climb in Nahuel Huapi National Park.",
+    "hikingExplained": "The trail to Refugio Italia (Manfredo Segre) on Laguna Negra starts near Colonia Suiza outside Bariloche. It climbs through lenga and coihue forest along the Arroyo Goye valley before opening onto granite slopes and the dark, still lake that gives the hut its name.\n\nMost hikers go up and back in a long day; staying overnight at the refugio lets you catch sunrise on the lake and continue on the Nahuel Huapi traverse toward Refugio Frey.",
+    "officialUrl": "https://www.argentina.gob.ar/parquesnacionales/nahuelhuapi",
+    "map": "/maps/SouthAmerica.svg",
+    "photo": {
+      "src": "https://behold.pictures/eyJ1Ijoic3ZIREJ3dktYQWFMRk5OUk1sak5ucWQ1MlFFMiIsImYiOiJ6NnN1TUNVdUMxQ0RtTFh2eDlSWCIsInAiOiIxNzg4NzI3NTY0NjQ4MTM0OSIsImgiOiIxNGdrNzB6In0.jpg?class=originalLarge",
+      "alt": "Laguna Negra and its mountain hut near Bariloche, Argentina",
+      "author": "@where_is_will",
+      "sourceUrl": "https://www.instagram.com/p/B8KEXFEgY36/",
+      "license": "Featured on @great_hikes with the photographer's permission"
+    },
+    "location": {
+      "lat": -41.1367,
+      "lng": -71.5778
+    },
+    "details": {
+      "route": "Colonia Suiza to Refugio Italia (Laguna Negra)",
+      "distanceKm": 24,
+      "elevationGainM": 1000,
+      "maxAltitudeM": 1650,
+      "duration": "8–9 hours (or 2 days)",
+      "difficulty": "challenging",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "permit": "Register your trek with Nahuel Huapi National Park (free, online) before you go; book the refugio for overnight stays.",
+      "gettingThere": "Fly to Bariloche, then a local bus to Colonia Suiza (about 45 minutes).",
+      "tips": [
+        "The upper section crosses loose rock — keep to the cairns.",
+        "Weather changes fast; carry a warm layer even in summer."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parques Nacionales de Argentina — Nahuel Huapi",
+        "url": "https://www.argentina.gob.ar/parquesnacionales/nahuelhuapi"
+      },
+      {
+        "label": "OpenStreetMap — Refugio Italia",
+        "url": "https://www.openstreetmap.org/?mlat=-41.1367&mlon=-71.5778#map=14/-41.1367/-71.5778"
+      }
+    ],
+    "checkedAt": "2026-10-07",
+    "status": "draft",
+    "instagram": [
+      "17887275646481349"
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "mount-hood-national-forest",
+    "title": "Mount Hood National Forest",
+    "continent": "North America",
+    "country": "United States",
+    "biome": "Pacific Northwest forest",
+    "landscapes": [
+      "mountains",
+      "forests",
+      "waterfalls"
+    ],
+    "description": "Old-growth forest, glacier views and the basalt curtain of Ramona Falls on the slopes of Oregon's highest peak.",
+    "hikingExplained": "Mount Hood National Forest wraps around Oregon's tallest volcano, an hour from Portland. The Ramona Falls loop is its classic day hike: a crossing of the glacial Sandy River, then a shaded climb through moss-draped firs to a 36-metre waterfall that fans over columns of basalt.\n\nFor bigger days, the Timberline Trail circles the whole mountain in about 66 km of meadows, glacier-fed creeks and ridge views.",
+    "officialUrl": "https://www.fs.usda.gov/mthood",
+    "map": "/maps/NorthAmerica.svg",
+    "photo": {
+      "src": "https://behold.pictures/eyJ1Ijoic3ZIREJ3dktYQWFMRk5OUk1sak5ucWQ1MlFFMiIsImYiOiJ6NnN1TUNVdUMxQ0RtTFh2eDlSWCIsInAiOiIxNzg3MzQ1ODkxMjU1MDE5OCIsImgiOiIxNmJvaXFyIn0.jpg?class=originalLarge",
+      "alt": "Mount Hood National Forest, Oregon",
+      "author": "@50shadesofpnw",
+      "sourceUrl": "https://www.instagram.com/p/B7SIxPzgcrQ/",
+      "license": "Featured on @great_hikes with the photographer's permission"
+    },
+    "location": {
+      "lat": 45.38,
+      "lng": -121.7763
+    },
+    "details": {
+      "route": "Ramona Falls loop",
+      "distanceKm": 11.3,
+      "elevationGainM": 340,
+      "maxAltitudeM": 1080,
+      "duration": "4 hours",
+      "difficulty": "moderate",
+      "routeType": "loop",
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "permit": "Northwest Forest Pass for trailhead parking; free self-issue wilderness permit at the trailhead.",
+      "gettingThere": "Drive about 1 hour 15 minutes east of Portland via US-26 and Lolo Pass Road.",
+      "tips": [
+        "The seasonal footbridge over the Sandy River is removed in winter — check before you go.",
+        "Arrive early on summer weekends; the lot is small."
+      ]
+    },
+    "sources": [
+      {
+        "label": "USDA Forest Service — Mt. Hood National Forest",
+        "url": "https://www.fs.usda.gov/mthood"
+      }
+    ],
+    "checkedAt": "2026-10-07",
+    "status": "draft",
+    "instagram": [
+      "17873458912550198"
+    ]
+  },
+  {
+    "id": 35,
+    "slug": "zion-national-park",
+    "title": "Zion National Park",
+    "continent": "North America",
+    "country": "United States",
+    "biome": "Desert canyon",
+    "landscapes": [
+      "mountains"
+    ],
+    "description": "Sheer sandstone walls, slot canyons and the chain-assisted ridge of Angels Landing in southern Utah.",
+    "hikingExplained": "Zion Canyon was carved by the Virgin River through layers of red and cream Navajo sandstone. Angels Landing is its most famous hike: switchbacks up Walter's Wiggles, then a narrow fin of rock with chains bolted for support and drops of more than 400 metres on both sides.\n\nThe Narrows offers the opposite experience — wading upstream between canyon walls that close in to a few metres apart.",
+    "officialUrl": "https://www.nps.gov/zion/",
+    "map": "/maps/NorthAmerica.svg",
+    "photo": {
+      "src": "https://behold.pictures/eyJ1Ijoic3ZIREJ3dktYQWFMRk5OUk1sak5ucWQ1MlFFMiIsImYiOiJ6NnN1TUNVdUMxQ0RtTFh2eDlSWCIsInAiOiIxODA3MjM1NjY2ODE0ODg2NCIsImgiOiIxMmNzYTdqIn0.jpg?class=originalLarge",
+      "alt": "Zion National Park, Utah",
+      "author": "@helloalyx",
+      "sourceUrl": "https://www.instagram.com/p/B4OJCEyggur/",
+      "license": "Featured on @great_hikes with the photographer's permission"
+    },
+    "location": {
+      "lat": 37.2693,
+      "lng": -112.9476
+    },
+    "details": {
+      "route": "Angels Landing",
+      "distanceKm": 8.7,
+      "elevationGainM": 453,
+      "maxAltitudeM": 1765,
+      "duration": "4–5 hours",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "permit": "Angels Landing requires a permit from the NPS lottery (seasonal and day-before); park entrance pass for everyone.",
+      "gettingThere": "Fly to Las Vegas (about 2.5 hours) or St. George; the park shuttle runs through Zion Canyon most of the year.",
+      "tips": [
+        "Without a permit you can still hike to Scout Lookout — great views, no chains.",
+        "Avoid the chains section in rain, ice or high wind."
+      ]
+    },
+    "sources": [
+      {
+        "label": "U.S. National Park Service — Zion",
+        "url": "https://www.nps.gov/zion/"
+      },
+      {
+        "label": "NPS — Angels Landing permits",
+        "url": "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"
+      }
+    ],
+    "checkedAt": "2026-10-07",
+    "status": "draft",
+    "instagram": [
+      "18072356668148864"
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "jumbo-pass",
+    "title": "Jumbo Pass",
+    "continent": "North America",
+    "country": "Canada",
+    "biome": "Purcell Mountains",
+    "landscapes": [
+      "mountains"
+    ],
+    "description": "A short, steep climb to alpine meadows and a wall of glaciers in British Columbia's Purcell Mountains.",
+    "hikingExplained": "Jumbo Pass sits on the divide between the Jumbo and Glacier creek valleys in the Purcell Mountains, west of Invermere. The trail climbs quickly through subalpine forest to wildflower meadows, a small backcountry cabin and a panorama of hanging glaciers and granite peaks.\n\nThe drive in on rough forest service roads keeps it quiet — you'll often have the ridge to yourself.",
+    "officialUrl": null,
+    "map": "/maps/NorthAmerica.svg",
+    "photo": {
+      "src": "https://behold.pictures/eyJ1Ijoic3ZIREJ3dktYQWFMRk5OUk1sak5ucWQ1MlFFMiIsImYiOiJ6NnN1TUNVdUMxQ0RtTFh2eDlSWCIsInAiOiIxODA3NzU3NTM2MDA4NTc4NCIsImgiOiJya3UzaWYifQ.jpg?class=originalLarge",
+      "alt": "Jumbo Pass in the Purcell Mountains, British Columbia",
+      "author": "@ryanlegroulx",
+      "sourceUrl": "https://www.instagram.com/p/B4BBm1RgZjC/",
+      "license": "Featured on @great_hikes with the photographer's permission"
+    },
+    "location": {
+      "lat": 50.3554,
+      "lng": -116.6225
+    },
+    "details": {
+      "route": "Jumbo Pass trail",
+      "distanceKm": 9,
+      "elevationGainM": 750,
+      "maxAltitudeM": 2300,
+      "duration": "4–5 hours",
+      "difficulty": "challenging",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "No permit for day hikes; the cabin is booked separately.",
+      "gettingThere": "From Invermere, drive the Jumbo Creek or Glacier Creek forest service roads; a high-clearance vehicle is needed.",
+      "tips": [
+        "Check forest road conditions before driving in.",
+        "Grizzly country — carry bear spray."
+      ]
+    },
+    "sources": [
+      {
+        "label": "OpenStreetMap — Jumbo Pass",
+        "url": "https://www.openstreetmap.org/?mlat=50.3554&mlon=-116.6225#map=13/50.3554/-116.6225"
+      }
+    ],
+    "checkedAt": "2026-10-07",
+    "status": "draft",
+    "instagram": [
+      "18077575360085784"
+    ]
   }
 ]
