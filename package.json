@@ -15,7 +15,8 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "db:migrate": "node scripts/db-migrate.mjs",
-    "db:seed": "node scripts/seed-test-users.mjs"
+    "db:seed": "node scripts/seed-test-users.mjs",
+    "hikes:sync-instagram": "node scripts/sync-instagram-hikes.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

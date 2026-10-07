@@ -64,16 +64,26 @@ test("topic pages show a grid; top 10 is ranked", async ({ page }) => {
   await expect(page).toHaveURL(`/hikes/${top[0]}`);
 });
 
-test("every hike page renders story, credit, map and breadcrumb", async ({ page }) => {
+test("every hike page renders story, facts, credit, map and breadcrumb", async ({ page }) => {
   for (const hike of hikes) {
     const res = await page.goto(`/hikes/${hike.slug}`);
     expect(res?.status(), hike.slug).toBe(200);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(hike.title);
     await expect(page.getByRole("heading", { name: "The hike" })).toBeVisible();
     await expect(page.getByText("Photo:").first()).toBeVisible();
-    await expect(page.getByAltText(`Map of ${hike.continent}`)).toBeVisible();
+    await expect(page.getByRole("heading", { name: "At a glance" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Plan your trip" })).toBeVisible();
+    await expect(page.locator(`iframe[title="Map of ${hike.title}"]`)).toHaveCount(1);
+    await expect(page.getByRole("heading", { name: "Sources" })).toBeVisible();
     await expect(page.getByRole("navigation", { name: "Breadcrumb" }).getByRole("link", { name: hike.continent })).toBeVisible();
   }
+});
+
+test("instagram-featured draft hike credits the photographer and shows the draft badge", async ({ page }) => {
+  const draft = hikes.find((h) => "status" in h && h.status === "draft" && "instagram" in h)!;
+  await page.goto(`/hikes/${draft.slug}`);
+  await expect(page.getByText("Draft — awaiting approval")).toBeVisible();
+  await expect(page.getByRole("link", { name: draft.photo.author }).first()).toHaveAttribute("href", draft.photo.sourceUrl!);
 });
 
 test("journal: article page with inline hike card and related rails", async ({ page }) => {

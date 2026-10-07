@@ -151,3 +151,59 @@
   }
 
 }
+
+.draft {
+  align-self: flex-start;
+  padding: var(--gh-space-1) var(--gh-space-3);
+  border-radius: var(--gh-radius-pill);
+  background: rgba(255, 209, 102, 0.9);
+  color: #1a1a1a;
+  font-size: var(--gh-text-sm);
+  font-weight: 600;
+  text-shadow: none;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+.plan {
+  display: grid;
+  gap: var(--gh-space-4);
+  margin: var(--gh-space-5) 0 0;
+}
+
+.plan dt {
+  font-weight: 600;
+  margin-bottom: var(--gh-space-1);
+}
+
+.plan dd {
+  margin: 0;
+  line-height: 1.6;
+  max-width: 68ch;
+}
+
+.tips {
+  margin: 0;
+  padding-left: 1.2em;
+  display: grid;
+  gap: var(--gh-space-1);
+}
+
+.sources ul {
+  margin: 0 0 var(--gh-space-3);
+  padding-left: 1.2em;
+}
+
+.sources a {
+  display: inline-block;
+  padding: var(--gh-space-1) 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.note {
+  font-size: var(--gh-text-sm);
+  color: var(--gh-text-muted);
+}

@@ -1,5 +1,6 @@
 import rawHikes from "@content/hikes.json";
 
+import { SHOW_SAMPLES } from "./flags";
 import { HikesSchema, type Hike } from "./schema";
 
 /** Validated once at build time; invalid data or duplicate slugs fail the build. */
@@ -15,7 +16,8 @@ function load(): Hike[] {
   return hikes;
 }
 
-const HIKES = load();
+/** Drafts are visible in local dev and previews only, never in production. */
+const HIKES = load().filter((h) => h.status === "published" || SHOW_SAMPLES);
 
 export function allHikes(): Hike[] {
   return HIKES;

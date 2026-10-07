@@ -26,7 +26,7 @@ function shuffled<T>(items: T[], seed: number): T[] {
 }
 
 export function heroCandidates(): Hike[] {
-  const hikes = allHikes();
+  const hikes = allHikes().filter((h) => h.status === "published");
   return heroConfig().excludeWithoutPhotoSource ? hikes.filter((h) => h.photo.sourceUrl) : hikes;
 }
 

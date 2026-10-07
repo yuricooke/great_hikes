@@ -8,15 +8,17 @@ import path from "node:path";
 describe("hike data", () => {
   const hikes = allHikes();
 
-  it("has the 32 legacy hikes with unique slugs and ids", () => {
-    expect(hikes).toHaveLength(32);
-    expect(new Set(hikes.map((h) => h.slug)).size).toBe(32);
-    expect(new Set(hikes.map((h) => h.id)).size).toBe(32);
+  it("keeps the 32 legacy hikes published, with unique slugs and ids", () => {
+    expect(hikes.filter((h) => h.status === "published")).toHaveLength(32);
+    expect(new Set(hikes.map((h) => h.slug)).size).toBe(hikes.length);
+    expect(new Set(hikes.map((h) => h.id)).size).toBe(hikes.length);
   });
 
   it("points every hike at photo and map files that exist", () => {
     for (const hike of hikes) {
-      expect(existsSync(path.join("public", hike.photo.src)), hike.photo.src).toBe(true);
+      if (!hike.photo.src.startsWith("https://")) {
+        expect(existsSync(path.join("public", hike.photo.src)), hike.photo.src).toBe(true);
+      }
       expect(existsSync(path.join("public", hike.map)), hike.map).toBe(true);
     }
   });
@@ -42,15 +44,33 @@ describe("hike data", () => {
   });
 
   it("filters by continent key", () => {
-    expect(filterByContinent(hikes, null)).toHaveLength(32);
+    expect(filterByContinent(hikes, null)).toHaveLength(hikes.length);
     expect(filterByContinent(hikes, "mars")).toHaveLength(0);
     const total = CONTINENTS.reduce((n, c) => n + filterByContinent(hikes, c.key).length, 0);
-    expect(total).toBe(32);
+    expect(total).toBe(hikes.length);
     expect(filterByContinent(hikes, "south-america").every((h) => h.continent === "South America")).toBe(true);
   });
 
   it("finds hikes by slug", () => {
     expect(hikeBySlug("machu-picchu")?.title).toBe("Machu Picchu");
     expect(hikeBySlug("nope")).toBeUndefined();
+  });
+});
+
+describe("hike details (spec 008)", () => {
+  it("every hike has a location, trip details and at least one source", () => {
+    for (const hike of allHikes()) {
+      expect(hike.location, hike.slug).toBeDefined();
+      expect(hike.details, hike.slug).toBeDefined();
+      expect(hike.sources.length, hike.slug).toBeGreaterThan(0);
+    }
+  });
+
+  it("instagram-featured hikes credit the photographer from the post", () => {
+    for (const hike of allHikes().filter((h) => h.photo.src.startsWith("https://"))) {
+      expect(hike.photo.author, hike.slug).toMatch(/^@[\w.]+$/);
+      expect(hike.photo.sourceUrl, hike.slug).toMatch(/^https:\/\/www\.instagram\.com\/p\//);
+      expect(hike.instagram.length, hike.slug).toBeGreaterThan(0);
+    }
   });
 });
