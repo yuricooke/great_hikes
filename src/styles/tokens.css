@@ -57,8 +57,8 @@
   --gh-tracking-caps: 0.1em;
 
   /* Layout */
-  --gh-rail-width: 88px;
-  --gh-topbar-height: 64px;
+  --gh-header-height: 56px;
+  --gh-topbar-height: calc(var(--gh-header-height) + 2 * var(--gh-space-4)); /* floating header + margins */
   --gh-content-max: 1200px;
   --gh-tap: 44px;
 }

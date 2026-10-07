@@ -1,142 +1,244 @@
-/* Phone: glass top bar with a drop-down drawer. */
+/* Floating header: sits above the page with a margin on every side. */
 .header {
   position: fixed;
-  inset: 0 0 auto 0;
+  top: var(--gh-space-4);
+  left: var(--gh-space-4);
+  right: var(--gh-space-4);
   z-index: 50;
-  height: var(--gh-topbar-height);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 var(--gh-space-4);
+  gap: var(--gh-space-3);
+  pointer-events: none;
+}
+
+.header > * {
+  pointer-events: auto;
+}
+
+.pill {
+  display: flex;
+  align-items: center;
+  height: var(--gh-header-height);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-pill);
   background: var(--gh-chrome);
   backdrop-filter: var(--gh-blur);
   -webkit-backdrop-filter: var(--gh-blur);
-  border-bottom: var(--gh-glass-border-subtle);
+  box-shadow: var(--gh-shadow);
 }
 
-.home {
-  display: inline-flex;
-  align-items: center;
+.logo {
   gap: var(--gh-space-2);
-  min-height: var(--gh-tap);
+  padding: 0 var(--gh-space-4) 0 var(--gh-space-3);
   color: var(--gh-text);
   text-decoration: none;
 }
 
-.homeName {
+.logoName {
   font-family: var(--gh-font-heading);
   font-weight: 600;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
+  white-space: nowrap;
 }
 
-.toggle {
+.bar {
+  gap: var(--gh-space-1);
+  padding: 0 var(--gh-space-1) 0 var(--gh-space-2);
+}
+
+.primary {
+  display: none;
+}
+
+.primary ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: var(--gh-space-1);
+}
+
+.barLink {
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 var(--gh-space-4);
+  border-radius: var(--gh-radius-pill);
+  color: var(--gh-text);
+  text-decoration: none;
+  font-family: var(--gh-font-heading);
+  font-weight: 500;
+}
+
+.barLink:hover,
+.barLink[aria-current="page"] {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.iconButton,
+.menuButton,
+.close {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: var(--gh-tap);
+  gap: var(--gh-space-2);
+  min-width: var(--gh-tap);
   height: var(--gh-tap);
-  border: var(--gh-glass-border-subtle);
+  border: 0;
   border-radius: var(--gh-radius-pill);
-  background: rgba(255, 255, 255, 0.05);
+  background: transparent;
   color: var(--gh-text);
+  text-decoration: none;
   cursor: pointer;
 }
 
-.nav {
-  display: none;
+.iconButton:hover,
+.iconButton[aria-current="page"],
+.close:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.menuButton {
+  padding: 0 var(--gh-space-4);
+  background: var(--gh-pill);
+  font-family: var(--gh-font-heading);
+  font-weight: 500;
+}
+
+.menuButton:hover,
+.menuButton[aria-expanded="true"] {
+  background: var(--gh-pill-hover);
+}
+
+/* Visually hidden on phones (icon only) but always the button's accessible name. */
+.menuLabel {
   position: absolute;
-  top: var(--gh-topbar-height);
-  left: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+/* Menu card (ref: owner's FrontÆndDesign menu): rounded, floating, never touching the edges. */
+.card {
+  position: absolute;
+  top: calc(var(--gh-header-height) + var(--gh-space-3));
   right: 0;
-  padding: var(--gh-space-3) var(--gh-space-4) var(--gh-space-5);
-  background: var(--gh-chrome-drawer);
+  left: 0;
+  padding: var(--gh-space-5);
+  border: var(--gh-glass-border);
+  border-radius: 28px;
+  background: rgba(12, 12, 12, 0.82);
   backdrop-filter: var(--gh-blur-lg);
   -webkit-backdrop-filter: var(--gh-blur-lg);
-  border-bottom: var(--gh-glass-border-subtle);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  max-height: calc(100dvh - var(--gh-header-height) - 3 * var(--gh-space-4));
+  overflow-y: auto;
 }
 
-.nav.open {
-  display: block;
+.card[hidden] {
+  display: none;
 }
 
-.nav ul {
+.cardOpen {
+  animation: drop 0.18s ease-out;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: var(--gh-space-4);
+  margin-bottom: var(--gh-space-3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.cardBrand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--gh-space-2);
+  font-family: var(--gh-font-heading);
+  font-weight: 600;
+  font-size: 1.25rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.close {
+  border: var(--gh-glass-border);
+}
+
+.cardList {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: var(--gh-space-2);
 }
 
-.link {
+.cardSecondary {
+  margin-top: var(--gh-space-3);
+  padding-top: var(--gh-space-3);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.cardLink {
   display: flex;
   align-items: center;
   gap: var(--gh-space-3);
-  min-height: var(--gh-tap);
-  padding: var(--gh-space-2) var(--gh-space-3);
+  min-height: 48px;
+  padding: 0 var(--gh-space-3);
   border-radius: var(--gh-radius-sm);
   color: var(--gh-text);
   text-decoration: none;
-  font-size: var(--gh-text-lg);
-  transition: background-color 0.2s ease;
+  font-size: 1.15rem;
 }
 
-.account {
-  margin-top: var(--gh-space-3) !important;
-  padding-top: var(--gh-space-3) !important;
-  border-top: var(--gh-glass-border-subtle);
+.cardLink:hover,
+.cardLink[aria-current="page"] {
+  background: rgba(255, 255, 255, 0.1);
 }
 
-.link:hover,
-.link[aria-current="page"] {
-  background: rgba(255, 255, 255, 0.12);
+@keyframes drop {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
-/* Desktop: the original fixed glass rail on the left. */
+@media (min-width: 576px) {
+  .card {
+    left: auto;
+    width: 340px;
+  }
+
+  .menuLabel {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+  }
+}
+
 @media (min-width: 992px) {
   .header {
-    inset: 0 auto 0 0;
-    width: var(--gh-rail-width);
-    height: 100dvh;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: var(--gh-space-5);
-    padding: var(--gh-space-5) var(--gh-space-2);
-    border-bottom: none;
-    border-right: var(--gh-glass-border-subtle);
-    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.3);
+    top: var(--gh-space-5);
+    left: var(--gh-space-6);
+    right: var(--gh-space-6);
   }
 
-  .homeName,
-  .toggle {
-    display: none;
+  .primary {
+    display: block;
   }
 
-  .nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
-    position: static;
-    padding: 0;
-    background: none;
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
-    border: none;
-  }
-
-  .nav ul {
-    gap: var(--gh-space-2);
-    align-items: center;
-  }
-
-  .link {
-    flex-direction: column;
-    gap: 2px;
-    width: 76px;
-    padding: var(--gh-space-2) var(--gh-space-1);
-    font-size: 0.75rem;
-    text-align: center;
-    letter-spacing: 0.04em;
+  .bar {
+    padding-left: var(--gh-space-2);
   }
 }

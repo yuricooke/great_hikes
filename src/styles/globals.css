@@ -94,9 +94,9 @@ button {
 
 @media (min-width: 992px) {
   .page {
-    --page-pad-top: var(--gh-space-7);
+    --page-pad-top: calc(var(--gh-header-height) + var(--gh-space-5) + var(--gh-space-6));
     --page-pad-x: var(--gh-space-7);
-    --page-pad-left: calc(var(--gh-rail-width) + var(--gh-space-7));
+    --page-pad-left: var(--gh-space-7);
   }
 }
 
