@@ -37,6 +37,9 @@ What we know (research doc, sections 5–6):
   Behold that no Facebook account is needed before paying.
 - Automatically discovering posts that **tag** @great_hikes requires API endpoints that may not be
   available through these services → **verify before committing to it**.
+- The community already uses the hashtag **#great_hikes**. Instagram's Hashtag Search API is part
+  of the Facebook-login API, so automating it hinges on the account recovery / Behold checks.
+  The hashtag is open to anyone, so it's a discovery signal, not consent.
 
 Proposed approach (works regardless of the API outcome):
 1. **Show the feed** on the site via Behold (featured posts link back to the creator).
