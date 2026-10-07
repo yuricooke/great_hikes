@@ -1,0 +1,79 @@
+{
+  "id": 39,
+  "slug": "tour-du-mont-blanc",
+  "title": "Tour du Mont Blanc",
+  "continent": "Europe",
+  "country": "France",
+  "biome": "Alpine",
+  "landscapes": [
+    "mountains",
+    "forests",
+    "waterfalls"
+  ],
+  "description": "A legendary 170 km loop around the Mont Blanc massif through France, Italy and Switzerland — high passes, glaciers, alpine pastures and mountain refuges, usually walked in 7 to 12 days.",
+  "hikingExplained": "The Tour du Mont Blanc circles the highest mountain in Western Europe, crossing three countries in one great loop: France, Italy and Switzerland. The classic route starts in Les Houches and runs anticlockwise over Col de Voza to Les Contamines, up over the Col du Bonhomme and the Col de la Seigne into Italy's Val Veny and Courmayeur, along the Val Ferret balcony beneath the Grandes Jorasses, over the Grand Col Ferret into Switzerland, through La Fouly, Champex-Lac and Trient, and back into France past Col de Balme and the Aiguilles Rouges.\n\nThis is not a technical climb, but it is a serious trek: roughly 10,000 m of ascent, a pass to climb and descend almost every day, and days of 5 to 8 hours with a pack. In return you sleep in mountain refuges and village guesthouses, eat well, and wake up to glaciers and granite spires each morning. Buses and lifts let you shorten stages, and many variants let you make it easier or wilder. Walk it in 9 to 10 days if you want time to enjoy the views.",
+  "officialUrl": "https://www.montourdumontblanc.com/en",
+  "map": "/maps/Europe.svg",
+  "photo": {
+    "src": "/hikes/tour-du-mont-blanc.jpg",
+    "alt": "A footpath crosses green alpine meadows toward the glaciated Grandes Jorasses in Val Ferret, Italy, under a clear blue sky",
+    "author": "Giorgio Galeotti",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Grandes_Jorasses_-_Val_Ferret,_Courmayeur,_Aosta,_Italy_1_-_August_8,_2016.jpg",
+    "license": "CC BY 4.0"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 45.8915,
+    "lng": 6.7991
+  },
+  "details": {
+    "route": "Classic TMB loop from Les Houches (anticlockwise)",
+    "distanceKm": 170,
+    "elevationGainM": 10000,
+    "maxAltitudeM": 2600,
+    "duration": "7–12 days (usually 10–11 stages)",
+    "difficulty": "challenging",
+    "routeType": "loop",
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "permit": null,
+    "gettingThere": "Les Houches and Chamonix are on the Martigny–Le Fayet railway, and buses link the stages in the Chamonix valley. Courmayeur is reached from Chamonix by bus through the Mont Blanc tunnel, and the Swiss stages are served by Swiss buses and trains.",
+    "tips": [
+      "Book refuges early on the official site: popular huts fill months ahead, and bookings for summer 2027 open on 15 October 2026.",
+      "Go between mid-June and mid-September. In June and early season, expect snow on the passes (most are above 2,500 m), incomplete waymarking and fewer shuttles, so carry a map or GPS.",
+      "Bivouacking is regulated differently in each country and commune, and banned in places such as Chamonix and nature reserves; check the local rules before you take a tent."
+    ]
+  },
+  "sources": [
+    {
+      "label": "Mon Tour du Mont-Blanc — official TMB website and refuge booking",
+      "url": "https://www.montourdumontblanc.com/en"
+    },
+    {
+      "label": "Mon Tour du Mont-Blanc — Get ready (season, stages, access and transport)",
+      "url": "https://www.montourdumontblanc.com/en/get-ready"
+    },
+    {
+      "label": "Mon Tour du Mont-Blanc — FAQ (refuge booking)",
+      "url": "https://www.montourdumontblanc.com/en/faq"
+    },
+    {
+      "label": "Mon Tour du Mont-Blanc — Bivouacking rules",
+      "url": "https://www.montourdumontblanc.com/en/wild-camping"
+    },
+    {
+      "label": "Autour du Mont-Blanc (Espace Mont-Blanc) — Tour du Mont Blanc route and technical data",
+      "url": "https://www.autourdumontblanc.com/en/routes/all-routes/tour-du-mont-blanc"
+    },
+    {
+      "label": "OpenStreetMap — Les Houches",
+      "url": "https://www.openstreetmap.org/search?query=Les%20Houches"
+    }
+  ],
+  "checkedAt": "2026-10-08",
+  "instagram": []
+}

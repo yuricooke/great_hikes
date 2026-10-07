@@ -1,0 +1,54 @@
+{
+  "id": 38,
+  "slug": "glacier-national-park",
+  "title": "Glacier National Park",
+  "continent": "North America",
+  "country": "United States",
+  "biome": "Northern Rocky Mountains",
+  "landscapes": ["mountains", "forests"],
+  "description": "Montana's 'Crown of the Continent': jagged peaks, glacier-carved valleys and alpine meadows, best walked on the Highline Trail, which traces the Garden Wall north from Logan Pass on the Continental Divide.",
+  "hikingExplained": "Glacier National Park in northwest Montana protects a wild stretch of the northern Rockies, with more than 700 miles of trail threading through glacier-carved valleys, alpine meadows and turquoise lakes. Our pick is the Highline Trail, which starts across Going-to-the-Sun Road from the Continental Divide sign at Logan Pass and runs along the Garden Wall, high above the valley, with big views nearly the whole way.\n\nMost hikers go one way from Logan Pass to The Loop, a full day of about 19 km with more descent than climb, passing Granite Park Chalet near the end. Much of the trail is exposed, so it suits sure-footed hikers in settled weather; a shorter option is to walk out from Logan Pass for a while and turn back. Plan your transport ahead, carry bear spray and plenty of water, and watch for mountain goats and bighorn sheep.",
+  "officialUrl": "https://www.nps.gov/glac/",
+  "map": "/maps/NorthAmerica.svg",
+  "photo": {
+    "src": "/hikes/glacier-national-park.jpg",
+    "alt": "A hiker in a red jacket looks out from the Highline Trail over a deep glacial valley and clouded peaks in Glacier National Park",
+    "author": "NPS / Jacob W. Frank",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enjoying_Views_from_the_Highline_Trail_(20653404192).jpg",
+    "license": "Public domain"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 48.6966,
+    "lng": -113.7181
+  },
+  "details": {
+    "route": "Highline Trail: Logan Pass to The Loop",
+    "distanceKm": 19,
+    "elevationGainM": 728,
+    "maxAltitudeM": null,
+    "duration": "Full day (NPS lists it among full-day hikes of 5+ hours)",
+    "difficulty": "challenging",
+    "routeType": "point-to-point",
+    "bestMonths": [7, 8, 9],
+    "permit": "Park entrance pass required. No vehicle reservations in 2026, but from July 1 to September 7, 2026 Logan Pass parking is limited to 3 hours, so Highline hikers need a ticketed Logan Pass Shuttle seat booked on Recreation.gov.",
+    "gettingThere": "Logan Pass is on Going-to-the-Sun Road, usually fully open from early July to mid-October. In summer 2026, ticketed express shuttles run to Logan Pass from Apgar, Lake McDonald Lodge, St. Mary and Rising Sun, and stop at The Loop to take hikers back.",
+    "tips": [
+      "Book Logan Pass Shuttle tickets early: some are released 60 days ahead, the rest at 7 p.m. MDT the day before. Don't count on the last shuttle from The Loop.",
+      "The Loop has restrooms but no drinking water, so carry all the water you need from Logan Pass.",
+      "Much of the trail is exposed to drop-offs and weather; start early, check the forecast and carry bear spray."
+    ]
+  },
+  "sources": [
+    { "label": "NPS — Highline Trailhead (distance, elevation gain/loss, trailhead)", "url": "https://www.nps.gov/places/highline-trailhead.htm" },
+    { "label": "NPS — Take a Full Day Hike in Glacier", "url": "https://www.nps.gov/thingstodo/glacier-full-day-hike.htm" },
+    { "label": "NPS Glacier — Visiting Logan Pass in 2026", "url": "https://www.nps.gov/glac/planyourvisit/visiting-loganpass-2026.htm" },
+    { "label": "NPS Glacier — Logan Pass Shuttle Service 2026", "url": "https://www.nps.gov/glac/planyourvisit/shuttle-service-2026.htm" },
+    { "label": "NPS Glacier — Vehicle Reservations in 2026", "url": "https://www.nps.gov/glac/planyourvisit/vehicle-reservations.htm" },
+    { "label": "NPS Glacier — Going-to-the-Sun Road General Info", "url": "https://www.nps.gov/glac/planyourvisit/gtsrinfo.htm" },
+    { "label": "NPS Glacier — Fees & Passes", "url": "https://www.nps.gov/glac/planyourvisit/fees.htm" },
+    { "label": "OpenStreetMap — Highline Trailhead South, Logan Pass", "url": "https://www.openstreetmap.org/?mlat=48.6966&mlon=-113.7181#map=17/48.6966/-113.7181" }
+  ],
+  "checkedAt": "2026-10-08",
+  "instagram": []
+}

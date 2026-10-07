@@ -1,0 +1,85 @@
+{
+ "id": 40,
+ "slug": "tre-cime-di-lavaredo",
+ "title": "Tre Cime di Lavaredo",
+ "continent": "Europe",
+ "country": "Italy",
+ "biome": "Dolomites",
+ "landscapes": [
+  "mountains"
+ ],
+ "description": "Three giant limestone towers in the UNESCO-listed Dolomites, ringed by a classic high-alpine loop that reveals their famous 500-metre north faces.",
+ "hikingExplained": "The Tre Cime di Lavaredo are the icon of the Dolomites: three sheer towers of pale dolomite rock rising from high plateaus on the border between South Tyrol and the Veneto, inside the Tre Cime Nature Park and the Dolomites UNESCO World Heritage Site. The classic way to meet them is the loop from Rifugio Auronzo, which circles the whole massif without any climbing and stays above 2,000 metres the entire time.\n\nWe love how the walk saves its best for the middle: an easy track past Rifugio Lavaredo leads up to Forcella Lavaredo, where the north faces suddenly appear in full. From there you can continue to Rifugio Locatelli for the postcard view, then drop across the meadows and small lakes of the Langalm and return along the western side to the car park. Start early — this is one of the busiest trails in the Alps in summer.",
+ "officialUrl": "https://www.dreizinnen.com/en/region/highlights/three-peaks",
+ "map": "/maps/Europe.svg",
+ "photo": {
+  "src": "/hikes/tre-cime-di-lavaredo.jpg",
+  "alt": "The north faces of the Tre Cime di Lavaredo in late-afternoon light above green alpine meadows, Dolomites, Italy",
+  "author": "Alessandro Drago",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Tre_Cime_nel_tardo_pomeriggio.jpg",
+  "license": "CC BY-SA 4.0"
+ },
+ "status": "draft",
+ "location": {
+  "lat": 46.6122,
+  "lng": 12.2961
+ },
+ "details": {
+  "route": "Tre Cime loop from Rifugio Auronzo (trail 101 via Rifugio Lavaredo and Forcella Lavaredo, returning via trail 105 and the Langalm)",
+  "distanceKm": 8.8,
+  "elevationGainM": 550,
+  "maxAltitudeM": 2454,
+  "duration": "About 4 hours",
+  "difficulty": "easy",
+  "routeType": "loop",
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "permit": "No hiking permit needed. Driving to the Rifugio Auronzo car park uses a seasonal toll road from Misurina that requires an online reservation in advance (pass.auronzo.info); in 2026 a car costs €40 and the ticket is valid 12 hours from the booked entry time. The road reopened for the 2026 season on 23 May.",
+  "gettingThere": "Drive to Lake Misurina (near Cortina d'Ampezzo and Dobbiaco/Toblach) and take the booked toll road up to Rifugio Auronzo, or ride the seasonal shuttle bus line 444 from Dobbiaco/Toblach to Rifugio Auronzo (timetables on sii.bz.it).",
+  "tips": [
+   "Book your car-park slot online before you go — without a reservation you will be turned back at the toll gate; the bus avoids this entirely.",
+   "Arrive early: in peak summer the official advice is to be there before 7 am, when the trail and car park are still quiet.",
+   "You are walking at 2,200–2,450 m, where weather changes fast — bring a warm layer and rain jacket even on sunny days."
+  ]
+ },
+ "sources": [
+  {
+   "label": "Drei Zinnen Dolomites (official tourism association) — Three Peaks: hikes, getting there, parking",
+   "url": "https://www.dreizinnen.com/en/region/highlights/three-peaks"
+  },
+  {
+   "label": "Drei Zinnen Dolomites — Summer circular hike: Three Peaks (route data)",
+   "url": "https://www.dreizinnen.com/en/activity/summer-circular-hike-three-peaks_569"
+  },
+  {
+   "label": "Comune di Auronzo di Cadore — Riapertura della strada delle Tre Cime di Lavaredo dal 23 maggio 2026",
+   "url": "https://www.comune.auronzo.bl.it/it/news/apertura-strada-delle-tre-cime-di-lavaredo-370c1459-3e11-47ca-9ac4-f603b8628ed6"
+  },
+  {
+   "label": "Auronzo.info — Parcheggio Tre Cime di Lavaredo (official booking info and 2026 prices)",
+   "url": "https://auronzo.info/parcheggio-tre-cime-di-lavaredo/"
+  },
+  {
+   "label": "Auronzo.info — Pass Tre Cime booking portal",
+   "url": "https://pass.auronzo.info/Frontoffice"
+  },
+  {
+   "label": "Autonomous Province of Bolzano — Drei Zinnen / Tre Cime Nature Park",
+   "url": "https://nature-parks.provinz.bz.it/drei-zinnen-tre-cime-nature-park.asp"
+  },
+  {
+   "label": "Dolomiti UNESCO — Northern Dolomites (System 5)",
+   "url": "https://dolomitiunesco.info/?gruppo-dolomitico=dolomiti-settentrionali&lang=en"
+  },
+  {
+   "label": "OpenStreetMap — Rifugio Auronzo (way 186519265)",
+   "url": "https://www.openstreetmap.org/way/186519265"
+  }
+ ],
+ "checkedAt": "2026-10-08",
+ "instagram": []
+}

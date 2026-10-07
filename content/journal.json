@@ -1,5 +1,1309 @@
 [
   {
+    "slug": "tour-du-mont-blanc-planning",
+    "kind": "guide",
+    "status": "draft",
+    "title": "How to plan the Tour du Mont Blanc",
+    "lead": "One loop, three countries and around 170 km of Alpine trail: how direction, stages, refuge bookings, season, transport and mountain safety work on the Tour du Mont Blanc, based on the official TMB sources and local tourism offices.",
+    "author": "Great Hikes",
+    "date": "2026-10-08",
+    "cover": "tour-du-mont-blanc",
+    "readMinutes": 5,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The Tour du Mont Blanc (TMB) is a long-distance loop around the Mont Blanc massif, passing through France, Italy and Switzerland. The official TMB website describes it as about 170 km (roughly 105 miles) with around 10,000 m (about 32,800 feet) of elevation gain. Other official sources give slightly different totals depending on the exact line they measure, so treat these as round numbers rather than a precise count."
+      },
+      {
+        "type": "paragraph",
+        "text": "You don't need technical climbing skills, but you do need stamina. The official FAQ says you should be able to walk 5 to 8 hours a day for several days in a row while carrying a pack. Here's how to put a trip together."
+      },
+      {
+        "type": "heading",
+        "text": "Direction and where to start"
+      },
+      {
+        "type": "paragraph",
+        "text": "You can walk the loop either way. The official FAQ notes that the anticlockwise direction is the most common and the best waymarked, so it's the natural choice for a first TMB. Les Houches, just down the valley from Chamonix, is the classic start, but the official route page lists several other starting points, including Chamonix, Les Contamines, Courmayeur, Champex, La Fouly and Trient."
+      },
+      {
+        "type": "paragraph",
+        "text": "Going anticlockwise from Les Houches, the route heads over the Col de Voza to Les Contamines-Montjoie, crosses the Col du Bonhomme area to Les Chapieux, then climbs the Col de la Seigne into Italy. It drops through Val Veny to Courmayeur, follows the balconies above Val Ferret and crosses the Grand Col Ferret (2,537 m) into Switzerland. The Swiss section links La Fouly, Champex-Lac and Trient before the trail returns to France over the Col de Balme and traverses back above the Chamonix valley to Les Houches."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "tour-du-mont-blanc",
+        "text": "See the Tour du Mont Blanc on our map, with photos of the trail from our community."
+      },
+      {
+        "type": "heading",
+        "text": "Stages and days"
+      },
+      {
+        "type": "paragraph",
+        "text": "According to the official TMB site, the tour is usually walked in 10 to 11 stages, each a day's walk between two places to sleep. Stages typically run 10 to 20 km, and some ascents exceed 1,000 m. The site suggests three rough paces: about 7 days for experienced, fast hikers; 9 to 10 days for a balanced trip, the most popular option; and 11 to 12 days for a slower, more contemplative tour. Pick your pace first, because it decides where you need beds each night."
+      },
+      {
+        "type": "heading",
+        "text": "Booking refuges"
+      },
+      {
+        "type": "paragraph",
+        "text": "Book your nights before you set off. The official TMB site warns that in high season refuges and guesthouses are often full several months in advance. Its booking platform lets you build your route stage by stage across all three countries, choosing between dormitories, private rooms and camping."
+      },
+      {
+        "type": "paragraph",
+        "text": "For summer 2027, the official FAQ says bookings open on 15 October 2026 for all of the association's member refuges. You pay a deposit when you book. If you cancel more than 30 days before arrival, 80% of the deposit is refunded; less than 30 days out, it isn't refunded unless your insurance covers it. You can change a booking through your account up to 30 days before arrival. The FAQ gives a guide price of around €65 to €95 per night for half-board in a dormitory. Check current terms and prices when you book."
+      },
+      {
+        "type": "quote",
+        "text": "Choose your pace, lock in your refuges the day bookings open, then plan your trains and buses around them.",
+        "cite": "Great Hikes team"
+      },
+      {
+        "type": "heading",
+        "text": "When to go"
+      },
+      {
+        "type": "paragraph",
+        "text": "The official recommendation is mid-June to mid-September, when the passes are usually free of snow and the refuges are open. July and August bring the most stable conditions. In June and early July you may still meet snow patches, and the official guidance notes that in June and September signposting may be incomplete and some stream crossings harder. Later in the season, pack for colder weather."
+      },
+      {
+        "type": "heading",
+        "text": "Getting to Chamonix and Les Houches"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Chamonix tourism office lists Geneva International Airport as the nearest major airport, 88 km away, with daily bus connections to Chamonix. By rail, the Mont Blanc Express line runs from Saint-Gervais-les-Bains-Le Fayet to Martigny in Switzerland, stopping at Les Houches, Chamonix, Argentière and Vallorcine. The Chamonix Mobilité bus network also serves the valley, including Les Houches."
+      },
+      {
+        "type": "paragraph",
+        "text": "Public transport also lets you join or leave the loop partway. The official TMB site mentions free shuttles in Val Veny and Val Ferret on the Italian side, and the Pays du Saint-Bernard tourism office suggests the train to Orsières and then a bus to Champex-Lac on the Swiss side. Note that dogs aren't allowed on the shuttles."
+      },
+      {
+        "type": "heading",
+        "text": "Variants worth knowing"
+      },
+      {
+        "type": "paragraph",
+        "text": "The official route lists several variants, from the Col de Tricot on the first stage to the Col des Fours near Les Chapieux and the high balcony via the Malatra pass above Val Ferret. The best known is the Fenêtre d'Arpette (2,665 m) between Champex-Lac and the Col de la Forclaz. The official TMB site calls it one of the finest and most demanding variants, for seasoned hikers comfortable on rocky ground and long descents. In bad weather, mist or when you're tired, take the classic route instead."
+      },
+      {
+        "type": "heading",
+        "text": "Three countries, three sets of rules"
+      },
+      {
+        "type": "paragraph",
+        "text": "Crossing borders on foot is part of the TMB's charm, but the rules change with the country. Camping and bivouacking are a good example. The official TMB site explains that in France the rules vary by municipality, and Chamonix bans camping and bivouacking except for high-altitude overnight stays. All forms of camping are banned across Italy's Aosta Valley, and bivouacking there is forbidden below 2,500 m. In Switzerland's Valais, bivouacking is generally banned with a few tightly controlled exceptions, and camping is only allowed at designated sites. If you plan to carry a tent, read the official rules for each section first."
+      },
+      {
+        "type": "heading",
+        "text": "Mountain safety and weather"
+      },
+      {
+        "type": "paragraph",
+        "text": "Alpine weather changes fast. The official TMB site advises checking the forecast the evening before and again in the morning, keeping a warm layer and waterproof jacket within reach, and setting off early so you don't reach high passes like the Col de la Seigne in mid-afternoon when storms are forecast. On early-season snowfields it recommends crampons, an ice axe and poles, and warns that snow bridges over streams can collapse. Good boots, a map, a whistle and a first aid kit belong in every pack."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is no mobile network between Pont Romain and the Col de la Seigne via the Chapieux valley. In an emergency, 112 works in all three countries; Switzerland also uses 144. The PGHM mountain rescue service in Chamonix is on +33 4 50 53 16 89."
+      },
+      {
+        "type": "paragraph",
+        "text": "Trails change from year to year. In 2026, for example, the official site announced a diversion on the Swiss section because of rockfall danger. Before and during your trip, check trail conditions on autourdumontblanc.com, ask La Chamoniarde's mountain office in Chamonix, and follow Météo-France's mountain forecasts."
+      },
+      {
+        "type": "heading",
+        "text": "More Alpine classics"
+      },
+      {
+        "type": "paragraph",
+        "text": "If the TMB gets you hooked on the Alps, the Italian Dolomites are a natural next trip."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "tre-cime-di-lavaredo",
+        "text": "Explore Tre Cime di Lavaredo in the Dolomites, with photos from our community."
+      }
+    ],
+    "relatedHikes": [
+      "tour-du-mont-blanc",
+      "tre-cime-di-lavaredo"
+    ],
+    "sources": [
+      {
+        "title": "Autour du Mont-Blanc (official) – Tour du Mont Blanc route, stages and variants",
+        "url": "https://www.autourdumontblanc.com/en/routes/all-routes/tour-du-mont-blanc"
+      },
+      {
+        "title": "Autour du Mont-Blanc (official) – Home and current updates",
+        "url": "https://www.autourdumontblanc.com/en"
+      },
+      {
+        "title": "Autour du Mont-Blanc (official) – Mountain hazards and equipment",
+        "url": "https://www.autourdumontblanc.com/en/safety/mountain-hazards-and-equipment"
+      },
+      {
+        "title": "Autour du Mont-Blanc (official) – Safety and emergency numbers",
+        "url": "https://www.autourdumontblanc.com/en/safety"
+      },
+      {
+        "title": "Mon Tour du Mont-Blanc (official booking) – Overview",
+        "url": "https://montourdumontblanc.com/en/"
+      },
+      {
+        "title": "Mon Tour du Mont-Blanc (official booking) – FAQ (direction, bookings, cancellations, season, emergency)",
+        "url": "https://montourdumontblanc.com/en/faq"
+      },
+      {
+        "title": "Mon Tour du Mont-Blanc (official booking) – The route",
+        "url": "https://montourdumontblanc.com/en/the-route"
+      },
+      {
+        "title": "Mon Tour du Mont-Blanc (official booking) – Get ready (season, pace, equipment, transport, network coverage)",
+        "url": "https://montourdumontblanc.com/en/get-ready"
+      },
+      {
+        "title": "Mon Tour du Mont-Blanc (official booking) – Refuges and guesthouses",
+        "url": "https://montourdumontblanc.com/en/refuges-and-guesthouses"
+      },
+      {
+        "title": "Mon Tour du Mont-Blanc (official booking) – Bivouacking on the Tour du Mont-Blanc",
+        "url": "https://montourdumontblanc.com/en/wild-camping"
+      },
+      {
+        "title": "Mon Tour du Mont-Blanc (official booking) – The passes of the Tour du Mont-Blanc",
+        "url": "https://www2.montourdumontblanc.com/en/actualites/the-passes-of-the-tour-the-iconic-crossings"
+      },
+      {
+        "title": "Chamonix-Mont-Blanc Tourist Office – How to get here",
+        "url": "https://en.chamonix.com/plan-my-stay/usual-information-services/how-to-get-here"
+      },
+      {
+        "title": "Courmayeur Mont Blanc Tourism – Tour du Mont Blanc",
+        "url": "https://www.courmayeurmontblanc.it/fr/sport/trekking-et-randonnee/tour-du-mont-blanc/"
+      },
+      {
+        "title": "Pays du Saint-Bernard (Champex/Orsières tourism) – No. 26 Tour du Mont-Blanc",
+        "url": "https://www.saint-bernard.ch/en/activities/n-26-tour-du-mont-blanc-2746/"
+      },
+      {
+        "title": "La Chamoniarde – Office de Haute Montagne, Chamonix",
+        "url": "https://www.chamoniarde.com/en"
+      },
+      {
+        "title": "Météo-France – Mountain forecast, Chamonix",
+        "url": "https://meteofrance.com/meteo-montagne/chamonix/740562"
+      }
+    ],
+    "gear": [
+      "footwear",
+      "jackets",
+      "backpacks",
+      "apparel",
+      "socks",
+      "accessories",
+      "climbing",
+      "tents"
+    ]
+  },
+  {
+    "slug": "kilimanjaro-routes-compared",
+    "kind": "guide",
+    "status": "draft",
+    "title": "Climbing Kilimanjaro: routes, rules and acclimatisation",
+    "lead": "Huts or tents, five days or eight, south, west or north: how the routes up Africa's highest mountain differ, why more days on the mountain help, and the park rules every climber needs to know, from Tanzania National Parks and the CDC.",
+    "author": "Great Hikes",
+    "date": "2026-10-08",
+    "cover": "kilimanjaro-national-park",
+    "readMinutes": 5,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Mount Kilimanjaro is Africa's highest peak and, as Tanzania National Parks (TANAPA) puts it, the world's tallest free-standing mountain. Its summit, Uhuru Peak on the Kibo cone, stands at 5,895 m (19,341 feet). The massif is made of three volcanoes: Kibo and Mawenzi (5,149 m), which are dormant, and Shira (3,962 m), an extinct volcano whose collapse formed the wide Shira Plateau. Kilimanjaro National Park was declared in 1973 and became a UNESCO World Heritage Site in 1987."
+      },
+      {
+        "type": "paragraph",
+        "text": "You don't need technical climbing skills to reach the top on the standard routes, but you do need to pick a route, a licensed operator and, above all, enough days. Here's how the options compare, using what the park authority and the CDC publish."
+      },
+      {
+        "type": "heading",
+        "text": "The ground rules: licensed operators only"
+      },
+      {
+        "type": "paragraph",
+        "text": "TANAPA is clear that all climbs must be guided by a licensed operator, and solo trekking is not permitted. Guide and porter services are arranged through licensed tour operators, who also handle transfers from Moshi or Arusha to the park gates. Most climbers fly into Kilimanjaro International Airport (JRO) or Arusha Airport (ARK)."
+      },
+      {
+        "type": "paragraph",
+        "text": "On the mountain, the park asks you to stay on marked routes, follow camp rules and ranger or guide instructions, and practice Leave No Trace. Off-trail travel and open fires are restricted, and drones need prior authorization. TANAPA also encourages climbers to support local livelihoods by choosing licensed operators with fair porter practices, which is worth asking about when you compare companies."
+      },
+      {
+        "type": "paragraph",
+        "text": "Fees depend on your visitor category (citizen, resident or non-resident), your route and the number of days, and conservation, camping or hut, and rescue fees may apply. Your operator usually bundles these into the trip price, but TANAPA recommends confirming the current Kilimanjaro fee schedule before you travel."
+      },
+      {
+        "type": "heading",
+        "text": "How the routes differ"
+      },
+      {
+        "type": "paragraph",
+        "text": "TANAPA says six trails lead to the summit and that reaching Kibo peak takes 5 to 8 days, depending on the route. The park's own advice is short and worth remembering: the more days, the higher your chance of reaching the summit. The main gates are Marangu, Machame, Lemosho (reached via Londorossi) and Rongai on the north side, and Mweka Gate is used for the descent."
+      },
+      {
+        "type": "paragraph",
+        "text": "Marangu is the hut route. It is the only route TANAPA describes with alpine huts, at Mandara, Horombo and Kibo, so you sleep under a roof instead of in a tent. The park's headquarters is also at Marangu. If camping at altitude doesn't appeal to you, this is the route to look at, but check how many days your operator plans, since a short itinerary leaves little time to acclimatise."
+      },
+      {
+        "type": "paragraph",
+        "text": "Machame and Lemosho are camping routes. On every route except Marangu, climbers stay in designated tented camps run by licensed operators. Machame starts from its own gate, while Lemosho is reached via Londorossi. Ask each operator how many nights their itinerary spends on the mountain and how quickly it gains height, since that matters more than the name of the route."
+      },
+      {
+        "type": "paragraph",
+        "text": "Rongai is the northern option, starting from the Rongai gate on the north side of the mountain. Beyond the main trekking routes, TANAPA also lists a Crater Camp near the summit (special permit required), guided day hikes on the Marangu and Shira areas for non-summit visitors, and technical climbing on Mawenzi for highly skilled climbers."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "kilimanjaro-national-park",
+        "text": "Explore Kilimanjaro National Park on the map and see photos of the Roof of Africa from our community."
+      },
+      {
+        "type": "heading",
+        "text": "Acclimatisation: the real success factor"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kilimanjaro's challenge is altitude, not technique. The CDC notes that any unacclimatised traveler going to a sleeping altitude of 2,450 m (8,000 feet) or higher, and sometimes lower, is at risk of altitude illness. The summit sits more than twice that high."
+      },
+      {
+        "type": "paragraph",
+        "text": "The CDC's core advice is to ascend gradually. Once above 3,000 m (9,800 feet), it recommends increasing your sleeping altitude by no more than 500 m (1,650 feet) per night, and adding an extra night to acclimatise for every 1,000 m (3,300 feet) of sleeping altitude gained. It also advises avoiding alcohol for the first 48 hours at high altitude. TANAPA's safety guidance says the same thing in plain terms: choose an itinerary with acclimatisation days, ascend slowly, stay hydrated and report symptoms to your guide promptly."
+      },
+      {
+        "type": "paragraph",
+        "text": "Know the warning signs. According to the CDC, headache is the main symptom of acute mountain sickness, usually with loss of appetite, dizziness, fatigue or nausea. Confusion, poor coordination and drowsiness can signal high-altitude cerebral edema, while a cough, chest congestion and unusual breathlessness on exertion can be early signs of high-altitude pulmonary edema. The CDC says you should never go up to sleep higher while you have symptoms, and if symptoms get worse despite treatment at the same altitude, descent is mandatory."
+      },
+      {
+        "type": "paragraph",
+        "text": "Medicines can help prevent altitude illness, but they are a conversation for your doctor, not a packing-list item. The CDC advises travelers with underlying medical conditions to see a physician familiar with high-altitude issues before the trip."
+      },
+      {
+        "type": "quote",
+        "text": "Pick the route for the days, not the days for the route. Extra nights on the mountain are the best summit insurance you can buy.",
+        "cite": "Great Hikes team"
+      },
+      {
+        "type": "heading",
+        "text": "Seasons, weather and what to pack"
+      },
+      {
+        "type": "paragraph",
+        "text": "TANAPA lists the park as open year-round. The climb passes through very different zones, from montane forest with colobus and blue monkeys, through heath and moorland with giant lobelias and groundsels, to alpine desert and the summit icefields. The park warns that conditions change quickly at high altitude, so talk to your licensed operator about the best months for your chosen route and check the forecast close to your dates."
+      },
+      {
+        "type": "paragraph",
+        "text": "Whatever the month, TANAPA asks climbers to carry proper cold-weather and rain gear, a headlamp and personal medications. Think warm layers and an insulated jacket for summit night, a waterproof shell for the forest, broken-in boots, good socks and a comfortable daypack for the things you'll carry while porters handle the rest."
+      },
+      {
+        "type": "heading",
+        "text": "Pair the climb with a safari"
+      },
+      {
+        "type": "paragraph",
+        "text": "Many climbers fly into northern Tanzania once and stay for the wildlife afterwards. Serengeti National Park is also run by TANAPA, so you'll deal with the same park authority for rules and fees."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "serengeti-national-park",
+        "text": "See Serengeti National Park, the classic way to rest your legs after the summit."
+      },
+      {
+        "type": "paragraph",
+        "text": "Routes, fees, regulations and conditions change. Always check the current rules and fee schedule with Tanzania National Parks at tanzaniaparks.go.tz/kilimanjaro, and review the CDC's altitude illness guidance with your doctor before you go."
+      }
+    ],
+    "relatedHikes": [
+      "kilimanjaro-national-park",
+      "serengeti-national-park"
+    ],
+    "sources": [
+      {
+        "title": "TANAPA – Kilimanjaro National Park",
+        "url": "https://www.tanzaniaparks.go.tz/kilimanjaro"
+      },
+      {
+        "title": "TANAPA – Kilimanjaro National Park: About",
+        "url": "https://www.tanzaniaparks.go.tz/kilimanjaro/about"
+      },
+      {
+        "title": "TANAPA – Kilimanjaro National Park: Visitor Guide (gates, huts, regulations, safety)",
+        "url": "https://www.tanzaniaparks.go.tz/kilimanjaro/visitor-guide"
+      },
+      {
+        "title": "TANAPA – Kilimanjaro National Park: Attractions and activities",
+        "url": "https://www.tanzaniaparks.go.tz/kilimanjaro/attractions"
+      },
+      {
+        "title": "TANAPA – Kilimanjaro National Park: Wildlife & Habitats",
+        "url": "https://www.tanzaniaparks.go.tz/kilimanjaro/wildlife"
+      },
+      {
+        "title": "TANAPA – Kilimanjaro National Park: Contact & Location",
+        "url": "https://www.tanzaniaparks.go.tz/kilimanjaro/contact-location"
+      },
+      {
+        "title": "TANAPA – Mount Kilimanjaro Geopark (Shira Plateau, Kibo, Mawenzi)",
+        "url": "https://www.tanzaniaparks.go.tz/geoparks-mt-kilimanjaro"
+      },
+      {
+        "title": "TANAPA – Serengeti National Park",
+        "url": "https://www.tanzaniaparks.go.tz/serengeti"
+      },
+      {
+        "title": "CDC Yellow Book – High-Altitude Travel and Altitude Illness",
+        "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html"
+      }
+    ],
+    "gear": [
+      "jackets",
+      "apparel",
+      "footwear",
+      "socks",
+      "backpacks",
+      "accessories"
+    ]
+  },
+  {
+    "slug": "grand-canyon-rim-to-river",
+    "kind": "guide",
+    "status": "draft",
+    "title": "Hiking into the Grand Canyon: rim to river, safely",
+    "lead": "South Kaibab or Bright Angel, where day hikers should turn around, why the National Park Service warns against rim-to-river-and-back in one day, and how heat, water, permits and Phantom Ranch fit into your plan.",
+    "author": "Great Hikes",
+    "date": "2026-10-08",
+    "cover": "grand-canyon-national-park",
+    "readMinutes": 5,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Walking below the rim of the Grand Canyon is nothing like hiking a mountain. You go down first, while you're fresh and the air is cool, and the hard part comes last, uphill and often in the heat. The National Park Service (NPS) puts it bluntly: there are no easy trails into or out of the Grand Canyon, and more than 300 people are rescued from the canyon each year."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here's how the two main South Rim trails compare and where day hikers should turn around, with details from the park's own pages."
+      },
+      {
+        "type": "heading",
+        "text": "First: check what's open right now"
+      },
+      {
+        "type": "paragraph",
+        "text": "After a significant flash flood on August 29, 2026, the park closed the whole of Phantom Ranch, including Bright Angel Campground, the canteen and the cabins. Also closed are the South Kaibab Trail below the Tipoff, the River Trail east of the River Resthouse, the Black and Silver bridges, and the entire North Kaibab Trail. As of the park's September 28, 2026 update, there is no estimated reopening date. The Bright Angel Trail is open from the trailhead down to the River Resthouse, along with Plateau Point and the Tonto Trail between the Tipoff and Havasupai Gardens. Check the park's Key Hiking Messages page before you plan anything."
+      },
+      {
+        "type": "heading",
+        "text": "South Kaibab vs Bright Angel"
+      },
+      {
+        "type": "paragraph",
+        "text": "The South Kaibab Trail starts south of Yaki Point and follows a ridgeline down, which gives it some of the best views for a relatively short hike. That exposure comes at a cost: NPS describes it as steep, with little shade and no water along the trail. You can't drive to the trailhead: take the Kaibab Rim (Orange) Route shuttle from the Visitor Center, or arrive on foot or by bike. NPS lists 7 miles (11.3 km) from the trailhead to Bright Angel Campground."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Bright Angel Trail starts in Grand Canyon Village, just west of Bright Angel Lodge. It's also steep, but it has some shade and, in normal years, seasonal water. It's the longer way down: NPS lists 4.5 miles (7.3 km) to Havasupai Gardens, 8 miles (12.9 km) to the River Resthouse and 9.5 miles (15.3 km) to Bright Angel Campground."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "grand-canyon-national-park",
+        "text": "Explore Grand Canyon National Park on the map and see photos of the South Rim from our community."
+      },
+      {
+        "type": "heading",
+        "text": "Day-hike turnaround points"
+      },
+      {
+        "type": "paragraph",
+        "text": "On the South Kaibab Trail, NPS suggests Ooh Aah Point (1.8 miles / 2.9 km round trip, 1 to 2 hours, 790 feet of elevation change), Cedar Ridge (3 miles / 4.8 km round trip, 2 to 4 hours, 1,120 feet) or Skeleton Point (6 miles / 9.6 km round trip, 4 to 6 hours, 2,040 feet). Cedar Ridge has pit toilets but no water. NPS does not recommend hiking below Skeleton Point as a day hike, because of the long distance, extreme temperature changes and an elevation change of about 5,000 feet each way."
+      },
+      {
+        "type": "paragraph",
+        "text": "On the Bright Angel Trail, the classic turnarounds are the Mile-and-a-Half Resthouse (3 miles / 4.8 km round trip, 2 to 4 hours, 1,120 feet) and the Three-Mile Resthouse (6 miles / 9.6 km round trip, 4 to 6 hours, 2,120 feet). Havasupai Gardens (9 miles / 14.4 km round trip, 6 to 9 hours, 3,040 feet) and Plateau Point (12 miles / 19.6 km round trip, 9 to 12 hours, 3,080 feet) are long, serious days. NPS says destinations below Havasupai Gardens are not recommended day hikes."
+      },
+      {
+        "type": "paragraph",
+        "text": "A simple rule from the park: allow one third of your time to go down and two thirds to come back up."
+      },
+      {
+        "type": "quote",
+        "text": "Do not attempt to hike from the rim to the river and back in one day, especially between May and September, when extreme heat can quickly become life-threatening.",
+        "cite": "Grand Canyon National Park (NPS)"
+      },
+      {
+        "type": "heading",
+        "text": "Heat: the biggest danger"
+      },
+      {
+        "type": "paragraph",
+        "text": "The inner canyon is far hotter than the rim. NPS says July shade temperatures at Phantom Ranch reach 104°F, and that sun temperatures run 15 to 20°F hotter than posted shade temperatures. Rangers strongly discourage hiking during the heat of the day, 10 a.m. to 4 p.m., when most emergency heat cases happen. Start early, rest in the shade at midday and soak yourself whenever you're near water."
+      },
+      {
+        "type": "paragraph",
+        "text": "Know the warning signs. Heat exhaustion brings fatigue, nausea, vomiting, cool moist skin, headache and cramps: stop hiking, rest in the shade, drink water with electrolytes and eat. Heat stroke, with a flushed face, dry skin, a weak rapid pulse and confusion, is an emergency: cool the person immediately and call for help. Drinking lots of water without enough salt can cause hyponatremia, which looks like heat exhaustion. The treatment is to stop drinking water, eat salty food and rest in the shade."
+      },
+      {
+        "type": "heading",
+        "text": "Water and food"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is no water on the South Kaibab Trail. On the Bright Angel Trail, NPS says water is normally available from May through October at the Mile-and-a-Half and Three-Mile Resthouses, and year-round at Havasupai Gardens, but the pipeline is subject to breaks. Right now the park lists water as off at all three of those stops. Potable water is available in tanks at both trailheads. Carry all the water you need, plus purification tablets, and check water status at the Visitor Center or Backcountry Information Center on the day."
+      },
+      {
+        "type": "paragraph",
+        "text": "Food matters too. NPS says to eat about twice as much as you normally would, favoring salty snacks to balance your water intake."
+      },
+      {
+        "type": "heading",
+        "text": "Going overnight: permits and Phantom Ranch"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you want to reach the river, NPS's answer is to make it an overnight trip. Day hikes, including night-time ones, need no permit, but camping anywhere outside the developed rim campgrounds requires a backcountry permit. Apply through Recreation.gov: an early-access lottery opens on the 16th of the month, four months before your desired start month, and closes at 5 p.m. MST on the 1st. NPS lists a $10 permit or application fee plus $15 per person per night below the rim."
+      },
+      {
+        "type": "paragraph",
+        "text": "Phantom Ranch, at the bottom of the canyon, offers dormitories and cabins, with meals available for purchase. You don't need a backcountry permit to stay there, but you do need advance reservations, made through an online lottery run by Xanterra Parks and Resorts 15 months ahead. Phantom Ranch is closed after the August 2026 flood, so check its status before entering any lottery."
+      },
+      {
+        "type": "heading",
+        "text": "Seasons"
+      },
+      {
+        "type": "paragraph",
+        "text": "Summer brings extreme heat below the rim, and NPS's strongest warnings cover May to September. Summer storms also bring lightning danger. In winter and early spring, the upper trails can be extremely icy. NPS says packed snow and ice is regularly found on the first three miles of the Bright Angel Trail, and the north-facing Chimney at the top of the South Kaibab holds ice all winter. The park recommends over-the-shoe traction devices, hiking poles and a flashlight with spare batteries."
+      },
+      {
+        "type": "heading",
+        "text": "More canyon country"
+      },
+      {
+        "type": "paragraph",
+        "text": "Looking for more big-park hiking? Try Zion or Yosemite."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "zion-national-park",
+        "text": "See Zion National Park, with towering sandstone cliffs and narrow canyons in southern Utah."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "yosemite-national-park",
+        "text": "See Yosemite National Park, with granite walls, waterfalls and giant sequoias in California's Sierra Nevada."
+      },
+      {
+        "type": "paragraph",
+        "text": "Trail closures, water status and heat risk change often. Always check current conditions and regulations with Grand Canyon National Park at nps.gov/grca, and talk to a ranger before any long hike below the rim."
+      }
+    ],
+    "relatedHikes": [
+      "grand-canyon-national-park",
+      "zion-national-park",
+      "yosemite-national-park"
+    ],
+    "sources": [
+      {
+        "title": "NPS Grand Canyon – Key Hiking Messages: critical updates and closures (updated September 28, 2026)",
+        "url": "https://www.nps.gov/grca/planyourvisit/key-messages.htm"
+      },
+      {
+        "title": "NPS Grand Canyon – Day Hiking",
+        "url": "https://www.nps.gov/grca/planyourvisit/day-hiking.htm"
+      },
+      {
+        "title": "NPS – South Kaibab Trail",
+        "url": "https://www.nps.gov/places/000/south-kaibab-trail.htm"
+      },
+      {
+        "title": "NPS – Bright Angel Trail",
+        "url": "https://www.nps.gov/places/000/bright-angel-trail.htm"
+      },
+      {
+        "title": "NPS Grand Canyon – Backcountry Trail Distances",
+        "url": "https://www.nps.gov/grca/planyourvisit/trail-distances.htm"
+      },
+      {
+        "title": "NPS Grand Canyon – Summer Hiking (Hike Smart)",
+        "url": "https://www.nps.gov/grca/planyourvisit/hike-smart.htm"
+      },
+      {
+        "title": "NPS Grand Canyon – Hiking Tips",
+        "url": "https://www.nps.gov/grca/planyourvisit/hike-tips.htm"
+      },
+      {
+        "title": "NPS Grand Canyon – Winter Hiking",
+        "url": "https://www.nps.gov/grca/planyourvisit/winter-recreation.htm"
+      },
+      {
+        "title": "NPS Grand Canyon – Backcountry Permit",
+        "url": "https://www.nps.gov/grca/planyourvisit/backcountry-permit.htm"
+      },
+      {
+        "title": "NPS Grand Canyon – Lodging (Phantom Ranch)",
+        "url": "https://www.nps.gov/grca/planyourvisit/lodging.htm"
+      }
+    ],
+    "gear": [
+      "footwear",
+      "backpacks",
+      "apparel",
+      "socks",
+      "accessories",
+      "jackets",
+      "tents"
+    ]
+  },
+  {
+    "slug": "dolomites-tre-cime-hut-to-hut",
+    "kind": "guide",
+    "status": "draft",
+    "title": "Hiking in the Dolomites: the Tre Cime loop and hut-to-hut basics",
+    "lead": "The classic loop around the Tre Cime di Lavaredo, how the reservation-only toll road works in 2026, what to expect in an Italian rifugio, and a first look at the Alta Via 1, using details published by the local authorities and the Italian Alpine Club (CAI).",
+    "author": "Great Hikes",
+    "date": "2026-10-08",
+    "cover": "tre-cime-di-lavaredo",
+    "readMinutes": 6,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The Dolomites were added to the UNESCO World Heritage List on 26 June 2009, for the beauty of their landscape and their geological importance. The site is a series of nine separate mountain systems, and the Tre Cime di Lavaredo (Drei Zinnen in German) sit in the Northern Dolomites system, on the border between the Veneto region and South Tyrol. Their three towers are probably the most photographed peaks in the range, and walking around them is a great first taste of Dolomites hiking."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide covers the loop itself, how to get to the trailhead under the 2026 rules, how mountain huts (rifugi) work, and the bigger multi-day route many hikers move on to: the Alta Via 1."
+      },
+      {
+        "type": "heading",
+        "text": "The Tre Cime loop"
+      },
+      {
+        "type": "paragraph",
+        "text": "The loop starts at Rifugio Auronzo, on the south side of the peaks. The 3 Zinnen Dolomites tourism board lists the round trip as 8.8 km (about 5.5 miles), around 4 hours of walking, with about 550 m (about 1,800 feet) of ascent and descent. It rates the hike as easy, on well-kept trails."
+      },
+      {
+        "type": "paragraph",
+        "text": "From Rifugio Auronzo, trail no. 101 passes Rifugio Lavaredo and climbs gradually to Forcella Lavaredo (Paternsattel), about an hour from the start. This is where the 500-metre-high north faces of the three peaks come into view. Beyond the saddle the trail dips under Monte Paterno to a fork: one branch climbs easily to Rifugio Locatelli (Dreizinnenhütte), while trail no. 105 heads to the Langalm hut and its lake, then back along the west side of the peaks to the start."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "tre-cime-di-lavaredo",
+        "text": "See the Tre Cime di Lavaredo on the map, with photos of the north faces from our community."
+      },
+      {
+        "type": "heading",
+        "text": "Getting there: the toll road in 2026"
+      },
+      {
+        "type": "paragraph",
+        "text": "The road up from Misurina to the Rifugio Auronzo car park is managed by the Municipality of Auronzo di Cadore. Since summer 2025, cars can only reach the car park with an online reservation made through the official portal, auronzo.info. The portal shows available days and time slots in real time. When booking, you give an email address, a phone number and the license plate of the vehicle."
+      },
+      {
+        "type": "paragraph",
+        "text": "The municipality reopened the road for the 2026 season on 23 May 2026. Its published 2026 rates are €40 per car, €26 per motorcycle and €60 per camper or motorhome. The local tourism consortium says the road is generally open from late May to late October, weather permitting."
+      },
+      {
+        "type": "paragraph",
+        "text": "Prefer not to drive? The tourism board points to the line 444 shuttle bus from Dobbiaco/Toblach via Misurina to Rifugio Auronzo, and the Auronzo-Misurina consortium runs local buses from June. Timetables and booking rules change each season, so check the South Tyrol public transport site (sii.bz.it) and the consortium's website before you go. You can also hike in on foot from the valleys, for example from Landro in the Rienza valley or from the Fischleintal and Innerfeldtal valleys near Sexten and Innichen."
+      },
+      {
+        "type": "heading",
+        "text": "How rifugi work"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rifugi are staffed mountain huts that serve meals and, at many of them, offer beds in shared rooms. Rifugio Auronzo, for example, is run directly by the local CAI section of Auronzo. Huts owned by the Italian Alpine Club follow a common set of rules, and they are a good guide to etiquette across the range."
+      },
+      {
+        "type": "paragraph",
+        "text": "Under the CAI rules, booking a bed is recommended for everyone and required for groups of more than ten. You can book through the hut's own channels (website, phone or email) or the CAI's Prenota Rifugi platform, and a booking only counts once the hut manager confirms it. Unless you agree otherwise, your bed is held until 6 pm on your arrival day, so call ahead if you're running late. The manager may ask for a deposit of up to one night's price."
+      },
+      {
+        "type": "paragraph",
+        "text": "Once you're there, a few house rules apply. Leave your climbing gear in the dedicated room or outside, and take your boots off indoors. A personal sleeping sheet (sacco lenzuolo) is mandatory for overnight stays; ask the manager if you don't have one. Respect quiet hours, keep noise down on early starts, fold your blankets, and carry out all your trash. Smoking, music speakers and drying clothes on heaters are not allowed. CAI members get discounted rates, so if you plan several hut nights in Italy, it may be worth joining CAI or a club with a reciprocal agreement."
+      },
+      {
+        "type": "quote",
+        "text": "Book the road and the beds before anything else, bring a sleeping sheet, and plan to be off high ground before the afternoon storms build.",
+        "cite": "Great Hikes team"
+      },
+      {
+        "type": "heading",
+        "text": "Going further: the Alta Via 1"
+      },
+      {
+        "type": "paragraph",
+        "text": "If the Tre Cime loop leaves you wanting more, the Alta Via 1 is the classic hut-to-hut route through the eastern Dolomites. The CAI describes it as about 125 km (about 78 miles) with around 7,300 m of elevation gain, running from Lago di Braies (Pragser Wildsee) to the city of Belluno in 12 stages. Along the way it links rifugi such as Biella, Fanes, Lagazuoi, Nuvolau, Croda da Lago, Vazzoler, Carestiato, Sommariva, Pian de Fontana and 7° Alpini."
+      },
+      {
+        "type": "paragraph",
+        "text": "The CAI calls the main route not particularly challenging for a good hiker, with fixed aids on the hardest sections. Optional variants add via ferrata sections and summits for more experienced hikers. Plan to book each night in advance and check each hut's opening dates."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "tour-du-mont-blanc",
+        "text": "Like the idea of walking hut to hut? The Tour du Mont Blanc is another classic Alpine circuit."
+      },
+      {
+        "type": "heading",
+        "text": "A note on via ferrata"
+      },
+      {
+        "type": "paragraph",
+        "text": "Many Dolomites routes include via ferrata, protected climbing paths with fixed steel cables and ladders. They are not hiking trails. CAI safety material says you need certified gear and must know how to use it: a climbing helmet, a harness and a via ferrata energy-absorbing set built to the EN 958 standard. Put your helmet on first, because rockfall from climbers above is common. Modern textile absorbers can't be reused after a fall. Avoid via ferrata in rain, snow, wind or when storms threaten. If you're new to it, go with a certified mountain guide."
+      },
+      {
+        "type": "heading",
+        "text": "Weather and thunderstorms"
+      },
+      {
+        "type": "paragraph",
+        "text": "The CAI warns that summer thunderstorms, especially heat-driven ones, are a serious risk in the mountains. In unstable conditions, cumulus clouds can grow quickly through the morning and break into storms in the afternoon. Check a reliable, up-to-date forecast before you set out, start early, and watch the sky. If a storm hits, look for shelter right away and stay clear of isolated trees, exposed rock, ridges and metal objects. The 3 Zinnen tourism board names June to September as the main hiking season, with quieter trails and strong colors in autumn."
+      },
+      {
+        "type": "heading",
+        "text": "More Italian classics"
+      },
+      {
+        "type": "paragraph",
+        "text": "Want to pair the mountains with the sea? The coastal paths between the five villages of the Cinque Terre make a great contrast to a week in the Dolomites."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "cinque-terre-national-park",
+        "text": "Explore Cinque Terre National Park, with cliffside trails between colorful villages on the Ligurian coast."
+      },
+      {
+        "type": "paragraph",
+        "text": "Road reservations, fees, bus timetables, hut opening dates and trail conditions change often. Always check current information with the Municipality of Auronzo di Cadore and auronzo.info, the hut you plan to stay at, and the CAI before you go."
+      }
+    ],
+    "relatedHikes": [
+      "tre-cime-di-lavaredo",
+      "tour-du-mont-blanc",
+      "cinque-terre-national-park"
+    ],
+    "sources": [
+      {
+        "title": "Dolomites UNESCO Foundation – The Dolomites UNESCO World Heritage site",
+        "url": "https://www.dolomitiunesco.info/en/the-dolomites-unesco-world-heritage-site"
+      },
+      {
+        "title": "Dolomites UNESCO Foundation – Rifugio Locatelli in the 'Rifugi delle Dolomiti UNESCO' project (Northern Dolomites system)",
+        "url": "https://www.dolomitiunesco.info/attivita/rifugio-locatelli-dolomiti-unesco"
+      },
+      {
+        "title": "3 Zinnen Dolomites tourism board – Summer walk around the Drei Zinnen/Tre Cime",
+        "url": "https://www.dreizinnen.com/en/activity/summer-walk-around-the-drei-zinnen-tre-cime-three-peaks-_569"
+      },
+      {
+        "title": "3 Zinnen Dolomites tourism board – Three Peaks: hikes, getting there, parking and best time to visit",
+        "url": "https://www.dreizinnen.com/en/region/highlights/three-peaks"
+      },
+      {
+        "title": "Comune di Auronzo di Cadore – Tre Cime di Lavaredo (incl. 2026 parking tariffs PDF)",
+        "url": "https://www.comune.auronzo.bl.it/it/page/tre-cime-di-lavaredo"
+      },
+      {
+        "title": "Comune di Auronzo di Cadore – Riapertura della strada delle Tre Cime di Lavaredo (22 May 2026)",
+        "url": "https://www.comune.auronzo.bl.it/it/news/apertura-strada-delle-tre-cime-di-lavaredo-370c1459-3e11-47ca-9ac4-f603b8628ed6"
+      },
+      {
+        "title": "Consorzio Turistico Tre Cime Dolomiti – Tre Cime di Lavaredo (road reservation, season, buses)",
+        "url": "https://auronzomisurina.it/tre-cime/"
+      },
+      {
+        "title": "Rifugio Auronzo – official site",
+        "url": "https://rifugioauronzo.it/en/"
+      },
+      {
+        "title": "CAI – Regolamento strutture ricettive del Club Alpino Italiano (hut booking and house rules)",
+        "url": "https://www.cai.it/wp-content/uploads/2024/08/Regolamento-strutture-ricettive-del-Club-Alpino-Italiano-20201.pdf"
+      },
+      {
+        "title": "CAI – Circolare n. 15/2025, Tariffario Rifugi 2026",
+        "url": "https://www.cai.it/wp-content/uploads/2025/10/15-2025-Circolare-Tariffario-rifugi-2026_signed.pdf"
+      },
+      {
+        "title": "CAI Prenota Rifugi – High Way No. 1 Dolomiti (Alta Via 1)",
+        "url": "https://www.prenotarifugi.cai.it/en/itinerario/high-way-no-1-dolomiti/"
+      },
+      {
+        "title": "Cortina d'Ampezzo tourism – Alta Via n. 1 stages and huts",
+        "url": "https://cortina.dolomiti.org/en/summer/what-to-do/activities/trekking/alta-via-n-1/"
+      },
+      {
+        "title": "CAI Prenota Rifugi – Maltempo in montagna: rischi e raccomandazioni",
+        "url": "https://www.prenotarifugi.cai.it/maltempo-in-montagna-rischi-e-raccomandazioni/"
+      },
+      {
+        "title": "CAI / CNSAS Sicuri in Montagna – Sicuri in ferrata",
+        "url": "http://www.sicurinmontagna.it/media/download/pdf/190/sicuri-in-ferrata-5100.pdf"
+      },
+      {
+        "title": "CAI Lo Scarpone – Set da ferrata: novità tecniche e raccomandazioni sul corretto utilizzo",
+        "url": "https://www.loscarpone.cai.it/dettaglio/set-da-ferrata-novita-tecniche-e-raccomandazioni-sul-corretto-utilizzo/"
+      }
+    ],
+    "gear": [
+      "footwear",
+      "jackets",
+      "backpacks",
+      "apparel",
+      "socks",
+      "climbing",
+      "accessories"
+    ]
+  },
+  {
+    "slug": "best-lake-hikes-banff",
+    "kind": "guide",
+    "status": "draft",
+    "title": "The best lake hikes in Banff",
+    "lead": "Turquoise water, tea houses and larch forests: the best lake hikes around Lake Louise, Moraine Lake and Banff, with Parks Canada's distances, the 2026 shuttle and parking rules, and bear safety.",
+    "author": "Great Hikes",
+    "date": "2026-10-08",
+    "cover": "banff-national-park",
+    "readMinutes": 6,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Banff National Park is famous for its lakes: milky turquoise water under glaciers, ringed by trails that range from flat shoreline walks to steep climbs into larch forest. All distances, elevations and times come from Parks Canada's Banff trail descriptions, and all transport and parking details come from Parks Canada's 2026 visitor information."
+      },
+      {
+        "type": "paragraph",
+        "text": "Parks Canada lists distances one way unless a trail is a loop, and times as round trips; we've added rough miles and feet."
+      },
+      {
+        "type": "heading",
+        "text": "Lake Louise: Lake Agnes and the Plain of Six Glaciers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Both of Lake Louise's classic hikes start at the Lake Louise Lakeshore parking lot, 4 km from the community of Lake Louise. If you only want a gentle walk, the Lake Louise Lakeshore Trail runs 2.3 km (about 1.4 miles) one way to the far end of the lake, where you'll see the milky creek that gives the water its colour. Parks Canada estimates about an hour round trip."
+      },
+      {
+        "type": "paragraph",
+        "text": "Lake Agnes Trail: 3.9 km (about 2.4 miles) one way, 495 m (about 1,620 feet) of elevation gain, 2.5 to 3 hours round trip. A well-maintained trail climbs to a lake tucked under towering peaks, with a seasonal European-style tea house. From Lake Agnes you can add the Big Beehive (1.5 km one way, 150 m gain) for a panorama of Lake Louise and the Chateau, or the Little Beehive (0.9 km one way, 65 m gain), a former fire lookout site with views of the Bow Valley."
+      },
+      {
+        "type": "paragraph",
+        "text": "Plain of Six Glaciers Trail: 5.9 km (about 3.7 miles) one way, 595 m (about 1,950 feet) of gain, about 4 hours round trip. It runs beyond the end of Lake Louise toward big peaks and glaciers, and also has a seasonal Swiss-built tea house. Feeling strong? Parks Canada notes you can link Lake Agnes and the Plain of Six Glaciers via the Highline Trail into a 14.3 km (about 8.9 mile) loop of around 5 hours."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "banff-national-park",
+        "text": "See Banff National Park on the map, with photos of its lakes and peaks from our community."
+      },
+      {
+        "type": "heading",
+        "text": "Moraine Lake: Rockpile, Consolation Lakes and Larch Valley"
+      },
+      {
+        "type": "paragraph",
+        "text": "Moraine Lake sits in the Valley of the Ten Peaks. For the famous view, the Rockpile Loop is a 0.7 km (about 0.4 mile) loop with 35 m of gain, about 30 minutes. Parks Canada asks visitors to stay safe and not climb on the rocks. The Moraine Lake Lakeshore Trail is an easy 1.3 km (about 0.8 mile) stroll with views of Mount Fay and the Fay Glacier, about 45 minutes round trip."
+      },
+      {
+        "type": "paragraph",
+        "text": "Consolation Lakes Trail: 2.9 km (about 1.8 miles) one way, 135 m of gain, about 2 hours round trip, with views of alpine meadows, scree slopes and the Quadra Glacier."
+      },
+      {
+        "type": "paragraph",
+        "text": "Larch Valley/Minnestimma Lakes Trail: 4.5 km (about 2.8 miles) one way, 570 m (about 1,870 feet) of gain, 3.5 to 4 hours round trip, climbing into a larch forest high above the lake with views of the Ten Peaks. From there, Sentinel Pass via Larch Valley is a difficult 5.6 km (about 3.5 miles) one way with 750 m (about 2,460 feet) of gain and steep switchbacks, 4.5 to 5.5 hours round trip."
+      },
+      {
+        "type": "quote",
+        "text": "Book the shuttle first, pick the hike second, and carry bear spray on your hip, not in your pack.",
+        "cite": "Great Hikes team"
+      },
+      {
+        "type": "heading",
+        "text": "Getting to the lakes: shuttles and parking in 2026"
+      },
+      {
+        "type": "paragraph",
+        "text": "Moraine Lake Road is closed to personal vehicles year-round. You can reach Moraine Lake only by Parks Canada shuttle, Roam public transit connections or a licensed commercial operator; registered guests of Moraine Lake Lodge are the exception. In 2026, Parks Canada shuttles ran to Lake Louise Lakeshore from May 15 and to Moraine Lake from June 1 (weather permitting), both until October 12, with a Lake Connector shuttle between the two lakes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Shuttle reservations opened at 8 am MT on April 15, 2026, with 40% of seats released then. The other 60% are released on a rolling basis at 8 am MT two days (48 hours) before each departure. Book online or at 1-877-737-3783. Regular shuttles leave the Lake Louise Park and Ride at the Lake Louise Ski Resort (1 Whitehorn Road) (free parking with a reservation) every 30 minutes from 6:30 am to 5 pm; the last return is at 7:30 pm. Parks Canada lists 2026 fares of CA$12.75 per adult, CA$6.00 for seniors and CA$4.00 for youth, plus a non-refundable reservation fee (CA$3.50 online, CA$5.50 by phone). Early starters can book the Alpine Start shuttle, which leaves from the upper Lake Louise Lakeshore lot at 4 am and 5 am; reserve by 3 pm the day before and pay for parking there."
+      },
+      {
+        "type": "paragraph",
+        "text": "Driving to Lake Louise? Paid parking is in effect at Lake Louise Lakeshore during the shuttle season, 3 am to 7 pm, at a 2026 day rate of CA$42 per vehicle, payable on site only. Parks Canada warns the lot often fills before sunrise, and you may be turned around when traffic is too heavy. Vehicles longer than 6 m (20 feet) or wider than 2 m (79 inches) can't park there."
+      },
+      {
+        "type": "heading",
+        "text": "Near the town of Banff: Johnson Lake"
+      },
+      {
+        "type": "paragraph",
+        "text": "Johnson Lake Loop: a 2.9 km (about 1.8 mile) loop with 90 m of gain, about an hour. It is a rolling circuit with views of Cascade Mountain and Mount Rundle, passing some of Alberta's oldest Douglas fir trees. The trailhead is at the Johnson Lake Day-use Area, 12 km east of Banff off Lake Minnewanka Road, and Roam Route 6 serves it in summer."
+      },
+      {
+        "type": "heading",
+        "text": "Bear safety"
+      },
+      {
+        "type": "paragraph",
+        "text": "Banff is grizzly and black bear country. Parks Canada's advice on trails is to travel in tight groups of four or more, stay alert, make noise, carry bear spray and know how to use it. Keep the spray in a holster you can reach with your dominant hand, not in your pack, and check the expiry date. Parks Canada calls it a last resort for a bear acting aggressively at close range. Bear spray is not allowed on commercial airlines, even in checked baggage, so buy it after you arrive."
+      },
+      {
+        "type": "paragraph",
+        "text": "Moraine Lake area trails are among those where Parks Canada routinely uses seasonal access restrictions. Group Access requires a tight group of at least four hikers, close enough that the person in front can comfortably talk to the person at the back. Ignoring a restriction can bring charges under the National Parks Regulations, with a maximum fine of CA$25,000."
+      },
+      {
+        "type": "heading",
+        "text": "When to go"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mountain weather changes quickly, and Parks Canada notes it can snow in any month. Parks Canada warns that the moderate and difficult Lake Louise and Moraine Lake area trails, including Lake Agnes, the Plain of Six Glaciers and Larch Valley, are exposed to avalanche hazard, and travel is not recommended from mid-October to mid-June. Pack layers, a rain jacket and hiking poles, plus ice cleats for icy trails. Cell coverage is not reliable, so consider a satellite messenger."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "yosemite-national-park",
+        "text": "Love granite, waterfalls and big-wall views too? Explore Yosemite National Park from our community."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "glacier-national-park",
+        "text": "Just south of the border, Glacier National Park has the same lake-and-peak drama on the Highline Trail."
+      },
+      {
+        "type": "paragraph",
+        "text": "Trail conditions, closures, bear restrictions, shuttle dates and fees change often. Always check current trail conditions, important bulletins and regulations with Parks Canada at parks.canada.ca/banff before you go."
+      }
+    ],
+    "relatedHikes": [
+      "banff-national-park",
+      "yosemite-national-park",
+      "glacier-national-park"
+    ],
+    "sources": [
+      {
+        "title": "Parks Canada – Hiking, Banff National Park (trail distances, elevation, times, safety)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/activ/randonnee-hiking"
+      },
+      {
+        "title": "Parks Canada – Visiting Lake Louise and Moraine Lake (2026 shuttles)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise"
+      },
+      {
+        "title": "Parks Canada – Lake Louise shuttle and parking FAQ",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise/faq"
+      },
+      {
+        "title": "Parks Canada – Parking in the Lake Louise area",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise/renseignements-sur-le-stationnement-parking-information"
+      },
+      {
+        "title": "Parks Canada – Banff National Park fees",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/tarifs-fees"
+      },
+      {
+        "title": "Parks Canada – Seasonal closures and restrictions, Banff",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/fermetures-closures"
+      },
+      {
+        "title": "Parks Canada – Trail conditions, Banff",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/activ/randonnee-hiking/etat-sentiers-trail-conditions"
+      },
+      {
+        "title": "Parks Canada – Bear spray (mountain national parks)",
+        "url": "https://parks.canada.ca/pn-np/mtn/ours-bears/securite-safety/gaz-spray"
+      },
+      {
+        "title": "Parks Canada – Protecting bear zones (Group Access, seasonal restrictions)",
+        "url": "https://parks.canada.ca/pn-np/mtn/ours-bears/gestion-management/ours-bears"
+      },
+      {
+        "title": "Parks Canada – Important bulletins, Banff",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/bulletins"
+      }
+    ],
+    "gear": [
+      "footwear",
+      "jackets",
+      "backpacks",
+      "apparel",
+      "socks",
+      "accessories"
+    ]
+  },
+  {
+    "slug": "best-day-hikes-glacier-national-park",
+    "kind": "guide",
+    "status": "draft",
+    "title": "Glacier National Park's best day hikes, from the Highline Trail to Grinnell Glacier",
+    "lead": "Six classic day hikes in Montana's Glacier National Park, with official trail figures, the 2026 Logan Pass shuttle and parking rules, and the bear safety basics every hiker needs, straight from the National Park Service.",
+    "author": "Great Hikes",
+    "date": "2026-10-08",
+    "cover": "glacier-national-park",
+    "readMinutes": 5,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Glacier National Park in northwest Montana is a place of jagged peaks, turquoise lakes, wildflower meadows and, yes, glaciers. Much of its best scenery sits right off Going-to-the-Sun Road or in valleys like Many Glacier and Two Medicine, which makes it one of the great day-hiking parks in North America."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are six classic day hikes, with distances and elevation figures as the National Park Service (NPS) publishes them, plus how access works in 2026. One big change first: the park has moved away from vehicle reservations and toward a ticketed shuttle and timed parking at Logan Pass."
+      },
+      {
+        "type": "heading",
+        "text": "Getting in: 2026 access rules"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vehicle reservations are not required in 2026. The NPS says they will not be required at Many Glacier, Two Medicine, the North Fork or on Going-to-the-Sun Road. The park notes that temporary diversions may happen when areas reach capacity, and that visitors with lodging, camping or tour reservations get entry priority."
+      },
+      {
+        "type": "paragraph",
+        "text": "Logan Pass is where things are different. From July 1 through Labor Day (September 7, 2026), private vehicle parking at Logan Pass is limited to three hours, enforced 24 hours a day. After parking, you take a free, timestamped permit from the kiosk and put it on your dashboard. Overnight parking is not allowed, except for permitted backcountry users and Granite Park Chalet guests. The NPS says three hours should be enough for the Hidden Lake Overlook, but Highline Trail hikers will need a shuttle ticket."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Logan Pass Shuttle runs over the same dates. A $1 ticket is required for each person over 2 years old, and tickets are sold only on Recreation.gov or by phone at 877-444-6777, not in the park. Tickets open 60 days in advance at 8 a.m. MDT (starting May 2), with more released at 7 p.m. MDT the night before (starting June 30). West-side shuttles board at the Apgar Visitor Center and Lake McDonald Lodge; east-side shuttles board at the St. Mary Visitor Center and Rising Sun Picnic Area. Note that Avalanche Lake and Trail of the Cedars are not accessible by park shuttle in 2026."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "glacier-national-park",
+        "text": "Explore Glacier National Park on the map and see photos from our community."
+      },
+      {
+        "type": "heading",
+        "text": "1. Highline Trail"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Highline is Glacier's signature hike. It starts across Going-to-the-Sun Road from the Continental Divide sign near the Logan Pass parking lot and usually ends at The Loop. The NPS lists it at 11.8 miles (19 km) one way, with 2,388 ft (728 m) of gain and 4,773 ft (1,455 m) of loss. Optional side trips lead to Grinnell Glacier Overlook, Swiftcurrent Lookout and Granite Park Chalet, which change the totals."
+      },
+      {
+        "type": "paragraph",
+        "text": "The NPS warns that much of the trail is exposed, which means a higher risk of falling and of being caught by bad weather. Because it's a point-to-point hike, plan your return: the shuttle stops at The Loop in both directions, with afternoon pickups roughly every 60 to 90 minutes. The park says there is no other public transportation back from Logan Pass if you miss the last shuttle."
+      },
+      {
+        "type": "heading",
+        "text": "2. Hidden Lake Overlook"
+      },
+      {
+        "type": "paragraph",
+        "text": "Also starting at Logan Pass, this is the best short hike on the road. The NPS lists the overlook at 1.3 miles (2.1 km) one way with 608 ft (185 m) of gain, on a mix of wooden boardwalk and packed soil. Continuing down to Hidden Lake itself makes it 2.5 miles (4 km) one way with 639 ft (195 m) of gain. It fits inside the three-hour parking window."
+      },
+      {
+        "type": "heading",
+        "text": "3. Avalanche Lake"
+      },
+      {
+        "type": "paragraph",
+        "text": "On the west side of Going-to-the-Sun Road, Avalanche Lake starts off the Trail of the Cedars near the Avalanche Picnic Area. The NPS lists it at 2.3 miles (3.7 km) one way, with 741 ft (226 m) of gain and 275 ft (84 m) of loss, climbing through old-growth forest to an alpine lake with waterfalls pouring in. It's very popular, and since the shuttle doesn't serve it in 2026, plan to drive and arrive early."
+      },
+      {
+        "type": "heading",
+        "text": "4. Grinnell Glacier"
+      },
+      {
+        "type": "paragraph",
+        "text": "In the Many Glacier valley, this is the hike that takes you closest to one of the park's namesake glaciers. From the Grinnell Glacier Trailhead, the NPS lists the viewpoint at 5.0 miles (8.0 km) one way, with 2,596 ft (791 m) of gain and 1,015 ft (309 m) of loss. You can shorten it by booking concessioner boat tickets from Many Glacier Hotel, which drop you 1.3 miles (2.1 km) closer: 3.7 miles (6.0 km) one way, with 2,461 ft (750 m) of gain. Expect wildflowers, big views and a mostly exposed trail."
+      },
+      {
+        "type": "heading",
+        "text": "5. Iceberg Lake"
+      },
+      {
+        "type": "paragraph",
+        "text": "Also in Many Glacier, Iceberg Lake starts at the Iceberg-Ptarmigan Trailhead behind the Swiftcurrent Motor Inn. The NPS lists it at 4.8 miles (7.7 km) one way, with 1,765 ft (538 m) of gain and 624 ft (190 m) of loss, ending at a turquoise lake known for its ice floes."
+      },
+      {
+        "type": "heading",
+        "text": "6. Scenic Point"
+      },
+      {
+        "type": "paragraph",
+        "text": "For a quieter corner of the park, head to Two Medicine. The Scenic Point Trailhead is 0.3 miles (0.5 km) east of the Two Medicine Ranger Station, and the NPS lists the hike at 3.8 miles (6.1 km) one way with 2,259 ft (689 m) of gain. It's a steady, mostly exposed climb, so bring sun protection and a wind layer."
+      },
+      {
+        "type": "quote",
+        "text": "Carry bear spray, make noise, and know how you're getting back before you set out.",
+        "cite": "Great Hikes team"
+      },
+      {
+        "type": "heading",
+        "text": "Bear safety"
+      },
+      {
+        "type": "paragraph",
+        "text": "Glacier is grizzly and black bear country. The NPS calls bear spray the most effective deterrent and says hiking in groups significantly lowers your chances of a bad encounter. Bear bells aren't enough: calling out and clapping at regular intervals works better. It is prohibited to approach, view or do any activity within 100 yards (91 m) of bears or wolves. If you meet a bear, don't run; back away slowly. All food, containers, cookware and trash must be stored in a vehicle, a food locker or hung when not in use, day and night."
+      },
+      {
+        "type": "heading",
+        "text": "When to go"
+      },
+      {
+        "type": "paragraph",
+        "text": "Glacier's hiking season is short. The NPS says Going-to-the-Sun Road has typically been fully open by early July, depending on snow; in 2026 it was expected to open on June 22. It typically stays fully open until the third Monday of October, weather permitting. The full road is about 50 miles and takes around 2 hours to drive. Between Avalanche Creek and Rising Sun, vehicles longer than 21 feet (including bumpers) or wider than 8 feet (including mirrors) are prohibited."
+      },
+      {
+        "type": "heading",
+        "text": "More mountain hikes"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you're heading north across the border, Banff National Park in the Canadian Rockies is another classic day-hiking destination with glaciers, lakes and big peaks."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "banff-national-park",
+        "text": "See Banff National Park, with glacier-fed lakes and peaks of the Canadian Rockies."
+      },
+      {
+        "type": "paragraph",
+        "text": "Trail closures (including for bear activity), snow, road status and shuttle details change often. Always check current conditions and regulations with the National Park Service at nps.gov/glac before you go."
+      }
+    ],
+    "relatedHikes": [
+      "glacier-national-park",
+      "banff-national-park"
+    ],
+    "sources": [
+      {
+        "title": "NPS – Vehicle Reservations in 2026",
+        "url": "https://www.nps.gov/glac/planyourvisit/vehicle-reservations.htm"
+      },
+      {
+        "title": "NPS – Visiting Logan Pass in 2026",
+        "url": "https://www.nps.gov/glac/planyourvisit/visiting-loganpass-2026.htm"
+      },
+      {
+        "title": "NPS – Logan Pass Shuttle Service 2026",
+        "url": "https://www.nps.gov/glac/planyourvisit/shuttle-service-2026.htm"
+      },
+      {
+        "title": "NPS news – Glacier National Park Announces 2026 Summer Operations",
+        "url": "https://www.nps.gov/glac/learn/news/glacier-national-park-announces-2026-summer-operations.htm"
+      },
+      {
+        "title": "NPS news – Going-to-the-Sun Road Projected to Open Monday, June 22",
+        "url": "https://www.nps.gov/glac/learn/news/going-to-the-sun-road-projected-to-open-monday-june-22.htm"
+      },
+      {
+        "title": "NPS – Going-to-the-Sun Road information",
+        "url": "https://www.nps.gov/glac/planyourvisit/gtsrinfo.htm"
+      },
+      {
+        "title": "NPS – Highline Trailhead",
+        "url": "https://www.nps.gov/places/highline-trailhead.htm"
+      },
+      {
+        "title": "NPS – Hidden Lake Trailhead",
+        "url": "https://www.nps.gov/places/hidden-lake-trailhead.htm"
+      },
+      {
+        "title": "NPS – Avalanche Lake Trail",
+        "url": "https://www.nps.gov/places/avalanche-lake-trail.htm"
+      },
+      {
+        "title": "NPS – Grinnell Glacier Trailhead",
+        "url": "https://www.nps.gov/places/grinnell-glacier-trailhead.htm"
+      },
+      {
+        "title": "NPS – Iceberg Lake Trailhead",
+        "url": "https://www.nps.gov/places/iceberg-lake-trailhead.htm"
+      },
+      {
+        "title": "NPS – Scenic Point",
+        "url": "https://www.nps.gov/places/scenic-point.htm"
+      },
+      {
+        "title": "NPS – Bear Safety, Glacier National Park",
+        "url": "https://www.nps.gov/glac/planyourvisit/bears.htm"
+      }
+    ],
+    "gear": [
+      "footwear",
+      "backpacks",
+      "jackets",
+      "socks",
+      "apparel",
+      "accessories"
+    ]
+  },
+  {
+    "slug": "annapurna-when-to-go-permits",
+    "kind": "guide",
+    "status": "draft",
+    "title": "Trekking in the Annapurna region: when to go, permits and choosing your trek",
+    "lead": "Seasons and the monsoon, the ACAP permit and TIMS card, the licensed-guide rule for foreign trekkers, and how the Circuit, Base Camp, Mardi Himal and Poon Hill compare, using official Nepali sources and CDC altitude guidance.",
+    "author": "Great Hikes",
+    "date": "2026-10-08",
+    "cover": "annapurna-circuit",
+    "readMinutes": 5,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The Annapurna Conservation Area in central Nepal is one of the world's great trekking regions. The National Trust for Nature Conservation (NTNC) launched the Annapurna Conservation Area Project (ACAP) in 1986. It covers 7,629 sq km and is the largest protected area in Nepal. It is also home to more than 100,000 people from many cultural and linguistic groups, so most treks here pass through villages as well as forests and high mountain country."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pokhara, about 200 km west of Kathmandu, is the starting point for most Annapurna treks. Here's how to pick your season, sort out permits and choose a route, with every detail taken from official sources."
+      },
+      {
+        "type": "heading",
+        "text": "When to go: seasons and the monsoon"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Nepal Tourism Board (NTB) lists March to May and September to November as the best months for the Annapurna Conservation Area. Autumn, after the monsoon, usually brings the clearest skies and the best mountain views. Spring is rhododendron season, when the hillsides flower. NTB also notes that spring can bring seasonal rain and snowstorms."
+      },
+      {
+        "type": "paragraph",
+        "text": "The summer monsoon is the season most trekkers avoid. NTB warns that rain-soaked trails get slippery, so the monsoon is a poor time for trekking. Nepal's Department of Hydrology and Meteorology gives 13 June and 2 October as the normal monsoon onset and withdrawal dates in eastern Nepal, about 112 days in all. Real years vary a lot. In 2025 the monsoon arrived on 29 May and didn't withdraw until 10 October. NTB notes that monsoon treks usually head to the drier rain-shadow areas of Manang and Mustang."
+      },
+      {
+        "type": "paragraph",
+        "text": "Winter is colder, with shorter days. NTB says heavier snowfall can sometimes close high passes. That matters on the Annapurna Circuit, which crosses one of the highest trekking passes in Nepal."
+      },
+      {
+        "type": "heading",
+        "text": "Permits: the ACAP entry permit and the TIMS card"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every Annapurna trek needs two documents. The first is the Annapurna Conservation Area entry permit, issued by NTNC. You can apply and pay online through NTNC's e-permit portal or get it at a permit counter. NTNC charges double the fee for permits issued at check-posts on the trail, so sort yours out before you set off. Each permit is valid for a single entry, and children under 10 don't need one. NTNC gets no regular government funding to run ACAP, and the entry fees are reinvested in the region and its communities."
+      },
+      {
+        "type": "paragraph",
+        "text": "The second is a TIMS (Trekkers' Information Management System) card. Under NTB's revised TIMS rules, in effect since 31 March 2023, the TIMS card for these routes is issued through a government-registered trekking agency. NTB lists the fee as NPR 2,000 for most foreign nationals and NPR 1,000 for citizens of South Asian (SAARC) countries. Upper Mustang is a restricted area and also needs a special trekking permit from the Department of Immigration."
+      },
+      {
+        "type": "heading",
+        "text": "The licensed-guide rule"
+      },
+      {
+        "type": "paragraph",
+        "text": "Since the 2023 change, NTB says foreign trekkers on specified routes in protected areas must be accompanied by a licensed trekking guide and carry an agency-issued TIMS card. In the Annapurna region, NTB names the Annapurna Circuit, the Nar Phu and Mesokanto/Tilicho Pass variations, the Poon Hill and Annapurna Base Camp trek, Khopra, Mardi Himal and Sikleh Tara Hill. In practice, you book your trek through a registered agency, and the agency arranges your guide and TIMS card. Rules here have changed more than once, so confirm the current requirement with NTB before you book."
+      },
+      {
+        "type": "heading",
+        "text": "Choosing your trek"
+      },
+      {
+        "type": "paragraph",
+        "text": "Annapurna Circuit. The classic loop around the Annapurna massif. NTB says it takes about three weeks at minimum to go all the way around. It usually runs counter-clockwise from Besi Sahar, off the Pokhara–Kathmandu highway. The route climbs through the Manang valley, crosses Thorong La at 5,416 m (about 17,770 feet) and drops to the pilgrimage town of Muktinath at 3,749 m (about 12,300 feet). It is the longest and highest of these options, so it needs the most time to acclimatize."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "annapurna-circuit",
+        "text": "See the Annapurna Circuit on our map, with route details and photos from the trail over Thorong La."
+      },
+      {
+        "type": "paragraph",
+        "text": "Annapurna Base Camp (ABC). This trek heads into the Annapurna Sanctuary, an amphitheater of peaks that includes Annapurna I (8,091 m), Machhapuchhre (Fishtail) and Hiunchuli. NTB puts the base camp at 4,130 m (about 13,550 feet). Many trekkers combine it with Poon Hill."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mardi Himal. NTB calls this route, opened in 2012, a quieter alternative. It climbs to Mardi Himal Base Camp at 4,500 m (about 14,760 feet), with close-up views of Machhapuchhre and the Annapurna range."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ghorepani Poon Hill. NTB describes it as one of Nepal's most popular short treks and a good choice for beginners and families. The highlight is sunrise from Poon Hill at 3,210 m (about 10,530 feet), with Annapurna and Dhaulagiri lit up in gold. NTB notes that the Annapurna region offers short treks of around three days, so it suits a tighter schedule."
+      },
+      {
+        "type": "quote",
+        "text": "Pick your trek by the days you can give it, not the summit you want to photograph. Altitude doesn't care about your flight home.",
+        "cite": "Great Hikes team"
+      },
+      {
+        "type": "heading",
+        "text": "Altitude safety"
+      },
+      {
+        "type": "paragraph",
+        "text": "Three of these four treks go well above 4,000 m, and altitude illness is the biggest health risk. The U.S. Centers for Disease Control and Prevention (CDC) recommends that once you are above 3,000 m (9,800 feet), you raise your sleeping altitude by no more than 500 m (1,650 feet) a night. CDC also advises an extra night to acclimatize for every 1,000 m (3,300 feet) of sleeping altitude you gain. Build those rest days into your itinerary before you book, especially for the Circuit."
+      },
+      {
+        "type": "paragraph",
+        "text": "According to CDC, headache is the main symptom of acute mountain sickness, usually with one or more of loss of appetite, dizziness, fatigue or nausea. Confusion, loss of coordination or unusual drowsiness can signal high-altitude cerebral edema (HACE). A cough and breathlessness that gets worse, even at rest, can signal high-altitude pulmonary edema (HAPE). CDC's rules are clear: never go up to sleep at a higher altitude while you have symptoms, and descend if they get worse despite rest. CDC also covers preventive medication such as acetazolamide, so talk to a travel-medicine doctor before your trip."
+      },
+      {
+        "type": "hikeCard",
+        "slug": "everest-base-camp",
+        "text": "The Everest region is the other classic Nepal trek — see our Everest Base Camp page for permits and the route from Lukla."
+      },
+      {
+        "type": "paragraph",
+        "text": "Trail conditions, permit rules, fees and weather in the Himalaya change often. Before you go, check current regulations and trail status with the Nepal Tourism Board (ntb.gov.np) and NTNC (epermit.ntnc.org.np), and check the latest health guidance with CDC."
+      }
+    ],
+    "relatedHikes": [
+      "annapurna-circuit",
+      "everest-base-camp"
+    ],
+    "sources": [
+      {
+        "title": "NTNC – Annapurna Conservation Area Project (ACAP)",
+        "url": "https://ntnc.org.np/project/annapurna-conservation-area-project-acap"
+      },
+      {
+        "title": "NTNC – Online entry permit portal (ACAP, MCAP)",
+        "url": "https://epermit.ntnc.org.np/"
+      },
+      {
+        "title": "Nepal Tourism Board – TIMS Card (revised provision, guide requirement, routes, fees)",
+        "url": "https://ntb.gov.np/plan-your-trip/before-you-come/tims-card"
+      },
+      {
+        "title": "Nepal Tourism Board – Annapurna Conservation Area (best season, access)",
+        "url": "https://ntb.gov.np/en/annapurna-conservation-area"
+      },
+      {
+        "title": "Nepal Tourism Board (trade) – Annapurna Region (Circuit, Thorong La, Muktinath, Pokhara, permits)",
+        "url": "https://trade.ntb.gov.np/tourist-destination/annapurna-region/"
+      },
+      {
+        "title": "Nepal Tourism Board – Top trekking destinations in Nepal (ABC, Mardi Himal, Poon Hill)",
+        "url": "https://ntb.gov.np/en/top-trekking-destination-in-nepal-for-the-ultimate-himalayan-experience"
+      },
+      {
+        "title": "Nepal Tourism Board – Go trekking in the Annapurna region",
+        "url": "https://ntb.gov.np/annapurnaregion"
+      },
+      {
+        "title": "Nepal Tourism Board – Trekking (seasons)",
+        "url": "https://ntb.gov.np/en/things-to-do/trekking"
+      },
+      {
+        "title": "Nepal Tourism Board – Trekking (French edition: monsoon trails, winter pass closures)",
+        "url": "https://ntb.gov.np/fr/things-to-do/trekking"
+      },
+      {
+        "title": "Department of Hydrology and Meteorology, Nepal – Monsoon onset and withdrawal date information (2025)",
+        "url": "https://dhm.gov.np/uploads/dhm/climateService/1777966598_255c8bb3c67df349af0e.pdf"
+      },
+      {
+        "title": "CDC Yellow Book – High-altitude travel and altitude illness",
+        "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html"
+      }
+    ],
+    "gear": [
+      "jackets",
+      "footwear",
+      "socks",
+      "apparel",
+      "backpacks",
+      "accessories"
+    ]
+  },
+  {
     "slug": "planning-the-w-trek-torres-del-paine",
     "kind": "guide",
     "status": "published",
