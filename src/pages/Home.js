@@ -29,6 +29,12 @@ export default function Home() {
           >
             Let's Hike!
           </button>
+          <button
+            className="btn btn-outline-light rounded-pill more-info"
+            onClick={() => navigate("/community")}
+          >
+            From the community
+          </button>
         </div>
       </div>
     </div>

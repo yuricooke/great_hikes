@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Hikes from './pages/Hikes'
 import HikeDetails from './pages/HikeDetails'
+import Community from './pages/Community'
 
 
 
@@ -16,6 +17,7 @@ export default function App() {
           <Route path='/' element={<Home />}></Route>
           <Route path='/Hikes' element={<Hikes />}></Route>
           <Route path='/Hikes/:id' element={<HikeDetails />}></Route>
+          <Route path='/community' element={<Community />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
