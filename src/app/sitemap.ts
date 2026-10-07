@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: SITE_URL, changeFrequency: "weekly", priority: 1 },
     { url: `${SITE_URL}/hikes`, changeFrequency: "weekly", priority: 0.9 },
-    ...["/search", "/journal", "/shop", "/our-feed", "/community"].map((path) => ({
+    ...["/map", "/search", "/journal", "/shop", "/our-feed", "/community"].map((path) => ({
       url: `${SITE_URL}${path}`,
       changeFrequency: "weekly" as const,
       priority: 0.7,

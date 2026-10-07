@@ -15,6 +15,7 @@ type Item = { label: string; href: string; icon: IconName; external?: boolean; m
 /** Shown in the top bar on wide screens and in the menu card everywhere. */
 const PRIMARY: Item[] = [
   { label: "Hikes", href: "/hikes", icon: "hiking", match: ["/hikes", "/explore"] },
+  { label: "Map", href: "/map", icon: "map" },
   { label: "Search", href: "/search", icon: "search" },
   { label: "Journal", href: "/journal", icon: "stories" },
   { label: "Shop", href: "/shop", icon: "shoppingBag" },

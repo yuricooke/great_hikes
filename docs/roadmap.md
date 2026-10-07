@@ -35,7 +35,7 @@ Each row is one Spec Kit feature (`specs/NNN-name/`). Discovery behind the order
 | 010 | Community submissions (O-4) | "Share your hike" with contributor license, moderation, contributor profiles | Planned |
 | 011 | Instagram curation agents (O-2) | AI-prepared approval inbox | Paused by owner |
 | 013 | AI trail finder (O-3, O-4) | "Describe the hike you want" → grounded suggestions from our data (Claude Haiku) | Specified — needs API key decision |
-| 014 | Map explore (O-3, O-1) | /map: pins, trail lines, filters, synced list | Specified — build later |
+| 014 | Map explore (O-3, O-1) | /map: pins, trail lines, filters, synced list | ✅ Built |
 | 012 | International relaunch | Languages and per-country affiliates (Spain, France, Greece, Brazil, Turkey, Thailand…) | Later |
 
 **Launch gate:** no fixed date. Launch when specs 001–006 are live and the go-to-market
