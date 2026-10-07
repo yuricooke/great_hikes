@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Exo_2, Mukta } from "next/font/google";
 
 import AuthProvider from "@/components/Auth/AuthProvider";
+import Footer from "@/components/Footer/Footer";
 import Menu from "@/components/Menu/Menu";
 import { DEMO_AUTH } from "@/lib/flags";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -41,6 +42,7 @@ export default function RootLayout({
           <main id="main" className="page">
             {children}
           </main>
+          <Footer />
           {modal}
         </AuthProvider>
       </body>

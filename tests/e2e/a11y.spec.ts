@@ -33,15 +33,22 @@ for (const url of PAGES) {
   });
 }
 
-test("V7 floating menu opens a card with every section; Escape closes it", async ({ page }) => {
+test("V7 menu: every section reachable once; card holds what the bar doesn't; Escape closes", async ({ page, isMobile }) => {
   await page.goto(`/hikes/${hikes[0].slug}`);
-  await expect(page.getByRole("link", { name: "Great Hikes home" })).toBeVisible();
+  await expect(page.getByRole("banner").getByRole("link", { name: "Great Hikes home" })).toBeVisible();
+  await expect(page.getByRole("banner").getByRole("link", { name: "Sign in" })).toBeVisible();
   const toggle = page.getByRole("button", { name: "Menu", exact: true });
   await toggle.click();
   await expect(toggle).toHaveAttribute("aria-expanded", "true");
   const nav = page.getByRole("navigation", { name: "Main" });
-  for (const name of ["Home", "Hikes", "Search", "Journal", "Shop", "Community", "Our feed", "Sign in"]) {
+  for (const name of ["Community", "Our feed"]) {
     await expect(nav.getByRole("link", { name, exact: true })).toBeVisible();
+  }
+  for (const name of ["Hikes", "Search", "Journal", "Shop"]) {
+    const inCard = nav.getByRole("link", { name, exact: true });
+    const inBar = page.getByRole("navigation", { name: "Primary" }).getByRole("link", { name, exact: true });
+    await expect(isMobile ? inCard : inBar).toBeVisible();
+    await expect(isMobile ? inBar : inCard).toBeHidden();
   }
   await expect(nav.getByRole("link", { name: /Instagram/ })).toHaveAttribute("href", /instagram\.com\/great_hikes/);
   await page.keyboard.press("Escape");
@@ -79,4 +86,13 @@ test("menu hides when scrolling down and returns when scrolling up", async ({ pa
   await expect.poll(() => banner.evaluate((el) => getComputedStyle(el).opacity)).toBe("0");
   await page.evaluate(() => window.scrollTo(0, 700));
   await expect.poll(() => banner.evaluate((el) => getComputedStyle(el).opacity)).toBe("1");
+});
+
+test("footer links to every section", async ({ page }) => {
+  await page.goto("/");
+  const footer = page.getByRole("contentinfo");
+  for (const name of ["All hikes", "Our top 10", "Search", "Journal", "Our community", "Our feed", "Gear we trust"]) {
+    await expect(footer.getByRole("link", { name, exact: true })).toBeVisible();
+  }
+  await expect(footer.getByText(/affiliate links/)).toBeVisible();
 });
