@@ -30,9 +30,12 @@ Each row is one Spec Kit feature (`specs/NNN-name/`). Discovery behind the order
 | 006 | Shop with partner feeds (O-5) | AvantLink feeds → nightly import (Vercel Cron) → Supabase `products`; curated SKUs, licensed images & prices, `/go` click logging, gear per hike; merch (Printful) later | Planned — after affiliate approval |
 | 007 | Ads management (O-5) | Ads from the database, click/impression counts, frequency caps, targeting by favorites/search; partner campaigns | Planned |
 | 008 | Hike enrichment (O-3, O-2) | Coordinates, route facts, best season, permits, map, weather, Instagram features → draft hikes | ✅ Built (elevation profile + trail line next) |
+| 008b | Places & trails (O-3, O-2) | Many trails per place: trail pages with map line, elevation profile, facts; OSM + SRTM import | Pilot: Yosemite, Annapurna |
 | 009 | Reviews & tips (O-4) | Ratings, reviews and tips from signed-in users, moderation | Planned |
 | 010 | Community submissions (O-4) | "Share your hike" with contributor license, moderation, contributor profiles | Planned |
 | 011 | Instagram curation agents (O-2) | AI-prepared approval inbox | Paused by owner |
+| 013 | AI trail finder (O-3, O-4) | "Describe the hike you want" → grounded suggestions from our data (Claude Haiku) | Specified — needs API key decision |
+| 014 | Map explore (O-3, O-1) | /map: pins, trail lines, filters, synced list | Specified — build later |
 | 012 | International relaunch | Languages and per-country affiliates (Spain, France, Greece, Brazil, Turkey, Thailand…) | Later |
 
 **Launch gate:** no fixed date. Launch when specs 001–006 are live and the go-to-market

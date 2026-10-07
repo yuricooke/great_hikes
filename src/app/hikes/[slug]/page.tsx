@@ -14,6 +14,8 @@ import PillButton from "@/components/PillButton/PillButton";
 import { pickAd } from "@/lib/ads";
 import { allHikes, continentKey, hikeBySlug, hikePath, relatedHikes } from "@/lib/hikes";
 import { featuredPosts } from "@/lib/instagram";
+import { trailGeo, trailsFor } from "@/lib/trails";
+import TrailList from "@/components/Trail/TrailList";
 import { forecast } from "@/lib/weather";
 import styles from "./hike.module.css";
 
@@ -56,6 +58,10 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
     hike.instagram.length ? featuredPosts() : Promise.resolve([]),
   ]);
   const features = posts.filter((p) => hike.instagram.includes(p.id));
+  const trails = trailsFor(hike);
+  const measuredKm = Object.fromEntries(
+    await Promise.all(trails.map(async (t) => [t.slug, (await trailGeo(t))?.lengthKm ?? 0] as const)),
+  );
   const checked = hike.checkedAt
     ? new Date(`${hike.checkedAt}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" })
     : null;
@@ -111,6 +117,15 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
                 </PillButton>
               )}
             </section>
+
+            {trails.length > 0 && (
+              <section aria-labelledby="trails">
+                <h2 id="trails" className={styles.sectionTitle}>
+                  Trails in {hike.title}
+                </h2>
+                <TrailList trails={trails} measuredKm={measuredKm} />
+              </section>
+            )}
 
             {details && (
               <section aria-labelledby="plan">
@@ -201,7 +216,7 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
             {details && (
               <GlassPanel as="section" aria-labelledby="glance" className={styles.asidePanel}>
                 <h2 id="glance" className={styles.sectionTitle}>
-                  At a glance
+                  {trails.length > 1 ? "Signature route" : "At a glance"}
                 </h2>
                 <HikeFacts details={details} />
               </GlassPanel>

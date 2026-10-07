@@ -74,3 +74,29 @@ describe("hike details (spec 008)", () => {
     }
   });
 });
+
+describe("trails (spec 008b)", () => {
+  it("belong to known places and have sources", async () => {
+    const { allTrails } = await import("@/lib/trails");
+    const trails = allTrails();
+    expect(trails.length).toBeGreaterThan(0);
+    for (const t of trails) {
+      expect(hikeBySlug(t.place), `${t.place}/${t.slug}`).toBeDefined();
+      expect(t.sources.length).toBeGreaterThan(0);
+    }
+  });
+
+  it("imported lines are plausible (start near the place, sane length)", async () => {
+    const { allTrails, trailGeo } = await import("@/lib/trails");
+    for (const t of allTrails()) {
+      const geo = await trailGeo(t);
+      if (!geo) continue;
+      const place = hikeBySlug(t.place)!;
+      const [lng, lat] = geo.line[0];
+      expect(Math.abs(lat - place.location!.lat), t.slug).toBeLessThan(1.5);
+      expect(Math.abs(lng - place.location!.lng), t.slug).toBeLessThan(1.5);
+      expect(geo.lengthKm, t.slug).toBeGreaterThan(0.5);
+      expect(geo.maxM, t.slug).toBeGreaterThanOrEqual(geo.minM);
+    }
+  });
+});

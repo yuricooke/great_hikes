@@ -71,7 +71,7 @@ test("every hike page renders story, facts, credit, map and breadcrumb", async (
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(hike.title);
     await expect(page.getByRole("heading", { name: "The hike" })).toBeVisible();
     await expect(page.getByText("Photo:").first()).toBeVisible();
-    await expect(page.getByRole("heading", { name: "At a glance" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: /^(At a glance|Signature route)$/ })).toBeVisible();
     await expect(page.getByRole("heading", { name: "Plan your trip" })).toBeVisible();
     await expect(page.locator(`iframe[title="Map of ${hike.title}"]`)).toHaveCount(1);
     await expect(page.getByRole("heading", { name: "Sources" })).toBeVisible();
@@ -84,6 +84,19 @@ test("instagram-featured draft hike credits the photographer and shows the draft
   await page.goto(`/hikes/${draft.slug}`);
   await expect(page.getByText("Draft — awaiting approval")).toBeVisible();
   await expect(page.getByRole("link", { name: draft.photo.author }).first()).toHaveAttribute("href", draft.photo.sourceUrl!);
+});
+
+test("place page lists its trails; a trail page shows map, profile and facts", async ({ page }) => {
+  await page.goto("/hikes/yosemite-national-park");
+  const trails = page.getByRole("heading", { name: "Trails in Yosemite National Park" });
+  await expect(trails).toBeVisible();
+  await page.getByRole("group", { name: "Filter trails by difficulty" }).getByRole("button", { name: "Easy" }).click();
+  await page.getByRole("link", { name: /Sentinel Dome/ }).first().click();
+  await expect(page).toHaveURL("/hikes/yosemite-national-park/sentinel-dome");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Sentinel Dome");
+  await expect(page.getByRole("region", { name: "Map of Sentinel Dome" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Elevation profile" })).toBeVisible();
+  await expect(page.getByRole("navigation", { name: "Breadcrumb" }).getByRole("link", { name: "Yosemite National Park" })).toBeVisible();
 });
 
 test("journal: article page with inline hike card and related rails", async ({ page }) => {

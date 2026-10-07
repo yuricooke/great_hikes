@@ -102,6 +102,40 @@ export const TopicsFileSchema = z.object({
   topics: z.array(TopicSchema),
 });
 
+/** A trail inside a place (spec 008b): /hikes/<place>/<slug>. */
+export const TrailSchema = z.object({
+  place: slug,
+  slug,
+  name: z.string().min(1).max(120),
+  status: z.enum(["published", "draft"]).default("published"),
+  summary: z.string().min(1).max(300),
+  /** OpenStreetMap hiking-route relation(s) the line and elevation profile come from. */
+  osmRelation: z.union([z.number().int(), z.array(z.number().int()).min(1)]).optional(),
+  /** Extra named OSM ways inside a bbox [south, west, north, east] that connect the relations. */
+  /** Largest gap (m) bridged when joining route pieces; default 300. */
+  maxGapM: z.number().positive().optional(),
+  osmWays: z.array(z.object({ name: z.string(), bbox: z.tuple([z.number(), z.number(), z.number(), z.number()]) })).optional(),
+  /** Official figures; null fields fall back to what we measured on the map. */
+  details: DetailsSchema,
+  sources: z.array(z.object({ label: z.string().min(1), url: z.url() })).min(1),
+  instagram: z.array(z.string().regex(/^\d+$/)).default([]),
+  /** Trail's own credited photo; the place photo is used until one exists. */
+  photo: PhotoSchema.optional(),
+});
+
+export const TrailGeoSchema = z.object({
+  relation: z.union([z.number(), z.array(z.number())]),
+  attribution: z.string(),
+  lengthKm: z.number(),
+  gainM: z.number(),
+  minM: z.number(),
+  maxM: z.number(),
+  line: z.array(z.tuple([z.number(), z.number()])).min(2),
+  profile: z.array(z.tuple([z.number(), z.number()])).min(2),
+});
+
+export type Trail = z.infer<typeof TrailSchema>;
+export type TrailGeo = z.infer<typeof TrailGeoSchema>;
 export type Topic = z.infer<typeof TopicSchema>;
 
 export type Photo = z.infer<typeof PhotoSchema>;
