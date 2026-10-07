@@ -13,15 +13,20 @@ type Props = {
 // Video only when motion is welcome, the screen is wider than a phone and data saver is off.
 const VIDEO_OK = "(prefers-reduced-motion: no-preference) and (min-width: 576px)";
 
-function subscribe(onChange: () => void) {
+function subscribeVideo(onChange: () => void) {
   const query = window.matchMedia(VIDEO_OK);
   query.addEventListener("change", onChange);
   return () => query.removeEventListener("change", onChange);
 }
 
-function canPlayVideo() {
+function canPlayVideoNow() {
   const saveData = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection?.saveData;
   return window.matchMedia(VIDEO_OK).matches && !saveData;
+}
+
+/** True when a decorative background video may play (false during server render). */
+export function useCanPlayVideo() {
+  return useSyncExternalStore(subscribeVideo, canPlayVideoNow, () => false);
 }
 
 /**
@@ -29,11 +34,7 @@ function canPlayVideo() {
  * the video is only mounted when motion is welcome, on wider screens, without data saver.
  */
 export default function BackgroundVideo({ src, poster }: Props) {
-  const playVideo = useSyncExternalStore(
-    subscribe,
-    canPlayVideo,
-    () => false, // server render: poster only
-  );
+  const playVideo = useCanPlayVideo();
 
   return (
     <div className={styles.layer} aria-hidden="true">

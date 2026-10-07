@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 import FavoriteButton from "@/components/Auth/FavoriteButton";
@@ -32,6 +33,9 @@ export function generateMetadata(): Metadata {
   };
 }
 
+/** Shown while the video loads and on phones / reduced motion (no video). */
+const HERO_POSTER = "/hikes/los-glaciares-national-park.jpg";
+
 function todayLabel(now = new Date()) {
   return now.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
 }
@@ -51,30 +55,44 @@ export default async function LandingPage() {
         {SITE_NAME} — {SITE_TAGLINE}
       </h1>
 
-      <Hero image={hike.photo.src}>
+      {/* The hiking video from the original home page plays behind the hero (owner, 2026-10-07). */}
+      <Hero image={HERO_POSTER} video="/video/hikes.mp4">
         <div className={styles.heroInner}>
           <GlassPanel tone="light" className={styles.feature} aria-labelledby="featured-title">
-            <div className={styles.featureTop}>
-              <p className={styles.eyebrow}>Today&apos;s feature</p>
-              <time className={styles.date} dateTime={now.toISOString().slice(0, 10)}>
-                {todayLabel(now)}
-              </time>
+            <div className={styles.featurePhoto}>
+              <Image
+                src={hike.photo.src}
+                alt={hike.photo.alt}
+                fill
+                sizes="(min-width: 768px) 260px, 100vw"
+                quality={70}
+                priority
+              />
             </div>
-            <h2 id="featured-title" className={styles.featureTitle}>
-              {hike.title}
-            </h2>
-            <p className={styles.place}>
-              {hike.country} <span aria-hidden="true">·</span> {hike.continent} <span aria-hidden="true">·</span> {hike.biome}
-            </p>
-            <p className={styles.featureText}>{hike.description}</p>
-            <div className={styles.featureActions}>
-              <PillButton href={hikePath(hike)} variant="accent" size="lg" icon="hiking">
-                Let&apos;s hike!
-              </PillButton>
-              <FavoriteButton slug={hike.slug} title={hike.title} variant="pill" />
+            <div className={styles.featureBody}>
+              <div className={styles.featureTop}>
+                <p className={styles.eyebrow}>Today&apos;s feature</p>
+                <time className={styles.date} dateTime={now.toISOString().slice(0, 10)}>
+                  {todayLabel(now)}
+                </time>
+              </div>
+              <h2 id="featured-title" className={styles.featureTitle}>
+                {hike.title}
+              </h2>
+              <p className={styles.place}>
+                {hike.country} <span aria-hidden="true">·</span> {hike.continent} <span aria-hidden="true">·</span>{" "}
+                {hike.biome}
+              </p>
+              <p className={styles.featureText}>{hike.description}</p>
+              <div className={styles.featureActions}>
+                <PillButton href={hikePath(hike)} variant="accent" size="lg" icon="hiking">
+                  Let&apos;s hike!
+                </PillButton>
+                <FavoriteButton slug={hike.slug} title={hike.title} variant="pill" />
+              </div>
+              <PhotoCredit photo={hike.photo} />
             </div>
           </GlassPanel>
-          <PhotoCredit photo={hike.photo} />
         </div>
       </Hero>
 

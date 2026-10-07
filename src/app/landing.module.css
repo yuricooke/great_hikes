@@ -5,14 +5,28 @@
   gap: var(--gh-space-3);
 }
 
-/* Today's feature card — part of the hero. */
+/* Today's feature card — part of the hero, with the hike's own photo. */
 .feature {
-  width: min(600px, 100%);
-  padding: var(--gh-space-6) var(--gh-space-5);
+  width: min(880px, 100%);
+  display: grid;
+  overflow: hidden;
+}
+
+.featurePhoto {
+  position: relative;
+  aspect-ratio: 16 / 9;
+}
+
+.featurePhoto img {
+  object-fit: cover;
+}
+
+.featureBody {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gh-space-3);
+  padding: var(--gh-space-5);
 }
 
 .featureTop {
@@ -124,8 +138,17 @@
   background: var(--gh-pill-hover);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .feature {
+    grid-template-columns: 260px 1fr;
+  }
+
+  .featurePhoto {
+    aspect-ratio: auto;
+    min-height: 100%;
+  }
+
+  .featureBody {
     padding: var(--gh-space-6);
   }
 }

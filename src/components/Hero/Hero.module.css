@@ -23,6 +23,16 @@
   filter: var(--gh-photo-filter);
 }
 
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  filter: var(--gh-photo-filter);
+}
+
 /* Vintage/fade treatment + edge vignette; short fade into the black page at the bottom. */
 .scrim {
   position: absolute;

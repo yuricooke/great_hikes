@@ -49,6 +49,10 @@ describe("featured hike", () => {
     expect(new Set(picks).size).toBe(n);
   });
 
+  it("uses the owner's date override when set", () => {
+    expect(featuredHike(new Date(Date.UTC(2026, 9, 7, 12))).slug).toBe("fiordland-national-park");
+  });
+
   it("is stable within a day", () => {
     const morning = new Date(Date.UTC(2026, 9, 7, 1));
     const evening = new Date(Date.UTC(2026, 9, 7, 23));
