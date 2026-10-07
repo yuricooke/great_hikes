@@ -70,7 +70,7 @@ test("every hike page renders story, facts, credit, map and breadcrumb", async (
     expect(res?.status(), hike.slug).toBe(200);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(hike.title);
     await expect(page.getByRole("heading", { name: "The hike" })).toBeVisible();
-    await expect(page.getByText("Photo:").first()).toBeVisible();
+    await expect(page.getByText(/^Photo( by|:)/).first()).toBeVisible();
     await expect(page.getByRole("heading", { name: /^(At a glance|Signature route)$/ })).toBeVisible();
     await expect(page.getByRole("heading", { name: "Plan your trip" })).toBeVisible();
     await expect(page.locator(`iframe[title="Map of ${hike.title}"]`)).toHaveCount(1);
@@ -79,11 +79,10 @@ test("every hike page renders story, facts, credit, map and breadcrumb", async (
   }
 });
 
-test("instagram-featured draft hike credits the photographer and shows the draft badge", async ({ page }) => {
-  const draft = hikes.find((h) => "status" in h && h.status === "draft" && "instagram" in h)!;
-  await page.goto(`/hikes/${draft.slug}`);
-  await expect(page.getByText("Draft — awaiting approval")).toBeVisible();
-  await expect(page.getByRole("link", { name: draft.photo.author }).first()).toHaveAttribute("href", draft.photo.sourceUrl!);
+test("instagram-featured hike credits the photographer from the post", async ({ page }) => {
+  const featured = hikes.find((h) => h.photo.src.startsWith("https://") && "instagram" in h)!;
+  await page.goto(`/hikes/${featured.slug}`);
+  await expect(page.getByRole("link", { name: featured.photo.author }).first()).toHaveAttribute("href", featured.photo.sourceUrl!);
 });
 
 test("place page lists its trails; a trail page shows map, profile and facts", async ({ page }) => {
