@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
+import AdBanner from "@/components/AdBanner/AdBanner";
 import FavoriteButton from "@/components/Auth/FavoriteButton";
 import BackgroundImage from "@/components/Background/BackgroundImage";
 import Breadcrumb from "@/components/Breadcrumb/Breadcrumb";
@@ -9,6 +10,7 @@ import GlassPanel from "@/components/GlassPanel/GlassPanel";
 import HikeCard from "@/components/HikeCard/HikeCard";
 import PhotoCredit from "@/components/PhotoCredit/PhotoCredit";
 import PillButton from "@/components/PillButton/PillButton";
+import { pickAd } from "@/lib/ads";
 import { allHikes, continentKey, hikeBySlug, hikePath, relatedHikes } from "@/lib/hikes";
 import styles from "./hike.module.css";
 
@@ -109,7 +111,9 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
                 </figcaption>
               </figure>
             </section>
-            {/* Spec 003 adds trail stats, interactive map and elevation; spec 004 adds reviews. */}
+            {/* Gear relevant to this hike (landscape, continent, the hike itself). */}
+            <AdBanner ad={pickAd("hike", { hikes: [hike] })} />
+            {/* Later specs add trail stats, interactive map, elevation and reviews. */}
           </GlassPanel>
 
           <aside className={styles.aside}>

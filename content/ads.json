@@ -1,0 +1,105 @@
+{
+  "ads": [
+    {
+      "id": "rain-shell-patagonia-weather",
+      "status": "sample",
+      "sponsor": "Sample partner",
+      "title": "Patagonian weather? Pack a real shell.",
+      "text": "Light, packable rain jackets for wind, rain and sudden storms.",
+      "cta": "Shop rain shells",
+      "href": "/go/ultralight-rain-shell",
+      "image": "/hikes/torres-del-paine-national-park.jpg",
+      "placements": [
+        "landing",
+        "hike",
+        "article",
+        "search",
+        "shop"
+      ],
+      "targeting": {
+        "continents": [
+          "South America"
+        ],
+        "landscapes": [
+          "mountains"
+        ],
+        "hikes": [
+          "torres-del-paine-national-park",
+          "los-glaciares-national-park"
+        ],
+        "categories": [
+          "jackets"
+        ]
+      }
+    },
+    {
+      "id": "waterproof-boots-waterfalls",
+      "status": "sample",
+      "sponsor": "Sample partner",
+      "title": "Wet rocks, happy feet.",
+      "text": "Waterproof boots and grippy soles for trails around falls and lakes.",
+      "cta": "Shop hiking boots",
+      "href": "/go/waterproof-hiking-boot",
+      "image": "/hikes/plitvice-lakes-national-park.jpg",
+      "placements": [
+        "landing",
+        "hike",
+        "article",
+        "search",
+        "shop"
+      ],
+      "targeting": {
+        "landscapes": [
+          "waterfalls",
+          "forests"
+        ],
+        "categories": [
+          "footwear"
+        ]
+      }
+    },
+    {
+      "id": "tents-coast",
+      "status": "sample",
+      "sponsor": "Sample partner",
+      "title": "Sleep where the trail ends.",
+      "text": "Ultralight tents and sleeping bags for coastal and multi-day hikes.",
+      "cta": "Shop tents",
+      "href": "/go/ultralight-2-person-tent",
+      "image": "/hikes/abel-tasman-national-park.jpg",
+      "placements": [
+        "landing",
+        "hike",
+        "article",
+        "search",
+        "shop"
+      ],
+      "targeting": {
+        "landscapes": [
+          "coasts"
+        ],
+        "categories": [
+          "tents"
+        ]
+      }
+    },
+    {
+      "id": "daypack-generic",
+      "status": "sample",
+      "sponsor": "Sample partner",
+      "title": "The daypack that goes everywhere.",
+      "text": "22 litres, hip belt, rain cover — ready for your next summit.",
+      "cta": "Shop daypacks",
+      "href": "/go/22-l-summit-daypack",
+      "image": "/hikes/annapurna-circuit.jpg",
+      "placements": [
+        "landing",
+        "hike",
+        "article",
+        "search",
+        "shop"
+      ],
+      "targeting": {}
+    }
+  ]
+}

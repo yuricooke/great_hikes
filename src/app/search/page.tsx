@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 
+import AdBanner from "@/components/AdBanner/AdBanner";
 import ListingHeader from "@/components/ListingHeader/ListingHeader";
 import SearchHikes from "@/components/Search/SearchHikes";
+import { pickAd } from "@/lib/ads";
 import { allHikes } from "@/lib/hikes";
 import styles from "../section.module.css";
 
@@ -26,6 +28,7 @@ export default function SearchPage() {
         <Suspense>
           <SearchHikes hikes={hikes} />
         </Suspense>
+        <AdBanner ad={pickAd("search")} />
       </section>
     </>
   );

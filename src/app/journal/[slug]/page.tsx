@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import AdBanner from "@/components/AdBanner/AdBanner";
 import ArticleBody from "@/components/Article/ArticleBody";
 import Breadcrumb from "@/components/Breadcrumb/Breadcrumb";
 import GlassPanel from "@/components/GlassPanel/GlassPanel";
@@ -8,6 +9,7 @@ import Hero from "@/components/Hero/Hero";
 import PhotoCard from "@/components/PhotoCard/PhotoCard";
 import PhotoCredit from "@/components/PhotoCredit/PhotoCredit";
 import Rail from "@/components/Rail/Rail";
+import { pickAd } from "@/lib/ads";
 import { hikeBySlug, hikePath } from "@/lib/hikes";
 import { articleBySlug, articlePath, articles } from "@/lib/journal";
 import styles from "./article.module.css";
@@ -70,6 +72,7 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
       </div>
 
       <div className={styles.after}>
+        <AdBanner ad={pickAd("article", { hikes: related })} />
         <Rail id="story-hikes" title="Hikes in this story" seeAllHref="/hikes" seeAllLabel="All hikes">
           {related.map((h) => (
             <PhotoCard key={h.slug} href={hikePath(h)} image={h.photo.src} title={h.title} subtitle={`${h.country} · ${h.continent}`} favoriteSlug={h.slug} />

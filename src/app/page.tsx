@@ -8,8 +8,10 @@ import Hero from "@/components/Hero/Hero";
 import PhotoCard from "@/components/PhotoCard/PhotoCard";
 import PhotoCredit from "@/components/PhotoCredit/PhotoCredit";
 import PillButton from "@/components/PillButton/PillButton";
+import AdBanner from "@/components/AdBanner/AdBanner";
 import Rail from "@/components/Rail/Rail";
 import ProductCard from "@/components/Shop/ProductCard";
+import { pickAd } from "@/lib/ads";
 import { featuredHike } from "@/lib/featured";
 import { hikeBySlug, hikePath } from "@/lib/hikes";
 import { featuredPosts } from "@/lib/instagram";
@@ -55,16 +57,29 @@ export default async function LandingPage() {
         {SITE_NAME} — {SITE_TAGLINE}
       </h1>
 
-      {/* The hiking video from the original home page plays behind the hero (owner, 2026-10-07). */}
-      <Hero image={HERO_POSTER} video="/video/hikes.mp4">
-        <div className={styles.heroInner}>
-          <GlassPanel tone="light" className={styles.feature} aria-labelledby="featured-title">
+      {/* Hiking video from the original home page, with the mountains logo centered (owner, 2026-10-07).
+          ~80% of the screen tall so visitors see there is more below. */}
+      <Hero image={HERO_POSTER} video="/video/hikes.mp4" size="landing" parallax>
+        <div className={styles.heroLogo}>
+          <Image src="/great_hikes.svg" alt="" width={240} height={158} priority />
+        </div>
+      </Hero>
+
+      <div className={styles.sections}>
+        <Rail id="top-10" title="Our top 10 for you" description="The hikes we'd do again tomorrow." seeAllHref="/explore/top-10">
+          {top10.map((h, i) => (
+            <PhotoCard key={h.slug} href={hikePath(h)} image={h.photo.src} title={h.title} subtitle={`${h.country} · ${h.continent}`} badge={`#${i + 1}`} favoriteSlug={h.slug} />
+          ))}
+        </Rail>
+
+        <section aria-labelledby="featured-title" className={styles.featureSection}>
+          <GlassPanel tone="strong" className={styles.feature}>
             <div className={styles.featurePhoto}>
               <Image
                 src={hike.photo.src}
                 alt={hike.photo.alt}
                 fill
-                sizes="(min-width: 768px) 260px, 100vw"
+                sizes="(min-width: 768px) 40vw, 100vw"
                 quality={70}
                 priority
               />
@@ -93,15 +108,7 @@ export default async function LandingPage() {
               <PhotoCredit photo={hike.photo} />
             </div>
           </GlassPanel>
-        </div>
-      </Hero>
-
-      <div className={styles.sections}>
-        <Rail id="top-10" title="Our top 10 for you" description="The hikes we'd do again tomorrow." seeAllHref="/explore/top-10">
-          {top10.map((h, i) => (
-            <PhotoCard key={h.slug} href={hikePath(h)} image={h.photo.src} title={h.title} subtitle={`${h.country} · ${h.continent}`} badge={`#${i + 1}`} favoriteSlug={h.slug} />
-          ))}
-        </Rail>
+        </section>
 
         {features.length > 0 && (
           <Rail id="community-features" title="Today's community features" description="Hikers featured on @great_hikes — credited to each photographer." seeAllHref="/our-feed">
@@ -171,6 +178,8 @@ export default async function LandingPage() {
             ))}
           </ul>
         </section>
+
+        <AdBanner ad={pickAd("landing", { hikes: [hike] })} />
 
         {experiences.length > 0 && (
           <Rail id="experiences" size="wide" title="Hikers' experiences" description="Trip stories from our community." seeAllHref="/journal">

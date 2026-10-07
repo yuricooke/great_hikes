@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 
+import AdBanner from "@/components/AdBanner/AdBanner";
 import ListingHeader from "@/components/ListingHeader/ListingHeader";
 import ShopBrowser from "@/components/Shop/ShopBrowser";
+import { pickAd } from "@/lib/ads";
 import { pricesUpdated, products, shopCategories, shopDisclosure } from "@/lib/products";
 import styles from "../section.module.css";
 import shop from "./shop.module.css";
@@ -34,6 +36,7 @@ export default function ShopPage() {
         ) : (
           <p className={styles.muted}>Our gear picks are coming soon.</p>
         )}
+        <AdBanner ad={pickAd("shop", { category: "jackets" })} />
         {list.length > 0 && (
           <p className={shop.updated}>
             Prices and availability come from our partner stores and may change. Last updated{" "}
