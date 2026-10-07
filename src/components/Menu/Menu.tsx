@@ -133,13 +133,18 @@ export default function Menu() {
           </ul>
         </nav>
         {favorites && (
-          <Link href={favorites.href} className={styles.iconButton} aria-current={isActive(pathname, favorites) ? "page" : undefined}>
+          <Link
+            href={favorites.href}
+            className={styles.iconButton}
+            title="Favorites"
+            aria-current={isActive(pathname, favorites) ? "page" : undefined}
+          >
             <Icon name="favorite" size={22} />
             <span className="visually-hidden">Favorites</span>
           </Link>
         )}
         {account && (
-          <Link href={account.href} scroll={false} className={styles.iconButton}>
+          <Link href={account.href} scroll={false} className={styles.iconButton} title={account.label}>
             <Icon name="person" size={22} />
             <span className="visually-hidden">{account.label}</span>
           </Link>
@@ -163,26 +168,10 @@ export default function Menu() {
         className={`${styles.card} ${open ? styles.cardOpen : ""}`}
         hidden={!open}
       >
-        <div className={styles.cardHeader}>
-          <span className={styles.cardBrand}>
-            <Image src="/great_hikes.svg" alt="" width={34} height={22} />
-            {SITE_NAME}
-          </span>
-          <button type="button" className={styles.close} onClick={() => setOpen(false)}>
-            <Icon name="close" size={22} />
-            <span className="visually-hidden">Close menu</span>
-          </button>
-        </div>
         <nav aria-label="Main">
-          <ul className={styles.cardList}>
-            {cardLink({ label: "Home", href: "/", icon: "home", match: [] })}
-            {PRIMARY.map(cardLink)}
-          </ul>
-          <ul className={`${styles.cardList} ${styles.cardSecondary}`}>
-            {MORE.map(cardLink)}
-            {favorites && cardLink(favorites)}
-            {account && cardLink(account)}
-          </ul>
+          {/* The bar already shows the primary links on wide screens; the card repeats them only on phones. */}
+          <ul className={`${styles.cardList} ${styles.cardPrimary}`}>{PRIMARY.map(cardLink)}</ul>
+          <ul className={`${styles.cardList} ${styles.cardSecondary}`}>{MORE.map(cardLink)}</ul>
         </nav>
       </div>
     </header>
