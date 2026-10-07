@@ -32,6 +32,20 @@
     linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.1) 35%, rgba(0, 0, 0, 0.55) 80%, #000 100%);
 }
 
+/* First-level pages: lighter shade so the photo stays bright; still fades into the black page. */
+.scrim.scrimLight {
+  box-shadow: inset 20rem 20rem 20rem 10rem rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 35%, rgba(0, 0, 0, 0.35) 80%, #000 100%);
+}
+
+@media (min-width: 992px) {
+  .scrim.scrimLight {
+    background:
+      linear-gradient(90deg, rgba(0, 0, 0, 0.35) 0%, transparent 50%),
+      linear-gradient(180deg, transparent 60%, rgba(0, 0, 0, 0.45) 85%, #000 100%);
+  }
+}
+
 .content {
   width: 100%;
   max-width: var(--gh-content-max);
