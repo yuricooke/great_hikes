@@ -1,6 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 import hikes from "../../content/hikes.json" with { type: "json" };
+import topics from "../../content/topics.json" with { type: "json" };
 
 test("V4 legacy URLs redirect permanently", async ({ request }) => {
   const list = await request.get("/Hikes", { maxRedirects: 0 });
@@ -31,7 +32,16 @@ test("V5 hike pages have unique metadata and social previews", async ({ page }) 
   await expect(page.locator('meta[property="og:image"]')).toHaveAttribute("content", new RegExp(hike.photo.src));
 });
 
-test("V6 sitemap lists home, hikes and every hike", async ({ request }) => {
+test("V6 sitemap lists home, all hikes, every topic and every hike", async ({ request }) => {
   const xml = await (await request.get("/sitemap.xml")).text();
-  expect((xml.match(/<loc>/g) ?? []).length).toBe(hikes.length + 2);
+  expect((xml.match(/<loc>/g) ?? []).length).toBe(hikes.length + topics.topics.length + 2);
+});
+
+test("old continent filter links redirect to topic pages", async ({ request }) => {
+  const res = await request.get("/hikes?continent=asia", { maxRedirects: 0 });
+  expect(res.status()).toBe(308);
+  expect(res.headers().location).toMatch(/\/explore\/asia$/);
+  const unknown = await request.get("/hikes?continent=mars", { maxRedirects: 0 });
+  expect(unknown.headers().location).toMatch(/\/hikes$/);
+  expect((await request.get("/explore/nope")).status()).toBe(404);
 });

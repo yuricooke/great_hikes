@@ -1,0 +1,125 @@
+{
+  "hero": {
+    "title": "Today's feature",
+    "rotation": "daily",
+    "excludeWithoutPhotoSource": true
+  },
+  "landing": [
+    "top-10",
+    "mountains",
+    "forests",
+    "coasts",
+    "waterfalls",
+    "savannas",
+    "continents"
+  ],
+  "topics": [
+    {
+      "slug": "top-10",
+      "kind": "ranked",
+      "title": "Our top 10",
+      "description": "The hikes we'd do again tomorrow — ranked by the Great Hikes team.",
+      "cover": "torres-del-paine-national-park",
+      "hikes": [
+        "torres-del-paine-national-park",
+        "machu-picchu",
+        "annapurna-circuit",
+        "fiordland-national-park",
+        "yosemite-national-park",
+        "los-glaciares-national-park",
+        "banff-national-park",
+        "kilimanjaro-national-park",
+        "isle-of-skye",
+        "cinque-terre-national-park"
+      ]
+    },
+    {
+      "slug": "mountains",
+      "kind": "landscape",
+      "landscape": "mountains",
+      "title": "Mountains & peaks",
+      "description": "Granite spires, high passes and summits worth every step.",
+      "cover": "los-glaciares-national-park"
+    },
+    {
+      "slug": "forests",
+      "kind": "landscape",
+      "landscape": "forests",
+      "title": "Forests & jungles",
+      "description": "Rainforests, ancient woods and green trails under the canopy.",
+      "cover": "khao-sok-national-park"
+    },
+    {
+      "slug": "coasts",
+      "kind": "landscape",
+      "landscape": "coasts",
+      "title": "Coasts & islands",
+      "description": "Cliff paths, island loops and trails that end at the sea.",
+      "cover": "cinque-terre-national-park"
+    },
+    {
+      "slug": "waterfalls",
+      "kind": "landscape",
+      "landscape": "waterfalls",
+      "title": "Waterfalls & lakes",
+      "description": "Hikes with a splash: falls, turquoise lakes and river valleys.",
+      "cover": "plitvice-lakes-national-park"
+    },
+    {
+      "slug": "savannas",
+      "kind": "landscape",
+      "landscape": "savannas",
+      "title": "Savannas & dunes",
+      "description": "Wide horizons, wildlife plains and sand seas.",
+      "cover": "lencois-maranhenses-national-park"
+    },
+    {
+      "slug": "africa",
+      "kind": "continent",
+      "continent": "Africa",
+      "title": "Africa",
+      "description": "From Kilimanjaro's summit to the Cape's table-top views.",
+      "cover": "kilimanjaro-national-park"
+    },
+    {
+      "slug": "asia",
+      "kind": "continent",
+      "continent": "Asia",
+      "title": "Asia",
+      "description": "Himalayan circuits, karst forests and rice-terrace valleys.",
+      "cover": "annapurna-circuit"
+    },
+    {
+      "slug": "europe",
+      "kind": "continent",
+      "continent": "Europe",
+      "title": "Europe",
+      "description": "Island ridges, coastal villages and alpine castles.",
+      "cover": "isle-of-skye"
+    },
+    {
+      "slug": "north-america",
+      "kind": "continent",
+      "continent": "North America",
+      "title": "North America",
+      "description": "Big walls, geysers and glacier-fed lakes.",
+      "cover": "yosemite-national-park"
+    },
+    {
+      "slug": "oceania",
+      "kind": "continent",
+      "continent": "Oceania",
+      "title": "Oceania",
+      "description": "Fiords, golden coasts and ancient rock country.",
+      "cover": "fiordland-national-park"
+    },
+    {
+      "slug": "south-america",
+      "kind": "continent",
+      "continent": "South America",
+      "title": "South America",
+      "description": "Patagonian towers, Andean trails and Brazilian wonders.",
+      "cover": "torres-del-paine-national-park"
+    }
+  ]
+}

@@ -1,63 +1,91 @@
 import { expect, test } from "@playwright/test";
 
 import hikes from "../../content/hikes.json" with { type: "json" };
+import topics from "../../content/topics.json" with { type: "json" };
 
-test("V1 home: glass welcome panel leads to hikes", async ({ page }) => {
+test("V1 landing: today's feature hero leads to its hike page", async ({ page }) => {
   await page.goto("/");
-  await expect(page.getByRole("heading", { level: 1, name: "Great Hikes" })).toBeVisible();
-  await page.getByRole("link", { name: "Let's Hike!" }).click();
-  await expect(page).toHaveURL(/\/hikes$/);
-});
-
-test("V2 hikes browser: selecting a hike updates the panel and links to it", async ({ page }) => {
-  await page.goto("/hikes");
-  await expect(page.getByRole("heading", { level: 1 })).toHaveText(hikes[0].title);
-  for (const hike of [hikes[1], hikes[5], hikes[10]]) {
-    await page.getByRole("button", { name: new RegExp(hike.title) }).click();
-    await expect(page.getByRole("heading", { level: 1 })).toHaveText(hike.title);
-  }
+  await expect(page.getByText("Today's feature")).toBeVisible();
+  const title = (await page.locator("#featured-title").textContent())!;
   await page.getByRole("link", { name: "Let's hike!" }).click();
-  await expect(page).toHaveURL(`/hikes/${hikes[10].slug}`);
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText(title);
 });
 
-test("V3 every hike page renders story, photo credit, map and related hikes", async ({ page }) => {
+test("landing shows the topic rails in order with See all links", async ({ page }) => {
+  await page.goto("/");
+  const railTitles = await page.locator("section[aria-labelledby$='-heading'] h2").allTextContents();
+  expect(railTitles).toEqual([
+    "Our top 10",
+    "Mountains & peaks",
+    "Forests & jungles",
+    "Coasts & islands",
+    "Waterfalls & lakes",
+    "Savannas & dunes",
+    "Explore by continent",
+  ]);
+  const top10 = page.getByRole("region", { name: "Our top 10" });
+  await expect(top10.getByText("#1", { exact: true })).toBeVisible();
+  await top10.getByRole("link", { name: /See all/ }).click();
+  await expect(page).toHaveURL(/\/explore\/top-10$/);
+});
+
+test("rail arrows scroll the cards on desktop", async ({ page, isMobile }) => {
+  test.skip(isMobile, "arrows are a pointer-device control");
+  await page.goto("/");
+  const rail = page.getByRole("region", { name: "Mountains & peaks" });
+  const list = rail.getByRole("list");
+  const prev = rail.getByRole("button", { name: /Previous/ });
+  await expect(prev).toBeDisabled();
+  await rail.getByRole("button", { name: /Next/ }).click();
+  await expect.poll(() => list.evaluate((el) => el.scrollLeft)).toBeGreaterThan(0);
+  await expect(prev).toBeEnabled();
+});
+
+test("V3 topic pages show a grid; top 10 is ranked", async ({ page }) => {
+  await page.goto("/explore/top-10");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Our top 10");
+  const top = topics.topics.find((t) => t.slug === "top-10")!.hikes!;
+  const cards = page.getByRole("list", { name: "Hikes" }).getByRole("link");
+  await expect(cards).toHaveCount(10);
+  await expect(cards.first()).toContainText("#1");
+  await cards.first().click();
+  await expect(page).toHaveURL(`/hikes/${top[0]}`);
+});
+
+test("continent topic page lists only that continent", async ({ page }) => {
+  await page.goto("/explore/south-america");
+  const expected = hikes.filter((h) => h.continent === "South America").length;
+  await expect(page.getByRole("list", { name: "Hikes" }).getByRole("link")).toHaveCount(expected);
+});
+
+test("every hike page renders story, credit, map and breadcrumb", async ({ page }) => {
   for (const hike of hikes) {
     const res = await page.goto(`/hikes/${hike.slug}`);
     expect(res?.status(), hike.slug).toBe(200);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(hike.title);
     await expect(page.getByRole("heading", { name: "The hike" })).toBeVisible();
-    await expect(page.getByText(`Photo:`).first()).toBeVisible();
+    await expect(page.getByText("Photo:").first()).toBeVisible();
     await expect(page.getByAltText(`Map of ${hike.continent}`)).toBeVisible();
+    const crumbs = page.getByRole("navigation", { name: "Breadcrumb" });
+    await expect(crumbs.getByRole("link", { name: hike.continent })).toBeVisible();
   }
 });
 
-test("related hike cards navigate to that hike", async ({ page }) => {
-  await page.goto(`/hikes/${hikes[0].slug}`);
-  const related = page.getByRole("region", { name: /More hikes in/ }).getByRole("link").first();
-  const title = (await related.locator("span span").first().textContent())!;
-  await related.click();
-  await expect(page.getByRole("heading", { level: 1 })).toHaveText(title);
-});
-
-test("V11 continent filter is shareable and has an empty state", async ({ page }) => {
-  await page.goto("/hikes?continent=asia");
-  await expect(page.getByRole("heading", { name: /Hikes in Asia/ })).toBeVisible();
-  const asian = hikes.filter((h) => h.continent === "Asia");
-  await expect(page.getByRole("list").filter({ has: page.getByRole("button") }).getByRole("button")).toHaveCount(
-    asian.length,
+test("all hikes page shows every hike and topic shortcuts", async ({ page }) => {
+  await page.goto("/hikes");
+  await expect(page.getByRole("main").getByRole("listitem").getByRole("link", { name: /·/ })).toHaveCount(
+    hikes.length,
   );
-  await page.goto("/hikes?continent=mars");
-  await expect(page.getByText("No hikes found for this filter.")).toBeVisible();
-  await page.getByRole("link", { name: "See all hikes" }).click();
-  await expect(page.getByRole("heading", { name: /All hikes/ })).toBeVisible();
+  await page.getByRole("navigation", { name: "Topics" }).getByRole("link", { name: "Coasts & islands" }).click();
+  await expect(page).toHaveURL(/\/explore\/coasts$/);
 });
 
-test("V10 no dead controls: every button and link does something", async ({ page }) => {
-  for (const url of ["/", "/hikes", `/hikes/${hikes[0].slug}`, "/no-such-page"]) {
+test("V10 no dead controls and no placeholder review", async ({ page }) => {
+  for (const url of ["/", "/hikes", "/explore/top-10", `/hikes/${hikes[0].slug}`, "/no-such-page"]) {
     await page.goto(url);
-    const links = page.locator("a:visible");
-    for (const href of await links.evaluateAll((els) => els.map((e) => e.getAttribute("href")))) {
-      expect(href, `${url} link`).toBeTruthy();
+    const hrefs = await page.locator("a:visible").evaluateAll((els) => els.map((e) => e.getAttribute("href")));
+    for (const href of hrefs) {
+      expect(href, url).toBeTruthy();
       expect(href).not.toBe("#");
     }
     expect(await page.getByText("John Muir").count()).toBe(0);

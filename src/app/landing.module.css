@@ -1,0 +1,68 @@
+/* Hero: today's featured hike fills the first screen; rails follow in a glass band. */
+.hero {
+  min-height: calc(100dvh - var(--gh-topbar-height) - 2 * var(--gh-space-4));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: var(--gh-space-3);
+  padding-bottom: var(--gh-space-6);
+  max-width: var(--gh-content-max);
+}
+
+.heroPanel {
+  width: min(560px, 100%);
+  padding: var(--gh-space-6) var(--gh-space-5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gh-space-3);
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: var(--gh-tracking-caps);
+  font-size: var(--gh-text-sm);
+  font-weight: 500;
+}
+
+.heroTitle {
+  font-size: var(--gh-text-3xl);
+}
+
+.place {
+  text-transform: uppercase;
+  letter-spacing: var(--gh-tracking-caps);
+  font-size: var(--gh-text-sm);
+}
+
+.heroText {
+  font-size: var(--gh-text-lg);
+  margin-bottom: var(--gh-space-2);
+}
+
+.heroCredit {
+  padding-left: var(--gh-space-2);
+}
+
+.rails {
+  max-width: var(--gh-content-max);
+  padding: var(--gh-space-5) var(--gh-space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-7);
+}
+
+@media (min-width: 992px) {
+  .hero {
+    min-height: calc(100dvh - 2 * var(--gh-space-7));
+  }
+
+  .heroPanel {
+    padding: var(--gh-space-6);
+  }
+
+  .rails {
+    padding: var(--gh-space-6);
+  }
+}

@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 
 import hikes from "../../content/hikes.json" with { type: "json" };
 
-const PAGES = ["/", "/hikes", `/hikes/${hikes[0].slug}`, "/no-such-page"];
+const PAGES = ["/", "/hikes", "/explore/top-10", "/explore/south-america", `/hikes/${hikes[0].slug}`, "/no-such-page"];
 
 for (const url of PAGES) {
   test(`V9 no serious accessibility issues on ${url}`, async ({ page }) => {
@@ -37,8 +37,8 @@ test("V8 keyboard users can reach the main call to action with visible focus", a
   await page.goto("/");
   await page.keyboard.press("Tab");
   await expect(page.getByRole("link", { name: "Skip to content" })).toBeFocused();
-  const cta = page.getByRole("link", { name: "Let's Hike!" });
-  for (let i = 0; i < 10 && !(await cta.evaluate((el) => el === document.activeElement)); i++) {
+  const cta = page.getByRole("link", { name: "Let's hike!" });
+  for (let i = 0; i < 12 && !(await cta.evaluate((el) => el === document.activeElement)); i++) {
     await page.keyboard.press("Tab");
   }
   await expect(cta).toBeFocused();
@@ -46,10 +46,3 @@ test("V8 keyboard users can reach the main call to action with visible focus", a
   expect(outline).not.toBe("none");
 });
 
-test("reduced motion shows the poster instead of the video", async ({ browser }) => {
-  const context = await browser.newContext({ reducedMotion: "reduce" });
-  const page = await context.newPage();
-  await page.goto("/");
-  await expect(page.locator("video")).toHaveCount(0);
-  await context.close();
-});

@@ -14,6 +14,17 @@ export type ContinentKey = (typeof CONTINENTS)[number]["key"];
 
 const continentNames = CONTINENTS.map((c) => c.name) as [ContinentName, ...ContinentName[]];
 
+export const LANDSCAPES = [
+  { key: "mountains", label: "Mountains" },
+  { key: "forests", label: "Forests" },
+  { key: "coasts", label: "Coasts" },
+  { key: "waterfalls", label: "Waterfalls & lakes" },
+  { key: "savannas", label: "Savannas & dunes" },
+] as const;
+
+export type LandscapeKey = (typeof LANDSCAPES)[number]["key"];
+const landscapeKeys = LANDSCAPES.map((l) => l.key) as [LandscapeKey, ...LandscapeKey[]];
+
 export const PhotoSchema = z.object({
   src: z.string().regex(/^\/hikes\/[a-z0-9-]+\.(jpg|jpeg|png|webp)$/),
   alt: z.string().min(1).max(200),
@@ -29,6 +40,7 @@ export const HikeSchema = z.object({
   continent: z.enum(continentNames),
   country: z.string().min(1).max(80),
   biome: z.string().min(1).max(80),
+  landscapes: z.array(z.enum(landscapeKeys)).min(1),
   description: z.string().min(1).max(300),
   hikingExplained: z.string().min(1),
   officialUrl: z.url().nullable(),
@@ -37,6 +49,24 @@ export const HikeSchema = z.object({
 });
 
 export const HikesSchema = z.array(HikeSchema);
+
+const slug = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/);
+const topicBase = { slug, title: z.string().min(1), description: z.string().min(1), cover: slug };
+
+export const TopicSchema = z.discriminatedUnion("kind", [
+  z.object({ ...topicBase, kind: z.literal("ranked"), hikes: z.array(slug).min(1) }),
+  z.object({ ...topicBase, kind: z.literal("landscape"), landscape: z.enum(landscapeKeys) }),
+  z.object({ ...topicBase, kind: z.literal("continent"), continent: z.enum(continentNames) }),
+]);
+
+export const TopicsFileSchema = z.object({
+  hero: z.object({ title: z.string(), rotation: z.literal("daily"), excludeWithoutPhotoSource: z.boolean() }),
+  /** Landing order: topic slugs, plus "continents" for the continent rail. */
+  landing: z.array(z.string()),
+  topics: z.array(TopicSchema),
+});
+
+export type Topic = z.infer<typeof TopicSchema>;
 
 export type Photo = z.infer<typeof PhotoSchema>;
 export type Hike = z.infer<typeof HikeSchema>;

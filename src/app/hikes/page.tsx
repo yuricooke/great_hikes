@@ -1,31 +1,49 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
+import Link from "next/link";
 
-import HikeBrowser, { type BrowserHike } from "@/components/HikeBrowser/HikeBrowser";
-import HikeBrowserWithParams from "@/components/HikeBrowser/HikeBrowserWithParams";
+import BackgroundImage from "@/components/Background/BackgroundImage";
+import GlassPanel from "@/components/GlassPanel/GlassPanel";
+import HikeGrid from "@/components/HikeGrid/HikeGrid";
+import ListingHeader from "@/components/ListingHeader/ListingHeader";
 import { allHikes } from "@/lib/hikes";
+import { allTopics, topicPath } from "@/lib/topics";
+import styles from "../explore/explore.module.css";
+
+const DESCRIPTION = "Every hike on Great Hikes — from Patagonia to the Himalayas.";
 
 export const metadata: Metadata = {
-  title: "Hikes",
-  description: "Browse great hikes on every continent — from Patagonia to the Himalayas.",
+  title: "All hikes",
+  description: DESCRIPTION,
   alternates: { canonical: "/hikes" },
   openGraph: { images: [{ url: allHikes()[0].photo.src }] },
 };
 
-export default function HikesPage() {
-  // Only the fields the browser needs are sent to the client.
-  const hikes: BrowserHike[] = allHikes().map(({ slug, title, continent, country, description, photo }) => ({
-    slug,
-    title,
-    continent,
-    country,
-    description,
-    photo,
-  }));
-
+export default function AllHikesPage() {
+  const hikes = allHikes();
   return (
-    <Suspense fallback={<HikeBrowser hikes={hikes} continentParam={null} />}>
-      <HikeBrowserWithParams hikes={hikes} />
-    </Suspense>
+    <>
+      <BackgroundImage src={hikes[0].photo.src} priority />
+      <ListingHeader
+        title="All hikes"
+        description={DESCRIPTION}
+        count={hikes.length}
+        breadcrumb={[{ label: "Home", href: "/" }, { label: "All hikes" }]}
+      >
+        <nav aria-label="Topics">
+          <ul className={styles.chips}>
+            {allTopics().map((topic) => (
+              <li key={topic.slug}>
+                <Link href={topicPath(topic)} className={styles.chip}>
+                  {topic.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </ListingHeader>
+      <GlassPanel tone="strong" className={styles.body}>
+        <HikeGrid hikes={hikes} />
+      </GlassPanel>
+    </>
   );
 }

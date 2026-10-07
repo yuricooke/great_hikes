@@ -6,6 +6,9 @@
     "continent": "South America",
     "country": "Chile",
     "biome": "Patagonian",
+    "landscapes": [
+      "mountains"
+    ],
     "description": "Renowned for its stunning granite peaks, glaciers, and diverse wildlife, offering some of the best hiking trails in the world.",
     "hikingExplained": "Chile's Torres del Paine National Park showcases a breathtaking blend of glaciers, towering peaks, and serene lakes. The W Circuit hike traverses through an array of landscapes, from the iconic granite spires known as the Torres to vast valleys adorned with electric-blue icebergs. Each turn on this trek offers stunning vistas, crossing diverse terrain that includes dense forests, tranquil lakes like Nordenskjöld, and the challenging but rewarding climb to the base of the iconic towers themselves.",
     "officialUrl": null,
@@ -25,6 +28,9 @@
     "continent": "South America",
     "country": "Peru",
     "biome": "Andean",
+    "landscapes": [
+      "mountains"
+    ],
     "description": "Ancient Incan city nestled in the Andes Mountains, surrounded by breathtaking scenery and hiking trails like the Inca Trail.",
     "hikingExplained": "Nestled high in the Andes Mountains of Peru, Machu Picchu stands as a testament to ancient Incan engineering and culture. The Inca Trail trek leading to this mystical city winds through mountain passes, cloud forests, and impressive ruins before finally revealing the awe-inspiring sight of the Lost City of the Incas. This challenging hike not only offers historical intrigue but also stunning natural beauty as it passes through diverse ecosystems and culminates with a sunrise view over the enigmatic ruins.",
     "officialUrl": null,
@@ -44,6 +50,10 @@
     "continent": "North America",
     "country": "Canada",
     "biome": "Rocky Mountain",
+    "landscapes": [
+      "mountains",
+      "waterfalls"
+    ],
     "description": "A paradise for outdoor enthusiasts with pristine lakes, snow-capped peaks, and extensive hiking opportunities.",
     "hikingExplained": "Canada's Banff National Park is a picturesque haven for hikers, boasting turquoise lakes, rugged peaks, and abundant wildlife. Trails like the Plain of Six Glaciers lead through awe-inspiring landscapes of glaciers and alpine meadows, offering stunning vistas of the surrounding mountains and pristine natural beauty. The park's diverse terrain and well-maintained trails cater to hikers of various skill levels, providing ample opportunities to immerse in the grandeur of the Canadian Rockies.",
     "officialUrl": null,
@@ -63,6 +73,10 @@
     "continent": "North America",
     "country": "United States",
     "biome": "Temperate Forest",
+    "landscapes": [
+      "waterfalls",
+      "forests"
+    ],
     "description": "Home to geysers, hot springs, diverse wildlife, and numerous hiking trails through forests and canyons.",
     "hikingExplained": "America's iconic Yellowstone National Park is a geothermal wonderland, offering an array of hiking trails amidst bubbling geysers, colorful hot springs, and diverse ecosystems. The Grand Canyon of the Yellowstone presents dramatic vistas, with trails leading to majestic waterfalls and the fascinating geological features that define this unique landscape. Hiking here is an adventure through a land where nature's forces are on full display, creating an unforgettable experience for visitors.",
     "officialUrl": null,
@@ -82,6 +96,9 @@
     "continent": "Africa",
     "country": "Tanzania",
     "biome": "Savanna",
+    "landscapes": [
+      "savannas"
+    ],
     "description": "Famous for the annual wildebeest migration, offering vast plains and exceptional wildlife viewing on foot or via safaris.",
     "hikingExplained": "Tanzania's Serengeti National Park is a sprawling savanna renowned for the Great Migration and its diverse wildlife. Hiking through this iconic landscape offers encounters with lions, elephants, and wildebeests in their natural habitat. The vast plains, framed by golden grasses and acacia trees, create an immersive experience in the heart of Africa's wilderness.",
     "officialUrl": null,
@@ -101,6 +118,10 @@
     "continent": "Africa",
     "country": "South Africa",
     "biome": "Fynbos",
+    "landscapes": [
+      "mountains",
+      "coasts"
+    ],
     "description": "Iconic mountain with diverse flora and fauna, featuring hiking trails and panoramic views of Cape Town and the coast.",
     "hikingExplained": "Overlooking Cape Town, South Africa, Table Mountain National Park features an array of hiking trails winding through fynbos-covered slopes. These trails offer panoramic views of the city, coastline, and unique rock formations, providing hikers with a mix of natural beauty and cultural significance.",
     "officialUrl": null,
@@ -120,6 +141,9 @@
     "continent": "Asia",
     "country": "Vietnam",
     "biome": "Subtropical",
+    "landscapes": [
+      "mountains"
+    ],
     "description": "Stunning terraced rice fields, ethnic villages, and challenging trekking routes in the Hoàng Liên Son Mountains.",
     "hikingExplained": "Nestled in the mountains of Vietnam, Sapa is famed for its terraced rice fields and ethnic minority villages. Hikes here unveil breathtaking landscapes and cultural encounters with local hill tribes. The trails meander through lush greenery and misty valleys, offering glimpses into traditional rural life and panoramic vistas of the surrounding mountains.",
     "officialUrl": null,
@@ -139,6 +163,9 @@
     "continent": "Asia",
     "country": "Nepal",
     "biome": "Himalayan",
+    "landscapes": [
+      "mountains"
+    ],
     "description": "One of the world's classic treks, circling the Annapurna Massif, showcasing diverse landscapes and rich culture.",
     "hikingExplained": "Circumnavigating the Annapurna Massif in Nepal, this trek is renowned for its varied landscapes, from lush forests to arid high-altitude terrain, and diverse cultures encountered in the villages along the way. Hikers traverse deep gorges, cascading waterfalls, and mountain passes like Thorong La, soaking in the majestic Himalayan scenery and the warm hospitality of local communities.",
     "officialUrl": null,
@@ -158,6 +185,11 @@
     "continent": "Oceania",
     "country": "New Zealand",
     "biome": "Temperate Rainforest",
+    "landscapes": [
+      "mountains",
+      "coasts",
+      "waterfalls"
+    ],
     "description": "A land of fiords, waterfalls, and dramatic landscapes with multi-day hiking trails like the Milford Track.",
     "hikingExplained": "In New Zealand, Fiordland captivates with its deep fjords, cascading waterfalls, and ancient forests. Hiking trails like the Milford Track offer a glimpse into the region's pristine wilderness, with opportunities to witness breathtaking landscapes and encounters with unique wildlife amid the tranquility of this remote corner of the world.",
     "officialUrl": null,
@@ -177,6 +209,10 @@
     "continent": "Oceania",
     "country": "Australia",
     "biome": "Tropical Savanna",
+    "landscapes": [
+      "savannas",
+      "waterfalls"
+    ],
     "description": "Boasting diverse ecosystems, Aboriginal rock art, and walking trails showcasing unique wildlife and landscapes.",
     "hikingExplained": "Australia's largest national park, Kakadu, showcases diverse landscapes, from wetlands to sandstone escarpments. Hikes here reveal Aboriginal rock art, stunning waterfalls, and unique wildlife. Exploring this vast terrain provides insight into both the cultural heritage and natural beauty of the Northern Territory.",
     "officialUrl": null,
@@ -196,6 +232,10 @@
     "continent": "Europe",
     "country": "Scotland",
     "biome": "Temperate Forest",
+    "landscapes": [
+      "coasts",
+      "mountains"
+    ],
     "description": "Scenic isle with lochs, mountains, and forests, offering hiking, wildlife spotting, and stunning views.",
     "hikingExplained": "Scotland's Isle of Skye is a rugged paradise, featuring dramatic landscapes of jagged peaks, sheer cliffs, and picturesque lochs. Hiking trails like the Quiraing and the Old Man of Storr lead through enchanting scenery, offering panoramic views of the coastline and ancient rock formations that evoke a sense of otherworldly beauty.",
     "officialUrl": null,
@@ -215,6 +255,10 @@
     "continent": "Europe",
     "country": "Croatia",
     "biome": "Temperate Forest",
+    "landscapes": [
+      "waterfalls",
+      "forests"
+    ],
     "description": "A series of cascading lakes and waterfalls amid lush forests, featuring picturesque hiking trails.",
     "hikingExplained": "Croatia's Plitvice Lakes National Park is a wonderland of interconnected lakes, waterfalls, and lush forests. Trails here wind through wooden walkways and bridges, allowing hikers to explore the park's natural splendor while witnessing the mesmerizing turquoise waters cascading between terraced pools.",
     "officialUrl": null,
@@ -234,6 +278,9 @@
     "continent": "South America",
     "country": "Argentina",
     "biome": "Patagonian",
+    "landscapes": [
+      "mountains"
+    ],
     "description": "Home to the famous Perito Moreno Glacier and stunning landscapes ideal for hiking and glacier exploration.",
     "hikingExplained": "Argentina's Los Glaciares National Park is home to the iconic Perito Moreno Glacier and a network of stunning trails that offer close encounters with the park's namesake glaciers. Hiking here presents awe-inspiring views of towering ice walls, glacial lakes, and the breathtaking beauty of Patagonia's rugged landscapes.",
     "officialUrl": null,
@@ -253,6 +300,10 @@
     "continent": "Oceania",
     "country": "Australia",
     "biome": "Temperate Rainforest",
+    "landscapes": [
+      "mountains",
+      "forests"
+    ],
     "description": "Offers rugged mountains, alpine lakes, and a variety of hiking trails, including the Overland Track.",
     "hikingExplained": "Tasmania's Cradle Mountain-Lake St Clair National Park boasts ancient rainforests, alpine heaths, and glacial lakes. Hiking trails like the Overland Track traverse diverse terrain, from serene lakes to rugged mountain landscapes, providing hikers with a unique glimpse into Tasmania's natural beauty.",
     "officialUrl": null,
@@ -272,6 +323,9 @@
     "continent": "Africa",
     "country": "Tanzania",
     "biome": "Mountain",
+    "landscapes": [
+      "mountains"
+    ],
     "description": "Home to Africa's highest peak, Mount Kilimanjaro, offering various trekking routes with stunning vistas.",
     "hikingExplained": "Home to Africa's highest peak, Mount Kilimanjaro, this park in Tanzania offers several trekking routes leading to the summit. Hiking through different ecological zones, from lush rainforests to alpine deserts, allows trekkers to experience varying climates and breathtaking vistas before reaching the iconic snow-capped summit.",
     "officialUrl": null,
@@ -291,6 +345,9 @@
     "continent": "Europe",
     "country": "Italy",
     "biome": "Mediterranean",
+    "landscapes": [
+      "coasts"
+    ],
     "description": "Picturesque coastal villages connected by hiking trails along the rugged Italian Riviera.",
     "hikingExplained": "Italy's Cinque Terre National Park is characterized by its colorful coastal villages, terraced vineyards, and scenic hiking trails along the Ligurian coastline. Trails connecting the five villages offer picturesque views of the Mediterranean Sea, charming villages, and terraced hillsides adorned with vineyards and olive groves.",
     "officialUrl": null,
@@ -310,6 +367,10 @@
     "continent": "Oceania",
     "country": "New Zealand",
     "biome": "Temperate Rainforest",
+    "landscapes": [
+      "coasts",
+      "forests"
+    ],
     "description": "Offers golden beaches, coastal walks, and kayaking routes in a stunning coastal setting.",
     "hikingExplained": "New Zealand's Abel Tasman National Park features golden beaches, turquoise waters, and lush coastal forests. Hiking trails here lead through pristine landscapes, offering glimpses of secluded bays and abundant birdlife amid the natural beauty of New Zealand's South Island.",
     "officialUrl": null,
@@ -329,6 +390,9 @@
     "continent": "Asia",
     "country": "China",
     "biome": "Temperate Forest",
+    "landscapes": [
+      "mountains"
+    ],
     "description": "Sections of the iconic Great Wall surrounded by scenic landscapes and hiking trails.",
     "hikingExplained": "China's Great Wall is an ancient architectural marvel that spans thousands of miles across diverse landscapes. Hiking along sections like Mutianyu or Jiankou provides breathtaking views of this historic monument as it winds through mountains, forests, and picturesque valleys.",
     "officialUrl": null,
@@ -348,6 +412,9 @@
     "continent": "Europe",
     "country": "France",
     "biome": "Temperate Forest",
+    "landscapes": [
+      "coasts"
+    ],
     "description": "A medieval site amid picturesque landscapes.",
     "hikingExplained": "France's Mont Saint-Michel is an iconic island commune crowned by a medieval abbey. Hiking around this UNESCO World Heritage Site offers stunning views of the abbey, surrounding tidal flats, and the picturesque Normandy coastline.",
     "officialUrl": null,
@@ -367,6 +434,10 @@
     "continent": "Asia",
     "country": "China",
     "biome": "Temperate Forest",
+    "landscapes": [
+      "mountains",
+      "forests"
+    ],
     "description": "Majestic peaks, ancient pine trees, and stunning vistas in a UNESCO World Heritage Site.",
     "hikingExplained": "China's Wulingyuan National Park, home to the mesmerizing Zhangjiajie sandstone pillars, offers hiking trails through unique landscapes resembling something out of a fantasy. Trails like the Avatar Hallelujah Mountain Trail reveal towering stone pillars amid lush forests, providing a surreal experience for hikers.",
     "officialUrl": null,
@@ -386,6 +457,10 @@
     "continent": "Europe",
     "country": "Germany",
     "biome": "Alpine Forest",
+    "landscapes": [
+      "mountains",
+      "forests"
+    ],
     "description": "It was built in a time when castles were no longer necessary as strongholds. Exceptional hiking experiences in the Alps.",
     "hikingExplained": "Germany's Neuschwanstein Castle, nestled in the Bavarian Alps, is surrounded by picturesque landscapes and enchanting trails. Hiking paths like the Marienbrücke trail provide panoramic views of the fairytale castle and the stunning Alpine scenery.",
     "officialUrl": null,
@@ -405,6 +480,10 @@
     "continent": "Asia",
     "country": "China",
     "biome": "Temperate Forest",
+    "landscapes": [
+      "waterfalls",
+      "forests"
+    ],
     "description": "A nature reserve with crystal-clear lakes, waterfalls, and colorful landscapes in the Tibetan Plateau.",
     "hikingExplained": "China's Jiuzhaigou Valley is a UNESCO World Heritage Site known for its turquoise lakes, multi-tiered waterfalls, and snow-capped peaks. Hiking through this scenic wonderland unveils breathtaking natural beauty amid the vibrant colors of the valley's lakes and forests.",
     "officialUrl": null,
@@ -424,6 +503,10 @@
     "continent": "North America",
     "country": "United States",
     "biome": "Temperate Forest",
+    "landscapes": [
+      "mountains",
+      "waterfalls"
+    ],
     "description": "Home to iconic granite cliffs, waterfalls, and diverse ecosystems, providing exceptional hiking experiences.",
     "hikingExplained": "America's Yosemite National Park is a treasure trove of granite cliffs, waterfalls, and giant sequoias. Trails like the Mist Trail lead to iconic landmarks such as Yosemite Falls and Half Dome, offering hikers unparalleled views of the park's stunning landscapes.",
     "officialUrl": null,
@@ -443,6 +526,11 @@
     "continent": "Europe",
     "country": "Portugal",
     "biome": "Atlantic - Mediterranean",
+    "landscapes": [
+      "coasts",
+      "mountains",
+      "forests"
+    ],
     "description": "A beautiful island with a blend of mountains, forests, and waterfalls with hiking trails in a peaceful setting.",
     "hikingExplained": "Portugal's Madeira Island boasts rugged coastlines, lush forests, and panoramic hiking trails. \nThe levada walks, following irrigation channels, offer hikers access to the island's interior, showcasing its diverse flora and magnificent vistas of mountains and ocean.",
     "officialUrl": null,
@@ -462,6 +550,10 @@
     "continent": "South America",
     "country": "Brazil",
     "biome": "Tropical Rainforest",
+    "landscapes": [
+      "waterfalls",
+      "forests"
+    ],
     "description": "A stunning complex of waterfalls on the border of Brazil and Argentina, surrounded by lush rainforest.",
     "hikingExplained": "Straddling the border of Brazil and Argentina, Iguaçú Falls is a natural wonder of cascading waterfalls set amidst lush rainforests. Hiking trails here allow visitors to experience the sheer power and beauty of the falls from various viewpoints.",
     "officialUrl": null,
@@ -481,6 +573,9 @@
     "continent": "North America",
     "country": "Mexico",
     "biome": "Rocky Mountain",
+    "landscapes": [
+      "mountains"
+    ],
     "description": "Spectacular mountain landscapes close to the city of Monterrey, with numerous hiking trails.",
     "hikingExplained": "Mexico's Cumbres de Monterrey National Park showcases rugged canyons, towering cliffs, and diverse ecosystems. Hiking trails like the Chipinque Ecological Park offer stunning views of the surrounding mountains and lush valleys.",
     "officialUrl": null,
@@ -500,6 +595,10 @@
     "continent": "South America",
     "country": "Brazil",
     "biome": "Caatinga and Cerrado",
+    "landscapes": [
+      "mountains",
+      "waterfalls"
+    ],
     "description": "Features dramatic landscapes, caves, waterfalls, and table-top mountains, ideal for trekking and exploration.",
     "hikingExplained": "Brazil's Chapada Diamantina National Park features stunning table-top mountains, crystal-clear rivers, and hidden caves. Hikes through this Brazilian paradise offer encounters with unique rock formations and breathtaking landscapes.",
     "officialUrl": null,
@@ -519,6 +618,9 @@
     "continent": "South America",
     "country": "Brazil",
     "biome": "Marine",
+    "landscapes": [
+      "coasts"
+    ],
     "description": "An archipelago known for its pristine beaches, crystal-clear waters, and exceptional marine biodiversity.",
     "hikingExplained": "Brazil's Fernando de Noronha is an archipelago characterized by its pristine beaches, crystal-clear waters, and diverse marine life. Hiking trails here provide access to secluded beaches, panoramic viewpoints, and the chance to witness the island's natural beauty and thriving ecosystems.",
     "officialUrl": null,
@@ -538,6 +640,10 @@
     "continent": "South America",
     "country": "Brazil",
     "biome": "Dunes and Lagoons",
+    "landscapes": [
+      "savannas",
+      "coasts"
+    ],
     "description": "Boasts vast expanses of sand dunes dotted with freshwater lagoons, creating a unique landscape.",
     "hikingExplained": "Brazil's Lençóis Maranhenses National Park showcases a unique landscape of sweeping sand dunes and freshwater lagoons. Exploring this surreal environment via hiking trails offers glimpses of turquoise lagoons amid vast expanses of pristine sand.",
     "officialUrl": null,
@@ -557,6 +663,9 @@
     "continent": "South America",
     "country": "Brazil",
     "biome": "Amazon Rainforest",
+    "landscapes": [
+      "forests"
+    ],
     "description": "The world's largest rainforest, teeming with wildlife, rivers, and unparalleled biodiversity.",
     "hikingExplained": "The Amazon Rainforest is a sprawling natural wonder, hosting unparalleled biodiversity and complex ecosystems. Hiking through the rainforest provides an immersive experience amidst towering trees, diverse wildlife, and the symphony of natural sounds.",
     "officialUrl": null,
@@ -576,6 +685,10 @@
     "continent": "Asia",
     "country": "Laos",
     "biome": "Tropical Rainforest",
+    "landscapes": [
+      "waterfalls",
+      "forests"
+    ],
     "description": "A series of cascading turquoise waterfalls surrounded by lush jungle, with swimming pools and hiking trails.",
     "hikingExplained": "Laos' Kuang Si Falls is a series of cascading turquoise pools surrounded by lush forests. Hiking trails lead through the serene landscape, offering opportunities for a refreshing dip in the crystal-clear waters and tranquil moments amid nature's beauty.",
     "officialUrl": null,
@@ -595,6 +708,10 @@
     "continent": "Asia",
     "country": "Thailand",
     "biome": "Tropical Rainforest",
+    "landscapes": [
+      "forests",
+      "waterfalls"
+    ],
     "description": "Boasts ancient rainforests, limestone cliffs, stunning lakes, and diverse wildlife, perfect for trekking and wildlife spotting.",
     "hikingExplained": "Thailand's Khao Sok National Park is characterized by its ancient rainforests, limestone cliffs, and emerald-green lakes. Hiking trails through this biodiverse haven offer encounters with exotic wildlife and stunning vistas of the park's natural wonders.",
     "officialUrl": null,

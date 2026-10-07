@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 
 import BackgroundImage from "@/components/Background/BackgroundImage";
+import Breadcrumb from "@/components/Breadcrumb/Breadcrumb";
 import GlassPanel from "@/components/GlassPanel/GlassPanel";
 import HikeCard from "@/components/HikeCard/HikeCard";
 import PhotoCredit from "@/components/PhotoCredit/PhotoCredit";
@@ -47,9 +48,15 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
       <BackgroundImage src={hike.photo.src} priority />
 
       <article className={styles.article}>
-        <PillButton href="/hikes" icon="arrowBack" className={styles.back}>
-          All hikes
-        </PillButton>
+        <div className={styles.back}>
+          <Breadcrumb
+            items={[
+              { label: "Home", href: "/" },
+              { label: hike.continent, href: `/explore/${continentKey(hike.continent)}` },
+              { label: hike.title },
+            ]}
+          />
+        </div>
 
         <header className={styles.hero}>
           <p className={styles.location}>
@@ -127,7 +134,7 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
                     </li>
                   ))}
                 </ul>
-                <PillButton href={`/hikes?continent=${continentKey(hike.continent)}`} variant="outline">
+                <PillButton href={`/explore/${continentKey(hike.continent)}`} variant="outline">
                   All of {hike.continent}
                 </PillButton>
               </GlassPanel>

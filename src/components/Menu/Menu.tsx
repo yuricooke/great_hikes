@@ -13,10 +13,12 @@ type Item = { label: string; href: string; icon: IconName; external?: boolean };
 
 const ITEMS: Item[] = [
   { label: "Hikes", href: "/hikes", icon: "hiking" },
+  { label: "Explore", href: "/explore/top-10", icon: "map" },
   { label: "Instagram", href: INSTAGRAM_URL, icon: "photoCamera", external: true },
 ];
 
 function isActive(pathname: string, href: string) {
+  if (href.startsWith("/explore")) return pathname.startsWith("/explore");
   return href !== "/" && pathname.startsWith(href);
 }
 
@@ -75,7 +77,7 @@ export default function Menu() {
         onClick={() => setOpen(false)}
       >
         <Image src="/great_hikes.svg" alt="" width={44} height={29} />
-        {pathname !== "/" && <span className={styles.homeName}>{SITE_NAME}</span>}
+        <span className={styles.homeName}>{SITE_NAME}</span>
       </Link>
 
       <button
