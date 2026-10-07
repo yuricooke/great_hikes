@@ -13,12 +13,18 @@ export const metadata: Metadata = {
 };
 
 /** Full sign-in page (direct visits, refresh, shared links) with the hiking video, split layout. */
-export default function LoginPage() {
+export default async function LoginPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ error?: string; next?: string }>;
+}) {
+  const { error, next } = await searchParams;
+  const safeNext = next?.startsWith("/") && !next.startsWith("//") ? next : undefined;
   return (
     <div className={styles.split}>
       <GlassPanel tone="strong" className={styles.panel}>
         <Brand size="sm" />
-        <LoginForm />
+        <LoginForm linkError={error === "link"} next={safeNext} />
       </GlassPanel>
       <div className={styles.media}>
         <BackgroundVideo src="/video/hikes.mp4" poster={featuredHike().photo.src} />

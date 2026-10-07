@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
     title: article.title,
     description: article.lead,
     alternates: { canonical: articlePath(article) },
-    robots: article.status === "sample" ? { index: false } : undefined,
+    robots: article.status !== "published" ? { index: false } : undefined,
     openGraph: { type: "article", title: article.title, description: article.lead, images: [{ url: cover.photo.src }] },
   };
 }
@@ -55,7 +55,9 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
           <GlassPanel tone="light" className={styles.heroPanel}>
             <p className={styles.eyebrow}>
               {section}
-              {article.status === "sample" && <span className={styles.sample}>Sample</span>}
+              {article.status !== "published" && (
+                <span className={styles.sample}>{article.status === "draft" ? "Draft" : "Sample"}</span>
+              )}
             </p>
             <h1 className={styles.title}>{article.title}</h1>
             <p className={styles.lead}>{article.lead}</p>
@@ -69,6 +71,22 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
 
       <div className={styles.column}>
         <ArticleBody blocks={article.blocks} />
+        {article.sources.length > 0 && (
+          <section className={styles.sources} aria-labelledby="sources-title">
+            <h2 id="sources-title" className={styles.sourcesTitle}>
+              Sources
+            </h2>
+            <ul>
+              {article.sources.map((s) => (
+                <li key={s.url}>
+                  <a href={s.url} target="_blank" rel="noopener noreferrer">
+                    {s.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
 
       <div className={styles.after}>

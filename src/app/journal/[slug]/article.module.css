@@ -55,3 +55,27 @@
   flex-direction: column;
   gap: var(--gh-space-7);
 }
+
+.sources {
+  margin-top: var(--gh-space-7);
+  padding-top: var(--gh-space-4);
+  border-top: var(--gh-glass-border-subtle);
+  font-size: var(--gh-text-sm);
+  color: var(--gh-text-muted);
+}
+
+.sourcesTitle {
+  font-size: var(--gh-text-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--gh-tracking-caps);
+  margin-bottom: var(--gh-space-2);
+}
+
+.sources ul {
+  margin: 0;
+  padding-left: var(--gh-space-4);
+}
+
+.sources a {
+  color: var(--gh-text);
+}

@@ -125,21 +125,36 @@ test("instagram pages render", async ({ page }) => {
   }
 });
 
-test("sign in with the test account, save a hike, see it in favorites", async ({ page, isMobile }) => {
+test("sign in with the test account, save a hike, see it in favorites", async ({ page }, testInfo) => {
+  // Each project uses its own account so parallel runs don't share favorites.
+  const email = testInfo.project.name === "mobile" ? "owner@greathikes.test" : "hiker@greathikes.test";
+  // With Supabase configured, start from an empty favorites list (404 = offline demo mode).
+  const reset = await page.request.post("/auth/test-login", { data: { email, reset: true } });
+  const real = reset.ok();
+  await page.context().clearCookies();
+
   await page.goto("/");
-  expect(isMobile !== undefined).toBe(true);
   await page.getByRole("banner").getByRole("link", { name: "Sign in" }).click();
   const dialog = page.getByRole("dialog", { name: "Sign in" });
   await expect(dialog).toBeVisible();
-  await dialog.getByLabel("Email").fill("someone@example.com");
+  await dialog.getByLabel("Email").fill("not-an-email");
   await dialog.getByRole("button", { name: "Continue with email" }).click();
-  await expect(dialog.getByRole("alert")).toContainText("test accounts");
-  await dialog.getByLabel("Email").fill("hiker@greathikes.test");
+  await expect(dialog.getByRole("alert")).toContainText("valid email");
+  if (!real) {
+    await dialog.getByLabel("Email").fill("someone@example.com");
+    await dialog.getByRole("button", { name: "Continue with email" }).click();
+    await expect(dialog.getByRole("alert")).toContainText("test accounts");
+  }
+  await dialog.getByLabel("Email").fill(email);
   await dialog.getByRole("button", { name: "Continue with email" }).click();
   await expect(dialog).toBeHidden();
 
   const save = page.getByRole("button", { name: `Save ${hikes[0].title} to favorites` }).first();
+  const saved = real
+    ? page.waitForResponse((r) => r.url().includes("/rest/v1/favorites") && r.request().method() === "POST")
+    : Promise.resolve();
   await save.click();
+  await saved;
   await page.goto("/favorites");
   await expect(page.getByRole("list", { name: "Hikes" }).getByRole("listitem")).toHaveCount(1);
   await expect(page.getByText(hikes[0].title).first()).toBeVisible();

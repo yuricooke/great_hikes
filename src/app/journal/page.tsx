@@ -28,7 +28,7 @@ function Section({ title, items }: { title: string; items: Article[] }) {
               image={hikeBySlug(a.cover)!.photo.src}
               title={a.title}
               subtitle={`${a.readMinutes} min read`}
-              badge={a.status === "sample" ? "Sample" : undefined}
+              badge={a.status === "sample" ? "Sample" : a.status === "draft" ? "Draft" : undefined}
               aspect="landscape"
               sizes="(min-width: 992px) 33vw, 100vw"
             />
