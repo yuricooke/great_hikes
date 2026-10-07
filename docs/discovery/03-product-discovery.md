@@ -36,9 +36,10 @@ photographer shares their feature → followers visit & follow → more posts.
 ## Prioritization (what this means for the roadmap)
 
 1. Foundation that makes pages shareable and beautiful (001).
-2. Featuring with credit/consent (002) — drives H1/H2/H3, the engine.
-3. Enrichment (003) — answers Marco's job (H4).
-4. Reviews/tips (004), submissions (005), gear (006) — after the loop shows traction.
+2. UX shell: landing (002), accounts & favorites (003), journal (004), shop (005).
+3. Featuring with credit/consent (006) — drives H1/H2/H3, the engine.
+4. Enrichment (007) — answers Marco's job (H4).
+5. Reviews/tips (008), submissions (009) — after the loop shows traction.
 
 ## Risks
 

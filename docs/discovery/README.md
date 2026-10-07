@@ -34,6 +34,6 @@ PRODUCTION METRICS .......... 04-outcomes-and-metrics.md (measured after release
   within 2 weeks; adjust outcomes, hypotheses and roadmap order accordingly.
 - Hypotheses in 03 are tested cheaply (prototype, preview, Instagram poll) before they become
   big specs. Example: the Instagram import was validated with a prototype on
-  `test/instagram-feed` before spec 002.
+  `test/instagram-feed` before spec 006.
 - "AI" stages: Claude agents do research, drafting and validation; the owner decides. Facts that
   reach the public site (trail data, credits) are verified against sources (constitution III).

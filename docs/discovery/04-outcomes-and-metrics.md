@@ -11,12 +11,12 @@ Great Hikes page. It captures the whole loop: curation → value to photographer
 
 | ID | Outcome (6 months after launch) | Metric | Target (proposed) | Specs |
 |----|-------------------------------|--------|-------------------|-------|
-| O-1 | The site becomes a destination for the community | Monthly visitors; % from Instagram | 3,000/month; 40% from IG | 001, 002 |
-| O-2 | Photographers value being featured | Featured posts with consent; shares of feature pages | 100 featured; 30% shared | 002 |
-| O-3 | Planners find what they need | Hike pages with full facts; clicks on map/official site per visit | 80% enriched; ≥ 0.5 clicks/visit | 003 |
-| O-4 | The community contributes beyond Instagram | Reviews/tips per month; submissions | 30 reviews/tips; 10 submissions | 004, 005 |
-| O-5 | The project covers its running costs | Affiliate revenue vs. monthly costs | ≥ 100% of costs (≈ $40–70/month) | 006 |
-| O-6 | Great Hikes owns its audience | Newsletter subscribers / IG followers growth | 500 subscribers; +30% followers | 002, 007 |
+| O-1 | The site becomes a destination for the community | Monthly visitors; % from Instagram | 3,000/month; 40% from IG | 001, 002, 004, 006 |
+| O-2 | Photographers value being featured | Featured posts with consent; shares of feature pages | 100 featured; 30% shared | 006 |
+| O-3 | Planners find what they need | Hike pages with full facts; clicks on map/official site per visit | 80% enriched; ≥ 0.5 clicks/visit | 007 |
+| O-4 | The community contributes beyond Instagram | Reviews/tips per month; submissions | 30 reviews/tips; 10 submissions | 003, 008, 009 |
+| O-5 | The project covers its running costs | Affiliate revenue vs. monthly costs | ≥ 100% of costs (≈ $40–70/month) | 005 |
+| O-6 | Great Hikes owns its audience | Newsletter subscribers / IG followers growth | 500 subscribers; +30% followers | 003, 004, 006, 010 |
 
 ## Marketing investment & return (to be completed in the go-to-market plan)
 
@@ -43,7 +43,7 @@ Claude API (curation agents, a few US$/month) and Behold Starter (US$ 10/month).
 - 0 photos published without recorded consent.
 - Takedown requests handled within 48 h.
 
-## Instrumentation (added in spec 007, basics in 001)
+## Instrumentation (added in spec 010, basics in 001)
 
 - Privacy-friendly analytics (e.g. Vercel Web Analytics) with UTM tags on the Instagram bio link
   and feature share links.

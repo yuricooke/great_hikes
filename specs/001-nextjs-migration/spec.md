@@ -23,7 +23,7 @@ pill buttons, the Great Hikes logo.
 **Business outcomes served** (`docs/discovery/04-outcomes-and-metrics.md`): O-1 (site becomes a
 community destination — shareable, fast pages for Instagram visitors) and the quality guardrails
 (Core Web Vitals, accessibility). It also enables O-2/O-3 by providing the layout and data
-foundation for specs 002–003. Production measure: share-preview correctness, mobile Core Web
+foundation for the specs that follow. Production measure: share-preview correctness, mobile Core Web
 Vitals, and pages per visit from Instagram once analytics land.
 
 This is a rebuild, not a redesign: visitors who know the current site must recognize it

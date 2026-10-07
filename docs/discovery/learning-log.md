@@ -10,5 +10,5 @@ Newest first. Each entry: what we measured or observed, what we learned, what ch
   6 posts; "Top" hashtag posts are from 2017–2019.
 - **Learned:** credit is solvable for our own feed; hashtag posts need manual credit in curation.
   Location must come from caption place names (no GPS/location tag).
-- **Changes:** spec 002 includes curation with credit/consent; spec 003 geocodes place names with
+- **Changes:** spec 006 includes curation with credit/consent; spec 007 geocodes place names with
   owner confirmation; Behold Starter plan needed before launch (2 feeds, 50 posts).

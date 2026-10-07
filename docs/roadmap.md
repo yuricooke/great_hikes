@@ -24,14 +24,21 @@ Discovery behind this order: `docs/discovery/` (problem, domain, product, outcom
 |------|------|---------|--------|
 | 000 | Foundation | Spec Kit, constitution, agents/skills, API research | Done (`relaunch/foundation`) |
 | 001 | Platform rebuild (O-1, guardrails) | Next.js/TS, design tokens, new layout system with the same identity, readable hike URLs, SEO, optimized media, mobile nav | Spec + plan done; next: tasks → build |
-| 002 | Instagram import & AI curation (O-2, O-6) | Behold feeds (@great_hikes posts + #great_hikes) imported; **agents propose, owner only approves**: each proposal arrives prepared (quality score, place, credit, consent message draft), links it to a hike, records credit/consent; "Our selection" + "From the community" pages; lightbox | Prototype on `test/instagram-feed` (2026-10-07) |
-| 003 | Hike enrichment (O-3) | From a curated post's place name: geocode → coordinates; trail data (OSM/national datasets) → distance, elevation gain, difficulty, season; interactive map + elevation profile; weather; description drafted from sourced facts and approved by the owner | Planned |
-| 004 | Reviews & tips (O-4) | On-site reviews/ratings and practical tips per hike; Instagram comments shown only if API access allows (Behold gives counts, not comments) | Planned |
-| 005 | Community submissions (O-4) | Accounts, "Share your hike" upload with contributor license, moderation queue, contributor profiles | Planned (needs backend, e.g. Supabase) |
-| 006 | Gear (affiliates) (O-5) | Gear lists per hike/season with affiliate links | Planned |
-| 007 | Launch readiness (O-6, metrics) | Custom domain, analytics, privacy/terms/contributor license, performance + accessibility audit | Planned |
+| 002 | Landing & navigation (O-1) | `/` becomes the landing: today's featured hike as full-bleed hero + horizontal topic rails (Our top 10, landscapes, continents) with "See all"; first-level grid pages per topic; hike page as second level; slots for Journal and Shop sections | In progress (2026-10-07) |
+| 003 | Accounts, database & favorites (O-4, O-6) | Supabase (Postgres + Auth): passwordless email link + Google; sign-in as glass modal from any page and full `/login` page with the video; seeded test user for local dev; favorites (heart on cards/hike pages) + `/favorites` page; owner role | Planned |
+| 004 | Journal (O-1, O-6) | Articles ("stories") with full-bleed hero, glass reading column, inline hike link-cards, photo gallery rail, "hikes in this story" and related stories (ref: hellstrom.no journal); Journal section on landing | Planned |
+| 005 | Shop — affiliates (O-5) | Gear pages and a Shop section on the landing with curated products from affiliate partners (REI, Patagonia, Backcountry…), disclosure, click tracking; gear per hike/season | Planned (owner signs up to affiliate programs) |
+| 006 | Instagram import & AI curation (O-2, O-6) | Behold feeds imported; **agents propose, owner only approves** in the inbox (needs 003): quality score, place, credit, DM consent draft; publish; Instagram rails on the landing (IG features, photographers, community) | Prototype on `test/instagram-feed` |
+| 007 | Hike enrichment (O-3) | Place → coordinates; trail data (OSM/national datasets) → distance, elevation gain, difficulty, season; interactive map + elevation profile; weather; sourced description drafts approved by the owner | Planned |
+| 008 | Reviews & tips (O-4) | On-site reviews/ratings and practical tips per hike (signed-in users); Instagram comments only if API access allows | Planned |
+| 009 | Community submissions (O-4) | "Share your hike" upload with contributor license, moderation queue, contributor profiles | Planned |
+| 010 | Launch readiness (O-6, metrics) | Custom domain, analytics, privacy/terms/contributor license, performance + accessibility audit | Planned |
 
-**Launch gate:** no fixed date. Launch when product specs 001–003 are live and the go-to-market
+Order note (2026-10-07): the owner prioritized the UX shell (landing, accounts, journal, shop)
+before the Instagram engine. Trade-off: the growth loop (H1–H3) is validated later; the
+Instagram prototype keeps that risk low.
+
+**Launch gate:** no fixed date. Launch when product specs 001–007 are live and the go-to-market
 plan (marketing track below) is approved.
 
 ### Marketing track (runs in parallel with code)
@@ -64,8 +71,8 @@ What we know (research doc, sections 5–6):
   The hashtag is open to anyone, so it's a discovery signal, not consent.
 
 Decided approach (owner decisions 2026-10-07):
-1. **Agents curate, owner approves** (spec 002): collect feeds → AI quality score → place +
-   geocode → credit → consent request → enrichment (spec 003) → publish → repost.
+1. **Agents curate, owner approves** (spec 006): collect feeds → AI quality score → place +
+   geocode → credit → consent request → enrichment (spec 007) → publish → repost.
 2. **No credit, no feature:** a post without an identifiable @photographer is discarded.
 3. **Consent by Instagram DM** (no consent hashtag): the agent drafts a personalized DM asking the
    photographer to reply "yes"; the owner sends it with one tap (opens the DM with the text
@@ -75,7 +82,7 @@ Decided approach (owner decisions 2026-10-07):
 4. **Repost automation** (Content Publishing API) once the owner gets Meta developer access.
 5. **Close the loop:** each featured photographer gets a page and a "Featured on Great Hikes"
    story card to share.
-6. **Own the submission channel** later (spec 005): bio link → `/share` with contributor license.
+6. **Own the submission channel** later (spec 009): bio link → `/share` with contributor license.
 
 ## Idea backlog
 
