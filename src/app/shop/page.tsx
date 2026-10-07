@@ -1,51 +1,52 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 import ListingHeader from "@/components/ListingHeader/ListingHeader";
-import PhotoCard from "@/components/PhotoCard/PhotoCard";
-import { hikeBySlug } from "@/lib/hikes";
-import { shopCategories, shopDisclosure } from "@/lib/shop";
+import ShopBrowser from "@/components/Shop/ShopBrowser";
+import { pricesUpdated, products, shopCategories, shopDisclosure } from "@/lib/products";
 import styles from "../section.module.css";
-import grid from "../journal/journal.module.css";
+import shop from "./shop.module.css";
 
 export const metadata: Metadata = {
   title: "Shop",
-  description: "Gear we trust on the trail, from partners we'd buy from ourselves.",
+  description: "Hiking and outdoor gear we trust — t-shirts, socks, jackets, backpacks, tents and climbing gear.",
   alternates: { canonical: "/shop" },
 };
 
 export default function ShopPage() {
-  const categories = shopCategories();
+  const list = products();
   return (
     <>
       <ListingHeader
         image="/hikes/torres-del-paine-national-park.jpg"
         title="Shop"
-        description="Gear we trust on the trail, from partners we'd buy from ourselves."
+        description="Gear we trust on the trail — from t-shirts and socks to tents and climbing gear."
+        meta={list.length ? `${list.length} products` : undefined}
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Shop" }]}
-      >
-        <p className={styles.muted}>{shopDisclosure()}</p>
-      </ListingHeader>
+      />
       <section className={styles.section}>
-        {categories.length > 0 ? (
-          <ul className={grid.grid}>
-            {categories.map((c) => (
-              <li key={c.slug}>
-                <PhotoCard
-                  href={c.url}
-                  external={c.url.startsWith("http")}
-                  image={hikeBySlug(c.image)!.photo.src}
-                  title={c.title}
-                  subtitle={c.partner ? `${c.text} · at ${c.partner}` : c.text}
-                  badge={c.status === "sample" ? "Sample" : c.partner || undefined}
-                  aspect="landscape"
-                  sizes="(min-width: 992px) 33vw, 100vw"
-                />
-              </li>
-            ))}
-          </ul>
+        {/* FTC: clear disclosure before any affiliate link, on the same page. */}
+        <p className={shop.disclosure}>{shopDisclosure()}</p>
+        {list.length > 0 ? (
+          <Suspense>
+            <ShopBrowser products={list} categories={shopCategories()} />
+          </Suspense>
         ) : (
           <p className={styles.muted}>Our gear picks are coming soon.</p>
         )}
+        {list.length > 0 && (
+          <p className={shop.updated}>
+            Prices and availability come from our partner stores and may change. Last updated{" "}
+            {new Date(pricesUpdated()).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}.
+          </p>
+        )}
+        <aside className={shop.merch} aria-labelledby="merch-title">
+          <p className={shop.merchEyebrow}>Coming soon</p>
+          <h2 id="merch-title" className={shop.merchTitle}>
+            Great Hikes merch
+          </h2>
+          <p>T-shirts, socks and caps with our own designs and photos from the community.</p>
+        </aside>
       </section>
     </>
   );

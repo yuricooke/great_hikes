@@ -1,0 +1,35 @@
+.disclosure {
+  padding: var(--gh-space-3) var(--gh-space-4);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-card);
+  background: var(--gh-surface);
+  color: var(--gh-text-muted);
+  font-size: var(--gh-text-sm);
+}
+
+.updated {
+  color: var(--gh-text-muted);
+  font-size: var(--gh-text-sm);
+}
+
+.merch {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-2);
+  padding: var(--gh-space-6) var(--gh-space-5);
+  border-radius: var(--gh-radius-panel);
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.2)),
+    url("/hikes/los-glaciares-national-park.jpg") center / cover;
+  border: var(--gh-glass-border);
+}
+
+.merchEyebrow {
+  text-transform: uppercase;
+  letter-spacing: var(--gh-tracking-caps);
+  font-size: var(--gh-text-sm);
+}
+
+.merchTitle {
+  font-size: var(--gh-text-2xl);
+}

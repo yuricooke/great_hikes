@@ -8,12 +8,13 @@ import PhotoCard from "@/components/PhotoCard/PhotoCard";
 import PhotoCredit from "@/components/PhotoCredit/PhotoCredit";
 import PillButton from "@/components/PillButton/PillButton";
 import Rail from "@/components/Rail/Rail";
+import ProductCard from "@/components/Shop/ProductCard";
 import { featuredHike } from "@/lib/featured";
 import { hikeBySlug, hikePath } from "@/lib/hikes";
 import { featuredPosts } from "@/lib/instagram";
 import { articlePath, articles } from "@/lib/journal";
 import { CONTINENTS, LANDSCAPES } from "@/lib/schema";
-import { shopCategories } from "@/lib/shop";
+import { products } from "@/lib/products";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 import { hikesForTopic, topicBySlug } from "@/lib/topics";
 import styles from "./landing.module.css";
@@ -41,7 +42,7 @@ export default async function LandingPage() {
   const features = (await featuredPosts()).slice(0, 10);
   const guides = articles("guide");
   const experiences = articles("experience");
-  const shop = shopCategories();
+  const shop = products().filter((p) => p.featured).slice(0, 10);
   const now = new Date();
 
   return (
@@ -115,18 +116,9 @@ export default async function LandingPage() {
         )}
 
         {shop.length > 0 && (
-          <Rail id="shop" size="wide" title="Shop" description="Gear we trust on the trail." seeAllHref="/shop" seeAllLabel="Visit the shop">
-            {shop.map((c) => (
-              <PhotoCard
-                key={c.slug}
-                href={c.url}
-                external={c.url.startsWith("http")}
-                image={hikeBySlug(c.image)!.photo.src}
-                title={c.title}
-                subtitle={c.partner ? `at ${c.partner}` : c.text}
-                badge={c.status === "sample" ? "Sample" : c.partner}
-                aspect="landscape"
-              />
+          <Rail id="shop" title="Shop" description="Gear we trust on the trail." seeAllHref="/shop" seeAllLabel="Visit the shop">
+            {shop.map((p) => (
+              <ProductCard key={p.id} product={p} />
             ))}
           </Rail>
         )}

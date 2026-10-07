@@ -85,12 +85,36 @@ test("journal: article page with inline hike card and related rails", async ({ p
   await expect(page.getByRole("region", { name: "Hikes in this story" })).toBeVisible();
 });
 
-test("shop shows partner categories with a disclosure, opening in a new tab", async ({ page }) => {
+test("shop: categories, sorting and products that open the partner store", async ({ page }) => {
   await page.goto("/shop");
-  await expect(page.getByText(/affiliate links/)).toBeVisible();
-  const first = page.getByRole("list").filter({ has: page.locator("a[target=_blank]") }).getByRole("link").first();
-  await expect(first).toHaveAttribute("target", "_blank");
-  expect(await page.locator("a[href*='rei.com']").count()).toBe(0);
+  await expect(page.getByText(/earns a commission/)).toBeVisible();
+  const grid = page.getByRole("list", { name: "Products" });
+  const all = await grid.getByRole("listitem").count();
+  expect(all).toBeGreaterThan(8);
+
+  await page.getByRole("navigation", { name: "Shop categories" }).getByRole("link", { name: "Socks" }).click();
+  await expect(page).toHaveURL(/category=socks/);
+  const socks = await grid.getByRole("listitem").count();
+  expect(socks).toBeGreaterThan(0);
+  expect(socks).toBeLessThan(all);
+
+  await page.getByLabel("Sort").selectOption("price-asc");
+  await expect(page).toHaveURL(/sort=price-asc/);
+  const prices = await grid.locator("p").filter({ hasText: "$" }).allTextContents();
+  const values = prices.map((t) => Number(t.replace(/[^0-9.]/g, "")));
+  expect(values).toEqual([...values].sort((a, b) => a - b));
+
+  const cta = grid.getByRole("link", { name: /^Shop at/ }).first();
+  await expect(cta).toHaveAttribute("target", "_blank");
+  await expect(cta).toHaveAttribute("rel", /sponsored/);
+  await expect(cta).toHaveAttribute("href", /^\/go\//);
+});
+
+test("outbound /go links redirect to the partner (samples: back to the shop)", async ({ request }) => {
+  const res = await request.get("/go/merino-trail-sock", { maxRedirects: 0 });
+  expect(res.status()).toBe(302);
+  expect(res.headers()["x-robots-tag"]).toContain("noindex");
+  expect((await request.get("/go/unknown-product", { maxRedirects: 0 })).headers().location).toMatch(/\/shop$/);
 });
 
 test("instagram pages render", async ({ page }) => {

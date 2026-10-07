@@ -92,6 +92,9 @@ button {
   z-index: 1;
   min-height: 100dvh;
   padding: var(--page-pad-top) var(--page-pad-x) var(--gh-space-7) var(--page-pad-left);
+  /* Bleeding sliders end exactly at the page edge; clipping here (not on <html>) also keeps
+     mobile browsers from widening the layout viewport to fit them. */
+  overflow-x: clip;
 }
 
 @media (min-width: 992px) {

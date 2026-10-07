@@ -1,0 +1,116 @@
+.shop {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-5);
+}
+
+/* Category tiles: icon + label, scroll sideways on phones. */
+.categories {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 var(--gh-space-2);
+  display: flex;
+  gap: var(--gh-space-3);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.categories::-webkit-scrollbar {
+  display: none;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gh-space-2);
+  width: 116px;
+  height: 104px;
+  padding: var(--gh-space-2);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-card);
+  background: var(--gh-surface);
+  color: var(--gh-text);
+  text-decoration: none;
+  text-align: center;
+  font-size: var(--gh-text-sm);
+  line-height: 1.2;
+}
+
+.category:hover {
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.category[aria-current="true"] {
+  background: var(--gh-text);
+  color: #000;
+  border-color: var(--gh-text);
+  font-weight: 600;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gh-space-3);
+}
+
+.heading {
+  font-size: var(--gh-text-xl);
+  margin-right: auto;
+}
+
+.count {
+  color: var(--gh-text-muted);
+  font-weight: 400;
+}
+
+.sortLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--gh-space-1);
+  color: var(--gh-text-muted);
+}
+
+.sort {
+  min-height: var(--gh-tap);
+  padding: 0 var(--gh-space-4);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-pill);
+  background: var(--gh-pill);
+  color: var(--gh-text);
+  font: inherit;
+}
+
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--gh-space-3);
+}
+
+.empty {
+  color: var(--gh-text-muted);
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--gh-space-4);
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1600px) {
+  .grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}

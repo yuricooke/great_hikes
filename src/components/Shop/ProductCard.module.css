@@ -1,0 +1,132 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-card);
+  background: var(--gh-surface);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.imageLink {
+  display: block;
+}
+
+.media {
+  position: relative;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.12), transparent 60%), #2a2f2c;
+}
+
+/* Muted outdoor tones per category for the placeholder. */
+.apparel { background-color: #3b4a3f; }
+.jackets { background-color: #2f3f4f; }
+.socks { background-color: #4a3f36; }
+.footwear { background-color: #3f3a33; }
+.backpacks { background-color: #34433f; }
+.tents { background-color: #44402f; }
+.climbing { background-color: #3f3446; }
+.accessories { background-color: #2f4245; }
+
+.image {
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.04);
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gh-space-2);
+  color: rgba(241, 241, 241, 0.85);
+}
+
+.placeholderText {
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--gh-text-muted);
+}
+
+.badge {
+  position: absolute;
+  top: var(--gh-space-3);
+  left: var(--gh-space-3);
+  padding: 2px var(--gh-space-3);
+  border-radius: var(--gh-radius-pill);
+  background: rgba(255, 209, 102, 0.18);
+  border: 1px solid rgba(255, 209, 102, 0.5);
+  font-size: var(--gh-text-sm);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-1);
+  flex: 1;
+  padding: var(--gh-space-4);
+}
+
+.brand {
+  text-transform: uppercase;
+  letter-spacing: var(--gh-tracking-caps);
+  font-size: 0.75rem;
+  color: var(--gh-text-muted);
+}
+
+.name {
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.price {
+  margin-top: var(--gh-space-1);
+  font-family: var(--gh-font-heading);
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.priceNote {
+  font-family: var(--gh-font-body);
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: var(--gh-text-muted);
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gh-space-2);
+  min-height: var(--gh-tap);
+  margin-top: auto;
+  padding: 0 var(--gh-space-4);
+  border-radius: var(--gh-radius-pill);
+  background: var(--gh-accent);
+  color: #fff;
+  text-decoration: none;
+  font-family: var(--gh-font-heading);
+  font-weight: 500;
+}
+
+.body .cta {
+  margin-top: var(--gh-space-3);
+}
+
+.cta:hover {
+  background: var(--gh-accent-hover);
+}
