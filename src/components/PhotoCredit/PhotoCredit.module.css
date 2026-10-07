@@ -1,0 +1,10 @@
+.credit {
+  font-size: var(--gh-text-sm);
+  color: var(--gh-text);
+  text-shadow: var(--gh-text-shadow);
+}
+
+.credit a {
+  color: var(--gh-text);
+  text-underline-offset: 2px;
+}

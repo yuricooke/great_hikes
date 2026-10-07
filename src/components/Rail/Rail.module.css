@@ -1,0 +1,122 @@
+.rail {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-4);
+  min-width: 0;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gh-space-4);
+}
+
+.title {
+  font-size: var(--gh-text-xl);
+}
+
+.description {
+  margin-top: var(--gh-space-1);
+  color: var(--gh-text-muted);
+  display: none;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: var(--gh-space-2);
+  flex: 0 0 auto;
+}
+
+.arrow {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: var(--gh-tap);
+  height: var(--gh-tap);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-pill);
+  background: var(--gh-pill);
+  color: var(--gh-text);
+  cursor: pointer;
+}
+
+.arrow:hover:not(:disabled) {
+  background: var(--gh-pill-hover);
+}
+
+.arrow:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.seeAll {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--gh-space-1);
+  min-height: var(--gh-tap);
+  padding: 0 var(--gh-space-2) 0 var(--gh-space-4);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-pill);
+  color: var(--gh-text);
+  text-decoration: none;
+  font-family: var(--gh-font-heading);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.seeAll:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Cards snap into place; the next card peeks in to show there is more. */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: var(--gh-space-1) 0 var(--gh-space-3);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 62%;
+  gap: var(--gh-space-4);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 0;
+  scrollbar-width: none;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  scroll-snap-align: start;
+  min-width: 0;
+}
+
+@media (min-width: 576px) {
+  .list {
+    grid-auto-columns: 42%;
+  }
+}
+
+@media (min-width: 992px) {
+  .description {
+    display: block;
+  }
+
+  .arrow {
+    display: inline-flex;
+  }
+
+  .list {
+    grid-auto-columns: calc((100% - 3 * var(--gh-space-4)) / 4.3);
+  }
+}
+
+@media (min-width: 1400px) {
+  .list {
+    grid-auto-columns: calc((100% - 4 * var(--gh-space-4)) / 5.3);
+  }
+}

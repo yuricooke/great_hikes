@@ -1,0 +1,37 @@
+.dialog {
+  width: min(460px, calc(100vw - 32px));
+  padding: 0;
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-panel);
+  background: rgba(10, 10, 10, 0.72);
+  backdrop-filter: var(--gh-blur-lg);
+  -webkit-backdrop-filter: var(--gh-blur-lg);
+  color: var(--gh-text);
+  box-shadow: var(--gh-shadow);
+}
+
+.dialog::backdrop {
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(4px);
+}
+
+.body {
+  position: relative;
+  padding: var(--gh-space-7) var(--gh-space-5) var(--gh-space-5);
+}
+
+.close {
+  position: absolute;
+  top: var(--gh-space-3);
+  right: var(--gh-space-3);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--gh-tap);
+  height: var(--gh-tap);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-pill);
+  background: var(--gh-pill);
+  color: var(--gh-text);
+  cursor: pointer;
+}

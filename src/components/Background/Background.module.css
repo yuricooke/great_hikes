@@ -1,0 +1,45 @@
+/* Sits behind the page content: main (.page) creates the stacking context at z-index 1. */
+.layer {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: var(--gh-page);
+  overflow: hidden;
+}
+
+.media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*
+ * The original offset vignette (darkest top-left, where page text sits) plus gradients that keep
+ * text over bright photos readable: left-to-right on desktop, top-to-bottom on phones.
+ */
+.scrim,
+.scrimLight {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.scrim {
+  box-shadow: inset 20rem 20rem 20rem 10rem rgba(0, 0, 0, 0.5);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.35) 60%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+@media (min-width: 992px) {
+  .scrim {
+    background:
+      linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.25) 55%, transparent 80%),
+      linear-gradient(180deg, transparent 60%, rgba(0, 0, 0, 0.4) 100%);
+  }
+}
+
+.scrimLight {
+  background: rgba(0, 0, 0, 0.15);
+}
+

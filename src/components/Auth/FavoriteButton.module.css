@@ -1,0 +1,37 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gh-space-2);
+  min-width: var(--gh-tap);
+  height: var(--gh-tap);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-pill);
+  background: var(--gh-glass-strong);
+  backdrop-filter: var(--gh-blur);
+  -webkit-backdrop-filter: var(--gh-blur);
+  color: var(--gh-text);
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.button:hover {
+  transform: scale(1.06);
+}
+
+.overlay {
+  position: absolute;
+  top: var(--gh-space-3);
+  right: var(--gh-space-3);
+  z-index: 2;
+}
+
+.pill {
+  padding: 0 var(--gh-space-4);
+  font-family: var(--gh-font-heading);
+}
+
+.saved {
+  color: #ff6b7a;
+}

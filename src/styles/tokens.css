@@ -1,0 +1,64 @@
+/*
+ * Great Hikes design tokens — the visual identity in one place (constitution I).
+ * Values extracted from the original CRA CSS; glass fills nudged darker where text sits on
+ * photos so it meets WCAG AA (constitution V).
+ */
+:root {
+  /* Color */
+  --gh-text: #f1f1f1;
+  --gh-text-muted: rgba(241, 241, 241, 0.78);
+  --gh-page: #000; /* pure black page (owner decision 2026-10-07) */
+  --gh-pill: #212529;
+  --gh-pill-hover: #424649;
+  --gh-accent: #1f7a43; /* "Let's hike" green — 5.4:1 with white text */
+  --gh-accent-hover: #186636;
+  --gh-focus: #ffd166;
+
+  /* Glass */
+  --gh-glass-home: rgba(0, 0, 0, 0.4);
+  --gh-glass: rgba(0, 0, 0, 0.4);
+  --gh-glass-strong: rgba(0, 0, 0, 0.55);
+  --gh-glass-border: 1px solid rgba(255, 255, 255, 0.19);
+  --gh-glass-border-subtle: 1px solid rgba(255, 255, 255, 0.1);
+  --gh-line: rgba(255, 255, 255, 0.85); /* brand underline, rules, selected card */
+  --gh-chrome: rgba(0, 0, 0, 0.4); /* menu rail / top bar */
+  --gh-chrome-drawer: rgba(0, 0, 0, 0.7);
+  --gh-blur-sm: blur(3.5px);
+  --gh-blur: blur(10px);
+  --gh-blur-lg: blur(16px);
+  --gh-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
+  --gh-text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+
+  /* Shape */
+  --gh-radius-panel: 30px;
+  --gh-radius-card: 10px;
+  --gh-radius-pill: 9999px;
+  --gh-radius-sm: 12px;
+
+  /* Space (4px scale) */
+  --gh-space-1: 4px;
+  --gh-space-2: 8px;
+  --gh-space-3: 12px;
+  --gh-space-4: 16px;
+  --gh-space-5: 24px;
+  --gh-space-6: 32px;
+  --gh-space-7: 48px;
+  --gh-space-8: 64px;
+
+  /* Type */
+  --gh-font-heading: var(--font-exo2), "Exo 2", system-ui, sans-serif;
+  --gh-font-body: var(--font-mukta), "Mukta", system-ui, sans-serif;
+  --gh-text-sm: 0.875rem;
+  --gh-text-base: 1rem;
+  --gh-text-lg: 1.125rem;
+  --gh-text-xl: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
+  --gh-text-2xl: clamp(2rem, 1.4rem + 2.4vw, 3rem);
+  --gh-text-3xl: clamp(2.25rem, 1.5rem + 3vw, 3.5rem);
+  --gh-tracking-caps: 0.1em;
+
+  /* Layout */
+  --gh-rail-width: 88px;
+  --gh-topbar-height: 64px;
+  --gh-content-max: 1200px;
+  --gh-tap: 44px;
+}

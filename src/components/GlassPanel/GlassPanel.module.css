@@ -1,0 +1,31 @@
+.glass {
+  border: var(--gh-glass-border);
+  box-shadow: var(--gh-shadow);
+  color: var(--gh-text);
+}
+
+.light {
+  background: var(--gh-glass-home);
+  backdrop-filter: var(--gh-blur-sm);
+  -webkit-backdrop-filter: var(--gh-blur-sm);
+}
+
+.regular {
+  background: var(--gh-glass);
+  backdrop-filter: var(--gh-blur);
+  -webkit-backdrop-filter: var(--gh-blur);
+}
+
+.strong {
+  background: var(--gh-glass-strong);
+  backdrop-filter: var(--gh-blur-lg);
+  -webkit-backdrop-filter: var(--gh-blur-lg);
+}
+
+.panel {
+  border-radius: var(--gh-radius-panel);
+}
+
+.card {
+  border-radius: var(--gh-radius-card);
+}

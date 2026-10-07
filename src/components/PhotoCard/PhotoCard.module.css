@@ -1,0 +1,75 @@
+.wrap {
+  position: relative;
+}
+
+.card {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-card);
+  background: var(--gh-glass);
+  box-shadow: var(--gh-shadow);
+  color: var(--gh-text);
+  text-decoration: none;
+  isolation: isolate;
+}
+
+.image {
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .image,
+.card:focus-visible .image {
+  transform: scale(1.04);
+}
+
+.badge {
+  position: absolute;
+  top: var(--gh-space-3);
+  left: var(--gh-space-3);
+  padding: var(--gh-space-1) var(--gh-space-3);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-pill);
+  background: var(--gh-glass-strong);
+  backdrop-filter: var(--gh-blur);
+  -webkit-backdrop-filter: var(--gh-blur);
+  font-family: var(--gh-font-heading);
+  font-size: var(--gh-text-sm);
+  font-weight: 600;
+}
+
+/* Frosted caption strip at the bottom of the photo. */
+.caption {
+  position: absolute;
+  inset: auto 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--gh-space-3) var(--gh-space-4) var(--gh-space-4);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.6));
+  backdrop-filter: var(--gh-blur-sm);
+  -webkit-backdrop-filter: var(--gh-blur-sm);
+  border-top: var(--gh-glass-border-subtle);
+}
+
+.title {
+  font-family: var(--gh-font-heading);
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.subtitle {
+  font-size: var(--gh-text-sm);
+}
+
+.landscape .card {
+  aspect-ratio: 4 / 3;
+}

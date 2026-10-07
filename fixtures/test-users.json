@@ -1,0 +1,7 @@
+{
+  "_comment": "Local/preview demo sign-in only (no passwords). Replaced by Supabase Auth seed data in spec 003.",
+  "users": [
+    { "email": "hiker@greathikes.test", "name": "Test Hiker", "role": "member" },
+    { "email": "owner@greathikes.test", "name": "Great Hikes Owner", "role": "owner" }
+  ]
+}

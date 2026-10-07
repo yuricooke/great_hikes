@@ -1,0 +1,183 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+
+import FavoriteButton from "@/components/Auth/FavoriteButton";
+import GlassPanel from "@/components/GlassPanel/GlassPanel";
+import Hero from "@/components/Hero/Hero";
+import PhotoCard from "@/components/PhotoCard/PhotoCard";
+import PhotoCredit from "@/components/PhotoCredit/PhotoCredit";
+import PillButton from "@/components/PillButton/PillButton";
+import Rail from "@/components/Rail/Rail";
+import { featuredHike } from "@/lib/featured";
+import { hikeBySlug, hikePath } from "@/lib/hikes";
+import { featuredPosts } from "@/lib/instagram";
+import { articlePath, articles } from "@/lib/journal";
+import { CONTINENTS, LANDSCAPES } from "@/lib/schema";
+import { shopCategories } from "@/lib/shop";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE } from "@/lib/site";
+import { hikesForTopic, topicBySlug } from "@/lib/topics";
+import styles from "./landing.module.css";
+
+// Today's feature changes daily (UTC) and the Instagram feed refreshes: regenerate hourly.
+export const revalidate = 3600;
+
+export function generateMetadata(): Metadata {
+  const hike = featuredHike();
+  return {
+    title: { absolute: `${SITE_NAME} — ${SITE_TAGLINE}` },
+    description: SITE_DESCRIPTION,
+    alternates: { canonical: "/" },
+    openGraph: { images: [{ url: hike.photo.src, alt: hike.photo.alt }] },
+  };
+}
+
+function todayLabel(now = new Date()) {
+  return now.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
+}
+
+export default async function LandingPage() {
+  const hike = featuredHike();
+  const top10 = hikesForTopic(topicBySlug("top-10")!);
+  const features = (await featuredPosts()).slice(0, 10);
+  const guides = articles("guide");
+  const experiences = articles("experience");
+  const shop = shopCategories();
+  const now = new Date();
+
+  return (
+    <>
+      <h1 className="visually-hidden">
+        {SITE_NAME} — {SITE_TAGLINE}
+      </h1>
+
+      <Hero image={hike.photo.src}>
+        <div className={styles.heroInner}>
+          <GlassPanel tone="light" className={styles.feature} aria-labelledby="featured-title">
+            <div className={styles.featureTop}>
+              <p className={styles.eyebrow}>Today&apos;s feature</p>
+              <time className={styles.date} dateTime={now.toISOString().slice(0, 10)}>
+                {todayLabel(now)}
+              </time>
+            </div>
+            <h2 id="featured-title" className={styles.featureTitle}>
+              {hike.title}
+            </h2>
+            <p className={styles.place}>
+              {hike.country} <span aria-hidden="true">·</span> {hike.continent} <span aria-hidden="true">·</span> {hike.biome}
+            </p>
+            <p className={styles.featureText}>{hike.description}</p>
+            <div className={styles.featureActions}>
+              <PillButton href={hikePath(hike)} variant="accent" size="lg" icon="hiking">
+                Let&apos;s hike!
+              </PillButton>
+              <FavoriteButton slug={hike.slug} title={hike.title} variant="pill" />
+            </div>
+          </GlassPanel>
+          <PhotoCredit photo={hike.photo} />
+        </div>
+      </Hero>
+
+      <div className={styles.sections}>
+        <Rail id="top-10" title="Our top 10 for you" description="The hikes we'd do again tomorrow." seeAllHref="/explore/top-10">
+          {top10.map((h, i) => (
+            <PhotoCard key={h.slug} href={hikePath(h)} image={h.photo.src} title={h.title} subtitle={`${h.country} · ${h.continent}`} badge={`#${i + 1}`} favoriteSlug={h.slug} />
+          ))}
+        </Rail>
+
+        {features.length > 0 && (
+          <Rail id="community-features" title="Today's community features" description="Hikers featured on @great_hikes — credited to each photographer." seeAllHref="/our-feed">
+            {features.map((p) => (
+              <PhotoCard
+                key={p.id}
+                href={`/our-feed#post-${p.id}`}
+                image={p.image.medium}
+                title={p.title ?? "Featured on Instagram"}
+                subtitle={p.handle ? `Photo: @${p.handle}` : undefined}
+              />
+            ))}
+          </Rail>
+        )}
+
+        {guides.length > 0 && (
+          <Rail id="our-content" title="Our content" description="Guides and stories from the Great Hikes team." seeAllHref="/journal">
+            {guides.map((a) => (
+              <PhotoCard
+                key={a.slug}
+                href={articlePath(a)}
+                image={hikeBySlug(a.cover)!.photo.src}
+                title={a.title}
+                subtitle={`${a.readMinutes} min read`}
+                badge={a.status === "sample" ? "Sample" : "Guide"}
+                aspect="landscape"
+              />
+            ))}
+          </Rail>
+        )}
+
+        {shop.length > 0 && (
+          <Rail id="shop" title="Shop" description="Gear we trust on the trail." seeAllHref="/shop" seeAllLabel="Visit the shop">
+            {shop.map((c) => (
+              <PhotoCard
+                key={c.slug}
+                href={c.url}
+                external
+                image={hikeBySlug(c.image)!.photo.src}
+                title={c.title}
+                subtitle={`at ${c.partner}`}
+                badge={c.status === "sample" ? "Sample" : c.partner}
+                aspect="landscape"
+              />
+            ))}
+          </Rail>
+        )}
+
+        <section className={styles.explore} aria-labelledby="explore-by">
+          <div className={styles.exploreHeader}>
+            <h2 id="explore-by" className={styles.sectionTitle}>
+              Explore by
+            </h2>
+            <PillButton href="/search" variant="outline" icon="search">
+              Search all hikes
+            </PillButton>
+          </div>
+          <p className={styles.exploreLabel}>Landscape</p>
+          <ul className={styles.tags}>
+            {LANDSCAPES.map((l) => (
+              <li key={l.key}>
+                <Link href={`/search?landscape=${l.key}`} className={styles.tag}>
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className={styles.exploreLabel}>Continent</p>
+          <ul className={styles.tags}>
+            {CONTINENTS.map((c) => (
+              <li key={c.key}>
+                <Link href={`/search?continent=${c.key}`} className={styles.tag}>
+                  {c.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        {experiences.length > 0 && (
+          <Rail id="experiences" title="Hikers' experiences" description="Trip stories from our community." seeAllHref="/journal">
+            {experiences.map((a) => (
+              <PhotoCard
+                key={a.slug}
+                href={articlePath(a)}
+                image={hikeBySlug(a.cover)!.photo.src}
+                title={a.title}
+                subtitle={`By ${a.author}`}
+                badge={a.status === "sample" ? "Sample" : undefined}
+                aspect="landscape"
+              />
+            ))}
+          </Rail>
+        )}
+      </div>
+    </>
+  );
+}

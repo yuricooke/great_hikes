@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gh-space-4);
+  max-width: var(--gh-content-max);
+}
+
+.panel {
+  width: min(640px, 100%);
+  padding: var(--gh-space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-2);
+}
+
+.title {
+  font-size: var(--gh-text-3xl);
+}
+
+.description {
+  font-size: var(--gh-text-lg);
+}
+
+.count {
+  text-transform: uppercase;
+  letter-spacing: var(--gh-tracking-caps);
+  font-size: var(--gh-text-sm);
+  font-weight: 500;
+}

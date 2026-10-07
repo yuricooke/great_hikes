@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "planning-the-w-trek",
+    "kind": "guide",
+    "status": "sample",
+    "title": "Planning the W Trek in Torres del Paine",
+    "lead": "Granite towers, glacier lakes and Patagonian wind: how to shape the park's classic multi-day route around your days and your style.",
+    "author": "Great Hikes",
+    "date": "2026-10-07",
+    "cover": "torres-del-paine-national-park",
+    "readMinutes": 6,
+    "blocks": [
+      { "type": "paragraph", "text": "The W Trek takes its name from the shape it traces on the map: three valleys walked one after another along the southern side of the Paine massif. Most hikers spend four to five days on it, sleeping in refugios or campsites along the way." },
+      { "type": "heading", "text": "When to go" },
+      { "type": "paragraph", "text": "The main season runs through the southern summer, roughly October to April. Expect long days, quickly changing weather and strong wind at any time of year — pack layers rather than one heavy jacket." },
+      { "type": "hikeCard", "slug": "torres-del-paine-national-park", "text": "Read the park overview, see it on the map and find more hikes in South America." },
+      { "type": "heading", "text": "Book before you fly" },
+      { "type": "paragraph", "text": "Campsites and refugios on the route must be reserved in advance, and they fill up early in peak season. Plan the order of your nights first, then build the rest of the trip around them." },
+      { "type": "quote", "text": "Start early for the towers: the last climb is steep, and morning light on the granite is worth the alarm.", "cite": "Great Hikes team" },
+      { "type": "gallery", "slugs": ["torres-del-paine-national-park", "los-glaciares-national-park", "fiordland-national-park"] },
+      { "type": "paragraph", "text": "Always check current conditions and regulations with the park authority before you go — routes and booking rules change." }
+    ],
+    "relatedHikes": ["torres-del-paine-national-park", "los-glaciares-national-park", "machu-picchu"]
+  },
+  {
+    "slug": "waterfall-hikes-bucket-list",
+    "kind": "guide",
+    "status": "sample",
+    "title": "Five waterfall hikes for your bucket list",
+    "lead": "From thundering curtains of water to turquoise terraces: five trails where the destination is a splash.",
+    "author": "Great Hikes",
+    "date": "2026-10-07",
+    "cover": "plitvice-lakes-national-park",
+    "readMinutes": 5,
+    "blocks": [
+      { "type": "paragraph", "text": "Waterfalls reward even short walks with a big finale. These five, spread across four continents, are on our list for their scale, their colour and the trails that lead to them." },
+      { "type": "hikeCard", "slug": "iguacu-falls", "text": "Walkways bring you right to the edge of one of the largest waterfall systems on Earth." },
+      { "type": "hikeCard", "slug": "plitvice-lakes-national-park", "text": "Boardwalks thread between terraced lakes in impossible shades of green and blue." },
+      { "type": "hikeCard", "slug": "kuang-si-falls", "text": "Limestone pools step down through the forest outside Luang Prabang." },
+      { "type": "hikeCard", "slug": "yosemite-national-park", "text": "Granite walls and long falls that peak with the spring snowmelt." },
+      { "type": "hikeCard", "slug": "jiuzhaigou-valley", "text": "A valley of colourful lakes and cascades in the Sichuan mountains." },
+      { "type": "gallery", "slugs": ["iguacu-falls", "plitvice-lakes-national-park", "kuang-si-falls", "jiuzhaigou-valley"] }
+    ],
+    "relatedHikes": ["iguacu-falls", "plitvice-lakes-national-park", "kuang-si-falls", "yosemite-national-park"]
+  },
+  {
+    "slug": "sample-sunrise-on-the-inca-trail",
+    "kind": "experience",
+    "status": "sample",
+    "title": "Sunrise on the Inca Trail",
+    "lead": "Sample hiker story — a placeholder showing how real experiences from the community will look here.",
+    "author": "Sample hiker",
+    "date": "2026-10-07",
+    "cover": "machu-picchu",
+    "readMinutes": 3,
+    "blocks": [
+      { "type": "paragraph", "text": "This is sample text. When hikers share their trips with Great Hikes, their own words, photos and tips will appear on pages like this one — always credited and published with their permission." },
+      { "type": "hikeCard", "slug": "machu-picchu", "text": "The hike behind this story." },
+      { "type": "quote", "text": "Your quote, your trail, your photo — featured with credit.", "cite": "How hiker stories will appear" }
+    ],
+    "relatedHikes": ["machu-picchu", "annapurna-circuit"]
+  },
+  {
+    "slug": "sample-three-days-in-fiordland",
+    "kind": "experience",
+    "status": "sample",
+    "title": "Three days in Fiordland",
+    "lead": "Sample hiker story — a placeholder for a real trip report from the community.",
+    "author": "Sample hiker",
+    "date": "2026-10-07",
+    "cover": "fiordland-national-park",
+    "readMinutes": 3,
+    "blocks": [
+      { "type": "paragraph", "text": "This is sample text standing in for a real hiker's experience. Stories will be added through the community submission flow and the Instagram curation inbox." },
+      { "type": "hikeCard", "slug": "fiordland-national-park", "text": "The hike behind this story." }
+    ],
+    "relatedHikes": ["fiordland-national-park", "abel-tasman-national-park"]
+  }
+]

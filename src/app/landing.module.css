@@ -1,0 +1,124 @@
+.heroInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gh-space-3);
+}
+
+/* Today's feature card — part of the hero. */
+.feature {
+  width: min(600px, 100%);
+  padding: var(--gh-space-6) var(--gh-space-5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gh-space-3);
+}
+
+.featureTop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gh-space-2) var(--gh-space-4);
+  width: 100%;
+  padding-bottom: var(--gh-space-3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: var(--gh-tracking-caps);
+  font-size: var(--gh-text-sm);
+  font-weight: 600;
+}
+
+.date {
+  font-size: var(--gh-text-sm);
+}
+
+.featureTitle {
+  font-size: var(--gh-text-3xl);
+}
+
+.place {
+  text-transform: uppercase;
+  letter-spacing: var(--gh-tracking-caps);
+  font-size: var(--gh-text-sm);
+}
+
+.featureText {
+  font-size: var(--gh-text-lg);
+}
+
+.featureActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gh-space-3);
+  margin-top: var(--gh-space-2);
+}
+
+/* Sections sit directly on the black page. */
+.sections {
+  max-width: var(--gh-content-max);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-8);
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-3);
+}
+
+.exploreHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gh-space-3);
+  margin-bottom: var(--gh-space-2);
+}
+
+.sectionTitle {
+  font-size: var(--gh-text-xl);
+}
+
+.exploreLabel {
+  text-transform: uppercase;
+  letter-spacing: var(--gh-tracking-caps);
+  font-size: var(--gh-text-sm);
+  color: var(--gh-text-muted);
+}
+
+.tags {
+  list-style: none;
+  margin: 0 0 var(--gh-space-3);
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gh-space-2);
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--gh-tap);
+  padding: 0 var(--gh-space-5);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-pill);
+  background: var(--gh-pill);
+  color: var(--gh-text);
+  text-decoration: none;
+  font-family: var(--gh-font-heading);
+}
+
+.tag:hover {
+  background: var(--gh-pill-hover);
+}
+
+@media (min-width: 992px) {
+  .feature {
+    padding: var(--gh-space-6);
+  }
+}

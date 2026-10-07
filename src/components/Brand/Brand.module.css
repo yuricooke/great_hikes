@@ -1,0 +1,35 @@
+.brand {
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--gh-space-3);
+  color: var(--gh-text);
+  text-decoration: none;
+  padding-bottom: var(--gh-space-2);
+  border-bottom: 1px solid var(--gh-line);
+  white-space: nowrap;
+}
+
+.name {
+  font-family: var(--gh-font-heading);
+  font-weight: 600;
+  text-shadow: var(--gh-text-shadow);
+}
+
+.sm .name {
+  font-size: 1.25rem;
+}
+
+.md .name {
+  font-size: var(--gh-text-2xl);
+}
+
+.lg .name {
+  font-size: var(--gh-text-3xl);
+}
+
+.stacked {
+  flex-direction: column;
+  align-items: center;
+  border-bottom: none;
+  padding-bottom: 0;
+}
