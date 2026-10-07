@@ -1,0 +1,94 @@
+{
+ "id": 41,
+ "slug": "everest-base-camp",
+ "title": "Everest Base Camp",
+ "continent": "Asia",
+ "country": "Nepal",
+ "biome": "Himalayan",
+ "landscapes": [
+  "mountains"
+ ],
+ "description": "The classic two-week trek from Lukla through Sherpa villages and Sagarmatha National Park to the foot of the world's highest mountain, with Everest views from Kala Patthar.",
+ "hikingExplained": "The trek to Everest Base Camp starts and ends at Lukla, the airstrip known as the gateway to Everest. From there the trail follows the Dudh Koshi valley past Phakding and Monjo into Sagarmatha National Park, then climbs steeply to Namche Bazaar, the Sherpa market town where most trekkers pause for a few days to acclimatise. Beyond Namche the views open up to Thamserku, Kangtega and Ama Dablam, with Lhotse and Everest dominating the skyline ahead.\n\nThe route continues to the famous monastery at Tengboche, then up through Pangboche to Dingboche or Pheriche, Lobuche on the edge of the Khumbu Glacier, and finally Gorak Shep, the last settlement on the trail. From here you walk over the glacier to Base Camp and climb Kala Patthar, the viewpoint above Gorak Shep where generations of trekkers have stood face to face with Everest. Take it slowly: the altitude, not the distance, is the real challenge.",
+ "officialUrl": "https://snp.gov.np",
+ "map": "/maps/Asia.svg",
+ "photo": {
+  "src": "/hikes/everest-base-camp.jpg",
+  "alt": "Yaks carrying loads along a rocky trail in Sagarmatha National Park, with snow-capped Ama Dablam under a blue sky",
+  "author": "Sangyam adventurer",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mt._Ama_Dablam-_Sagarmatha_National_Park.jpg",
+  "license": "CC BY-SA 4.0"
+ },
+ "status": "draft",
+ "location": {
+  "lat": 27.689,
+  "lng": 86.731
+ },
+ "details": {
+  "route": "Lukla to Everest Base Camp and Kala Patthar",
+  "distanceKm": null,
+  "elevationGainM": null,
+  "maxAltitudeM": null,
+  "duration": "About 2 weeks (round trip from Lukla)",
+  "difficulty": "strenuous",
+  "routeType": "out-and-back",
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "permit": "Sagarmatha National Park entry permit: NPR 3,000 per foreigner per entry (NPR 1,500 SAARC nationals, NPR 100 Nepalis, under-10s free), sold at the Tourist Service Center, Bhrikutimandap, Kathmandu, or at the park entry point and checked at Jorsale. Khumbu Pasang Lhamu Rural Municipality also charges foreign visitors a local tourism fee. Nepal Tourism Board lists the Everest Base Camp Trek among routes requiring a licensed guide and an agency-issued TIMS card (rule effective 31 March 2023).",
+  "gettingThere": "Fly from Kathmandu to Lukla (Tenzing-Hillary Airport), the usual start. With more time you can walk in from Jiri through the Solu hills, which adds roughly 10 days but helps acclimatisation.",
+  "tips": [
+   "Spend a couple of nights in Namche Bazaar and take day walks to Syangboche, Khumjung or Khunde to acclimatise before going higher.",
+   "Build in a second acclimatisation day at Dingboche; the side trip to Chhukung is a good way to spend it.",
+   "The final stretch over the Khumbu Glacier to Base Camp can take up to five hours on slippery, shifting ground, so start early and watch your footing."
+  ]
+ },
+ "sources": [
+  {
+   "label": "Nepal Tourism Board — Everest Base Camp",
+   "url": "https://ntb.gov.np/en/everest-base-camp"
+  },
+  {
+   "label": "Nepal Tourism Board — Everest region",
+   "url": "https://ntb.gov.np/en/everest"
+  },
+  {
+   "label": "Nepal Tourism Board — Namche Bazaar",
+   "url": "https://ntb.gov.np/en/namche-bazaar"
+  },
+  {
+   "label": "Nepal Tourism Board — Park entry fees",
+   "url": "https://ntb.gov.np/en/plan-your-trip/before-you-come/park-entry-fees"
+  },
+  {
+   "label": "Nepal Tourism Board — TIMS card and guide requirement",
+   "url": "https://ntb.gov.np/en/plan-your-trip/before-you-come/tims-card"
+  },
+  {
+   "label": "Nepal Tourism Board — Climate",
+   "url": "https://ntb.gov.np/en/plan-your-trip/about-nepal/climate"
+  },
+  {
+   "label": "Sagarmatha National Park (DNPWC) — Citizen charter (entry fees)",
+   "url": "https://snp.gov.np/citizen-charter"
+  },
+  {
+   "label": "Sagarmatha National Park (DNPWC) — About the park",
+   "url": "https://snp.gov.np/about-us"
+  },
+  {
+   "label": "Khumbu Pasang Lhamu Rural Municipality — Finance Act 2076 (tourism fee)",
+   "url": "https://khumbupasanglhamumun.gov.np/sites/khumbupasanglhamumun.gov.np/files/aarthik_en_2076.pdf"
+  },
+  {
+   "label": "OpenStreetMap — Lukla",
+   "url": "https://www.openstreetmap.org/node/303021945"
+  }
+ ],
+ "checkedAt": "2026-10-08",
+ "instagram": []
+}

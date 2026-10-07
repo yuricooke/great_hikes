@@ -1,0 +1,55 @@
+{
+  "id": 37,
+  "slug": "grand-canyon-national-park",
+  "title": "Grand Canyon National Park",
+  "continent": "North America",
+  "country": "United States",
+  "biome": "Desert canyon",
+  "landscapes": ["mountains", "savannas"],
+  "description": "Arizona's mile-deep canyon of layered red rock, where steep, well-built trails drop from the South Rim into a vast inner world of buttes, ridges and the Colorado River.",
+  "hikingExplained": "The South Kaibab Trail is the Grand Canyon's classic ridge-line descent. It leaves the South Rim near Yaki Point and follows open ridges instead of side canyons, so the views start almost immediately: Ooh-Aah Point after 0.9 miles, Cedar Ridge at 1.5 miles, and Skeleton Point at 3 miles, where the Colorado River first comes into sight. The National Park Service names Skeleton Point as the farthest sensible turnaround for a day hike; the full 6.3-mile descent to the river is a backpacking trip that needs an overnight permit.\n\nEverything here works in reverse: the easy part comes first and the climb out comes last, at altitude and often in strong sun. The trail has no water and very little shade, so carry all you need, turn around early, and plan on the way up taking about twice as long as the way down. In summer, rangers advise going no farther than Cedar Ridge; spring and autumn are the comfortable seasons, and the upper switchbacks can be icy in winter.",
+  "officialUrl": "https://www.nps.gov/grca/index.htm",
+  "map": "/maps/NorthAmerica.svg",
+  "photo": {
+    "src": "/hikes/grand-canyon-national-park.jpg",
+    "alt": "View into the Grand Canyon from the South Kaibab Trail: a scrub-covered ridge leads to O'Neill Butte with layered red cliffs and the North Rim beyond under a blue sky.",
+    "author": "P. Hughes",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_-_South_Kaibab_Trail.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 36.05294,
+    "lng": -112.08374
+  },
+  "details": {
+    "route": "South Kaibab Trail to Skeleton Point",
+    "distanceKm": 9.7,
+    "elevationGainM": 622,
+    "maxAltitudeM": 2213,
+    "duration": "4–6 hours round trip (allow twice as long for the climb out as for the descent)",
+    "difficulty": "strenuous",
+    "routeType": "out-and-back",
+    "bestMonths": [3, 4, 5, 10, 11],
+    "permit": "No permit needed for day hikes. A park entrance pass is required ($35 per private vehicle, valid 7 days; non-US residents aged 16+ pay an extra $100 per person). Camping below the rim needs a backcountry permit.",
+    "gettingThere": "Drive to the South Rim of Grand Canyon National Park in Arizona and park at the Backcountry Information Center. Private vehicles are not allowed at the trailhead: take the free Kaibab Rim (Orange) shuttle or the early-morning Hiker's Express to the South Kaibab Trailhead near Yaki Point.",
+    "tips": [
+      "There is no water on the trail and very little shade: fill up at the trailhead and carry water and salty snacks for every person in your group.",
+      "Start early and turn around in good time. In summer, rangers advise not going past Cedar Ridge (1.5 miles down), and never try to hike rim to river and back in one day.",
+      "Mules use this trail: step off on the uphill side, stay quiet and still, and follow the wrangler's directions until they have passed."
+    ]
+  },
+  "sources": [
+    { "label": "NPS — Grand Canyon National Park", "url": "https://www.nps.gov/grca/index.htm" },
+    { "label": "NPS — Day Hike: South Kaibab Trail (PDF)", "url": "https://www.nps.gov/grca/planyourvisit/upload/SouthKaibabTrail.pdf" },
+    { "label": "NPS — Backcountry Trail Distances", "url": "https://www.nps.gov/grca/planyourvisit/trail-distances.htm" },
+    { "label": "NPS — Day Hiking Information", "url": "https://www.nps.gov/grca/planyourvisit/day-hiking.htm" },
+    { "label": "NPS — Hiking FAQ", "url": "https://www.nps.gov/grca/planyourvisit/hiking-faq.htm" },
+    { "label": "NPS — Hiking Tips (inner canyon temperatures)", "url": "https://www.nps.gov/grca/planyourvisit/hike-tips.htm" },
+    { "label": "NPS — Backcountry Permit", "url": "https://www.nps.gov/grca/planyourvisit/backcountry-permit.htm" },
+    { "label": "NPS — Fees & Passes", "url": "https://www.nps.gov/grca/planyourvisit/fees.htm" },
+    { "label": "OpenStreetMap — South Kaibab Trailhead", "url": "https://www.openstreetmap.org/node/3882802737" }
+  ],
+  "checkedAt": "2026-10-08",
+  "instagram": []
+}

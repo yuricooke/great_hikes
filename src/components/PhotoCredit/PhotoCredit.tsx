@@ -12,6 +12,12 @@ const SERVICES: Record<string, string> = {
   "Pexels License": "https://www.pexels.com",
 };
 
+/** "CC BY-SA 4.0" → its deed URL (attribution must name and link the license). */
+function ccLicenseUrl(license: string): string | null {
+  const m = /^CC (BY(?:-SA|-ND|-NC|-NC-SA|-NC-ND)?) (\d\.\d)$/.exec(license.trim());
+  return m ? `https://creativecommons.org/licenses/${m[1].toLowerCase()}/${m[2]}/` : null;
+}
+
 /** "Photo: <author>" linking to the source — every displayed photo gets one (constitution III). */
 export default function PhotoCredit({ photo, className }: Props) {
   const classes = [styles.credit, className].filter(Boolean).join(" ");
@@ -31,6 +37,7 @@ export default function PhotoCredit({ photo, className }: Props) {
       </p>
     );
   }
+  const cc = ccLicenseUrl(photo.license);
   return (
     <p className={classes}>
       Photo:{" "}
@@ -41,6 +48,15 @@ export default function PhotoCredit({ photo, className }: Props) {
       ) : (
         photo.author
       )}
+      {cc && (
+        <>
+          {" · "}
+          <a href={cc} target="_blank" rel="noopener noreferrer license">
+            {photo.license}
+          </a>
+        </>
+      )}
+      {photo.license === "Public domain" && " · Public domain"}
     </p>
   );
 }
