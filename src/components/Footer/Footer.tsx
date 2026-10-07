@@ -28,6 +28,16 @@ const COLUMNS: { title: string; links: FooterLink[] }[] = [
     title: "Shop",
     links: [{ label: "Gear we trust", href: "/shop" }],
   },
+  {
+    title: "Great Hikes",
+    links: [
+      { label: "About", href: "/about" },
+      { label: "Contact", href: "/contact" },
+      { label: "Affiliate disclosure", href: "/affiliate-disclosure" },
+      { label: "Privacy", href: "/privacy" },
+      { label: "Terms", href: "/terms" },
+    ],
+  },
 ];
 
 export default function Footer() {
@@ -73,7 +83,10 @@ export default function Footer() {
         <p>
           © {year} {SITE_NAME}. Photos © their photographers, credited on every image.
         </p>
-        <p>Some links are affiliate links: we may earn a commission at no extra cost to you.</p>
+        <p>
+          Some links are affiliate links: we may earn a commission at no extra cost to you.{" "}
+          <Link href="/affiliate-disclosure">How we make money</Link>
+        </p>
       </div>
     </footer>
   );

@@ -1,0 +1,43 @@
+.panel {
+  padding: var(--gh-space-5);
+  max-width: 52rem;
+}
+
+.prose {
+  font-size: var(--gh-text-lg);
+  line-height: 1.7;
+}
+
+.prose h2 {
+  font-size: var(--gh-text-xl);
+  margin: var(--gh-space-6) 0 var(--gh-space-3);
+}
+
+.prose h2:first-child {
+  margin-top: 0;
+}
+
+.prose p,
+.prose ul {
+  margin: 0 0 var(--gh-space-4);
+  max-width: 68ch;
+}
+
+.prose ul {
+  padding-left: 1.2em;
+}
+
+.prose li + li {
+  margin-top: var(--gh-space-2);
+}
+
+.prose a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (min-width: 992px) {
+  .panel {
+    padding: var(--gh-space-7, 48px);
+  }
+}
