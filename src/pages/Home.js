@@ -35,6 +35,12 @@ export default function Home() {
           >
             From the community
           </button>
+          <button
+            className="btn btn-outline-light rounded-pill more-info my-3"
+            onClick={() => navigate("/our-selection")}
+          >
+            Our selection
+          </button>
         </div>
       </div>
     </div>
