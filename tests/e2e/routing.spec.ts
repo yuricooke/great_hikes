@@ -34,7 +34,9 @@ test("V5 hike pages have unique metadata and social previews", async ({ page }) 
 
 test("V6 sitemap lists home, all hikes, every topic and every hike", async ({ request }) => {
   const xml = await (await request.get("/sitemap.xml")).text();
-  expect((xml.match(/<loc>/g) ?? []).length).toBe(hikes.length + topics.topics.length + 2);
+  const locs = xml.match(/<loc>/g) ?? [];
+  expect(locs.length).toBeGreaterThanOrEqual(hikes.length + topics.topics.length + 2);
+  for (const path of ["/search", "/journal", "/shop", "/our-feed", "/community"]) expect(xml).toContain(path);
 });
 
 test("old continent filter links redirect to topic pages", async ({ request }) => {

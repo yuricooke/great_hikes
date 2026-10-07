@@ -1,7 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Exo_2, Mukta } from "next/font/google";
 
+import AuthProvider from "@/components/Auth/AuthProvider";
 import Menu from "@/components/Menu/Menu";
+import { DEMO_AUTH } from "@/lib/flags";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "@/styles/globals.css";
 
@@ -20,17 +22,27 @@ export const viewport: Viewport = {
   themeColor: "#090909",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+  modal,
+}: {
+  children: React.ReactNode;
+  /** Parallel route: the sign-in pop-up (intercepted /login). */
+  modal: React.ReactNode;
+}) {
   return (
     <html lang="en" className={`${exo2.variable} ${mukta.variable}`}>
       <body>
-        <a href="#main" className="skip-link">
-          Skip to content
-        </a>
-        <Menu />
-        <main id="main" className="page">
-          {children}
-        </main>
+        <AuthProvider enabled={DEMO_AUTH}>
+          <a href="#main" className="skip-link">
+            Skip to content
+          </a>
+          <Menu />
+          <main id="main" className="page">
+            {children}
+          </main>
+          {modal}
+        </AuthProvider>
       </body>
     </html>
   );

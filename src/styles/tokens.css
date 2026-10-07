@@ -7,7 +7,7 @@
   /* Color */
   --gh-text: #f1f1f1;
   --gh-text-muted: rgba(241, 241, 241, 0.78);
-  --gh-page: #090909;
+  --gh-page: #000; /* pure black page (owner decision 2026-10-07) */
   --gh-pill: #212529;
   --gh-pill-hover: #424649;
   --gh-accent: #1f7a43; /* "Let's hike" green — 5.4:1 with white text */

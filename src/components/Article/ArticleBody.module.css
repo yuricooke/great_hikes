@@ -1,0 +1,139 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-5);
+}
+
+.paragraph {
+  font-size: 1.1875rem;
+  line-height: 1.75;
+}
+
+.heading {
+  font-size: var(--gh-text-xl);
+  margin-top: var(--gh-space-4);
+}
+
+.quote {
+  margin: var(--gh-space-4) 0;
+  padding: var(--gh-space-5) var(--gh-space-5) var(--gh-space-5) var(--gh-space-6);
+  border-left: 3px solid var(--gh-accent);
+  border-radius: 0 var(--gh-radius-card) var(--gh-radius-card) 0;
+  background: rgba(255, 255, 255, 0.05);
+  font-family: var(--gh-font-heading);
+  font-size: var(--gh-text-xl);
+  line-height: 1.4;
+}
+
+.quote cite {
+  display: block;
+  margin-top: var(--gh-space-3);
+  font-family: var(--gh-font-body);
+  font-size: var(--gh-text-sm);
+  font-style: normal;
+  color: var(--gh-text-muted);
+}
+
+/* Inline link-card (ref: Hellstrøm journal) in the glass identity. */
+.linkCard {
+  display: grid;
+  overflow: hidden;
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-card);
+  background: linear-gradient(135deg, rgba(31, 122, 67, 0.28), rgba(255, 255, 255, 0.04));
+  box-shadow: var(--gh-shadow);
+}
+
+.linkImage {
+  position: relative;
+  aspect-ratio: 16 / 10;
+}
+
+.linkImage img {
+  object-fit: cover;
+}
+
+.linkContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gh-space-2);
+  padding: var(--gh-space-5);
+}
+
+.linkEyebrow {
+  text-transform: uppercase;
+  letter-spacing: var(--gh-tracking-caps);
+  font-size: var(--gh-text-sm);
+}
+
+.linkTitle {
+  font-size: 1.35rem;
+}
+
+.linkCta {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--gh-tap);
+  margin-top: var(--gh-space-2);
+  padding: 0 var(--gh-space-5);
+  border-radius: var(--gh-radius-pill);
+  background: var(--gh-pill);
+  color: var(--gh-text);
+  text-decoration: none;
+  font-family: var(--gh-font-heading);
+}
+
+.linkCta:hover {
+  background: var(--gh-pill-hover);
+}
+
+/* Horizontal photo gallery that breaks out of the reading column. */
+.gallery {
+  margin: var(--gh-space-4) 0;
+}
+
+.galleryList {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 var(--gh-space-2);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 80%;
+  gap: var(--gh-space-3);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.galleryItem {
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-2);
+}
+
+.galleryImage {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  border-radius: var(--gh-radius-card);
+  overflow: hidden;
+}
+
+.galleryImage img {
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .linkCard {
+    grid-template-columns: 220px 1fr;
+  }
+
+  .linkImage {
+    aspect-ratio: auto;
+    min-height: 100%;
+  }
+
+  .galleryList {
+    grid-auto-columns: 42%;
+  }
+}

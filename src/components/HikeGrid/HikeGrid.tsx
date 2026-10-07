@@ -28,6 +28,7 @@ export default function HikeGrid({ hikes, ranked = false, hideLandscape }: Props
             title={hike.title}
             subtitle={`${hike.country} · ${hike.continent}`}
             badge={ranked ? `#${i + 1}` : landscapeBadge(hike, hideLandscape)}
+            favoriteSlug={hike.slug}
             sizes="(min-width: 1200px) 25vw, (min-width: 768px) 33vw, (min-width: 576px) 50vw, 100vw"
             priority={i < 2}
           />

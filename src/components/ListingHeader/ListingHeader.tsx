@@ -2,29 +2,36 @@ import type { ReactNode } from "react";
 
 import Breadcrumb from "../Breadcrumb/Breadcrumb";
 import GlassPanel from "../GlassPanel/GlassPanel";
+import Hero from "../Hero/Hero";
 import styles from "./ListingHeader.module.css";
 
 type Props = {
+  image: string;
   title: string;
   description: string;
-  count: number;
+  /** Small caps line, e.g. "12 hikes". */
+  meta?: string;
   breadcrumb: { label: string; href?: string }[];
   children?: ReactNode;
 };
 
-/** Glass header for first-level pages: breadcrumb, title, description and hike count. */
-export default function ListingHeader({ title, description, count, breadcrumb, children }: Props) {
+/** Photo hero for first-level pages: breadcrumb + glass header (title, description, meta). */
+export default function ListingHeader({ image, title, description, meta, breadcrumb, children }: Props) {
   return (
-    <header className={styles.header}>
-      <Breadcrumb items={breadcrumb} />
-      <GlassPanel tone="light" className={styles.panel}>
-        <h1 className={styles.title}>{title}</h1>
-        <p className={styles.description}>{description}</p>
-        <p className={styles.count}>
-          {count} {count === 1 ? "hike" : "hikes"}
-        </p>
-        {children}
-      </GlassPanel>
-    </header>
+    <Hero image={image} size="medium">
+      <div className={styles.header}>
+        <Breadcrumb items={breadcrumb} />
+        <GlassPanel tone="light" className={styles.panel}>
+          <h1 className={styles.title}>{title}</h1>
+          <p className={styles.description}>{description}</p>
+          {meta && <p className={styles.count}>{meta}</p>}
+          {children}
+        </GlassPanel>
+      </div>
+    </Hero>
   );
+}
+
+export function hikeCount(n: number) {
+  return `${n} ${n === 1 ? "hike" : "hikes"}`;
 }

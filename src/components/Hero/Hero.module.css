@@ -1,0 +1,46 @@
+.hero {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin: calc(-1 * var(--page-pad-top)) calc(-1 * var(--page-pad-x)) var(--gh-space-6)
+    calc(-1 * var(--page-pad-left));
+  padding: var(--page-pad-top) var(--page-pad-x) var(--gh-space-6) var(--page-pad-left);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.full {
+  min-height: 100dvh;
+}
+
+.medium {
+  min-height: 58dvh;
+}
+
+.image {
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* Original offset vignette + fade into the black page at the bottom. */
+.scrim {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  box-shadow: inset 20rem 20rem 20rem 10rem rgba(0, 0, 0, 0.45);
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.1) 35%, rgba(0, 0, 0, 0.55) 80%, #000 100%);
+}
+
+.content {
+  width: 100%;
+  max-width: var(--gh-content-max);
+}
+
+@media (min-width: 992px) {
+  .scrim {
+    background:
+      linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.15) 55%, transparent 80%),
+      linear-gradient(180deg, transparent 55%, rgba(0, 0, 0, 0.6) 85%, #000 100%);
+  }
+}

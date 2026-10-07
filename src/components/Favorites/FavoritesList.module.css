@@ -1,0 +1,11 @@
+.prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gh-space-4);
+  font-size: var(--gh-text-lg);
+}
+
+.note {
+  color: var(--gh-text-muted);
+}

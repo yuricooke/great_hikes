@@ -80,18 +80,23 @@ button {
   border: 0;
 }
 
-/* Content sits beside the desktop rail and below the phone top bar. */
+/* Content sits beside the desktop rail and below the phone top bar. Heroes bleed to the edges
+   using the same padding variables. */
 .page {
+  --page-pad-top: calc(var(--gh-topbar-height) + var(--gh-space-4));
+  --page-pad-x: var(--gh-space-4);
+  --page-pad-left: var(--gh-space-4);
   position: relative;
   z-index: 1;
   min-height: 100dvh;
-  padding: calc(var(--gh-topbar-height) + var(--gh-space-4)) var(--gh-space-4) var(--gh-space-7);
+  padding: var(--page-pad-top) var(--page-pad-x) var(--gh-space-7) var(--page-pad-left);
 }
 
 @media (min-width: 992px) {
   .page {
-    padding: var(--gh-space-7) var(--gh-space-7) var(--gh-space-7)
-      calc(var(--gh-rail-width) + var(--gh-space-7));
+    --page-pad-top: var(--gh-space-7);
+    --page-pad-x: var(--gh-space-7);
+    --page-pad-left: calc(var(--gh-rail-width) + var(--gh-space-7));
   }
 }
 

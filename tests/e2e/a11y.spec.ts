@@ -3,7 +3,20 @@ import { expect, test } from "@playwright/test";
 
 import hikes from "../../content/hikes.json" with { type: "json" };
 
-const PAGES = ["/", "/hikes", "/explore/top-10", "/explore/south-america", `/hikes/${hikes[0].slug}`, "/no-such-page"];
+const PAGES = [
+  "/",
+  "/hikes",
+  "/explore/top-10",
+  "/search?landscape=mountains",
+  "/journal",
+  "/journal/planning-the-w-trek",
+  "/shop",
+  "/our-feed",
+  "/favorites",
+  "/login",
+  `/hikes/${hikes[0].slug}`,
+  "/no-such-page",
+];
 
 for (const url of PAGES) {
   test(`V9 no serious accessibility issues on ${url}`, async ({ page }) => {
@@ -25,6 +38,7 @@ test("V7 menu reaches Home, Hikes and Instagram on any screen", async ({ page, i
   if (isMobile) await page.getByRole("button", { name: "Open menu" }).click();
   const nav = page.getByRole("navigation", { name: "Main" });
   await expect(nav.getByRole("link", { name: "Hikes" })).toBeVisible();
+  await expect(nav.getByRole("link", { name: "Sign in" })).toBeVisible();
   await expect(nav.getByRole("link", { name: /Instagram/ })).toHaveAttribute("href", /instagram\.com\/great_hikes/);
   await expect(page.getByRole("link", { name: "Great Hikes home" })).toBeVisible();
   if (isMobile) {

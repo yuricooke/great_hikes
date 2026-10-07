@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import BackgroundImage from "@/components/Background/BackgroundImage";
-import GlassPanel from "@/components/GlassPanel/GlassPanel";
 import HikeGrid from "@/components/HikeGrid/HikeGrid";
-import ListingHeader from "@/components/ListingHeader/ListingHeader";
+import ListingHeader, { hikeCount } from "@/components/ListingHeader/ListingHeader";
 import PillButton from "@/components/PillButton/PillButton";
 import { allTopics, hikesForTopic, topicBySlug, topicCover, topicPath } from "@/lib/topics";
-import styles from "../explore.module.css";
+import styles from "../../section.module.css";
 
 type Params = { topic: string };
 
@@ -20,12 +18,11 @@ export function generateStaticParams(): Params[] {
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const topic = topicBySlug((await params).topic);
   if (!topic) return {};
-  const cover = topicCover(topic);
   return {
     title: topic.title,
     description: topic.description,
     alternates: { canonical: topicPath(topic) },
-    openGraph: { title: topic.title, description: topic.description, images: [{ url: cover.photo.src }] },
+    openGraph: { title: topic.title, description: topic.description, images: [{ url: topicCover(topic).photo.src }] },
   };
 }
 
@@ -36,14 +33,14 @@ export default async function TopicPage({ params }: { params: Promise<Params> })
 
   return (
     <>
-      <BackgroundImage src={topicCover(topic).photo.src} priority />
       <ListingHeader
+        image={topicCover(topic).photo.src}
         title={topic.title}
         description={topic.description}
-        count={hikes.length}
+        meta={hikeCount(hikes.length)}
         breadcrumb={[{ label: "Home", href: "/" }, { label: topic.title }]}
       />
-      <GlassPanel tone="strong" className={styles.body}>
+      <section className={styles.section}>
         {hikes.length > 0 ? (
           <HikeGrid
             hikes={hikes}
@@ -56,7 +53,7 @@ export default async function TopicPage({ params }: { params: Promise<Params> })
             <PillButton href="/hikes">See all hikes</PillButton>
           </div>
         )}
-      </GlassPanel>
+      </section>
     </>
   );
 }

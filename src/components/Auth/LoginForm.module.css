@@ -1,0 +1,64 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-3);
+}
+
+.title {
+  font-size: var(--gh-text-2xl);
+}
+
+.lead {
+  color: var(--gh-text);
+  margin-bottom: var(--gh-space-2);
+}
+
+.label {
+  font-weight: 500;
+}
+
+.input {
+  min-height: 48px;
+  padding: 0 var(--gh-space-4);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-pill);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--gh-text);
+  font: inherit;
+}
+
+.input::placeholder {
+  color: rgba(241, 241, 241, 0.6);
+}
+
+.input:focus-visible {
+  outline: 3px solid var(--gh-focus);
+  outline-offset: 2px;
+}
+
+.error {
+  color: #ffb3ba;
+}
+
+.submit {
+  margin-top: var(--gh-space-2);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gh-space-3);
+}
+
+.note {
+  font-size: var(--gh-text-sm);
+  color: var(--gh-text-muted);
+}
+
+.demo {
+  font-size: var(--gh-text-sm);
+  padding: var(--gh-space-2) var(--gh-space-3);
+  border-radius: var(--gh-radius-sm);
+  background: rgba(255, 209, 102, 0.12);
+  border: 1px solid rgba(255, 209, 102, 0.35);
+}

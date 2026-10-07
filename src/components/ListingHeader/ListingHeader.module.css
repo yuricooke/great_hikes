@@ -3,9 +3,6 @@
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gh-space-4);
-  min-height: 42dvh;
-  justify-content: flex-end;
-  padding-bottom: var(--gh-space-5);
   max-width: var(--gh-content-max);
 }
 

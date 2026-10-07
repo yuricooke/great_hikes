@@ -4,7 +4,7 @@
 
 **Created**: 2026-10-07
 
-**Status**: Draft (owner decisions captured 2026-10-07)
+**Status**: Implemented on preview; scope expanded 2026-10-07 (see tasks.md T014–T022)
 
 **Input**: Owner request: "We should have a landing page… a featured photo on top (the hero) and
 under it cards such as Our top 10 / IG features / today's features / photographers… or a

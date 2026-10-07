@@ -1,0 +1,29 @@
+/* Shared layout for content below a page hero on the black page. */
+.section {
+  max-width: var(--gh-content-max);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-5);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gh-space-3);
+  margin-top: var(--gh-space-2);
+}
+
+.sectionTitle {
+  font-size: var(--gh-text-xl);
+}
+
+.muted {
+  color: var(--gh-text-muted);
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gh-space-3);
+}

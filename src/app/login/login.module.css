@@ -1,0 +1,23 @@
+.split {
+  position: relative;
+  display: grid;
+  min-height: calc(100dvh - var(--page-pad-top) - var(--gh-space-7));
+  align-items: center;
+}
+
+.panel {
+  position: relative;
+  z-index: 1;
+  width: min(460px, 100%);
+  padding: var(--gh-space-6) var(--gh-space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-5);
+}
+
+@media (min-width: 992px) {
+  .panel {
+    margin-left: var(--gh-space-6);
+    padding: var(--gh-space-7) var(--gh-space-6);
+  }
+}
