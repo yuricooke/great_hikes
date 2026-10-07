@@ -6,11 +6,12 @@ description: Checklist and workflow for featuring community content (photos, tri
 # Curating community content
 
 Constitution Principle III is non-negotiable: **a tag or mention is not permission.**
+Owner rule: **no identifiable @photographer → the post is never featured.**
 
 ## Accepted permission evidence (one is required)
 - On-site submission where the contributor accepted the Great Hikes contributor license.
-- Instagram opt-in: the creator replied with the agreed consent phrase/hashtag (e.g.
-  `#yesgreathikes`) to a request comment/DM from @great_hikes — store a screenshot/link and date.
+- Instagram DM opt-in: the creator replied "yes" to a consent request sent by DM from
+  @great_hikes — store a screenshot/link of the reply and the date. (No consent hashtag.)
 - Written permission by email/DM — store a copy.
 
 ## Record for every featured item

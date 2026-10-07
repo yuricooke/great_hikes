@@ -63,17 +63,19 @@ What we know (research doc, sections 5–6):
   of the Facebook-login API, so automating it hinges on the account recovery / Behold checks.
   The hashtag is open to anyone, so it's a discovery signal, not consent.
 
-Proposed approach (works regardless of the API outcome):
-1. **Show the feed** on the site via Behold (featured posts link back to the creator).
-2. **Own the submission channel**: bio link + story highlights point to
-   `greathikes…/share`. Contributors upload original photos + story + tips and accept the
-   contributor license. This gives full-resolution images, structured data and clear consent.
-3. **Consent-based import of tagged posts**: when someone tags @great_hikes, the owner replies
-   "We'd love to feature this on great-hikes — reply #yesgreathikes to agree". In the admin,
-   the owner pastes the post URL; the import is recorded with that consent evidence. Automate
-   discovery later if an authorized API path is confirmed.
-4. **Close the loop**: each featured item gets a page and a downloadable "Featured on Great
-   Hikes" story card the creator can post, tagging @great_hikes.
+Decided approach (owner decisions 2026-10-07):
+1. **Agents curate, owner approves** (spec 002): collect feeds → AI quality score → place +
+   geocode → credit → consent request → enrichment (spec 003) → publish → repost.
+2. **No credit, no feature:** a post without an identifiable @photographer is discarded.
+3. **Consent by Instagram DM** (no consent hashtag): the agent drafts a personalized DM asking the
+   photographer to reply "yes"; the owner sends it with one tap (opens the DM with the text
+   ready). Instagram's messaging API does not let businesses start conversations, so the first
+   DM stays one tap even with developer access; with access, the reply can be detected
+   automatically. The owner marks consent (with a screenshot/link as evidence) otherwise.
+4. **Repost automation** (Content Publishing API) once the owner gets Meta developer access.
+5. **Close the loop:** each featured photographer gets a page and a "Featured on Great Hikes"
+   story card to share.
+6. **Own the submission channel** later (spec 005): bio link → `/share` with contributor license.
 
 ## Idea backlog
 
