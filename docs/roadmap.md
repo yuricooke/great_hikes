@@ -18,17 +18,18 @@ Everything we build should strengthen this loop.
 ## Specs, in order
 
 Each row is one Spec Kit feature (`specs/NNN-name/`). Order matters: each builds on the previous.
+Discovery behind this order: `docs/discovery/` (problem, domain, product, outcomes O-1…O-6).
 
 | Spec | Name | Outcome | Status |
 |------|------|---------|--------|
 | 000 | Foundation | Spec Kit, constitution, agents/skills, API research | Done (`relaunch/foundation`) |
-| 001 | Platform rebuild | Next.js/TS, design tokens, new layout system with the same identity, readable hike URLs, SEO, optimized media, mobile nav | Spec + plan done; next: tasks → build |
-| 002 | Instagram import & curation | Behold feeds (@great_hikes posts + #great_hikes) imported into the site; owner curates each post, links it to a hike, records credit/consent; "Our selection" + "From the community" pages; lightbox | Prototype on `test/instagram-feed` (2026-10-07) |
-| 003 | Hike enrichment | From a curated post's place name: geocode → coordinates; trail data (OSM/national datasets) → distance, elevation gain, difficulty, season; interactive map + elevation profile; weather; description drafted from sourced facts and approved by the owner | Planned |
-| 004 | Reviews & tips | On-site reviews/ratings and practical tips per hike; Instagram comments shown only if API access allows (Behold gives counts, not comments) | Planned |
-| 005 | Community submissions | Accounts, "Share your hike" upload with contributor license, moderation queue, contributor profiles | Planned (needs backend, e.g. Supabase) |
-| 006 | Gear (affiliates) | Gear lists per hike/season with affiliate links | Planned |
-| 007 | Launch readiness | Custom domain, analytics, privacy/terms/contributor license, performance + accessibility audit | Planned |
+| 001 | Platform rebuild (O-1, guardrails) | Next.js/TS, design tokens, new layout system with the same identity, readable hike URLs, SEO, optimized media, mobile nav | Spec + plan done; next: tasks → build |
+| 002 | Instagram import & curation (O-2, O-6) | Behold feeds (@great_hikes posts + #great_hikes) imported into the site; owner curates each post, links it to a hike, records credit/consent; "Our selection" + "From the community" pages; lightbox | Prototype on `test/instagram-feed` (2026-10-07) |
+| 003 | Hike enrichment (O-3) | From a curated post's place name: geocode → coordinates; trail data (OSM/national datasets) → distance, elevation gain, difficulty, season; interactive map + elevation profile; weather; description drafted from sourced facts and approved by the owner | Planned |
+| 004 | Reviews & tips (O-4) | On-site reviews/ratings and practical tips per hike; Instagram comments shown only if API access allows (Behold gives counts, not comments) | Planned |
+| 005 | Community submissions (O-4) | Accounts, "Share your hike" upload with contributor license, moderation queue, contributor profiles | Planned (needs backend, e.g. Supabase) |
+| 006 | Gear (affiliates) (O-5) | Gear lists per hike/season with affiliate links | Planned |
+| 007 | Launch readiness (O-6, metrics) | Custom domain, analytics, privacy/terms/contributor license, performance + accessibility audit | Planned |
 
 Notes from the Instagram prototype (2026-10-07):
 - @great_hikes captions follow "Place | @photographer" → title + credit can be parsed automatically.

@@ -16,6 +16,9 @@ identity, community content, consent & attribution, performance, accessibility, 
 
 ## Workflow
 
+- Discovery first: `docs/discovery/` (problem → domain → product → outcomes O-n → learning log).
+  Every spec names the outcomes it serves; after releases, log results in `learning-log.md`.
+
 - Spec Kit: `/speckit-specify` → `/speckit-clarify` → `/speckit-plan` → `/speckit-tasks` →
   `/speckit-implement`. Specs live in `specs/NNN-name/`.
 - Work on a feature branch; verify build/tests before merging to `main` (= production).

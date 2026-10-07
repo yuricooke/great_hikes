@@ -1,6 +1,10 @@
 <!--
 Sync Impact Report
-- Version change: (template) → 1.0.0
+- Version change: 1.0.0 → 1.1.0 (MINOR: discovery & outcomes added to the workflow)
+- Modified sections: Development Workflow & Quality Gates (discovery, outcome traceability,
+  production-metrics feedback loop)
+- Templates: no edits required; specs reference outcomes in their Context section
+- Previous report (1.0.0): initial ratification of Principles I–VI
 - Principles defined: I. Visual Identity Is the Brand; II. Community-Fed Content;
   III. Consent & Attribution (NON-NEGOTIABLE); IV. Fast, Findable Pages;
   V. Accessible & Mobile-First; VI. Lean Solo Operations
@@ -106,7 +110,14 @@ Rationale: the project must be sustainable by one person before it has revenue.
 ## Development Workflow & Quality Gates
 
 - Work happens on feature branches; `main` is production (Vercel auto-deploys it).
-- Every feature follows Spec Kit: specify → (clarify) → plan → tasks → implement.
+- Work flows from discovery to delivery (`docs/discovery/README.md`): business problem → domain
+  discovery → product discovery → outcomes → intent → Spec Kit (specify → clarify → plan →
+  tasks → implement) → validation → production metrics → back to discovery.
+- Every spec MUST name the business outcome(s) it serves (`O-n` in
+  `docs/discovery/04-outcomes-and-metrics.md`) and how success is measured in production.
+- Risky or uncertain ideas SHOULD be validated with a cheap prototype or test before a full spec.
+- After each production release, measured results MUST be recorded in
+  `docs/discovery/learning-log.md` and fed back into discovery and the roadmap.
 - Before merging to `main`: type-check, lint, tests, and a production build MUST pass, and the
   Vercel preview MUST be checked on mobile and desktop.
 - UI changes MUST be reviewed against Principles I and V.
@@ -121,4 +132,4 @@ dependent docs. Every plan MUST include a Constitution Check against these princ
 MUST be justified in the plan's complexity tracking or the feature changed. Runtime guidance for
 agents lives in `CLAUDE.md`.
 
-**Version**: 1.0.0 | **Ratified**: 2026-10-07 | **Last Amended**: 2026-10-07
+**Version**: 1.1.0 | **Ratified**: 2026-10-07 | **Last Amended**: 2026-10-07
