@@ -38,7 +38,7 @@ function isActive(pathname: string, item: Item) {
  */
 export default function Menu() {
   const pathname = usePathname();
-  const { enabled, user } = useAuth();
+  const { user } = useAuth();
   const [open, setOpen] = useState(false);
   const [hidden, setHidden] = useState(false);
   const toggleRef = useRef<HTMLButtonElement>(null);
@@ -86,8 +86,10 @@ export default function Menu() {
   }, [open]);
 
   const close = () => setOpen(false);
-  const account: Item | null = enabled ? { label: user ? "Account" : "Sign in", href: "/login", icon: "person" } : null;
-  const favorites: Item | null = enabled && user ? { label: "Favorites", href: "/favorites", icon: "favorite" } : null;
+  // Always visible (phones and tablets too); /login says "coming soon" while sign-in is off.
+  const account: Item = { label: user ? "Account" : "Sign in", href: "/login", icon: "person" };
+  // Favorites is always one tap away; the page explains sign-in when needed.
+  const favorites: Item = { label: "Favorites", href: "/favorites", icon: "favorite" };
 
   const cardLink = (item: Item) => (
     <li key={item.label}>
@@ -134,23 +136,29 @@ export default function Menu() {
             ))}
           </ul>
         </nav>
-        {favorites && (
-          <Link
-            href={favorites.href}
-            className={styles.iconButton}
-            title="Favorites"
-            aria-current={isActive(pathname, favorites) ? "page" : undefined}
-          >
-            <Icon name="favorite" size={22} />
-            <span className="visually-hidden">Favorites</span>
-          </Link>
-        )}
-        {account && (
-          <Link href={account.href} scroll={false} className={styles.iconButton} title={account.label}>
-            <Icon name="person" size={22} />
-            <span className="visually-hidden">{account.label}</span>
-          </Link>
-        )}
+        {/* Phones and tablets: Shop as an icon in the bar (wide screens show it as a text link). */}
+        <Link
+          href="/shop"
+          className={`${styles.iconButton} ${styles.compactOnly}`}
+          title="Shop"
+          aria-current={pathname.startsWith("/shop") ? "page" : undefined}
+        >
+          <Icon name="shoppingBag" size={22} />
+          <span className="visually-hidden">Shop</span>
+        </Link>
+        <Link
+          href={favorites.href}
+          className={styles.iconButton}
+          title="Favorites"
+          aria-current={isActive(pathname, favorites) ? "page" : undefined}
+        >
+          <Icon name="favorite" size={22} />
+          <span className="visually-hidden">Favorites</span>
+        </Link>
+        <Link href={account.href} scroll={false} className={styles.iconButton} title={account.label}>
+          <Icon name="person" size={22} />
+          <span className="visually-hidden">{account.label}</span>
+        </Link>
         <button
           ref={toggleRef}
           type="button"
@@ -171,8 +179,10 @@ export default function Menu() {
         hidden={!open}
       >
         <nav aria-label="Main">
-          {/* The bar already shows the primary links on wide screens; the card repeats them only on phones. */}
-          <ul className={`${styles.cardList} ${styles.cardPrimary}`}>{PRIMARY.map(cardLink)}</ul>
+          {/* The bar shows the primary links on wide screens (Shop as an icon on phones), so the card lists the rest. */}
+          <ul className={`${styles.cardList} ${styles.cardPrimary}`}>
+            {PRIMARY.filter((item) => item.href !== "/shop").map(cardLink)}
+          </ul>
           <ul className={`${styles.cardList} ${styles.cardSecondary}`}>{MORE.map(cardLink)}</ul>
         </nav>
       </div>
