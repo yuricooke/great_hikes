@@ -26,16 +26,17 @@
   pointer-events: none;
 }
 
+/* Lightened 2026-10-07 (owner): the photo shows through more; text keeps a soft local shade. */
 .scrim {
-  box-shadow: inset 20rem 20rem 20rem 10rem rgba(0, 0, 0, 0.5);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.35) 60%, rgba(0, 0, 0, 0.5) 100%);
+  box-shadow: inset 20rem 20rem 20rem 10rem rgba(0, 0, 0, 0.28);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.12) 55%, rgba(0, 0, 0, 0.3) 100%);
 }
 
 @media (min-width: 992px) {
   .scrim {
     background:
-      linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.25) 55%, transparent 80%),
-      linear-gradient(180deg, transparent 60%, rgba(0, 0, 0, 0.4) 100%);
+      linear-gradient(90deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.1) 50%, transparent 75%),
+      linear-gradient(180deg, transparent 65%, rgba(0, 0, 0, 0.25) 100%);
   }
 }
 
