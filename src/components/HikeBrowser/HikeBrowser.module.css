@@ -5,6 +5,7 @@
 }
 
 .intro {
+  scroll-margin-top: calc(var(--gh-topbar-height) + var(--gh-space-4));
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -12,10 +13,14 @@
   text-shadow: var(--gh-text-shadow);
 }
 
+.brand {
+  display: none;
+}
+
 .location {
   text-transform: uppercase;
   letter-spacing: var(--gh-tracking-caps);
-  font-weight: 300;
+  font-weight: 400;
   margin-top: var(--gh-space-4);
 }
 
@@ -64,7 +69,7 @@
 .chip {
   display: inline-flex;
   align-items: center;
-  min-height: 36px;
+  min-height: var(--gh-tap);
   padding: 0 var(--gh-space-4);
   border: var(--gh-glass-border);
   border-radius: var(--gh-radius-pill);
@@ -79,8 +84,9 @@
 }
 
 .chip[aria-current="true"] {
-  background: var(--gh-text);
-  color: #111;
+  background: var(--gh-pill);
+  border-color: var(--gh-line);
+  font-weight: 600;
 }
 
 .list {
@@ -99,6 +105,10 @@
 }
 
 @media (min-width: 992px) {
+  .brand {
+    display: block;
+  }
+
   .layout {
     grid-template-columns: minmax(0, 1fr) minmax(340px, 420px);
     align-items: start;

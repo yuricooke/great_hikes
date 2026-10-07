@@ -5,7 +5,7 @@
   color: var(--gh-text);
   text-decoration: none;
   padding-bottom: var(--gh-space-2);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.85);
+  border-bottom: 1px solid var(--gh-line);
   white-space: nowrap;
 }
 

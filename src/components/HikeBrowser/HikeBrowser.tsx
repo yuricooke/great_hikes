@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 
 import { continentByKey, filterByContinent, hikePath } from "@/lib/hike-utils";
 import { CONTINENTS, type Hike } from "@/lib/schema";
@@ -30,6 +30,15 @@ export default function HikeBrowser({ hikes, continentParam }: Props) {
 
   const visible = useMemo(() => filterByContinent(hikes, continentParam), [hikes, continentParam]);
   const [selectedSlug, setSelectedSlug] = useState(visible[0]?.slug);
+  const introRef = useRef<HTMLElement>(null);
+
+  function select(slug: string) {
+    setSelectedSlug(slug);
+    // On phones the intro sits above the list; bring it back into view so the change is visible.
+    if (window.matchMedia("(max-width: 991px)").matches) {
+      introRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
 
   // If a filter hides the selected hike, fall back to the first visible one.
   const selected = visible.find((h) => h.slug === selectedSlug) ?? visible[0] ?? hikes[0];
@@ -39,8 +48,13 @@ export default function HikeBrowser({ hikes, continentParam }: Props) {
       <BackgroundImage src={selected.photo.src} priority />
 
       <div className={styles.layout}>
-        <section className={styles.intro} aria-live="polite">
-          <Brand size="md" />
+        <section ref={introRef} className={styles.intro}>
+          <p className="visually-hidden" aria-live="polite">
+            Showing {selected.title}
+          </p>
+          <div className={styles.brand}>
+            <Brand size="md" />
+          </div>
           <p className={styles.location}>
             {selected.continent} <span aria-hidden="true">|</span> {selected.country}
           </p>
@@ -99,7 +113,7 @@ export default function HikeBrowser({ hikes, continentParam }: Props) {
                   <HikeCard
                     hike={hike}
                     selected={hike.slug === selected.slug}
-                    onSelect={() => setSelectedSlug(hike.slug)}
+                    onSelect={() => select(hike.slug)}
                   />
                 </li>
               ))}

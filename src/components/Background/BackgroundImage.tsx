@@ -14,7 +14,6 @@ export default function BackgroundImage({ src, alt = "", priority = false }: Pro
   return (
     <div className={styles.layer} aria-hidden={alt ? undefined : true}>
       <Image
-        key={src}
         src={src}
         alt={alt}
         fill

@@ -20,7 +20,7 @@
 .location {
   text-transform: uppercase;
   letter-spacing: var(--gh-tracking-caps);
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .title {

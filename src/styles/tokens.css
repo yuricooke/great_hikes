@@ -15,11 +15,14 @@
   --gh-focus: #ffd166;
 
   /* Glass */
-  --gh-glass-light: rgba(0, 0, 0, 0.16);
+  --gh-glass-home: rgba(0, 0, 0, 0.4);
   --gh-glass: rgba(0, 0, 0, 0.4);
   --gh-glass-strong: rgba(0, 0, 0, 0.55);
   --gh-glass-border: 1px solid rgba(255, 255, 255, 0.19);
   --gh-glass-border-subtle: 1px solid rgba(255, 255, 255, 0.1);
+  --gh-line: rgba(255, 255, 255, 0.85); /* brand underline, rules, selected card */
+  --gh-chrome: rgba(0, 0, 0, 0.4); /* menu rail / top bar */
+  --gh-chrome-drawer: rgba(0, 0, 0, 0.7);
   --gh-blur-sm: blur(3.5px);
   --gh-blur: blur(10px);
   --gh-blur-lg: blur(16px);
@@ -30,6 +33,7 @@
   --gh-radius-panel: 30px;
   --gh-radius-card: 10px;
   --gh-radius-pill: 9999px;
+  --gh-radius-sm: 12px;
 
   /* Space (4px scale) */
   --gh-space-1: 4px;

@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--gh-space-4);
-  background: rgba(0, 0, 0, 0.4);
+  background: var(--gh-chrome);
   backdrop-filter: var(--gh-blur);
   -webkit-backdrop-filter: var(--gh-blur);
   border-bottom: var(--gh-glass-border-subtle);
@@ -49,7 +49,7 @@
   left: 0;
   right: 0;
   padding: var(--gh-space-3) var(--gh-space-4) var(--gh-space-5);
-  background: rgba(0, 0, 0, 0.7);
+  background: var(--gh-chrome-drawer);
   backdrop-filter: var(--gh-blur-lg);
   -webkit-backdrop-filter: var(--gh-blur-lg);
   border-bottom: var(--gh-glass-border-subtle);
@@ -74,7 +74,7 @@
   gap: var(--gh-space-3);
   min-height: var(--gh-tap);
   padding: var(--gh-space-2) var(--gh-space-3);
-  border-radius: 12px;
+  border-radius: var(--gh-radius-sm);
   color: var(--gh-text);
   text-decoration: none;
   font-size: var(--gh-text-lg);
@@ -125,7 +125,7 @@
     flex-direction: column;
     gap: var(--gh-space-1);
     padding: var(--gh-space-2);
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     letter-spacing: 0.04em;
   }
 }

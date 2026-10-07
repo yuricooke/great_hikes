@@ -7,7 +7,7 @@
   padding: var(--gh-space-2) var(--gh-space-5);
   border: 1px solid transparent;
   border-radius: var(--gh-radius-pill);
-  font-family: var(--gh-font-body);
+  font-family: var(--gh-font-heading);
   font-size: var(--gh-text-base);
   font-weight: 500;
   line-height: 1;

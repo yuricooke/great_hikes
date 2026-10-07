@@ -75,7 +75,7 @@ export default function Menu() {
         onClick={() => setOpen(false)}
       >
         <Image src="/great_hikes.svg" alt="" width={44} height={29} />
-        <span className={styles.homeName}>{SITE_NAME}</span>
+        {pathname !== "/" && <span className={styles.homeName}>{SITE_NAME}</span>}
       </Link>
 
       <button

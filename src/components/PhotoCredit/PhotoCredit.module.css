@@ -1,6 +1,6 @@
 .credit {
   font-size: var(--gh-text-sm);
-  color: var(--gh-text-muted);
+  color: var(--gh-text);
   text-shadow: var(--gh-text-shadow);
 }
 

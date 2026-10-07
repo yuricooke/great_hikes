@@ -13,10 +13,12 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  animation: fadeIn 0.5s ease;
 }
 
-/* The original vignette (inset black shadow at 50%) plus a bottom gradient for text contrast. */
+/*
+ * The original offset vignette (darkest top-left, where page text sits) plus gradients that keep
+ * text over bright photos readable: left-to-right on desktop, top-to-bottom on phones.
+ */
 .scrim,
 .scrimLight {
   position: absolute;
@@ -25,19 +27,19 @@
 }
 
 .scrim {
-  box-shadow: inset 0 0 20rem 10rem rgba(0, 0, 0, 0.5);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.35) 100%);
+  box-shadow: inset 20rem 20rem 20rem 10rem rgba(0, 0, 0, 0.5);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.35) 60%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+@media (min-width: 992px) {
+  .scrim {
+    background:
+      linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.25) 55%, transparent 80%),
+      linear-gradient(180deg, transparent 60%, rgba(0, 0, 0, 0.4) 100%);
+  }
 }
 
 .scrimLight {
   background: rgba(0, 0, 0, 0.15);
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}

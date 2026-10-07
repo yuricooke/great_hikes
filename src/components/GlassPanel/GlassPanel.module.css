@@ -5,7 +5,7 @@
 }
 
 .light {
-  background: rgba(0, 0, 0, 0.28);
+  background: var(--gh-glass-home);
   backdrop-filter: var(--gh-blur-sm);
   -webkit-backdrop-filter: var(--gh-blur-sm);
 }
