@@ -71,3 +71,12 @@ test("V8 keyboard users can reach the main call to action with visible focus", a
   expect(outline).not.toBe("none");
 });
 
+
+test("menu hides when scrolling down and returns when scrolling up", async ({ page }) => {
+  await page.goto("/");
+  const banner = page.getByRole("banner");
+  await page.evaluate(() => window.scrollTo(0, 1200));
+  await expect.poll(() => banner.evaluate((el) => getComputedStyle(el).opacity)).toBe("0");
+  await page.evaluate(() => window.scrollTo(0, 700));
+  await expect.poll(() => banner.evaluate((el) => getComputedStyle(el).opacity)).toBe("1");
+});

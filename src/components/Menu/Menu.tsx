@@ -38,8 +38,29 @@ export default function Menu() {
   const pathname = usePathname();
   const { enabled, user } = useAuth();
   const [open, setOpen] = useState(false);
+  const [hidden, setHidden] = useState(false);
   const toggleRef = useRef<HTMLButtonElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
+
+  // Hide while scrolling down; show again when scrolling up or near the top (owner request).
+  useEffect(() => {
+    let last = window.scrollY;
+    let ticking = false;
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(() => {
+        const y = window.scrollY;
+        if (y < 80) setHidden(false);
+        else if (y > last + 6) setHidden(true);
+        else if (y < last - 6) setHidden(false);
+        last = y;
+        ticking = false;
+      });
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   useEffect(() => {
     if (!open) return;
@@ -90,7 +111,10 @@ export default function Menu() {
   );
 
   return (
-    <header className={styles.header}>
+    <header
+      className={`${styles.header} ${hidden && !open ? styles.hidden : ""}`}
+      onFocusCapture={() => setHidden(false)}
+    >
       <Link href="/" className={`${styles.pill} ${styles.logo}`} aria-label={`${SITE_NAME} home`}>
         <Image src="/great_hikes.svg" alt="" width={40} height={26} priority />
         <span className={styles.logoName}>{SITE_NAME}</span>

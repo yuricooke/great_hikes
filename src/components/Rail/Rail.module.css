@@ -70,14 +70,17 @@
   background: rgba(255, 255, 255, 0.12);
 }
 
-/* Cards snap into place; the next card peeks in to show there is more. */
+/*
+ * Cards snap into place and the row bleeds to the right edge of the screen (owner request):
+ * the list is widened from the section's left edge to the viewport's right edge.
+ */
 .list {
   list-style: none;
-  margin: 0;
-  padding: var(--gh-space-1) 0 var(--gh-space-3);
+  margin: 0 calc(100% + var(--page-pad-left, 0px) - 100vw) 0 0;
+  padding: var(--gh-space-1) var(--gh-space-5) var(--gh-space-3) 0;
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: 62%;
+  grid-auto-columns: 62vw;
   gap: var(--gh-space-4);
   overflow-x: auto;
   overscroll-behavior-x: contain;
@@ -97,7 +100,7 @@
 
 @media (min-width: 576px) {
   .list {
-    grid-auto-columns: 42%;
+    grid-auto-columns: 40vw;
   }
 }
 
@@ -111,12 +114,25 @@
   }
 
   .list {
-    grid-auto-columns: calc((100% - 3 * var(--gh-space-4)) / 4.3);
+    grid-auto-columns: clamp(220px, 19vw, 300px);
   }
 }
 
-@media (min-width: 1400px) {
-  .list {
-    grid-auto-columns: calc((100% - 4 * var(--gh-space-4)) / 5.3);
+
+
+/* Wide rails: landscape cards, ~3 visible on desktop with the 4th peeking in. */
+.list.wide {
+  grid-auto-columns: 82vw;
+}
+
+@media (min-width: 576px) {
+  .list.wide {
+    grid-auto-columns: 58vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .list.wide {
+    grid-auto-columns: calc((100vw - var(--page-pad-left) - var(--page-pad-x) - 2 * var(--gh-space-4)) / 3.15);
   }
 }

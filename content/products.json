@@ -1,0 +1,352 @@
+{
+  "disclosure": "Great Hikes earns a commission when you buy through links on this page, at no extra cost to you. We only list gear we'd take on the trail ourselves.",
+  "categories": [
+    {
+      "key": "apparel",
+      "label": "T-shirts & tops"
+    },
+    {
+      "key": "jackets",
+      "label": "Jackets & shells"
+    },
+    {
+      "key": "socks",
+      "label": "Socks"
+    },
+    {
+      "key": "footwear",
+      "label": "Footwear"
+    },
+    {
+      "key": "backpacks",
+      "label": "Backpacks"
+    },
+    {
+      "key": "tents",
+      "label": "Tents & camping"
+    },
+    {
+      "key": "climbing",
+      "label": "Climbing"
+    },
+    {
+      "key": "accessories",
+      "label": "Accessories"
+    }
+  ],
+  "products": [
+    {
+      "id": "trail-logo-organic-tee",
+      "status": "sample",
+      "category": "apparel",
+      "name": "Trail Logo Organic Tee",
+      "brand": "Sample brand",
+      "price": 35,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": true
+    },
+    {
+      "id": "merino-long-sleeve-base-layer",
+      "status": "sample",
+      "category": "apparel",
+      "name": "Merino Long-Sleeve Base Layer",
+      "brand": "Sample brand",
+      "price": 85,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "quick-dry-hiking-shirt",
+      "status": "sample",
+      "category": "apparel",
+      "name": "Quick-Dry Hiking Shirt",
+      "brand": "Sample brand",
+      "price": 60,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "ultralight-rain-shell",
+      "status": "sample",
+      "category": "jackets",
+      "name": "Ultralight Rain Shell",
+      "brand": "Sample brand",
+      "price": 179,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": true
+    },
+    {
+      "id": "packable-down-jacket",
+      "status": "sample",
+      "category": "jackets",
+      "name": "Packable Down Jacket",
+      "brand": "Sample brand",
+      "price": 229,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "wind-shell-hoody",
+      "status": "sample",
+      "category": "jackets",
+      "name": "Wind Shell Hoody",
+      "brand": "Sample brand",
+      "price": 129,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "merino-trail-sock",
+      "status": "sample",
+      "category": "socks",
+      "name": "Merino Trail Sock",
+      "brand": "Sample brand",
+      "price": 24,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": true
+    },
+    {
+      "id": "cushioned-hiking-crew-sock",
+      "status": "sample",
+      "category": "socks",
+      "name": "Cushioned Hiking Crew Sock",
+      "brand": "Sample brand",
+      "price": 22,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "lightweight-running-sock",
+      "status": "sample",
+      "category": "socks",
+      "name": "Lightweight Running Sock",
+      "brand": "Sample brand",
+      "price": 18,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "waterproof-hiking-boot",
+      "status": "sample",
+      "category": "footwear",
+      "name": "Waterproof Hiking Boot",
+      "brand": "Sample brand",
+      "price": 199,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": true
+    },
+    {
+      "id": "trail-running-shoe",
+      "status": "sample",
+      "category": "footwear",
+      "name": "Trail Running Shoe",
+      "brand": "Sample brand",
+      "price": 149,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "approach-shoe",
+      "status": "sample",
+      "category": "footwear",
+      "name": "Approach Shoe",
+      "brand": "Sample brand",
+      "price": 159,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "22-l-summit-daypack",
+      "status": "sample",
+      "category": "backpacks",
+      "name": "22 L Summit Daypack",
+      "brand": "Sample brand",
+      "price": 119,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": true
+    },
+    {
+      "id": "45-l-trekking-pack",
+      "status": "sample",
+      "category": "backpacks",
+      "name": "45 L Trekking Pack",
+      "brand": "Sample brand",
+      "price": 229,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "hydration-vest-10-l",
+      "status": "sample",
+      "category": "backpacks",
+      "name": "Hydration Vest 10 L",
+      "brand": "Sample brand",
+      "price": 139,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "ultralight-2-person-tent",
+      "status": "sample",
+      "category": "tents",
+      "name": "Ultralight 2-Person Tent",
+      "brand": "Sample brand",
+      "price": 449,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": true
+    },
+    {
+      "id": "down-sleeping-bag-0-c",
+      "status": "sample",
+      "category": "tents",
+      "name": "Down Sleeping Bag 0°C",
+      "brand": "Sample brand",
+      "price": 299,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "inflatable-sleeping-pad",
+      "status": "sample",
+      "category": "tents",
+      "name": "Inflatable Sleeping Pad",
+      "brand": "Sample brand",
+      "price": 149,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "climbing-harness",
+      "status": "sample",
+      "category": "climbing",
+      "name": "Climbing Harness",
+      "brand": "Sample brand",
+      "price": 79,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": true
+    },
+    {
+      "id": "climbing-shoes",
+      "status": "sample",
+      "category": "climbing",
+      "name": "Climbing Shoes",
+      "brand": "Sample brand",
+      "price": 159,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "climbing-helmet",
+      "status": "sample",
+      "category": "climbing",
+      "name": "Climbing Helmet",
+      "brand": "Sample brand",
+      "price": 89,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "rechargeable-headlamp",
+      "status": "sample",
+      "category": "accessories",
+      "name": "Rechargeable Headlamp",
+      "brand": "Sample brand",
+      "price": 59,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": true
+    },
+    {
+      "id": "carbon-trekking-poles",
+      "status": "sample",
+      "category": "accessories",
+      "name": "Carbon Trekking Poles",
+      "brand": "Sample brand",
+      "price": 149,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    },
+    {
+      "id": "sun-hat",
+      "status": "sample",
+      "category": "accessories",
+      "name": "Sun Hat",
+      "brand": "Sample brand",
+      "price": 39,
+      "currency": "USD",
+      "retailer": "Partner store",
+      "image": null,
+      "url": "/shop",
+      "featured": false
+    }
+  ],
+  "updated": "2026-10-07"
+}

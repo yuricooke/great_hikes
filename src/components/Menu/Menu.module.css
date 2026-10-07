@@ -16,6 +16,21 @@
   pointer-events: auto;
 }
 
+.header {
+  transition:
+    transform 0.28s ease,
+    opacity 0.28s ease;
+}
+
+.hidden {
+  transform: translateY(calc(-100% - 2 * var(--gh-space-5)));
+  opacity: 0;
+}
+
+.hidden > * {
+  pointer-events: none;
+}
+
 .pill {
   display: flex;
   align-items: center;

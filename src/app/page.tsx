@@ -8,12 +8,13 @@ import PhotoCard from "@/components/PhotoCard/PhotoCard";
 import PhotoCredit from "@/components/PhotoCredit/PhotoCredit";
 import PillButton from "@/components/PillButton/PillButton";
 import Rail from "@/components/Rail/Rail";
+import ProductCard from "@/components/Shop/ProductCard";
 import { featuredHike } from "@/lib/featured";
 import { hikeBySlug, hikePath } from "@/lib/hikes";
 import { featuredPosts } from "@/lib/instagram";
 import { articlePath, articles } from "@/lib/journal";
 import { CONTINENTS, LANDSCAPES } from "@/lib/schema";
-import { shopCategories } from "@/lib/shop";
+import { products } from "@/lib/products";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 import { hikesForTopic, topicBySlug } from "@/lib/topics";
 import styles from "./landing.module.css";
@@ -41,7 +42,7 @@ export default async function LandingPage() {
   const features = (await featuredPosts()).slice(0, 10);
   const guides = articles("guide");
   const experiences = articles("experience");
-  const shop = shopCategories();
+  const shop = products().filter((p) => p.featured).slice(0, 10);
   const now = new Date();
 
   return (
@@ -99,7 +100,7 @@ export default async function LandingPage() {
         )}
 
         {guides.length > 0 && (
-          <Rail id="our-content" title="Our content" description="Guides and stories from the Great Hikes team." seeAllHref="/journal">
+          <Rail id="our-content" size="wide" title="Our content" description="Guides and stories from the Great Hikes team." seeAllHref="/journal">
             {guides.map((a) => (
               <PhotoCard
                 key={a.slug}
@@ -116,22 +117,13 @@ export default async function LandingPage() {
 
         {shop.length > 0 && (
           <Rail id="shop" title="Shop" description="Gear we trust on the trail." seeAllHref="/shop" seeAllLabel="Visit the shop">
-            {shop.map((c) => (
-              <PhotoCard
-                key={c.slug}
-                href={c.url}
-                external
-                image={hikeBySlug(c.image)!.photo.src}
-                title={c.title}
-                subtitle={`at ${c.partner}`}
-                badge={c.status === "sample" ? "Sample" : c.partner}
-                aspect="landscape"
-              />
+            {shop.map((p) => (
+              <ProductCard key={p.id} product={p} />
             ))}
           </Rail>
         )}
 
-        <section className={styles.explore} aria-labelledby="explore-by">
+        <section className={`${styles.explore} ${styles.band}`} aria-labelledby="explore-by">
           <div className={styles.exploreHeader}>
             <h2 id="explore-by" className={styles.sectionTitle}>
               Explore by
@@ -163,7 +155,7 @@ export default async function LandingPage() {
         </section>
 
         {experiences.length > 0 && (
-          <Rail id="experiences" title="Hikers' experiences" description="Trip stories from our community." seeAllHref="/journal">
+          <Rail id="experiences" size="wide" title="Hikers' experiences" description="Trip stories from our community." seeAllHref="/journal">
             {experiences.map((a) => (
               <PhotoCard
                 key={a.slug}

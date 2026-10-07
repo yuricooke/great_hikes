@@ -8,6 +8,7 @@
   --gh-text: #f1f1f1;
   --gh-text-muted: rgba(241, 241, 241, 0.78);
   --gh-page: #000; /* pure black page (owner decision 2026-10-07) */
+  --gh-surface: #171717; /* dark gray band on the black page */
   --gh-pill: #212529;
   --gh-pill-hover: #424649;
   --gh-accent: #1f7a43; /* "Let's hike" green — 5.4:1 with white text */
@@ -15,7 +16,7 @@
   --gh-focus: #ffd166;
 
   /* Glass */
-  --gh-glass-home: rgba(0, 0, 0, 0.4);
+  --gh-glass-home: rgba(0, 0, 0, 0.5);
   --gh-glass: rgba(0, 0, 0, 0.4);
   --gh-glass-strong: rgba(0, 0, 0, 0.55);
   --gh-glass-border: 1px solid rgba(255, 255, 255, 0.19);
@@ -28,6 +29,28 @@
   --gh-blur-lg: blur(16px);
   --gh-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   --gh-text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+
+  /* Photo treatment (owner, 2026-10-07): light vintage/fade look — softer contrast, slightly
+     muted & warm colours, darker edges only (Instagram-style vignette). */
+  --gh-photo-filter: contrast(0.9) saturate(0.88) sepia(0.12) brightness(1.04);
+  --gh-photo-vignette: radial-gradient(
+    ellipse at center,
+    transparent 45%,
+    rgba(0, 0, 0, 0.22) 75%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  /* Hike pages: title sits upper-left over the fixed photo. */
+  --gh-photo-title-shade: radial-gradient(
+    ellipse 62% 55% at 4% 38%,
+    rgba(0, 0, 0, 0.5),
+    transparent 72%
+  );
+  /* A soft local shade where text sits (bottom-left), so copy stays readable. */
+  --gh-photo-text-shade: radial-gradient(
+    ellipse 70% 60% at 0% 100%,
+    rgba(0, 0, 0, 0.38),
+    transparent 70%
+  );
 
   /* Shape */
   --gh-radius-panel: 30px;
@@ -59,6 +82,6 @@
   /* Layout */
   --gh-header-height: 56px;
   --gh-topbar-height: calc(var(--gh-header-height) + 2 * var(--gh-space-4)); /* floating header + margins */
-  --gh-content-max: 1200px;
+  --gh-content-max: none; /* content spans the page with equal left/right margins (owner, 2026-10-07) */
   --gh-tap: 44px;
 }
