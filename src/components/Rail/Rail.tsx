@@ -12,11 +12,21 @@ type Props = {
   description?: string;
   seeAllHref?: string;
   seeAllLabel?: string;
+  /** wide = landscape cards, about 3 visible on desktop (stories, shop). */
+  size?: "default" | "wide";
   children: ReactNode[];
 };
 
 /** Horizontal, snap-scrolling row of cards with previous/next controls and a "See all" link. */
-export default function Rail({ id, title, description, seeAllHref, seeAllLabel = "See all", children }: Props) {
+export default function Rail({
+  id,
+  title,
+  description,
+  seeAllHref,
+  seeAllLabel = "See all",
+  size = "default",
+  children,
+}: Props) {
   const scroller = useRef<HTMLUListElement>(null);
   const [canPrev, setCanPrev] = useState(false);
   const [canNext, setCanNext] = useState(false);
@@ -92,7 +102,7 @@ export default function Rail({ id, title, description, seeAllHref, seeAllLabel =
           )}
         </div>
       </div>
-      <ul id={`${id}-list`} ref={scroller} className={styles.list}>
+      <ul id={`${id}-list`} ref={scroller} className={`${styles.list} ${size === "wide" ? styles.wide : ""}`}>
         {children.map((child, i) => (
           <li key={i} className={styles.item}>
             {child}

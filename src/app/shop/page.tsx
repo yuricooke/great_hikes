@@ -32,11 +32,11 @@ export default function ShopPage() {
               <li key={c.slug}>
                 <PhotoCard
                   href={c.url}
-                  external
+                  external={c.url.startsWith("http")}
                   image={hikeBySlug(c.image)!.photo.src}
                   title={c.title}
-                  subtitle={`${c.text} · at ${c.partner}`}
-                  badge={c.status === "sample" ? "Sample" : c.partner}
+                  subtitle={c.partner ? `${c.text} · at ${c.partner}` : c.text}
+                  badge={c.status === "sample" ? "Sample" : c.partner || undefined}
                   aspect="landscape"
                   sizes="(min-width: 992px) 33vw, 100vw"
                 />

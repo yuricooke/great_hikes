@@ -27,6 +27,51 @@
       "image": "cinque-terre-national-park",
       "partner": "Patagonia",
       "url": "https://www.patagonia.com/shop/womens"
+    },
+    {
+      "slug": "t-shirts",
+      "status": "sample",
+      "title": "T-shirts",
+      "text": "Organic cotton tees for trail and town.",
+      "image": "cinque-terre-national-park",
+      "partner": "",
+      "url": "/shop"
+    },
+    {
+      "slug": "socks",
+      "status": "sample",
+      "title": "Hiking socks",
+      "text": "Merino socks that keep feet happy.",
+      "image": "isle-of-skye",
+      "partner": "",
+      "url": "/shop"
+    },
+    {
+      "slug": "backpacks",
+      "status": "sample",
+      "title": "Backpacks",
+      "text": "From summit daypacks to multi-day loads.",
+      "image": "annapurna-circuit",
+      "partner": "",
+      "url": "/shop"
+    },
+    {
+      "slug": "tents",
+      "status": "sample",
+      "title": "Tents",
+      "text": "Light shelters for wild nights out.",
+      "image": "abel-tasman-national-park",
+      "partner": "",
+      "url": "/shop"
+    },
+    {
+      "slug": "climbing",
+      "status": "sample",
+      "title": "Climbing",
+      "text": "Harnesses, shoes and helmets.",
+      "image": "yosemite-national-park",
+      "partner": "",
+      "url": "/shop"
     }
   ]
 }

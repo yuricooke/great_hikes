@@ -8,6 +8,7 @@
   --gh-text: #f1f1f1;
   --gh-text-muted: rgba(241, 241, 241, 0.78);
   --gh-page: #000; /* pure black page (owner decision 2026-10-07) */
+  --gh-surface: #171717; /* dark gray band on the black page */
   --gh-pill: #212529;
   --gh-pill-hover: #424649;
   --gh-accent: #1f7a43; /* "Let's hike" green — 5.4:1 with white text */
@@ -59,6 +60,6 @@
   /* Layout */
   --gh-header-height: 56px;
   --gh-topbar-height: calc(var(--gh-header-height) + 2 * var(--gh-space-4)); /* floating header + margins */
-  --gh-content-max: 1200px;
+  --gh-content-max: none; /* content spans the page with equal left/right margins (owner, 2026-10-07) */
   --gh-tap: 44px;
 }

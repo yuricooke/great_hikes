@@ -88,9 +88,9 @@
   background: var(--gh-pill-hover);
 }
 
-/* Horizontal photo gallery that breaks out of the reading column. */
+/* Horizontal photo gallery that breaks out of the reading column to the right edge of the screen. */
 .gallery {
-  margin: var(--gh-space-4) 0;
+  margin: var(--gh-space-4) calc(50% - 50vw) var(--gh-space-4) 0;
 }
 
 .galleryList {
@@ -103,6 +103,9 @@
   gap: var(--gh-space-3);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
+  padding-right: var(--gh-space-5);
+  scroll-padding-inline-end: var(--gh-space-5);
+  scrollbar-width: thin;
 }
 
 .galleryItem {
@@ -134,6 +137,6 @@
   }
 
   .galleryList {
-    grid-auto-columns: 42%;
+    grid-auto-columns: min(420px, 38vw);
   }
 }

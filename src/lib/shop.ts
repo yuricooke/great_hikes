@@ -14,8 +14,10 @@ const ShopSchema = z.object({
       title: z.string(),
       text: z.string(),
       image: z.string(),
+      /** Empty until a partner is chosen (placeholder). */
       partner: z.string(),
-      url: z.url(),
+      /** Partner page (https) or an internal placeholder link (/shop). */
+      url: z.string().refine((u) => u.startsWith("https://") || u.startsWith("/"), "https URL or internal path"),
     }),
   ),
 });

@@ -65,6 +65,13 @@
   gap: var(--gh-space-8);
 }
 
+/* Full-bleed dark gray band to set "Explore by" apart (owner, 2026-10-07). */
+.band {
+  margin: 0 calc(-1 * var(--page-pad-x)) 0 calc(-1 * var(--page-pad-left));
+  padding: var(--gh-space-7) var(--page-pad-x) var(--gh-space-7) var(--page-pad-left);
+  background: var(--gh-surface);
+}
+
 .explore {
   display: flex;
   flex-direction: column;

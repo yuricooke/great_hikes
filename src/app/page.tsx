@@ -99,7 +99,7 @@ export default async function LandingPage() {
         )}
 
         {guides.length > 0 && (
-          <Rail id="our-content" title="Our content" description="Guides and stories from the Great Hikes team." seeAllHref="/journal">
+          <Rail id="our-content" size="wide" title="Our content" description="Guides and stories from the Great Hikes team." seeAllHref="/journal">
             {guides.map((a) => (
               <PhotoCard
                 key={a.slug}
@@ -115,15 +115,15 @@ export default async function LandingPage() {
         )}
 
         {shop.length > 0 && (
-          <Rail id="shop" title="Shop" description="Gear we trust on the trail." seeAllHref="/shop" seeAllLabel="Visit the shop">
+          <Rail id="shop" size="wide" title="Shop" description="Gear we trust on the trail." seeAllHref="/shop" seeAllLabel="Visit the shop">
             {shop.map((c) => (
               <PhotoCard
                 key={c.slug}
                 href={c.url}
-                external
+                external={c.url.startsWith("http")}
                 image={hikeBySlug(c.image)!.photo.src}
                 title={c.title}
-                subtitle={`at ${c.partner}`}
+                subtitle={c.partner ? `at ${c.partner}` : c.text}
                 badge={c.status === "sample" ? "Sample" : c.partner}
                 aspect="landscape"
               />
@@ -131,7 +131,7 @@ export default async function LandingPage() {
           </Rail>
         )}
 
-        <section className={styles.explore} aria-labelledby="explore-by">
+        <section className={`${styles.explore} ${styles.band}`} aria-labelledby="explore-by">
           <div className={styles.exploreHeader}>
             <h2 id="explore-by" className={styles.sectionTitle}>
               Explore by
@@ -163,7 +163,7 @@ export default async function LandingPage() {
         </section>
 
         {experiences.length > 0 && (
-          <Rail id="experiences" title="Hikers' experiences" description="Trip stories from our community." seeAllHref="/journal">
+          <Rail id="experiences" size="wide" title="Hikers' experiences" description="Trip stories from our community." seeAllHref="/journal">
             {experiences.map((a) => (
               <PhotoCard
                 key={a.slug}
