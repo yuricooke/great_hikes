@@ -1,6 +1,8 @@
 <!--
 Sync Impact Report
-- Version change: 1.0.0 → 1.1.0 (MINOR: discovery & outcomes added to the workflow)
+- Version change: 1.1.0 → 1.2.0 (MINOR: Principle III gains a scoped exception for embedding the
+  @great_hikes Instagram feed; owner approved going live with it 2026-10-07)
+- Previous (1.1.0): discovery & outcomes added to the workflow
 - Modified sections: Development Workflow & Quality Gates (discovery, outcome traceability,
   production-metrics feedback loop)
 - Templates: no edits required; specs reference outcomes in their Context section
@@ -58,6 +60,11 @@ hikers contribute".
   unofficial APIs, and creating accounts that violate a platform's terms are forbidden.
 - Data and image licenses (e.g., OSM ODbL, Unsplash/Pexels, CC licenses) MUST be honored with
   the required attribution.
+- Exception — Instagram embed: the site MAY show posts published by the @great_hikes account itself
+  through its authorized feed (official API via Behold), unedited, with the photographer's credit
+  and a link to the original post. Posts without an identifiable photographer MUST NOT be shown.
+  Anything beyond the embed (standalone feature pages, edits, crops for other uses, shop/merch)
+  still requires recorded permission.
 
 Rationale: featuring people's work without consent destroys the community trust the project
 depends on, and creates legal risk.
@@ -132,4 +139,4 @@ dependent docs. Every plan MUST include a Constitution Check against these princ
 MUST be justified in the plan's complexity tracking or the feature changed. Runtime guidance for
 agents lives in `CLAUDE.md`.
 
-**Version**: 1.1.0 | **Ratified**: 2026-10-07 | **Last Amended**: 2026-10-07
+**Version**: 1.2.0 | **Ratified**: 2026-10-07 | **Last Amended**: 2026-10-07
