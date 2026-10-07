@@ -15,30 +15,27 @@ Hiker posts on Instagram / submits on site
 
 Everything we build should strengthen this loop.
 
-## Specs, in order
+## Specs, in order (updated 2026-10-07, evening)
 
-Each row is one Spec Kit feature (`specs/NNN-name/`). Order matters: each builds on the previous.
-Discovery behind this order: `docs/discovery/` (problem, domain, product, outcomes O-1…O-6).
+Each row is one Spec Kit feature (`specs/NNN-name/`). Discovery behind the order: `docs/discovery/`.
 
 | Spec | Name | Outcome | Status |
 |------|------|---------|--------|
-| 000 | Foundation | Spec Kit, constitution, agents/skills, API research | Done (`relaunch/foundation`) |
-| 001 | Platform rebuild (O-1, guardrails) | Next.js/TS, design tokens, new layout system with the same identity, readable hike URLs, SEO, optimized media, mobile nav | Spec + plan done; next: tasks → build |
-| 002 | Landing & navigation (O-1) | `/` becomes the landing: today's featured hike as full-bleed hero + horizontal topic rails (Our top 10, landscapes, continents) with "See all"; first-level grid pages per topic; hike page as second level; slots for Journal and Shop sections | Built on preview (2026-10-07), incl. UI for journal, shop, feeds, sign-in & favorites |
-| 003 | Accounts, database & favorites (O-4, O-6) | Supabase (Postgres + Auth): passwordless email link + Google; sign-in as glass modal from any page and full `/login` page with the video; seeded test user for local dev; favorites (heart on cards/hike pages) + `/favorites` page; owner role | Planned |
-| 004 | Journal (O-1, O-6) | Articles ("stories") with full-bleed hero, glass reading column, inline hike link-cards, photo gallery rail, "hikes in this story" and related stories (ref: hellstrom.no journal); Journal section on landing | Planned |
-| 005 | Shop — affiliates (O-5) | Gear pages and a Shop section on the landing with curated products from affiliate partners (REI, Patagonia, Backcountry…), disclosure, click tracking; gear per hike/season | Planned (owner signs up to affiliate programs) |
-| 006 | Instagram import & AI curation (O-2, O-6) | Behold feeds imported; **agents propose, owner only approves** in the inbox (needs 003): quality score, place, credit, DM consent draft; publish; Instagram rails on the landing (IG features, photographers, community) | Paused by owner 2026-10-07 (no AI curation agents for now); feeds already embedded |
-| 007 | Hike enrichment (O-3) | Place → coordinates; trail data (OSM/national datasets) → distance, elevation gain, difficulty, season; interactive map + elevation profile; weather; sourced description drafts approved by the owner | Planned |
-| 008 | Reviews & tips (O-4) | On-site reviews/ratings and practical tips per hike (signed-in users); Instagram comments only if API access allows | Planned |
-| 009 | Community submissions (O-4) | "Share your hike" upload with contributor license, moderation queue, contributor profiles | Planned |
-| 010 | Launch readiness (O-6, metrics) | Custom domain, analytics, privacy/terms/contributor license, performance + accessibility audit | Planned |
+| 000 | Foundation | Spec Kit, constitution, agents/skills, research | ✅ Done |
+| 001 | Platform rebuild (O-1) | Next.js/TS, design tokens, readable URLs, SEO, tests/CI | ✅ Live |
+| 002 | Landing & navigation (O-1) | Video hero + logo (parallax), top 10, today's feature, community features, journal/shop/explore rails, search, topic pages, floating menu, footer, ad slots; demo sign-in & favorites (preview only) | ✅ Live (samples hidden in production); spec docs need a catch-up of the later layout changes |
+| 003 | Accounts & favorites (O-4, O-6) | Supabase Auth (email link, then Google), profiles/favorites tables with RLS, seeded test user, favorites on any device; sign-in live in production | Next — waiting on owner: `vercel env pull` + Supabase redirect URLs |
+| 004 | Trust pages & analytics (O-5, O-6) | About, affiliate disclosure, privacy policy, terms, contact; Vercel Web Analytics; needed before applying to affiliates | Planned |
+| 005 | Journal content (O-1, O-6) | 10+ real guides (MDX), editorial workflow, replace samples | Planned (content from owner + drafts) |
+| 006 | Shop with partner feeds (O-5) | AvantLink feeds → nightly import (Vercel Cron) → Supabase `products`; curated SKUs, licensed images & prices, `/go` click logging, gear per hike; merch (Printful) later | Planned — after affiliate approval |
+| 007 | Ads management (O-5) | Ads from the database, click/impression counts, frequency caps, targeting by favorites/search; partner campaigns | Planned |
+| 008 | Hike enrichment (O-3) | Coordinates, OSM trail data, distance/elevation/difficulty/season, interactive map, elevation profile, weather | Planned |
+| 009 | Reviews & tips (O-4) | Ratings, reviews and tips from signed-in users, moderation | Planned |
+| 010 | Community submissions (O-4) | "Share your hike" with contributor license, moderation, contributor profiles | Planned |
+| 011 | Instagram curation agents (O-2) | AI-prepared approval inbox | Paused by owner |
+| 012 | International relaunch | Languages and per-country affiliates (Spain, France, Greece, Brazil, Turkey, Thailand…) | Later |
 
-Order note (2026-10-07): the owner prioritized the UX shell (landing, accounts, journal, shop)
-before the Instagram engine. Trade-off: the growth loop (H1–H3) is validated later; the
-Instagram prototype keeps that risk low.
-
-**Launch gate:** no fixed date. Launch when product specs 001–007 are live and the go-to-market
+**Launch gate:** no fixed date. Launch when specs 001–006 are live and the go-to-market
 plan (marketing track below) is approved.
 
 ### Marketing track (runs in parallel with code)
