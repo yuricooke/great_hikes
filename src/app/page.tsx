@@ -133,7 +133,7 @@ export default async function LandingPage() {
                 image={hikeBySlug(a.cover)!.photo.src}
                 title={a.title}
                 subtitle={`${a.readMinutes} min read`}
-                badge={a.status === "sample" ? "Sample" : "Guide"}
+                badge={a.status === "sample" ? "Sample" : a.status === "draft" ? "Draft" : "Guide"}
                 aspect="landscape"
               />
             ))}
@@ -190,7 +190,7 @@ export default async function LandingPage() {
                 image={hikeBySlug(a.cover)!.photo.src}
                 title={a.title}
                 subtitle={`By ${a.author}`}
-                badge={a.status === "sample" ? "Sample" : undefined}
+                badge={a.status === "sample" ? "Sample" : a.status === "draft" ? "Draft" : undefined}
                 aspect="landscape"
               />
             ))}
