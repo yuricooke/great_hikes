@@ -13,7 +13,9 @@ import PhotoCredit from "@/components/PhotoCredit/PhotoCredit";
 import PillButton from "@/components/PillButton/PillButton";
 import { pickAd } from "@/lib/ads";
 import { allHikes, continentKey, hikeBySlug, hikePath, relatedHikes } from "@/lib/hikes";
+import { communityFor } from "@/lib/community";
 import { featuredPosts } from "@/lib/instagram";
+import Community from "@/components/Community/Community";
 import { trailGeo, trailsFor } from "@/lib/trails";
 import TrailList from "@/components/Trail/TrailList";
 import { forecast } from "@/lib/weather";
@@ -58,6 +60,7 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
     hike.instagram.length ? featuredPosts() : Promise.resolve([]),
   ]);
   const features = posts.filter((p) => hike.instagram.includes(p.id));
+  const community = await communityFor({ hike: hike.slug });
   const trails = trailsFor(hike);
   const measuredKm = Object.fromEntries(
     await Promise.all(trails.map(async (t) => [t.slug, (await trailGeo(t))?.lengthKm ?? 0] as const)),
@@ -144,7 +147,7 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
                   </div>
                   {details.tips.length > 0 && (
                     <div>
-                      <dt>Tips from hikers</dt>
+                      <dt>Good to know</dt>
                       <dd>
                         <ul className={styles.tips}>
                           {details.tips.map((tip) => (
@@ -175,6 +178,18 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
                   <PhotoCredit photo={hike.photo} />
                 </figcaption>
               </figure>
+            </section>
+
+            <section aria-labelledby="community">
+              <h2 id="community" className={styles.sectionTitle}>
+                Reviews &amp; tips
+              </h2>
+              <Community
+                target={{ hike: hike.slug }}
+                title={hike.title}
+                initialReviews={community.reviews}
+                initialTips={community.tips}
+              />
             </section>
 
             {features.length > 0 && (

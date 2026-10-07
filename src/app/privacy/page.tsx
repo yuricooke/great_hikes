@@ -31,6 +31,10 @@ export default function PrivacyPage() {
           hikes you save as favorites — so you can sign in and see your favorites on any device.
         </li>
         <li>
+          <strong>Reviews and tips you post</strong>: shown publicly with your display name, the
+          date and the hike. You can delete them at any time.
+        </li>
+        <li>
           <strong>Messages you send us</strong>: your name, email and message — to reply to you. We
           delete messages within 12 months.
         </li>

@@ -10,14 +10,23 @@ const LEVELS = ["easy", "moderate", "challenging", "strenuous"] as const;
 const LABEL = { easy: "Easy", moderate: "Moderate", challenging: "Challenging", strenuous: "Strenuous" };
 
 /** Trails of a place with a difficulty filter. */
-export default function TrailList({ trails, measuredKm }: { trails: Trail[]; measuredKm: Record<string, number> }) {
+export default function TrailList({
+  trails,
+  measuredKm,
+  compact = false,
+}: {
+  trails: Trail[];
+  measuredKm: Record<string, number>;
+  /** Single column, no filter (side panels). */
+  compact?: boolean;
+}) {
   const [level, setLevel] = useState<(typeof LEVELS)[number] | null>(null);
   const present = LEVELS.filter((l) => trails.some((t) => t.details.difficulty === l));
   const shown = level ? trails.filter((t) => t.details.difficulty === level) : trails;
 
   return (
     <div className={styles.list}>
-      {present.length > 1 && (
+      {!compact && present.length > 1 && (
         <div className={styles.filters} role="group" aria-label="Filter trails by difficulty">
           <button type="button" aria-pressed={level === null} onClick={() => setLevel(null)}>
             All ({trails.length})
@@ -29,7 +38,7 @@ export default function TrailList({ trails, measuredKm }: { trails: Trail[]; mea
           ))}
         </div>
       )}
-      <ul className={styles.cards}>
+      <ul className={compact ? `${styles.cards} ${styles.single}` : styles.cards}>
         {shown.map((t) => {
           const km = t.details.distanceKm ?? measuredKm[t.slug];
           return (

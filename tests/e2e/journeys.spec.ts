@@ -210,3 +210,31 @@ test("map: filters narrow the list and a result opens its page", async ({ page }
   await page.getByRole("complementary", { name: "Selected: Sentinel Dome" }).getByRole("link", { name: "Open trail" }).click();
   await expect(page).toHaveURL("/hikes/yosemite-national-park/sentinel-dome");
 });
+
+test("reviews & tips: a member posts a review and a tip, then deletes them", async ({ page }, testInfo) => {
+  const email = testInfo.project.name === "mobile" ? "owner@greathikes.test" : "hiker@greathikes.test";
+  const login = await page.request.post("/auth/test-login", { data: { email } });
+  test.skip(!login.ok(), "Needs Supabase (local/preview)");
+  const trail = testInfo.project.name === "mobile" ? "mist-trail" : "four-mile-trail";
+  await page.goto(`/hikes/yosemite-national-park/${trail}`);
+  const section = page.locator("section", { has: page.getByRole("heading", { name: "Reviews & tips" }) });
+  await expect(section.getByRole("heading", { name: "Write a review" })).toBeVisible({ timeout: 15000 });
+
+  const text = `E2E ${testInfo.project.name} ${Date.now()} — steep but worth every step.`;
+  await section.getByRole("radio", { name: "4 stars" }).check();
+  await section.getByLabel("Your review").fill(text);
+  await section.getByRole("checkbox").check();
+  await section.getByRole("button", { name: "Post review" }).click();
+  await expect(section.getByText(text)).toBeVisible();
+
+  const tip = `E2E tip ${Date.now()}: refill at the trailhead.`;
+  await section.getByLabel("Your tip").fill(tip);
+  await section.getByRole("button", { name: "Add tip" }).click();
+  await expect(section.getByText(tip)).toBeVisible();
+
+  page.on("dialog", (d) => d.accept());
+  await section.getByRole("listitem").filter({ hasText: text }).getByRole("button", { name: "Delete" }).click();
+  await expect(section.getByText(text)).toHaveCount(0);
+  await section.locator("dd", { hasText: tip }).getByRole("button", { name: "Delete" }).click();
+  await expect(section.getByText(tip)).toHaveCount(0);
+});
