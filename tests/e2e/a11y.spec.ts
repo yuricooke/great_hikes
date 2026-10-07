@@ -33,18 +33,29 @@ for (const url of PAGES) {
   });
 }
 
-test("V7 menu reaches Home, Hikes and Instagram on any screen", async ({ page, isMobile }) => {
+test("V7 floating menu opens a card with every section; Escape closes it", async ({ page }) => {
   await page.goto(`/hikes/${hikes[0].slug}`);
-  if (isMobile) await page.getByRole("button", { name: "Open menu" }).click();
-  const nav = page.getByRole("navigation", { name: "Main" });
-  await expect(nav.getByRole("link", { name: "Hikes" })).toBeVisible();
-  await expect(nav.getByRole("link", { name: "Sign in" })).toBeVisible();
-  await expect(nav.getByRole("link", { name: /Instagram/ })).toHaveAttribute("href", /instagram\.com\/great_hikes/);
   await expect(page.getByRole("link", { name: "Great Hikes home" })).toBeVisible();
-  if (isMobile) {
-    await page.keyboard.press("Escape");
-    await expect(nav.getByRole("link", { name: "Hikes" })).toBeHidden();
+  const toggle = page.getByRole("button", { name: "Menu", exact: true });
+  await toggle.click();
+  await expect(toggle).toHaveAttribute("aria-expanded", "true");
+  const nav = page.getByRole("navigation", { name: "Main" });
+  for (const name of ["Home", "Hikes", "Search", "Journal", "Shop", "Community", "Our feed", "Sign in"]) {
+    await expect(nav.getByRole("link", { name, exact: true })).toBeVisible();
   }
+  await expect(nav.getByRole("link", { name: /Instagram/ })).toHaveAttribute("href", /instagram\.com\/great_hikes/);
+  await page.keyboard.press("Escape");
+  await expect(nav).toBeHidden();
+  await expect(toggle).toBeFocused();
+});
+
+test("menu never touches the screen edges", async ({ page }) => {
+  await page.goto("/");
+  const box = (await page.getByRole("banner").boundingBox())!;
+  const width = page.viewportSize()!.width;
+  expect(box.x).toBeGreaterThanOrEqual(12);
+  expect(width - (box.x + box.width)).toBeGreaterThanOrEqual(12);
+  expect(box.y).toBeGreaterThanOrEqual(12);
 });
 
 test("V8 keyboard users can reach the main call to action with visible focus", async ({ page }) => {

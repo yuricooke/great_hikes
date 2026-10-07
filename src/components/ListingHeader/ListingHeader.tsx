@@ -18,7 +18,7 @@ type Props = {
 /** Photo hero for first-level pages: breadcrumb + glass header (title, description, meta). */
 export default function ListingHeader({ image, title, description, meta, breadcrumb, children }: Props) {
   return (
-    <Hero image={image} size="medium" scrim="light">
+    <Hero image={image} size="medium">
       <div className={styles.header}>
         <Breadcrumb items={breadcrumb} />
         <GlassPanel tone="light" className={styles.panel}>

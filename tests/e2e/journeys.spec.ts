@@ -103,8 +103,8 @@ test("instagram pages render", async ({ page }) => {
 
 test("sign in with the test account, save a hike, see it in favorites", async ({ page, isMobile }) => {
   await page.goto("/");
-  if (isMobile) await page.getByRole("button", { name: "Open menu" }).click();
-  await page.getByRole("navigation", { name: "Main" }).getByRole("link", { name: "Sign in" }).click();
+  expect(isMobile !== undefined).toBe(true);
+  await page.getByRole("banner").getByRole("link", { name: "Sign in" }).click();
   const dialog = page.getByRole("dialog", { name: "Sign in" });
   await expect(dialog).toBeVisible();
   await dialog.getByLabel("Email").fill("someone@example.com");
