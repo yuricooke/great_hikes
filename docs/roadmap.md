@@ -15,20 +15,29 @@ Hiker posts on Instagram / submits on site
 
 Everything we build should strengthen this loop.
 
-## Phases
+## Specs, in order
 
-| # | Phase | Outcome | Notes |
-|---|-------|---------|-------|
-| 0 | Foundation | Spec Kit, constitution, agents/skills, research | Done on `relaunch/foundation` |
-| 1 | Next.js migration + design system | Same identity, rebuilt in Next.js/TS; design tokens; real hike URLs (slugs), SEO metadata, optimized images; mobile-first navigation | First spec (001) |
-| 2 | Rich hike pages | Data model (coords, distance, elevation, difficulty, season, permits, sources); MapLibre trail map from OSM GeoJSON; elevation profile; weather; photo gallery with credits; search & filters | OSM at build time; MapTiler free tier |
-| 3 | Community submissions (UGC core) | "Share your hike" flow: photos + story + tips, contributor license; accounts; moderation queue; contributor profile pages | Needs backend — proposed Supabase (auth, Postgres, storage) |
-| 4 | Instagram bridge | Show @great_hikes feed; consent-based import of tagged posts; "featured" badges and share cards | See Instagram plan below |
-| 5 | Reviews, tips & favorites | Ratings, short tips per hike ("bring water at km 12"), comments, bucket list | Moderation + spam protection |
-| 6 | Gear (affiliates) | Gear lists per hike & season linking to affiliate partners; a "Gear" section in the identity | Shop phase 1; merch later via Shopify + Printful |
-| 7 | Launch readiness | Custom domain, analytics, privacy policy, terms, contributor license, sitemap, OG images, performance audit | — |
+Each row is one Spec Kit feature (`specs/NNN-name/`). Order matters: each builds on the previous.
 
-## Instagram plan (no Facebook account)
+| Spec | Name | Outcome | Status |
+|------|------|---------|--------|
+| 000 | Foundation | Spec Kit, constitution, agents/skills, API research | Done (`relaunch/foundation`) |
+| 001 | Platform rebuild | Next.js/TS, design tokens, new layout system with the same identity, readable hike URLs, SEO, optimized media, mobile nav | Spec + plan done; next: tasks → build |
+| 002 | Instagram import & curation | Behold feeds (@great_hikes posts + #great_hikes) imported into the site; owner curates each post, links it to a hike, records credit/consent; "Our selection" + "From the community" pages; lightbox | Prototype on `test/instagram-feed` (2026-10-07) |
+| 003 | Hike enrichment | From a curated post's place name: geocode → coordinates; trail data (OSM/national datasets) → distance, elevation gain, difficulty, season; interactive map + elevation profile; weather; description drafted from sourced facts and approved by the owner | Planned |
+| 004 | Reviews & tips | On-site reviews/ratings and practical tips per hike; Instagram comments shown only if API access allows (Behold gives counts, not comments) | Planned |
+| 005 | Community submissions | Accounts, "Share your hike" upload with contributor license, moderation queue, contributor profiles | Planned (needs backend, e.g. Supabase) |
+| 006 | Gear (affiliates) | Gear lists per hike/season with affiliate links | Planned |
+| 007 | Launch readiness | Custom domain, analytics, privacy/terms/contributor license, performance + accessibility audit | Planned |
+
+Notes from the Instagram prototype (2026-10-07):
+- @great_hikes captions follow "Place | @photographer" → title + credit can be parsed automatically.
+- Instagram strips photo GPS/EXIF and Behold doesn't expose the post's location tag, so a hike's
+  location comes from the caption place name (geocoded) and is confirmed by the owner during
+  curation.
+- Hashtag results don't include the author; credit for #great_hikes posts must be added in curation.
+
+## Instagram plan
 
 What we know (research doc, sections 5–6):
 - Meta's official APIs need a Meta developer app, which needs a Facebook login → not available to
