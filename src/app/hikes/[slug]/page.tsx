@@ -3,9 +3,9 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 
 import FavoriteButton from "@/components/Auth/FavoriteButton";
+import BackgroundImage from "@/components/Background/BackgroundImage";
 import Breadcrumb from "@/components/Breadcrumb/Breadcrumb";
 import GlassPanel from "@/components/GlassPanel/GlassPanel";
-import Hero from "@/components/Hero/Hero";
 import HikeCard from "@/components/HikeCard/HikeCard";
 import PhotoCredit from "@/components/PhotoCredit/PhotoCredit";
 import PillButton from "@/components/PillButton/PillButton";
@@ -46,32 +46,32 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
 
   return (
     <>
+      {/* Second-level pages keep the original fixed photo background (owner decision 2026-10-07). */}
+      <BackgroundImage src={hike.photo.src} priority />
       <article className={styles.article}>
-        <Hero image={hike.photo.src}>
-          <div className={styles.heroInner}>
-            <Breadcrumb
-              items={[
-                { label: "Home", href: "/" },
-                { label: hike.continent, href: `/explore/${continentKey(hike.continent)}` },
-                { label: hike.title },
-              ]}
-            />
-            <header className={styles.hero}>
-              <p className={styles.location}>
-                {hike.continent} <span aria-hidden="true">|</span> {hike.country}
-              </p>
-              <h1 className={styles.title}>{hike.title}</h1>
-              <p className={styles.teaser}>{hike.description}</p>
-              <div className={styles.heroActions}>
-                <ul className={styles.tags} aria-label="Hike facts">
-                  <li>{hike.biome}</li>
-                </ul>
-                <FavoriteButton slug={hike.slug} title={hike.title} variant="pill" />
-              </div>
-            </header>
-            <PhotoCredit photo={hike.photo} />
-          </div>
-        </Hero>
+        <div className={styles.heroInner}>
+          <Breadcrumb
+            items={[
+              { label: "Home", href: "/" },
+              { label: hike.continent, href: `/explore/${continentKey(hike.continent)}` },
+              { label: hike.title },
+            ]}
+          />
+          <header className={styles.hero}>
+            <p className={styles.location}>
+              {hike.continent} <span aria-hidden="true">|</span> {hike.country}
+            </p>
+            <h1 className={styles.title}>{hike.title}</h1>
+            <p className={styles.teaser}>{hike.description}</p>
+            <div className={styles.heroActions}>
+              <ul className={styles.tags} aria-label="Hike facts">
+                <li>{hike.biome}</li>
+              </ul>
+              <FavoriteButton slug={hike.slug} title={hike.title} variant="pill" />
+            </div>
+          </header>
+          <PhotoCredit photo={hike.photo} />
+        </div>
 
         <div className={styles.grid}>
           <GlassPanel tone="strong" className={styles.main}>
