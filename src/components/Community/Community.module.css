@@ -1,0 +1,239 @@
+.community {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-4);
+}
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gh-space-3);
+}
+
+.stars {
+  display: inline-flex;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.on {
+  color: #ffd166;
+}
+
+.off {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.reviews {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-3);
+}
+
+.review {
+  padding: var(--gh-space-4);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-sm);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.review p {
+  margin-top: var(--gh-space-2);
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gh-space-1) var(--gh-space-3);
+  font-size: var(--gh-text-sm);
+  color: var(--gh-text-muted);
+}
+
+.meta strong {
+  color: var(--gh-text);
+}
+
+.actions {
+  display: inline-flex;
+  gap: var(--gh-space-2);
+  margin-left: auto;
+}
+
+.actions button {
+  min-height: 32px;
+  padding: 0 var(--gh-space-2);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-pill);
+  background: none;
+  color: var(--gh-text);
+  font: inherit;
+  font-size: var(--gh-text-sm);
+  cursor: pointer;
+}
+
+.hiddenTag {
+  padding: 2px var(--gh-space-2);
+  border-radius: var(--gh-radius-pill);
+  background: rgba(255, 92, 92, 0.25);
+  font-size: var(--gh-text-sm);
+}
+
+.subTitle {
+  font-size: var(--gh-text-lg);
+  margin-top: var(--gh-space-3);
+}
+
+.tips {
+  display: grid;
+  gap: var(--gh-space-3);
+  margin: 0;
+}
+
+.tips dt {
+  font-weight: 600;
+}
+
+.tips dd {
+  margin: var(--gh-space-1) 0 0;
+  line-height: 1.6;
+}
+
+.by {
+  color: var(--gh-text-muted);
+  font-size: var(--gh-text-sm);
+}
+
+.note {
+  color: var(--gh-text-muted);
+}
+
+.note a {
+  color: var(--gh-text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gh-space-3);
+}
+
+.rating {
+  display: flex;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.rating legend {
+  margin-bottom: var(--gh-space-1);
+  font-size: var(--gh-text-sm);
+  color: var(--gh-text-muted);
+}
+
+.rating label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.rating input {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  cursor: pointer;
+}
+
+.rating label:focus-within {
+  outline: 3px solid var(--gh-focus);
+  outline-offset: 1px;
+  border-radius: 8px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  font-size: var(--gh-text-sm);
+  color: var(--gh-text-muted);
+}
+
+.field input,
+.field select,
+.field textarea {
+  min-height: 44px;
+  padding: var(--gh-space-2) var(--gh-space-3);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-sm);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--gh-text);
+  font: inherit;
+  font-size: 1rem;
+  color-scheme: dark;
+}
+
+.field select option {
+  background: #1b1b1b;
+}
+
+.field input:focus-visible,
+.field select:focus-visible,
+.field textarea:focus-visible,
+.actions button:focus-visible {
+  outline: 3px solid var(--gh-focus);
+  outline-offset: 2px;
+}
+
+.tipRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gh-space-3);
+  width: 100%;
+}
+
+.tipRow .field:first-child {
+  width: auto;
+  min-width: 160px;
+}
+
+.grow {
+  flex: 1;
+  min-width: 200px;
+}
+
+.check {
+  display: flex;
+  gap: var(--gh-space-2);
+  align-items: flex-start;
+  font-size: var(--gh-text-sm);
+}
+
+.check input {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+}
+
+.check a {
+  text-decoration: underline;
+}
+
+.error {
+  color: #ffb3ba;
+}

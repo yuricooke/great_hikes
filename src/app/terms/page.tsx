@@ -41,6 +41,14 @@ export default function TermsPage() {
         and we&apos;ll review and remove it promptly.
       </p>
 
+      <h2>Reviews and tips</h2>
+      <p>
+        When you post a review or tip, you keep ownership of it and give Great Hikes permission to
+        show it on the site with your display name. Be honest and helpful: no ads, personal attacks
+        or other people&apos;s private information. We may hide posts that break these rules. You can
+        delete your posts at any time.
+      </p>
+
       <h2>Your account</h2>
       <p>
         Keep access to your email secure — sign-in links are sent there. We may suspend accounts that

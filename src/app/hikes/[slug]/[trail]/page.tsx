@@ -12,7 +12,9 @@ import TrailList from "@/components/Trail/TrailList";
 import TrailMap from "@/components/Trail/TrailMap";
 import { pickAd } from "@/lib/ads";
 import { continentKey, hikeBySlug, hikePath } from "@/lib/hikes";
+import { communityFor } from "@/lib/community";
 import { featuredPosts } from "@/lib/instagram";
+import Community from "@/components/Community/Community";
 import { allTrails, trailBySlug, trailGeo, trailPath, trailsFor } from "@/lib/trails";
 import { forecast } from "@/lib/weather";
 import styles from "../hike.module.css";
@@ -62,6 +64,7 @@ export default async function TrailPage({ params }: { params: Promise<Params> })
     trail.instagram.length ? featuredPosts() : Promise.resolve([]),
   ]);
   const features = posts.filter((p) => trail.instagram.includes(p.id));
+  const community = await communityFor({ hike: place.slug, trail: trail.slug });
   const others = trailsFor(place).filter((o) => o.slug !== trail.slug);
   const othersKm = Object.fromEntries(
     await Promise.all(others.map(async (o) => [o.slug, (await trailGeo(o))?.lengthKm ?? 0] as const)),
@@ -131,7 +134,7 @@ export default async function TrailPage({ params }: { params: Promise<Params> })
                 </div>
                 {d.tips.length > 0 && (
                   <div>
-                    <dt>Tips from hikers</dt>
+                    <dt>Good to know</dt>
                     <dd>
                       <ul className={styles.tips}>
                         {d.tips.map((tip) => (
@@ -142,6 +145,18 @@ export default async function TrailPage({ params }: { params: Promise<Params> })
                   </div>
                 )}
               </dl>
+            </section>
+
+            <section aria-labelledby="community">
+              <h2 id="community" className={styles.sectionTitle}>
+                Reviews &amp; tips
+              </h2>
+              <Community
+                target={{ hike: place.slug, trail: trail.slug }}
+                title={trail.name}
+                initialReviews={community.reviews}
+                initialTips={community.tips}
+              />
             </section>
 
             {features.length > 0 && (
@@ -197,7 +212,7 @@ export default async function TrailPage({ params }: { params: Promise<Params> })
                 <h2 id="more-trails" className={styles.sectionTitle}>
                   More trails in {place.title}
                 </h2>
-                <TrailList trails={others} measuredKm={othersKm} />
+                <TrailList trails={others} measuredKm={othersKm} compact />
               </GlassPanel>
             )}
           </aside>
