@@ -3,8 +3,7 @@ import React from "react";
 import FeedGallery from "../components/FeedGallery";
 
 // Behold JSON feed of the @great_hikes account's own posts ("User" content type).
-// TODO: paste the feed URL once it's created in Behold.
-const FEED_URL = "";
+const FEED_URL = "https://feeds.behold.so/z6suMCUuC1CDmLXvx9RX";
 
 export default function OurSelection() {
   return (

@@ -17,6 +17,30 @@ export function cleanCaption(caption = "") {
     .trim();
 }
 
+// Featured posts on @great_hikes follow "Place | @photographer" on the first line.
+// Split that into a title and a photographer credit; the rest stays as caption.
+export function parsePost(post, ownUsername) {
+  const caption = cleanCaption(post.prunedCaption || post.caption);
+  const [firstLine = "", ...rest] = caption.split("\n");
+  const handle = (post.mentions || []).find((m) => m !== ownUsername) || null;
+
+  let title = null;
+  let body = caption;
+  if (firstLine.includes("|")) {
+    title = firstLine
+      .split("|")
+      .map((part) => part.replace(/@[\w.]+/g, "").replace(/[\s.]+$/, "").trim())
+      .filter(Boolean)
+      .join(" · ") || null;
+    body = rest.join("\n");
+  }
+  body = body
+    .replace(new RegExp(`^.*Use @${ownUsername}.*$`, "gim"), "")
+    .trim();
+
+  return { title, body, handle };
+}
+
 function formatDate(timestamp) {
   return new Date(timestamp).toLocaleDateString("en", {
     year: "numeric",
@@ -29,11 +53,37 @@ function imageUrl(post, size) {
   return post?.sizes?.[size]?.mediaUrl || post?.mediaUrl || "";
 }
 
+function PostText({ post, ownUsername, clamp = false }) {
+  const { title, body, handle } = parsePost(post, ownUsername);
+  return (
+    <>
+      {title && <h2 className="FeedGallery_Title">{title}</h2>}
+      {handle && (
+        <p className="FeedGallery_Credit">
+          Photo:{" "}
+          <a
+            href={`https://www.instagram.com/${handle}/`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @{handle}
+          </a>
+        </p>
+      )}
+      {body && (
+        <p className={clamp ? "FeedGallery_Caption" : "FeedGallery_ModalCaption"}>{body}</p>
+      )}
+      {!title && !body && <p className="FeedGallery_Caption">No caption</p>}
+    </>
+  );
+}
+
 export default function FeedGallery({ feedUrl, title, subtitle }) {
   const [feed, setFeed] = useState(null);
   const [error, setError] = useState(null);
   const [selected, setSelected] = useState(null);
   const [zoomed, setZoomed] = useState(null);
+  const [slideIndex, setSlideIndex] = useState(0);
   const dialogRef = useRef(null);
 
   useEffect(() => {
@@ -53,12 +103,15 @@ export default function FeedGallery({ feedUrl, title, subtitle }) {
   useEffect(() => {
     const dialog = dialogRef.current;
     if (!dialog) return;
+    setSlideIndex(0);
     if (zoomed && !dialog.open) dialog.showModal();
     if (!zoomed && dialog.open) dialog.close();
   }, [zoomed]);
 
   const posts = feed?.posts || [];
   const backgroundUrl = imageUrl(selected, "full");
+  const zoomedSlides = zoomed?.children?.filter((c) => c.mediaType === "IMAGE") || [];
+  const zoomedImage = zoomedSlides[slideIndex] || zoomed;
 
   return (
     <div className="FeedGallery">
@@ -83,9 +136,7 @@ export default function FeedGallery({ feedUrl, title, subtitle }) {
 
         {selected && (
           <div className="FeedGallery_Selected">
-            <p className="FeedGallery_Caption">
-              {cleanCaption(selected.prunedCaption || selected.caption) || "No caption"}
-            </p>
+            <PostText post={selected} ownUsername={feed?.username} clamp />
             <p className="FeedGallery_Meta">
               {formatDate(selected.timestamp)}
               {selected.likeCount != null && <> · {selected.likeCount} likes</>}
@@ -154,14 +205,29 @@ export default function FeedGallery({ feedUrl, title, subtitle }) {
             >
               <span className="material-symbols-outlined" aria-hidden="true">close</span>
             </button>
-            <img
-              src={imageUrl(zoomed, "full")}
-              alt={cleanCaption(zoomed.prunedCaption).slice(0, 120) || "Instagram post"}
-            />
+            <div className="FeedGallery_ModalMedia">
+              <img
+                src={imageUrl(zoomedImage, "full")}
+                alt={parsePost(zoomed, feed?.username).title || "Instagram post"}
+              />
+              {zoomedSlides.length > 1 && (
+                <div className="FeedGallery_Slides">
+                  {zoomedSlides.map((slide, index) => (
+                    <button
+                      key={slide.id}
+                      type="button"
+                      className={index === slideIndex ? "is-selected" : ""}
+                      onClick={() => setSlideIndex(index)}
+                      aria-label={`Show image ${index + 1} of ${zoomedSlides.length}`}
+                    >
+                      <img src={imageUrl(slide, "small")} alt="" />
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
             <div className="FeedGallery_ModalInfo">
-              <p className="FeedGallery_ModalCaption">
-                {cleanCaption(zoomed.prunedCaption || zoomed.caption)}
-              </p>
+              <PostText post={zoomed} ownUsername={feed?.username} />
               <p className="FeedGallery_Meta">
                 {formatDate(zoomed.timestamp)}
                 {zoomed.likeCount != null && <> · {zoomed.likeCount} likes</>}
