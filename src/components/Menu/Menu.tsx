@@ -22,6 +22,7 @@ const PRIMARY: Item[] = [
 ];
 
 const MORE: Item[] = [
+  { label: "Share your hike", href: "/share", icon: "add" },
   { label: "Community", href: "/community", icon: "groups" },
   { label: "Our feed", href: "/our-feed", icon: "photoLibrary" },
   { label: "Instagram", href: INSTAGRAM_URL, icon: "photoCamera", external: true },

@@ -1,0 +1,125 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gh-space-4);
+}
+
+.drop {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 220px;
+  border: 2px dashed rgba(255, 255, 255, 0.35);
+  border-radius: var(--gh-radius-card);
+  background: rgba(255, 255, 255, 0.04);
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  padding: var(--gh-space-4);
+}
+
+.drop:focus-within {
+  outline: 3px solid var(--gh-focus);
+  outline-offset: 2px;
+}
+
+.drop input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.preview {
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: contain;
+  border-radius: var(--gh-radius-sm);
+}
+
+.row {
+  display: grid;
+  gap: var(--gh-space-3);
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  font-size: var(--gh-text-sm);
+  color: var(--gh-text-muted);
+}
+
+.field input,
+.field select,
+.field textarea {
+  min-height: 48px;
+  padding: var(--gh-space-2) var(--gh-space-3);
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-sm);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--gh-text);
+  font: inherit;
+  font-size: 1rem;
+}
+
+.field select option {
+  background: #1b1b1b;
+}
+
+.field input:focus-visible,
+.field select:focus-visible,
+.field textarea:focus-visible {
+  outline: 3px solid var(--gh-focus);
+  outline-offset: 2px;
+}
+
+.check {
+  display: flex;
+  gap: var(--gh-space-3);
+  align-items: flex-start;
+  font-size: var(--gh-text-sm);
+  line-height: 1.5;
+}
+
+.check input {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  flex: none;
+}
+
+.check a {
+  text-decoration: underline;
+}
+
+.error {
+  color: #ffb3ba;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gh-space-3);
+  color: var(--gh-text-muted);
+}
+
+.done {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gh-space-3);
+}

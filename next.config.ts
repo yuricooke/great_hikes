@@ -11,6 +11,8 @@ const nextConfig: NextConfig = {
       // Licensed stock photos chosen by the owner (credited per each service's guidelines).
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "images.pexels.com" },
+      // Approved community photos (Supabase Storage public bucket).
+      { protocol: "https", hostname: "*.supabase.co", pathname: "/storage/v1/object/public/community/**" },
     ],
   },
 };

@@ -16,6 +16,7 @@ const PAGES = [
   "/login",
   "/about",
   "/map",
+  "/share",
   "/contact",
   "/privacy",
   `/hikes/${hikes[0].slug}`,
@@ -45,7 +46,7 @@ test("V7 menu: every section reachable once; card holds what the bar doesn't; Es
   await toggle.click();
   await expect(toggle).toHaveAttribute("aria-expanded", "true");
   const nav = page.getByRole("navigation", { name: "Main" });
-  for (const name of ["Community", "Our feed"]) {
+  for (const name of ["Share your hike", "Community", "Our feed"]) {
     await expect(nav.getByRole("link", { name, exact: true })).toBeVisible();
   }
   for (const name of ["Hikes", "Map", "Search", "Journal", "Shop"]) {

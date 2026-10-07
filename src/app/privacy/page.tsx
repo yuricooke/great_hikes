@@ -35,6 +35,11 @@ export default function PrivacyPage() {
           date and the hike. You can delete them at any time.
         </li>
         <li>
+          <strong>Photos you share</strong>: the photo (resized, with location data removed), the
+          credit name, optional Instagram handle and story. Approved photos are public with your
+          credit; rejected photos are deleted.
+        </li>
+        <li>
           <strong>Messages you send us</strong>: your name, email and message — to reply to you. We
           delete messages within 12 months.
         </li>
