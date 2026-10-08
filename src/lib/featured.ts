@@ -47,3 +47,16 @@ export function featuredHike(date = new Date()): Hike {
   const cycle = Math.floor(day / candidates.length);
   return shuffled(candidates, cycle)[day % candidates.length];
 }
+
+/**
+ * Today's journal feature on the landing page (owner 2026-10-08: hikes already fill the rails;
+ * guides had no strong call to action). Same daily rotation, over published guides only.
+ */
+export async function featuredArticle(date = new Date()) {
+  const { articles } = await import("./journal");
+  const guides = articles("guide").filter((a) => a.status === "published");
+  if (guides.length === 0) return null;
+  const day = Math.floor(date.getTime() / DAY_MS);
+  const cycle = Math.floor(day / guides.length);
+  return shuffled(guides, cycle + 7)[day % guides.length];
+}

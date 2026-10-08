@@ -77,7 +77,7 @@ test("V8 keyboard users: skip link first, then visible focus on controls", async
   await page.goto("/");
   await page.keyboard.press("Tab");
   await expect(page.getByRole("link", { name: "Skip to content" })).toBeFocused();
-  const cta = page.getByRole("link", { name: "Let's hike!" });
+  const cta = page.getByRole("link", { name: "Read the guide" });
   await cta.focus();
   await expect(cta).toBeFocused();
   expect(await cta.evaluate((el) => getComputedStyle(el).outlineStyle)).not.toBe("none");

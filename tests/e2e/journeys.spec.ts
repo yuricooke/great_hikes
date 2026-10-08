@@ -3,15 +3,14 @@ import { expect, test } from "@playwright/test";
 import hikes from "../../content/hikes.json" with { type: "json" };
 import topics from "../../content/topics.json" with { type: "json" };
 
-test("landing: today's feature hero with date leads to its hike", async ({ page }) => {
+test("landing: today's read is a dated journal guide that opens the article", async ({ page }) => {
   await page.goto("/");
-  const card = page.getByRole("region", { name: /./ }).filter({ has: page.locator("#featured-title") }).first();
-  await expect(page.getByText("Today's feature")).toBeVisible();
+  await expect(page.getByText("Today's read")).toBeVisible();
   await expect(page.locator("time").first()).toHaveText(/\d{4}/);
   const title = (await page.locator("#featured-title").textContent())!;
-  await page.getByRole("link", { name: "Let's hike!" }).click();
+  await page.getByRole("link", { name: "Read the guide" }).click();
+  await expect(page).toHaveURL(/\/journal\//);
   await expect(page.getByRole("heading", { level: 1 })).toHaveText(title);
-  expect(card).toBeTruthy();
 });
 
 test("landing sections appear in the requested order", async ({ page }) => {
