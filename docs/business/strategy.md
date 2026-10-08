@@ -43,6 +43,11 @@ that), a tour operator, a gear review lab.
 - Owner's design skills (identity, UX) and agents that produce sourced content cheaply.
 - Trilingual/multicultural owner (EN/PT/ES) for the relaunches.
 
+## 6b. Instagram content policy (2026-10-08)
+Only owner-posted @great_hikes features appear on the site; the #great_hikes hashtag isn't shown;
+Instagram images (low-res) go to galleries/community cards/journals, never as a hike's main photo;
+owner-first original content restarts engagement. Details: `docs/business/instagram-content-policy.md`.
+
 ## 7. Red lines (approved 2026-10-08 — constitution VII, `docs/business/red-lines.md`)
 No explicit content; never use someone's photo without permission and credit; no paid placement
 inside guides or rankings; no fake or paid reviews; no AI images presented as real; no selling

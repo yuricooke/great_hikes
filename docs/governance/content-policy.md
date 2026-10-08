@@ -40,6 +40,9 @@ A monthly **stale-content report** lists items older than their cycle (script to
 - Agents must cite sources and report dropped/unverified facts; the owner reads that report.
 
 ## 5. Photos
+- **Main (hero) photos must be high-resolution (≥ 2000 px)** — never an Instagram image; Instagram
+  features go in galleries, community cards and journals (`docs/business/instagram-content-policy.md`).
+- The #great_hikes hashtag is not shown on the site; only owner-posted @great_hikes features are.
 - Allowed: own photos; community photos with recorded consent; Unsplash/Pexels within licence;
   Wikimedia Commons with free licences (public domain, CC0, CC BY, CC BY-SA) — credited with
   licence link; NPS/US government public domain.

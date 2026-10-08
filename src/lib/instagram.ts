@@ -5,7 +5,11 @@
 export const FEEDS = {
   /** @great_hikes posts — community photos featured with "Place | @photographer" captions. */
   account: "https://feeds.behold.so/z6suMCUuC1CDmLXvx9RX",
-  /** Public posts tagged #great_hikes (Behold advanced source). */
+  /**
+   * Public posts tagged #great_hikes (Behold advanced source). Not shown on the site (owner policy
+   * 2026-10-08, docs/business/instagram-content-policy.md) — kept only to help the owner discover
+   * photos to feature on @great_hikes.
+   */
   hashtag: "https://feeds.behold.so/55drRZJL76ax5gl1tw7r",
 } as const;
 
@@ -98,9 +102,4 @@ export function toPost(raw: FeedPost, ownUsername = "great_hikes"): Post {
 export async function featuredPosts(): Promise<Post[]> {
   const feed = await getFeed(FEEDS.account);
   return feed.posts.map((p) => toPost(p, feed.username)).filter((p) => p.handle);
-}
-
-export async function communityPosts(): Promise<Post[]> {
-  const feed = await getFeed(FEEDS.hashtag);
-  return feed.posts.map((p) => toPost(p, feed.username));
 }

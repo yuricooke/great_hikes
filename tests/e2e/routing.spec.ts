@@ -36,7 +36,7 @@ test("V6 sitemap lists home, all hikes, every topic and every hike", async ({ re
   const xml = await (await request.get("/sitemap.xml")).text();
   const locs = xml.match(/<loc>/g) ?? [];
   expect(locs.length).toBeGreaterThanOrEqual(hikes.length + topics.topics.length + 2);
-  for (const path of ["/search", "/journal", "/shop", "/our-feed", "/community"]) expect(xml).toContain(path);
+  for (const path of ["/search", "/journal", "/shop", "/our-feed"]) expect(xml).toContain(path);
 });
 
 test("old continent filter links open All hikes filtered (no redirect)", async ({ page }) => {

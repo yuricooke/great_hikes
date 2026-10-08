@@ -98,7 +98,7 @@ test("footer links to every section", async ({ page }) => {
   await page.goto("/");
   const footer = page.getByRole("contentinfo");
   for (const name of [
-    "All hikes", "Our top 10", "Map", "Search", "Journal", "#great_hikes photos", "Our feed", "Gear we trust",
+    "All hikes", "Our top 10", "Map", "Search", "Journal", "Our feed", "Gear we trust",
     "About", "Contact", "Affiliate disclosure", "Privacy", "Terms",
   ]) {
     await expect(footer.getByRole("link", { name, exact: true })).toBeVisible();

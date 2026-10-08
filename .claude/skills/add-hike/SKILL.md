@@ -15,9 +15,11 @@ before adding.
    writes the rest to `content/hike-candidates.json` (post, `@photographer`, place, geocode).
    Posts without an @photographer are never used (owner rule).
 2. For each candidate, research the place (step "Facts" below) and add a hike with
-   `"status": "draft"`, `"instagram": ["<postId>"]`, and the post image as the photo:
-   `photo.src` = the Behold image URL, `author` = `@handle`, `sourceUrl` = the post permalink,
-   `license` = "Featured on @great_hikes with the photographer's permission".
+   `"status": "draft"` and `"instagram": ["<postId>"]` (the post shows, credited, in the hike's
+   "Featured on @great_hikes" section). **Never use the Instagram image as the main photo** — it
+   is low-res (owner policy, `docs/business/instagram-content-policy.md`): find a high-res main
+   photo (≥ 2000 px; Unsplash, Wikimedia Commons free licence, NPS public domain, or the
+   photographer's full-size original sent with permission).
 3. Remove the candidate from `hike-candidates.json`.
 4. Drafts appear in previews with a "Draft — awaiting approval" badge and are hidden in
    production. The owner approves → set `"status": "published"`.
