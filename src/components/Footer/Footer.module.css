@@ -46,7 +46,7 @@
 }
 
 .social:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--gh-fill-2);
 }
 
 .heading {
@@ -100,4 +100,9 @@
   .footer {
     padding: var(--gh-space-8) var(--gh-space-7) var(--gh-space-5);
   }
+}
+
+/* Light theme: the white logo turns dark (photo areas keep it white). */
+:global(:root[data-theme="light"]) .logo img {
+  filter: invert(1);
 }

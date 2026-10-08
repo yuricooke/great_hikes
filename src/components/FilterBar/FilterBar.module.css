@@ -44,7 +44,7 @@
 }
 
 .field select option {
-  background: #1b1b1b;
+  background: var(--gh-option-bg);
 }
 
 .field select:focus-visible,
@@ -72,8 +72,8 @@
   padding: 0 var(--gh-space-3) 0 var(--gh-space-4);
   border: 0;
   border-radius: var(--gh-radius-pill);
-  background: var(--gh-text);
-  color: #000;
+  background: var(--gh-inverse-bg);
+  color: var(--gh-inverse-text);
   font: inherit;
   font-weight: 600;
   cursor: pointer;

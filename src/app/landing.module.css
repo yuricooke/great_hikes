@@ -52,7 +52,7 @@
   gap: var(--gh-space-2) var(--gh-space-4);
   width: 100%;
   padding-bottom: var(--gh-space-3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  border-bottom: var(--gh-glass-border);
 }
 
 .eyebrow {

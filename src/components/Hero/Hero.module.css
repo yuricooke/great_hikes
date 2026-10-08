@@ -57,7 +57,7 @@
   inset: 0;
   z-index: -1;
   background:
-    linear-gradient(180deg, transparent 84%, #000 100%),
+    linear-gradient(180deg, transparent 84%, var(--gh-hero-fade) 100%),
     var(--gh-photo-text-shade),
     var(--gh-photo-vignette);
 }

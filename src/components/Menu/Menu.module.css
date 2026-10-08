@@ -88,7 +88,7 @@
 
 .barLink:hover,
 .barLink[aria-current="page"] {
-  background: rgba(255, 255, 255, 0.14);
+  background: var(--gh-fill-3);
 }
 
 .iconButton,
@@ -109,7 +109,7 @@
 
 .iconButton:hover,
 .iconButton[aria-current="page"] {
-  background: rgba(255, 255, 255, 0.14);
+  background: var(--gh-fill-3);
 }
 
 /* Phones and tablets: only the outer bar carries colour; the Menu button is transparent. */
@@ -121,7 +121,7 @@
 
 .menuButton:hover,
 .menuButton[aria-expanded="true"] {
-  background: rgba(255, 255, 255, 0.14);
+  background: var(--gh-fill-3);
 }
 
 @media (min-width: 992px) {
@@ -155,10 +155,10 @@
   padding: var(--gh-space-5);
   border: var(--gh-glass-border);
   border-radius: 28px;
-  background: rgba(12, 12, 12, 0.82);
+  background: var(--gh-menu-card-bg);
   backdrop-filter: var(--gh-blur-lg);
   -webkit-backdrop-filter: var(--gh-blur-lg);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  box-shadow: var(--gh-menu-shadow);
   max-height: calc(100dvh - var(--gh-header-height) - 3 * var(--gh-space-4));
   padding: var(--gh-space-3);
   overflow-y: auto;
@@ -183,7 +183,7 @@
 .cardSecondary {
   margin-top: var(--gh-space-3);
   padding-top: var(--gh-space-3);
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: var(--gh-glass-border-subtle);
 }
 
 .cardLink {
@@ -200,7 +200,7 @@
 
 .cardLink:hover,
 .cardLink[aria-current="page"] {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--gh-fill-2);
 }
 
 @keyframes drop {
@@ -272,4 +272,9 @@
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
   }
+}
+
+/* Light theme: the white logo turns dark (photo areas keep it white). */
+:global(:root[data-theme="light"]) .logo img {
+  filter: invert(1);
 }

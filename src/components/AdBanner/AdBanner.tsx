@@ -9,7 +9,7 @@ export default function AdBanner({ ad }: { ad: Ad | null }) {
   if (!ad) return null;
   const external = ad.href.startsWith("http") || ad.href.startsWith("/go/");
   return (
-    <aside className={styles.banner} aria-label={`Sponsored: ${ad.title}`} data-ad-id={ad.id}>
+    <aside className={styles.banner} aria-label={`Sponsored: ${ad.title}`} data-ad-id={ad.id} data-surface="photo">
       <Image src={ad.image} alt="" fill sizes="100vw" quality={60} className={styles.image} />
       <div className={styles.content}>
         <p className={styles.label}>

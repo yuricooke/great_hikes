@@ -32,7 +32,7 @@ export default function Hero({
   className,
 }: Props) {
   return (
-    <section className={[styles.hero, styles[size], className].filter(Boolean).join(" ")}>
+    <section className={[styles.hero, styles[size], className].filter(Boolean).join(" ")} data-surface="photo">
       <ParallaxLayer parallax={parallax}>
         <Image src={image} alt="" fill priority={priority} sizes="100vw" quality={70} className={styles.image} />
         {video && <HeroVideo src={video} />}

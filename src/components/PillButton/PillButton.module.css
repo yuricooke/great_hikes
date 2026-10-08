@@ -47,11 +47,11 @@
 }
 
 .outline {
-  background: rgba(0, 0, 0, 0.2);
-  border-color: rgba(255, 255, 255, 0.7);
+  background: var(--gh-fill-1);
+  border-color: var(--gh-line);
   color: var(--gh-text);
 }
 
 .outline:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--gh-fill-3);
 }

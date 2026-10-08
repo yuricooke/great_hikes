@@ -6,6 +6,7 @@ import AuthProvider from "@/components/Auth/AuthProvider";
 import Footer from "@/components/Footer/Footer";
 import Menu from "@/components/Menu/Menu";
 import { AUTH_MODE, GOOGLE_AUTH, TEST_LOGIN } from "@/lib/flags";
+import { THEME_SCRIPT } from "@/lib/theme";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "@/styles/globals.css";
 
@@ -33,7 +34,11 @@ export default function RootLayout({
   modal: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${exo2.variable} ${mukta.variable}`}>
+    <html lang="en" data-theme="dark" className={`${exo2.variable} ${mukta.variable}`} suppressHydrationWarning>
+      <head>
+        {/* Apply the saved theme before first paint (dark is the default). */}
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body>
         <AuthProvider mode={AUTH_MODE} testLogin={TEST_LOGIN} google={GOOGLE_AUTH}>
           <a href="#main" className="skip-link">

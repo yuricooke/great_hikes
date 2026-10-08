@@ -131,3 +131,22 @@ test("contact form validates before sending", async ({ page }) => {
   await expect(page.locator("form").getByRole("alert")).toContainText("a little short");
   await expect(page.getByLabel("Name")).toHaveValue("Test Hiker");
 });
+
+test("appearance: dark by default; the menu switch turns on light mode and remembers it", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
+  await page.getByRole("button", { name: "Menu", exact: true }).click();
+  await page.getByRole("radiogroup", { name: "Appearance" }).getByRole("radio", { name: "Light" }).click();
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+  await page.reload();
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+});
+
+test("light theme landing has no serious accessibility issues", async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem("gh-theme", "light"));
+  await page.goto("/");
+  await page.waitForLoadState("networkidle");
+  const results = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa"]).analyze();
+  const serious = results.violations.filter((v) => v.impact === "serious" || v.impact === "critical");
+  expect(serious.map((v) => v.id)).toEqual([]);
+});

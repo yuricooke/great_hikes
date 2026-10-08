@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 
 import { INSTAGRAM_URL, SITE_NAME } from "@/lib/site";
 import { useAuth } from "../Auth/AuthProvider";
+import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
 import Icon, { type IconName } from "../Icon";
 import styles from "./Menu.module.css";
 
@@ -183,6 +184,7 @@ export default function Menu() {
             {PRIMARY.filter((item) => item.href !== "/shop").map(cardLink)}
           </ul>
           <ul className={`${styles.cardList} ${styles.cardSecondary}`}>{MORE.map(cardLink)}</ul>
+          <ThemeSwitch />
         </nav>
       </div>
     </header>
