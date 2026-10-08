@@ -4435,7 +4435,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jordan_Pond,_the_Bubbles_(a8878ba1-b5e4-4db1-a896-94b01ff0f093).jpg",
       "license": "Public domain (NPS)"
     },
-    "status": "draft",
+    "status": "published",
     "location": {
       "lat": 44.331539,
       "lng": -68.185149
@@ -4573,7 +4573,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delicate_Arch_Sunset_(8406472644).jpg",
       "license": "Public domain (NPS photo)"
     },
-    "status": "draft",
+    "status": "published",
     "location": {
       "lat": 38.73569,
       "lng": -109.52044
@@ -4737,7 +4737,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queens_Garden_Trail,_Bryce_Canyon_(21221626999).jpg",
       "license": "CC BY 2.0"
     },
-    "status": "draft",
+    "status": "published",
     "location": {
       "lat": 37.6227,
       "lng": -112.16613
@@ -4897,7 +4897,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Route_Napol%C3%A9on_pr%C3%A8s_du_refuge_Orisson.jpg",
       "license": "CC BY-SA 3.0"
     },
-    "status": "draft",
+    "status": "published",
     "location": {
       "lat": 43.163,
       "lng": -1.2381
@@ -5049,7 +5049,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alum_Cave_Trail_1.jpg",
       "license": "CC BY 4.0"
     },
-    "status": "draft",
+    "status": "published",
     "location": {
       "lat": 35.62955,
       "lng": -83.45154
