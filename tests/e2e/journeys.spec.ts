@@ -160,15 +160,15 @@ test("sign in with the test account, save a hike, see it in favorites", async ({
   const dialog = page.getByRole("dialog", { name: "Sign in" });
   await expect(dialog).toBeVisible();
   await dialog.getByLabel("Email").fill("not-an-email");
-  await dialog.getByRole("button", { name: "Continue with email" }).click();
+  await dialog.getByRole("button", { name: "Sign in", exact: true }).click();
   await expect(dialog.getByRole("alert")).toContainText("valid email");
   if (!real) {
     await dialog.getByLabel("Email").fill("someone@example.com");
-    await dialog.getByRole("button", { name: "Continue with email" }).click();
+    await dialog.getByRole("button", { name: "Sign in", exact: true }).click();
     await expect(dialog.getByRole("alert")).toContainText("test accounts");
   }
   await dialog.getByLabel("Email").fill(email);
-  await dialog.getByRole("button", { name: "Continue with email" }).click();
+  await dialog.getByRole("button", { name: "Sign in", exact: true }).click();
   await expect(dialog).toBeHidden();
 
   const save = page.getByRole("button", { name: `Save ${hikes[0].title} to favorites` }).first();
@@ -180,6 +180,20 @@ test("sign in with the test account, save a hike, see it in favorites", async ({
   await page.goto("/favorites");
   await expect(page.getByRole("list", { name: "Hikes" }).getByRole("listitem")).toHaveCount(1);
   await expect(page.getByText(hikes[0].title).first()).toBeVisible();
+});
+
+test("sign-in form switches to create account and forgot password", async ({ page }) => {
+  await page.goto("/login");
+  await page.getByRole("button", { name: "Create an account" }).click();
+  await expect(page.getByRole("heading", { name: "Create your account" })).toBeVisible();
+  await page.getByLabel("Your name").fill("New Hiker");
+  await page.getByLabel("Email").fill("new.hiker@example.com");
+  await page.getByLabel("Password", { exact: true }).fill("short");
+  await page.getByRole("button", { name: "Create account" }).click();
+  await expect(page.locator("form").getByRole("alert")).toContainText("10 characters");
+  await page.getByRole("button", { name: "Sign in", exact: true }).first().click();
+  await page.getByRole("button", { name: "Forgot password?" }).click();
+  await expect(page.getByRole("heading", { name: "Reset your password" })).toBeVisible();
 });
 
 test("direct visit to /login shows the full sign-in page", async ({ page }) => {

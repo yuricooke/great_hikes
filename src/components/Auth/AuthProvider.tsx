@@ -25,7 +25,13 @@ type AuthState = {
   testLogin: boolean;
   user: User | null;
   ready: boolean;
-  signIn: (email: string, next?: string) => Promise<SignInResult>;
+  /** Email + password. Seeded test accounts sign in without a password in dev/previews. */
+  signIn: (email: string, password: string) => Promise<SignInResult>;
+  /** Create an account; usually needs the email confirmed before the first sign-in. */
+  signUp: (email: string, password: string, name: string, next?: string) => Promise<SignInResult>;
+  /** Send a reset link that lands on /account/password. */
+  resetPassword: (email: string) => Promise<SignInResult>;
+  updatePassword: (password: string) => Promise<SignInResult>;
   signInWithGoogle: (next?: string) => Promise<SignInResult>;
   signOut: () => Promise<void>;
   favorites: string[];
@@ -55,6 +61,13 @@ function write(key: string, value: unknown) {
   } catch {
     /* storage unavailable (private mode) — state still works for this visit */
   }
+}
+
+/** Minimum password rules (Supabase enforces its own as well). */
+export function passwordProblem(password: string): string | null {
+  if (password.length < 10) return "Use at least 10 characters.";
+  if (!/[A-Za-z]/.test(password) || !/[0-9]/.test(password)) return "Mix letters and numbers.";
+  return null;
 }
 
 function callbackUrl(next = "/favorites") {
@@ -135,7 +148,7 @@ export default function AuthProvider({
   }, [mode, supabase]);
 
   const signIn = useCallback(
-    async (rawEmail: string, next?: string): Promise<SignInResult> => {
+    async (rawEmail: string, password: string): Promise<SignInResult> => {
       const email = rawEmail.trim().toLowerCase();
       if (mode === "off") return { ok: false, error: "Sign-in isn't available yet." };
       if (!EMAIL_RE.test(email)) return { ok: false, error: "Enter a valid email address." };
@@ -167,19 +180,71 @@ export default function AuthProvider({
         return { ok: true };
       }
 
-      const { error } = await supabase.auth.signInWithOtp({
-        email,
-        options: { emailRedirectTo: callbackUrl(next) },
-      });
+      if (!password) return { ok: false, error: "Enter your password." };
+      const { error } = await supabase.auth.signInWithPassword({ email, password });
       if (error) {
-        return {
-          ok: false,
-          error: error.status === 429 ? "Too many attempts — please wait a minute and try again." : "We couldn't send the link. Please try again.",
-        };
+        if (error.code === "email_not_confirmed") {
+          return { ok: false, error: "Please confirm your email first — check your inbox for our link." };
+        }
+        if (error.status === 429) return { ok: false, error: "Too many attempts — please wait a minute and try again." };
+        return { ok: false, error: "Email or password is incorrect." };
       }
-      return { ok: true, emailSent: true };
+      return { ok: true };
     },
     [mode, supabase, testLogin],
+  );
+
+  const signUp = useCallback(
+    async (rawEmail: string, password: string, name: string, next?: string): Promise<SignInResult> => {
+      const email = rawEmail.trim().toLowerCase();
+      if (!supabase) return { ok: false, error: "Accounts aren't available right now." };
+      if (!EMAIL_RE.test(email)) return { ok: false, error: "Enter a valid email address." };
+      if (name.trim().length < 2) return { ok: false, error: "Tell us your name (it's shown on your reviews)." };
+      const weak = passwordProblem(password);
+      if (weak) return { ok: false, error: weak };
+      const { data, error } = await supabase.auth.signUp({
+        email,
+        password,
+        options: { emailRedirectTo: callbackUrl(next), data: { name: name.trim() } },
+      });
+      if (error) {
+        if (error.code === "user_already_exists") return { ok: false, error: "There's already an account with this email — sign in instead." };
+        if (error.code === "weak_password") return { ok: false, error: "Choose a stronger password." };
+        if (error.status === 429) return { ok: false, error: "Too many attempts — please wait a minute and try again." };
+        return { ok: false, error: "We couldn't create your account. Please try again." };
+      }
+      // With email confirmation on, there's no session until the link is clicked.
+      return data.session ? { ok: true } : { ok: true, emailSent: true };
+    },
+    [supabase],
+  );
+
+  const resetPassword = useCallback(
+    async (rawEmail: string): Promise<SignInResult> => {
+      const email = rawEmail.trim().toLowerCase();
+      if (!supabase) return { ok: false, error: "Accounts aren't available right now." };
+      if (!EMAIL_RE.test(email)) return { ok: false, error: "Enter a valid email address." };
+      const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo: callbackUrl("/account/password") });
+      if (error?.status === 429) return { ok: false, error: "Too many attempts — please wait a minute and try again." };
+      // Same answer whether or not the account exists (don't reveal who has an account).
+      return { ok: true, emailSent: true };
+    },
+    [supabase],
+  );
+
+  const updatePassword = useCallback(
+    async (password: string): Promise<SignInResult> => {
+      if (!supabase) return { ok: false, error: "Accounts aren't available right now." };
+      const weak = passwordProblem(password);
+      if (weak) return { ok: false, error: weak };
+      const { error } = await supabase.auth.updateUser({ password });
+      if (error) {
+        if (error.code === "same_password") return { ok: false, error: "Choose a password you haven't used here before." };
+        return { ok: false, error: "Your reset link has expired — request a new one." };
+      }
+      return { ok: true };
+    },
+    [supabase],
   );
 
   const signInWithGoogle = useCallback(
@@ -232,13 +297,16 @@ export default function AuthProvider({
       user,
       ready,
       signIn,
+      signUp,
+      resetPassword,
+      updatePassword,
       signInWithGoogle,
       signOut,
       favorites,
       isFavorite: (slug) => favorites.includes(slug),
       toggleFavorite,
     }),
-    [mode, google, testLogin, user, ready, signIn, signInWithGoogle, signOut, favorites, toggleFavorite],
+    [mode, google, testLogin, user, ready, signIn, signUp, resetPassword, updatePassword, signInWithGoogle, signOut, favorites, toggleFavorite],
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
