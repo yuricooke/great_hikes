@@ -78,7 +78,7 @@ export default function Rail({
                 disabled={!canPrev}
                 aria-controls={`${id}-list`}
               >
-                <Icon name="arrowBack" size={22} />
+                <Icon name="chevronLeft" size={22} />
                 <span className="visually-hidden">Previous {title}</span>
               </button>
               <button
