@@ -1,13 +1,13 @@
 "use client";
 
-import type { Hike } from "@/lib/schema";
+import type { HikeCardData } from "@/lib/hike-utils";
 import { useAuth } from "../Auth/AuthProvider";
 import HikeGrid from "../HikeGrid/HikeGrid";
 import PillButton from "../PillButton/PillButton";
 import styles from "./FavoritesList.module.css";
 
 /** Signed-in user's saved hikes; signed-out visitors get a sign-in prompt. */
-export default function FavoritesList({ hikes }: { hikes: Hike[] }) {
+export default function FavoritesList({ hikes }: { hikes: HikeCardData[] }) {
   const { enabled, user, ready, favorites } = useAuth();
 
   if (!ready) return null;
@@ -23,7 +23,7 @@ export default function FavoritesList({ hikes }: { hikes: Hike[] }) {
     );
   }
 
-  const saved = favorites.map((s) => hikes.find((h) => h.slug === s)).filter((h): h is Hike => Boolean(h));
+  const saved = favorites.map((s) => hikes.find((h) => h.slug === s)).filter((h): h is HikeCardData => Boolean(h));
   if (saved.length === 0) {
     return (
       <div className={styles.prompt}>

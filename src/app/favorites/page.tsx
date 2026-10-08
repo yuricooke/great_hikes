@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import FavoritesList from "@/components/Favorites/FavoritesList";
 import ListingHeader from "@/components/ListingHeader/ListingHeader";
-import { allHikes } from "@/lib/hikes";
+import { allHikes, toHikeCard } from "@/lib/hikes";
 import styles from "../section.module.css";
 
 export const metadata: Metadata = {
@@ -20,7 +20,7 @@ export default function FavoritesPage() {
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Favorites" }]}
       />
       <section className={styles.section}>
-        <FavoritesList hikes={allHikes()} />
+        <FavoritesList hikes={allHikes().map(toHikeCard)} />
       </section>
     </>
   );

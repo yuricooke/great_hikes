@@ -10,6 +10,8 @@ type Props = {
   title: string;
   /** Second line, e.g. "Chile · South America" or "6 hikes". */
   subtitle?: string;
+  /** Key facts line, e.g. ["13.6 km", "4–5 hours", "Moderate"]. */
+  facts?: string[];
   /** Small pill on the photo, e.g. "#1" or "Mountains". */
   badge?: string;
   /** Show a favorite heart for this hike slug. */
@@ -30,6 +32,7 @@ export default function PhotoCard({
   image,
   title,
   subtitle,
+  facts,
   badge,
   favoriteSlug,
   external = false,
@@ -54,6 +57,7 @@ export default function PhotoCard({
       <span className={styles.caption}>
         <span className={styles.title}>{title}</span>
         {subtitle && <span className={styles.subtitle}>{subtitle}</span>}
+        {facts && facts.length > 0 && <span className={styles.facts}>{facts.join(" · ")}</span>}
       </span>
     </>
   );
