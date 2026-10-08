@@ -3,7 +3,7 @@ import { Suspense } from "react";
 
 import AdBanner from "@/components/AdBanner/AdBanner";
 import ListingHeader from "@/components/ListingHeader/ListingHeader";
-import SearchHikes from "@/components/Search/SearchHikes";
+import SearchHikes, { SearchHikesView } from "@/components/Search/SearchHikes";
 import { pickAd } from "@/lib/ads";
 import { allHikes } from "@/lib/hikes";
 import styles from "../section.module.css";
@@ -25,7 +25,7 @@ export default function SearchPage() {
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Search" }]}
       />
       <section className={styles.section}>
-        <Suspense>
+        <Suspense fallback={<SearchHikesView hikes={hikes} query="" />}>
           <SearchHikes hikes={hikes} />
         </Suspense>
         <AdBanner ad={pickAd("search")} />

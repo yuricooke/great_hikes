@@ -1,6 +1,7 @@
 # B5 — QA & content governance
 
-**Status:** to do (owner request 2026-10-08).
+**Status:** v1 done 2026-10-08 — `docs/governance/content-policy.md`, `moderation-guidelines.md`,
+`release-checklist.md`. Scripts (stale-content report, link/image checker, moderation log) to build.
 
 ## Content review (editorial)
 - **Who writes what** — agents draft (journal, hike facts), hikers submit (photos, reviews, tips,

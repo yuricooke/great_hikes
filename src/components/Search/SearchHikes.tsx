@@ -27,8 +27,18 @@ export function filterHikes(hikes: Hike[], q: string, continent: string | null, 
   });
 }
 
-export default function SearchHikes({ hikes }: Props) {
+/** Reads the filters from the URL (needs a Suspense boundary); the view renders them. */
+export default function SearchHikes(props: Props) {
   const params = useSearchParams();
+  return <SearchHikesView {...props} query={params.toString()} />;
+}
+
+/**
+ * Pure view: also used as the Suspense fallback with an empty query, so the server sends the full,
+ * unfiltered list (no layout shift, crawlable) before the URL filters apply in the browser.
+ */
+export function SearchHikesView({ hikes, query }: Props & { query: string }) {
+  const params = useMemo(() => new URLSearchParams(query), [query]);
   const router = useRouter();
   const pathname = usePathname();
   const inputId = useId();

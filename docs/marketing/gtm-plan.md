@@ -13,7 +13,7 @@ mid-October, Milford Track: May). So:
 |---|---|---|
 | **Pre-launch** | now → mid-Dec 2026 | Fix the basics, build content depth, warm up Instagram |
 | **Soft launch** | mid-Dec 2026 | Live with domain; tell friends, featured photographers; fix what breaks |
-| **Launch** | **mid-Jan 2027** | Launch video, Instagram campaign, ads test, press/communities |
+| **Launch** | **mid-Jan 2027 (approved 2026-10-08)** | Launch video, Instagram campaign, ads test, press/communities |
 | **Growth** | Feb → Jun 2027 | Weekly content rhythm, SEO compounding, partnerships |
 
 ## 2. Pre-launch checklist (launch gate)

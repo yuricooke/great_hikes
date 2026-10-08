@@ -1,6 +1,7 @@
 # B4 — UX/UI: design system & experience audit
 
-**Status:** to do. Identity is fixed (constitution I: photo backgrounds, glass panels, pill
+**Status:** v1 done 2026-10-08 — `docs/design/design-system.md`, `docs/design/ux-audit.md` (5 fixes
+shipped, 12 open issues prioritised). Identity is fixed (constitution I: photo backgrounds, glass panels, pill
 buttons, logo) — this spec makes it consistent and measurable.
 
 ## Scope
