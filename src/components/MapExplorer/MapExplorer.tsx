@@ -11,7 +11,9 @@ import { CONTINENTS, LANDSCAPES } from "@/lib/schema";
 import Icon from "../Icon";
 import styles from "./MapExplorer.module.css";
 
-const STYLE = "https://tiles.openfreemap.org/styles/dark";
+/** Basemap follows the site theme (OpenFreeMap: dark / positron). */
+const STYLES = { dark: "https://tiles.openfreemap.org/styles/dark", light: "https://tiles.openfreemap.org/styles/positron" };
+const themeNow = () => (document.documentElement.dataset.theme === "light" ? "light" : "dark");
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const LEVELS = ["easy", "moderate", "challenging", "strenuous"] as const;
 const COLORS: Record<string, string> = {
@@ -53,6 +55,8 @@ export default function MapExplorer({ items }: { items: MapItem[] }) {
   const box = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MlMap | null>(null);
   const [ready, setReady] = useState(false);
+  /** Bumps after every (re)loaded basemap style, so data and highlight are pushed again. */
+  const [styleVersion, setStyleVersion] = useState(0);
   const [filters, setFilters] = useState<Filters>(() => readUrl().filters);
   const [inView, setInView] = useState<string[] | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
@@ -109,19 +113,23 @@ export default function MapExplorer({ items }: { items: MapItem[] }) {
   useEffect(() => {
     let cancelled = false;
     let map: MlMap | undefined;
+    let themeObserver: MutationObserver | undefined;
     import("maplibre-gl").then(({ default: maplibregl }) => {
       if (cancelled || !box.current) return;
       const { view } = readUrl();
       map = new maplibregl.Map({
         container: box.current,
-        style: STYLE,
+        style: STYLES[themeNow()],
         center: view ? [view.lng, view.lat] : [10, 22],
         zoom: view ? view.z : 1.4,
         attributionControl: { compact: true },
         cooperativeGestures: window.matchMedia("(max-width: 767px)").matches,
       });
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
-      map.on("load", () => {
+      themeObserver = new MutationObserver(() => map?.setStyle(STYLES[themeNow()]));
+      themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+      // Our sources/layers are (re)added on every style load — first load and theme switches.
+      map.on("style.load", () => {
         const m = map!;
         m.addSource("places", { type: "geojson", data: { type: "FeatureCollection", features: [] }, cluster: true, clusterRadius: 42, clusterMaxZoom: 6 });
         m.addSource("starts", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
@@ -154,6 +162,10 @@ export default function MapExplorer({ items }: { items: MapItem[] }) {
         });
         m.addLayer({ id: "selected", type: "circle", source: "selected", paint: { "circle-radius": 13, "circle-color": "rgba(255,255,255,0.15)", "circle-stroke-color": "#fff", "circle-stroke-width": 3 } });
 
+        setStyleVersion((v) => v + 1);
+      });
+      map.on("load", () => {
+        const m = map!;
         for (const layer of ["places", "starts", "lines"]) {
           m.on("click", layer, (e) => {
             const id = e.features?.[0]?.properties?.id as string | undefined;
@@ -178,6 +190,7 @@ export default function MapExplorer({ items }: { items: MapItem[] }) {
     });
     return () => {
       cancelled = true;
+      themeObserver?.disconnect();
       map?.remove();
       mapRef.current = null;
     };
@@ -192,7 +205,7 @@ export default function MapExplorer({ items }: { items: MapItem[] }) {
     (map.getSource("lines") as GeoJSONSource).setData(collections.lines);
     updateInView();
     syncUrl();
-  }, [ready, collections, updateInView, syncUrl]);
+  }, [ready, collections, updateInView, syncUrl, styleVersion]);
 
   // Keep the list and the URL in step with the view.
   useEffect(() => {
@@ -217,7 +230,7 @@ export default function MapExplorer({ items }: { items: MapItem[] }) {
       type: "FeatureCollection",
       features: item ? [{ type: "Feature", properties: {}, geometry: { type: "Point", coordinates: [item.lng, item.lat] } }] : [],
     });
-  }, [ready, selected, byId]);
+  }, [ready, selected, byId, styleVersion]);
 
   function focus(item: MapItem) {
     setSelected(item.id);

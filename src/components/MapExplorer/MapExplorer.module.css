@@ -7,7 +7,7 @@
 .map {
   height: 62dvh;
   width: 100%;
-  background: #0d0d0d;
+  background: var(--gh-card-bg);
 }
 
 .panel {
@@ -40,13 +40,13 @@
   padding: 0 var(--gh-space-3);
   border: var(--gh-glass-border);
   border-radius: var(--gh-radius-sm);
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--gh-fill-2);
   color: var(--gh-text);
   font: inherit;
 }
 
 .filters select option {
-  background: #1b1b1b;
+  background: var(--gh-option-bg);
 }
 
 .filters select:focus-visible,
@@ -101,7 +101,7 @@
   padding: var(--gh-space-2);
   border: var(--gh-glass-border);
   border-radius: var(--gh-radius-sm);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--gh-fill-1);
   color: var(--gh-text);
   font: inherit;
   text-align: left;
@@ -110,7 +110,7 @@
 
 .item:hover,
 .item[aria-pressed="true"] {
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--gh-fill-3);
 }
 
 .thumb {
@@ -175,7 +175,7 @@
   overflow: hidden;
   border: var(--gh-glass-border);
   border-radius: var(--gh-radius-card);
-  background: rgba(20, 20, 20, 0.72);
+  background: var(--gh-panel-bg);
   backdrop-filter: var(--gh-blur, blur(18px));
   -webkit-backdrop-filter: var(--gh-blur, blur(18px));
 }
@@ -242,7 +242,7 @@
     overflow-y: auto;
     border: var(--gh-glass-border);
     border-radius: var(--gh-radius-panel, 20px);
-    background: rgba(14, 14, 14, 0.7);
+    background: var(--gh-panel-bg);
     backdrop-filter: var(--gh-blur, blur(18px));
     -webkit-backdrop-filter: var(--gh-blur, blur(18px));
   }

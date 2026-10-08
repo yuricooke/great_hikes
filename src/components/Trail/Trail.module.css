@@ -3,7 +3,7 @@
   aspect-ratio: 4 / 3;
   border-radius: var(--gh-radius-card);
   overflow: hidden;
-  background: #1b1b1b;
+  background: var(--gh-option-bg);
   z-index: 0;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .grid {
-  stroke: rgba(255, 255, 255, 0.15);
+  stroke: var(--gh-fill-3);
   stroke-width: 1;
 }
 
@@ -62,7 +62,7 @@
   padding: 0 var(--gh-space-4);
   border: var(--gh-glass-border);
   border-radius: var(--gh-radius-pill);
-  background: rgba(255, 255, 255, 0.06);
+  background: var(--gh-fill-1);
   color: var(--gh-text);
   font: inherit;
   cursor: pointer;
@@ -100,13 +100,13 @@
   padding: var(--gh-space-4);
   border: var(--gh-glass-border);
   border-radius: var(--gh-radius-sm);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--gh-fill-1);
   text-decoration: none;
   transition: background 0.2s;
 }
 
 .card:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--gh-fill-3);
 }
 
 .card:focus-visible {

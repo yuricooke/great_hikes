@@ -137,3 +137,14 @@ select:focus-visible {
 :root[data-theme="light"] select:not([multiple]):not([data-surface="photo"] select) {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -960 960 960' fill='%2315181b'%3E%3Cpath d='M480-345 240-585l42-42 198 198 198-198 42 42-240 240Z'/%3E%3C/svg%3E") !important;
 }
+
+/* Light theme: the white mountains logo turns dark everywhere except on photos/video. */
+:root[data-theme="light"] img[src*="great_hikes.svg"]:not([data-surface="photo"] img) {
+  filter: invert(1);
+}
+
+/* Pages with a full-screen photo background (hike & trail pages) keep a dark base in light mode:
+   the photo covers it, and hero text stays readable if the photo hasn't loaded. */
+:root[data-theme="light"] body:has([data-photo-page]) {
+  background: #0b0b0b;
+}

@@ -22,13 +22,13 @@
   padding: 0 var(--gh-space-4);
   border: var(--gh-glass-border);
   border-radius: var(--gh-radius-pill);
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--gh-fill-2);
   color: var(--gh-text);
   font: inherit;
 }
 
 .input::placeholder {
-  color: rgba(241, 241, 241, 0.6);
+  color: var(--gh-placeholder);
 }
 
 .input:focus-visible {
@@ -37,7 +37,7 @@
 }
 
 .error {
-  color: #ffb3ba;
+  color: var(--gh-error);
 }
 
 .submit {
@@ -101,7 +101,7 @@
 .divider::after {
   content: "";
   flex: 1;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: var(--gh-glass-border);
 }
 
 .labelRow {
@@ -130,7 +130,7 @@
   padding: 0 var(--gh-space-3);
   border: 0;
   border-radius: var(--gh-radius-pill);
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--gh-fill-3);
   color: var(--gh-text);
   font: inherit;
   font-size: var(--gh-text-sm);

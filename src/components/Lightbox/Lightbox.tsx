@@ -46,6 +46,7 @@ export default function Lightbox({
 
   return (
     <dialog
+      data-surface="photo"
       ref={ref}
       className={styles.dialog}
       aria-label="Photo viewer"

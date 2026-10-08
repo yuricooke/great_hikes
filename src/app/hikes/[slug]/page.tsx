@@ -91,8 +91,8 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
     <>
       {/* Second-level pages keep the original fixed photo background (owner decision 2026-10-07). */}
       <BackgroundImage src={hike.photo.src} priority />
-      <article className={styles.article}>
-        <div className={styles.heroInner}>
+      <article className={styles.article} data-photo-page>
+        <div className={styles.heroInner} data-surface="photo">
           <Breadcrumb
             items={[
               { label: "Home", href: "/" },

@@ -28,6 +28,9 @@
   --gh-menu-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
   --gh-menu-card-bg: rgba(12, 12, 12, 0.82);
   --gh-card-bg: #171717; /* product cards, tiles on the page */
+  --gh-error: #ffb3ba;
+  --gh-placeholder: rgba(241, 241, 241, 0.6);
+  --gh-panel-bg: rgba(14, 14, 14, 0.72); /* map side panel / preview card */
 
   /* Glass */
   --gh-glass-home: rgba(0, 0, 0, 0.6);
@@ -125,6 +128,9 @@
   --gh-menu-shadow: 0 20px 50px rgba(30, 25, 15, 0.18);
   --gh-menu-card-bg: rgba(255, 255, 255, 0.94);
   --gh-card-bg: #ffffff;
+  --gh-error: #b42318;
+  --gh-placeholder: rgba(21, 24, 27, 0.5);
+  --gh-panel-bg: rgba(255, 255, 255, 0.86);
 
   --gh-glass-home: rgba(255, 255, 255, 0.72);
   --gh-glass: rgba(255, 255, 255, 0.78);
@@ -135,6 +141,7 @@
   --gh-chrome: rgba(255, 255, 255, 0.7);
   --gh-chrome-drawer: rgba(255, 255, 255, 0.92);
   --gh-shadow: 0 8px 28px rgba(30, 25, 15, 0.12);
+  --gh-text-shadow: none;
 }
 
 /*
@@ -161,5 +168,6 @@
   --gh-glass-border: 1px solid rgba(255, 255, 255, 0.19);
   --gh-glass-border-subtle: 1px solid rgba(255, 255, 255, 0.1);
   --gh-line: rgba(255, 255, 255, 0.85);
+  --gh-text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
   color: var(--gh-text);
 }

@@ -27,7 +27,7 @@
   aspect-ratio: 1;
   display: grid;
   place-items: center;
-  background: radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.12), transparent 60%), #2a2f2c;
+  background: radial-gradient(circle at 30% 20%, var(--gh-fill-3), transparent 60%), #2a2f2c;
 }
 
 /* Muted outdoor tones per category for the placeholder. */

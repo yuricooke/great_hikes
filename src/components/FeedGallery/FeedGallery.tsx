@@ -52,7 +52,7 @@ export default function FeedGallery({ posts, emptyText }: { posts: Post[]; empty
 
   return (
     <>
-      <ul className={styles.grid} aria-label="Photos">
+      <ul className={styles.grid} aria-label="Photos" data-surface="photo">
         {posts.map((post) => (
           <li key={post.id} id={`post-${post.id}`} className={styles.item}>
             <button
@@ -78,6 +78,7 @@ export default function FeedGallery({ posts, emptyText }: { posts: Post[]; empty
       </ul>
 
       <dialog
+        data-surface="photo"
         ref={dialogRef}
         className={styles.modal}
         aria-label={open?.title ?? "Photo"}
