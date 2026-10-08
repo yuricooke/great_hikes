@@ -146,6 +146,8 @@
   flex-direction: column;
   gap: var(--gh-space-3);
   margin: var(--gh-space-5) 0;
+  /* Lets the bleeding gallery measure the reading column (cqw units). */
+  container-type: inline-size;
 }
 
 .sliderTitle {
@@ -156,4 +158,8 @@
 
 .slider .linkCta {
   align-self: flex-start;
+}
+
+.promo {
+  margin: var(--gh-space-5) 0;
 }

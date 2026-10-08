@@ -119,7 +119,8 @@ test("journal: article page with inline hike card and related rails", async ({ p
   await expect(page).toHaveURL(/\/journal\?kind=guide$/);
   await page.getByRole("link", { name: /Planning the W Trek/ }).first().click();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Planning the W Trek in Torres del Paine");
-  await expect(page.getByRole("complementary", { name: /Hike: Torres del Paine/ })).toBeVisible();
+  // Mid-article hike cards were replaced by one gear promo (ad or gear picks); hikes are listed at the end.
+  await expect(page.getByRole("complementary", { name: "Gear for this hike" })).toBeVisible();
   await expect(page.getByRole("region", { name: "Hikes in this story", exact: true })).toBeVisible();
 });
 
