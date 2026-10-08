@@ -7,7 +7,7 @@ data arrives.
 | # | Line | When | Notes |
 |---|---|---|---|
 | 1 | **Gear affiliates** (AvantLink: Backcountry, Osprey, Black Diamond…; Amazon later) | After launch, once approved | 4–10 % commission, 30–60-day cookies; best inside guides ("what to pack for the W Trek") |
-| 2 | **Tours & experiences affiliates** (GetYourGuide, Viator, trek operators) | Month 3–6 | High basket (multi-day treks US$500–3,000) → often beats gear |
+| 2 | **Tours & experiences affiliates** (Bookatrekking, GetYourGuide, Viator) | **At launch for international treks** (B2 v2) | High basket (multi-day treks US$500–3,000) → often beats gear; gear stays first on US day hikes |
 | 3 | **Sponsorships** (brands/tourism boards: sponsored collections, Instagram features) | When IG ≥ 10k or site ≥ 10k visits/month | Always labelled; never inside rankings |
 | 4 | **Display ads** (Ezoic → Journey by Mediavine at ~10k sessions) | Month 9–12 | Hurts speed/design — only if it pays clearly |
 | 5 | **Merch** (print-on-demand) | Later | Brand play more than income |
@@ -37,3 +37,8 @@ scale if cost per engaged visitor < target set in B3).
 ## Unit metrics to track
 Revenue per 1,000 visitors (RPM), click-out rate per page type, conversion per partner, cost per
 member, cost per engaged visitor (ads), share of traffic from Google vs Instagram.
+
+## Affiliate shortlist (B2 v2 — verify terms before applying)
+GetYourGuide / Viator (~8 % base), Bookatrekking (TradeTracker, 50-day cookie), AvantLink brands
+(gear), AllTrails affiliate on Impact (per sign-up/subscription — third-party figures), Outdooractive
+on Awin (for the Europe push).
