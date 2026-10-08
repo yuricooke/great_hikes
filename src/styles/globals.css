@@ -114,3 +114,22 @@ button {
     scroll-behavior: auto !important;
   }
 }
+
+/* Dropdowns: our own chevron with breathing room (the native one sat against the edge). */
+select:not([multiple]) {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -960 960 960' fill='%23f1f1f1'%3E%3Cpath d='M480-345 240-585l42-42 198 198 198-198 42 42-240 240Z'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 16px center !important;
+  background-size: 20px !important;
+  padding-right: 48px !important;
+}
+
+/* Browsers treat a mouse click on a dropdown as "focus-visible", so dropdowns get a subtle white
+   ring instead of the yellow keyboard ring (still a visible focus indicator for a11y). */
+select:focus-visible {
+  outline: none !important;
+  border-color: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25);
+}
