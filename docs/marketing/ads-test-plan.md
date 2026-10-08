@@ -1,4 +1,4 @@
-# Ads test plan (B3, budget US$150 — approved 2026-10-07)
+# Ads test plan (B3, budget US$150 — approved 2026-10-07; split approved 2026-10-08, Pinterest under review)
 
 **Goal:** learn which audience + message brings *engaged* US hikers at a cost we can scale — not
 to "grow fast". Runs 3 weeks after launch (mid-Jan → early Feb 2027, peak planning season).

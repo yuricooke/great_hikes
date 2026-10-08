@@ -4,7 +4,7 @@ import { Suspense } from "react";
 
 import AdBanner from "@/components/AdBanner/AdBanner";
 import ListingHeader from "@/components/ListingHeader/ListingHeader";
-import ShopBrowser from "@/components/Shop/ShopBrowser";
+import ShopBrowser, { ShopBrowserView } from "@/components/Shop/ShopBrowser";
 import { pickAd } from "@/lib/ads";
 import { pricesUpdated, products, shopCategories, shopDisclosure } from "@/lib/products";
 import styles from "../section.module.css";
@@ -33,7 +33,7 @@ export default function ShopPage() {
           {shopDisclosure()} <Link href="/affiliate-disclosure">Learn more</Link>
         </p>
         {list.length > 0 ? (
-          <Suspense>
+          <Suspense fallback={<ShopBrowserView products={list} categories={shopCategories()} query="" />}>
             <ShopBrowser products={list} categories={shopCategories()} />
           </Suspense>
         ) : (

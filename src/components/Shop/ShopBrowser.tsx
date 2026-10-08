@@ -29,8 +29,18 @@ export function sortProducts(list: Product[], sort: Sort) {
 }
 
 /** Category navigation, sorting and the product grid; state lives in the URL. */
-export default function ShopBrowser({ products, categories }: Props) {
+/** Reads the filters from the URL (needs a Suspense boundary); the view renders them. */
+export default function ShopBrowser(props: Props) {
   const params = useSearchParams();
+  return <ShopBrowserView {...props} query={params.toString()} />;
+}
+
+/**
+ * Pure view: also used as the Suspense fallback with an empty query, so the server sends the full,
+ * unfiltered list (no layout shift, crawlable) before the URL filters apply in the browser.
+ */
+export function ShopBrowserView({ products, categories, query }: Props & { query: string }) {
+  const params = useMemo(() => new URLSearchParams(query), [query]);
   const router = useRouter();
   const pathname = usePathname();
   const sortId = useId();
