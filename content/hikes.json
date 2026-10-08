@@ -239,7 +239,7 @@
     "photo": {
       "src": "/hikes/banff-national-park.jpg",
       "alt": "Banff National Park, Canada",
-      "author": "Jaime Reimer: ",
+      "author": "Jaime Reimer",
       "sourceUrl": "https://www.pexels.com/pt-br/foto/bela-vista-do-lago-moraine-2662116/",
       "license": "Pexels License"
     },
@@ -2347,6 +2347,30 @@
     "checkedAt": "2026-10-07",
     "gallery": [
       {
+        "src": "https://images.unsplash.com/photo-1635772512104-98695c3a73f1?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8Sml1emhhaWdvdSUyMFZhbGxleSUyMENoaW5hfGVufDF8MHx8fDE3OTE0NjExMTh8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Jiuzhaigou Valley: a river surrounded by a forest filled with lots of trees",
+        "author": "Say Wah Lee",
+        "authorUrl": "https://unsplash.com/@leesaywah?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-river-surrounded-by-a-forest-filled-with-lots-of-trees-DkJd8Ve-0Ts?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1763814947574-fbdec59d35c9?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8Sml1emhhaWdvdSUyMFZhbGxleSUyMENoaW5hfGVufDF8MHx8fDE3OTE0NjExMTh8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Jiuzhaigou Valley: Cascading waterfalls flow into a vibrant turquoise lake",
+        "author": "Yueliang Sun",
+        "authorUrl": "https://unsplash.com/@yolliesun?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/cascading-waterfalls-flow-into-a-vibrant-turquoise-lake-fLKVm_ES0ZI?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1782051576874-aab4812b1026?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8Sml1emhhaWdvdSUyMFZhbGxleSUyMENoaW5hfGVufDF8MHx8fDE3OTE0NjExMTh8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Jiuzhaigou Valley: Lush green valley with a turquoise river and misty mountains",
+        "author": "Shuting Cao",
+        "authorUrl": "https://unsplash.com/@nevertle?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/lush-green-valley-with-a-turquoise-river-and-misty-mountains-lFY7CCUXBfo?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jiuzhaigou-valley/File_1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg.jpg",
         "alt": "Jiuzhaigou Valley: Landscape of Five Flower Lake (pinyin: Wǔhuā Hǎi) in Rize Valley (pinyin: Rìzé Gōu), Jiuzhaigou Valley National Park, Sichuan Province, Western China (2011).",
         "author": "Chensiyuan",
@@ -2431,6 +2455,30 @@
     ],
     "checkedAt": "2026-10-07",
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1588757336388-e9f9d123b052?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8WW9zZW1pdGUlMjBOYXRpb25hbCUyMFBhcmslMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc5MTQ2MTEyMXww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Yosemite National Park: green grass field near brown mountain under cloudy sky during daytime",
+        "author": "Anshul Jain",
+        "authorUrl": "https://unsplash.com/@argylecali?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-grass-field-near-brown-mountain-under-cloudy-sky-during-daytime-jRzmGztv3LY?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1533990898332-9d87e79f0f78?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8WW9zZW1pdGUlMjBOYXRpb25hbCUyMFBhcmslMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc5MTQ2MTEyMXww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Yosemite National Park: landscape photography of mountain",
+        "author": "Constante Lim",
+        "authorUrl": "https://unsplash.com/@chromasiastudios?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/landscape-photography-of-mountain-0Xh8Bnm1tVc?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1567533905227-039caf02237a?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8WW9zZW1pdGUlMjBOYXRpb25hbCUyMFBhcmslMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc5MTQ2MTEyMXww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Yosemite National Park: a view of a mountain range with trees in the foreground",
+        "author": "Karan Chawla",
+        "authorUrl": "https://unsplash.com/@thekaranchawla?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-a-mountain-range-with-trees-in-the-foreground-xP0tF_n7qVM?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/yosemite-national-park/File_Tunnel_View__Yosemite_Valley__Yosemite_NP_-_Diliff.jpg.jpg",
         "alt": "Yosemite National Park: View of the valley of Yosemite (from Tunnel View) in the Yosemite National Park, California, USA",
@@ -2520,6 +2568,30 @@
     ],
     "checkedAt": "2026-10-07",
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1745776114980-1e9b77a6259d?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8SWxoYSUyMGRhJTIwTWFkZWlyYSUyMFBvcnR1Z2FsfGVufDF8MHx8fDE3OTE0NjExMjJ8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Ilha da Madeira: Rocky mountain range peeks through the clouds",
+        "author": "Luis Gonçalves",
+        "authorUrl": "https://unsplash.com/@serranonline?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/rocky-mountain-range-peeks-through-the-clouds-wJUQdWYmR0k?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1745776115068-f21ba1da5cd6?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8SWxoYSUyMGRhJTIwTWFkZWlyYSUyMFBvcnR1Z2FsfGVufDF8MHx8fDE3OTE0NjExMjJ8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Ilha da Madeira: Hiking along a mountain ridge above the clouds",
+        "author": "Luis Gonçalves",
+        "authorUrl": "https://unsplash.com/@serranonline?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/hiking-along-a-mountain-ridge-above-the-clouds-0DHr-LJREw8?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1745776555615-06d231d6283c?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8SWxoYSUyMGRhJTIwTWFkZWlyYSUyMFBvcnR1Z2FsfGVufDF8MHx8fDE3OTE0NjExMjJ8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Ilha da Madeira: A lizard rests on a stone in the sunlight",
+        "author": "Luis Gonçalves",
+        "authorUrl": "https://unsplash.com/@serranonline?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-lizard-rests-on-a-stone-in-the-sunlight-mBZqaa9mLMo?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/ilha-da-madeira/File_S_C3_A3o_Martinho__Madeira__Portugal___Complexo_Balnear_da_Ponta_Gorda_--_2.jpg",
         "alt": "Ilha da Madeira: Seawater pool at the Complexo Balnear da Ponta Gorda outdoor pool (when the waves are strong), São Martinho, Funchal, Madeira, PortugalBetween November 11 and 13, 2025, storm Claudia ",
@@ -2693,6 +2765,30 @@
     ],
     "checkedAt": "2026-10-07",
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1561158250-01426799e9e0?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8Q3VtYnJlcyUyMGRlJTIwTW9udGVycmV5JTIwTWV4aWNvfGVufDF8MHx8fDE3OTE0NjExMjV8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Cumbres de Monterrey: aerial view of buildings during golden hour",
+        "author": "Jorge Gardner",
+        "authorUrl": "https://unsplash.com/@gardnerjorge?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/aerial-view-of-buildings-during-golden-hour-6YkqE50Gin0?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1703220355597-68c1d4c0d1b2?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8Q3VtYnJlcyUyMGRlJTIwTW9udGVycmV5JTIwTWV4aWNvfGVufDF8MHx8fDE3OTE0NjExMjV8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Cumbres de Monterrey: a view of a city with mountains in the background",
+        "author": "Jimmy Hu",
+        "authorUrl": "https://unsplash.com/@woomantsing?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-a-city-with-mountains-in-the-background-DaMQIGYdoGU?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1653435682785-26c8c71b5c9d?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8Q3VtYnJlcyUyMGRlJTIwTW9udGVycmV5JTIwTWV4aWNvfGVufDF8MHx8fDE3OTE0NjExMjV8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Cumbres de Monterrey: a man standing on top of a mountain next to a lush green hillside",
+        "author": "Brenda Alvarado Ruiz",
+        "authorUrl": "https://unsplash.com/@brenda_ar?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-man-standing-on-top-of-a-mountain-next-to-a-lush-green-hillside-UaaSyFdDE7c?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cumbres-de-monterrey/File_Cascada_del_Chipit_C3_ADn.jpg.jpg",
         "alt": "Cumbres de Monterrey: Hermosa caída de agua en la sierra de Matacanes, Nuevo León, México",
@@ -2868,6 +2964,30 @@
     "checkedAt": "2026-10-07",
     "gallery": [
       {
+        "src": "https://images.unsplash.com/photo-1714168635072-8d9501164a6d?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8RmVybmFuZG8lMjBkZSUyME5vcm9uaGElMjBCcmF6aWx8ZW58MXwwfHx8MTc5MTQ2MTEyN3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Fernando de Noronha: a sandy beach with clear blue water and green hills in the background",
+        "author": "Azzedine Rouichi",
+        "authorUrl": "https://unsplash.com/@rouichi?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-sandy-beach-with-clear-blue-water-and-green-hills-in-the-background-8gCCk6pimDs?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1559099117-d468fe7ede44?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8RmVybmFuZG8lMjBkZSUyME5vcm9uaGElMjBCcmF6aWx8ZW58MXwwfHx8MTc5MTQ2MTEyN3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Fernando de Noronha: landscape photography of islet",
+        "author": "Alex Braga",
+        "authorUrl": "https://unsplash.com/@awbraga?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/landscape-photography-of-islet-S_oVUxPr_p8?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1642889532494-8312ce23c990?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8RmVybmFuZG8lMjBkZSUyME5vcm9uaGElMjBCcmF6aWx8ZW58MXwwfHx8MTc5MTQ2MTEyN3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Fernando de Noronha: an aerial view of the ocean with a small island in the distance",
+        "author": "Matheus Frade",
+        "authorUrl": "https://unsplash.com/@matheusfrade?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/an-aerial-view-of-the-ocean-with-a-small-island-in-the-distance-VpiTk6eFFeo?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/fernando-de-noronha/File_Parque_Nacional_Marinho_de_Fernando_de_Noronha_-_Jo_C3_A3o_Paulo_Marques_DA.jpg",
         "alt": "Fernando de Noronha: Camouflaged grouper resting on a rock in the Federal-level Fernando de Noronha Marine National Park, located in Fernando de Noronha (PE).",
         "author": "João D'Andretta",
@@ -2952,6 +3072,30 @@
     ],
     "checkedAt": "2026-10-07",
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1650623598032-4fddce25b34f?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8TGVuJUMzJUE3JUMzJUIzaXMlMjBNYXJhbmhlbnNlcyUyME5hdGlvbmFsJTIwUGFyayUyMEJyYXppbHxlbnwxfDB8fHwxNzkxNDYxMTI5fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Lençóis Maranhenses National Park: a sandy beach with a body of water in the background with Lençóis Maranhenses National Park in the background",
+        "author": "gabriel xu",
+        "authorUrl": "https://unsplash.com/@gabrielxu?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-sandy-beach-with-a-body-of-water-in-the-background-with-lencois-maranhenses-national-park-in-the-background-lpv2x4ZQETQ?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1650623598066-235c97af15c7?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8TGVuJUMzJUE3JUMzJUIzaXMlMjBNYXJhbmhlbnNlcyUyME5hdGlvbmFsJTIwUGFyayUyMEJyYXppbHxlbnwxfDB8fHwxNzkxNDYxMTI5fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Lençóis Maranhenses National Park: a large sandy beach",
+        "author": "gabriel xu",
+        "authorUrl": "https://unsplash.com/@gabrielxu?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-large-sandy-beach-oWOxPPvK97I?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1535489733719-7b6e8dd53160?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8TGVuJUMzJUE3JUMzJUIzaXMlMjBNYXJhbmhlbnNlcyUyME5hdGlvbmFsJTIwUGFyayUyMEJyYXppbHxlbnwxfDB8fHwxNzkxNDYxMTI5fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Lençóis Maranhenses National Park: river in desert at daytime",
+        "author": "David Emrich",
+        "authorUrl": "https://unsplash.com/@davidemrich?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/river-in-desert-at-daytime-Y5Jg5VKGJ04?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/lencois-maranhenses-national-park/File_Parque_Nacional_dos_Len_C3_A7_C3_B3is_Maranhenses_Paulo_Cattelan__03_.jpg.jpg",
         "alt": "Lençóis Maranhenses National Park: Federal level Lençóis Maranhenses National Park, located in Primeira Cruz (MA), Barreirinhas (MA)",
@@ -3038,6 +3182,30 @@
     ],
     "checkedAt": "2026-10-07",
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1564750576234-75de3cc54053?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8QW1hem9uJTIwUmFpbmZvcmVzdCUyMEJyYXppbHxlbnwxfDB8fHwxNzkxNDYxMTMwfDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Amazon Rainforest: green-leafed trees",
+        "author": "Nathalia Segato",
+        "authorUrl": "https://unsplash.com/@trintaycinco?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-leafed-trees-8fLSrccoox0?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1700753618948-79f177a3b19e?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8QW1hem9uJTIwUmFpbmZvcmVzdCUyMEJyYXppbHxlbnwxfDB8fHwxNzkxNDYxMTMwfDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Amazon Rainforest: a man in a red and white boat on a river",
+        "author": "gustavo nacht",
+        "authorUrl": "https://unsplash.com/@gnacht?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-man-in-a-red-and-white-boat-on-a-river-4qft5c4rtvU?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1724521446460-36a80dc05803?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8QW1hem9uJTIwUmFpbmZvcmVzdCUyMEJyYXppbHxlbnwxfDB8fHwxNzkxNDYxMTMwfDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Amazon Rainforest: A group of people sitting on top of a boat",
+        "author": "Daniel Tischer",
+        "authorUrl": "https://unsplash.com/@danieltischer?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-group-of-people-sitting-on-top-of-a-boat-z5436ALX2ec?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/amazon-rainforest/File_Juru_C3_A1_River_in_Brazil.jpg.jpg",
         "alt": "Amazon Rainforest: Rio Juruá visto do espaço.",
@@ -3199,6 +3367,30 @@
     "checkedAt": "2026-10-07",
     "gallery": [
       {
+        "src": "https://images.unsplash.com/photo-1675348081090-f2ec9f02eca7?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8S2hhbyUyMFNvayUyME5hdGlvbmFsJTIwUGFyayUyMFRoYWlsYW5kfGVufDF8MHx8fDE3OTE0NjExMzN8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Khao Sok National Park: a row of huts sitting on top of a body of water",
+        "author": "Aleksandra B.",
+        "authorUrl": "https://unsplash.com/@samowitaphoto?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-row-of-huts-sitting-on-top-of-a-body-of-water-MHLvBB08GkA?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1578157693553-69118df519ed?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8S2hhbyUyMFNvayUyME5hdGlvbmFsJTIwUGFyayUyMFRoYWlsYW5kfGVufDF8MHx8fDE3OTE0NjExMzN8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Khao Sok National Park: islands under cloudy sky",
+        "author": "Peter Borter",
+        "authorUrl": "https://unsplash.com/@peter_borter?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/islands-under-cloudy-sky-Xm-hVIcyhGc?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1675348081045-f3af6352c68b?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8NHx8S2hhbyUyMFNvayUyME5hdGlvbmFsJTIwUGFyayUyMFRoYWlsYW5kfGVufDF8MHx8fDE3OTE0NjExMzN8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Khao Sok National Park: a body of water with mountains in the background",
+        "author": "Aleksandra B.",
+        "authorUrl": "https://unsplash.com/@samowitaphoto?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-body-of-water-with-mountains-in-the-background-yaW8IKIAzmw?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/khao-sok-national-park/File_Rhacophorus_nigropalmatus.jpg.jpg",
         "alt": "Khao Sok National Park: Rhacophorus nigropalmatus, Wallace's flying frog - Khao Sok National Park. Photo by Thai National Parks, https://www.thainationalparks.com/khao-sok-national-park.",
         "author": "Rushenb",
@@ -3292,6 +3484,30 @@
     ],
     "gallery": [
       {
+        "src": "https://images.unsplash.com/photo-1520641082665-df9ec00b0953?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8UmVmdWdpbyUyMExhZ3VuYSUyME5lZ3JhJTIwQXJnZW50aW5hfGVufDF8MHx8fDE3OTE0NjExMzV8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Refugio Laguna Negra: rocky mountain with snow",
+        "author": "Sander Crombach",
+        "authorUrl": "https://unsplash.com/@sandercrombach?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/rocky-mountain-with-snow-IcRYaSigedM?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1660510337449-ad1925aefcc3?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8UmVmdWdpbyUyMExhZ3VuYSUyME5lZ3JhJTIwQXJnZW50aW5hfGVufDF8MHx8fDE3OTE0NjExMzV8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Refugio Laguna Negra: a body of water with mountains around it",
+        "author": "Florian Delée",
+        "authorUrl": "https://unsplash.com/@florian_delee?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-body-of-water-with-mountains-around-it-0MQtTYE4IMg?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1655282224856-7090df8a6286?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8UmVmdWdpbyUyMExhZ3VuYSUyME5lZ3JhJTIwQXJnZW50aW5hfGVufDF8MHx8fDE3OTE0NjExMzV8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Refugio Laguna Negra: a body of water surrounded by trees",
+        "author": "Florian Delée",
+        "authorUrl": "https://unsplash.com/@florian_delee?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-body-of-water-surrounded-by-trees-K6guBtRDc0I?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/refugio-laguna-negra/File_Refugio_de_la_laguna_negra_-_panoramio.jpg.jpg",
         "alt": "Refugio Laguna Negra: Refugio de la laguna negra",
         "author": "Estany3",
@@ -3368,6 +3584,14 @@
       "17873458912550198"
     ],
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1621268386527-e83ae4b9a337?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8TW91bnQlMjBIb29kJTIwTmF0aW9uYWwlMjBGb3Jlc3QlMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc5MTQ2MTEzNnww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Mount Hood National Forest: green trees near snow covered mountain under blue sky during daytime",
+        "author": "Kadri Karmo",
+        "authorUrl": "https://unsplash.com/@kadribird?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-trees-near-snow-covered-mountain-under-blue-sky-during-daytime-1Xd_0gceGE8?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-hood-national-forest/File_Whisky_Creek_Fire_on_the_Mount_Hood_National_Forest_in_August_2024_-_6.jpg.jpg",
         "alt": "Mount Hood National Forest: Crews hike out of the forest after a long shift on Whisky Creek Fire, 8/11/2024 S. Crist",
@@ -3462,6 +3686,30 @@
       "18072356668148864"
     ],
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/flagged/photo-1565896209840-a18b89dd65d7?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8WmlvbiUyME5hdGlvbmFsJTIwUGFyayUyMFVuaXRlZCUyMFN0YXRlc3xlbnwxfDB8fHwxNzkxNDYxMTM4fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Zion National Park: a view of the mountains from the top of a mountain",
+        "author": "Matthias Mullie",
+        "authorUrl": "https://unsplash.com/@matthiasmullie?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-the-mountains-from-the-top-of-a-mountain--qg1-dATq0U?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1510278374305-918a12c83715?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8WmlvbiUyME5hdGlvbmFsJTIwUGFyayUyMFVuaXRlZCUyMFN0YXRlc3xlbnwxfDB8fHwxNzkxNDYxMTM4fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Zion National Park: low angle photography of rocks",
+        "author": "Martha Bergmann",
+        "authorUrl": "https://unsplash.com/@marthaberg?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/low-angle-photography-of-rocks-tQrHilJ6hCQ?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1512093871981-0683c08ec12e?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8WmlvbiUyME5hdGlvbmFsJTIwUGFyayUyMFVuaXRlZCUyMFN0YXRlc3xlbnwxfDB8fHwxNzkxNDYxMTM4fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Zion National Park: mountain view under blue sky during daytime",
+        "author": "Martha Bergmann",
+        "authorUrl": "https://unsplash.com/@marthaberg?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/mountain-view-under-blue-sky-during-daytime-YOrUkSND7WU?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/zion-national-park/File_Kolob_Canyons_part_of_Zion_National_Park.JPG.jpg",
         "alt": "Zion National Park: View in the Kolob Canyons. Kolob Canyons is the northwest section of Zion National Park, Utah, United States. The Kolob Canyons are part of the Colorado Plateau region of the Zion ",
