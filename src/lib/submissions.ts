@@ -42,3 +42,23 @@ export async function approvedFor(hike: string): Promise<Submission[]> {
     return [];
   }
 }
+
+/** Latest approved community photos across all hikes (landing "From our community"). */
+export async function approvedRecent(limit = 12): Promise<Submission[]> {
+  if (!SUPABASE_CONFIGURED) return [];
+  try {
+    const db = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!, {
+      auth: { persistSession: false },
+    });
+    const { data } = await db
+      .from("submissions")
+      .select(SUBMISSION_FIELDS)
+      .eq("status", "approved")
+      .not("hike_slug", "is", null)
+      .order("reviewed_at", { ascending: false })
+      .limit(limit);
+    return (data ?? []) as Submission[];
+  } catch {
+    return [];
+  }
+}

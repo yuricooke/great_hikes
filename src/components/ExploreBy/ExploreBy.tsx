@@ -2,73 +2,52 @@
 
 import { useMemo, useState } from "react";
 
-import { sortHikes, type HikeCardData } from "@/lib/hike-utils";
-import { CONTINENTS, LANDSCAPES } from "@/lib/schema";
+import { NO_FILTERS, matchesFilters, sortHikes, type HikeCardData, type HikeFilters } from "@/lib/hike-utils";
+import { CONTINENTS } from "@/lib/schema";
+import FilterBar from "../FilterBar/FilterBar";
 import HikeGrid from "../HikeGrid/HikeGrid";
 import PillButton from "../PillButton/PillButton";
 import styles from "./ExploreBy.module.css";
 
-type Filter = { key: "latest" } | { key: "landscape" | "continent"; value: string; label: string };
-
 const SHOWN = 8;
 
+/** One hike per continent (the newest of each), so the default view differs from "Recently added". */
+function aroundTheWorld(hikes: HikeCardData[]) {
+  const latest = sortHikes(hikes, "latest");
+  const picks = CONTINENTS.map((c) => latest.find((h) => h.continent === c.name)).filter(Boolean) as HikeCardData[];
+  const rest = latest.filter((h) => !picks.includes(h));
+  return [...picks, ...rest].slice(0, SHOWN);
+}
+
 /**
- * Landing "Explore by": tags filter the hikes right below (default: latest added) without leaving
- * the page; "See all" opens /hikes with the same filter.
+ * Landing "Explore by": dropdown filters with removable tags; the grid below updates in place.
+ * No filter → "Around the world". "See all" opens /hikes with the same filters.
  */
 export default function ExploreBy({ hikes }: { hikes: HikeCardData[] }) {
-  const [filter, setFilter] = useState<Filter>({ key: "latest" });
+  const [filters, setFilters] = useState<HikeFilters>(NO_FILTERS);
+  const filtered = Object.values(filters).some(Boolean);
 
-  const list = useMemo(() => {
-    let out = hikes;
-    if (filter.key === "landscape") out = hikes.filter((h) => h.landscapes.includes(filter.value as never));
-    if (filter.key === "continent") out = hikes.filter((h) => h.continent === filter.label);
-    return sortHikes(out, "latest");
-  }, [hikes, filter]);
-
-  const seeAll =
-    filter.key === "latest" ? "/hikes" : `/hikes?${filter.key}=${encodeURIComponent(filter.value)}`;
-  const isActive = (key: string, value?: string) =>
-    filter.key === key && (!value || ("value" in filter && filter.value === value));
-
-  const tag = (f: Filter, label: string) => {
-    const active = f.key === "latest" ? filter.key === "latest" : isActive(f.key, (f as { value: string }).value);
-    return (
-      <li key={`${f.key}-${label}`}>
-        <button type="button" className={styles.tag} aria-pressed={active} onClick={() => setFilter(f)}>
-          {label}
-        </button>
-      </li>
-    );
-  };
+  const list = useMemo(
+    () => (filtered ? sortHikes(hikes.filter((h) => matchesFilters(h, filters)), "latest") : aroundTheWorld(hikes)),
+    [hikes, filters, filtered],
+  );
+  const total = filtered ? list.length : hikes.length;
+  const query = new URLSearchParams(Object.entries(filters).filter(([, v]) => v) as [string, string][]).toString();
 
   return (
     <div className={styles.explore}>
-      <div className={styles.groups}>
-        <div className={styles.group} role="group" aria-label="Show">
-          <ul className={styles.tags}>{tag({ key: "latest" }, "Latest added")}</ul>
-        </div>
-        <div className={styles.group} role="group" aria-label="Landscape">
-          <p className={styles.label}>Landscape</p>
-          <ul className={styles.tags}>
-            {LANDSCAPES.map((l) => tag({ key: "landscape", value: l.key, label: l.label }, l.label))}
-          </ul>
-        </div>
-        <div className={styles.group} role="group" aria-label="Continent">
-          <p className={styles.label}>Continent</p>
-          <ul className={styles.tags}>
-            {CONTINENTS.map((c) => tag({ key: "continent", value: c.key, label: c.name }, c.name))}
-          </ul>
-        </div>
-      </div>
-
+      <FilterBar value={filters} onChange={(k, v) => setFilters((f) => ({ ...f, [k]: v }))} />
       <p className={styles.count} aria-live="polite">
-        {filter.key === "latest" ? "Latest added" : filter.label} · {list.length} {list.length === 1 ? "hike" : "hikes"}
+        {filtered ? `${total} ${total === 1 ? "hike" : "hikes"} match` : "Around the world"}
       </p>
-      <HikeGrid hikes={list.slice(0, SHOWN)} />
+      {list.length > 0 ? (
+        <HikeGrid hikes={list.slice(0, SHOWN)} hideLandscape={(filters.landscape ?? undefined) as HikeCardData["landscapes"][number] | undefined} />
+      ) : (
+        <p className={styles.count}>No hikes match yet — remove a filter.</p>
+      )}
       <div className={styles.actions}>
-        <PillButton href={seeAll} variant="accent" icon="hiking">
-          {filter.key === "latest" ? `See all ${hikes.length} hikes` : `See all ${list.length} · ${filter.label}`}
+        <PillButton href={query ? `/hikes?${query}` : "/hikes"} variant="accent" icon="hiking">
+          {filtered ? `See all ${total} matching hikes` : `See all ${hikes.length} hikes`}
         </PillButton>
         <PillButton href="/search" variant="outline" icon="search">
           Search hikes & guides

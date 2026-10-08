@@ -17,7 +17,8 @@ test("landing: today's feature hero with date leads to its hike", async ({ page 
 test("landing sections appear in the requested order", async ({ page }) => {
   await page.goto("/");
   const titles = await page.locator("main h2").allTextContents();
-  const order = ["Our top 10 for you", "Our content", "Shop", "Explore by", "Hikers' experiences"];
+  // Owner order 2026-10-08 (community rail needs Instagram/approved photos, so it's optional here).
+  const order = ["Our top 10 for you", "Recently added", "For your hikes — Journal", "Explore by", "Shop"];
   const positions = order.map((t) => titles.indexOf(t));
   expect(positions.every((p) => p >= 0), titles.join(" | ")).toBe(true);
   expect([...positions].sort((a, b) => a - b)).toEqual(positions);
@@ -35,19 +36,23 @@ test("rail arrows scroll the cards on desktop", async ({ page, isMobile }) => {
   await expect(prev).toBeEnabled();
 });
 
-test("explore-by tags filter the landing grid; see all opens /hikes with the filter", async ({ page }) => {
+test("explore-by dropdowns filter the landing grid; tags remove filters; see all keeps them", async ({ page }) => {
   await page.goto("/");
   const explore = page.getByRole("region", { name: "Explore by" });
-  await expect(explore.getByRole("button", { name: "Latest added" })).toHaveAttribute("aria-pressed", "true");
-  await explore.getByRole("button", { name: "Waterfalls & lakes" }).click();
+  await expect(explore.getByText("Around the world")).toBeVisible();
+  await explore.getByRole("combobox", { name: "Landscape" }).selectOption("waterfalls");
   const expected = hikes.filter((h) => h.landscapes.includes("waterfalls")).length;
-  await expect(explore.getByText(`Waterfalls & lakes · ${expected} hikes`)).toBeVisible();
+  await expect(explore.getByText(`${expected} hikes match`)).toBeVisible();
+  await expect(explore.getByRole("list", { name: "Active filters" }).getByRole("button", { name: /Waterfalls & lakes/ })).toBeVisible();
   await explore.getByRole("link", { name: /See all/ }).click();
   await expect(page).toHaveURL(/\/hikes\?landscape=waterfalls$/);
   await expect(page.getByRole("list", { name: "Hikes" }).getByRole("listitem")).toHaveCount(expected);
-  await page.getByRole("navigation", { name: "Filter by continent" }).getByRole("link", { name: "Asia" }).click();
+  await page.getByRole("combobox", { name: "Continent" }).selectOption("asia");
+  await expect(page).toHaveURL(/landscape=waterfalls&continent=asia/);
   const both = hikes.filter((h) => h.landscapes.includes("waterfalls") && h.continent === "Asia").length;
   await expect(page.getByRole("list", { name: "Hikes" }).getByRole("listitem")).toHaveCount(both);
+  await page.getByRole("list", { name: "Active filters" }).getByRole("button", { name: /Asia/ }).click();
+  await expect(page).toHaveURL(/\/hikes\?landscape=waterfalls$/);
 });
 
 test("search finds hikes and journal guides together", async ({ page }) => {

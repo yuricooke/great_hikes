@@ -4,8 +4,9 @@ import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useId, useMemo } from "react";
 
-import { sortHikes, type HikeCardData, type HikeSort } from "@/lib/hike-utils";
-import { CONTINENTS, LANDSCAPES, type Hike } from "@/lib/schema";
+import { matchesFilters, sortHikes, type HikeCardData, type HikeFilters, type HikeSort } from "@/lib/hike-utils";
+import { CONTINENTS, type Hike } from "@/lib/schema";
+import FilterBar from "../FilterBar/FilterBar";
 import HikeGrid from "../HikeGrid/HikeGrid";
 import Icon from "../Icon";
 import styles from "./SearchHikes.module.css";
@@ -55,15 +56,17 @@ export function SearchHikesView({ hikes, query, searchLabel = "Search hikes" }: 
   const q = params.get("q") ?? "";
   const continent = params.get("continent");
   const landscape = params.get("landscape");
+  const filters: HikeFilters = { landscape, continent, difficulty: params.get("difficulty"), month: params.get("month") };
   const sort: HikeSort = params.get("sort") === "az" ? "az" : "latest";
   const results = useMemo(
-    () => sortHikes(filterHikes(hikes, q, continent, landscape), sort),
-    [hikes, q, continent, landscape, sort],
+    () => sortHikes(filterHikes(hikes, q, null, null).filter((h) => matchesFilters(h, filters)), sort),
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- filters derive from `query`
+    [hikes, q, query, sort],
   );
 
-  const hrefWith = (key: string, value: string | null, base: string = params.toString()) => {
+  const hrefWith = (key: string, value: string | null, base: string = params.toString(), exact = false) => {
     const next = new URLSearchParams(base);
-    if (value === null || next.get(key) === value) next.delete(key);
+    if (value === null || (!exact && next.get(key) === value)) next.delete(key);
     else next.set(key, value);
     const s = next.toString();
     return s ? `${pathname}?${s}` : pathname;
@@ -97,31 +100,10 @@ export function SearchHikesView({ hikes, query, searchLabel = "Search hikes" }: 
         />
       </form>
 
-      <nav aria-label="Filter by continent" className={styles.group}>
-        <p className={styles.groupLabel}>Continent</p>
-        <ul className={styles.chips}>
-          {CONTINENTS.map((c) => (
-            <li key={c.key}>
-              <Link href={hrefWith("continent", c.key)} onClick={go("continent", c.key)} scroll={false} className={styles.chip} aria-current={continent === c.key ? "true" : undefined}>
-                {c.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-
-      <nav aria-label="Filter by landscape" className={styles.group}>
-        <p className={styles.groupLabel}>Landscape</p>
-        <ul className={styles.chips}>
-          {LANDSCAPES.map((l) => (
-            <li key={l.key}>
-              <Link href={hrefWith("landscape", l.key)} onClick={go("landscape", l.key)} scroll={false} className={styles.chip} aria-current={landscape === l.key ? "true" : undefined}>
-                {l.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      <FilterBar
+        value={filters}
+        onChange={(key, value) => router.replace(hrefWith(key, value, window.location.search.slice(1), true), { scroll: false })}
+      />
 
       <div className={styles.summary}>
         <p aria-live="polite">
@@ -135,9 +117,10 @@ export function SearchHikesView({ hikes, query, searchLabel = "Search hikes" }: 
             A–Z
           </Link>
         </nav>
-        {(q || continent || landscape || sort !== "latest") && (
+        {/* Filters have their own "Clear all" in the filter bar; this resets search text and sort too. */}
+        {(q || sort !== "latest") && (
           <Link href={pathname} className={styles.clear}>
-            Clear filters
+            Reset
           </Link>
         )}
       </div>

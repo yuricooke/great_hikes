@@ -43,6 +43,6 @@ test("old continent filter links open All hikes filtered (no redirect)", async (
   const res = await page.goto("/hikes?continent=asia");
   expect(res?.status()).toBe(200);
   await expect(page).toHaveURL(/\/hikes\?continent=asia$/);
-  await expect(page.getByRole("navigation", { name: "Filter by continent" }).getByRole("link", { name: "Asia" })).toHaveAttribute("aria-current", "true");
+  await expect(page.getByRole("combobox", { name: "Continent" })).toHaveValue("asia");
   expect((await page.request.get("/explore/nope")).status()).toBe(404);
 });
