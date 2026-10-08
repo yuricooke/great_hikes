@@ -1,0 +1,54 @@
+{
+  "id": 46,
+  "slug": "acadia-national-park",
+  "title": "Acadia National Park",
+  "continent": "North America",
+  "country": "United States",
+  "biome": "Rocky Atlantic coast",
+  "landscapes": ["coasts", "mountains", "forests"],
+  "description": "Maine's granite coast, where pink-rock summits rise straight from the Atlantic and short but steep trails, some climbed on iron rungs and ladders, look out over beaches, ponds and the Gulf of Maine.",
+  "hikingExplained": "The Beehive Loop is Acadia's best-known rung and ladder trail, and a good introduction to them. It starts on the Bowl Trail across the Park Loop Road from Sand Beach, then climbs a 450-foot cliff on granite steps, iron rungs and short ladders, with one stretch where you walk across iron bars. The views open up as you climb: Sand Beach, Thunder Hole and the Gulf of Maine to the horizon. From the 520-foot summit the trail drops gently past the Bowl, a small pond, and returns to the start, about 1.4 miles in all.\n\nIt's short, but it isn't easy: the cliff section has exposed edges and steep drop-offs with no railings, and wet granite is very slippery. If heights aren't for you, the Cadillac South Ridge Trail is the long, rung-light alternative: 7.1 miles round trip through forest and along an open granite ridge to the 1,530-foot summit of Cadillac Mountain, the park's highest peak, with one iron rung. Arrive early either way, because parking fills up in summer.",
+  "officialUrl": "https://www.nps.gov/acad/index.htm",
+  "map": "/maps/NorthAmerica.svg",
+  "photo": {
+    "src": "/hikes/acadia-national-park.jpg",
+    "alt": "Jordan Pond in Acadia National Park at golden hour: granite boulders in calm blue water, the rounded twin Bubbles beyond and an autumn-coloured forested slope on the right.",
+    "author": "Victoria Stauffenberg / NPS",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jordan_Pond,_the_Bubbles_(a8878ba1-b5e4-4db1-a896-94b01ff0f093).jpg",
+    "license": "Public domain (NPS)"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 44.331539,
+    "lng": -68.185149
+  },
+  "details": {
+    "route": "Beehive Loop (via the Bowl Trail)",
+    "distanceKm": 2.3,
+    "elevationGainM": null,
+    "maxAltitudeM": 158,
+    "duration": "1–3 hours",
+    "difficulty": "challenging",
+    "routeType": "loop",
+    "bestMonths": [5, 6, 7, 8, 9, 10],
+    "permit": "No permit or trail reservation needed. A park entrance pass is required year-round ($35 per private vehicle or $20 per person on foot or bike, valid 7 days; non-US residents aged 16+ pay an extra $100 unless they hold an annual or America the Beautiful pass; the park is cashless). Only if you drive up Cadillac Mountain: Cadillac Summit Road needs a separate $6 timed vehicle reservation, bought in advance on Recreation.gov, from 20 May to 25 October 2026.",
+    "gettingThere": "Drive the Park Loop Road on Mount Desert Island, Maine, through the Sand Beach Entrance Station and park in the right-hand lane or the Sand Beach parking lot; expect congestion 9 am–3 pm in summer. The Park Loop Road is closed from mid-December to mid-April. Or take the fare-free Island Explorer bus (routes 3, 4 or 10) to Sand Beach. The trail starts at the Bowl trailhead next to the crosswalk at the top of the Sand Beach entrance.",
+    "tips": [
+      "The cliff section has exposed edges and steep drop-offs with no railings, and some ladders mean reaching overhead to grab the next rung. If you are uneasy with heights, choose a non-ladder trail such as Cadillac South Ridge. Rangers advise against climbing back down the rungs and ladders.",
+      "Skip it in rain or ice: wet granite becomes extremely slippery and the trail is very dangerous in bad weather. Wait for the rock to dry, and wear sturdy shoes with good grip.",
+      "Dogs are not allowed on Acadia's rung and ladder trails, including the Beehive, so leave pets with someone or choose another hike."
+    ]
+  },
+  "sources": [
+    { "label": "NPS — Acadia National Park", "url": "https://www.nps.gov/acad/index.htm" },
+    { "label": "NPS — Hike Beehive Loop", "url": "https://www.nps.gov/thingstodo/hike-beehive-loop.htm" },
+    { "label": "NPS — Hike Cadillac South Ridge Trail", "url": "https://www.nps.gov/thingstodo/hike-cadillac-south-ridge-trail.htm" },
+    { "label": "NPS — Hike Safely in Acadia", "url": "https://www.nps.gov/articles/000/hike-safely-in-acadia.htm" },
+    { "label": "NPS — Cadillac Summit Road Vehicle Reservations", "url": "https://www.nps.gov/acad/planyourvisit/vehicle_reservations.htm" },
+    { "label": "NPS — Fees & Passes", "url": "https://www.nps.gov/acad/planyourvisit/fees.htm" },
+    { "label": "OpenStreetMap — Bowl Trail at Park Loop Road (trailhead)", "url": "https://www.openstreetmap.org/node/1632729523" }
+  ],
+  "checkedAt": "2026-10-08",
+  "gallery": [],
+  "instagram": []
+}

@@ -1,0 +1,103 @@
+{
+  "id": 43,
+  "slug": "arches-national-park",
+  "title": "Arches National Park",
+  "continent": "North America",
+  "country": "United States",
+  "biome": "High desert",
+  "landscapes": ["mountains", "savannas"],
+  "description": "Utah's red-rock desert of more than 2,000 natural stone arches, fins and balanced rocks, where a short but steep slickrock climb leads to Delicate Arch, the park's largest free-standing arch.",
+  "hikingExplained": "The Delicate Arch Trail is the hike most people come to Arches for. It starts at Wolfe Ranch, passes the historic cabin and a panel of Ute petroglyphs, then climbs steadily up open slickrock with no shade. The arch stays hidden until the very end: a narrow rock ledge of about 200 yards (183 m) wraps around a cliff and suddenly opens onto the bowl where Delicate Arch stands, its opening 46 feet (14 m) high. It is 3 miles (4.8 km) round trip, and the Park Service rates it strenuous.\n\nTreat it as a desert hike, not a stroll. Summer days often pass 100°F (38°C), there is no drinking water at the trailhead, and rangers rescue people every year who underestimated the climb. Go early in the morning or in the evening, carry plenty of water, and bring a headlamp if you stay for sunset, when hundreds of people may gather at the arch. In winter, the ledge can be icy, so pack traction devices for your shoes. Stay on the marked route, follow the cairns across the rock, and never climb on the arch.",
+  "officialUrl": "https://www.nps.gov/arch/index.htm",
+  "map": "/maps/NorthAmerica.svg",
+  "photo": {
+    "src": "/hikes/arches-national-park.jpg",
+    "alt": "Delicate Arch at sunset in winter: the sandstone arch stands on the edge of a snow-dusted slickrock bowl, with the low sun on the horizon and red rock domes to the right.",
+    "author": "Jacob W. Frank / NPS",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delicate_Arch_Sunset_(8406472644).jpg",
+    "license": "Public domain (NPS photo)"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 38.73569,
+    "lng": -109.52044
+  },
+  "details": {
+    "route": "Delicate Arch Trail from Wolfe Ranch",
+    "distanceKm": 4.8,
+    "elevationGainM": 164,
+    "maxAltitudeM": null,
+    "duration": "2–3 hours",
+    "difficulty": "strenuous",
+    "routeType": "out-and-back",
+    "bestMonths": [4, 5, 9, 10],
+    "permit": "No permit or timed-entry reservation is needed in 2026: the park lifted its entry reservation requirement for the year. An entrance pass is required ($30 per private vehicle, $15 per person on foot or by bike; America the Beautiful passes accepted). Rules for 2027 had not been announced when we checked, so look at nps.gov/arch before you go.",
+    "gettingThere": "Drive 5 miles (8 km) north of Moab, Utah, on US 191 to the Arches entrance, then follow the scenic drive 13.2 miles (21.2 km), about 30–35 minutes, to the Wolfe Ranch / Delicate Arch Trailhead. Parking is limited and often full from spring to autumn; if the lot is full, move on and come back later instead of waiting on the road.",
+    "tips": [
+      "Avoid the midday heat: from April to September, hike in the early morning or evening, not between 10 am and 5 pm. Summer highs often pass 100°F (38°C) and the trail has no shade.",
+      "There is no drinking water at the trailhead. Carry at least 2 liters (2 quarts) per person, plus salty snacks; refill at the visitor center before you drive in.",
+      "Arrive before 8 am or after 3 pm to avoid entrance lines and full parking, and carry a headlamp for each person if you stay for sunset."
+    ]
+  },
+  "sources": [
+    {
+      "label": "NPS — Arches National Park",
+      "url": "https://www.nps.gov/arch/index.htm"
+    },
+    {
+      "label": "NPS — Delicate Arch Trail (Wolfe Ranch Trailhead)",
+      "url": "https://www.nps.gov/places/wolfe-ranch-trailhead.htm"
+    },
+    {
+      "label": "NPS — Delicate Arch",
+      "url": "https://www.nps.gov/arch/planyourvisit/delicate-arch.htm"
+    },
+    {
+      "label": "NPS — Arches lifts entry reservation requirement for 2026 (news release, Feb 18, 2026)",
+      "url": "https://www.nps.gov/arch/learn/news/news02182026.htm"
+    },
+    {
+      "label": "NPS — Visitor access plans for summer 2026 at high-visitation parks",
+      "url": "https://www.nps.gov/orgs/1207/national-park-service-expands-access-for-summer-2026-while-maintaining-safety-at-high-visitation-parks.htm"
+    },
+    {
+      "label": "NPS — Fees & Passes",
+      "url": "https://www.nps.gov/arch/planyourvisit/fees.htm"
+    },
+    {
+      "label": "NPS — Nonresident Fees (parks charging the $100 fee; Arches not listed)",
+      "url": "https://www.nps.gov/aboutus/nonresident-fees.htm"
+    },
+    {
+      "label": "NPS — Safety (heat and water)",
+      "url": "https://www.nps.gov/arch/planyourvisit/safety.htm"
+    },
+    {
+      "label": "NPS — Weather",
+      "url": "https://www.nps.gov/arch/planyourvisit/weather.htm"
+    },
+    {
+      "label": "NPS — Operating Hours & Seasons",
+      "url": "https://www.nps.gov/arch/planyourvisit/hours.htm"
+    },
+    {
+      "label": "NPS — Directions",
+      "url": "https://www.nps.gov/arch/planyourvisit/directions.htm"
+    },
+    {
+      "label": "NPS — Parking",
+      "url": "https://www.nps.gov/arch/planyourvisit/parking.htm"
+    },
+    {
+      "label": "NPS — Traffic & Travel Tips",
+      "url": "https://www.nps.gov/arch/planyourvisit/traffic.htm"
+    },
+    {
+      "label": "OpenStreetMap — Delicate Arch Trailhead",
+      "url": "https://www.openstreetmap.org/node/720335468"
+    }
+  ],
+  "checkedAt": "2026-10-08",
+  "instagram": [],
+  "gallery": []
+}

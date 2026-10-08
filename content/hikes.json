@@ -4411,5 +4411,769 @@
         "license": "CC BY-SA 4.0"
       }
     ]
+  },
+  {
+    "id": 46,
+    "slug": "acadia-national-park",
+    "title": "Acadia National Park",
+    "continent": "North America",
+    "country": "United States",
+    "biome": "Rocky Atlantic coast",
+    "landscapes": [
+      "coasts",
+      "mountains",
+      "forests"
+    ],
+    "description": "Maine's granite coast, where pink-rock summits rise straight from the Atlantic and short but steep trails, some climbed on iron rungs and ladders, look out over beaches, ponds and the Gulf of Maine.",
+    "hikingExplained": "The Beehive Loop is Acadia's best-known rung and ladder trail, and a good introduction to them. It starts on the Bowl Trail across the Park Loop Road from Sand Beach, then climbs a 450-foot cliff on granite steps, iron rungs and short ladders, with one stretch where you walk across iron bars. The views open up as you climb: Sand Beach, Thunder Hole and the Gulf of Maine to the horizon. From the 520-foot summit the trail drops gently past the Bowl, a small pond, and returns to the start, about 1.4 miles in all.\n\nIt's short, but it isn't easy: the cliff section has exposed edges and steep drop-offs with no railings, and wet granite is very slippery. If heights aren't for you, the Cadillac South Ridge Trail is the long, rung-light alternative: 7.1 miles round trip through forest and along an open granite ridge to the 1,530-foot summit of Cadillac Mountain, the park's highest peak, with one iron rung. Arrive early either way, because parking fills up in summer.",
+    "officialUrl": "https://www.nps.gov/acad/index.htm",
+    "map": "/maps/NorthAmerica.svg",
+    "photo": {
+      "src": "/hikes/acadia-national-park.jpg",
+      "alt": "Jordan Pond in Acadia National Park at golden hour: granite boulders in calm blue water, the rounded twin Bubbles beyond and an autumn-coloured forested slope on the right.",
+      "author": "Victoria Stauffenberg / NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jordan_Pond,_the_Bubbles_(a8878ba1-b5e4-4db1-a896-94b01ff0f093).jpg",
+      "license": "Public domain (NPS)"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 44.331539,
+      "lng": -68.185149
+    },
+    "details": {
+      "route": "Beehive Loop (via the Bowl Trail)",
+      "distanceKm": 2.3,
+      "elevationGainM": null,
+      "maxAltitudeM": 158,
+      "duration": "1–3 hours",
+      "difficulty": "challenging",
+      "routeType": "loop",
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "permit": "No permit or trail reservation needed. A park entrance pass is required year-round ($35 per private vehicle or $20 per person on foot or bike, valid 7 days; non-US residents aged 16+ pay an extra $100 unless they hold an annual or America the Beautiful pass; the park is cashless). Only if you drive up Cadillac Mountain: Cadillac Summit Road needs a separate $6 timed vehicle reservation, bought in advance on Recreation.gov, from 20 May to 25 October 2026.",
+      "gettingThere": "Drive the Park Loop Road on Mount Desert Island, Maine, through the Sand Beach Entrance Station and park in the right-hand lane or the Sand Beach parking lot; expect congestion 9 am–3 pm in summer. The Park Loop Road is closed from mid-December to mid-April. Or take the fare-free Island Explorer bus (routes 3, 4 or 10) to Sand Beach. The trail starts at the Bowl trailhead next to the crosswalk at the top of the Sand Beach entrance.",
+      "tips": [
+        "The cliff section has exposed edges and steep drop-offs with no railings, and some ladders mean reaching overhead to grab the next rung. If you are uneasy with heights, choose a non-ladder trail such as Cadillac South Ridge. Rangers advise against climbing back down the rungs and ladders.",
+        "Skip it in rain or ice: wet granite becomes extremely slippery and the trail is very dangerous in bad weather. Wait for the rock to dry, and wear sturdy shoes with good grip.",
+        "Dogs are not allowed on Acadia's rung and ladder trails, including the Beehive, so leave pets with someone or choose another hike."
+      ]
+    },
+    "sources": [
+      {
+        "label": "NPS — Acadia National Park",
+        "url": "https://www.nps.gov/acad/index.htm"
+      },
+      {
+        "label": "NPS — Hike Beehive Loop",
+        "url": "https://www.nps.gov/thingstodo/hike-beehive-loop.htm"
+      },
+      {
+        "label": "NPS — Hike Cadillac South Ridge Trail",
+        "url": "https://www.nps.gov/thingstodo/hike-cadillac-south-ridge-trail.htm"
+      },
+      {
+        "label": "NPS — Hike Safely in Acadia",
+        "url": "https://www.nps.gov/articles/000/hike-safely-in-acadia.htm"
+      },
+      {
+        "label": "NPS — Cadillac Summit Road Vehicle Reservations",
+        "url": "https://www.nps.gov/acad/planyourvisit/vehicle_reservations.htm"
+      },
+      {
+        "label": "NPS — Fees & Passes",
+        "url": "https://www.nps.gov/acad/planyourvisit/fees.htm"
+      },
+      {
+        "label": "OpenStreetMap — Bowl Trail at Park Loop Road (trailhead)",
+        "url": "https://www.openstreetmap.org/node/1632729523"
+      }
+    ],
+    "checkedAt": "2026-10-08",
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1693307481261-1725dbe5a61f?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8QWNhZGlhJTIwTmF0aW9uYWwlMjBQYXJrJTIwVW5pdGVkJTIwU3RhdGVzfGVufDF8MHx8fDE3OTE0NzQzNTJ8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Acadia National Park: a rocky cliff overlooks a body of water",
+        "author": "Raphael Assouline",
+        "authorUrl": "https://unsplash.com/@raph_asln?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-rocky-cliff-overlooks-a-body-of-water-2cI-s7g3yy4?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1693307476452-e9ab20019d51?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8QWNhZGlhJTIwTmF0aW9uYWwlMjBQYXJrJTIwVW5pdGVkJTIwU3RhdGVzfGVufDF8MHx8fDE3OTE0NzQzNTJ8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Acadia National Park: a body of water surrounded by trees and rocks",
+        "author": "Raphael Assouline",
+        "authorUrl": "https://unsplash.com/@raph_asln?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-body-of-water-surrounded-by-trees-and-rocks-0I4kM8IuQr8?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1565465727076-2e6edeff3625?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8QWNhZGlhJTIwTmF0aW9uYWwlMjBQYXJrJTIwVW5pdGVkJTIwU3RhdGVzfGVufDF8MHx8fDE3OTE0NzQzNTJ8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Acadia National Park: a rocky shore with a small island in the distance",
+        "author": "Miguel Ángel Sanz",
+        "authorUrl": "https://unsplash.com/@maswdl95?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-rocky-shore-with-a-small-island-in-the-distance-Lr5Kxf6IKC8?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/acadia-national-park/File_Acadia_National_Park_02.JPG.jpg",
+        "alt": "Acadia National Park: Acadia National Park (Jordan Pond and the Bubbles), Maine",
+        "author": "Plh1234us",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acadia_National_Park_02.JPG",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/acadia-national-park/File_Cadillac_Mountain_Sunrise__Acadia_National_Park_-_51650832934.jpg.jpg",
+        "alt": "Acadia National Park: Acadia National Park",
+        "author": "John Manard",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cadillac_Mountain_Sunrise,_Acadia_National_Park_-_51650832934.jpg",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/acadia-national-park/File_Acadia_National_Park_-_24005098745.jpg.jpg",
+        "alt": "Acadia National Park: Sunset at Blue Hill Overlook, Cadillac Mountain Summit, Acadian National Park, Maine.",
+        "author": "David Zhang",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acadia_National_Park_-_24005098745.jpg",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/acadia-national-park/File_Acadia_national_park_Eagle_Lake.jpg.jpg",
+        "alt": "Acadia National Park: Eagle lake Acadia national park Main",
+        "author": "EgorovaSvetlana",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acadia_national_park_Eagle_Lake.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "instagram": []
+  },
+  {
+    "id": 43,
+    "slug": "arches-national-park",
+    "title": "Arches National Park",
+    "continent": "North America",
+    "country": "United States",
+    "biome": "High desert",
+    "landscapes": [
+      "mountains",
+      "savannas"
+    ],
+    "description": "Utah's red-rock desert of more than 2,000 natural stone arches, fins and balanced rocks, where a short but steep slickrock climb leads to Delicate Arch, the park's largest free-standing arch.",
+    "hikingExplained": "The Delicate Arch Trail is the hike most people come to Arches for. It starts at Wolfe Ranch, passes the historic cabin and a panel of Ute petroglyphs, then climbs steadily up open slickrock with no shade. The arch stays hidden until the very end: a narrow rock ledge of about 200 yards (183 m) wraps around a cliff and suddenly opens onto the bowl where Delicate Arch stands, its opening 46 feet (14 m) high. It is 3 miles (4.8 km) round trip, and the Park Service rates it strenuous.\n\nTreat it as a desert hike, not a stroll. Summer days often pass 100°F (38°C), there is no drinking water at the trailhead, and rangers rescue people every year who underestimated the climb. Go early in the morning or in the evening, carry plenty of water, and bring a headlamp if you stay for sunset, when hundreds of people may gather at the arch. In winter, the ledge can be icy, so pack traction devices for your shoes. Stay on the marked route, follow the cairns across the rock, and never climb on the arch.",
+    "officialUrl": "https://www.nps.gov/arch/index.htm",
+    "map": "/maps/NorthAmerica.svg",
+    "photo": {
+      "src": "/hikes/arches-national-park.jpg",
+      "alt": "Delicate Arch at sunset in winter: the sandstone arch stands on the edge of a snow-dusted slickrock bowl, with the low sun on the horizon and red rock domes to the right.",
+      "author": "Jacob W. Frank / NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delicate_Arch_Sunset_(8406472644).jpg",
+      "license": "Public domain (NPS photo)"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 38.73569,
+      "lng": -109.52044
+    },
+    "details": {
+      "route": "Delicate Arch Trail from Wolfe Ranch",
+      "distanceKm": 4.8,
+      "elevationGainM": 164,
+      "maxAltitudeM": null,
+      "duration": "2–3 hours",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "No permit or timed-entry reservation is needed in 2026: the park lifted its entry reservation requirement for the year. An entrance pass is required ($30 per private vehicle, $15 per person on foot or by bike; America the Beautiful passes accepted). Rules for 2027 had not been announced when we checked, so look at nps.gov/arch before you go.",
+      "gettingThere": "Drive 5 miles (8 km) north of Moab, Utah, on US 191 to the Arches entrance, then follow the scenic drive 13.2 miles (21.2 km), about 30–35 minutes, to the Wolfe Ranch / Delicate Arch Trailhead. Parking is limited and often full from spring to autumn; if the lot is full, move on and come back later instead of waiting on the road.",
+      "tips": [
+        "Avoid the midday heat: from April to September, hike in the early morning or evening, not between 10 am and 5 pm. Summer highs often pass 100°F (38°C) and the trail has no shade.",
+        "There is no drinking water at the trailhead. Carry at least 2 liters (2 quarts) per person, plus salty snacks; refill at the visitor center before you drive in.",
+        "Arrive before 8 am or after 3 pm to avoid entrance lines and full parking, and carry a headlamp for each person if you stay for sunset."
+      ]
+    },
+    "sources": [
+      {
+        "label": "NPS — Arches National Park",
+        "url": "https://www.nps.gov/arch/index.htm"
+      },
+      {
+        "label": "NPS — Delicate Arch Trail (Wolfe Ranch Trailhead)",
+        "url": "https://www.nps.gov/places/wolfe-ranch-trailhead.htm"
+      },
+      {
+        "label": "NPS — Delicate Arch",
+        "url": "https://www.nps.gov/arch/planyourvisit/delicate-arch.htm"
+      },
+      {
+        "label": "NPS — Arches lifts entry reservation requirement for 2026 (news release, Feb 18, 2026)",
+        "url": "https://www.nps.gov/arch/learn/news/news02182026.htm"
+      },
+      {
+        "label": "NPS — Visitor access plans for summer 2026 at high-visitation parks",
+        "url": "https://www.nps.gov/orgs/1207/national-park-service-expands-access-for-summer-2026-while-maintaining-safety-at-high-visitation-parks.htm"
+      },
+      {
+        "label": "NPS — Fees & Passes",
+        "url": "https://www.nps.gov/arch/planyourvisit/fees.htm"
+      },
+      {
+        "label": "NPS — Nonresident Fees (parks charging the $100 fee; Arches not listed)",
+        "url": "https://www.nps.gov/aboutus/nonresident-fees.htm"
+      },
+      {
+        "label": "NPS — Safety (heat and water)",
+        "url": "https://www.nps.gov/arch/planyourvisit/safety.htm"
+      },
+      {
+        "label": "NPS — Weather",
+        "url": "https://www.nps.gov/arch/planyourvisit/weather.htm"
+      },
+      {
+        "label": "NPS — Operating Hours & Seasons",
+        "url": "https://www.nps.gov/arch/planyourvisit/hours.htm"
+      },
+      {
+        "label": "NPS — Directions",
+        "url": "https://www.nps.gov/arch/planyourvisit/directions.htm"
+      },
+      {
+        "label": "NPS — Parking",
+        "url": "https://www.nps.gov/arch/planyourvisit/parking.htm"
+      },
+      {
+        "label": "NPS — Traffic & Travel Tips",
+        "url": "https://www.nps.gov/arch/planyourvisit/traffic.htm"
+      },
+      {
+        "label": "OpenStreetMap — Delicate Arch Trailhead",
+        "url": "https://www.openstreetmap.org/node/720335468"
+      }
+    ],
+    "checkedAt": "2026-10-08",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1694444803758-7faa13415304?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8QXJjaGVzJTIwTmF0aW9uYWwlMjBQYXJrJTIwVW5pdGVkJTIwU3RhdGVzfGVufDF8MHx8fDE3OTE0NzQzNTR8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Arches National Park: a large rock formation in the middle of a desert",
+        "author": "Achim Ruhnau",
+        "authorUrl": "https://unsplash.com/@achimr?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-large-rock-formation-in-the-middle-of-a-desert-WM75Q-SoDRo?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1653554541942-b2db9913a59b?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8QXJjaGVzJTIwTmF0aW9uYWwlMjBQYXJrJTIwVW5pdGVkJTIwU3RhdGVzfGVufDF8MHx8fDE3OTE0NzQzNTR8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Arches National Park: a large rock formation in the desert under a cloudy sky",
+        "author": "Johannes Mändle",
+        "authorUrl": "https://unsplash.com/@leonardo_64?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-large-rock-formation-in-the-desert-under-a-cloudy-sky-yhqBZU3a-zg?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1531935102257-01f015023fc9?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8NHx8QXJjaGVzJTIwTmF0aW9uYWwlMjBQYXJrJTIwVW5pdGVkJTIwU3RhdGVzfGVufDF8MHx8fDE3OTE0NzQzNTR8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Arches National Park: trail signage selective focus photography",
+        "author": "Camille Couvez",
+        "authorUrl": "https://unsplash.com/@camille_couvez?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/trail-signage-selective-focus-photography-GnnVuPzQnxQ?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/arches-national-park/File_Double-O-Arch_Arches_National_Park_2.jpg.jpg",
+        "alt": "Arches National Park: Double-O-Arch in Arches National Park in Southwestern USA",
+        "author": "Flicka",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Double-O-Arch_Arches_National_Park_2.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/arches-national-park/File_USA_10439_Arches_National_Park_Luca_Galuzzi_2007.jpg.jpg",
+        "alt": "Arches National Park: Double Arch, a close-set pair of arches located in Arches National Park in Utah, USA.",
+        "author": "Luca Galuzzi (Lucag)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:USA_10439_Arches_National_Park_Luca_Galuzzi_2007.jpg",
+        "license": "CC BY-SA 2.5"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/arches-national-park/File_Garden_of_Eden_ArchesNP_MC.jpg.jpg",
+        "alt": "Arches National Park: Panorama of the Garden of Eden in Arches National Park. This panorama is stitched from 8 portrait format images. The camera was rotated using a Nodal Ninja [3] nodal point adapte",
+        "author": "Christian Mehlführer, User:Chmehl",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garden_of_Eden_ArchesNP_MC.jpg",
+        "license": "CC BY 2.5"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/arches-national-park/File_Skyline_Arch_at_Arches_National_Park-Unburnsky.jpg.jpg",
+        "alt": "Arches National Park: The Skyline Arch at Arches National Park, Utah, USA.",
+        "author": "Sanjay Acharya",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skyline_Arch_at_Arches_National_Park-Unburnsky.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "bryce-canyon-national-park",
+    "title": "Bryce Canyon National Park",
+    "continent": "North America",
+    "country": "United States",
+    "biome": "High plateau canyon",
+    "landscapes": [
+      "mountains",
+      "forests"
+    ],
+    "description": "Utah's high-plateau amphitheaters of orange, pink and white hoodoos, where short, steep trails drop from the rim into a maze of rock spires, narrow slot-like walls and pine and fir trees.",
+    "hikingExplained": "The Queen's Garden and Navajo Loop combination is the park's most popular hike and the one the National Park Service recommends to first-time visitors. The NPS suggests descending the gentler Queen's Garden Trail from Sunrise Point, crossing the floor of the Bryce Amphitheater among the hoodoos, then climbing the Navajo Loop's switchbacks to Sunset Point, through towering canyon walls with views of Thor's Hammer, the park's most famous hoodoo. A short stretch of the Rim Trail closes the loop: 2.9 miles (4.6 km) with 625 feet (191 m) of climbing, usually two to three hours.\n\nBryce is a high-altitude park, with the rim at around 8,000 feet (2,438 m), so every hike here starts at the top and ends with the climb. Go slowly, drink often, and turn back before you get tired. The Wall Street side of the Navajo Loop closes every winter because of rockfall danger; use the Two Bridges side instead. In winter the trails can be packed with snow and ice, and the NPS advises traction devices on your boots. Summer afternoons in July and August bring frequent thunderstorms with lightning.",
+    "officialUrl": "https://www.nps.gov/brca/index.htm",
+    "map": "/maps/NorthAmerica.svg",
+    "photo": {
+      "src": "/hikes/bryce-canyon-national-park.jpg",
+      "alt": "Bryce Canyon from the Queen's Garden Trail: orange and cream hoodoos rise from slopes dotted with pine trees, with the amphitheater's rim cliffs behind under a blue sky.",
+      "author": "Fabio Achilli",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queens_Garden_Trail,_Bryce_Canyon_(21221626999).jpg",
+      "license": "CC BY 2.0"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 37.6227,
+      "lng": -112.16613
+    },
+    "details": {
+      "route": "Queen's Garden and Navajo Loop combination (Sunrise Point to Sunset Point, returning on the Rim Trail)",
+      "distanceKm": 4.6,
+      "elevationGainM": 191,
+      "maxAltitudeM": null,
+      "duration": "2–3 hours",
+      "difficulty": "moderate",
+      "routeType": "loop",
+      "bestMonths": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "permit": "No permit or reservation needed for day hikes. A park entrance pass is required year-round ($35 per private vehicle; $20 per person on foot or by bike; non-US residents aged 16+ pay an extra $100 per person unless they hold an annual or America the Beautiful pass). The park is cashless.",
+      "gettingThere": "Drive UT-12 to UT-63 and head south into Bryce Canyon National Park in southern Utah; Sunset Point is at mile 2.25 of the main park road, and Sunrise Point is 0.5 miles (0.8 km) away along the rim. Both have parking, but lots fill up. From April to mid-October the free park shuttle (included with admission) stops at both points; board it at the Shuttle Station in Bryce Canyon City or at the Visitor Center. There is no public transport to the park.",
+      "tips": [
+        "The NPS recommends walking the loop clockwise: down Queen's Garden from Sunrise Point and up the Navajo Loop to Sunset Point. The climb out comes last, at about 8,000 feet (2,438 m), so drink at least 1 liter of water every two hours.",
+        "The Wall Street side of the Navajo Loop closes every winter because of rockfall danger. Use the Two Bridges side then, and bring traction devices for your boots: the trails get icy and steep sections are unsafe without them.",
+        "Pets are not allowed on this trail. Water-fill stations are at Sunset Point (seasonal) and in the Sunset Point restroom (year-round)."
+      ]
+    },
+    "sources": [
+      {
+        "label": "NPS — Bryce Canyon National Park",
+        "url": "https://www.nps.gov/brca/index.htm"
+      },
+      {
+        "label": "NPS — Queen's/Navajo Combination Loop",
+        "url": "https://www.nps.gov/thingstodo/queen-s-navajo-combination-loop.htm"
+      },
+      {
+        "label": "NPS — Navajo Loop Trail",
+        "url": "https://www.nps.gov/thingstodo/navajo-loop-trail.htm"
+      },
+      {
+        "label": "NPS — Hiking in Bryce Canyon",
+        "url": "https://www.nps.gov/brca/planyourvisit/day-hikes.htm"
+      },
+      {
+        "label": "NPS — Hiking at High Altitudes",
+        "url": "https://www.nps.gov/brca/planyourvisit/hiking-at-high-altitudes.htm"
+      },
+      {
+        "label": "NPS — Visiting in Winter (seasonal closures)",
+        "url": "https://www.nps.gov/brca/planyourvisit/winter.htm"
+      },
+      {
+        "label": "NPS — Weather",
+        "url": "https://www.nps.gov/brca/planyourvisit/weather.htm"
+      },
+      {
+        "label": "NPS — Fees & Passes",
+        "url": "https://www.nps.gov/brca/planyourvisit/fees.htm"
+      },
+      {
+        "label": "NPS — Park Shuttle",
+        "url": "https://www.nps.gov/brca/planyourvisit/shuttle.htm"
+      },
+      {
+        "label": "NPS — Directions",
+        "url": "https://www.nps.gov/brca/planyourvisit/directions.htm"
+      },
+      {
+        "label": "NPS — Sunset Point",
+        "url": "https://www.nps.gov/places/sunset-point.htm"
+      },
+      {
+        "label": "NPS — Bryce Canyon Visitor Guide (PDF)",
+        "url": "https://www.nps.gov/brca/planyourvisit/upload/Bryce_Canyon_Visitor_Guide_508-07112024.pdf"
+      },
+      {
+        "label": "OpenStreetMap — Navajo Loop Trailhead (Sunset Point)",
+        "url": "https://www.openstreetmap.org/node/5247557309"
+      }
+    ],
+    "checkedAt": "2026-10-08",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1571337742158-908d5f039cd0?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8QnJ5Y2UlMjBDYW55b24lMjBOYXRpb25hbCUyMFBhcmslMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc5MTQ3NDM1NXww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Bryce Canyon National Park: brown and white abstract painting",
+        "author": "digitalarbyter :)",
+        "authorUrl": "https://unsplash.com/@digitalarbyter?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/brown-and-white-abstract-painting-ofOuFrS4k20?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1719343111692-466848fce693?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8QnJ5Y2UlMjBDYW55b24lMjBOYXRpb25hbCUyMFBhcmslMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc5MTQ3NDM1NXww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Bryce Canyon National Park: A sign that is on the side of a fence",
+        "author": "Jenny DeLuca",
+        "authorUrl": "https://unsplash.com/@jennydeluca?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-sign-that-is-on-the-side-of-a-fence-3h2yWJIVL6U?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1653554541376-3798e9732196?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8QnJ5Y2UlMjBDYW55b24lMjBOYXRpb25hbCUyMFBhcmslMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc5MTQ3NDM1NXww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Bryce Canyon National Park: a view of a canyon in the mountains",
+        "author": "Johannes Mändle",
+        "authorUrl": "https://unsplash.com/@leonardo_64?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-a-canyon-in-the-mountains-hm3Xa36UWAM?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/bryce-canyon-national-park/File_USA_10654_Bryce_Canyon_Luca_Galuzzi_2007.jpg.jpg",
+        "alt": "Bryce Canyon National Park: Thor's Hammer formation in Bryce Canyon National Park. Southwestern Utah, USA.",
+        "author": "Luca Galuzzi (Lucag)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:USA_10654_Bryce_Canyon_Luca_Galuzzi_2007.jpg",
+        "license": "CC BY-SA 2.5"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/bryce-canyon-national-park/File_Hoodoos_in_the_Bryce_Canyon_National_Park.jpg.jpg",
+        "alt": "Bryce Canyon National Park: The hoodoos in the Bryce Canyon National Park. I took this image without flash or other additional artificial lightning. This is a contre-jour shot. The hoodoos are illumin",
+        "author": "Michael Gäbler",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoodoos_in_the_Bryce_Canyon_National_Park.jpg",
+        "license": "CC BY 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/bryce-canyon-national-park/File_Bryce_Canyon_Hoodoos.jpg.jpg",
+        "alt": "Bryce Canyon National Park: Photo of Hoodoos at sunset in Bryce Canyon National Park, Utah, USA.",
+        "author": "“Jon Zander(digon3)”",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bryce_Canyon_Hoodoos.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/bryce-canyon-national-park/File_Bryce_Canyon_Amphitheater_Hoodoos_Panorama.jpg.jpg",
+        "alt": "Bryce Canyon National Park: Panorama of Hoodoos in Bryce Canyon National Park, Utah. This version has improved contrast and is downsampled. Take with a Canon PowerShot S400 Camera",
+        "author": "“Jon Zander(digon3)”",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bryce_Canyon_Amphitheater_Hoodoos_Panorama.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "camino-frances",
+    "title": "Camino de Santiago — Camino Francés",
+    "continent": "Europe",
+    "country": "Spain",
+    "biome": "Pilgrimage route",
+    "landscapes": [
+      "mountains",
+      "forests"
+    ],
+    "description": "The French Way of St James: about 780 km on foot from Saint-Jean-Pied-de-Port in the French Pyrenees across northern Spain to Santiago de Compostela, through Navarre, La Rioja, the Castilian plains and the green hills of Galicia.",
+    "hikingExplained": "The Camino Francés is the classic route of the Camino de Santiago. It begins in Saint-Jean-Pied-de-Port, the last stop on the Way in France, crosses the Pyrenees to Roncesvalles, and then runs west through Navarre, La Rioja, Castile and León and Galicia to the Cathedral of Santiago de Compostela, about 780 km later. Along the way you pass Pamplona, Burgos and León, the long open plains of the Meseta, and the climb to O Cebreiro where the Way enters Galicia.\n\nNo single day is technical, but the first stage over the Pyrenees is hard, and walking day after day for around five weeks is a real test of feet and stamina. Pilgrims carry a Credencial (pilgrim passport) and collect stamps where they sleep; it gives access to pilgrim hostels (albergues) and is needed for the Compostela certificate. Many pilgrims walk only part of it, often a week or so, and come back to continue in later years.",
+    "officialUrl": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances",
+    "map": "/maps/Europe.svg",
+    "photo": {
+      "src": "/hikes/camino-frances.jpg",
+      "alt": "Pilgrims walk along the Route Napoléon near the Orisson refuge on the Pyrenees crossing of the Camino Francés, with bare trees, grassy slopes and hazy blue mountains beyond",
+      "author": "Marathoni62",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Route_Napol%C3%A9on_pr%C3%A8s_du_refuge_Orisson.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 43.163,
+      "lng": -1.2381
+    },
+    "details": {
+      "route": "Saint-Jean-Pied-de-Port (France) to Santiago de Compostela via Roncesvalles, Pamplona, Burgos, León and O Cebreiro",
+      "distanceKm": 780,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "About 5 weeks (32–38 stages)",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "No permit needed. Carry a Credencial (pilgrim passport), from the Pilgrim's Office, parish churches, pilgrim associations or hostels, and get it stamped along the Way. For the Compostela certificate, the Pilgrim's Office requires at least the last 100 continuous km walked on the same route (200 km by bike), ending with the stage into Santiago Cathedral.",
+      "gettingThere": "Start in Saint-Jean-Pied-de-Port (Pyrénées-Atlantiques, France), reached on the regional TER line from Bayonne; check SNCF for any replacement buses. The pilgrim welcome office is at 39 rue de la Citadelle. From Santiago de Compostela, high-speed trains run to Madrid, buses serve Galicia, Portugal and France, and Santiago airport is about 10 km from the city.",
+      "tips": [
+        "The Route Napoléon over the Pyrenees is closed from 1 November to 31 March; in those months, and whenever the weather is bad, take the lower route through Valcarlos (Luzaide).",
+        "Public pilgrim hostels in Galicia cannot be booked: beds go in order of arrival (walkers first), for one night only, at €10; doors open 13:00–22:00. In busy months, consider booking private accommodation ahead.",
+        "Spring and September–October bring milder temperatures and less rain. The first stage, from Saint-Jean over the Pyrenees to Roncesvalles, is the most demanding, so plan it as a full day."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Compostela",
+        "url": "https://oficinadelperegrino.com/en/pilgrimage/the-compostela/"
+      },
+      {
+        "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Credencial",
+        "url": "https://oficinadelperegrino.com/en/pilgrimage/the-credencial/"
+      },
+      {
+        "label": "Spain.info (Turespaña) — The French Way of Saint James (regions, stages, best time, accommodation)",
+        "url": "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/"
+      },
+      {
+        "label": "Spain.info (Turespaña) — The French Way from St Jean in France to Santiago (distance, Pyrenees stage, winter closure)",
+        "url": "https://www.spain.info/en/activities/french-camino-st-jean-pied-de-port-santiago/"
+      },
+      {
+        "label": "Spain.info (Turespaña) — Santiago de Compostela (getting there: airport, train, bus)",
+        "url": "https://www.spain.info/en/destination/santiago-compostela/"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Public pilgrim hostel network (rules, price, no reservations)",
+        "url": "https://www.caminodesantiago.gal/es/descubre/el-camino-en-la-actualidad/la-red-de-albergues-publicos"
+      },
+      {
+        "label": "Visit Navarra — Camino Francés: Saint-Jean-Pied-de-Port to Roncesvalles (Valcarlos route, winter closure)",
+        "url": "https://www.visitnavarra.es/en/detalle-tramo/-/t/camino-santiago-frances-lepodeder-roncesvalles"
+      },
+      {
+        "label": "Pays Basque tourism — Saint-Jean-Pied-de-Port (pilgrim welcome office)",
+        "url": "https://www.en-pays-basque.fr/en/territory-and-destination/saint-jean-pied-de-port-and-its-valleys/saint-jean-pied-de-port/"
+      },
+      {
+        "label": "Région Nouvelle-Aquitaine — TER lines of the Bayonne network (incl. Bayonne–Saint-Jean-Pied-de-Port)",
+        "url": "https://participez.nouvelle-aquitaine.fr/processes/TER-2025-Bayonne"
+      },
+      {
+        "label": "OpenStreetMap — Saint-Jean-Pied-de-Port",
+        "url": "https://www.openstreetmap.org/relation/168589"
+      }
+    ],
+    "checkedAt": "2026-10-08",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1690265632035-b4defdd9e593?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8Q2FtaW5vJTIwZGUlMjBTYW50aWFnbyUyMCVFMiU4MCU5NCUyMENhbWlubyUyMEZyYW5jJUMzJUE5cyUyMFNwYWlufGVufDF8MHx8fDE3OTE0NzQzNTd8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Camino de Santiago — Camino Francés: a couple of people walking down a dirt road",
+        "author": "Marco Montero Pisani",
+        "authorUrl": "https://unsplash.com/@monteropisani?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-couple-of-people-walking-down-a-dirt-road-aIskBiNgJLY?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1660463398171-a32a37975dbf?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8Q2FtaW5vJTIwZGUlMjBTYW50aWFnbyUyMCVFMiU4MCU5NCUyMENhbWlubyUyMEZyYW5jJUMzJUE5cyUyMFNwYWlufGVufDF8MHx8fDE3OTE0NzQzNTd8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Camino de Santiago — Camino Francés: a dirt road in a field",
+        "author": "snap wander",
+        "authorUrl": "https://unsplash.com/@passimage?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-dirt-road-in-a-field-H6f6x31VEcg?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1709629108919-c0ae30dedd4d?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8Q2FtaW5vJTIwZGUlMjBTYW50aWFnbyUyMCVFMiU4MCU5NCUyMENhbWlubyUyMEZyYW5jJUMzJUE5cyUyMFNwYWlufGVufDF8MHx8fDE3OTE0NzQzNTd8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Camino de Santiago — Camino Francés: a group of people walking down a dirt road",
+        "author": "Konstantin Chemeris",
+        "authorUrl": "https://unsplash.com/@kchemeris?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-group-of-people-walking-down-a-dirt-road--omBjYB2Ffc?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/camino-frances/File_Camino_Franc_C3_A9s__Santiago_de_Compostela_03.jpg.jpg",
+        "alt": "Camino de Santiago — Camino Francés: View from the French Way of Saint James by the N-550 highway where it meet Rúa de Berlin. Santiago de Compostela, A Coruña province, Galicia, Spain.",
+        "author": "Simon Burchell",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camino_Franc%C3%A9s,_Santiago_de_Compostela_03.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/camino-frances/File_Camino_Franc_C3_A9s__Vilamaior__Santiago_de_Compostela.jpg.jpg",
+        "alt": "Camino de Santiago — Camino Francés: French Way of Saint James, Vilamaior, Sabugueira, Santiago de Compostela, A Coruña province, Galicia, Spain.",
+        "author": "Simon Burchell",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camino_Franc%C3%A9s,_Vilamaior,_Santiago_de_Compostela.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/camino-frances/File_Camino_Franc_C3_A9s__Santiago_de_Compostela_02.jpg.jpg",
+        "alt": "Camino de Santiago — Camino Francés: French Way of Saint James, Santiago de Compostela, A Coruña province, Galicia, Spain.",
+        "author": "Simon Burchell",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camino_Franc%C3%A9s,_Santiago_de_Compostela_02.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/camino-frances/File_Camino_Franc_C3_A9s__Santiago_de_Compostela_04.jpg.jpg",
+        "alt": "Camino de Santiago — Camino Francés: French Way of Saint James on Rúa de San Pedro, Santiago de Compostela, A Coruña province, Galicia, Spain.",
+        "author": "Simon Burchell",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camino_Franc%C3%A9s,_Santiago_de_Compostela_04.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "great-smoky-mountains-national-park",
+    "title": "Great Smoky Mountains National Park",
+    "continent": "North America",
+    "country": "United States",
+    "biome": "Southern Appalachian forest",
+    "landscapes": [
+      "mountains",
+      "forests"
+    ],
+    "description": "Straddling Tennessee and North Carolina, the Smokies are America's most visited national park: forest-clad ridges rolling to the horizon, best climbed on the Alum Cave Trail to the summit of Mount Le Conte.",
+    "hikingExplained": "The Alum Cave Trail is the shortest of the five routes up Mount Le Conte, the park's third-highest peak at 6,593 feet (2,010 m). It starts on Newfound Gap Road (US 441) and follows Alum Cave Creek through dense forest to Arch Rock, then reaches Alum Cave Bluffs at 2.3 miles (3.7 km), which is not a cave at all but a tall, inward-curving cliff. Above the bluffs, spruce-fir forest lines the trail on the climb to the top, where the best views are at Cliff Top and Myrtle Point, both signed. The round trip is 10 miles (16.1 km), and the National Park Service calls it challenging but rewarding.\n\nGreat Smoky Mountains is the most visited national park in the US, with 11,527,939 recreation visits in 2025, and Alum Cave is one of its busiest trails. The trailhead lot has only 69 spaces, so arrive early or book one of the park's authorized hiker shuttles. There is no entrance fee, but under the park's Park it Forward program every vehicle parked for more than 15 minutes must display a printed parking tag. Weather changes fast with altitude: summer on Le Conte is rarely above 80°F (27°C), while in cold weather the trail can be icy and icicles may fall from the bluffs.",
+    "officialUrl": "https://www.nps.gov/grsm/index.htm",
+    "map": "/maps/NorthAmerica.svg",
+    "photo": {
+      "src": "/hikes/great-smoky-mountains-national-park.jpg",
+      "alt": "View west from the upper Alum Cave Trail toward Mount Le Conte: a rocky ledge path beside spruce trees looks out over forested ridges fading into blue mountains under a cloudy sky.",
+      "author": "Andrew Heneen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alum_Cave_Trail_1.jpg",
+      "license": "CC BY 4.0"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 35.62955,
+      "lng": -83.45154
+    },
+    "details": {
+      "route": "Alum Cave Trail to Mount Le Conte",
+      "distanceKm": 16.1,
+      "elevationGainM": null,
+      "maxAltitudeM": 2010,
+      "duration": "Full day",
+      "difficulty": "challenging",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "permit": "No permit needed for day hikes and no entrance fee. A parking tag (the park's Park it Forward program) is required for any vehicle parked for more than 15 minutes: $5 daily, $15 weekly, $40 annual. The printed tag must show your licence plate and be displayed in the vehicle; digital copies and America the Beautiful passes are not accepted, and a tag does not guarantee a parking space.",
+      "gettingThere": "Alum Cave Trailhead is on Newfound Gap Road (US 441), 6.8 miles (10.9 km) south of Sugarlands Visitor Center near Gatlinburg, Tennessee. The lot has 69 spaces and fills early; several authorized shuttle companies (most run March to October) stop at the trailhead. Buy your parking tag online in advance, as most trailheads have no tag machine.",
+      "tips": [
+        "Arrive early or take an authorized shuttle: the NPS warns of extreme crowding and limited parking at Alum Cave Trailhead.",
+        "In cold weather expect ice on the trail and falling icicles near Alum Cave Bluffs; the NPS recommends microspikes in winter.",
+        "Want a shorter day? Turn around at Alum Cave Bluffs for a 4.6-mile (7.4 km) round trip. Pets are not allowed on this trail."
+      ]
+    },
+    "sources": [
+      {
+        "label": "NPS — Great Smoky Mountains National Park",
+        "url": "https://www.nps.gov/grsm/index.htm"
+      },
+      {
+        "label": "NPS — Hike to Mount Le Conte on Alum Cave Trail",
+        "url": "https://www.nps.gov/thingstodo/leconte-via-alum-cave-trail.htm"
+      },
+      {
+        "label": "NPS — Alum Cave Bluffs",
+        "url": "https://www.nps.gov/places/alumcave.htm"
+      },
+      {
+        "label": "NPS — Mountains (peak elevations)",
+        "url": "https://www.nps.gov/grsm/learn/nature/mountains.htm"
+      },
+      {
+        "label": "NPS — Weather (seasons; Mount Le Conte 6,593 ft / 2,010 m)",
+        "url": "https://www.nps.gov/grsm/planyourvisit/weather.htm"
+      },
+      {
+        "label": "NPS — Fees & Passes (parking tags)",
+        "url": "https://www.nps.gov/grsm/planyourvisit/fees.htm"
+      },
+      {
+        "label": "NPS — Park it Forward parking tag requirement (news release, 2023)",
+        "url": "https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-of-parking-tag-requirement.htm"
+      },
+      {
+        "label": "NPS — Shuttles and trailhead parking capacity",
+        "url": "https://www.nps.gov/grsm/planyourvisit/shuttles.htm"
+      },
+      {
+        "label": "NPS — 2025 visitation statistics (news release, March 13, 2026)",
+        "url": "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm"
+      },
+      {
+        "label": "OpenStreetMap — Alum Cave Trailhead",
+        "url": "https://www.openstreetmap.org/node/2455611224"
+      }
+    ],
+    "checkedAt": "2026-10-08",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1744584041846-633ced603443?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8R3JlYXQlMjBTbW9reSUyME1vdW50YWlucyUyME5hdGlvbmFsJTIwUGFyayUyMFVuaXRlZCUyMFN0YXRlc3xlbnwxfDB8fHwxNzkxNDc0MzU5fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Great Smoky Mountains National Park: Mountains are silhouetted against an orange sky",
+        "author": "Uriel Soberanes",
+        "authorUrl": "https://unsplash.com/@soberanes?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/mountains-are-silhouetted-against-an-orange-sky-miwobfRk7Bs?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1744584790481-7a9e5868eeb3?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8R3JlYXQlMjBTbW9reSUyME1vdW50YWlucyUyME5hdGlvbmFsJTIwUGFyayUyMFVuaXRlZCUyMFN0YXRlc3xlbnwxfDB8fHwxNzkxNDc0MzU5fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Great Smoky Mountains National Park: A black bear peers out from lush green foliage",
+        "author": "Uriel Soberanes",
+        "authorUrl": "https://unsplash.com/@soberanes?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-black-bear-peers-out-from-lush-green-foliage-G5t0LNEw_mw?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1775159024705-a4fec75a70be?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8R3JlYXQlMjBTbW9reSUyME1vdW50YWlucyUyME5hdGlvbmFsJTIwUGFyayUyMFVuaXRlZCUyMFN0YXRlc3xlbnwxfDB8fHwxNzkxNDc0MzU5fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Great Smoky Mountains National Park: Mountain range viewed through evergreen trees",
+        "author": "Hannah Cole",
+        "authorUrl": "https://unsplash.com/@hcole?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/mountain-range-viewed-through-evergreen-trees-DiuBoEfCZEI?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/great-smoky-mountains-national-park/File_Cabin_at_Tipton_Place_at_Great_Smoky_Mountains_National_Park.jpg.jpg",
+        "alt": "Great Smoky Mountains National Park: Tipton Place at Great Smoky Mountains National Park in Tennessee.",
+        "author": "Roc0ast3r",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cabin_at_Tipton_Place_at_Great_Smoky_Mountains_National_Park.jpg",
+        "license": "CC0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/great-smoky-mountains-national-park/File_Great-smoky-mountains-national-park-hq-tn1.jpg.jpg",
+        "alt": "Great Smoky Mountains National Park: The Great Smoky Mountains National Park headquarters, near Gatlinburg, Tennessee, USA. This building was completed in 1940, and designed by the architectural firm,",
+        "author": "Brian Stansberry",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great-smoky-mountains-national-park-hq-tn1.jpg",
+        "license": "CC BY 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/great-smoky-mountains-national-park/File_Great_Smoky_Mountains_National_Park_-_October_5__2014.jpg.jpg",
+        "alt": "Great Smoky Mountains National Park: The Great Smoky Mountains National Park in black and white.",
+        "author": "David Ratledge",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Smoky_Mountains_National_Park_-_October_5,_2014.jpg",
+        "license": "CC BY 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/great-smoky-mountains-national-park/File_The_Great_Smoky_Mountains_National_Park_-_October_5__2014.jpg.jpg",
+        "alt": "Great Smoky Mountains National Park: Black and white of the Great Smoky Mountains National Park.",
+        "author": "Lee Ann Ratledge",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Great_Smoky_Mountains_National_Park_-_October_5,_2014.jpg",
+        "license": "CC BY 4.0"
+      }
+    ]
   }
 ]
