@@ -3,7 +3,7 @@
 import { useCanPlayVideo } from "../Background/BackgroundVideo";
 import styles from "./Hero.module.css";
 
-/** Muted looping video over the hero's poster image (skipped on phones / reduced motion / data saver). */
+/** Muted looping video over the hero's poster image (skipped with reduced motion or data saver). */
 export default function HeroVideo({ src }: { src: string }) {
   const play = useCanPlayVideo();
   if (!play) return null;

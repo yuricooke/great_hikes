@@ -10,8 +10,9 @@ type Props = {
   poster: string;
 };
 
-// Video only when motion is welcome, the screen is wider than a phone and data saver is off.
-const VIDEO_OK = "(prefers-reduced-motion: no-preference) and (min-width: 576px)";
+// Video on every screen size (owner decision 2026-10-08), unless the visitor asked for reduced
+// motion or has data saver on.
+const VIDEO_OK = "(prefers-reduced-motion: no-preference)";
 
 function subscribeVideo(onChange: () => void) {
   const query = window.matchMedia(VIDEO_OK);
@@ -31,7 +32,7 @@ export function useCanPlayVideo() {
 
 /**
  * Looping muted video behind the page. The optimized poster image is always painted first;
- * the video is only mounted when motion is welcome, on wider screens, without data saver.
+ * the video is only mounted when motion is welcome and data saver is off.
  */
 export default function BackgroundVideo({ src, poster }: Props) {
   const playVideo = useCanPlayVideo();
