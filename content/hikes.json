@@ -52,7 +52,39 @@
         "url": "https://www.conaf.cl/parques/parque-nacional-torres-del-paine/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1570075017462-b5478b3abfff?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8VG9ycmVzJTIwZGVsJTIwUGFpbmUlMjBOYXRpb25hbCUyMFBhcmslMjBDaGlsZXxlbnwxfDB8fHwxNzkxNDU1MDI5fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Torres del Paine National Park: herd of horses on bushes and grasses across mountain",
+        "author": "Alex Wolowiecki",
+        "authorUrl": "https://unsplash.com/@modernwolo?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/herd-of-horses-on-bushes-and-grasses-across-mountain-Zf2mL1gtaVg?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1558517286-6b7b81953cb5?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8VG9ycmVzJTIwZGVsJTIwUGFpbmUlMjBOYXRpb25hbCUyMFBhcmslMjBDaGlsZXxlbnwxfDB8fHwxNzkxNDU1MDI5fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Torres del Paine National Park: body of water and mountain",
+        "author": "Snowscat",
+        "authorUrl": "https://unsplash.com/@snowscat?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/body-of-water-and-mountain-EnFQmcTtsjo?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Cuernos_del_Paine_in_Torres_del_Paine_National_Park.jpg/1920px-Cuernos_del_Paine_in_Torres_del_Paine_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Torres del Paine National Park: View Cuernos del Paine from lake Pehoé",
+        "author": "Pedro Szekely from Los Angeles, USA",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuernos_del_Paine_in_Torres_del_Paine_National_Park.jpg",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Torres_del_Paine_-_Janvier_2010.jpg/1920px-Torres_del_Paine_-_Janvier_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Torres del Paine National Park: The Almirante Nieto Mountain, part of the Cordillera del Paine, in Parc national Torres del Paine, Chile",
+        "author": "Martin St-Amant (S23678)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torres_del_Paine_-_Janvier_2010.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ]
   },
   {
     "id": 2,
@@ -111,7 +143,39 @@
         "url": "https://www.machupicchu.gob.pe/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1526392060635-9d6019884377?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8TWFjaHUlMjBQaWNjaHUlMjBQZXJ1fGVufDF8MHx8fDE3OTE0NTUwNDZ8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Machu Picchu: machu picchu ruins among misty mountains",
+        "author": "Willian Justen de Vasconcellos",
+        "authorUrl": "https://unsplash.com/@willianjusten?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/machu-picchu-ruins-among-misty-mountains-4hMET7vYTAQ?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8TWFjaHUlMjBQaWNjaHUlMjBQZXJ1fGVufDF8MHx8fDE3OTE0NTUwNDZ8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Machu Picchu: The ancient stone ruins of Machu Picchu nestled among lush green mountains in Peru",
+        "author": "Eddie Kiszka",
+        "authorUrl": "https://unsplash.com/@eddiekiszka?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/machu-picchu-stone-ruins-in-peru-rFESpq5MMTg?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_47.JPG/1920px-Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_47.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Machu Picchu: View of the ancient houses of Machu Picchu houses, Urubamba Province, Cusco Region, today Peru. The 15th-century Inca citadel, abandoned one century later, is situated in the Sacred Vall",
+        "author": "Diego Delso",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Per%C3%BA,_2015-07-30,_DD_47.JPG",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_60.JPG/1920px-Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_60.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Machu Picchu: Machu Picchu, Peru",
+        "author": "Diego Delso",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Per%C3%BA,_2015-07-30,_DD_60.JPG",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 3,
@@ -165,7 +229,39 @@
         "url": "https://parks.canada.ca/pn-np/ab/banff"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1561134643-668f9057cce4?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8QmFuZmYlMjBOYXRpb25hbCUyMFBhcmslMjBDYW5hZGF8ZW58MXwwfHx8MTc5MTQ1NTA1MHww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Banff National Park: trees near a mountain beside body of water during golden hour",
+        "author": "Jacky Huang",
+        "authorUrl": "https://unsplash.com/@boba4life?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/trees-near-a-mountain-beside-body-of-water-during-golden-hour-6rC8fmNW3pk?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1576547756401-f9e122d87431?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8QmFuZmYlMjBOYXRpb25hbCUyMFBhcmslMjBDYW5hZGF8ZW58MXwwfHx8MTc5MTQ1NTA1MHww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Banff National Park: river, forest, and mountains during day",
+        "author": "Tevin Trinh",
+        "authorUrl": "https://unsplash.com/@tevintrinh?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/river-forest-and-mountains-during-day--QbVBqWlOJg?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Moraine_Lake_17092005.jpg/1920px-Moraine_Lake_17092005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Banff National Park: Valley of the Ten Peaks and Moraine Lake, Banff National Park, Canada. Mountains from left to right: Tonsa (3057 m), Mount Perren (3051 m), Mount Allen (3310 m), Mount Tuzo (3246 ",
+        "author": "Gorgo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg",
+        "license": "Public domain"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Rockies_in_the_morning.jpg/1920px-Rockies_in_the_morning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Banff National Park: Canadian Rockies in the morning. Banff National Park, Alberta, Canada.",
+        "author": "Sergey Pesterev",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rockies_in_the_morning.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 4,
@@ -219,7 +315,39 @@
         "url": "https://www.nps.gov/yell/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1683499265663-d38c13aced63?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8WWVsbG93c3RvbmUlMjBOYXRpb25hbCUyMFBhcmslMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc5MTQ1NTA1NHww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Yellowstone National Park: a large body of water surrounded by a forest",
+        "author": "Iryna Marienko",
+        "authorUrl": "https://unsplash.com/@iamr_r_r?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-a-forest-eyYlm8Px2ik?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1681084533941-fe9a0df8ba20?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8WWVsbG93c3RvbmUlMjBOYXRpb25hbCUyMFBhcmslMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc5MTQ1NTA1NHww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Yellowstone National Park: a bison grazes in a field with steam rising in the background",
+        "author": "Ivana Sluneckova",
+        "authorUrl": "https://unsplash.com/@ivik?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-bison-grazes-in-a-field-with-steam-rising-in-the-background-gQdCfaXw9yc?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg/1920px-Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Yellowstone National Park: Daisy Geyser erupting in Yellowstone National Park",
+        "author": "Brocken Inaglory",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/American_bison_in_Yellowstone_National_Park.jpg/1920px-American_bison_in_Yellowstone_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Yellowstone National Park: American bison ♂ (Bison bison bison) in Yellowstone National Park, Wyoming, United States. Only a week after this photo was taken, President Obama signed the National Bison ",
+        "author": "Frank Schulenburg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_bison_in_Yellowstone_National_Park.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 5,
@@ -276,7 +404,39 @@
         "url": "https://www.tanzaniaparks.go.tz/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1566296524462-e0a341bf65e6?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8U2VyZW5nZXRpJTIwTmF0aW9uYWwlMjBQYXJrJTIwVGFuemFuaWF8ZW58MXwwfHx8MTc5MTQ1NTA1N3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Serengeti National Park: five black and white zebras",
+        "author": "Hendrik Cornelissen",
+        "authorUrl": "https://unsplash.com/@the_bracketeer?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/five-black-and-white-zebras-qs4E9t0hJc0?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1575999502951-4ab25b5ca889?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8U2VyZW5nZXRpJTIwTmF0aW9uYWwlMjBQYXJrJTIwVGFuemFuaWF8ZW58MXwwfHx8MTc5MTQ1NTA1N3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Serengeti National Park: A white sand beach with palm trees and a wooden pier in Zanzibar, Tanzania",
+        "author": "Humphrey M",
+        "authorUrl": "https://unsplash.com/@good_citizen?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/white-sand-beach-in-zanzibar-e6dRLBx6Kg8?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/002_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1920px-002_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Serengeti National Park: Wild lion (Panthera leo) Snyggve (also known as Bob Junior), son of C-Boy, scanning the horizon in the Serengeti National Park",
+        "author": "Giles Laurent",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:002_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/023_African_wolf_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1920px-023_African_wolf_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Serengeti National Park: African wolf in Serengeti National Park, Tanzania",
+        "author": "Giles Laurent",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:023_African_wolf_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 6,
@@ -334,7 +494,39 @@
         "url": "https://www.sanparks.org/parks/table-mountain"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1744604030305-25535c6ab196?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8VGFibGUlMjBNb3VudGFpbiUyME5hdGlvbmFsJTIwUGFyayUyMFNvdXRoJTIwQWZyaWNhfGVufDF8MHx8fDE3OTE0NTUwNjB8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Table Mountain National Park: Mountains stand next to the ocean under a blue sky",
+        "author": "Vimal Joseph",
+        "authorUrl": "https://unsplash.com/@dr_vimaljv?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/mountains-stand-next-to-the-ocean-under-a-blue-sky-eqwalk0UD7g?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1675118222457-eb2458c115f4?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8VGFibGUlMjBNb3VudGFpbiUyME5hdGlvbmFsJTIwUGFyayUyMFNvdXRoJTIwQWZyaWNhfGVufDF8MHx8fDE3OTE0NTUwNjB8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Table Mountain National Park: a group of people standing on top of a mountain",
+        "author": "Falco Negenman",
+        "authorUrl": "https://unsplash.com/@f9lco?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-group-of-people-standing-on-top-of-a-mountain-BUZNIorXZMk?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Cape_Town_%28ZA%29%2C_Cape_Peninsula_National_Park_--_2024_--_3269-74.jpg/1920px-Cape_Town_%28ZA%29%2C_Cape_Peninsula_National_Park_--_2024_--_3269-74.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Table Mountain National Park: View of Hout Bay from Chapman’s Peak Drive, Cape Peninsula National Park, Cape Town, Western Cape, South Africa",
+        "author": "Dietmar Rabich",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Cape_Peninsula_National_Park_--_2024_--_3269-74.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Cape_Town_%28ZA%29%2C_Cape_Peninsula_National_Park%2C_Cape_of_Good_Hope_--_2024_--_3326.jpg/1920px-Cape_Town_%28ZA%29%2C_Cape_Peninsula_National_Park%2C_Cape_of_Good_Hope_--_2024_--_3326.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Table Mountain National Park: Coast at the Cape of Good Hope, Cape Peninsula National Park, Cape Town, Western Cape, South Africa",
+        "author": "Dietmar Rabich",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Cape_Peninsula_National_Park,_Cape_of_Good_Hope_--_2024_--_3326.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 7,
@@ -390,7 +582,39 @@
         "url": "https://vietnam.travel/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1609412058473-c199497c3c5d?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8U2FwYSUyMFZpZXRuYW18ZW58MXwwfHx8MTc5MTQ1NTA2NXww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Sapa: Two people walking through golden rice terraces in Mu Cang Chai, Vietnam, at dawn",
+        "author": "Hoach Le Dinh",
+        "authorUrl": "https://unsplash.com/@hoachld?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/rice-terraces-in-mu-cang-chai-PeRt3uMmjYM?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1480996408299-fc0e830b5db1?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8U2FwYSUyMFZpZXRuYW18ZW58MXwwfHx8MTc5MTQ1NTA2NXww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Sapa: aerial photography of green mountain",
+        "author": "Doan Tuan",
+        "authorUrl": "https://unsplash.com/@danny_pham93?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/aerial-photography-of-green-mountain-3QFQOxGCVmE?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/TTTM_Sapa_Prague-south_entrance.jpg/1920px-TTTM_Sapa_Prague-south_entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Sapa: Gate of TTTM Sapa, Vietnamese market place in south Prague",
+        "author": "Martin2035",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TTTM_Sapa_Prague-south_entrance.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Stiftung_SAPA%2C_Schweizer_Archiv_der_Darstellenden_K%C3%BCnste%2C_Eingang_Bern.jpg/1920px-Stiftung_SAPA%2C_Schweizer_Archiv_der_Darstellenden_K%C3%BCnste%2C_Eingang_Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Sapa: Stiftung SAPA, Schweizer Archiv der Darstellenden Künste, Eingang Bern",
+        "author": "Hadi",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stiftung_SAPA,_Schweizer_Archiv_der_Darstellenden_K%C3%BCnste,_Eingang_Bern.jpg",
+        "license": "CC0"
+      }
+    ]
   },
   {
     "id": 8,
@@ -444,7 +668,39 @@
         "url": "https://ntb.gov.np/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1553886334-43d24f24d3bd?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8QW5uYXB1cm5hJTIwQ2lyY3VpdCUyME5lcGFsfGVufDF8MHx8fDE3OTE0NTUwNjl8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Annapurna Circuit: mountain covered with snow under cloudy sky",
+        "author": "Sylwia Bartyzel",
+        "authorUrl": "https://unsplash.com/@sylwiabartyzel?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/mountain-covered-with-snow-under-cloudy-sky-FuuEdB1XN4M?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1545662618-66de187bbf69?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8QW5uYXB1cm5hJTIwQ2lyY3VpdCUyME5lcGFsfGVufDF8MHx8fDE3OTE0NTUwNjl8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Annapurna Circuit: red flah near snow covered mountain during daytime",
+        "author": "Samrat Khadka",
+        "authorUrl": "https://unsplash.com/@samrat_khadka?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/red-flah-near-snow-covered-mountain-during-daytime-VaeXuio0rn0?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg/1920px-Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Annapurna Circuit: Yak (Bos grunniens) at Letdar on the Annapurna Circuit in the Annapurna mountain range of central Nepal.",
+        "author": "travelwayoflife",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Snowy_Annapurna_Range_-_panorama.jpg/1920px-Snowy_Annapurna_Range_-_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Annapurna Circuit: Snowy Annapurna Himal",
+        "author": "Ali Sabbagh",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snowy_Annapurna_Range_-_panorama.jpg",
+        "license": "CC0"
+      }
+    ]
   },
   {
     "id": 9,
@@ -503,7 +759,39 @@
         "url": "https://www.doc.govt.nz/milfordtrack"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1475061310011-970c2da77d72?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8RmlvcmRsYW5kJTIwTmF0aW9uYWwlMjBQYXJrJTIwTmV3JTIwWmVhbGFuZHxlbnwxfDB8fHwxNzkxNDU1MDcyfDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Fiordland National Park: waterfalls surrounded mountain under blue and white skies",
+        "author": "Sam Ferrara",
+        "authorUrl": "https://unsplash.com/@samferrara?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/waterfalls-surrounded-mountain-under-blue-and-white-skies-O3qEc4dOWkM?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1703719489967-1d93bdc51857?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8RmlvcmRsYW5kJTIwTmF0aW9uYWwlMjBQYXJrJTIwTmV3JTIwWmVhbGFuZHxlbnwxfDB8fHwxNzkxNDU1MDcyfDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Fiordland National Park: a large body of water surrounded by mountains",
+        "author": "Athithan Vignakaran",
+        "authorUrl": "https://unsplash.com/@avignakaran?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-k8xsgKZJvtI?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Mountains_in_Fiordland_National_Park_01.jpg/1920px-Mountains_in_Fiordland_National_Park_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Fiordland National Park: Mountains towering over Upper Valley of Cleddau River South Branch in Fiordland National Park, South Island of New Zealand",
+        "author": "Krzysztof Golik",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountains_in_Fiordland_National_Park_01.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Landscape_of_Fiordland_National_Park_02.jpg/1920px-Landscape_of_Fiordland_National_Park_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Fiordland National Park: Landscape near Homer Tunnel in Fiordland National Park, South Island of New Zealand",
+        "author": "Krzysztof Golik",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape_of_Fiordland_National_Park_02.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 10,
@@ -559,7 +847,39 @@
         "url": "https://parksaustralia.gov.au/kakadu/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1623719647321-188ae37d7133?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8S2FrYWR1JTIwTmF0aW9uYWwlMjBQYXJrJTIwQXVzdHJhbGlhfGVufDF8MHx8fDE3OTE0NTUwNzd8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Kakadu National Park: green trees on body of water during daytime",
+        "author": "Rod Long",
+        "authorUrl": "https://unsplash.com/@rodlong?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-trees-on-body-of-water-during-daytime-zacVDX85Lfo?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1623720233298-508f5b2bc752?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8S2FrYWR1JTIwTmF0aW9uYWwlMjBQYXJrJTIwQXVzdHJhbGlhfGVufDF8MHx8fDE3OTE0NTUwNzd8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Kakadu National Park: green and brown grass field",
+        "author": "Rod Long",
+        "authorUrl": "https://unsplash.com/@rodlong?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-and-brown-grass-field-gvcrxi0rTmw?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Kakadu_%28AU%29%2C_Kakadu_National_Park%2C_Nadap_Lookout_--_2019_--_4200.jpg/1920px-Kakadu_%28AU%29%2C_Kakadu_National_Park%2C_Nadap_Lookout_--_2019_--_4200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Kakadu National Park: View from Nadap Lookout, Kakadu National Park, Northern Territory, AustraliaAs early as the 1930s, local communities and authorities were campaigning for environmental protection",
+        "author": "Dietmar Rabich",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kakadu_(AU),_Kakadu_National_Park,_Nadap_Lookout_--_2019_--_4200.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Kakadu_%28AU%29%2C_Kakadu_National_Park%2C_Cahills_Crossing_--_2019_--_4153.jpg/1920px-Kakadu_%28AU%29%2C_Kakadu_National_Park%2C_Cahills_Crossing_--_2019_--_4153.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Kakadu National Park: Cahills Crossing at Kakadu National Park, Northern Territory, AustraliaAs early as the 1930s, local communities and authorities were campaigning for environmental protection in t",
+        "author": "Dietmar Rabich",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kakadu_(AU),_Kakadu_National_Park,_Cahills_Crossing_--_2019_--_4153.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 11,
@@ -615,7 +935,39 @@
         "url": "https://www.visitscotland.com/places-to-go/islands/isle-skye"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1560506796-d843f7cd01b2?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8SXNsZSUyMG9mJTIwU2t5ZSUyMFNjb3RsYW5kfGVufDF8MHx8fDE3OTE0NTUwODV8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Isle of Skye: panoramic photography of hills on planes during daytime",
+        "author": "Kyle Pasalskyj",
+        "authorUrl": "https://unsplash.com/@kylepasalskyj?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/panoramic-photography-of-hills-on-planes-during-daytime-3nTPYQHDc5U?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1560740523-a8edea30fa26?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8SXNsZSUyMG9mJTIwU2t5ZSUyMFNjb3RsYW5kfGVufDF8MHx8fDE3OTE0NTUwODV8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Isle of Skye: green hills",
+        "author": "Suganth",
+        "authorUrl": "https://unsplash.com/@suganth?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-hills-b2O7T649-xE?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Quiraing_Isle_of_Skye_Pano.jpg/1920px-Quiraing_Isle_of_Skye_Pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Isle of Skye: View from Quiraing to the Staffinbay. Isle of Skye, Scotland.",
+        "author": "Stefan Krause, Germany",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quiraing_Isle_of_Skye_Pano.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Panorama_in_the_Isle_of_Skye_1.JPG/1920px-Panorama_in_the_Isle_of_Skye_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Isle of Skye: Panorama in the Isle of Skye",
+        "author": "Mimihitam",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_in_the_Isle_of_Skye_1.JPG",
+        "license": "CC BY-SA 3.0"
+      }
+    ]
   },
   {
     "id": 12,

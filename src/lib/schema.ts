@@ -30,7 +30,7 @@ export const PhotoSchema = z.object({
   src: z.union([
     z.string().regex(/^\/(hikes|trails)\/[a-z0-9-]+\.(jpg|jpeg|png|webp)$/),
     z.url().regex(/^https:\/\/(cdn2\.)?behold\.pictures\//),
-    z.url().regex(/^https:\/\/(images\.unsplash\.com|images\.pexels\.com)\//),
+    z.url().regex(/^https:\/\/(images\.unsplash\.com|images\.pexels\.com|(upload|thumb)\.wikimedia\.org)\//),
   ]),
   alt: z.string().min(1).max(200),
   author: z.string().min(1),
@@ -77,6 +77,8 @@ export const HikeSchema = z.object({
   details: DetailsSchema.optional(),
   sources: z.array(z.object({ label: z.string().min(1), url: z.url() })).default([]),
   checkedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+  /** Extra credited photos for the hike-page gallery slider (Unsplash, Wikimedia Commons…). */
+  gallery: z.array(PhotoSchema).default([]),
   /** @great_hikes Instagram post ids featuring this place (shown with credit on the hike page). */
   instagram: z.array(z.string().regex(/^\d+$/)).default([]),
 });

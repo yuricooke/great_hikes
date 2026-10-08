@@ -4,6 +4,11 @@
  */
 export const IS_PRODUCTION = process.env.VERCEL_ENV === "production";
 export const SHOW_SAMPLES = !IS_PRODUCTION;
+/**
+ * Shop placeholders (sample products, clearly labelled "Sample") can be switched on in production
+ * for testing with SHOW_SHOP_SAMPLES=1 — until partner feeds (spec 006) supply real products.
+ */
+export const SHOW_SHOP_SAMPLES = SHOW_SAMPLES || process.env.SHOW_SHOP_SAMPLES === "1";
 
 /** Supabase public settings present (Vercel env / .env.local). */
 export const SUPABASE_CONFIGURED = Boolean(
