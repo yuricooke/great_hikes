@@ -104,7 +104,7 @@ test("journal: article page with inline hike card and related rails", async ({ p
   await page.getByRole("link", { name: /Planning the W Trek/ }).first().click();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Planning the W Trek in Torres del Paine");
   await expect(page.getByRole("complementary", { name: /Hike: Torres del Paine/ })).toBeVisible();
-  await expect(page.getByRole("region", { name: "Hikes in this story" })).toBeVisible();
+  await expect(page.getByRole("region", { name: "Hikes in this story", exact: true })).toBeVisible();
 });
 
 test("shop: categories, sorting and products that open the partner store", async ({ page }) => {

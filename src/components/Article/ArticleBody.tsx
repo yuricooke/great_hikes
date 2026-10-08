@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { hikeBySlug, hikePath } from "@/lib/hikes";
 import type { ArticleBlock } from "@/lib/journal";
-import PhotoCredit from "../PhotoCredit/PhotoCredit";
+import HikeGallery from "../HikeGallery/HikeGallery";
 import styles from "./ArticleBody.module.css";
 
 /** Renders journal blocks: text, headings, quotes, inline hike link-cards and photo galleries. */
@@ -51,24 +51,31 @@ export default function ArticleBody({ blocks }: { blocks: ArticleBlock[] }) {
               </aside>
             );
           }
-          case "gallery":
+          case "gallery": {
+            // Several hikes side by side — each card opens full screen, captioned with the hike.
+            const hikes = block.slugs.map((s) => hikeBySlug(s)!);
             return (
-              <figure key={i} className={styles.gallery}>
-                <ul className={styles.galleryList}>
-                  {block.slugs.map((s) => {
-                    const hike = hikeBySlug(s)!;
-                    return (
-                      <li key={s} className={styles.galleryItem}>
-                        <div className={styles.galleryImage}>
-                          <Image src={hike.photo.src} alt={hike.photo.alt} fill sizes="(min-width: 768px) 420px, 80vw" quality={65} />
-                        </div>
-                        <PhotoCredit photo={hike.photo} />
-                      </li>
-                    );
-                  })}
-                </ul>
-              </figure>
+              <div key={i} className={styles.slider}>
+                <HikeGallery bleed label="Photos of the hikes in this story" slides={hikes.map((h) => ({ photo: h.photo, caption: h.title }))} />
+              </div>
             );
+          }
+          case "photos": {
+            const hike = hikeBySlug(block.hike)!;
+            return (
+              <div key={i} className={styles.slider}>
+                {block.text && <p className={styles.sliderTitle}>{block.text}</p>}
+                <HikeGallery
+                  bleed
+                  label={`${hike.title} photos`}
+                  slides={[{ photo: hike.photo }, ...hike.gallery.map((photo) => ({ photo }))]}
+                />
+                <Link href={hikePath(hike)} className={styles.linkCta}>
+                  Plan {hike.title}
+                </Link>
+              </div>
+            );
+          }
         }
       })}
     </div>

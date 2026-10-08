@@ -12,6 +12,8 @@ const Block = z.discriminatedUnion("type", [
   z.object({ type: z.literal("quote"), text: z.string(), cite: z.string().optional() }),
   z.object({ type: z.literal("hikeCard"), slug, text: z.string() }),
   z.object({ type: z.literal("gallery"), slugs: z.array(slug).min(2) }),
+  /** A hike's photo gallery as a slider (cover + its credited gallery photos). */
+  z.object({ type: z.literal("photos"), hike: slug, text: z.string().optional() }),
 ]);
 const ArticleSchema = z.object({
   slug,
@@ -39,7 +41,7 @@ export type ArticleBlock = z.infer<typeof Block>;
 function load(): Article[] {
   const articles = z.array(ArticleSchema).parse(rawArticles);
   for (const a of articles) {
-    const refs = [a.cover, ...a.relatedHikes, ...a.blocks.flatMap((b) => ("slug" in b ? [b.slug] : "slugs" in b ? b.slugs : []))];
+    const refs = [a.cover, ...a.relatedHikes, ...a.blocks.flatMap((b) => ("slug" in b ? [b.slug] : "slugs" in b ? b.slugs : "hike" in b ? [b.hike] : []))];
     for (const s of refs) if (!hikeBySlug(s)) throw new Error(`Article ${a.slug}: unknown hike ${s}`);
   }
   return articles;
