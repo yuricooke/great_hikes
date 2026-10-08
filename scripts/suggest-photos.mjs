@@ -1,7 +1,7 @@
 /**
- * Photo suggestions from Unsplash and Pexels (free APIs) for trails/places without their own photo.
- *
- * Needs UNSPLASH_ACCESS_KEY and/or PEXELS_API_KEY in .env.local (never commit keys).
+ * Photo suggestions for trails/places without their own photo, from Unsplash (UNSPLASH_ACCESS_KEY,
+ * listed first), Wikimedia Commons (no key; free licenses only: public domain, CC0, CC BY, CC BY-SA)
+ * and Pexels (PEXELS_API_KEY) — keys live in .env.local, never committed.
  * Writes content/photo-candidates.json and a contact sheet at photo-candidates.html (gitignored)
  * so the owner can pick, then `npm run photos:apply -- <target> <number>` sets the photo with credit.
  *
@@ -14,10 +14,7 @@ import { readFile, writeFile } from "node:fs/promises";
 config({ path: ".env.local" });
 const UNSPLASH = process.env.UNSPLASH_ACCESS_KEY;
 const PEXELS = process.env.PEXELS_API_KEY;
-if (!UNSPLASH && !PEXELS) {
-  console.error("Add UNSPLASH_ACCESS_KEY and/or PEXELS_API_KEY to .env.local first.");
-  process.exit(1);
-}
+const UA = "GreatHikes/1.0 (https://great-hikes.vercel.app)";
 const PER = 4;
 const only = process.argv[2];
 
@@ -40,6 +37,37 @@ async function unsplash(query) {
     width: p.width,
     height: p.height,
   }));
+}
+
+const strip = (html = "") => html.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+const FREE = /^(public domain|pd|cc0|cc by(-sa)? [0-9.]+)$/i;
+
+/** Wikimedia Commons: landscape photos ≥ 1600 px with a free license (attribution kept). */
+async function commons(query) {
+  const url =
+    "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=20" +
+    `&gsrsearch=${encodeURIComponent(`${query} filetype:bitmap`)}&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=640`;
+  const res = await fetch(url, { headers: { "User-Agent": UA } });
+  if (!res.ok) throw new Error(`Commons ${res.status}`);
+  const pages = Object.values((await res.json()).query?.pages ?? {});
+  return pages
+    .map((p) => ({ title: p.title, info: p.imageinfo?.[0] }))
+    .filter(({ info }) => info && info.width >= 1600 && info.width > info.height)
+    .map(({ title, info }) => ({ title, info, license: strip(info.extmetadata?.LicenseShortName?.value) }))
+    .filter(({ license }) => FREE.test(license))
+    .slice(0, PER)
+    .map(({ title, info, license }) => ({
+      provider: "commons",
+      id: title,
+      thumb: info.thumburl,
+      original: info.url,
+      alt: strip(info.extmetadata?.ImageDescription?.value).slice(0, 160),
+      author: strip(info.extmetadata?.Artist?.value) || "Unknown",
+      sourceUrl: info.descriptionurl,
+      license: /^pd$/i.test(license) ? "Public domain" : license,
+      width: info.width,
+      height: info.height,
+    }));
 }
 
 async function pexels(query) {
@@ -71,9 +99,10 @@ const targets = [
 
 const out = {};
 for (const { target, query } of targets) {
-  const [u, p] = await Promise.all([unsplash(query), pexels(query)]);
-  out[target] = { query, candidates: [...u, ...p] };
-  console.log(`${target}: ${u.length} Unsplash + ${p.length} Pexels`);
+  const [c, u, p] = await Promise.all([commons(query), unsplash(query), pexels(query)]);
+  // Owner preference: Unsplash first, then Commons, then Pexels.
+  out[target] = { query, candidates: [...u, ...c, ...p] };
+  console.log(`${target}: ${u.length} Unsplash + ${c.length} Commons + ${p.length} Pexels`);
 }
 await writeFile("content/photo-candidates.json", `${JSON.stringify(out, null, 2)}\n`);
 

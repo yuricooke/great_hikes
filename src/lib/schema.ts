@@ -28,7 +28,7 @@ const landscapeKeys = LANDSCAPES.map((l) => l.key) as [LandscapeKey, ...Landscap
 export const PhotoSchema = z.object({
   /** A file in /public/hikes, or an @great_hikes Instagram image served by Behold. */
   src: z.union([
-    z.string().regex(/^\/hikes\/[a-z0-9-]+\.(jpg|jpeg|png|webp)$/),
+    z.string().regex(/^\/(hikes|trails)\/[a-z0-9-]+\.(jpg|jpeg|png|webp)$/),
     z.url().regex(/^https:\/\/(cdn2\.)?behold\.pictures\//),
     z.url().regex(/^https:\/\/(images\.unsplash\.com|images\.pexels\.com)\//),
   ]),
