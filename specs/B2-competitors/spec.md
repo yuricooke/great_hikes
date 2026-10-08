@@ -1,6 +1,8 @@
 # B2 — Competitive landscape (domain)
 
-**Status:** first pass done — `docs/discovery/05-competitors.md` (2026-10-07: Outdooractive,
+**Status:** v2 done 2026-10-08 — `docs/discovery/06-competitors-v2.md` (Outdooractive deep dive,
+feature matrix, SEO landscape for 20 queries, Instagram landscape, partnership map, 10
+recommendations). First pass — `docs/discovery/05-competitors.md` (2026-10-07: Outdooractive,
 AllTrails, Komoot, Wikiloc, Gaia GPS, FATMAP, Hiking Project, content sites, Instagram
 collectives, Lonely Planet).
 

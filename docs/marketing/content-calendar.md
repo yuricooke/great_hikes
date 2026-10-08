@@ -3,6 +3,10 @@
 Rhythm: **1 guide/week, 3 Instagram features/week, 1 reel/week, 2–3 new hikes/week, monthly
 newsletter.** Agents draft; the owner approves (B5).
 
+**Priority (B2 v2):** dated permit/booking pages and route comparisons first ("Half Dome permits
+2027", "W vs O circuit", "Machame vs Lemosho", "EBC vs Annapurna", "Nepal permits explained");
+"Permit Watch" Instagram series weekly.
+
 ## Pre-launch (Oct–Dec 2026) — build depth
 | Month | Guides (journal) | New hikes/trails | Instagram |
 |---|---|---|---|

@@ -38,6 +38,19 @@ mid-October, Milford Track: May). So:
 | **Partnerships** | Reach + credibility | Featured photographers, small tour operators, tourism boards (later) | 1 h |
 | **Community loop** | Growth engine | Tag → feature → credited page → share card → more tags; approve shared photos weekly | 2 h |
 
+## 3b. What the competitor research changed (B2 v2, `docs/discovery/06-competitors-v2.md`)
+- **SEO wedge = dated permit & booking pages + comparison pages.** Operators and blogs own
+  "best hikes in X"; official sites own raw rules. We win "how to book / when it opens / which
+  route" with dated, sourced, neutral answers: e.g. "Half Dome permits 2027", "W vs O circuit",
+  "Machame vs Lemosho", "Nepal trekking permits explained". → Content calendar prioritises these.
+- **Instagram series "Permit Watch"** (permit openings, lotteries, closures) + facts in captions —
+  no feature account does this.
+- **Every feature gets a page and a share card** — the gap no Instagram collective fills.
+- **Tours before gear on international treks** (Bookatrekking, GetYourGuide/Viator); gear first
+  on US day hikes.
+- **Check real Google rankings** (Search Console + manual checks) before spending on ads; the
+  research tool only approximates Google.
+
 ## 4. The community loop (our edge — B2)
 1. Hiker tags @great_hikes / #great_hikes or uses **Share your hike**.
 2. We feature the photo (consent by DM, credit always) and add it to the hike page.
