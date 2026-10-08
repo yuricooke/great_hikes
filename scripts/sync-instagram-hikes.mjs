@@ -7,7 +7,9 @@
  *    place that geocodes (OpenStreetMap Nominatim, 1 request/second);
  *  - links the post to an existing hike when the place is within 25 km of it;
  *  - otherwise adds it to content/hike-candidates.json for the add-hike skill/agent to research
- *    and turn into a draft hike that the owner approves.
+ *    and turn into a draft hike that the owner approves. The Instagram image is never the hike's main
+ *    photo (low-res) — it's credited in the hike's "Featured on @great_hikes" section/gallery
+ *    (docs/business/instagram-content-policy.md). The hashtag feed is never published.
  *
  * Usage: node scripts/sync-instagram-hikes.mjs   (idempotent; safe to re-run)
  */

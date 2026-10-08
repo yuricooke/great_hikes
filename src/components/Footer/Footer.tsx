@@ -22,7 +22,6 @@ const COLUMNS: { title: string; links: FooterLink[] }[] = [
     title: "Community",
     links: [
       { label: "Share your hike", href: "/share" },
-      { label: "#great_hikes photos", href: "/community" },
       { label: "Our feed", href: "/our-feed" },
     ],
   },

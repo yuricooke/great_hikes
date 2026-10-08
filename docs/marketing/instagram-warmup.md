@@ -1,5 +1,7 @@
 # Instagram warm-up — @great_hikes, Oct 2026 → launch mid-Jan 2027
 
+> **Owner decision 2026-10-08:** lead the warm-up with the **owner's own content** (own photos, trips, Permit Watch, fact carousels). Few people tag @great_hikes today, and Instagram rewards original posts. Add Collab features with photographers as engagement returns. The #great_hikes hashtag is not shown on the website (`docs/business/instagram-content-policy.md`).
+
 **Status:** draft v1 (2026-10-08), for the owner's review. Builds on `gtm-plan.md` (4 h/week for
 Instagram), `ads-test-plan.md` (US$90 Meta boost after launch), `06-competitors-v2.md` §4 and
 `docs/business/red-lines.md`. Facts marked **(unverified)** come from secondary sources or could

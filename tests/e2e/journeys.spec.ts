@@ -155,12 +155,12 @@ test("outbound /go links redirect to the partner (samples: back to the shop)", a
   expect((await request.get("/go/unknown-product", { maxRedirects: 0 })).headers().location).toMatch(/\/shop$/);
 });
 
-test("instagram pages render", async ({ page }) => {
-  for (const [url, title] of [["/our-feed", "Our feed"], ["/community", "Our community"]]) {
-    const res = await page.goto(url);
-    expect(res?.status()).toBe(200);
-    await expect(page.getByRole("heading", { level: 1 })).toHaveText(title);
-  }
+test("our feed renders; the #great_hikes hashtag page redirects to it (owner policy)", async ({ page }) => {
+  const res = await page.goto("/our-feed");
+  expect(res?.status()).toBe(200);
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Our feed");
+  await page.goto("/community");
+  await expect(page).toHaveURL(/\/our-feed$/);
 });
 
 test("sign in with the test account, save a hike, see it in favorites", async ({ page }, testInfo) => {
