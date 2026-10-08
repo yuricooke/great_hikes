@@ -42,7 +42,18 @@ Each row is one Spec Kit feature (`specs/NNN-name/`). Discovery behind the order
 **Launch gate:** no fixed date. Launch when specs 001–006 are live and the go-to-market
 plan (marketing track below) is approved.
 
-### Marketing track (runs in parallel with code)
+### Business track (owner priority 2026-10-08 — before more product specs)
+
+| Spec | Name | Status |
+|------|------|--------|
+| B1 | Business strategy & model (vision, positioning, audiences, revenue model, OKRs, brand/domain) | To do |
+| B2 | Competitive landscape (feature matrix, SEO landscape, Instagram, partnerships) | First pass done (`docs/discovery/05-competitors.md`) |
+| B3 | Go-to-market & growth (launch plan, channels, content calendar, ads test, investment/return) | To do — replaces M1–M4 |
+| B4 | UX/UI (design system, UX audit, IA, accessibility audit, performance budget, usability tests) | To do |
+| B5 | QA & content governance (editorial review, fact-checking, freshness, moderation, software QA, monitoring) | To do |
+| B6 | Legal & compliance (operator entity, terms, privacy by region, DMCA, ads/affiliate law, trademark) | To do — needs a lawyer for final wording |
+
+### Marketing track (runs in parallel with code — now inside B3)
 
 | Item | Outcome |
 |------|---------|
