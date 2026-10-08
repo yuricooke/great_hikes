@@ -22,7 +22,7 @@
 }
 
 .off {
-  color: rgba(255, 255, 255, 0.25);
+  color: var(--gh-fill-3);
 }
 
 .reviews {
@@ -38,7 +38,7 @@
   padding: var(--gh-space-4);
   border: var(--gh-glass-border);
   border-radius: var(--gh-radius-sm);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--gh-fill-1);
 }
 
 .review p {
@@ -181,7 +181,7 @@
   padding: var(--gh-space-2) var(--gh-space-3);
   border: var(--gh-glass-border);
   border-radius: var(--gh-radius-sm);
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--gh-fill-2);
   color: var(--gh-text);
   font: inherit;
   font-size: 1rem;
@@ -189,7 +189,7 @@
 }
 
 .field select option {
-  background: #1b1b1b;
+  background: var(--gh-option-bg);
 }
 
 .field input:focus-visible,
@@ -235,5 +235,5 @@
 }
 
 .error {
-  color: #ffb3ba;
+  color: var(--gh-error);
 }

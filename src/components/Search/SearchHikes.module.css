@@ -23,14 +23,14 @@
   padding: 0 var(--gh-space-4) 0 52px;
   border: var(--gh-glass-border);
   border-radius: var(--gh-radius-pill);
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--gh-fill-2);
   color: var(--gh-text);
   font: inherit;
   font-size: var(--gh-text-lg);
 }
 
 .input::placeholder {
-  color: rgba(241, 241, 241, 0.6);
+  color: var(--gh-placeholder);
 }
 
 .group {
@@ -72,8 +72,8 @@
 }
 
 .chip[aria-current="true"] {
-  background: var(--gh-text);
-  color: #000;
+  background: var(--gh-inverse-bg);
+  color: var(--gh-inverse-text);
   font-weight: 600;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .sortLink[aria-current="true"] {
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--gh-fill-3);
   color: var(--gh-text);
   font-weight: 600;
 }

@@ -1,0 +1,46 @@
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gh-space-3);
+  padding: var(--gh-space-3) var(--gh-space-3) 0;
+}
+
+.label {
+  font-size: var(--gh-text-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--gh-tracking-caps);
+  color: var(--gh-text-muted);
+}
+
+.options {
+  display: inline-flex;
+  padding: 3px;
+  border: var(--gh-glass-border);
+  border-radius: var(--gh-radius-pill);
+  background: var(--gh-fill-1);
+}
+
+.option {
+  min-height: 38px;
+  min-width: 64px;
+  padding: 0 var(--gh-space-3);
+  border: 0;
+  border-radius: var(--gh-radius-pill);
+  background: transparent;
+  color: var(--gh-text);
+  font: inherit;
+  font-size: var(--gh-text-sm);
+  cursor: pointer;
+}
+
+.option[aria-checked="true"] {
+  background: var(--gh-inverse-bg);
+  color: var(--gh-inverse-text);
+  font-weight: 600;
+}
+
+.option:focus-visible {
+  outline: 3px solid var(--gh-focus);
+  outline-offset: 2px;
+}

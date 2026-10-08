@@ -27,6 +27,7 @@ export default function ProductCard({ product }: { product: Product }) {
         target="_blank"
         rel="sponsored noopener"
         className={styles.imageLink}
+        data-surface="photo"
         tabIndex={-1}
         aria-hidden="true"
       >

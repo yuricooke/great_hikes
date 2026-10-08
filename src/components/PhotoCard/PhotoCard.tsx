@@ -62,7 +62,7 @@ export default function PhotoCard({
     </>
   );
   return (
-    <div className={`${styles.wrap} ${styles[aspect]}`}>
+    <div className={`${styles.wrap} ${styles[aspect]}`} data-surface="photo">
       {external ? (
         <a href={href} className={styles.card} target="_blank" rel="noopener noreferrer">
           {content}

@@ -19,7 +19,7 @@
   padding: var(--gh-space-5) var(--gh-space-5) var(--gh-space-5) var(--gh-space-6);
   border-left: 3px solid var(--gh-accent);
   border-radius: 0 var(--gh-radius-card) var(--gh-radius-card) 0;
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--gh-fill-1);
   font-family: var(--gh-font-heading);
   font-size: var(--gh-text-xl);
   line-height: 1.4;
@@ -40,7 +40,7 @@
   overflow: hidden;
   border: var(--gh-glass-border);
   border-radius: var(--gh-radius-card);
-  background: linear-gradient(135deg, rgba(31, 122, 67, 0.28), rgba(255, 255, 255, 0.04));
+  background: linear-gradient(135deg, rgba(31, 122, 67, 0.28), var(--gh-fill-1));
   box-shadow: var(--gh-shadow);
 }
 

@@ -73,8 +73,8 @@ export default async function TrailPage({ params }: { params: Promise<Params> })
   return (
     <>
       <BackgroundImage src={photo.src} priority />
-      <article className={styles.article}>
-        <div className={styles.heroInner}>
+      <article className={styles.article} data-photo-page>
+        <div className={styles.heroInner} data-surface="photo">
           <Breadcrumb
             items={[
               { label: "Home", href: "/" },

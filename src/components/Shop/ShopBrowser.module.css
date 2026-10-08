@@ -39,13 +39,13 @@
 }
 
 .category:hover {
-  border-color: rgba(255, 255, 255, 0.45);
+  border-color: var(--gh-line);
 }
 
 .category[aria-current="true"] {
-  background: var(--gh-text);
-  color: #000;
-  border-color: var(--gh-text);
+  background: var(--gh-inverse-bg);
+  color: var(--gh-inverse-text);
+  border-color: var(--gh-inverse-bg);
   font-weight: 600;
 }
 

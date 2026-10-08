@@ -15,6 +15,23 @@
   --gh-accent-hover: #186636;
   --gh-focus: #ffd166;
 
+  /* Theme-aware fills (2026-10-08, light theme): use these instead of hard-coded white/black alphas. */
+  --gh-fill-1: rgba(255, 255, 255, 0.05); /* subtle tile / card on a surface */
+  --gh-fill-2: rgba(255, 255, 255, 0.08); /* form fields, chips */
+  --gh-fill-3: rgba(255, 255, 255, 0.12); /* hover, pressed */
+  --gh-field-bg: rgba(255, 255, 255, 0.08);
+  --gh-option-bg: #1b1b1b; /* <option> lists */
+  --gh-inverse-bg: #f1f1f1; /* selected chip/tag */
+  --gh-inverse-text: #000;
+  --gh-on-photo: #f1f1f1; /* text over photos — light in both themes */
+  --gh-hero-fade: #000; /* hero photo fades into the page colour */
+  --gh-menu-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  --gh-menu-card-bg: rgba(12, 12, 12, 0.82);
+  --gh-card-bg: #171717; /* product cards, tiles on the page */
+  --gh-error: #ffb3ba;
+  --gh-placeholder: rgba(241, 241, 241, 0.6);
+  --gh-panel-bg: rgba(14, 14, 14, 0.72); /* map side panel / preview card */
+
   /* Glass */
   --gh-glass-home: rgba(0, 0, 0, 0.6);
   --gh-glass: rgba(0, 0, 0, 0.6);
@@ -84,4 +101,73 @@
   --gh-topbar-height: calc(var(--gh-header-height) + 2 * var(--gh-space-4)); /* floating header + margins */
   --gh-content-max: none; /* content spans the page with equal left/right margins (owner, 2026-10-07) */
   --gh-tap: 44px;
+}
+
+/*
+ * Light theme (owner choice in the menu; dark stays the default). Same identity — photos, glass,
+ * pills — on a warm off-white page with frosted white glass and dark text.
+ */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --gh-text: #15181b;
+  --gh-text-muted: rgba(21, 24, 27, 0.72);
+  --gh-page: #f4f2ee;
+  --gh-surface: #e8e4dc;
+  --gh-pill: #ffffff;
+  --gh-pill-hover: #ece8e1;
+  --gh-focus: #1d4ed8;
+
+  --gh-fill-1: rgba(0, 0, 0, 0.035);
+  --gh-fill-2: rgba(0, 0, 0, 0.055);
+  --gh-fill-3: rgba(0, 0, 0, 0.09);
+  --gh-field-bg: #ffffff;
+  --gh-option-bg: #ffffff;
+  --gh-inverse-bg: #15181b;
+  --gh-inverse-text: #ffffff;
+  --gh-hero-fade: #f4f2ee;
+  --gh-menu-shadow: 0 20px 50px rgba(30, 25, 15, 0.18);
+  --gh-menu-card-bg: rgba(255, 255, 255, 0.94);
+  --gh-card-bg: #ffffff;
+  --gh-error: #b42318;
+  --gh-placeholder: rgba(21, 24, 27, 0.5);
+  --gh-panel-bg: rgba(255, 255, 255, 0.86);
+
+  --gh-glass-home: rgba(255, 255, 255, 0.72);
+  --gh-glass: rgba(255, 255, 255, 0.78);
+  --gh-glass-strong: rgba(255, 255, 255, 0.86);
+  --gh-glass-border: 1px solid rgba(0, 0, 0, 0.1);
+  --gh-glass-border-subtle: 1px solid rgba(0, 0, 0, 0.07);
+  --gh-line: rgba(21, 24, 27, 0.75);
+  --gh-chrome: rgba(255, 255, 255, 0.7);
+  --gh-chrome-drawer: rgba(255, 255, 255, 0.92);
+  --gh-shadow: 0 8px 28px rgba(30, 25, 15, 0.12);
+  --gh-text-shadow: none;
+}
+
+/*
+ * Photo areas keep the dark values in both themes (hero text, card captions, ads over photos):
+ * mark them with data-surface="photo".
+ */
+:root[data-theme="light"] [data-surface="photo"] {
+  color-scheme: dark;
+  --gh-text: #f1f1f1;
+  --gh-text-muted: rgba(241, 241, 241, 0.82);
+  --gh-pill: #212529;
+  --gh-pill-hover: #424649;
+  --gh-focus: #ffd166;
+  --gh-fill-1: rgba(255, 255, 255, 0.05);
+  --gh-fill-2: rgba(255, 255, 255, 0.08);
+  --gh-fill-3: rgba(255, 255, 255, 0.12);
+  --gh-field-bg: rgba(255, 255, 255, 0.08);
+  --gh-option-bg: #1b1b1b;
+  --gh-inverse-bg: #f1f1f1;
+  --gh-inverse-text: #000;
+  --gh-glass-home: rgba(0, 0, 0, 0.6);
+  --gh-glass: rgba(0, 0, 0, 0.6);
+  --gh-glass-strong: rgba(0, 0, 0, 0.74);
+  --gh-glass-border: 1px solid rgba(255, 255, 255, 0.19);
+  --gh-glass-border-subtle: 1px solid rgba(255, 255, 255, 0.1);
+  --gh-line: rgba(255, 255, 255, 0.85);
+  --gh-text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+  color: var(--gh-text);
 }
