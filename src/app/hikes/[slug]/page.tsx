@@ -19,6 +19,7 @@ import { featuredPosts } from "@/lib/instagram";
 import Community from "@/components/Community/Community";
 import { trailGeo, trailsFor } from "@/lib/trails";
 import TrailList from "@/components/Trail/TrailList";
+import HikeGallery, { type Slide } from "@/components/HikeGallery/HikeGallery";
 import { forecast } from "@/lib/weather";
 import styles from "./hike.module.css";
 
@@ -63,6 +64,22 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
   const features = posts.filter((p) => hike.instagram.includes(p.id));
   const [community, shared] = await Promise.all([communityFor({ hike: hike.slug }), approvedFor(hike.slug)]);
   const trails = trailsFor(hike);
+  // Gallery: the hike photo, extra credited photos, its trails' photos, then approved hiker photos.
+  const slides: Slide[] = [
+    { photo: hike.photo },
+    ...hike.gallery.map((photo) => ({ photo })),
+    ...trails.filter((t) => t.photo).map((t) => ({ photo: t.photo!, caption: t.name })),
+    ...shared.map((s) => ({
+      caption: s.story ? undefined : "Shared by a hiker",
+      photo: {
+        src: s.public_url!,
+        alt: `${hike.title} — photo by ${s.credit_name}`,
+        author: s.instagram_handle ? `${s.credit_name} (@${s.instagram_handle})` : s.credit_name,
+        sourceUrl: s.instagram_handle ? `https://www.instagram.com/${s.instagram_handle}/` : null,
+        license: "Shared with Great Hikes by the photographer",
+      },
+    })),
+  ];
   const measuredKm = Object.fromEntries(
     await Promise.all(trails.map(async (t) => [t.slug, (await trailGeo(t))?.lengthKm ?? 0] as const)),
   );
@@ -166,19 +183,10 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
               <h2 id="gallery" className={styles.sectionTitle}>
                 Gallery
               </h2>
-              <figure className={styles.figure}>
-                <Image
-                  src={hike.photo.src}
-                  alt={hike.photo.alt}
-                  width={1200}
-                  height={800}
-                  sizes="(min-width: 992px) 60vw, 100vw"
-                  className={styles.photo}
-                />
-                <figcaption>
-                  <PhotoCredit photo={hike.photo} />
-                </figcaption>
-              </figure>
+              <HikeGallery slides={slides} label={`${hike.title} photos`} />
+              <PillButton href={`/share?hike=${hike.slug}`} icon="add" variant="outline" className={styles.official}>
+                Share your photo of {hike.title}
+              </PillButton>
             </section>
 
             <section aria-labelledby="community">
@@ -191,43 +199,6 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
                 initialReviews={community.reviews}
                 initialTips={community.tips}
               />
-            </section>
-
-            <section aria-labelledby="shared">
-              <h2 id="shared" className={styles.sectionTitle}>
-                From the community
-              </h2>
-              {shared.length > 0 && (
-                <ul className={styles.shared}>
-                  {shared.map((s) => (
-                    <li key={s.id}>
-                      <figure className={styles.figure}>
-                        <Image
-                          src={s.public_url!}
-                          alt={`${hike.title} — photo by ${s.credit_name}`}
-                          width={s.width ?? 1200}
-                          height={s.height ?? 800}
-                          sizes="(min-width: 992px) 30vw, 50vw"
-                          className={styles.photo}
-                        />
-                        <figcaption className={styles.sharedCredit}>
-                          Photo: {s.instagram_handle ? (
-                            <a href={`https://www.instagram.com/${s.instagram_handle}/`} target="_blank" rel="noopener noreferrer">
-                              {s.credit_name}
-                            </a>
-                          ) : (
-                            s.credit_name
-                          )}
-                          {s.story && <span className={styles.sharedStory}>{s.story}</span>}
-                        </figcaption>
-                      </figure>
-                    </li>
-                  ))}
-                </ul>
-              )}
-              <PillButton href={`/share?hike=${hike.slug}`} icon="add" variant="outline">
-                Share your photo of {hike.title}
-              </PillButton>
             </section>
 
             {features.length > 0 && (

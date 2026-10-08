@@ -33,6 +33,7 @@ Each row is one Spec Kit feature (`specs/NNN-name/`). Discovery behind the order
 | 008b | Places & trails (O-3, O-2) | Many trails per place: trail pages with map line, elevation profile, facts; OSM + SRTM import | Pilot: Yosemite, Annapurna |
 | 009 | Reviews & tips (O-4) | Ratings, reviews and tips from signed-in users, moderation | ✅ Built (posting goes live with sign-in) |
 | 010 | Community submissions (O-4) | "Share your hike" with contributor license, moderation, contributor profiles | ✅ Built (live with sign-in) |
+| 010b | Share a hike (O-2, O-4) | Full hike submissions (all hike fields, photo mandatory), review/edit notice, convert to draft | Specified — build later |
 | 011 | Instagram curation agents (O-2) | AI-prepared approval inbox | Paused by owner |
 | 013 | AI trail finder (O-3, O-4) | "Describe the hike you want" → grounded suggestions from our data (Claude Haiku) | Specified — needs API key decision |
 | 014 | Map explore (O-3, O-1) | /map: pins, trail lines, filters, synced list | ✅ Built |

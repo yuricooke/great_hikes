@@ -2,7 +2,7 @@ import { z } from "zod";
 
 import rawProducts from "@content/products.json";
 
-import { SHOW_SAMPLES } from "./flags";
+import { SHOW_SHOP_SAMPLES } from "./flags";
 
 /**
  * Shop catalog. Products will come from affiliate network feeds (e.g. AvantLink) which provide
@@ -41,11 +41,11 @@ export type Product = z.infer<typeof ProductSchema>;
 export type CategoryKey = z.infer<typeof CategoryKey>;
 
 export function products(): Product[] {
-  return CATALOG.products.filter((p) => SHOW_SAMPLES || p.status === "published");
+  return CATALOG.products.filter((p) => SHOW_SHOP_SAMPLES || p.status === "published");
 }
 
 export function productById(id: string): Product | undefined {
-  return CATALOG.products.find((p) => p.id === id && (SHOW_SAMPLES || p.status === "published"));
+  return CATALOG.products.find((p) => p.id === id && (SHOW_SHOP_SAMPLES || p.status === "published"));
 }
 
 export function shopCategories() {

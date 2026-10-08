@@ -19,7 +19,8 @@
     "hikes:sync-instagram": "node scripts/sync-instagram-hikes.mjs",
     "trails:import": "node scripts/import-trails.mjs",
     "photos:suggest": "node scripts/suggest-photos.mjs",
-    "photos:apply": "node scripts/apply-photo.mjs"
+    "photos:apply": "node scripts/apply-photo.mjs",
+    "photos:galleries": "node scripts/fill-galleries.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
