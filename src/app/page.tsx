@@ -13,7 +13,7 @@ import Rail from "@/components/Rail/Rail";
 import ProductCard from "@/components/Shop/ProductCard";
 import { pickAd } from "@/lib/ads";
 import { featuredHike } from "@/lib/featured";
-import { sortHikes } from "@/lib/hike-utils";
+import { hikeFacts, sortHikes } from "@/lib/hike-utils";
 import { allHikes, hikeBySlug, hikePath, toHikeCard } from "@/lib/hikes";
 import { featuredPosts } from "@/lib/instagram";
 import { articlePath, articles } from "@/lib/journal";
@@ -90,7 +90,7 @@ export default async function LandingPage() {
       <div className={styles.sections}>
         <Rail id="top-10" title="Our top 10 for you" description="The hikes we'd do again tomorrow." seeAllHref="/explore/top-10">
           {top10.map((h, i) => (
-            <PhotoCard key={h.slug} href={hikePath(h)} image={h.photo.src} title={h.title} subtitle={`${h.country} · ${h.continent}`} badge={`#${i + 1}`} favoriteSlug={h.slug} />
+            <PhotoCard key={h.slug} href={hikePath(h)} image={h.photo.src} title={h.title} subtitle={`${h.country} · ${h.continent}`} badge={`#${i + 1}`} facts={hikeFacts(toHikeCard(h))} favoriteSlug={h.slug} />
           ))}
         </Rail>
 
@@ -134,7 +134,7 @@ export default async function LandingPage() {
 
         <Rail id="recently-added" title="Recently added" description="The newest hikes on Great Hikes." seeAllHref="/hikes" seeAllLabel="All hikes">
           {recent.map((h) => (
-            <PhotoCard key={h.slug} href={hikePath(h)} image={h.photo.src} title={h.title} subtitle={`${h.country} · ${h.continent}`} favoriteSlug={h.slug} />
+            <PhotoCard key={h.slug} href={hikePath(h)} image={h.photo.src} title={h.title} subtitle={`${h.country} · ${h.continent}`} facts={hikeFacts(toHikeCard(h))} favoriteSlug={h.slug} />
           ))}
         </Rail>
 

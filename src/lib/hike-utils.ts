@@ -28,7 +28,21 @@ export type HikeCardData = Pick<Hike, "id" | "slug" | "title" | "country" | "con
   photo: { src: string };
   difficulty: string | null;
   bestMonths: number[];
+  distanceKm: number | null;
+  duration: string | null;
+  /** Number of trail pages inside this place (spec 008b). */
+  trailCount: number;
 };
+
+/** Short facts line for cards: "13.6 km · 4–5 hours · Moderate · 5 trails". */
+export function hikeFacts(h: Pick<HikeCardData, "distanceKm" | "duration" | "difficulty" | "trailCount">): string[] {
+  const out: string[] = [];
+  if (h.trailCount > 1) out.push(`${h.trailCount} trails`);
+  if (h.distanceKm) out.push(`${h.distanceKm} km`);
+  if (h.duration) out.push(h.duration);
+  if (h.difficulty) out.push(h.difficulty[0].toUpperCase() + h.difficulty.slice(1));
+  return out;
+}
 
 /** Filters shared by the landing "Explore by" and All hikes (keys match the URL params). */
 export type HikeFilters = { landscape: string | null; continent: string | null; difficulty: string | null; month: string | null };

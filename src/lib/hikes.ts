@@ -1,4 +1,5 @@
 import rawHikes from "@content/hikes.json";
+import rawTrails from "@content/trails.json";
 
 import { SHOW_SAMPLES } from "./flags";
 import { HikesSchema, type Hike } from "./schema";
@@ -38,6 +39,12 @@ export function relatedHikes(hike: Hike, limit = 6): Hike[] {
 
 export { continentByKey, continentKey, filterByContinent, hikePath } from "./hike-utils";
 
+// Trail pages per place (read raw here to avoid a hikes ↔ trails import cycle).
+const TRAIL_COUNT = new Map<string, number>();
+for (const t of rawTrails as { place: string; status?: string }[]) {
+  if ((t.status ?? "published") === "published" || SHOW_SAMPLES) TRAIL_COUNT.set(t.place, (TRAIL_COUNT.get(t.place) ?? 0) + 1);
+}
+
 /** Slim copy for client-side lists and filters. */
 export function toHikeCard(h: Hike): import("./hike-utils").HikeCardData {
   return {
@@ -52,5 +59,8 @@ export function toHikeCard(h: Hike): import("./hike-utils").HikeCardData {
     photo: { src: h.photo.src },
     difficulty: h.details?.difficulty ?? null,
     bestMonths: h.details?.bestMonths ?? [],
+    distanceKm: h.details?.distanceKm ?? null,
+    duration: h.details?.duration ?? null,
+    trailCount: TRAIL_COUNT.get(h.slug) ?? 0,
   };
 }

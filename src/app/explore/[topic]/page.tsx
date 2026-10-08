@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import HikeGrid from "@/components/HikeGrid/HikeGrid";
 import ListingHeader, { hikeCount } from "@/components/ListingHeader/ListingHeader";
 import PillButton from "@/components/PillButton/PillButton";
+import { toHikeCard } from "@/lib/hikes";
 import { allTopics, hikesForTopic, topicBySlug, topicCover, topicPath } from "@/lib/topics";
 import styles from "../../section.module.css";
 
@@ -43,7 +44,7 @@ export default async function TopicPage({ params }: { params: Promise<Params> })
       <section className={styles.section}>
         {hikes.length > 0 ? (
           <HikeGrid
-            hikes={hikes}
+            hikes={hikes.map(toHikeCard)}
             ranked={topic.kind === "ranked"}
             hideLandscape={topic.kind === "landscape" ? topic.landscape : undefined}
           />
