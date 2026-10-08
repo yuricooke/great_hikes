@@ -4,60 +4,6 @@
   gap: var(--gh-space-4);
 }
 
-.groups {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--gh-space-4) var(--gh-space-6);
-}
-
-.group {
-  display: flex;
-  flex-direction: column;
-  gap: var(--gh-space-2);
-}
-
-.label {
-  text-transform: uppercase;
-  letter-spacing: var(--gh-tracking-caps);
-  font-size: var(--gh-text-sm);
-  color: var(--gh-text-muted);
-}
-
-.tags {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--gh-space-2);
-}
-
-.tag {
-  min-height: var(--gh-tap);
-  padding: 0 var(--gh-space-4);
-  border: var(--gh-glass-border);
-  border-radius: var(--gh-radius-pill);
-  background: var(--gh-pill);
-  color: var(--gh-text);
-  font: inherit;
-  cursor: pointer;
-}
-
-.tag:hover {
-  background: var(--gh-pill-hover);
-}
-
-.tag[aria-pressed="true"] {
-  background: var(--gh-text);
-  color: #000;
-  font-weight: 600;
-}
-
-.tag:focus-visible {
-  outline: 3px solid var(--gh-focus);
-  outline-offset: 2px;
-}
-
 .count {
   font-family: var(--gh-font-heading);
   color: var(--gh-text-muted);

@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // Local dev only: let phones/tablets on the same Wi-Fi open the dev server (http://<mac-ip>:3001).
-  allowedDevOrigins: ["192.168.*.*", "10.*.*.*", "*.local"],
+  allowedDevOrigins: ["192.168.*.*", "10.*.*.*", "172.*.*.*", "*.local"],
   images: {
     formats: ["image/avif", "image/webp"],
     qualities: [60, 70, 75],

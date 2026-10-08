@@ -13,10 +13,12 @@ import Rail from "@/components/Rail/Rail";
 import ProductCard from "@/components/Shop/ProductCard";
 import { pickAd } from "@/lib/ads";
 import { featuredHike } from "@/lib/featured";
+import { sortHikes } from "@/lib/hike-utils";
 import { allHikes, hikeBySlug, hikePath, toHikeCard } from "@/lib/hikes";
 import { featuredPosts } from "@/lib/instagram";
 import { articlePath, articles } from "@/lib/journal";
 import { products } from "@/lib/products";
+import { approvedRecent } from "@/lib/submissions";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 import { hikesForTopic, topicBySlug } from "@/lib/topics";
 import styles from "./landing.module.css";
@@ -44,9 +46,30 @@ function todayLabel(now = new Date()) {
 export default async function LandingPage() {
   const hike = featuredHike();
   const top10 = hikesForTopic(topicBySlug("top-10")!);
-  const features = (await featuredPosts()).slice(0, 10);
-  const guides = articles("guide");
-  const experiences = articles("experience");
+  const [posts, shared] = await Promise.all([featuredPosts(), approvedRecent(10)]);
+  // Curated community: approved hiker photos first, then credited @great_hikes features.
+  const community = [
+    ...shared.map((s) => {
+      const place = hikeBySlug(s.hike_slug!);
+      return {
+        key: `s-${s.id}`,
+        href: place ? `${hikePath(place)}#gallery` : "/hikes",
+        image: s.public_url!,
+        title: place?.title ?? "Shared by a hiker",
+        subtitle: `Photo: ${s.instagram_handle ? `@${s.instagram_handle}` : s.credit_name}`,
+      };
+    }),
+    ...posts.slice(0, 10).map((p) => ({
+      key: `ig-${p.id}`,
+      href: `/our-feed#post-${p.id}`,
+      image: p.image.medium,
+      title: p.title ?? "Featured on Instagram",
+      subtitle: p.handle ? `Photo: @${p.handle}` : undefined,
+    })),
+  ].slice(0, 12);
+  // Guides and hikers' experiences together, newest first.
+  const journal = [...articles()].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 12);
+  const recent = sortHikes(allHikes(), "latest").slice(0, 10);
   const shop = products().filter((p) => p.featured).slice(0, 10);
   const now = new Date();
 
@@ -109,67 +132,49 @@ export default async function LandingPage() {
           </GlassPanel>
         </section>
 
-        {features.length > 0 && (
-          <Rail id="community-features" title="Today's community features" description="Hikers featured on @great_hikes — credited to each photographer." seeAllHref="/our-feed">
-            {features.map((p) => (
-              <PhotoCard
-                key={p.id}
-                href={`/our-feed#post-${p.id}`}
-                image={p.image.medium}
-                title={p.title ?? "Featured on Instagram"}
-                subtitle={p.handle ? `Photo: @${p.handle}` : undefined}
-              />
+        <Rail id="recently-added" title="Recently added" description="The newest hikes on Great Hikes." seeAllHref="/hikes" seeAllLabel="All hikes">
+          {recent.map((h) => (
+            <PhotoCard key={h.slug} href={hikePath(h)} image={h.photo.src} title={h.title} subtitle={`${h.country} · ${h.continent}`} favoriteSlug={h.slug} />
+          ))}
+        </Rail>
+
+        {community.length > 0 && (
+          <Rail id="community" title="From our community" description="Hikers' photos, approved and credited to each photographer." seeAllHref="/our-feed">
+            {community.map((c) => (
+              <PhotoCard key={c.key} href={c.href} image={c.image} title={c.title} subtitle={c.subtitle} />
             ))}
           </Rail>
         )}
 
-        {guides.length > 0 && (
-          <Rail id="our-content" size="wide" title="Our content" description="Guides and stories from the Great Hikes team." seeAllHref="/journal">
-            {guides.map((a) => (
+        {journal.length > 0 && (
+          <Rail id="journal" size="wide" title="For your hikes — Journal" description="Planning guides and hikers' experiences." seeAllHref="/journal" seeAllLabel="Journal">
+            {journal.map((a) => (
               <PhotoCard
                 key={a.slug}
                 href={articlePath(a)}
                 image={hikeBySlug(a.cover)!.photo.src}
                 title={a.title}
-                subtitle={`${a.readMinutes} min read`}
-                badge={a.status === "sample" ? "Sample" : a.status === "draft" ? "Draft" : "Guide"}
+                subtitle={`${a.kind === "guide" ? "Guide" : `By ${a.author}`} · ${a.readMinutes} min read`}
+                badge={a.status === "sample" ? "Sample" : a.status === "draft" ? "Draft" : a.kind === "guide" ? "Guide" : "Experience"}
                 aspect="landscape"
               />
-            ))}
-          </Rail>
-        )}
-
-        {shop.length > 0 && (
-          <Rail id="shop" title="Shop" description="Gear we trust on the trail." seeAllHref="/shop" seeAllLabel="Visit the shop">
-            {shop.map((p) => (
-              <ProductCard key={p.id} product={p} />
             ))}
           </Rail>
         )}
 
         <section className={`${styles.explore} ${styles.band}`} aria-labelledby="explore-by">
-          <div className={styles.exploreHeader}>
-            <h2 id="explore-by" className={styles.sectionTitle}>
-              Explore by
-            </h2>
-          </div>
+          <h2 id="explore-by" className={styles.sectionTitle}>
+            Explore by
+          </h2>
           <ExploreBy hikes={allHikes().map(toHikeCard)} />
         </section>
 
         <AdBanner ad={pickAd("landing", { hikes: [hike] })} />
 
-        {experiences.length > 0 && (
-          <Rail id="experiences" size="wide" title="Hikers' experiences" description="Trip stories from our community." seeAllHref="/journal">
-            {experiences.map((a) => (
-              <PhotoCard
-                key={a.slug}
-                href={articlePath(a)}
-                image={hikeBySlug(a.cover)!.photo.src}
-                title={a.title}
-                subtitle={`By ${a.author}`}
-                badge={a.status === "sample" ? "Sample" : a.status === "draft" ? "Draft" : undefined}
-                aspect="landscape"
-              />
+        {shop.length > 0 && (
+          <Rail id="shop" title="Shop" description="Gear we trust on the trail." seeAllHref="/shop" seeAllLabel="Visit the shop">
+            {shop.map((p) => (
+              <ProductCard key={p.id} product={p} />
             ))}
           </Rail>
         )}

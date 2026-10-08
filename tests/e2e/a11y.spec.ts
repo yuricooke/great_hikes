@@ -46,7 +46,7 @@ test("V7 menu: every section reachable once; card holds what the bar doesn't; Es
   await toggle.click();
   await expect(toggle).toHaveAttribute("aria-expanded", "true");
   const nav = page.getByRole("navigation", { name: "Main" });
-  for (const name of ["Share your hike", "Community", "Our feed"]) {
+  for (const name of ["Share your hike", "Our feed"]) {
     await expect(nav.getByRole("link", { name, exact: true })).toBeVisible();
   }
   // Shop is an icon in the bar on phones/tablets and a text link on wide screens — never in the card.
@@ -96,7 +96,7 @@ test("footer links to every section", async ({ page }) => {
   await page.goto("/");
   const footer = page.getByRole("contentinfo");
   for (const name of [
-    "All hikes", "Our top 10", "Map", "Search", "Journal", "Our community", "Our feed", "Gear we trust",
+    "All hikes", "Our top 10", "Map", "Search", "Journal", "#great_hikes photos", "Our feed", "Gear we trust",
     "About", "Contact", "Affiliate disclosure", "Privacy", "Terms",
   ]) {
     await expect(footer.getByRole("link", { name, exact: true })).toBeVisible();

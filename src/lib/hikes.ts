@@ -50,5 +50,7 @@ export function toHikeCard(h: Hike): import("./hike-utils").HikeCardData {
     biome: h.biome,
     description: h.description,
     photo: { src: h.photo.src },
+    difficulty: h.details?.difficulty ?? null,
+    bestMonths: h.details?.bestMonths ?? [],
   };
 }
