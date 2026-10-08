@@ -85,6 +85,8 @@ test("V8 keyboard users: skip link first, then visible focus on controls", async
 
 test("menu hides when scrolling down and returns when scrolling up", async ({ page }) => {
   await page.goto("/");
+  // Wait for hydration so the scroll listener exists (flaked under parallel load).
+  await page.waitForLoadState("networkidle");
   const banner = page.getByRole("banner");
   await page.evaluate(() => window.scrollTo(0, 1200));
   await expect.poll(() => banner.evaluate((el) => getComputedStyle(el).opacity)).toBe("0");

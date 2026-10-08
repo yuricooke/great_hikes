@@ -1,5 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
+
+import type { ReactNode } from "react";
 
 import { hikeBySlug, hikePath } from "@/lib/hikes";
 import type { ArticleBlock } from "@/lib/journal";
@@ -7,7 +8,18 @@ import HikeGallery from "../HikeGallery/HikeGallery";
 import styles from "./ArticleBody.module.css";
 
 /** Renders journal blocks: text, headings, quotes, inline hike link-cards and photo galleries. */
-export default function ArticleBody({ blocks }: { blocks: ArticleBlock[] }) {
+export default function ArticleBody({
+  blocks,
+  inlinePromo,
+}: {
+  blocks: ArticleBlock[];
+  /**
+   * Shown where the first inline hike card used to be (owner 2026-10-08: hike cards mid-article took
+   * readers away and repeated "Hikes in this story" at the end) — a relevant ad or gear picks.
+   */
+  inlinePromo?: ReactNode;
+}) {
+  const promoAt = blocks.findIndex((b) => b.type === "hikeCard");
   return (
     <div className={styles.body}>
       {blocks.map((block, i) => {
@@ -32,22 +44,11 @@ export default function ArticleBody({ blocks }: { blocks: ArticleBlock[] }) {
               </blockquote>
             );
           case "hikeCard": {
-            const hike = hikeBySlug(block.slug)!;
+            // Hikes are listed once, at the end of the article; here we show one promo instead.
+            if (i !== promoAt || !inlinePromo) return null;
             return (
-              <aside key={i} className={styles.linkCard} aria-label={`Hike: ${hike.title}`}>
-                <div className={styles.linkImage}>
-                  <Image src={hike.photo.src} alt="" fill sizes="(min-width: 768px) 220px, 100vw" quality={60} />
-                </div>
-                <div className={styles.linkContent}>
-                  <p className={styles.linkEyebrow}>
-                    {hike.country} · {hike.continent}
-                  </p>
-                  <h3 className={styles.linkTitle}>{hike.title}</h3>
-                  <p>{block.text}</p>
-                  <Link href={hikePath(hike)} className={styles.linkCta}>
-                    Read more<span className="visually-hidden"> about {hike.title}</span>
-                  </Link>
-                </div>
+              <aside key={i} className={styles.promo} aria-label="Gear for this hike">
+                {inlinePromo}
               </aside>
             );
           }

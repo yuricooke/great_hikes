@@ -5,9 +5,23 @@
   min-width: 0;
 }
 
-/* Article variant: runs past the reading column to the right edge of the screen. */
+/*
+ * Article variant: spans the whole screen width, but the first photo lines up with the text
+ * column (padding = gap between screen edge and column, via container units); swiping lets the
+ * photos run past the column on both sides. The parent (.slider in ArticleBody) is the container.
+ */
 .bleed {
-  margin-right: calc(50% - 50vw);
+  --edge: calc(50vw - 50cqw);
+  margin-inline: calc(-1 * var(--edge));
+}
+
+.bleed .track {
+  padding-inline: var(--edge);
+  scroll-padding-inline: var(--edge);
+}
+
+.bleed .controls {
+  padding-inline: var(--edge);
 }
 
 .track {
