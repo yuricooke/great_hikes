@@ -61,3 +61,38 @@ export function articleBySlug(s: string): Article | undefined {
 export function articlePath(a: Pick<Article, "slug">) {
   return `/journal/${a.slug}`;
 }
+
+/** Slim article data for client-side lists, filters and search. */
+export type ArticleCardData = {
+  slug: string;
+  href: string;
+  title: string;
+  lead: string;
+  kind: Article["kind"];
+  status: Article["status"];
+  date: string;
+  readMinutes: number;
+  image: string;
+  continents: string[];
+  landscapes: string[];
+  /** Hike names the article covers (searchable). */
+  places: string;
+};
+
+export function toArticleCard(a: Article): ArticleCardData {
+  const hikes = [a.cover, ...a.relatedHikes].map((s) => hikeBySlug(s)!).filter(Boolean);
+  return {
+    slug: a.slug,
+    href: articlePath(a),
+    title: a.title,
+    lead: a.lead,
+    kind: a.kind,
+    status: a.status,
+    date: a.date,
+    readMinutes: a.readMinutes,
+    image: hikes[0].photo.src,
+    continents: [...new Set(hikes.map((h) => h.continent))],
+    landscapes: [...new Set(hikes.flatMap((h) => h.landscapes))],
+    places: hikes.map((h) => `${h.title} ${h.country}`).join(" "),
+  };
+}

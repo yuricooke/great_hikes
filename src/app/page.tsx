@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 
 import FavoriteButton from "@/components/Auth/FavoriteButton";
 import GlassPanel from "@/components/GlassPanel/GlassPanel";
@@ -8,15 +7,15 @@ import Hero from "@/components/Hero/Hero";
 import PhotoCard from "@/components/PhotoCard/PhotoCard";
 import PhotoCredit from "@/components/PhotoCredit/PhotoCredit";
 import PillButton from "@/components/PillButton/PillButton";
+import ExploreBy from "@/components/ExploreBy/ExploreBy";
 import AdBanner from "@/components/AdBanner/AdBanner";
 import Rail from "@/components/Rail/Rail";
 import ProductCard from "@/components/Shop/ProductCard";
 import { pickAd } from "@/lib/ads";
 import { featuredHike } from "@/lib/featured";
-import { hikeBySlug, hikePath } from "@/lib/hikes";
+import { allHikes, hikeBySlug, hikePath, toHikeCard } from "@/lib/hikes";
 import { featuredPosts } from "@/lib/instagram";
 import { articlePath, articles } from "@/lib/journal";
-import { CONTINENTS, LANDSCAPES } from "@/lib/schema";
 import { products } from "@/lib/products";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 import { hikesForTopic, topicBySlug } from "@/lib/topics";
@@ -153,30 +152,8 @@ export default async function LandingPage() {
             <h2 id="explore-by" className={styles.sectionTitle}>
               Explore by
             </h2>
-            <PillButton href="/search" variant="outline" icon="search">
-              Search all hikes
-            </PillButton>
           </div>
-          <p className={styles.exploreLabel}>Landscape</p>
-          <ul className={styles.tags}>
-            {LANDSCAPES.map((l) => (
-              <li key={l.key}>
-                <Link href={`/search?landscape=${l.key}`} className={styles.tag}>
-                  {l.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <p className={styles.exploreLabel}>Continent</p>
-          <ul className={styles.tags}>
-            {CONTINENTS.map((c) => (
-              <li key={c.key}>
-                <Link href={`/search?continent=${c.key}`} className={styles.tag}>
-                  {c.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <ExploreBy hikes={allHikes().map(toHikeCard)} />
         </section>
 
         <AdBanner ad={pickAd("landing", { hikes: [hike] })} />

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
+import JournalBrowser, { JournalBrowserView } from "@/components/JournalBrowser/JournalBrowser";
 import ListingHeader from "@/components/ListingHeader/ListingHeader";
-import PhotoCard from "@/components/PhotoCard/PhotoCard";
 import { hikeBySlug } from "@/lib/hikes";
-import { articlePath, articles, type Article } from "@/lib/journal";
+import { articles, toArticleCard } from "@/lib/journal";
 import styles from "../section.module.css";
-import grid from "./journal.module.css";
 
 export const metadata: Metadata = {
   title: "Journal",
@@ -13,34 +13,9 @@ export const metadata: Metadata = {
   alternates: { canonical: "/journal" },
 };
 
-function Section({ title, items }: { title: string; items: Article[] }) {
-  if (items.length === 0) return null;
-  return (
-    <section className={styles.section} aria-labelledby={`${title}-h`}>
-      <h2 id={`${title}-h`} className={styles.sectionTitle}>
-        {title}
-      </h2>
-      <ul className={grid.grid}>
-        {items.map((a) => (
-          <li key={a.slug}>
-            <PhotoCard
-              href={articlePath(a)}
-              image={hikeBySlug(a.cover)!.photo.src}
-              title={a.title}
-              subtitle={`${a.readMinutes} min read`}
-              badge={a.status === "sample" ? "Sample" : a.status === "draft" ? "Draft" : undefined}
-              aspect="landscape"
-              sizes="(min-width: 992px) 33vw, 100vw"
-            />
-          </li>
-        ))}
-      </ul>
-    </section>
-  );
-}
-
 export default function JournalPage() {
   const all = articles();
+  const cards = all.map(toArticleCard);
   const cover = all[0] ? hikeBySlug(all[0].cover)!.photo.src : "/hikes/machu-picchu.jpg";
   return (
     <>
@@ -48,13 +23,18 @@ export default function JournalPage() {
         image={cover}
         title="Journal"
         description="Guides from Great Hikes and experiences from hikers in our community."
+        meta={`${cards.length} ${cards.length === 1 ? "article" : "articles"}`}
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Journal" }]}
       />
-      <div className={grid.sections}>
-        <Section title="Our content" items={articles("guide")} />
-        <Section title="Hikers' experiences" items={articles("experience")} />
-        {all.length === 0 && <p className={styles.muted}>Stories are coming soon.</p>}
-      </div>
+      <section className={styles.section}>
+        {cards.length === 0 ? (
+          <p className={styles.muted}>Stories are coming soon.</p>
+        ) : (
+          <Suspense fallback={<JournalBrowserView articles={cards} query="" />}>
+            <JournalBrowser articles={cards} />
+          </Suspense>
+        )}
+      </section>
     </>
   );
 }
