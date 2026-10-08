@@ -46,9 +46,9 @@ plan (marketing track below) is approved.
 
 | Spec | Name | Status |
 |------|------|--------|
-| B1 | Business strategy & model (vision, positioning, audiences, revenue model, OKRs, brand/domain) | To do |
+| B1 | Business strategy & model (vision, positioning, audiences, revenue model, OKRs, brand/domain) | ✅ v1 agreed 2026-10-08 (`docs/business/`) — domain pending |
 | B2 | Competitive landscape (feature matrix, SEO landscape, Instagram, partnerships) | First pass done (`docs/discovery/05-competitors.md`) |
-| B3 | Go-to-market & growth (launch plan, channels, content calendar, ads test, investment/return) | To do — replaces M1–M4 |
+| B3 | Go-to-market & growth (launch plan, channels, content calendar, ads test, investment/return) | Draft v1 (`docs/marketing/`) — owner review |
 | B4 | UX/UI (design system, UX audit, IA, accessibility audit, performance budget, usability tests) | To do |
 | B5 | QA & content governance (editorial review, fact-checking, freshness, moderation, software QA, monitoring) | To do |
 | B6 | Legal & compliance (operator entity, terms, privacy by region, DMCA, ads/affiliate law, trademark) | To do — needs a lawyer for final wording |

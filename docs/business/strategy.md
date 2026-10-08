@@ -3,8 +3,7 @@
 **Status:** draft for the owner's review. Inputs: owner answers (2026-10-08), `docs/discovery/01–05`.
 
 ## 1. What kind of business this is
-A **side project with financial return**, run by one person (~2 h a day — *to confirm: per day or
-per week*), with a small starting budget that grows only when results show up ("invest small,
+A **side project with financial return**, run by one person (~2 h a day, confirmed 2026-10-08), with a small starting budget that grows only when results show up ("invest small,
 scale on evidence"). Everything below is sized for that: low fixed costs, automation by agents,
 the owner approving rather than producing.
 
@@ -44,12 +43,12 @@ that), a tour operator, a gear review lab.
 - Owner's design skills (identity, UX) and agents that produce sourced content cheaply.
 - Trilingual/multicultural owner (EN/PT/ES) for the relaunches.
 
-## 7. Red lines (proposed — see `docs/business/red-lines.md`)
+## 7. Red lines (approved 2026-10-08 — constitution VII, `docs/business/red-lines.md`)
 No explicit content; never use someone's photo without permission and credit; no paid placement
 inside guides or rankings; no fake or paid reviews; no AI images presented as real; no selling
 personal data; no promotion of unsafe/illegal behaviour; clear labels on anything sponsored.
 
-## 8. Year-one goals (OKRs, base case — to agree)
+## 8. Year-one goals (OKRs, base case — agreed 2026-10-08)
 | Goal | Key results by month 12 |
 |---|---|
 | **Community growth** | Instagram 4k → 10k followers · 1,000 registered members · 30 approved community photos/month · 50 reviews/tips per month |

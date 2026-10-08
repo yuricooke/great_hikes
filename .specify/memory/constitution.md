@@ -1,7 +1,9 @@
 <!--
 Sync Impact Report
-- Version change: 1.1.0 → 1.2.0 (MINOR: Principle III gains a scoped exception for embedding the
-  @great_hikes Instagram feed; owner approved going live with it 2026-10-07)
+- Version change: 1.2.0 → 1.3.0 (MINOR: new Principle VII "Red Lines" — owner approved the
+  14 content & business red lines on 2026-10-08; full text in docs/business/red-lines.md)
+- Previous (1.2.0): Principle III gains a scoped exception for embedding the @great_hikes
+  Instagram feed; owner approved going live with it 2026-10-07
 - Previous (1.1.0): discovery & outcomes added to the workflow
 - Modified sections: Development Workflow & Quality Gates (discovery, outcome traceability,
   production-metrics feedback loop)
@@ -102,6 +104,22 @@ Rationale: beautiful backgrounds must not cost readability or exclude users.
 
 Rationale: the project must be sustainable by one person before it has revenue.
 
+### VII. Red Lines (NON-NEGOTIABLE)
+
+The owner-approved red lines in `docs/business/red-lines.md` bind every spec, agent and partner
+deal. In short, Great Hikes MUST NOT:
+
+- publish explicit, hateful or shock content, or anyone's work without permission and credit;
+- present AI-generated or AI-edited images as real places;
+- promote unsafe or illegal behaviour, or expose sensitive locations that authorities or
+  communities ask to keep private;
+- publish fake, bought or incentivised reviews, or hide honest negative ones;
+- sell placement inside guides, rankings or the top 10, or leave affiliate/sponsored content
+  unlabelled;
+- sell or rent personal data, track without consent, or use dark patterns.
+
+Rationale: community trust is the asset the business is built on (strategy B1).
+
 ## Technology & Data Constraints
 
 - Language: all user-facing content, code, and docs in English.
@@ -139,4 +157,4 @@ dependent docs. Every plan MUST include a Constitution Check against these princ
 MUST be justified in the plan's complexity tracking or the feature changed. Runtime guidance for
 agents lives in `CLAUDE.md`.
 
-**Version**: 1.2.0 | **Ratified**: 2026-10-07 | **Last Amended**: 2026-10-07
+**Version**: 1.3.0 | **Ratified**: 2026-10-07 | **Last Amended**: 2026-10-08
