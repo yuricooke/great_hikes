@@ -39,11 +39,10 @@ test("V6 sitemap lists home, all hikes, every topic and every hike", async ({ re
   for (const path of ["/search", "/journal", "/shop", "/our-feed", "/community"]) expect(xml).toContain(path);
 });
 
-test("old continent filter links redirect to topic pages", async ({ request }) => {
-  const res = await request.get("/hikes?continent=asia", { maxRedirects: 0 });
-  expect(res.status()).toBe(308);
-  expect(res.headers().location).toMatch(/\/explore\/asia$/);
-  const unknown = await request.get("/hikes?continent=mars", { maxRedirects: 0 });
-  expect(unknown.headers().location).toMatch(/\/hikes$/);
-  expect((await request.get("/explore/nope")).status()).toBe(404);
+test("old continent filter links open All hikes filtered (no redirect)", async ({ page }) => {
+  const res = await page.goto("/hikes?continent=asia");
+  expect(res?.status()).toBe(200);
+  await expect(page).toHaveURL(/\/hikes\?continent=asia$/);
+  await expect(page.getByRole("navigation", { name: "Filter by continent" }).getByRole("link", { name: "Asia" })).toHaveAttribute("aria-current", "true");
+  expect((await page.request.get("/explore/nope")).status()).toBe(404);
 });

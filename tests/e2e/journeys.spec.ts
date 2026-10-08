@@ -35,15 +35,25 @@ test("rail arrows scroll the cards on desktop", async ({ page, isMobile }) => {
   await expect(prev).toBeEnabled();
 });
 
-test("explore-by tags open search with the filter applied", async ({ page }) => {
+test("explore-by tags filter the landing grid; see all opens /hikes with the filter", async ({ page }) => {
   await page.goto("/");
-  await page.getByRole("region", { name: "Explore by" }).getByRole("link", { name: "Waterfalls & lakes" }).click();
-  await expect(page).toHaveURL(/\/search\?landscape=waterfalls$/);
+  const explore = page.getByRole("region", { name: "Explore by" });
+  await expect(explore.getByRole("button", { name: "Latest added" })).toHaveAttribute("aria-pressed", "true");
+  await explore.getByRole("button", { name: "Waterfalls & lakes" }).click();
   const expected = hikes.filter((h) => h.landscapes.includes("waterfalls")).length;
+  await expect(explore.getByText(`Waterfalls & lakes · ${expected} hikes`)).toBeVisible();
+  await explore.getByRole("link", { name: /See all/ }).click();
+  await expect(page).toHaveURL(/\/hikes\?landscape=waterfalls$/);
   await expect(page.getByRole("list", { name: "Hikes" }).getByRole("listitem")).toHaveCount(expected);
   await page.getByRole("navigation", { name: "Filter by continent" }).getByRole("link", { name: "Asia" }).click();
   const both = hikes.filter((h) => h.landscapes.includes("waterfalls") && h.continent === "Asia").length;
   await expect(page.getByRole("list", { name: "Hikes" }).getByRole("listitem")).toHaveCount(both);
+});
+
+test("search finds hikes and journal guides together", async ({ page }) => {
+  await page.goto("/search?q=torres");
+  await expect(page.getByRole("list", { name: "Hikes" }).getByRole("listitem").first()).toContainText("Torres del Paine");
+  await expect(page.getByRole("list", { name: "Articles" }).getByRole("link", { name: /W Trek/ }).first()).toBeVisible();
 });
 
 test("search by text", async ({ page }) => {
@@ -100,7 +110,8 @@ test("place page lists its trails; a trail page shows map, profile and facts", a
 
 test("journal: article page with inline hike card and related rails", async ({ page }) => {
   await page.goto("/journal");
-  await expect(page.getByRole("heading", { name: "Our content" })).toBeVisible();
+  await page.getByRole("navigation", { name: "Filter by type" }).getByRole("link", { name: "Guides" }).click();
+  await expect(page).toHaveURL(/\/journal\?kind=guide$/);
   await page.getByRole("link", { name: /Planning the W Trek/ }).first().click();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Planning the W Trek in Torres del Paine");
   await expect(page.getByRole("complementary", { name: /Hike: Torres del Paine/ })).toBeVisible();

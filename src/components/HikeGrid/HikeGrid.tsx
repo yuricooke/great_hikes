@@ -1,17 +1,20 @@
 import { hikePath } from "@/lib/hike-utils";
 import { LANDSCAPES, type Hike, type LandscapeKey } from "@/lib/schema";
+
+/** Any hike-like object with what a card needs (full Hike or HikeCardData). */
+type CardHike = Pick<Hike, "slug" | "title" | "country" | "continent" | "landscapes"> & { photo: { src: string } };
 import PhotoCard from "../PhotoCard/PhotoCard";
 import styles from "./HikeGrid.module.css";
 
 type Props = {
-  hikes: Hike[];
+  hikes: CardHike[];
   /** Show rank badges (#1, #2…) for ranked topics. */
   ranked?: boolean;
   /** Don't badge with the landscape the page is already about. */
   hideLandscape?: LandscapeKey;
 };
 
-export function landscapeBadge(hike: Hike, hide?: LandscapeKey) {
+export function landscapeBadge(hike: Pick<Hike, "landscapes">, hide?: LandscapeKey) {
   const key = hike.landscapes.find((l) => l !== hide);
   return key ? LANDSCAPES.find((l) => l.key === key)?.label : undefined;
 }

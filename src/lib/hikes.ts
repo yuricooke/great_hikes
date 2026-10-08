@@ -37,3 +37,18 @@ export function relatedHikes(hike: Hike, limit = 6): Hike[] {
 }
 
 export { continentByKey, continentKey, filterByContinent, hikePath } from "./hike-utils";
+
+/** Slim copy for client-side lists and filters. */
+export function toHikeCard(h: Hike): import("./hike-utils").HikeCardData {
+  return {
+    id: h.id,
+    slug: h.slug,
+    title: h.title,
+    country: h.country,
+    continent: h.continent,
+    landscapes: h.landscapes,
+    biome: h.biome,
+    description: h.description,
+    photo: { src: h.photo.src },
+  };
+}

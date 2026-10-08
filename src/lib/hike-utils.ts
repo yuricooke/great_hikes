@@ -22,3 +22,16 @@ export function filterByContinent<T extends Pick<Hike, "continent">>(
 export function hikePath(hike: Pick<Hike, "slug">): string {
   return `/hikes/${hike.slug}`;
 }
+
+/** The slim hike shape list/filter UIs need (keeps client payloads small). */
+export type HikeCardData = Pick<Hike, "id" | "slug" | "title" | "country" | "continent" | "landscapes" | "biome" | "description"> & {
+  photo: { src: string };
+};
+
+export type HikeSort = "latest" | "az";
+
+/** Latest added first (ids grow as hikes are added), or alphabetical. */
+export function sortHikes<T extends Pick<Hike, "id" | "title">>(hikes: T[], sort: HikeSort = "latest"): T[] {
+  const copy = [...hikes];
+  return sort === "az" ? copy.sort((a, b) => a.title.localeCompare(b.title)) : copy.sort((a, b) => b.id - a.id);
+}
