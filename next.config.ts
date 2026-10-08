@@ -17,6 +17,8 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "thumb.wikimedia.org" },
       // Approved community photos (Supabase Storage public bucket).
       { protocol: "https", hostname: "*.supabase.co", pathname: "/storage/v1/object/public/community/**" },
+      // Gallery photos mirrored from Wikimedia Commons (scripts/mirror-commons.mjs).
+      { protocol: "https", hostname: "*.supabase.co", pathname: "/storage/v1/object/public/media/**" },
     ],
   },
 };

@@ -36,6 +36,11 @@
         "text": "See the Tour du Mont Blanc on our map, with photos of the trail from our community."
       },
       {
+        "type": "photos",
+        "hike": "tour-du-mont-blanc",
+        "text": "Photos from the trail"
+      },
+      {
         "type": "heading",
         "text": "Stages and days"
       },
@@ -119,6 +124,13 @@
       {
         "type": "paragraph",
         "text": "If the TMB gets you hooked on the Alps, the Italian Dolomites are a natural next trip."
+      },
+      {
+        "type": "gallery",
+        "slugs": [
+          "tour-du-mont-blanc",
+          "tre-cime-di-lavaredo"
+        ]
       },
       {
         "type": "hikeCard",
@@ -243,6 +255,11 @@
         "text": "Fees depend on your visitor category (citizen, resident or non-resident), your route and the number of days, and conservation, camping or hut, and rescue fees may apply. Your operator usually bundles these into the trip price, but TANAPA recommends confirming the current Kilimanjaro fee schedule before you travel."
       },
       {
+        "type": "photos",
+        "hike": "kilimanjaro-national-park",
+        "text": "Photos from the trail"
+      },
+      {
         "type": "heading",
         "text": "How the routes differ"
       },
@@ -316,6 +333,13 @@
         "type": "hikeCard",
         "slug": "serengeti-national-park",
         "text": "See Serengeti National Park, the classic way to rest your legs after the summit."
+      },
+      {
+        "type": "gallery",
+        "slugs": [
+          "kilimanjaro-national-park",
+          "serengeti-national-park"
+        ]
       },
       {
         "type": "paragraph",
@@ -399,6 +423,11 @@
       {
         "type": "paragraph",
         "text": "After a significant flash flood on August 29, 2026, the park closed the whole of Phantom Ranch, including Bright Angel Campground, the canteen and the cabins. Also closed are the South Kaibab Trail below the Tipoff, the River Trail east of the River Resthouse, the Black and Silver bridges, and the entire North Kaibab Trail. As of the park's September 28, 2026 update, there is no estimated reopening date. The Bright Angel Trail is open from the trailhead down to the River Resthouse, along with Plateau Point and the Tonto Trail between the Tipoff and Havasupai Gardens. Check the park's Key Hiking Messages page before you plan anything."
+      },
+      {
+        "type": "photos",
+        "hike": "grand-canyon-national-park",
+        "text": "Photos from the trail"
       },
       {
         "type": "heading",
@@ -501,6 +530,13 @@
         "text": "See Yosemite National Park, with granite walls, waterfalls and giant sequoias in California's Sierra Nevada."
       },
       {
+        "type": "gallery",
+        "slugs": [
+          "zion-national-park",
+          "yosemite-national-park"
+        ]
+      },
+      {
         "type": "paragraph",
         "text": "Trail closures, water status and heat risk change often. Always check current conditions and regulations with Grand Canyon National Park at nps.gov/grca, and talk to a ranger before any long hike below the rim."
       }
@@ -599,6 +635,11 @@
         "text": "See the Tre Cime di Lavaredo on the map, with photos of the north faces from our community."
       },
       {
+        "type": "photos",
+        "hike": "tre-cime-di-lavaredo",
+        "text": "Photos from the trail"
+      },
+      {
         "type": "heading",
         "text": "Getting there: the toll road in 2026"
       },
@@ -680,6 +721,13 @@
         "type": "hikeCard",
         "slug": "cinque-terre-national-park",
         "text": "Explore Cinque Terre National Park, with cliffside trails between colorful villages on the Ligurian coast."
+      },
+      {
+        "type": "gallery",
+        "slugs": [
+          "tour-du-mont-blanc",
+          "cinque-terre-national-park"
+        ]
       },
       {
         "type": "paragraph",
@@ -804,6 +852,11 @@
         "text": "See Banff National Park on the map, with photos of its lakes and peaks from our community."
       },
       {
+        "type": "photos",
+        "hike": "banff-national-park",
+        "text": "Photos from the trail"
+      },
+      {
         "type": "heading",
         "text": "Moraine Lake: Rockpile, Consolation Lakes and Larch Valley"
       },
@@ -877,6 +930,13 @@
         "type": "hikeCard",
         "slug": "glacier-national-park",
         "text": "Just south of the border, Glacier National Park has the same lake-and-peak drama on the Highline Trail."
+      },
+      {
+        "type": "gallery",
+        "slugs": [
+          "yosemite-national-park",
+          "glacier-national-park"
+        ]
       },
       {
         "type": "paragraph",
@@ -980,6 +1040,11 @@
         "text": "Explore Glacier National Park on the map and see photos from our community."
       },
       {
+        "type": "photos",
+        "hike": "glacier-national-park",
+        "text": "Photos from the trail"
+      },
+      {
         "type": "heading",
         "text": "1. Highline Trail"
       },
@@ -1064,6 +1129,13 @@
         "type": "hikeCard",
         "slug": "banff-national-park",
         "text": "See Banff National Park, with glacier-fed lakes and peaks of the Canadian Rockies."
+      },
+      {
+        "type": "gallery",
+        "slugs": [
+          "glacier-national-park",
+          "banff-national-park"
+        ]
       },
       {
         "type": "paragraph",
@@ -1173,6 +1245,11 @@
         "text": "Winter is colder, with shorter days. NTB says heavier snowfall can sometimes close high passes. That matters on the Annapurna Circuit, which crosses one of the highest trekking passes in Nepal."
       },
       {
+        "type": "photos",
+        "hike": "annapurna-circuit",
+        "text": "Photos from the trail"
+      },
+      {
         "type": "heading",
         "text": "Permits: the ACAP entry permit and the TIMS card"
       },
@@ -1238,6 +1315,13 @@
         "type": "hikeCard",
         "slug": "everest-base-camp",
         "text": "The Everest region is the other classic Nepal trek — see our Everest Base Camp page for permits and the route from Lukla."
+      },
+      {
+        "type": "gallery",
+        "slugs": [
+          "annapurna-circuit",
+          "everest-base-camp"
+        ]
       },
       {
         "type": "paragraph",
@@ -1335,6 +1419,11 @@
         "text": "If you'd rather not piece it together yourself, Las Torres also sells a packaged W. It runs 5 days and 4 nights, or 4 days and 3 nights, with lodging, meals, park transport, the park entry ticket and the Lake Pehoé catamaran included. Its 2026–27 W departures run from October 2026 through April 2027."
       },
       {
+        "type": "photos",
+        "hike": "torres-del-paine-national-park",
+        "text": "Photos from the trail"
+      },
+      {
         "type": "heading",
         "text": "Step 2: Buy your park entry ticket"
       },
@@ -1404,6 +1493,13 @@
         "type": "hikeCard",
         "slug": "los-glaciares-national-park",
         "text": "Continue to Los Glaciares, home of Fitz Roy and the Perito Moreno Glacier."
+      },
+      {
+        "type": "gallery",
+        "slugs": [
+          "torres-del-paine-national-park",
+          "los-glaciares-national-park"
+        ]
       },
       {
         "type": "paragraph",
@@ -1497,6 +1593,11 @@
         "text": "Hut fees are charged per person, per night. For the 2026/27 Great Walks season DOC lists NZ$106 for New Zealand adults and NZ$152 for international adults. Children pay NZ$53 (New Zealand, ages 5–17) or NZ$76 (international, ages 0–17), and New Zealand infants (0–4) stay free. Outside the season, the fee drops to NZ$30 per adult and NZ$15 per child. Fees change, so confirm them when you book."
       },
       {
+        "type": "photos",
+        "hike": "fiordland-national-park",
+        "text": "Photos from the trail"
+      },
+      {
         "type": "heading",
         "text": "One direction, three huts, no camping"
       },
@@ -1572,6 +1673,13 @@
         "text": "See Abel Tasman National Park, with golden beaches and coastal forest at the top of the South Island."
       },
       {
+        "type": "gallery",
+        "slugs": [
+          "fiordland-national-park",
+          "abel-tasman-national-park"
+        ]
+      },
+      {
         "type": "paragraph",
         "text": "Track conditions, closures, fees and transport change often. Always check current track alerts, weather and regulations with the Department of Conservation at doc.govt.nz/milfordtrack before you go."
       }
@@ -1645,6 +1753,11 @@
       {
         "type": "paragraph",
         "text": "Spaces are limited and the booking window opens early. In past years, the Cusco office of the Ministry of Culture (DDC Cusco) opened reservations for the following season in October, month by month. If you have fixed dates, talk to an authorized operator as early as you can, and ask what is included: the trail permit, the guide, and your Machu Picchu entry."
+      },
+      {
+        "type": "photos",
+        "hike": "machu-picchu",
+        "text": "Photos from the trail"
       },
       {
         "type": "heading",
@@ -1723,6 +1836,13 @@
       {
         "type": "heading",
         "text": "Before you go"
+      },
+      {
+        "type": "gallery",
+        "slugs": [
+          "torres-del-paine-national-park",
+          "los-glaciares-national-park"
+        ]
       },
       {
         "type": "paragraph",
@@ -1844,6 +1964,11 @@
         "text": "The National Park Service describes the Ten Essentials as items that help you handle minor injuries, sudden weather changes or unexpected emergencies. They are: navigation (map, compass and GPS), sun protection (sunglasses, sunscreen and a hat), extra clothing, illumination (a headlamp is the hands-free choice), first-aid supplies, fire (matches or a lighter and fire starters), a repair kit and tools, nutrition (a day's worth of extra food), hydration (water plus a way to treat it) and emergency shelter. On a multi-day trek most of these are already in your pack. The point is to check that none are missing."
       },
       {
+        "type": "photos",
+        "hike": "fiordland-national-park",
+        "text": "Photos from the trail"
+      },
+      {
         "type": "heading",
         "text": "Packing by category"
       },
@@ -1939,6 +2064,14 @@
       {
         "type": "paragraph",
         "text": "Tell someone your plans and when you expect to be back, as DOC's Land Safety Code advises. For a first trek, choose a well-marked route with huts or set campsites, and keep your daily distances modest. Walk with company. CONAF tells Torres del Paine visitors to hike accompanied. Check the weather forecast often, and be ready to wait out a storm rather than push through it."
+      },
+      {
+        "type": "gallery",
+        "slugs": [
+          "torres-del-paine-national-park",
+          "abel-tasman-national-park",
+          "cradle-mountain-lake-st-clair-national-park"
+        ]
       },
       {
         "type": "paragraph",
@@ -2039,6 +2172,11 @@
         "text": "Heads-up for this fall: through October (subject to change), the section of the Mist Trail from the John Muir Trail junction to the top of Vernal Fall is only open Fridays through Sundays and on holidays because of repair work."
       },
       {
+        "type": "photos",
+        "hike": "yosemite-national-park",
+        "text": "Photos from the trail"
+      },
+      {
         "type": "heading",
         "text": "2. Upper Yosemite Fall"
       },
@@ -2103,6 +2241,13 @@
       {
         "type": "paragraph",
         "text": "Yosemite is black bear country. Store all food in bear-proof lockers or containers, since bears will break into cars for food, and stay at least 50 yards from any bear you see on the trail."
+      },
+      {
+        "type": "gallery",
+        "slugs": [
+          "yellowstone-national-park",
+          "banff-national-park"
+        ]
       },
       {
         "type": "paragraph",

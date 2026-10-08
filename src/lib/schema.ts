@@ -31,6 +31,7 @@ export const PhotoSchema = z.object({
     z.string().regex(/^\/(hikes|trails)\/[a-z0-9-]+\.(jpg|jpeg|png|webp)$/),
     z.url().regex(/^https:\/\/(cdn2\.)?behold\.pictures\//),
     z.url().regex(/^https:\/\/(images\.unsplash\.com|images\.pexels\.com|(upload|thumb)\.wikimedia\.org)\//),
+    z.url().regex(/^https:\/\/[a-z0-9]+\.supabase\.co\/storage\/v1\/object\/public\/media\//),
   ]),
   alt: z.string().min(1).max(200),
   author: z.string().min(1),

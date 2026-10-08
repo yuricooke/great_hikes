@@ -2,59 +2,96 @@
   display: flex;
   flex-direction: column;
   gap: var(--gh-space-3);
+  min-width: 0;
+}
+
+/* Article variant: runs past the reading column to the right edge of the screen. */
+.bleed {
+  margin-right: calc(50% - 50vw);
 }
 
 .track {
   list-style: none;
   margin: 0;
-  padding: 0;
-  display: flex;
+  padding: 0 0 var(--gh-space-1);
+  display: grid;
+  grid-auto-flow: column;
+  /* Phones: one card and a peek of the next. */
+  grid-auto-columns: 82%;
+  gap: 12px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
-  border-radius: var(--gh-radius-card);
 }
 
 .track::-webkit-scrollbar {
   display: none;
 }
 
-.track:focus-visible {
-  outline: 3px solid var(--gh-focus);
-  outline-offset: 3px;
+@media (min-width: 640px) {
+  .track {
+    grid-auto-columns: calc((100% - 2 * 12px) / 2.3);
+  }
 }
 
-.slide {
-  flex: 0 0 100%;
+@media (min-width: 992px) {
+  .track {
+    grid-auto-columns: calc((100% - 3 * 12px) / 3.3);
+  }
+
+  .bleed .track {
+    grid-auto-columns: min(360px, 26vw);
+  }
+}
+
+.card {
   scroll-snap-align: start;
-}
-
-.figure {
-  margin: 0;
   display: flex;
   flex-direction: column;
   gap: var(--gh-space-2);
+  min-width: 0;
 }
 
-.frame {
+.open {
   position: relative;
-  aspect-ratio: 3 / 2;
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  padding: 0;
+  border: 0;
   border-radius: var(--gh-radius-card);
   overflow: hidden;
   background: #111;
+  cursor: zoom-in;
+}
+
+.open:focus-visible {
+  outline: 3px solid var(--gh-focus);
+  outline-offset: 2px;
 }
 
 .image {
   object-fit: cover;
   filter: var(--gh-photo-filter);
+  transition: transform 0.4s ease;
 }
 
-.caption {
+.open:hover .image {
+  transform: scale(1.03);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .image {
+    transition: none;
+  }
+}
+
+.meta {
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: var(--gh-space-1) var(--gh-space-3);
-  min-height: 1.5em;
+  flex-direction: column;
+  gap: 2px;
+  font-size: var(--gh-text-sm);
+  min-width: 0;
 }
 
 .label {
@@ -63,12 +100,13 @@
 
 .credit {
   margin: 0;
+  overflow-wrap: anywhere;
 }
 
 .controls {
   display: flex;
   align-items: center;
-  gap: var(--gh-space-3);
+  gap: var(--gh-space-2);
 }
 
 .controls button {
@@ -84,19 +122,13 @@
   cursor: pointer;
 }
 
-.controls button:disabled {
-  opacity: 0.35;
-  cursor: default;
-}
-
 .controls button:focus-visible {
   outline: 3px solid var(--gh-focus);
   outline-offset: 2px;
 }
 
 .count {
+  margin-left: var(--gh-space-2);
   font-size: var(--gh-text-sm);
   color: var(--gh-text-muted);
-  min-width: 4ch;
-  text-align: center;
 }

@@ -140,3 +140,20 @@
     grid-auto-columns: min(420px, 38vw);
   }
 }
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gh-space-3);
+  margin: var(--gh-space-5) 0;
+}
+
+.sliderTitle {
+  font-family: var(--font-exo2), sans-serif;
+  font-size: var(--gh-text-lg);
+  font-weight: 600;
+}
+
+.slider .linkCta {
+  align-self: flex-start;
+}

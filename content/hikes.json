@@ -71,18 +71,40 @@
         "license": "Unsplash License"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Cuernos_del_Paine_in_Torres_del_Paine_National_Park.jpg/1920px-Cuernos_del_Paine_in_Torres_del_Paine_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://images.unsplash.com/photo-1637580981046-6e14709be202?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8NHx8VG9ycmVzJTIwZGVsJTIwUGFpbmUlMjBOYXRpb25hbCUyMFBhcmslMjBDaGlsZXxlbnwxfDB8fHwxNzkxNDU1MDI5fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Torres del Paine National Park: a group of llamas grazing in front of a mountain",
+        "author": "Andrew Svk",
+        "authorUrl": "https://unsplash.com/@andrew_svk?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-group-of-llamas-grazing-in-front-of-a-mountain-7oJ4D_ewB7c?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/torres-del-paine-national-park/File_Cuernos_del_Paine_in_Torres_del_Paine_National_Park.jpg.jpg",
         "alt": "Torres del Paine National Park: View Cuernos del Paine from lake Pehoé",
         "author": "Pedro Szekely from Los Angeles, USA",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuernos_del_Paine_in_Torres_del_Paine_National_Park.jpg",
         "license": "CC BY-SA 2.0"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Torres_del_Paine_-_Janvier_2010.jpg/1920px-Torres_del_Paine_-_Janvier_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/torres-del-paine-national-park/File_Torres_del_Paine_-_Janvier_2010.jpg.jpg",
         "alt": "Torres del Paine National Park: The Almirante Nieto Mountain, part of the Cordillera del Paine, in Parc national Torres del Paine, Chile",
         "author": "Martin St-Amant (S23678)",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torres_del_Paine_-_Janvier_2010.jpg",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/torres-del-paine-national-park/File_Towers_of_Paine_-_Torres_del_Paine_National_Park_13.jpg.jpg",
+        "alt": "Torres del Paine National Park: PanAmericana 2017 - the image was taken on an overlanding travel from Ushuaia to Anchorage - taken by Thomas Fuhrmann, SnowmanStudios - see more pictures on / mehr Aufn",
+        "author": "Thomas Fuhrmann",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Towers_of_Paine_-_Torres_del_Paine_National_Park_13.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/torres-del-paine-national-park/File_Striped_woodpecker__Picoides_lignarius__-_Torres_del_Paine_National_Park_08.jpg",
+        "alt": "Torres del Paine National Park: PanAmericana 2017 - the image was taken on an overlanding travel from Ushuaia to Anchorage - taken by Thomas Fuhrmann, SnowmanStudios - see more pictures on / mehr Aufn",
+        "author": "Thomas Fuhrmann",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Striped_woodpecker_(Picoides_lignarius)_-_Torres_del_Paine_National_Park_08.jpg",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },
@@ -162,18 +184,32 @@
         "license": "Unsplash License"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_47.JPG/1920px-Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_47.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/machu-picchu/File_Machu_Picchu__Per_C3_BA__2015-07-30__DD_47.JPG.jpg",
         "alt": "Machu Picchu: View of the ancient houses of Machu Picchu houses, Urubamba Province, Cusco Region, today Peru. The 15th-century Inca citadel, abandoned one century later, is situated in the Sacred Vall",
         "author": "Diego Delso",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Per%C3%BA,_2015-07-30,_DD_47.JPG",
         "license": "CC BY-SA 4.0"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_60.JPG/1920px-Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_60.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/machu-picchu/File_Machu_Picchu__Per_C3_BA__2015-07-30__DD_60.JPG.jpg",
         "alt": "Machu Picchu: Machu Picchu, Peru",
         "author": "Diego Delso",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Per%C3%BA,_2015-07-30,_DD_60.JPG",
         "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/machu-picchu/File_99_-_Machu_Picchu_-_Juin_2009.edit3.jpg.jpg",
+        "alt": "Machu Picchu: Machu Picchu from Wayna Picchu",
+        "author": "Martin St-Amant (S23678)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:99_-_Machu_Picchu_-_Juin_2009.edit3.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/machu-picchu/File_99_-_Machu_Picchu_-_Juin_2009.jpg.jpg",
+        "alt": "Machu Picchu: Machu Picchu from Wayna Picchu",
+        "author": "Martin St-Amant (S23678)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:99_-_Machu_Picchu_-_Juin_2009.jpg",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
@@ -248,18 +284,32 @@
         "license": "Unsplash License"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Moraine_Lake_17092005.jpg/1920px-Moraine_Lake_17092005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/banff-national-park/File_Moraine_Lake_17092005.jpg.jpg",
         "alt": "Banff National Park: Valley of the Ten Peaks and Moraine Lake, Banff National Park, Canada. Mountains from left to right: Tonsa (3057 m), Mount Perren (3051 m), Mount Allen (3310 m), Mount Tuzo (3246 ",
         "author": "Gorgo",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg",
         "license": "Public domain"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Rockies_in_the_morning.jpg/1920px-Rockies_in_the_morning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/banff-national-park/File_Rockies_in_the_morning.jpg.jpg",
         "alt": "Banff National Park: Canadian Rockies in the morning. Banff National Park, Alberta, Canada.",
         "author": "Sergey Pesterev",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rockies_in_the_morning.jpg",
         "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/banff-national-park/File_Lake_Agnes_im_Banff_National_Park.jpg.jpg",
+        "alt": "Banff National Park: Lake Agnes in Banff National Park, Canada with Mount Whyte",
+        "author": "Florian Fuchs",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Agnes_im_Banff_National_Park.jpg",
+        "license": "CC BY 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/banff-national-park/File_The_Mountain_Exhaled_edit.jpg.jpg",
+        "alt": "Banff National Park: A winter cloud sweeps over the Victoria Glacier at Lake Louise, Canada.",
+        "author": "The_Mountain_Exhaled.jpg: laszlo-photo derivative work: Nikopol (talk)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Mountain_Exhaled_edit.jpg",
+        "license": "CC BY-SA 2.0"
       }
     ]
   },
@@ -334,18 +384,32 @@
         "license": "Unsplash License"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg/1920px-Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/yellowstone-national-park/File_Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg.jpg",
         "alt": "Yellowstone National Park: Daisy Geyser erupting in Yellowstone National Park",
         "author": "Brocken Inaglory",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg",
         "license": "CC BY-SA 3.0"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/American_bison_in_Yellowstone_National_Park.jpg/1920px-American_bison_in_Yellowstone_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/yellowstone-national-park/File_American_bison_in_Yellowstone_National_Park.jpg.jpg",
         "alt": "Yellowstone National Park: American bison ♂ (Bison bison bison) in Yellowstone National Park, Wyoming, United States. Only a week after this photo was taken, President Obama signed the National Bison ",
         "author": "Frank Schulenburg",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_bison_in_Yellowstone_National_Park.jpg",
         "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/yellowstone-national-park/File_Yellowstone_National_Park__WY__USA___Grand_Prismatic_Spring_--_2022_--_2514.jpg",
+        "alt": "Yellowstone National Park: Grand Prismatic Spring, Yellowstone National Park, Wyoming, USAYellowstone National Park was founded on March 1, 1872, and is considered the world’s first national park. It ",
+        "author": "Dietmar Rabich",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yellowstone_National_Park_(WY,_USA),_Grand_Prismatic_Spring_--_2022_--_2514.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/yellowstone-national-park/File_Heinrich_Berann_NPS_Panorama_of_Yellowstone_without_labels.jpg.jpg",
+        "alt": "Yellowstone National Park: Heinrich Berann NPS Panorama of Yellowstone without labels",
+        "author": "Heinrich C. Berann",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heinrich_Berann_NPS_Panorama_of_Yellowstone_without_labels.jpg",
+        "license": "Public domain"
       }
     ]
   },
@@ -423,17 +487,31 @@
         "license": "Unsplash License"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/002_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1920px-002_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/serengeti-national-park/File_002_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Lau.jpg",
         "alt": "Serengeti National Park: Wild lion (Panthera leo) Snyggve (also known as Bob Junior), son of C-Boy, scanning the horizon in the Serengeti National Park",
         "author": "Giles Laurent",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:002_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
         "license": "CC BY-SA 4.0"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/023_African_wolf_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1920px-023_African_wolf_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/serengeti-national-park/File_023_African_wolf_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg.jpg",
         "alt": "Serengeti National Park: African wolf in Serengeti National Park, Tanzania",
         "author": "Giles Laurent",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:023_African_wolf_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/serengeti-national-park/File_022_Grant_27s_gazelle_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "alt": "Serengeti National Park: Grant's gazelle in the Serengeti National Park",
+        "author": "Giles Laurent",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:022_Grant%27s_gazelle_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/serengeti-national-park/File_020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Lau.jpg",
+        "alt": "Serengeti National Park: Wild lion (Panthera leo) Snyggve (also known as Bob Junior), son of C-Boy, laying on a lava rock in the Serengeti National Park. Standing on top of the lava rock allows the li",
+        "author": "Giles Laurent",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
         "license": "CC BY-SA 4.0"
       }
     ]
@@ -513,17 +591,31 @@
         "license": "Unsplash License"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Cape_Town_%28ZA%29%2C_Cape_Peninsula_National_Park_--_2024_--_3269-74.jpg/1920px-Cape_Town_%28ZA%29%2C_Cape_Peninsula_National_Park_--_2024_--_3269-74.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/table-mountain-national-park/File_Cape_Town__ZA___Cape_Peninsula_National_Park_--_2024_--_3269-74.jpg.jpg",
         "alt": "Table Mountain National Park: View of Hout Bay from Chapman’s Peak Drive, Cape Peninsula National Park, Cape Town, Western Cape, South Africa",
         "author": "Dietmar Rabich",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Cape_Peninsula_National_Park_--_2024_--_3269-74.jpg",
         "license": "CC BY-SA 4.0"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Cape_Town_%28ZA%29%2C_Cape_Peninsula_National_Park%2C_Cape_of_Good_Hope_--_2024_--_3326.jpg/1920px-Cape_Town_%28ZA%29%2C_Cape_Peninsula_National_Park%2C_Cape_of_Good_Hope_--_2024_--_3326.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/table-mountain-national-park/File_Cape_Town__ZA___Cape_Peninsula_National_Park__Cape_of_Good_Hope_--_2024_--_.jpg",
         "alt": "Table Mountain National Park: Coast at the Cape of Good Hope, Cape Peninsula National Park, Cape Town, Western Cape, South Africa",
         "author": "Dietmar Rabich",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Cape_Peninsula_National_Park,_Cape_of_Good_Hope_--_2024_--_3326.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/table-mountain-national-park/File_Cape_Town__ZA___Cape_Peninsula_National_Park__Cape_of_Good_Hope_--_2024_--_.jpg",
+        "alt": "Table Mountain National Park: Coast at the Cape of Good Hope, Cape Peninsula National Park, Cape Town, Western Cape, South Africa",
+        "author": "Dietmar Rabich",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Cape_Peninsula_National_Park,_Cape_of_Good_Hope_--_2024_--_3276.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/table-mountain-national-park/File_Cape_Town__ZA___Cape_Peninsula_National_Park__Cape_of_Good_Hope_--_2024_--_.jpg",
+        "alt": "Table Mountain National Park: Coast at the Cape of Good Hope, Cape Peninsula National Park, Cape Town, Western Cape, South Africa",
+        "author": "Dietmar Rabich",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Cape_Peninsula_National_Park,_Cape_of_Good_Hope_--_2024_--_3305.jpg",
         "license": "CC BY-SA 4.0"
       }
     ]
@@ -601,18 +693,32 @@
         "license": "Unsplash License"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/TTTM_Sapa_Prague-south_entrance.jpg/1920px-TTTM_Sapa_Prague-south_entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/sapa/File_TTTM_Sapa_Prague-south_entrance.jpg.jpg",
         "alt": "Sapa: Gate of TTTM Sapa, Vietnamese market place in south Prague",
         "author": "Martin2035",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:TTTM_Sapa_Prague-south_entrance.jpg",
         "license": "CC BY-SA 4.0"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Stiftung_SAPA%2C_Schweizer_Archiv_der_Darstellenden_K%C3%BCnste%2C_Eingang_Bern.jpg/1920px-Stiftung_SAPA%2C_Schweizer_Archiv_der_Darstellenden_K%C3%BCnste%2C_Eingang_Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/sapa/File_Stiftung_SAPA__Schweizer_Archiv_der_Darstellenden_K_C3_BCnste__Eingang_Bern.jpg",
         "alt": "Sapa: Stiftung SAPA, Schweizer Archiv der Darstellenden Künste, Eingang Bern",
         "author": "Hadi",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stiftung_SAPA,_Schweizer_Archiv_der_Darstellenden_K%C3%BCnste,_Eingang_Bern.jpg",
         "license": "CC0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/sapa/File_Sapa_Charm_hotel_Vietnam.jpg.jpg",
+        "alt": "Sapa: Sapa Odyssey Hostel (hostel in Sapa) Vietnam",
+        "author": "Andre Hospers",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sapa_Charm_hotel_Vietnam.jpg",
+        "license": "CC BY 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/sapa/File_Sapa_Charm_hotel_Vietnam__59769_.jpg.jpg",
+        "alt": "Sapa: Sapa Odyssey Hostel (hostel in Sapa) Vietnam",
+        "author": "Andre Hospers",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sapa_Charm_hotel_Vietnam_(59769).jpg",
+        "license": "CC BY 4.0"
       }
     ]
   },
@@ -687,18 +793,32 @@
         "license": "Unsplash License"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg/1920px-Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/annapurna-circuit/File_Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg.jpg",
         "alt": "Annapurna Circuit: Yak (Bos grunniens) at Letdar on the Annapurna Circuit in the Annapurna mountain range of central Nepal.",
         "author": "travelwayoflife",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg",
         "license": "CC BY-SA 2.0"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Snowy_Annapurna_Range_-_panorama.jpg/1920px-Snowy_Annapurna_Range_-_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/annapurna-circuit/File_Snowy_Annapurna_Range_-_panorama.jpg.jpg",
         "alt": "Annapurna Circuit: Snowy Annapurna Himal",
         "author": "Ali Sabbagh",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snowy_Annapurna_Range_-_panorama.jpg",
         "license": "CC0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/annapurna-circuit/File_Annapurna_Circuit_Snow_Mountains.jpg.jpg",
+        "alt": "Annapurna Circuit: Snowy mountains in Annapurna Circuit.",
+        "author": "Anna Stavenskaya",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Annapurna_Circuit_Snow_Mountains.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/annapurna-circuit/File_Annapurna_II_seen_during_Annapurna_Circuit_Trek.jpg.jpg",
+        "alt": "Annapurna Circuit: Annapurna II seen during Annapurna Circuit Trek",
+        "author": "Udhabkc",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Annapurna_II_seen_during_Annapurna_Circuit_Trek.jpg",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },
@@ -778,17 +898,31 @@
         "license": "Unsplash License"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Mountains_in_Fiordland_National_Park_01.jpg/1920px-Mountains_in_Fiordland_National_Park_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/fiordland-national-park/File_Mountains_in_Fiordland_National_Park_01.jpg.jpg",
         "alt": "Fiordland National Park: Mountains towering over Upper Valley of Cleddau River South Branch in Fiordland National Park, South Island of New Zealand",
         "author": "Krzysztof Golik",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountains_in_Fiordland_National_Park_01.jpg",
         "license": "CC BY-SA 4.0"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Landscape_of_Fiordland_National_Park_02.jpg/1920px-Landscape_of_Fiordland_National_Park_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/fiordland-national-park/File_Landscape_of_Fiordland_National_Park_02.jpg.jpg",
         "alt": "Fiordland National Park: Landscape near Homer Tunnel in Fiordland National Park, South Island of New Zealand",
         "author": "Krzysztof Golik",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape_of_Fiordland_National_Park_02.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/fiordland-national-park/File_Landscape_of_Fiordland_National_Park_01.jpg.jpg",
+        "alt": "Fiordland National Park: Landscape near Homer Tunnel in Fiordland National Park, South Island of New Zealand",
+        "author": "Krzysztof Golik",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape_of_Fiordland_National_Park_01.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/fiordland-national-park/File_State_Highway_94_in_Fiordland_National_Park.jpg.jpg",
+        "alt": "Fiordland National Park: State Highway 94 in mountain valley near Homer Tunnel in Fiordland National Park, South Island of New Zealand",
+        "author": "Krzysztof Golik",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:State_Highway_94_in_Fiordland_National_Park.jpg",
         "license": "CC BY-SA 4.0"
       }
     ]
@@ -866,17 +1000,31 @@
         "license": "Unsplash License"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Kakadu_%28AU%29%2C_Kakadu_National_Park%2C_Nadap_Lookout_--_2019_--_4200.jpg/1920px-Kakadu_%28AU%29%2C_Kakadu_National_Park%2C_Nadap_Lookout_--_2019_--_4200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kakadu-national-park/File_Kakadu__AU___Kakadu_National_Park__Nadap_Lookout_--_2019_--_4200.jpg.jpg",
         "alt": "Kakadu National Park: View from Nadap Lookout, Kakadu National Park, Northern Territory, AustraliaAs early as the 1930s, local communities and authorities were campaigning for environmental protection",
         "author": "Dietmar Rabich",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kakadu_(AU),_Kakadu_National_Park,_Nadap_Lookout_--_2019_--_4200.jpg",
         "license": "CC BY-SA 4.0"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Kakadu_%28AU%29%2C_Kakadu_National_Park%2C_Cahills_Crossing_--_2019_--_4153.jpg/1920px-Kakadu_%28AU%29%2C_Kakadu_National_Park%2C_Cahills_Crossing_--_2019_--_4153.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kakadu-national-park/File_Kakadu__AU___Kakadu_National_Park__Cahills_Crossing_--_2019_--_4153.jpg.jpg",
         "alt": "Kakadu National Park: Cahills Crossing at Kakadu National Park, Northern Territory, AustraliaAs early as the 1930s, local communities and authorities were campaigning for environmental protection in t",
         "author": "Dietmar Rabich",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kakadu_(AU),_Kakadu_National_Park,_Cahills_Crossing_--_2019_--_4153.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kakadu-national-park/File_Kakadu__AU___Kakadu_National_Park__Gunwarrdehwarrde_Lookout_--_2019_--_4118.jpg",
+        "alt": "Kakadu National Park: View from Gunwarrdehwarrde Lookout, Kakadu National Park, Northern Territory, AustraliaAs early as the 1930s, local communities and authorities were campaigning for environmental",
+        "author": "Dietmar Rabich",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kakadu_(AU),_Kakadu_National_Park,_Gunwarrdehwarrde_Lookout_--_2019_--_4118.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kakadu-national-park/File_Kakadu__AU___Kakadu_National_Park__Nadap_Lookout_--_2019_--_4217.jpg.jpg",
+        "alt": "Kakadu National Park: Kakadu National Park, Northern Territory, AustraliaAs early as the 1930s, local communities and authorities were campaigning for environmental protection in the Northern Territor",
+        "author": "Dietmar Rabich",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kakadu_(AU),_Kakadu_National_Park,_Nadap_Lookout_--_2019_--_4217.jpg",
         "license": "CC BY-SA 4.0"
       }
     ]
@@ -954,18 +1102,32 @@
         "license": "Unsplash License"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Quiraing_Isle_of_Skye_Pano.jpg/1920px-Quiraing_Isle_of_Skye_Pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/isle-of-skye/File_Quiraing_Isle_of_Skye_Pano.jpg.jpg",
         "alt": "Isle of Skye: View from Quiraing to the Staffinbay. Isle of Skye, Scotland.",
         "author": "Stefan Krause, Germany",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quiraing_Isle_of_Skye_Pano.jpg",
         "license": "CC BY-SA 3.0"
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Panorama_in_the_Isle_of_Skye_1.JPG/1920px-Panorama_in_the_Isle_of_Skye_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/isle-of-skye/File_Panorama_in_the_Isle_of_Skye_1.JPG.jpg",
         "alt": "Isle of Skye: Panorama in the Isle of Skye",
         "author": "Mimihitam",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_in_the_Isle_of_Skye_1.JPG",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/isle-of-skye/File_Quiraing__Isle_of_Skye__Scotland_-_Diliff.jpg.jpg",
+        "alt": "Isle of Skye: Looking south in the Quiraing on the Isle of Skye in Scotland.",
+        "author": "Diliff",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quiraing,_Isle_of_Skye,_Scotland_-_Diliff.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/isle-of-skye/File_South_over_the_Quiraing__Isle_of_Skye_-_2.jpg.jpg",
+        "alt": "Isle of Skye: Looking South over the Quiraing on the Isle of Skye.",
+        "author": "Colin",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_over_the_Quiraing,_Isle_of_Skye_-_2.jpg",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },
@@ -1023,7 +1185,37 @@
         "url": "https://np-plitvicka-jezera.hr/en/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/plitvice-lakes-national-park/File_Plitvice_Lakes_National_Park_BW_2014-10-13_13-29-14.jpg.jpg",
+        "alt": "Plitvice Lakes National Park: Croatia, Plitvice Lakes National Park",
+        "author": "Berthold Werner",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plitvice_Lakes_National_Park_BW_2014-10-13_13-29-14.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/plitvice-lakes-national-park/File_Plitvice_Lakes1.jpg.jpg",
+        "alt": "Plitvice Lakes National Park: Waterfalls in the Plitvice Lakes National Park in Croatia.",
+        "author": "Tesla Delacroix",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plitvice_Lakes1.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/plitvice-lakes-national-park/File_Plitvice_Lakes_National_Park_BW_2014-10-13_14-08-48.jpg.jpg",
+        "alt": "Plitvice Lakes National Park: Croatia, Plitvice Lakes National Park",
+        "author": "Berthold Werner",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plitvice_Lakes_National_Park_BW_2014-10-13_14-08-48.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/plitvice-lakes-national-park/File_Plitvice_Lakes_National_Park_BW_2014-10-13_12-27-16.jpg.jpg",
+        "alt": "Plitvice Lakes National Park: Croatia, Plitvice Lakes National Park",
+        "author": "Berthold Werner",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plitvice_Lakes_National_Park_BW_2014-10-13_12-27-16.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ]
   },
   {
     "id": 13,
@@ -1078,7 +1270,37 @@
         "url": "https://www.argentina.gob.ar/parquesnacionales/losglaciares"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/los-glaciares-national-park/File_Bah_C3_ADa_Onelli_Parque_Nacional_Los_Glaciares_Patagonia_Argentina_Luca_Ga.jpg",
+        "alt": "Los Glaciares National Park: Onelli Bay, Los Glaciares national park, Patagonia, Argentina.",
+        "author": "Luca Galuzzi (Lucag)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bah%C3%ADa_Onelli_Parque_Nacional_Los_Glaciares_Patagonia_Argentina_Luca_Galuzzi_2005.JPG",
+        "license": "CC BY-SA 2.5"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/los-glaciares-national-park/File_Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG.jpg",
+        "alt": "Los Glaciares National Park: Perito Moreno Glacier, in Los Glaciares National Park, southern Argentina",
+        "author": "Luca Galuzzi (Lucag)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG",
+        "license": "CC BY-SA 2.5"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/los-glaciares-national-park/File_Los_Glaciares_National_Park_banner_Monte_Fitz_Roy.jpg.jpg",
+        "alt": "Los Glaciares National Park: View of Monte Fitz Roy in cloud on the Laguna De los Tres track.",
+        "author": "tiimta",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Los_Glaciares_National_Park_banner_Monte_Fitz_Roy.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/los-glaciares-national-park/File_Los_Glaciares_National_Park_trail.JPG.jpg",
+        "alt": "Los Glaciares National Park: A trail near El Chalten, Argentina in Los Glaciares National Park",
+        "author": "Fredlyfish4",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Los_Glaciares_National_Park_trail.JPG",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 14,
@@ -1135,7 +1357,37 @@
         "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cradle-mountain-lake-st-clair-national-park/File_Parque_Nacional_Cradle_Mountain-Tasmania-Australia01.JPG.jpg",
+        "alt": "Cradle Mountain-Lake St Clair National Park: Cradle Mountain National Park, Tasmania, Australia",
+        "author": "Diego Delso",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Cradle_Mountain-Tasmania-Australia01.JPG",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cradle-mountain-lake-st-clair-national-park/File_Lake_St_Clair_National_Park.jpg.jpg",
+        "alt": "Cradle Mountain-Lake St Clair National Park: Cradle Mountain and Dove Lake in the Cradle Mountain-Lake St. Clair National Park",
+        "author": "Kathie4670",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_St_Clair_National_Park.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cradle-mountain-lake-st-clair-national-park/File_Dove_Lake_in_Cradle_Mountain-Lake_St_Clair_National_Park.jpg.jpg",
+        "alt": "Cradle Mountain-Lake St Clair National Park: Overlooking Dove Lake in Cradle Mountain-Lake St Clair National Park",
+        "author": "Ovico",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dove_Lake_in_Cradle_Mountain-Lake_St_Clair_National_Park.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cradle-mountain-lake-st-clair-national-park/File_Cradle_Mountain_Lake_St_Clair_banner_Dove_Lake.jpg.jpg",
+        "alt": "Cradle Mountain-Lake St Clair National Park: Cradle Mountain behind Dove Lake in the Cradle Mountain-Lake St Clair National Park.",
+        "author": "tiimta",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cradle_Mountain_Lake_St_Clair_banner_Dove_Lake.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ]
   },
   {
     "id": 15,
@@ -1193,7 +1445,37 @@
         "url": "https://www.tanzaniaparks.go.tz/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kilimanjaro-national-park/File_Kilimanjaro_from_Amboseli.jpg.jpg",
+        "alt": "Kilimanjaro National Park: View of Kilimanjaro from Amboseli National Park, Kenya.",
+        "author": "Sergey Pesterev",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kilimanjaro_from_Amboseli.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kilimanjaro-national-park/File_Entrance_to_Kilimanjaro_National_Park.JPG.jpg",
+        "alt": "Kilimanjaro National Park: Entrance to Kilimanjaro National Park",
+        "author": "Unknown",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_to_Kilimanjaro_National_Park.JPG",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kilimanjaro-national-park/File_Mt._Kilimanjaro_12.2006.jpg.jpg",
+        "alt": "Kilimanjaro National Park: Mt. Kilimanjaro 12.2006",
+        "author": "Unknown",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mt._Kilimanjaro_12.2006.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kilimanjaro-national-park/File_Mount_Kilimanjaro_early_morning_view_from_amboseli_national_park.jpg.jpg",
+        "alt": "Kilimanjaro National Park: Mont Kilimanjaro",
+        "author": "Meevansjay",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Kilimanjaro_early_morning_view_from_amboseli_national_park.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 16,
@@ -1248,7 +1530,37 @@
         "url": "https://www.parconazionale5terre.it/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cinque-terre-national-park/File_Manarola_NW_Cemetery_Corniglia_Monterosso_Cinque_Terre_Sep23_A7C_06872.jpg.jpg",
+        "alt": "Cinque Terre National Park: View of coastline NW from above Manarola: Manarola cemetery and fields and steep trail to Volastra in foreground, Corniglia Station and town centre, San Bernardino above, M",
+        "author": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but pl",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manarola_NW_Cemetery_Corniglia_Monterosso_Cinque_Terre_Sep23_A7C_06872.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cinque-terre-national-park/File_Manarola_NW_Cinque_Terre_Sep23_A7C_07233.jpg.jpg",
+        "alt": "Cinque Terre National Park: Manarola village, harbour and hillside. Cinque Terre, Liguria, Italy",
+        "author": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but pl",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manarola_NW_Cinque_Terre_Sep23_A7C_07233.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cinque-terre-national-park/File_Terraces_Manarola_Volastra_Cinque_Terre_Sep23_A7C_06874.jpg.jpg",
+        "alt": "Cinque Terre National Park: Terraces rising 1,000' from Manarola to Volastra. Built over 1,000 years. Mostly vineyards. Corniglia across the bay, centre left. Cinque Terre, Liguria, Italy",
+        "author": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but pl",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terraces_Manarola_Volastra_Cinque_Terre_Sep23_A7C_06874.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cinque-terre-national-park/File_Parco_Nazionale_delle_Cinque_Terre_1000_44.jpg.jpg",
+        "alt": "Cinque Terre National Park: Parco Nazionale delle Cinque Terre",
+        "author": "FrDr",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parco_Nazionale_delle_Cinque_Terre_1000_44.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 17,
@@ -1306,7 +1618,37 @@
         "url": "https://www.doc.govt.nz/abeltasmantrack"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/abel-tasman-national-park/File_Chroicocephalus_novaehollandiae_in_Abel_Tasman_NP_02.jpg.jpg",
+        "alt": "Abel Tasman National Park: Chroicocephalus novaehollandiae in Abel Tasman National Park, South Island of New Zealand",
+        "author": "Krzysztof Golik",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chroicocephalus_novaehollandiae_in_Abel_Tasman_NP_02.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/abel-tasman-national-park/File_Chroicocephalus_novaehollandiae_in_Abel_Tasman_NP_04.jpg.jpg",
+        "alt": "Abel Tasman National Park: Chroicocephalus novaehollandiae in Abel Tasman National Park, South Island of New Zealand",
+        "author": "Krzysztof Golik",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chroicocephalus_novaehollandiae_in_Abel_Tasman_NP_04.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/abel-tasman-national-park/File_Chroicocephalus_novaehollandiae_in_Abel_Tasman_NP_01.jpg.jpg",
+        "alt": "Abel Tasman National Park: Chroicocephalus novaehollandiae in Abel Tasman National Park, South Island of New Zealand",
+        "author": "Krzysztof Golik",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chroicocephalus_novaehollandiae_in_Abel_Tasman_NP_01.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/abel-tasman-national-park/File_Information_board_in_Abel_Tasman_NP_03.jpg.jpg",
+        "alt": "Abel Tasman National Park: Information board in Abel Tasman National Park, South Island of New Zealand",
+        "author": "Krzysztof Golik",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Information_board_in_Abel_Tasman_NP_03.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 18,
@@ -1360,7 +1702,37 @@
         "url": "https://www.chinahighlights.com/greatwall/jinshanling-great-wall.htm"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/great-wall-of-china/File_Badaling_China_Great-Wall-of-China-01.jpg.jpg",
+        "alt": "Great Wall of China: Badaling, China: Great Wall of China at Badaling",
+        "author": "CEphoto, Uwe Aranas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Badaling_China_Great-Wall-of-China-01.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/great-wall-of-china/File_20090529_Great_Wall_8185.jpg.jpg",
+        "alt": "Great Wall of China: Great Wall of China near Jinshanling",
+        "author": "Jakub Hałun",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20090529_Great_Wall_8185.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/great-wall-of-china/File_Great_Wall_of_China_July_2006.JPG.jpg",
+        "alt": "Great Wall of China: The Great Wall of China at Mutianyu, near Beijing, in July 2006.",
+        "author": "Velatrix",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Wall_of_China_July_2006.JPG",
+        "license": "CC0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/great-wall-of-china/File_Badaling_China_Great-Wall-of-China-06.jpg.jpg",
+        "alt": "Great Wall of China: Badaling, China: Great Wall of China at Badaling",
+        "author": "CEphoto, Uwe Aranas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Badaling_China_Great-Wall-of-China-06.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ]
   },
   {
     "id": 19,
@@ -1417,7 +1789,37 @@
         "url": "https://www.ot-montsaintmichel.com/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mont-saint-michel/File_Mont_St_Michel_at_sunrise.jpg.jpg",
+        "alt": "Mont Saint-Michel: Sunrise on Mont-Saint-Michel. On the day of photography, sunrise occurred at 06:53 and, coincidentally, the maximum low tide occurred at 06:55.",
+        "author": "Lynx1211",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mont_St_Michel_at_sunrise.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mont-saint-michel/File_Clo_C3_AEtre_Abbaye_du_Mont_Saint-Michel_2015-05-28.jpg.jpg",
+        "alt": "Mont Saint-Michel: Cloisters of the abbey of Mont Saint-Michel, in Manche department, Normandy, France. This picture was created by stitching 57 frames (3 different exposures sets of 19 frames) with H",
+        "author": "Benh LIEU SONG (Flickr)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clo%C3%AEtre_Abbaye_du_Mont_Saint-Michel_2015-05-28.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mont-saint-michel/File_Mont_Saint_Michel_and_sheep_-_2026.jpg.jpg",
+        "alt": "Mont Saint-Michel: Mont Saint Michel and sheep",
+        "author": "Eric Kilby",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mont_Saint_Michel_and_sheep_-_2026.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mont-saint-michel/File_Mont_Saint_Michel_at_sunset__April_2025.jpg.jpg",
+        "alt": "Mont Saint-Michel: The Mont saint Michel Island and village, in Manche.",
+        "author": "Giladtop",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mont_Saint_Michel_at_sunset,_April_2025.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 20,
@@ -1474,7 +1876,37 @@
         "url": "https://whc.unesco.org/en/list/640/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/wulingyuan-national-park/File_1_zhangjiajie_huangshizhai_wulingyuan_panorama_2012.jpg.jpg",
+        "alt": "Wulingyuan National Park: Five fingers peak. Quartzite sandstone Huangshizhai Zhangjiajie Wulingyuan Hunan, China. Panorama 2012.",
+        "author": "chensiyuan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_zhangjiajie_huangshizhai_wulingyuan_panorama_2012.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/wulingyuan-national-park/File_1_tianzishan_wulingyuan_zhangjiajie_2012.jpg.jpg",
+        "alt": "Wulingyuan National Park: Panoramic view from Mount Tianzi Shan, Wulingyuan Zhangjiajie hunan China tujia miao 2012",
+        "author": "chensiyuan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_tianzishan_wulingyuan_zhangjiajie_2012.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/wulingyuan-national-park/File_Wulingyuan__Zhangjiajie__Hunan_20230702.jpg.jpg",
+        "alt": "Wulingyuan National Park: ​张家界武陵源风景区",
+        "author": "颐园居",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wulingyuan,_Zhangjiajie,_Hunan_20230702.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/wulingyuan-national-park/File_Wulingyuan_2.jpg.jpg",
+        "alt": "Wulingyuan National Park: Wulingyuan, Zhangjiajie, Hunan Prov., China.",
+        "author": "Filipe Fortes from New York, United States",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wulingyuan_2.jpg",
+        "license": "CC BY-SA 2.0"
+      }
+    ]
   },
   {
     "id": 21,
@@ -1531,7 +1963,37 @@
         "url": "https://www.neuschwanstein.de/englisch/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/neuschwanstein-castle/File_Neuschwanstein_Castle_2024-02.jpg.jpg",
+        "alt": "Neuschwanstein Castle: Neuschwanstein Castle at Schwangau, Bavaria, Germany.",
+        "author": "Wilfredor",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_2024-02.jpg",
+        "license": "CC0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/neuschwanstein-castle/File_Neuschwanstein_Castle_2024.jpg.jpg",
+        "alt": "Neuschwanstein Castle: View from Downtown to Neuschwanstein Castle, Hohenschwangau, Ostallgäu, Bavaria, Germany.",
+        "author": "Wilfredor",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_2024.jpg",
+        "license": "CC0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/neuschwanstein-castle/File_Neuschwanstein_Castle_from_Marienbr_C3_BCcke__2011_May.jpg.jpg",
+        "alt": "Neuschwanstein Castle: Neuschwanstein Castle, Bavaria, Germany in 2011 May.",
+        "author": "Ximonic, Simo Räsänen (post-processing) &amp; Tauno Räsänen (photograph)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_from_Marienbr%C3%BCcke,_2011_May.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/neuschwanstein-castle/File_Castle_Neuschwanstein.jpg.jpg",
+        "alt": "Neuschwanstein Castle: Castle Neuschwanstein at Schwangau, Bavaria, Germany",
+        "author": "Softeis",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castle_Neuschwanstein.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ]
   },
   {
     "id": 22,
@@ -1586,7 +2048,37 @@
         "url": "https://whc.unesco.org/en/list/637/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jiuzhaigou-valley/File_1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg.jpg",
+        "alt": "Jiuzhaigou Valley: Landscape of Five Flower Lake (pinyin: Wǔhuā Hǎi) in Rize Valley (pinyin: Rìzé Gōu), Jiuzhaigou Valley National Park, Sichuan Province, Western China (2011).",
+        "author": "Chensiyuan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jiuzhaigou-valley/File_Jiuzhaigou_Sichuan_China_Jiuzhaigou-Valley-02.jpg.jpg",
+        "alt": "Jiuzhaigou Valley: Jiuzhaigou, Sichuan, China: Waterfall in Jiuzhaigou Valley",
+        "author": "CEphoto, Uwe Aranas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jiuzhaigou_Sichuan_China_Jiuzhaigou-Valley-02.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jiuzhaigou-valley/File_Lake_in_Jiuzhaigou.jpg.jpg",
+        "alt": "Jiuzhaigou Valley: Lake in Jiuzhaigou",
+        "author": "MSK",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_in_Jiuzhaigou.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jiuzhaigou-valley/File__E4_B9_9D_E5_AF_A8_E6_BA_9D-_E8_80_81_E8_99_8E_E6_B5_B7_Jiuzhaigou_Tiger_La.jpg",
+        "alt": "Jiuzhaigou Valley: Jiuzhaigou Tiger Lake",
+        "author": "Culantor Lin",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E5%AF%A8%E6%BA%9D-%E8%80%81%E8%99%8E%E6%B5%B7_Jiuzhaigou_Tiger_Lake.jpg",
+        "license": "CC BY-SA 2.0"
+      }
+    ]
   },
   {
     "id": 23,
@@ -1641,7 +2133,37 @@
         "url": "https://www.nps.gov/yose/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/yosemite-national-park/File_Tunnel_View__Yosemite_Valley__Yosemite_NP_-_Diliff.jpg.jpg",
+        "alt": "Yosemite National Park: View of the valley of Yosemite (from Tunnel View) in the Yosemite National Park, California, USA",
+        "author": "Diliff",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tunnel_View,_Yosemite_Valley,_Yosemite_NP_-_Diliff.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/yosemite-national-park/File_Valley_View_Yosemite_August_2013_002.jpg.jpg",
+        "alt": "Yosemite National Park: This is a photo of a place or building that is listed on the California Historical Landmark listing in the United States. Its reference number is",
+        "author": "King of Hearts",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valley_View_Yosemite_August_2013_002.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/yosemite-national-park/File_Panoramic_Overview_from_Glacier_Point_over_Yosemite_Valley_2013_Alternative.jpg",
+        "alt": "Yosemite National Park: High resolution panoramic overview over Yosemite Valley photographed vom Glacier Point",
+        "author": "Tuxyso",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panoramic_Overview_from_Glacier_Point_over_Yosemite_Valley_2013_Alternative.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/yosemite-national-park/File_Half_Dome_with_Eastern_Yosemite_Valley.jpg.jpg",
+        "alt": "Yosemite National Park: View from Glacier Point on Half Dome and Eastern Yosemite Valley in Yosemite National Park, California, USA.",
+        "author": "Thomas Wolf, www.foto-tw.de",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Half_Dome_with_Eastern_Yosemite_Valley.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ]
   },
   {
     "id": 24,
@@ -1700,7 +2222,37 @@
         "url": "https://visitmadeira.com/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/ilha-da-madeira/File_S_C3_A3o_Martinho__Madeira__Portugal___Complexo_Balnear_da_Ponta_Gorda_--_2.jpg",
+        "alt": "Ilha da Madeira: Seawater pool at the Complexo Balnear da Ponta Gorda outdoor pool (when the waves are strong), São Martinho, Funchal, Madeira, PortugalBetween November 11 and 13, 2025, storm Claudia ",
+        "author": "Dietmar Rabich",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Martinho_(Madeira,_Portugal),_Complexo_Balnear_da_Ponta_Gorda_--_2025_--_0817_(cinematic).jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/ilha-da-madeira/File_Muri_C3_B3n__Gymnothorax_unicolor___Madeira__Portugal__2019-05-31__DD_49.jp.jpg",
+        "alt": "Ilha da Madeira: Brown moray eel (Gymnothorax unicolor), Madeira, Portugal",
+        "author": "Diego Delso",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muri%C3%B3n_(Gymnothorax_unicolor),_Madeira,_Portugal,_2019-05-31,_DD_49.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/ilha-da-madeira/File_Fanal__Madeira__Portugal___Lorbeerwald_--_2025_--_1532.jpg.jpg",
+        "alt": "Ilha da Madeira: Laurel trees (Ocotea foetens) in the laurel forest “Fanal”, Madeira, PortugalFanal is a mystical high plateau area in the northwest of the island of Madeira. It is located in the Laur",
+        "author": "Dietmar Rabich",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fanal_(Madeira,_Portugal),_Lorbeerwald_--_2025_--_1532.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/ilha-da-madeira/File_Fanal__Madeira__Portugal___Lorbeerwald_--_2025_--_1546.jpg.jpg",
+        "alt": "Ilha da Madeira: Laurel trees (Ocotea foetens) in the laurel forest “Fanal”, Madeira, PortugalFanal is a mystical high plateau area in the northwest of the island of Madeira. It is located in the Laur",
+        "author": "Dietmar Rabich",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fanal_(Madeira,_Portugal),_Lorbeerwald_--_2025_--_1546.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 25,
@@ -1758,7 +2310,37 @@
         "url": "https://cataratasdoiguacu.com.br/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/iguacu-falls/File_The_Igua_C3_A7u_Falls_with_a_rainbow_in_a_sunny_day.jpg.jpg",
+        "alt": "Iguaçú Falls: Parque Nacional do Iguaçu de nível Federal, localizado (a) em Céu Azul (PR), Foz do Iguaçu (PR), Matelândia (PR), Medianeira (PR), São Miguel do Iguaçu (PR)",
+        "author": "Fellipe Toffolo de Souza",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Igua%C3%A7u_Falls_with_a_rainbow_in_a_sunny_day.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/iguacu-falls/File_The_Igua_C3_A7u_Falls_with_a_rainbow_in_a_sunny_day_II.jpg.jpg",
+        "alt": "Iguaçú Falls: Parque Nacional do Iguaçu de nível Federal, localizado (a) em Céu Azul (PR), Foz do Iguaçu (PR), Matelândia (PR), Medianeira (PR), São Miguel do Iguaçu (PR)",
+        "author": "Fellipe Toffolo de Souza",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Igua%C3%A7u_Falls_with_a_rainbow_in_a_sunny_day_II.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/iguacu-falls/File_00_1854_Iguaz_C3_BA-Wasserf_C3_A4lle_-_S_C3_BCdamerika.jpg.jpg",
+        "alt": "Iguaçú Falls: Iguazú waterfalls on the border between Argentina and Brazil. The natural wonder Iguazú consists of 20 larger and 255 smaller waterfalls with an extension of 2.7 kilometers. Some of the ",
+        "author": "W. Bulach",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:00_1854_Iguaz%C3%BA-Wasserf%C3%A4lle_-_S%C3%BCdamerika.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/iguacu-falls/File_00_1838_Iguazu_Falls_from_the_Brazilian_side.jpg.jpg",
+        "alt": "Iguaçú Falls: Iguazú-Wasserfälle: insgesamt 20 größeren sowie 255 kleinere Wasserfälle auf einer Ausdehnung von 2,7 Kilometern. Aufnahme von der Brasilianische Seite bei Hochwasser.",
+        "author": "W. Bulach",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:00_1838_Iguazu_Falls_from_the_Brazilian_side.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 26,
@@ -1813,7 +2395,37 @@
         "url": "https://www.gob.mx/conanp"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cumbres-de-monterrey/File_Cascada_del_Chipit_C3_ADn.jpg.jpg",
+        "alt": "Cumbres de Monterrey: Hermosa caída de agua en la sierra de Matacanes, Nuevo León, México",
+        "author": "Noé González",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cascada_del_Chipit%C3%ADn.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cumbres-de-monterrey/File_Cola_de_Caballo_-_panoramio__3_.jpg.jpg",
+        "alt": "Cumbres de Monterrey: Cola de Caballo",
+        "author": "ElGhuzz",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cola_de_Caballo_-_panoramio_(3).jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cumbres-de-monterrey/File_Cola_de_Caballo_-_panoramio__2_.jpg.jpg",
+        "alt": "Cumbres de Monterrey: Cola de Caballo",
+        "author": "ElGhuzz",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cola_de_Caballo_-_panoramio_(2).jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/cumbres-de-monterrey/File_Villa_de_santiago_N.L._-_panoramio.jpg.jpg",
+        "alt": "Cumbres de Monterrey: Villa de santiago N.L.",
+        "author": "Tereso Hernández",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_de_santiago_N.L._-_panoramio.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ]
   },
   {
     "id": 27,
@@ -1871,7 +2483,37 @@
         "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-chapada-diamantina"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/chapada-diamantina-national-park/File_Morr_C3_A3o__no_Parque_Nacional_da_Chapada_Diamantina_-_Bahia_crop_2.jpg.jpg",
+        "alt": "Chapada Diamantina National Park: Morrão, no Parque Nacional da Chapada Diamantina - Bahia (Palmeiras-BA)",
+        "author": "JeilsonandradeDerivative work including crop, contrast, white balance, sharpenin",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morr%C3%A3o,_no_Parque_Nacional_da_Chapada_Diamantina_-_Bahia_crop_2.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/chapada-diamantina-national-park/File_Parque_Nacional_da_Chapada_Diamantina.JPG.jpg",
+        "alt": "Chapada Diamantina National Park: Cercado por serras exuberantes do Parque Nacional da Chapada Diamantina, o Vale do Capão é um convite à paz e conexão plena com a natureza. O vale pertence à cidade d",
+        "author": "Mell Borba",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_da_Chapada_Diamantina.JPG",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/chapada-diamantina-national-park/File_PARNA_da_Chapada_Diamantina_-_HN_Andre_001_.jpg.jpg",
+        "alt": "Chapada Diamantina National Park: Fotografia de paisagem em Parque Nacional da Chapada Diamantina.",
+        "author": "HN Andre",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:PARNA_da_Chapada_Diamantina_-_HN_Andre(001).jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/chapada-diamantina-national-park/File_PARNA_da_Chapada_Diamantina_-_HN_Andre_003_.jpg.jpg",
+        "alt": "Chapada Diamantina National Park: Fotografia de paisagem em Parque Nacional da Chapada Diamantina.",
+        "author": "HN Andre",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:PARNA_da_Chapada_Diamantina_-_HN_Andre(003).jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 28,
@@ -1927,7 +2569,37 @@
         "url": "https://www.noronha.pe.gov.br/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/fernando-de-noronha/File_Parque_Nacional_Marinho_de_Fernando_de_Noronha_-_Jo_C3_A3o_Paulo_Marques_DA.jpg",
+        "alt": "Fernando de Noronha: Camouflaged grouper resting on a rock in the Federal-level Fernando de Noronha Marine National Park, located in Fernando de Noronha (PE).",
+        "author": "João D'Andretta",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Marinho_de_Fernando_de_Noronha_-_Jo%C3%A3o_Paulo_Marques_DAndretta_1-edited.jpg",
+        "license": "CC BY 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/fernando-de-noronha/File_Raia_da_Atalaia_Fernando_de_Noronha_05.jpg.jpg",
+        "alt": "Fernando de Noronha: Praia da Atalaia, Fernando de Noronha. The natural pool with the people on the right is one of the island's main touristic attractions. Fernando de Noronha is an archipelago in th",
+        "author": "Hughes Leglise, Paris, France (Hugo*)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raia_da_Atalaia_Fernando_de_Noronha_05.jpg",
+        "license": "CC BY 2.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/fernando-de-noronha/File_Parque_Nacional_Marinho_de_Fernando_de_Noronha_-_Jo_C3_A3o_Paulo_Marques_DA.jpg",
+        "alt": "Fernando de Noronha: Loggerhead sea turtle (Caretta caretta) with diver in the background, Fernando de Noronha Marine National Park, Pernambuco, Brazil",
+        "author": "João D'Andretta",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Marinho_de_Fernando_de_Noronha_-_Jo%C3%A3o_Paulo_Marques_DAndretta_12.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/fernando-de-noronha/File_Parque_Nacional_Marinho_de_Fernando_de_Noronha_-_Jo_C3_A3o_Paulo_Marques_DA.jpg",
+        "alt": "Fernando de Noronha: Squirrelfish (Holocentrus adscensionis) in the Fernando de Noronha Marine National Park, Brazil.",
+        "author": "João D'Andretta",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Marinho_de_Fernando_de_Noronha_-_Jo%C3%A3o_Paulo_Marques_DAndretta_17.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 29,
@@ -1982,7 +2654,37 @@
         "url": "https://www.gov.br/icmbio/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/lencois-maranhenses-national-park/File_Parque_Nacional_dos_Len_C3_A7_C3_B3is_Maranhenses_Paulo_Cattelan__03_.jpg.jpg",
+        "alt": "Lençóis Maranhenses National Park: Federal level Lençóis Maranhenses National Park, located in Primeira Cruz (MA), Barreirinhas (MA)",
+        "author": "Paulo Cattelan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_dos_Len%C3%A7%C3%B3is_Maranhenses_Paulo_Cattelan_(03).jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/lencois-maranhenses-national-park/File_Casal_de_turistas_caminha_em_uma_duna__enquanto_o_dia_morre_nos_Len_C3_A7_C.jpg",
+        "alt": "Lençóis Maranhenses National Park: A couple of tourists walk through the dunes of the Lençóis Maranhenses National Park at dusk.",
+        "author": "Original: Julio Cesar Goncalves Corrêa Derivative work: Aristeas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casal_de_turistas_caminha_em_uma_duna,_enquanto_o_dia_morre_nos_Len%C3%A7%C3%B3is_Maranhenses_(edited).jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/lencois-maranhenses-national-park/File_Len_C3_A7_C3_B3is_de_Areia.JPG.jpg",
+        "alt": "Lençóis Maranhenses National Park: Lençois de Areia - Lagoa Bonita",
+        "author": "Jardelsliumba",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Len%C3%A7%C3%B3is_de_Areia.JPG",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/lencois-maranhenses-national-park/File_Os_lencois.jpg.jpg",
+        "alt": "Lençóis Maranhenses National Park: Dunes, Lençóis Maranhenses National Park, Maranhão.",
+        "author": "Joao lara mesquita",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Os_lencois.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 30,
@@ -2038,7 +2740,23 @@
         "url": "https://visitbrasil.com/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/amazon-rainforest/File_Juru_C3_A1_River_in_Brazil.jpg.jpg",
+        "alt": "Amazon Rainforest: Rio Juruá visto do espaço.",
+        "author": "Alexander Gerst",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Juru%C3%A1_River_in_Brazil.jpg",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/amazon-rainforest/File_Juma_River__Amazonas__Brazil.jpg.jpg",
+        "alt": "Amazon Rainforest: Juma River located in the municipality of Autazes, Amazonas, Brazil.",
+        "author": "Alexey Yakovlev",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Juma_River,_Amazonas,_Brazil.jpg",
+        "license": "CC BY-SA 2.0"
+      }
+    ]
   },
   {
     "id": 31,
@@ -2096,7 +2814,37 @@
         "url": "https://www.tourismlaos.org/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kuang-si-falls/File_Kuang_Si_Falls_and_a_turquoise_water_pool_in_Luang_Prabang_province_Laos.jp.jpg",
+        "alt": "Kuang Si Falls: Kuang Si Falls and a turquoise water pool, in Luang Prabang province, Laos.",
+        "author": "Basile Morin",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuang_Si_Falls_and_a_turquoise_water_pool_in_Luang_Prabang_province_Laos.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kuang-si-falls/File_Kuang_Si_Falls_and_its_emerald_water_pools_in_Luang_Prabang_province_Laos.j.jpg",
+        "alt": "Kuang Si Falls: Kuang Si Falls and its emerald water pools, in Luang Prabang province, Laos.",
+        "author": "Basile Morin",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuang_Si_Falls_and_its_emerald_water_pools_in_Luang_Prabang_province_Laos.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kuang-si-falls/File_Kuang_Si_Falls_with_submerged_tree_in_turquoise_water_near_Luang_Prabang_La.jpg",
+        "alt": "Kuang Si Falls: Kuang Si Falls with submerged tree in turquoise water, in Luang Prabang province, Laos.",
+        "author": "Basile Morin",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuang_Si_Falls_with_submerged_tree_in_turquoise_water_near_Luang_Prabang_Laos.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kuang-si-falls/File_Rocks_of_Kuang_Si_Falls_near_Luang_Prabang_Laos.jpg.jpg",
+        "alt": "Kuang Si Falls: Rocks of Kuang Si Falls, in Luang Prabang province, Laos.",
+        "author": "Basile Morin",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rocks_of_Kuang_Si_Falls_near_Luang_Prabang_Laos.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 32,
@@ -2152,7 +2900,37 @@
         "url": "https://portal.dnp.go.th/"
       }
     ],
-    "checkedAt": "2026-10-07"
+    "checkedAt": "2026-10-07",
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/khao-sok-national-park/File_Rhacophorus_nigropalmatus.jpg.jpg",
+        "alt": "Khao Sok National Park: Rhacophorus nigropalmatus, Wallace's flying frog - Khao Sok National Park. Photo by Thai National Parks, https://www.thainationalparks.com/khao-sok-national-park.",
+        "author": "Rushenb",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_nigropalmatus.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/khao-sok-national-park/File_Khao_Sok_National_Park_View.JPG.jpg",
+        "alt": "Khao Sok National Park: I took this photograph in the Khao Sok national park in Thailand. The picture was taken from a kayak.",
+        "author": "Velatrix",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khao_Sok_National_Park_View.JPG",
+        "license": "CC0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/khao-sok-national-park/File_Karst_formations_on_Cheow_Lan_Lake__Thailand.jpg.jpg",
+        "alt": "Khao Sok National Park: อุทยานแห่งชาติเขาสก",
+        "author": "Vyacheslav Argenberg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karst_formations_on_Cheow_Lan_Lake,_Thailand.jpg",
+        "license": "CC BY 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/khao-sok-national-park/File_Dendrelaphis_caudolineatus__striped_bronzeback.jpg.jpg",
+        "alt": "Khao Sok National Park: Dendrelaphis caudolineatus - Khao Sok National Park. Photo by Thai National Parks, https://www.thainationalparks.com/khao-sok-national-park.",
+        "author": "Rushenb",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dendrelaphis_caudolineatus,_striped_bronzeback.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 33,
@@ -2215,6 +2993,22 @@
     "status": "published",
     "instagram": [
       "17887275646481349"
+    ],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/refugio-laguna-negra/File_Refugio_de_la_laguna_negra_-_panoramio.jpg.jpg",
+        "alt": "Refugio Laguna Negra: Refugio de la laguna negra",
+        "author": "Estany3",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Refugio_de_la_laguna_negra_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/refugio-laguna-negra/File_Refugio_Italia_-_Laguna_Negra.jpg.jpg",
+        "alt": "Refugio Laguna Negra: Refugio Italia. Manfredo Segre. Ubicados en la orilla de la Laguna Negra en Colonia Suiza - Parque Nacional Nahuel Huapi.",
+        "author": "Matumerlo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Refugio_Italia_-_Laguna_Negra.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     ]
   },
   {
@@ -2276,6 +3070,36 @@
     "status": "published",
     "instagram": [
       "17873458912550198"
+    ],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-hood-national-forest/File_Whisky_Creek_Fire_on_the_Mount_Hood_National_Forest_in_August_2024_-_6.jpg.jpg",
+        "alt": "Mount Hood National Forest: Crews hike out of the forest after a long shift on Whisky Creek Fire, 8/11/2024 S. Crist",
+        "author": "Forest Service Pacific Northwest Region",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Whisky_Creek_Fire_on_the_Mount_Hood_National_Forest_in_August_2024_-_6.jpg",
+        "license": "Public domain"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-hood-national-forest/File_Whisky_Creek_Fire_on_the_Mount_Hood_National_Forest_in_August_2024_-_4.jpg.jpg",
+        "alt": "Mount Hood National Forest: Despite favorable weather and precipitation, heavy fuels and large logs will continue to burn within the Whisky Creek and Sandstone Fire’s footprint.",
+        "author": "Forest Service Pacific Northwest Region",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Whisky_Creek_Fire_on_the_Mount_Hood_National_Forest_in_August_2024_-_4.jpg",
+        "license": "Public domain"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-hood-national-forest/File_Whisky_Creek_Fire_on_the_Mount_Hood_National_Forest_in_August_2024_-_3.jpg.jpg",
+        "alt": "Mount Hood National Forest: Step three of a cabin being wrapped on the Whisky Creek Fire, 7/27/24 by Reinwald",
+        "author": "Forest Service Pacific Northwest Region",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Whisky_Creek_Fire_on_the_Mount_Hood_National_Forest_in_August_2024_-_3.jpg",
+        "license": "Public domain"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-hood-national-forest/File_Whisky_Creek_Fire_on_the_Mount_Hood_National_Forest_in_August_2024_-_7.jpg.jpg",
+        "alt": "Mount Hood National Forest: Despite significant precipitation during Saturday’s storm, these fires remain active. Large burning logs and other downed materials are not readily extinguished by a passin",
+        "author": "Forest Service Pacific Northwest Region",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Whisky_Creek_Fire_on_the_Mount_Hood_National_Forest_in_August_2024_-_7.jpg",
+        "license": "Public domain"
+      }
     ]
   },
   {
@@ -2340,6 +3164,36 @@
     "status": "published",
     "instagram": [
       "18072356668148864"
+    ],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/zion-national-park/File_Kolob_Canyons_part_of_Zion_National_Park.JPG.jpg",
+        "alt": "Zion National Park: View in the Kolob Canyons. Kolob Canyons is the northwest section of Zion National Park, Utah, United States. The Kolob Canyons are part of the Colorado Plateau region of the Zion ",
+        "author": "Michael Gäbler",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kolob_Canyons_part_of_Zion_National_Park.JPG",
+        "license": "CC BY 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/zion-national-park/File_Navajo_Sandstone_formations_in_Zion_National_Park__Utah.-__USA_2016_.jpg.jpg",
+        "alt": "Zion National Park: Formations de grès Navajo : Twin Brothers, et Bridge Mountain dans le Zion National Park, Utah.- Utah (USA)",
+        "author": "Pierre André Leclercq",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Navajo_Sandstone_formations_in_Zion_National_Park,_Utah.-_(USA_2016).jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/zion-national-park/File_Angels_Landing.jpg.jpg",
+        "alt": "Zion National Park: breathtaking view from the Angels Landing trail looking northward to the Narrows, Zion National Park, Utah, USA.",
+        "author": "Tobias Alt",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angels_Landing.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/zion-national-park/File_Mountains_in_Zion_National_Park__Utah.jpg.jpg",
+        "alt": "Zion National Park: View of Mountains in Zion National Park, Utah, USA.",
+        "author": "“Jon Zander(digon3)”",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountains_in_Zion_National_Park,_Utah.jpg",
+        "license": "CC BY-SA 3.0"
+      }
     ]
   },
   {
@@ -2397,6 +3251,36 @@
     "status": "published",
     "instagram": [
       "18077575360085784"
+    ],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jumbo-pass/File_Hello_Jumbo-Groningen.jpg.jpg",
+        "alt": "Jumbo Pass: Cyclist passes the Korenbeurs in Groningen with a Jumbo bag",
+        "author": "Matthijs van den Berg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hello_Jumbo-Groningen.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jumbo-pass/File_9-4-33__Longchamp__Prix_Juign_C3_A9__Jumbo__cheval_de_course__mont_C3_A9_pa.jpg",
+        "alt": "Jumbo Pass: Sujet : Johnstone, William (1905-1964) Chevaux de course Jockeys Paris (France) -- Hippodrome de Longchamp Référence bibliographique : Rol, 171529 Appartient à l’ensemble documentaire : Ph",
+        "author": "Agence Rol. Agence photographique (commanditaire)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:9-4-33,_Longchamp,_Prix_Juign%C3%A9,_Jumbo_(cheval_de_course)_mont%C3%A9_par_W._Johnstone_-_btv1b53269534n.jpg",
+        "license": "Public domain"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jumbo-pass/File_9-4-33__Longchamp__Prix_Juign_C3_A9__Jumbo__cheval_de_course__mont_C3_A9_pa.jpg",
+        "alt": "Jumbo Pass: Sujet : Johnstone, William (1905-1964) Jockeys Chevaux de course Paris (France) -- Hippodrome de Longchamp Référence bibliographique : Rol, 171530 Appartient à l’ensemble documentaire : Ph",
+        "author": "Agence Rol. Agence photographique (commanditaire)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:9-4-33,_Longchamp,_Prix_Juign%C3%A9,_Jumbo_(cheval_de_course)_mont%C3%A9_par_W._Johnstone_-_btv1b532695336.jpg",
+        "license": "Public domain"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jumbo-pass/File_11e__C3_A9tape_Tour_de_France_2022_-__C3_89chapp_C3_A9e_au_pied_du_T_C3_A9l.jpg",
+        "alt": "Jumbo Pass: Sight of the first riders of the break crossing Arc river in Saint-Michel-de-Maurienne (Savoie, France) and starting the climb of Col du Télégraphe and next Col du Galibier passes, during ",
+        "author": "Florian Pépellin",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:11e_%C3%A9tape_Tour_de_France_2022_-_%C3%89chapp%C3%A9e_au_pied_du_T%C3%A9l%C3%A9graphe_(1).JPG",
+        "license": "CC BY-SA 4.0"
+      }
     ]
   },
   {
@@ -2491,7 +3375,37 @@
       }
     ],
     "checkedAt": "2026-10-08",
-    "instagram": []
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/everest-base-camp/File_Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg.jpg",
+        "alt": "Everest Base Camp: Mount Everest North Face as seen from the path to the base camp, Rongbuk Valley, Tibet (5,160 m).",
+        "author": "Luca Galuzzi (Lucag)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg",
+        "license": "CC BY-SA 2.5"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/everest-base-camp/File_Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006_edit_1.jpg.jpg",
+        "alt": "Everest Base Camp: Mount Everest North Face as seen from the path to the base camp, Tibet.",
+        "author": "Luca Galuzzi (Lucag)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006_edit_1.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/everest-base-camp/File_Everest_Base_Camp_on_a_Stormy_Day.jpg.jpg",
+        "alt": "Everest Base Camp: Mount Everest Base Camp in 2016, Nepal.",
+        "author": "Daniel Oberhaus",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Everest_Base_Camp_on_a_Stormy_Day.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/everest-base-camp/File_Tent_village_at_Everest_Base_Camp__Tibet.JPG.jpg",
+        "alt": "Everest Base Camp: This is the tent village established for tourists' convenience called Everest Base Camp, in Tibet. It is the furthest that private cars can go. A microbus is available to take touri",
+        "author": "Gail Morrison",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tent_village_at_Everest_Base_Camp,_Tibet.JPG",
+        "license": "CC BY-SA 3.0"
+      }
+    ]
   },
   {
     "id": 38,
@@ -2576,7 +3490,37 @@
       }
     ],
     "checkedAt": "2026-10-08",
-    "instagram": []
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/glacier-national-park/File_Hoary_Marmot_in_Glacier_National_Park.jpg.jpg",
+        "alt": "Glacier National Park: Hoary Marmot (Marmota caligata) in Glacier National Park, seen on the Logan Pass hike.",
+        "author": "Trougnouf",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoary_Marmot_in_Glacier_National_Park.jpg",
+        "license": "CC BY 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/glacier-national-park/File_Girl_Posing_at_Glacier_Point_Yosemite_2013.jpg.jpg",
+        "alt": "Glacier National Park: Posing girl at Glacier Point in Yosemite National Park with Half Dome in the background",
+        "author": "Tuxyso",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Girl_Posing_at_Glacier_Point_Yosemite_2013.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/glacier-national-park/File_Mountain_Goat_at_Hidden_Lake.jpg.jpg",
+        "alt": "Glacier National Park: Mountain goat at Hidden Lake, near Logan Pass, in Glacier National Park",
+        "author": "Robert M. Russell",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountain_Goat_at_Hidden_Lake.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/glacier-national-park/File_Glacier_valley_in_Khan_Tengri_Nature_Park__Tien_Shan.jpg.jpg",
+        "alt": "Glacier National Park: Glacier valley Komsomolets in Khan Tengri Nature Park, Tien Shan. Photo taken from a helicopter over the South Engilchek Glacier",
+        "author": "Maryliflower",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glacier_valley_in_Khan_Tengri_Nature_Park,_Tien_Shan.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 37,
@@ -2668,7 +3612,37 @@
       }
     ],
     "checkedAt": "2026-10-08",
-    "instagram": []
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/grand-canyon-national-park/File_Grand_canyon_march_2013.jpg.jpg",
+        "alt": "Grand Canyon National Park: The Grand Canyon, Arizona, US.",
+        "author": "Tomascastelazo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_canyon_march_2013.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/grand-canyon-national-park/File_Grand_Canyon_Powell_Point_Evening_Light_02_2013.jpg.jpg",
+        "alt": "Grand Canyon National Park: Grand Canyon South Rim photographed from Powell Point with warm evening light",
+        "author": "Tuxyso",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Powell_Point_Evening_Light_02_2013.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/grand-canyon-national-park/File_Grand_Canyon_Hopi_Point_with_rainbow_2013.jpg.jpg",
+        "alt": "Grand Canyon National Park: View from Hopi Point over Grand Canyon with rainbow",
+        "author": "Tuxyso",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Hopi_Point_with_rainbow_2013.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/grand-canyon-national-park/File_Grand_Canyon_West__E2_80_93_panoramic_view_from_Guano_Point.jpg.jpg",
+        "alt": "Grand Canyon National Park: Grand Canyon West – panoramic view from Guano Point",
+        "author": "Krigore",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_West_%E2%80%93_panoramic_view_from_Guano_Point.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 39,
@@ -2747,7 +3721,37 @@
       }
     ],
     "checkedAt": "2026-10-08",
-    "instagram": []
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/tour-du-mont-blanc/File_Glacier_du_Mont_Mallet__Glacier_du_G_C3_A9ant___26_Mont_Blanc__2010_July.jp.jpg",
+        "alt": "Tour du Mont Blanc: Glacier du Géant and Mont Blanc in the background in the end of 2010 July.",
+        "author": "Ximonic, Simo Räsänen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glacier_du_Mont_Mallet_(Glacier_du_G%C3%A9ant)_%26_Mont_Blanc,_2010_July.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/tour-du-mont-blanc/File_GR5_-_TMB_au_nord_du_col_du_Bonhomme.jpg.jpg",
+        "alt": "Tour du Mont Blanc: Balise GR sur le GR5 et le TMB",
+        "author": "Cassican",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:GR5_-_TMB_au_nord_du_col_du_Bonhomme.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/tour-du-mont-blanc/File_GR_Tour_du_Mont-Blanc___Les_Montets.jpg.jpg",
+        "alt": "Tour du Mont Blanc: Le sentier de grande randonnée Tour du mont-Blanc aux Montets, Vallorcine, Haute-Savoie, France",
+        "author": "Rémih",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:GR_Tour_du_Mont-Blanc_@_Les_Montets.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/tour-du-mont-blanc/File_Tour_du_Mont-Blanc___Col_des_Montets_01.jpg.jpg",
+        "alt": "Tour du Mont Blanc: Le sentier de grande randonnée Tour du Mont-Blanc en montant au col des Montets depuis Trélechamps, Chamonix-Mont-Blanc, Haute-Savoie, France",
+        "author": "Rémih",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tour_du_Mont-Blanc_@_Col_des_Montets_01.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   },
   {
     "id": 40,
@@ -2832,6 +3836,36 @@
       }
     ],
     "checkedAt": "2026-10-08",
-    "instagram": []
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/tre-cime-di-lavaredo/File_Drei_Zinnen_Tre_Cime_di_Lavaredo_Dolomites.jpg.jpg",
+        "alt": "Tre Cime di Lavaredo: The Tre Cime di Lavaredo in the Dolomites - Aerial view from a helicopter of the Northern face - Dolomites UNESCO World Heritage Site.",
+        "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drei_Zinnen_Tre_Cime_di_Lavaredo_Dolomites.jpg",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/tre-cime-di-lavaredo/File_Valle_della_Rienza_and_Tre_Cime_di_Lavaredo_from_Alpe_Specie__Val_Pusteria_.jpg",
+        "alt": "Tre Cime di Lavaredo: A view to Valle della Rienza and Tre Cime di Lavaredo from Alpe Specie, Val Pusteria, Trentino-Alto Adige, Italy in 2025 October.",
+        "author": "Ximonic (Simo Räsänen)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valle_della_Rienza_and_Tre_Cime_di_Lavaredo_from_Alpe_Specie,_Val_Pusteria,_Trentino-Alto_Adige,_Italy,_2025_October.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/tre-cime-di-lavaredo/File_Lago_di_Misurina_Tre_Cime_di_Lavaredo_1.jpg.jpg",
+        "alt": "Tre Cime di Lavaredo: Tre Cime di Lavaredo seen from Lake Misurina",
+        "author": "kallerna",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lago_di_Misurina_Tre_Cime_di_Lavaredo_1.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/tre-cime-di-lavaredo/File_Tre_Cime_di_Lavaredo_from_Monte_Specie__Val_Pusteria__Trentino-Alto_Adige__.jpg",
+        "alt": "Tre Cime di Lavaredo: Tre Cime di Lavaredo as seen from Monte Specie, Val Pusteria, Trentino-Alto Adige, Italy in 2025 October.",
+        "author": "Ximonic (Simo Räsänen)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tre_Cime_di_Lavaredo_from_Monte_Specie,_Val_Pusteria,_Trentino-Alto_Adige,_Italy,_2025_October.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   }
 ]
