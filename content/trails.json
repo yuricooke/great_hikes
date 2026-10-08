@@ -33,7 +33,14 @@
         "label": "NPS — Vernal Fall and Nevada Fall Trails",
         "url": "https://www.nps.gov/yose/planyourvisit/vernalnevadatrail.htm"
       }
-    ]
+    ],
+    "photo": {
+      "src": "/trails/yosemite-national-park--mist-trail.jpg",
+      "alt": "Vernal Fall on the Merced River, seen from the Mist Trail in Yosemite",
+      "author": "God of War",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vernal_Falls_Rainbow.jpg",
+      "license": "CC BY-SA 3.0"
+    }
   },
   {
     "place": "yosemite-national-park",
@@ -67,7 +74,15 @@
         "label": "NPS — Yosemite Falls Trail",
         "url": "https://www.nps.gov/yose/planyourvisit/yosemitefallstrail.htm"
       }
-    ]
+    ],
+    "photo": {
+      "src": "https://images.unsplash.com/photo-1562310503-a918c4c61e38?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8VXBwZXIlMjBZb3NlbWl0ZSUyMEZhbGwlMjBZb3NlbWl0ZSUyME5hdGlvbmFsJTIwUGFya3xlbnwxfDB8fHwxNzkxNDU0MjY3fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+      "alt": "Yosemite Falls pouring over the granite rim of Yosemite Valley",
+      "author": "Mick Haupt",
+      "authorUrl": "https://unsplash.com/@rocinante_11?utm_source=great_hikes&utm_medium=referral",
+      "sourceUrl": "https://unsplash.com/photos/landscape-photography-of-waterfalls-2NQUZsSFkao?utm_source=great_hikes&utm_medium=referral",
+      "license": "Unsplash License"
+    }
   },
   {
     "place": "yosemite-national-park",
@@ -105,7 +120,14 @@
         "label": "NPS — Half Dome Permits",
         "url": "https://www.nps.gov/yose/planyourvisit/hdpermits.htm"
       }
-    ]
+    ],
+    "photo": {
+      "src": "/trails/yosemite-national-park--half-dome.jpg",
+      "alt": "Half Dome seen from Glacier Point, Yosemite National Park",
+      "author": "Diliff",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Half_Dome_from_Glacier_Point,_Yosemite_NP_-_Diliff.jpg",
+      "license": "CC BY-SA 3.0"
+    }
   },
   {
     "place": "yosemite-national-park",
@@ -140,7 +162,15 @@
         "label": "NPS — Yosemite Valley Day Hikes",
         "url": "https://www.nps.gov/yose/planyourvisit/valleyhikes.htm"
       }
-    ]
+    ],
+    "photo": {
+      "src": "https://images.unsplash.com/photo-1516687401797-25297ff1462c?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8Rm91ciUyME1pbGUlMjBUcmFpbCUyMHRvJTIwR2xhY2llciUyMFBvaW50JTIwWW9zZW1pdGUlMjBOYXRpb25hbCUyMFBhcmt8ZW58MXwwfHx8MTc5MTQ1NDI3MXww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+      "alt": "Snow-capped granite cliffs and a waterfall above the forest of Yosemite Valley",
+      "author": "Aniket Deole",
+      "authorUrl": "https://unsplash.com/@anik3t?utm_source=great_hikes&utm_medium=referral",
+      "sourceUrl": "https://unsplash.com/photos/granite-cliffs-and-waterfall-in-yosemite-T-tOgjWZ0fQ?utm_source=great_hikes&utm_medium=referral",
+      "license": "Unsplash License"
+    }
   },
   {
     "place": "yosemite-national-park",
@@ -176,7 +206,15 @@
         "label": "NPS — Day Hikes along the Glacier Point Road",
         "url": "https://www.nps.gov/yose/planyourvisit/glacierhikes.htm"
       }
-    ]
+    ],
+    "photo": {
+      "src": "https://images.unsplash.com/photo-1509594576651-884efeed4990?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8U2VudGluZWwlMjBEb21lJTIwWW9zZW1pdGUlMjBOYXRpb25hbCUyMFBhcmt8ZW58MXwwfHx8MTc5MTQ1NDI3Mnww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+      "alt": "Granite domes under a blue sky near Sentinel Dome, Yosemite",
+      "author": "Jesse Gardner",
+      "authorUrl": "https://unsplash.com/@plasticmind?utm_source=great_hikes&utm_medium=referral",
+      "sourceUrl": "https://unsplash.com/photos/brown-mountain-under-blue-sky-during-daytime-VR8y40jx8II?utm_source=great_hikes&utm_medium=referral",
+      "license": "Unsplash License"
+    }
   },
   {
     "place": "annapurna-circuit",
@@ -215,7 +253,15 @@
         "label": "OpenStreetMap — Annapurna Circuit route",
         "url": "https://www.openstreetmap.org/relation/1187310"
       }
-    ]
+    ],
+    "photo": {
+      "src": "https://images.unsplash.com/photo-1720810828643-3b70f8e4cb2a?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8QW5uYXB1cm5hJTIwQ2lyY3VpdCUyMEFubmFwdXJuYSUyMENpcmN1aXR8ZW58MXwwfHx8MTc5MTQ1NDI3M3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+      "alt": "Trekkers on a green hillside on the Annapurna Circuit, Nepal",
+      "author": "Anja Lee Ming Becker",
+      "authorUrl": "https://unsplash.com/@anjaleemingbecker?utm_source=great_hikes&utm_medium=referral",
+      "sourceUrl": "https://unsplash.com/photos/a-couple-of-people-standing-on-top-of-a-lush-green-hillside-tPfOcBOx2wI?utm_source=great_hikes&utm_medium=referral",
+      "license": "Unsplash License"
+    }
   },
   {
     "place": "annapurna-circuit",
@@ -255,7 +301,14 @@
         "url": "https://www.openstreetmap.org/relation/17548991"
       }
     ],
-    "maxGapM": 1500
+    "maxGapM": 1500,
+    "photo": {
+      "src": "/trails/annapurna-circuit--annapurna-base-camp.jpg",
+      "alt": "Annapurna Base Camp surrounded by Himalayan peaks",
+      "author": "Kapilkhatri19",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shining_Mt._Annapurna.jpg",
+      "license": "CC BY-SA 3.0"
+    }
   },
   {
     "place": "annapurna-circuit",
@@ -294,6 +347,14 @@
         "label": "OpenStreetMap — Mardi Himal trek",
         "url": "https://www.openstreetmap.org/relation/19267496"
       }
-    ]
+    ],
+    "photo": {
+      "src": "https://images.unsplash.com/photo-1696388882435-4a8a116dff2c?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8TWFyZGklMjBIaW1hbCUyMEFubmFwdXJuYSUyMENpcmN1aXR8ZW58MXwwfHx8MTc5MTQ1NDI3N3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+      "alt": "Snow-covered Himalayan peak above the forest on the Mardi Himal trek",
+      "author": "Slava Auchynnikau",
+      "authorUrl": "https://unsplash.com/@auchynnikau?utm_source=great_hikes&utm_medium=referral",
+      "sourceUrl": "https://unsplash.com/photos/a-snow-covered-mountain-with-trees-on-the-side-9Dv4M1q3I7A?utm_source=great_hikes&utm_medium=referral",
+      "license": "Unsplash License"
+    }
   }
 ]
