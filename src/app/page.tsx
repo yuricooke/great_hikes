@@ -12,7 +12,7 @@ import AdBanner from "@/components/AdBanner/AdBanner";
 import Rail from "@/components/Rail/Rail";
 import ProductCard from "@/components/Shop/ProductCard";
 import { pickAd } from "@/lib/ads";
-import { featuredHike } from "@/lib/featured";
+import { featuredArticle, featuredHike } from "@/lib/featured";
 import { hikeFacts, sortHikes } from "@/lib/hike-utils";
 import { allHikes, hikeBySlug, hikePath, toHikeCard } from "@/lib/hikes";
 import { featuredPosts } from "@/lib/instagram";
@@ -45,6 +45,9 @@ function todayLabel(now = new Date()) {
 
 export default async function LandingPage() {
   const hike = featuredHike();
+  // Today's feature is a journal guide; its cover hike gives the photo and the "plan it" link.
+  const story = await featuredArticle();
+  const storyHike = story ? hikeBySlug(story.cover)! : hike;
   const top10 = hikesForTopic(topicBySlug("top-10")!);
   const [posts, shared] = await Promise.all([featuredPosts(), approvedRecent(10)]);
   // Curated community: approved hiker photos first, then credited @great_hikes features.
@@ -98,8 +101,8 @@ export default async function LandingPage() {
           <GlassPanel tone="strong" className={styles.feature}>
             <div className={styles.featurePhoto}>
               <Image
-                src={hike.photo.src}
-                alt={hike.photo.alt}
+                src={storyHike.photo.src}
+                alt={storyHike.photo.alt}
                 fill
                 sizes="(min-width: 768px) 40vw, 100vw"
                 quality={70}
@@ -108,26 +111,44 @@ export default async function LandingPage() {
             </div>
             <div className={styles.featureBody}>
               <div className={styles.featureTop}>
-                <p className={styles.eyebrow}>Today&apos;s feature</p>
+                <p className={styles.eyebrow}>{story ? "Today's read" : "Today's feature"}</p>
                 <time className={styles.date} dateTime={now.toISOString().slice(0, 10)}>
                   {todayLabel(now)}
                 </time>
               </div>
               <h2 id="featured-title" className={styles.featureTitle}>
-                {hike.title}
+                {story ? story.title : storyHike.title}
               </h2>
               <p className={styles.place}>
-                {hike.country} <span aria-hidden="true">·</span> {hike.continent} <span aria-hidden="true">·</span>{" "}
-                {hike.biome}
+                {storyHike.title} <span aria-hidden="true">·</span> {storyHike.country}
+                {story && (
+                  <>
+                    {" "}
+                    <span aria-hidden="true">·</span> {story.readMinutes} min read
+                  </>
+                )}
               </p>
-              <p className={styles.featureText}>{hike.description}</p>
+              <p className={styles.featureText}>{story ? story.lead : storyHike.description}</p>
               <div className={styles.featureActions}>
-                <PillButton href={hikePath(hike)} variant="accent" size="lg" icon="hiking">
-                  Let&apos;s hike!
-                </PillButton>
-                <FavoriteButton slug={hike.slug} title={hike.title} variant="pill" />
+                {story ? (
+                  <>
+                    <PillButton href={articlePath(story)} variant="accent" size="lg" icon="stories">
+                      Read the guide
+                    </PillButton>
+                    <PillButton href={hikePath(storyHike)} variant="outline" icon="hiking">
+                      Plan {storyHike.title}
+                    </PillButton>
+                  </>
+                ) : (
+                  <>
+                    <PillButton href={hikePath(storyHike)} variant="accent" size="lg" icon="hiking">
+                      Let&apos;s hike!
+                    </PillButton>
+                    <FavoriteButton slug={storyHike.slug} title={storyHike.title} variant="pill" />
+                  </>
+                )}
               </div>
-              <PhotoCredit photo={hike.photo} />
+              <PhotoCredit photo={storyHike.photo} />
             </div>
           </GlassPanel>
         </section>
