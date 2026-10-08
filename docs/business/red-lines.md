@@ -1,8 +1,8 @@
-# Red lines — content & business (proposed 2026-10-08, owner to approve)
+# Red lines — content & business (approved by the owner 2026-10-08; constitution VII)
 
 Things Great Hikes never does, whatever the money. They protect the community's trust (our main
 asset), keep us inside the law (B6) and inside platform rules (Instagram, Google, affiliate
-programmes). Once approved, they go into the constitution and the content policy (B5).
+programmes). They are constitution principle VII and feed the content policy (B5).
 
 ## Content
 1. **No explicit content** — no nudity, sexual content, gore, hate, harassment, or shock imagery.

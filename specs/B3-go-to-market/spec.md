@@ -1,6 +1,7 @@
 # B3 — Go-to-market & growth
 
-**Status:** to do. Replaces roadmap marketing items M1–M4.
+**Status:** draft v1 written 2026-10-08 — `docs/marketing/gtm-plan.md`, `ads-test-plan.md`,
+`content-calendar.md` (owner to review). Replaces roadmap marketing items M1–M4.
 
 ## Scope
 - **Launch plan** — pre-launch (domain, content minimum: 50 hikes / 25 guides?), launch week
