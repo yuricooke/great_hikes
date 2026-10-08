@@ -1,0 +1,99 @@
+{
+  "id": 42,
+  "slug": "camino-frances",
+  "title": "Camino de Santiago — Camino Francés",
+  "continent": "Europe",
+  "country": "Spain",
+  "biome": "Pilgrimage route",
+  "landscapes": [
+    "mountains",
+    "forests"
+  ],
+  "description": "The French Way of St James: about 780 km on foot from Saint-Jean-Pied-de-Port in the French Pyrenees across northern Spain to Santiago de Compostela, through Navarre, La Rioja, the Castilian plains and the green hills of Galicia.",
+  "hikingExplained": "The Camino Francés is the classic route of the Camino de Santiago. It begins in Saint-Jean-Pied-de-Port, the last stop on the Way in France, crosses the Pyrenees to Roncesvalles, and then runs west through Navarre, La Rioja, Castile and León and Galicia to the Cathedral of Santiago de Compostela, about 780 km later. Along the way you pass Pamplona, Burgos and León, the long open plains of the Meseta, and the climb to O Cebreiro where the Way enters Galicia.\n\nNo single day is technical, but the first stage over the Pyrenees is hard, and walking day after day for around five weeks is a real test of feet and stamina. Pilgrims carry a Credencial (pilgrim passport) and collect stamps where they sleep; it gives access to pilgrim hostels (albergues) and is needed for the Compostela certificate. Many pilgrims walk only part of it, often a week or so, and come back to continue in later years.",
+  "officialUrl": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances",
+  "map": "/maps/Europe.svg",
+  "photo": {
+    "src": "/hikes/camino-frances.jpg",
+    "alt": "Pilgrims walk along the Route Napoléon near the Orisson refuge on the Pyrenees crossing of the Camino Francés, with bare trees, grassy slopes and hazy blue mountains beyond",
+    "author": "Marathoni62",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Route_Napol%C3%A9on_pr%C3%A8s_du_refuge_Orisson.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 43.163,
+    "lng": -1.2381
+  },
+  "details": {
+    "route": "Saint-Jean-Pied-de-Port (France) to Santiago de Compostela via Roncesvalles, Pamplona, Burgos, León and O Cebreiro",
+    "distanceKm": 780,
+    "elevationGainM": null,
+    "maxAltitudeM": null,
+    "duration": "About 32–38 daily stages (roughly 5 weeks)",
+    "difficulty": "challenging",
+    "routeType": "point-to-point",
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "permit": "No permit needed. Carry a Credencial (pilgrim passport), from the Pilgrim's Office, parish churches, pilgrim associations or hostels, and get it stamped along the Way. For the Compostela certificate, the Pilgrim's Office requires at least the last 100 continuous km walked on the same route (200 km by bike), ending with the stage into Santiago Cathedral.",
+    "gettingThere": "Start in Saint-Jean-Pied-de-Port (Pyrénées-Atlantiques, France), reached on the regional TER line from Bayonne; check SNCF for any replacement buses. The pilgrim welcome office is at 39 rue de la Citadelle. From Santiago de Compostela, high-speed trains run to Madrid, buses serve Galicia, Portugal and France, and Santiago airport is about 10 km from the city.",
+    "tips": [
+      "The Route Napoléon over the Pyrenees is closed from 1 November to 31 March; in those months, and whenever the weather is bad, take the lower route through Valcarlos (Luzaide).",
+      "Public pilgrim hostels in Galicia cannot be booked: beds go in order of arrival (walkers first), for one night only, at €10; doors open 13:00–22:00. In busy months, consider booking private accommodation ahead.",
+      "Spring and September–October bring milder temperatures and less rain. The first stage, from Saint-Jean over the Pyrenees to Roncesvalles, is the most demanding, so plan it as a full day."
+    ]
+  },
+  "sources": [
+    {
+      "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Compostela",
+      "url": "https://oficinadelperegrino.com/en/pilgrimage/the-compostela/"
+    },
+    {
+      "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Credencial",
+      "url": "https://oficinadelperegrino.com/en/pilgrimage/the-credencial/"
+    },
+    {
+      "label": "Spain.info (Turespaña) — The French Way of Saint James (regions, stages, best time, accommodation)",
+      "url": "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/"
+    },
+    {
+      "label": "Spain.info (Turespaña) — The French Way from St Jean in France to Santiago (distance, Pyrenees stage, winter closure)",
+      "url": "https://www.spain.info/en/activities/french-camino-st-jean-pied-de-port-santiago/"
+    },
+    {
+      "label": "Spain.info (Turespaña) — Santiago de Compostela (getting there: airport, train, bus)",
+      "url": "https://www.spain.info/en/destination/santiago-compostela/"
+    },
+    {
+      "label": "Xacobeo / Xunta de Galicia — Camino Francés",
+      "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances"
+    },
+    {
+      "label": "Xacobeo / Xunta de Galicia — Public pilgrim hostel network (rules, price, no reservations)",
+      "url": "https://www.caminodesantiago.gal/es/descubre/el-camino-en-la-actualidad/la-red-de-albergues-publicos"
+    },
+    {
+      "label": "Visit Navarra — Camino Francés: Saint-Jean-Pied-de-Port to Roncesvalles (Valcarlos route, winter closure)",
+      "url": "https://www.visitnavarra.es/en/detalle-tramo/-/t/camino-santiago-frances-lepodeder-roncesvalles"
+    },
+    {
+      "label": "Pays Basque tourism — Saint-Jean-Pied-de-Port (pilgrim welcome office)",
+      "url": "https://www.en-pays-basque.fr/en/territory-and-destination/saint-jean-pied-de-port-and-its-valleys/saint-jean-pied-de-port/"
+    },
+    {
+      "label": "Région Nouvelle-Aquitaine — TER lines of the Bayonne network (incl. Bayonne–Saint-Jean-Pied-de-Port)",
+      "url": "https://participez.nouvelle-aquitaine.fr/processes/TER-2025-Bayonne"
+    },
+    {
+      "label": "OpenStreetMap — Saint-Jean-Pied-de-Port",
+      "url": "https://www.openstreetmap.org/relation/168589"
+    }
+  ],
+  "checkedAt": "2026-10-08",
+  "instagram": [],
+  "gallery": []
+}

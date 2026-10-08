@@ -1,0 +1,57 @@
+{
+  "id": 45,
+  "slug": "great-smoky-mountains-national-park",
+  "title": "Great Smoky Mountains National Park",
+  "continent": "North America",
+  "country": "United States",
+  "biome": "Southern Appalachian forest",
+  "landscapes": ["mountains", "forests"],
+  "description": "Straddling Tennessee and North Carolina, the Smokies are America's most visited national park: forest-clad ridges rolling to the horizon, best climbed on the Alum Cave Trail to the summit of Mount Le Conte.",
+  "hikingExplained": "The Alum Cave Trail is the shortest of the five routes up Mount Le Conte, the park's third-highest peak at 6,593 feet (2,010 m). It starts on Newfound Gap Road (US 441) and follows Alum Cave Creek through dense forest to Arch Rock, then reaches Alum Cave Bluffs at 2.3 miles (3.7 km), which is not a cave at all but a tall, inward-curving cliff. Above the bluffs, spruce-fir forest lines the trail on the climb to the top, where the best views are at Cliff Top and Myrtle Point, both signed. The round trip is 10 miles (16.1 km), and the National Park Service calls it challenging but rewarding.\n\nGreat Smoky Mountains is the most visited national park in the US, with 11,527,939 recreation visits in 2025, and Alum Cave is one of its busiest trails. The trailhead lot has only 69 spaces, so arrive early or book one of the park's authorized hiker shuttles. There is no entrance fee, but under the park's Park it Forward program every vehicle parked for more than 15 minutes must display a printed parking tag. Weather changes fast with altitude: summer on Le Conte is rarely above 80°F (27°C), while in cold weather the trail can be icy and icicles may fall from the bluffs.",
+  "officialUrl": "https://www.nps.gov/grsm/index.htm",
+  "map": "/maps/NorthAmerica.svg",
+  "photo": {
+    "src": "/hikes/great-smoky-mountains-national-park.jpg",
+    "alt": "View west from the upper Alum Cave Trail toward Mount Le Conte: a rocky ledge path beside spruce trees looks out over forested ridges fading into blue mountains under a cloudy sky.",
+    "author": "Andrew Heneen",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alum_Cave_Trail_1.jpg",
+    "license": "CC BY 4.0"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 35.62955,
+    "lng": -83.45154
+  },
+  "details": {
+    "route": "Alum Cave Trail to Mount Le Conte",
+    "distanceKm": 16.1,
+    "elevationGainM": null,
+    "maxAltitudeM": 2010,
+    "duration": "Full day",
+    "difficulty": "challenging",
+    "routeType": "out-and-back",
+    "bestMonths": [4, 5, 6, 9, 10],
+    "permit": "No permit needed for day hikes and no entrance fee. A parking tag (the park's Park it Forward program) is required for any vehicle parked for more than 15 minutes: $5 daily, $15 weekly, $40 annual. The printed tag must show your licence plate and be displayed in the vehicle; digital copies and America the Beautiful passes are not accepted, and a tag does not guarantee a parking space.",
+    "gettingThere": "Alum Cave Trailhead is on Newfound Gap Road (US 441), 6.8 miles (10.9 km) south of Sugarlands Visitor Center near Gatlinburg, Tennessee. The lot has 69 spaces and fills early; several authorized shuttle companies (most run March to October) stop at the trailhead. Buy your parking tag online in advance, as most trailheads have no tag machine.",
+    "tips": [
+      "Arrive early or take an authorized shuttle: the NPS warns of extreme crowding and limited parking at Alum Cave Trailhead.",
+      "In cold weather expect ice on the trail and falling icicles near Alum Cave Bluffs; the NPS recommends microspikes in winter.",
+      "Want a shorter day? Turn around at Alum Cave Bluffs for a 4.6-mile (7.4 km) round trip. Pets are not allowed on this trail."
+    ]
+  },
+  "sources": [
+    { "label": "NPS — Great Smoky Mountains National Park", "url": "https://www.nps.gov/grsm/index.htm" },
+    { "label": "NPS — Hike to Mount Le Conte on Alum Cave Trail", "url": "https://www.nps.gov/thingstodo/leconte-via-alum-cave-trail.htm" },
+    { "label": "NPS — Alum Cave Bluffs", "url": "https://www.nps.gov/places/alumcave.htm" },
+    { "label": "NPS — Mountains (peak elevations)", "url": "https://www.nps.gov/grsm/learn/nature/mountains.htm" },
+    { "label": "NPS — Weather (seasons; Mount Le Conte 6,593 ft / 2,010 m)", "url": "https://www.nps.gov/grsm/planyourvisit/weather.htm" },
+    { "label": "NPS — Fees & Passes (parking tags)", "url": "https://www.nps.gov/grsm/planyourvisit/fees.htm" },
+    { "label": "NPS — Park it Forward parking tag requirement (news release, 2023)", "url": "https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-of-parking-tag-requirement.htm" },
+    { "label": "NPS — Shuttles and trailhead parking capacity", "url": "https://www.nps.gov/grsm/planyourvisit/shuttles.htm" },
+    { "label": "NPS — 2025 visitation statistics (news release, March 13, 2026)", "url": "https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm" },
+    { "label": "OpenStreetMap — Alum Cave Trailhead", "url": "https://www.openstreetmap.org/node/2455611224" }
+  ],
+  "checkedAt": "2026-10-08",
+  "instagram": [],
+  "gallery": []
+}

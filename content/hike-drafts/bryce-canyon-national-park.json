@@ -1,0 +1,99 @@
+{
+  "id": 44,
+  "slug": "bryce-canyon-national-park",
+  "title": "Bryce Canyon National Park",
+  "continent": "North America",
+  "country": "United States",
+  "biome": "High plateau canyon",
+  "landscapes": ["mountains", "forests"],
+  "description": "Utah's high-plateau amphitheaters of orange, pink and white hoodoos, where short, steep trails drop from the rim into a maze of rock spires, narrow slot-like walls and pine and fir trees.",
+  "hikingExplained": "The Queen's Garden and Navajo Loop combination is the park's most popular hike and the one the National Park Service recommends to first-time visitors. The NPS suggests descending the gentler Queen's Garden Trail from Sunrise Point, crossing the floor of the Bryce Amphitheater among the hoodoos, then climbing the Navajo Loop's switchbacks to Sunset Point, through towering canyon walls with views of Thor's Hammer, the park's most famous hoodoo. A short stretch of the Rim Trail closes the loop: 2.9 miles (4.6 km) with 625 feet (191 m) of climbing, usually two to three hours.\n\nBryce is a high-altitude park, with the rim at around 8,000 feet (2,438 m), so every hike here starts at the top and ends with the climb. Go slowly, drink often, and turn back before you get tired. The Wall Street side of the Navajo Loop closes every winter because of rockfall danger; use the Two Bridges side instead. In winter the trails can be packed with snow and ice, and the NPS advises traction devices on your boots. Summer afternoons in July and August bring frequent thunderstorms with lightning.",
+  "officialUrl": "https://www.nps.gov/brca/index.htm",
+  "map": "/maps/NorthAmerica.svg",
+  "photo": {
+    "src": "/hikes/bryce-canyon-national-park.jpg",
+    "alt": "Bryce Canyon from the Queen's Garden Trail: orange and cream hoodoos rise from slopes dotted with pine trees, with the amphitheater's rim cliffs behind under a blue sky.",
+    "author": "Fabio Achilli",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queens_Garden_Trail,_Bryce_Canyon_(21221626999).jpg",
+    "license": "CC BY 2.0"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 37.6227,
+    "lng": -112.16613
+  },
+  "details": {
+    "route": "Queen's Garden and Navajo Loop combination (Sunrise Point to Sunset Point, returning on the Rim Trail)",
+    "distanceKm": 4.6,
+    "elevationGainM": 191,
+    "maxAltitudeM": null,
+    "duration": "2–3 hours",
+    "difficulty": "moderate",
+    "routeType": "loop",
+    "bestMonths": [5, 6, 9, 10],
+    "permit": "No permit or reservation needed for day hikes. A park entrance pass is required year-round ($35 per private vehicle; $20 per person on foot or by bike; non-US residents aged 16+ pay an extra $100 per person unless they hold an annual or America the Beautiful pass). The park is cashless.",
+    "gettingThere": "Drive UT-12 to UT-63 and head south into Bryce Canyon National Park in southern Utah; Sunset Point is at mile 2.25 of the main park road, and Sunrise Point is 0.5 miles (0.8 km) away along the rim. Both have parking, but lots fill up. From April to mid-October the free park shuttle (included with admission) stops at both points; board it at the Shuttle Station in Bryce Canyon City or at the Visitor Center. There is no public transport to the park.",
+    "tips": [
+      "The NPS recommends walking the loop clockwise: down Queen's Garden from Sunrise Point and up the Navajo Loop to Sunset Point. The climb out comes last, at about 8,000 feet (2,438 m), so drink at least 1 liter of water every two hours.",
+      "The Wall Street side of the Navajo Loop closes every winter because of rockfall danger. Use the Two Bridges side then, and bring traction devices for your boots: the trails get icy and steep sections are unsafe without them.",
+      "Pets are not allowed on this trail. Water-fill stations are at Sunset Point (seasonal) and in the Sunset Point restroom (year-round)."
+    ]
+  },
+  "sources": [
+    {
+      "label": "NPS — Bryce Canyon National Park",
+      "url": "https://www.nps.gov/brca/index.htm"
+    },
+    {
+      "label": "NPS — Queen's/Navajo Combination Loop",
+      "url": "https://www.nps.gov/thingstodo/queen-s-navajo-combination-loop.htm"
+    },
+    {
+      "label": "NPS — Navajo Loop Trail",
+      "url": "https://www.nps.gov/thingstodo/navajo-loop-trail.htm"
+    },
+    {
+      "label": "NPS — Hiking in Bryce Canyon",
+      "url": "https://www.nps.gov/brca/planyourvisit/day-hikes.htm"
+    },
+    {
+      "label": "NPS — Hiking at High Altitudes",
+      "url": "https://www.nps.gov/brca/planyourvisit/hiking-at-high-altitudes.htm"
+    },
+    {
+      "label": "NPS — Visiting in Winter (seasonal closures)",
+      "url": "https://www.nps.gov/brca/planyourvisit/winter.htm"
+    },
+    {
+      "label": "NPS — Weather",
+      "url": "https://www.nps.gov/brca/planyourvisit/weather.htm"
+    },
+    {
+      "label": "NPS — Fees & Passes",
+      "url": "https://www.nps.gov/brca/planyourvisit/fees.htm"
+    },
+    {
+      "label": "NPS — Park Shuttle",
+      "url": "https://www.nps.gov/brca/planyourvisit/shuttle.htm"
+    },
+    {
+      "label": "NPS — Directions",
+      "url": "https://www.nps.gov/brca/planyourvisit/directions.htm"
+    },
+    {
+      "label": "NPS — Sunset Point",
+      "url": "https://www.nps.gov/places/sunset-point.htm"
+    },
+    {
+      "label": "NPS — Bryce Canyon Visitor Guide (PDF)",
+      "url": "https://www.nps.gov/brca/planyourvisit/upload/Bryce_Canyon_Visitor_Guide_508-07112024.pdf"
+    },
+    {
+      "label": "OpenStreetMap — Navajo Loop Trailhead (Sunset Point)",
+      "url": "https://www.openstreetmap.org/node/5247557309"
+    }
+  ],
+  "checkedAt": "2026-10-08",
+  "instagram": [],
+  "gallery": []
+}
