@@ -1,0 +1,101 @@
+{
+  "id": 47,
+  "slug": "mount-fuji",
+  "title": "Mount Fuji",
+  "continent": "Asia",
+  "country": "Japan",
+  "biome": "Volcanic alpine",
+  "landscapes": [
+    "mountains"
+  ],
+  "description": "Japan's highest mountain (3,776 m), a volcano climbed each summer on four official trails. The busiest, the Yoshida Trail, zigzags up volcanic gravel past mountain huts to the crater rim, where many hikers wait for sunrise.",
+  "hikingExplained": "The Yoshida Trail is the most popular of Mount Fuji's four official trails, and the one with the most mountain huts. It starts at the Fuji Subaru Line 5th Station, 2,305 m up, climbs through low forest and then zigzags over volcanic sand, gravel and rocky steps; above the 9th Station it is narrow and rocky, with a risk of falling stones. The official climbing site gives 6.8 km and about 6 hours 10 minutes up, and 7.0 km and about 3 hours 35 minutes down on a separate descent trail, for roughly 1,450 m of climbing. The highest point, Kengamine (3,776 m), is on the crater rim; a full lap of the rim takes about 90 minutes.\n\nThe trails are only open in summer, from early July to early September (in 2026 the Yoshida Trail was open from July 1 to September 10). Even then the summit is cold: temperatures stay in single digits Celsius and can drop below freezing, so bring warm layers, rain gear and proper hiking boots. Altitude sickness is the most common reason people turn back. Watch for headache, dizziness, tiredness and nausea. The official advice is to spend 1 to 2 hours around the 5th Station before you start so your body can adjust, drink often, and if symptoms appear, stop, rest and go down.\n\nMost people take two days: they sleep in a mountain hut part-way up and walk to the summit in the early hours for sunrise. Book your hut directly with the hut; this is separate from the trail reservation. The authorities ask you not to go \"bullet climbing\", which means climbing through the night without staying in a hut just to see the sunrise, because it raises the risk of altitude sickness and hypothermia. That is why the 5th Station gate closes to new climbers from 2 pm to 3 am unless you have a hut booking. Huts sell drinking water but have no running water, and toilets ask for a tip of about 100 to 300 yen, so carry coins.",
+  "officialUrl": "https://www.fujisan-climb.jp/en/",
+  "map": "/maps/Asia.svg",
+  "photo": {
+    "src": "/hikes/mount-fuji.jpg",
+    "alt": "Snow-capped Mount Fuji at sunset, seen across a calm lake with a small town along the far shore and pink clouds in the sky.",
+    "author": "Romain Guy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_at_sunset,_March_2025.jpg",
+    "license": "CC0 1.0 (public domain dedication)"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 35.39433,
+    "lng": 138.7326
+  },
+  "details": {
+    "route": "Yoshida Trail from the Fuji Subaru Line 5th Station to the summit, down by the Yoshida descent trail",
+    "distanceKm": 13.8,
+    "elevationGainM": 1450,
+    "maxAltitudeM": 3776,
+    "duration": "About 6 h 10 min up and 3 h 35 min down (official estimate), plus breaks; most people split it over two days with a night in a mountain hut",
+    "difficulty": "strenuous",
+    "routeType": "loop",
+    "bestMonths": [
+      7,
+      8
+    ],
+    "permit": "These are the rules for the 2026 season (July 1 to September 10, 2026), which has now ended. Yamanashi Prefecture charged a hiking fee of 4,000 yen per person per climb on the Yoshida Trail. You could pay it in advance through the prefecture's online reservation system (on asoview), up to the day of the climb; the reservation itself was optional. The 5th Station gate was closed to new climbers from 2 pm to 3 am, and it also closed once 4,000 climbers had passed that day. Climbers with a mountain hut booking could still go through. The trails on the Shizuoka side also charged 4,000 yen in 2026 and asked you to register in the FUJI NAVI app. Rules for 2027 had not been announced when we checked, so look at fujisan-climb.jp before you go.",
+    "gettingThere": "Fuji Kyuko climbing buses run to the Fuji Subaru Line 5th Station from Fujikawaguchiko Station and Mt. Fuji Station. In peak season the Fuji Subaru Line is closed to private cars (in 2026 from July 3, 6 pm, to September 10, 6 pm): park at Fujisan Parking and take the shuttle bus. Outside those dates, waiting for a parking space at the 5th Station can take 2 hours or more.",
+    "tips": [
+      "Spend 1 to 2 hours around the 5th Station before you start so your body can adjust to the altitude, and go down if you get a headache, dizziness or nausea that does not pass.",
+      "On the way down, follow the yellow signs at the fork near the 8th Station: the Yoshida and Subashiri descent trails split there and end at different 5th Stations.",
+      "The descent trail has few huts and toilets, and some toilets may close from late August. Buy water at the huts on the way up and carry 100-yen coins for toilet tips.",
+      "Pack for cold, wind and rain even in midsummer: the summit can drop below freezing, and the coldest time is around sunrise."
+    ]
+  },
+  "sources": [
+    {
+      "label": "Official Website for Mt. Fuji Climbing",
+      "url": "https://www.fujisan-climb.jp/en/"
+    },
+    {
+      "label": "Official Website for Mt. Fuji Climbing — About each trail",
+      "url": "https://www.fujisan-climb.jp/en/comparison-of-routes"
+    },
+    {
+      "label": "Official Website for Mt. Fuji Climbing — Yamanashi notice for the 2026 season (Yoshida Trail fee, reservation, daily limit, gate hours)",
+      "url": "https://www.fujisan-climb.jp/en/yamanashi-notice/"
+    },
+    {
+      "label": "Official Website for Mt. Fuji Climbing — Shizuoka trail rules for 2026",
+      "url": "https://www.fujisan-climb.jp/en/info/1722/"
+    },
+    {
+      "label": "Official Website for Mt. Fuji Climbing — Things you must know before climbing",
+      "url": "https://www.fujisan-climb.jp/en/things-to-know-before-climbing"
+    },
+    {
+      "label": "Official Website for Mt. Fuji Climbing — Facility operating periods (2026)",
+      "url": "https://www.fujisan-climb.jp/en/season/"
+    },
+    {
+      "label": "Official Website for Mt. Fuji Climbing — Health and safety (altitude sickness, hypothermia)",
+      "url": "https://www.fujisan-climb.jp/en/health-and-safety/"
+    },
+    {
+      "label": "Official Website for Mt. Fuji Climbing — FAQ (bullet climbing, mountain huts, water, toilets)",
+      "url": "https://www.fujisan-climb.jp/en/faq"
+    },
+    {
+      "label": "Official Website for Mt. Fuji Climbing — Summit rim trail (Ohachimeguri) and Kengamine",
+      "url": "https://www.fujisan-climb.jp/en/ohachimeguri/"
+    },
+    {
+      "label": "Shizuoka Prefecture — Climbing rules on the three Shizuoka trails (2026)",
+      "url": "https://www.pref.shizuoka.jp/kankosports/kanko/mtfuji/1002809/1072062.html"
+    },
+    {
+      "label": "JNTO — Mt. Fuji Climbing Guide",
+      "url": "https://www.japan.travel/en/fuji-guide/mt-fuji-climbing-guide/"
+    },
+    {
+      "label": "OpenStreetMap — Fuji Subaru Line 5th Station",
+      "url": "https://www.openstreetmap.org/node/472549661"
+    }
+  ],
+  "checkedAt": "2026-10-10",
+  "instagram": [],
+  "gallery": []
+}

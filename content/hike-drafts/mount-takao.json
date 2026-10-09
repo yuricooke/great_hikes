@@ -1,0 +1,107 @@
+{
+  "id": 50,
+  "slug": "mount-takao",
+  "title": "Mount Takao",
+  "continent": "Asia",
+  "country": "Japan",
+  "biome": "Warm and cool temperate forest",
+  "landscapes": [
+    "mountains",
+    "forests"
+  ],
+  "description": "Tokyo's favorite hiking mountain (599 m), about 50 minutes by train from Shinjuku. Trail 1 climbs past Yakuō-in Temple to a summit where, on clear days, you can see Mount Fuji.",
+  "hikingExplained": "Mount Takao is in Hachiōji, on the western edge of Tokyo, and more than 2.5 million people climb it every year. Trail 1, also called the Omotesando, is the main route to the top and the approach to Yakuō-in, a mountain temple halfway up. It is 3.8 km long and mostly paved, which makes it the best choice for beginners and families. Plan about 1 hour 30 to 40 minutes on foot from the bottom to the 599 m summit. If you want a shorter walk, ride the cable car (or the chairlift) halfway up; from the cable car's top station, the summit is about 40 minutes on foot.\n\nThe summit is one of the official \"100 Fuji views of the Kanto region\". On clear days you see Mount Fuji beyond the mountain ranges to the west, and the clearest days come in winter. For a few days around the winter solstice in December, the sun sets right on top of Fuji's crater as seen from the summit. This is called \"Diamond Fuji\". In 2025 the best days were December 17 to 28, at about 4:00 to 4:15 pm, and the cable car ran until 6 pm on those days. It gets dark fast after sunset, so bring a light for the walk down.",
+  "officialUrl": "https://www.city.hachioji.tokyo.jp/kankobunka/001/004/p003393.html",
+  "map": "/maps/Asia.svg",
+  "photo": {
+    "src": "/hikes/mount-takao.jpg",
+    "alt": "Snow-capped Mount Fuji under a cloudy winter sky, seen from Mount Takao beyond layers of forested blue mountain ridges, with evergreen treetops in the foreground.",
+    "author": "Syced",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snowy_Mount_Fuji_from_Mount_Takao,_February_2025.jpg",
+    "license": "CC0 1.0 (public domain dedication)"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 35.6311,
+    "lng": 139.2669
+  },
+  "details": {
+    "route": "Trail 1 (Omotesando) from the foot of the mountain to the summit and back",
+    "distanceKm": 7.6,
+    "elevationGainM": 411,
+    "maxAltitudeM": 599,
+    "duration": "About 1 hour 30–40 minutes up, plus the walk down the same way",
+    "difficulty": "easy",
+    "routeType": "out-and-back",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "permit": null,
+    "gettingThere": "From Shinjuku, take the Keio Line to Takaosanguchi Station, about 50 minutes on a Special Express. Kiyotaki Station, where the cable car and Trail 1 start, is about a 5-minute walk from Takaosanguchi Station.",
+    "tips": [
+      "Diamond Fuji happens around the winter solstice. Check the Takao Tozan Railway website for this year's dates and cable car hours, arrive at the summit or Momiji-dai (5 minutes further) a little before 4 pm, and bring warm clothes and a flashlight.",
+      "Trails can be icy from winter until early spring, and the sun sets early from autumn on. Wear non-slip hiking shoes and plan to be down before dark.",
+      "Trails sometimes close for repairs or bad weather. Check the Tokyo Metropolitan Takao Visitor Center for current conditions before you go."
+    ]
+  },
+  "sources": [
+    {
+      "label": "Hachiōji City — Mount Takao (summit 599 m, Fuji views, trail closures)",
+      "url": "https://www.city.hachioji.tokyo.jp/kankobunka/001/004/p003393.html"
+    },
+    {
+      "label": "Takao Tozan Railway — Hiking courses (Trail 1 is 3.8 km)",
+      "url": "https://www.takaotozan.co.jp/course/"
+    },
+    {
+      "label": "Takao Tozan Railway — Diamond Fuji (2025 dates, times, viewpoints, cable car hours)",
+      "url": "https://www.takaotozan.co.jp/diamond/"
+    },
+    {
+      "label": "Takao Tozan Railway — Access (Takaosanguchi to Kiyotaki Station)",
+      "url": "https://www.takaotozan.co.jp/trafic/"
+    },
+    {
+      "label": "Tokyo Metropolitan Government — Meiji no Mori Takao Quasi-National Park (Trail 1, summit times)",
+      "url": "https://www.kankyo1.metro.tokyo.lg.jp/naturepark/know/park/introduction/toritu/meiji/tourism.html"
+    },
+    {
+      "label": "Takaosan Yakuō-in — Hiking guide (trails, winter ice)",
+      "url": "https://www.takaosan.or.jp/tozan/"
+    },
+    {
+      "label": "Hachiōji Visitors & Convention Association — Takao summit (walking times)",
+      "url": "https://www.hkc.or.jp/facility/detail.php?id=160"
+    },
+    {
+      "label": "Hachiōji Visitors & Convention Association — Mt. Takao Pocket Map (access from Shinjuku)",
+      "url": "https://www.hkc.or.jp/pamphlet/pdf/pocket/pocketmap_2025_en.pdf"
+    },
+    {
+      "label": "JNTO — Mt. Takao hiking course (elevation gain, Fuji view)",
+      "url": "https://www.japan.travel/en/sports/hiking/courses/mt-takao/"
+    },
+    {
+      "label": "MLIT Kanto Regional Bureau — Kanto's 100 Fuji views: Takao (visitor numbers, Diamond Fuji)",
+      "url": "https://www.ktr.mlit.go.jp/chiiki/fujimi0055.html"
+    },
+    {
+      "label": "Geospatial Information Authority of Japan — Elevations of 1,003 major mountains (Takaosan 599 m)",
+      "url": "https://www.gsi.go.jp/KOKUJYOHO/MOUNTAIN/1003zan20260331.csv"
+    },
+    {
+      "label": "JNTO — The Top 30 Spots for Viewing Mt. Fuji (best viewing conditions)",
+      "url": "https://www.japan.travel/en/fuji-guide/views-of-fuji/"
+    },
+    {
+      "label": "OpenStreetMap — Kiyotaki Station (Trail 1 start)",
+      "url": "https://www.openstreetmap.org/node/675449217"
+    }
+  ],
+  "checkedAt": "2026-10-10",
+  "instagram": [],
+  "gallery": []
+}

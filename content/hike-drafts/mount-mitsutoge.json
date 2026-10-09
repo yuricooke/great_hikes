@@ -1,0 +1,97 @@
+{
+  "id": 49,
+  "slug": "mount-mitsutoge",
+  "title": "Mount Mitsutōge",
+  "continent": "Asia",
+  "country": "Japan",
+  "biome": "Temperate mountain forest with alpine plants",
+  "landscapes": [
+    "mountains",
+    "waterfalls"
+  ],
+  "description": "A three-peaked mountain (1,785 m) above Lake Kawaguchi in Yamanashi, famous for its summit view of Mount Fuji rising beyond the lakes, its rock walls and its rare alpine flowers.",
+  "hikingExplained": "Mitsutōge is the shared name of three peaks, Kaiunzan, Osutakayama and Kinashiyama; the highest point is 1,785 m. The classic way to hike it, described by Yamanashi Prefecture, starts on the Lake Kawaguchi side at the Mitsutoge-tozanguchi bus stop. It takes about 1 hour 50 minutes to walk up to Kaiunzan, where an observation area faces Mount Fuji to the south, with Lake Kawaguchi and Lake Saiko below it. Turn around and you see the Southern Alps to the north.\n\nFrom the summit you walk down the other side of the mountain, on a trail lined with old places of mountain worship. You pass Byōbu-iwa, a huge rock wall, and Darumaishi, a stone carved with a Sanskrit character that marks the mountain as a place of worship, then reach Mitsutōge Station on the Fujikyu Line. The prefecture plans about 7 hours for the whole route, including breaks, or two days with a night on the mountain. If that is too long, you can simply climb to the summit and return to the trailhead. The mountain is also known for its rare alpine flowers, including the wild Atsumori-sō orchid.",
+  "officialUrl": "https://www.yamanashi-kankou.jp/kankou/spot/p1_4747.html",
+  "map": "/maps/Asia.svg",
+  "photo": {
+    "src": "/hikes/mount-mitsutoge.jpg",
+    "alt": "The stone summit marker of Mount Mitsutōge on a rocky top with patches of snow, a bare tree beside it, and snow-capped Mount Fuji rising above the valley behind.",
+    "author": "Alpsdake",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Mitsutoge_(Peak).jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 35.55609,
+    "lng": 138.79169
+  },
+  "details": {
+    "route": "Mitsutoge-tozanguchi (Lake Kawaguchi side) to Kaiunzan summit, down past Byōbu-iwa to Mitsutōge Station",
+    "distanceKm": null,
+    "elevationGainM": null,
+    "maxAltitudeM": 1785,
+    "duration": "About 7 hours including breaks, or 2 days with a night on the mountain",
+    "difficulty": "challenging",
+    "routeType": "point-to-point",
+    "bestMonths": [
+      11,
+      12
+    ],
+    "permit": null,
+    "gettingThere": "From Tokyo, take an express on the JR Chuo Line from Shinjuku to Otsuki and change to the Fujikyu Line for Kawaguchiko Station (Japan Rail Pass not accepted on the Fujikyu Line). You can also take a highway bus from Busta Shinjuku to Kawaguchiko Station (about 1 hour 45 minutes, depending on traffic). From Kawaguchiko Station, take the bus toward Tenka-chaya and get off at Mitsutoge-tozanguchi, about 30 minutes. The hike ends at Mitsutōge Station, on the same Fujikyu Line back to Otsuki.",
+    "tips": [
+      "Check the bus timetable from Kawaguchiko Station to Mitsutoge-tozanguchi, and the train times from Mitsutōge Station, before you set off.",
+      "For a shorter day, climb from Mitsutoge-tozanguchi to the summit (about 1 hour 50 minutes) and come back the same way.",
+      "Fuji is most often clear on crisp winter days, but the summit is 1,785 m high: in midwinter, be ready for snow and ice, and only go if you have winter gear and experience."
+    ]
+  },
+  "sources": [
+    {
+      "label": "Yamanashi Tourism — Mitsutoge-yama (altitude, views, access)",
+      "url": "https://www.yamanashi-kankou.jp/kankou/spot/p1_4747.html"
+    },
+    {
+      "label": "Yamanashi Tourism — Mitsutoge-yama (views of Fuji, Lake Kawaguchi and Lake Saiko)",
+      "url": "https://www.yamanashi-kankou.jp/kankou/spot/p_9209.html"
+    },
+    {
+      "label": "Yamanashi Tourism — Mitsutoge trekking course (route, segment times, 7-hour total)",
+      "url": "https://www.yamanashi-kankou.jp/course/nature/010.html"
+    },
+    {
+      "label": "Geospatial Information Authority of Japan — Elevations of 1,003 major mountains (Mitsutōgeyama 1,785 m)",
+      "url": "https://www.gsi.go.jp/KOKUJYOHO/MOUNTAIN/1003zan20260331.csv"
+    },
+    {
+      "label": "MLIT Kanto Regional Bureau — Kanto's 100 Fuji views: Misaka, Kamakura Ōkan and Mitsutōge",
+      "url": "https://www.ktr.mlit.go.jp/chiiki/fujimi0122.html"
+    },
+    {
+      "label": "JNTO — Fuji Five Lakes (access from Tokyo)",
+      "url": "https://www.japan.travel/en/destinations/tokai/yamanashi/fuji-five-lakes/"
+    },
+    {
+      "label": "Fujikyu Bus — Highway bus Shinjuku to Kawaguchiko Station",
+      "url": "https://bus.fujikyu.co.jp/en/highway/fujisan/shinjuku-kawaguchiko/"
+    },
+    {
+      "label": "JNTO — The Top 30 Spots for Viewing Mt. Fuji (best viewing conditions)",
+      "url": "https://www.japan.travel/en/fuji-guide/views-of-fuji/"
+    },
+    {
+      "label": "Yamanashi Tourism — Winter in Yamanashi (winter Fuji visibility)",
+      "url": "https://yamanashi-kankou.jp/foreign/english/topics/nature_2019.html"
+    },
+    {
+      "label": "OpenStreetMap — Mitsutoge-tozanguchi bus stop (trailhead)",
+      "url": "https://www.openstreetmap.org/node/11282378965"
+    },
+    {
+      "label": "OpenStreetMap — Mitsutōge Station",
+      "url": "https://www.openstreetmap.org/node/8241802220"
+    }
+  ],
+  "checkedAt": "2026-10-10",
+  "instagram": [],
+  "gallery": []
+}

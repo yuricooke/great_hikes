@@ -5175,5 +5175,705 @@
         "license": "CC BY 4.0"
       }
     ]
+  },
+  {
+    "id": 47,
+    "slug": "mount-fuji",
+    "title": "Mount Fuji",
+    "continent": "Asia",
+    "country": "Japan",
+    "biome": "Volcanic alpine",
+    "landscapes": [
+      "mountains"
+    ],
+    "description": "Japan's highest mountain (3,776 m), a volcano climbed each summer on four official trails. The busiest, the Yoshida Trail, zigzags up volcanic gravel past mountain huts to the crater rim, where many hikers wait for sunrise.",
+    "hikingExplained": "The Yoshida Trail is the most popular of Mount Fuji's four official trails, and the one with the most mountain huts. It starts at the Fuji Subaru Line 5th Station, 2,305 m up, climbs through low forest and then zigzags over volcanic sand, gravel and rocky steps; above the 9th Station it is narrow and rocky, with a risk of falling stones. The official climbing site gives 6.8 km and about 6 hours 10 minutes up, and 7.0 km and about 3 hours 35 minutes down on a separate descent trail, for roughly 1,450 m of climbing. The highest point, Kengamine (3,776 m), is on the crater rim; a full lap of the rim takes about 90 minutes.\n\nThe trails are only open in summer, from early July to early September (in 2026 the Yoshida Trail was open from July 1 to September 10). Even then the summit is cold: temperatures stay in single digits Celsius and can drop below freezing, so bring warm layers, rain gear and proper hiking boots. Altitude sickness is the most common reason people turn back. Watch for headache, dizziness, tiredness and nausea. The official advice is to spend 1 to 2 hours around the 5th Station before you start so your body can adjust, drink often, and if symptoms appear, stop, rest and go down.\n\nMost people take two days: they sleep in a mountain hut part-way up and walk to the summit in the early hours for sunrise. Book your hut directly with the hut; this is separate from the trail reservation. The authorities ask you not to go \"bullet climbing\", which means climbing through the night without staying in a hut just to see the sunrise, because it raises the risk of altitude sickness and hypothermia. That is why the 5th Station gate closes to new climbers from 2 pm to 3 am unless you have a hut booking. Huts sell drinking water but have no running water, and toilets ask for a tip of about 100 to 300 yen, so carry coins.",
+    "officialUrl": "https://www.fujisan-climb.jp/en/",
+    "map": "/maps/Asia.svg",
+    "photo": {
+      "src": "/hikes/mount-fuji.jpg",
+      "alt": "Snow-capped Mount Fuji at sunset, seen across a calm lake with a small town along the far shore and pink clouds in the sky.",
+      "author": "Romain Guy",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_at_sunset,_March_2025.jpg",
+      "license": "CC0 1.0 (public domain dedication)"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 35.39433,
+      "lng": 138.7326
+    },
+    "details": {
+      "route": "Yoshida Trail from the Fuji Subaru Line 5th Station to the summit, down by the Yoshida descent trail",
+      "distanceKm": 13.8,
+      "elevationGainM": 1450,
+      "maxAltitudeM": 3776,
+      "duration": "6 h up, 3.5 h down",
+      "difficulty": "strenuous",
+      "routeType": "loop",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "These are the rules for the 2026 season (July 1 to September 10, 2026), which has now ended. Yamanashi Prefecture charged a hiking fee of 4,000 yen per person per climb on the Yoshida Trail. You could pay it in advance through the prefecture's online reservation system (on asoview), up to the day of the climb; the reservation itself was optional. The 5th Station gate was closed to new climbers from 2 pm to 3 am, and it also closed once 4,000 climbers had passed that day. Climbers with a mountain hut booking could still go through. The trails on the Shizuoka side also charged 4,000 yen in 2026 and asked you to register in the FUJI NAVI app. Rules for 2027 had not been announced when we checked, so look at fujisan-climb.jp before you go.",
+      "gettingThere": "Fuji Kyuko climbing buses run to the Fuji Subaru Line 5th Station from Fujikawaguchiko Station and Mt. Fuji Station. In peak season the Fuji Subaru Line is closed to private cars (in 2026 from July 3, 6 pm, to September 10, 6 pm): park at Fujisan Parking and take the shuttle bus. Outside those dates, waiting for a parking space at the 5th Station can take 2 hours or more.",
+      "tips": [
+        "Spend 1 to 2 hours around the 5th Station before you start so your body can adjust to the altitude, and go down if you get a headache, dizziness or nausea that does not pass.",
+        "On the way down, follow the yellow signs at the fork near the 8th Station: the Yoshida and Subashiri descent trails split there and end at different 5th Stations.",
+        "The descent trail has few huts and toilets, and some toilets may close from late August. Buy water at the huts on the way up and carry 100-yen coins for toilet tips.",
+        "Pack for cold, wind and rain even in midsummer: the summit can drop below freezing, and the coldest time is around sunrise."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official Website for Mt. Fuji Climbing",
+        "url": "https://www.fujisan-climb.jp/en/"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — About each trail",
+        "url": "https://www.fujisan-climb.jp/en/comparison-of-routes"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Yamanashi notice for the 2026 season (Yoshida Trail fee, reservation, daily limit, gate hours)",
+        "url": "https://www.fujisan-climb.jp/en/yamanashi-notice/"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Shizuoka trail rules for 2026",
+        "url": "https://www.fujisan-climb.jp/en/info/1722/"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Things you must know before climbing",
+        "url": "https://www.fujisan-climb.jp/en/things-to-know-before-climbing"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Facility operating periods (2026)",
+        "url": "https://www.fujisan-climb.jp/en/season/"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Health and safety (altitude sickness, hypothermia)",
+        "url": "https://www.fujisan-climb.jp/en/health-and-safety/"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — FAQ (bullet climbing, mountain huts, water, toilets)",
+        "url": "https://www.fujisan-climb.jp/en/faq"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Summit rim trail (Ohachimeguri) and Kengamine",
+        "url": "https://www.fujisan-climb.jp/en/ohachimeguri/"
+      },
+      {
+        "label": "Shizuoka Prefecture — Climbing rules on the three Shizuoka trails (2026)",
+        "url": "https://www.pref.shizuoka.jp/kankosports/kanko/mtfuji/1002809/1072062.html"
+      },
+      {
+        "label": "JNTO — Mt. Fuji Climbing Guide",
+        "url": "https://www.japan.travel/en/fuji-guide/mt-fuji-climbing-guide/"
+      },
+      {
+        "label": "OpenStreetMap — Fuji Subaru Line 5th Station",
+        "url": "https://www.openstreetmap.org/node/472549661"
+      }
+    ],
+    "checkedAt": "2026-10-10",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8TW91bnQlMjBGdWppJTIwSmFwYW58ZW58MXwwfHx8MTc5MTU4NTk2N3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Mount Fuji: Mount Fuji, Japan",
+        "author": "David Edelstein",
+        "authorUrl": "https://unsplash.com/@jlhopes?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/mount-fuji-japan-N4DbvTUDikw?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8TW91bnQlMjBGdWppJTIwSmFwYW58ZW58MXwwfHx8MTc5MTU4NTk2N3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Mount Fuji: Mount Fuji rising above a dark lake at night in Fujinomiya, Japan",
+        "author": "Clay Banks",
+        "authorUrl": "https://unsplash.com/@claybanks?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/mount-fuji-at-night-in-japan-u27Rrbs9Dwc?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1610375229632-c7158c35a537?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8TW91bnQlMjBGdWppJTIwSmFwYW58ZW58MXwwfHx8MTc5MTU4NTk2N3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Mount Fuji: Mount Fuji rising above a town in Fujinomiya, Japan, framed by tree branches",
+        "author": "Filiz Elaerts",
+        "authorUrl": "https://unsplash.com/@filizelaerts?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/mount-fuji-above-town-in-fujinomiya-J_C3_JpJMms?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "mount-kintoki",
+    "title": "Mount Kintoki",
+    "continent": "Asia",
+    "country": "Japan",
+    "biome": "Volcanic caldera rim with temperate forest",
+    "landscapes": [
+      "mountains",
+      "forests"
+    ],
+    "description": "The highest point on the outer rim of the Hakone volcano, Mount Kintoki (1,212 m) is a short, steep half-day hike from Kintoki Shrine to a summit with a full view of Mount Fuji.",
+    "hikingExplained": "The Environment Ministry's Kintoki-san Course starts at the Kintoki-jinja-iriguchi bus stop in Sengokuhara. You walk 5 minutes to Kintoki Shrine, which honors Kintarō, the strong boy of Japanese folk tales, then climb through the forest past the Kintoki Yadori-ishi, a huge split boulder that legend says was his shelter. From there the trail gets steeper and rockier up to the summit at 1,212 m. You come down a different way, along the ridge to Yakurazawa Pass, and finish at the Kintoki-tozanguchi bus stop. The whole route is 4.6 km and takes about 2 hours 30 minutes.\n\nThe view is the reason to come. On a clear day you see the whole of Mount Fuji, from the town of Gotemba at its foot to its summit. To the south you look down on Sengokuhara, Lake Ashi and the steam of Owakudani. Two teahouses sit on the summit, but their hours vary, so bring your own water and snacks. Fuji is most likely to be clear early in the morning and in the colder months, from late autumn to winter.",
+    "officialUrl": "https://www.env.go.jp/nature/nationalparks/list/fuji-hakone-izu/course/06/",
+    "map": "/maps/Asia.svg",
+    "photo": {
+      "src": "/hikes/mount-kintoki.jpg",
+      "alt": "Mount Kintoki's pointed brown summit under a clear blue sky in late autumn, with the snow-capped cone of Mount Fuji rising behind its ridge and bamboo grass in front.",
+      "author": "Alpsdake",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Kintoki_and_Mount_Fuji.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 35.27972,
+      "lng": 139.00252
+    },
+    "details": {
+      "route": "Kintoki-san Course: Kintoki Shrine to the summit, down via Yakurazawa Pass",
+      "distanceKm": 4.6,
+      "elevationGainM": null,
+      "maxAltitudeM": 1212,
+      "duration": "About 2 hours 30 minutes",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "permit": null,
+      "gettingThere": "From Shinjuku in Tokyo, take the Odakyu Line to Hakone-Yumoto: about 1.5 hours on the Romancecar (extra fee, reserved seats) or about 2 hours on regular trains. From Hakone-Yumoto, take the Hakone Tozan Bus toward Togendai, get off at Sengoku, and change to a bus toward Gotemba. Get off at Kintoki-jinja-iriguchi; Kintoki Shrine is a 5-minute walk away. The hike ends at the Kintoki-tozanguchi bus stop in Sengokuhara.",
+      "tips": [
+        "Start early. The Hakone Tourist Association says Fuji views are best in the early morning and in the colder months.",
+        "Wear sturdy hiking shoes and bring rain gear. The upper trail is steep and rocky, and some parts get slippery.",
+        "The two summit teahouses keep irregular hours, so carry enough water and food. The summit toilet costs 100 yen."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Ministry of the Environment — Fuji-Hakone-Izu National Park: Kintoki-san Course (distance, times, route, views)",
+        "url": "https://www.env.go.jp/nature/nationalparks/list/fuji-hakone-izu/course/06/"
+      },
+      {
+        "label": "Geospatial Information Authority of Japan — Elevations of 1,003 major mountains (Kintokisan 1,212 m)",
+        "url": "https://www.gsi.go.jp/KOKUJYOHO/MOUNTAIN/1003zan20260331.csv"
+      },
+      {
+        "label": "Hakone Tourist Association — Mt. Kintoki hiking trail",
+        "url": "https://hakone-japan.com/discover/national-park/activities/mt-kintoki-course/"
+      },
+      {
+        "label": "Hakone Tourist Association — Hiking Hakone's Kintoki mountain",
+        "url": "https://hakone-japan.com/things-to-do/activities/nature-experience/hiking-hakones-kintoki-mountain/"
+      },
+      {
+        "label": "Hakone Tourist Association — Access from Tokyo",
+        "url": "https://hakone-japan.com/discover/national-park/all/access/from-tokyo/"
+      },
+      {
+        "label": "Hakone Geopark — Mount Kintoki (geology, legend, bus access)",
+        "url": "https://www.hakone-geopark.jp/area-guide/hakone2/009kintokiyama.html"
+      },
+      {
+        "label": "JNTO — The Top 30 Spots for Viewing Mt. Fuji (best viewing conditions)",
+        "url": "https://www.japan.travel/en/fuji-guide/views-of-fuji/"
+      },
+      {
+        "label": "OpenStreetMap — Kintoki Shrine (trailhead)",
+        "url": "https://www.openstreetmap.org/way/1329948976"
+      },
+      {
+        "label": "OpenStreetMap — Kintoki-jinja-iriguchi bus stop",
+        "url": "https://www.openstreetmap.org/node/6031319186"
+      }
+    ],
+    "checkedAt": "2026-10-10",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-kintoki/File_Mount_Kintoki_and_Mount_Fuji.jpg.jpg",
+        "alt": "Mount Kintoki: Mount Kintoki and Mount Fuji in Hakone, Kanagawa Prefecture, Japan.",
+        "author": "Alpsdake",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Kintoki_and_Mount_Fuji.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-kintoki/File_Mount_Kintoki_from_Ashitaka_Mountains.jpg.jpg",
+        "alt": "Mount Kintoki: Mount Kintoki seen from Ashitaka Mountains in Shizuoka Prefecture, Japan.",
+        "author": "Alpsdake",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Kintoki_from_Ashitaka_Mountains.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-kintoki/File_Mount_Kintoki_s2_from_Ashitaka_Mountains.jpg.jpg",
+        "alt": "Mount Kintoki: Mount Kintoki seen from Ashitaka Mountains in Shizuoka Prefecture, Japan.",
+        "author": "Alpsdake",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Kintoki_s2_from_Ashitaka_Mountains.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-kintoki/File_Mount_Fuji_from_Mount_Kintoki_2022-11-22.jpg.jpg",
+        "alt": "Mount Kintoki: Mount Fuji and Gotemba City seen from Mount Kintoki in Japan.",
+        "author": "Alpsdake",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_from_Mount_Kintoki_2022-11-22.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-kintoki/File_Mount_Fuji_from_Mount_Kintoki.jpg.jpg",
+        "alt": "Mount Kintoki: Mount Fuji as seen from Mount Kintoki in Japan",
+        "author": "Alpsdake",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_from_Mount_Kintoki.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "mount-mitsutoge",
+    "title": "Mount Mitsutōge",
+    "continent": "Asia",
+    "country": "Japan",
+    "biome": "Temperate mountain forest with alpine plants",
+    "landscapes": [
+      "mountains",
+      "waterfalls"
+    ],
+    "description": "A three-peaked mountain (1,785 m) above Lake Kawaguchi in Yamanashi, famous for its summit view of Mount Fuji rising beyond the lakes, its rock walls and its rare alpine flowers.",
+    "hikingExplained": "Mitsutōge is the shared name of three peaks, Kaiunzan, Osutakayama and Kinashiyama; the highest point is 1,785 m. The classic way to hike it, described by Yamanashi Prefecture, starts on the Lake Kawaguchi side at the Mitsutoge-tozanguchi bus stop. It takes about 1 hour 50 minutes to walk up to Kaiunzan, where an observation area faces Mount Fuji to the south, with Lake Kawaguchi and Lake Saiko below it. Turn around and you see the Southern Alps to the north.\n\nFrom the summit you walk down the other side of the mountain, on a trail lined with old places of mountain worship. You pass Byōbu-iwa, a huge rock wall, and Darumaishi, a stone carved with a Sanskrit character that marks the mountain as a place of worship, then reach Mitsutōge Station on the Fujikyu Line. The prefecture plans about 7 hours for the whole route, including breaks, or two days with a night on the mountain. If that is too long, you can simply climb to the summit and return to the trailhead. The mountain is also known for its rare alpine flowers, including the wild Atsumori-sō orchid.",
+    "officialUrl": "https://www.yamanashi-kankou.jp/kankou/spot/p1_4747.html",
+    "map": "/maps/Asia.svg",
+    "photo": {
+      "src": "/hikes/mount-mitsutoge.jpg",
+      "alt": "The stone summit marker of Mount Mitsutōge on a rocky top with patches of snow, a bare tree beside it, and snow-capped Mount Fuji rising above the valley behind.",
+      "author": "Alpsdake",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Mitsutoge_(Peak).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 35.55609,
+      "lng": 138.79169
+    },
+    "details": {
+      "route": "Mitsutoge-tozanguchi (Lake Kawaguchi side) to Kaiunzan summit, down past Byōbu-iwa to Mitsutōge Station",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": 1785,
+      "duration": "About 7 hours",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        11,
+        12
+      ],
+      "permit": null,
+      "gettingThere": "From Tokyo, take an express on the JR Chuo Line from Shinjuku to Otsuki and change to the Fujikyu Line for Kawaguchiko Station (Japan Rail Pass not accepted on the Fujikyu Line). You can also take a highway bus from Busta Shinjuku to Kawaguchiko Station (about 1 hour 45 minutes, depending on traffic). From Kawaguchiko Station, take the bus toward Tenka-chaya and get off at Mitsutoge-tozanguchi, about 30 minutes. The hike ends at Mitsutōge Station, on the same Fujikyu Line back to Otsuki.",
+      "tips": [
+        "Check the bus timetable from Kawaguchiko Station to Mitsutoge-tozanguchi, and the train times from Mitsutōge Station, before you set off.",
+        "For a shorter day, climb from Mitsutoge-tozanguchi to the summit (about 1 hour 50 minutes) and come back the same way.",
+        "Fuji is most often clear on crisp winter days, but the summit is 1,785 m high: in midwinter, be ready for snow and ice, and only go if you have winter gear and experience."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Yamanashi Tourism — Mitsutoge-yama (altitude, views, access)",
+        "url": "https://www.yamanashi-kankou.jp/kankou/spot/p1_4747.html"
+      },
+      {
+        "label": "Yamanashi Tourism — Mitsutoge-yama (views of Fuji, Lake Kawaguchi and Lake Saiko)",
+        "url": "https://www.yamanashi-kankou.jp/kankou/spot/p_9209.html"
+      },
+      {
+        "label": "Yamanashi Tourism — Mitsutoge trekking course (route, segment times, 7-hour total)",
+        "url": "https://www.yamanashi-kankou.jp/course/nature/010.html"
+      },
+      {
+        "label": "Geospatial Information Authority of Japan — Elevations of 1,003 major mountains (Mitsutōgeyama 1,785 m)",
+        "url": "https://www.gsi.go.jp/KOKUJYOHO/MOUNTAIN/1003zan20260331.csv"
+      },
+      {
+        "label": "MLIT Kanto Regional Bureau — Kanto's 100 Fuji views: Misaka, Kamakura Ōkan and Mitsutōge",
+        "url": "https://www.ktr.mlit.go.jp/chiiki/fujimi0122.html"
+      },
+      {
+        "label": "JNTO — Fuji Five Lakes (access from Tokyo)",
+        "url": "https://www.japan.travel/en/destinations/tokai/yamanashi/fuji-five-lakes/"
+      },
+      {
+        "label": "Fujikyu Bus — Highway bus Shinjuku to Kawaguchiko Station",
+        "url": "https://bus.fujikyu.co.jp/en/highway/fujisan/shinjuku-kawaguchiko/"
+      },
+      {
+        "label": "JNTO — The Top 30 Spots for Viewing Mt. Fuji (best viewing conditions)",
+        "url": "https://www.japan.travel/en/fuji-guide/views-of-fuji/"
+      },
+      {
+        "label": "Yamanashi Tourism — Winter in Yamanashi (winter Fuji visibility)",
+        "url": "https://yamanashi-kankou.jp/foreign/english/topics/nature_2019.html"
+      },
+      {
+        "label": "OpenStreetMap — Mitsutoge-tozanguchi bus stop (trailhead)",
+        "url": "https://www.openstreetmap.org/node/11282378965"
+      },
+      {
+        "label": "OpenStreetMap — Mitsutōge Station",
+        "url": "https://www.openstreetmap.org/node/8241802220"
+      }
+    ],
+    "checkedAt": "2026-10-10",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-mitsutoge/File_Mount_Mitsutoge.JPG.jpg",
+        "alt": "Mount Mitsutōge: Mount Mitsutoge seen from Hotel Mount Fuji, in Yamanashi prefecture, Japan.",
+        "author": "Alpsdake",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Mitsutoge.JPG",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-mitsutoge/File_Mount_Mitsutoge_from_Mount_Myojin.JPG.jpg",
+        "alt": "Mount Mitsutōge: Mount Mitsutoge seen from Mount Myojin in Yamanashi prefecture, Japan.",
+        "author": "Alpsdake",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Mitsutoge_from_Mount_Myojin.JPG",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-mitsutoge/File_Mount_Osutaka__Mitsutoge_.jpg.jpg",
+        "alt": "Mount Mitsutōge: Mount Osutaka (Mitsutoge) in Misaka Mountains, Yamanashi Prefecture, Japan.",
+        "author": "Alpsdake",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Osutaka_(Mitsutoge).jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-mitsutoge/File_Mount_Mitsutoge_and_Lake_Kawaguchi.JPG.jpg",
+        "alt": "Mount Mitsutōge: Mount Mitsutoge and Lake Kawaguchi seen from Mount Ashiwada in Yamanashi prefecture, Japan.",
+        "author": "Alpsdake",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Mitsutoge_and_Lake_Kawaguchi.JPG",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-mitsutoge/File_Mount_Mitsutoge_s2.jpg.jpg",
+        "alt": "Mount Mitsutōge: Mount Mitsutoge seen from Hotel Mount Fuji in Yamanashi Prefecture, Japan.",
+        "author": "Alpsdake",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Mitsutoge_s2.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "mount-takao",
+    "title": "Mount Takao",
+    "continent": "Asia",
+    "country": "Japan",
+    "biome": "Warm and cool temperate forest",
+    "landscapes": [
+      "mountains",
+      "forests"
+    ],
+    "description": "Tokyo's favorite hiking mountain (599 m), about 50 minutes by train from Shinjuku. Trail 1 climbs past Yakuō-in Temple to a summit where, on clear days, you can see Mount Fuji.",
+    "hikingExplained": "Mount Takao is in Hachiōji, on the western edge of Tokyo, and more than 2.5 million people climb it every year. Trail 1, also called the Omotesando, is the main route to the top and the approach to Yakuō-in, a mountain temple halfway up. It is 3.8 km long and mostly paved, which makes it the best choice for beginners and families. Plan about 1 hour 30 to 40 minutes on foot from the bottom to the 599 m summit. If you want a shorter walk, ride the cable car (or the chairlift) halfway up; from the cable car's top station, the summit is about 40 minutes on foot.\n\nThe summit is one of the official \"100 Fuji views of the Kanto region\". On clear days you see Mount Fuji beyond the mountain ranges to the west, and the clearest days come in winter. For a few days around the winter solstice in December, the sun sets right on top of Fuji's crater as seen from the summit. This is called \"Diamond Fuji\". In 2025 the best days were December 17 to 28, at about 4:00 to 4:15 pm, and the cable car ran until 6 pm on those days. It gets dark fast after sunset, so bring a light for the walk down.",
+    "officialUrl": "https://www.city.hachioji.tokyo.jp/kankobunka/001/004/p003393.html",
+    "map": "/maps/Asia.svg",
+    "photo": {
+      "src": "/hikes/mount-takao.jpg",
+      "alt": "Snow-capped Mount Fuji under a cloudy winter sky, seen from Mount Takao beyond layers of forested blue mountain ridges, with evergreen treetops in the foreground.",
+      "author": "Syced",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snowy_Mount_Fuji_from_Mount_Takao,_February_2025.jpg",
+      "license": "CC0 1.0 (public domain dedication)"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 35.6311,
+      "lng": 139.2669
+    },
+    "details": {
+      "route": "Trail 1 (Omotesando) from the foot of the mountain to the summit and back",
+      "distanceKm": 7.6,
+      "elevationGainM": 411,
+      "maxAltitudeM": 599,
+      "duration": "1.5 h up (Trail 1)",
+      "difficulty": "easy",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "permit": null,
+      "gettingThere": "From Shinjuku, take the Keio Line to Takaosanguchi Station, about 50 minutes on a Special Express. Kiyotaki Station, where the cable car and Trail 1 start, is about a 5-minute walk from Takaosanguchi Station.",
+      "tips": [
+        "Diamond Fuji happens around the winter solstice. Check the Takao Tozan Railway website for this year's dates and cable car hours, arrive at the summit or Momiji-dai (5 minutes further) a little before 4 pm, and bring warm clothes and a flashlight.",
+        "Trails can be icy from winter until early spring, and the sun sets early from autumn on. Wear non-slip hiking shoes and plan to be down before dark.",
+        "Trails sometimes close for repairs or bad weather. Check the Tokyo Metropolitan Takao Visitor Center for current conditions before you go."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Hachiōji City — Mount Takao (summit 599 m, Fuji views, trail closures)",
+        "url": "https://www.city.hachioji.tokyo.jp/kankobunka/001/004/p003393.html"
+      },
+      {
+        "label": "Takao Tozan Railway — Hiking courses (Trail 1 is 3.8 km)",
+        "url": "https://www.takaotozan.co.jp/course/"
+      },
+      {
+        "label": "Takao Tozan Railway — Diamond Fuji (2025 dates, times, viewpoints, cable car hours)",
+        "url": "https://www.takaotozan.co.jp/diamond/"
+      },
+      {
+        "label": "Takao Tozan Railway — Access (Takaosanguchi to Kiyotaki Station)",
+        "url": "https://www.takaotozan.co.jp/trafic/"
+      },
+      {
+        "label": "Tokyo Metropolitan Government — Meiji no Mori Takao Quasi-National Park (Trail 1, summit times)",
+        "url": "https://www.kankyo1.metro.tokyo.lg.jp/naturepark/know/park/introduction/toritu/meiji/tourism.html"
+      },
+      {
+        "label": "Takaosan Yakuō-in — Hiking guide (trails, winter ice)",
+        "url": "https://www.takaosan.or.jp/tozan/"
+      },
+      {
+        "label": "Hachiōji Visitors & Convention Association — Takao summit (walking times)",
+        "url": "https://www.hkc.or.jp/facility/detail.php?id=160"
+      },
+      {
+        "label": "Hachiōji Visitors & Convention Association — Mt. Takao Pocket Map (access from Shinjuku)",
+        "url": "https://www.hkc.or.jp/pamphlet/pdf/pocket/pocketmap_2025_en.pdf"
+      },
+      {
+        "label": "JNTO — Mt. Takao hiking course (elevation gain, Fuji view)",
+        "url": "https://www.japan.travel/en/sports/hiking/courses/mt-takao/"
+      },
+      {
+        "label": "MLIT Kanto Regional Bureau — Kanto's 100 Fuji views: Takao (visitor numbers, Diamond Fuji)",
+        "url": "https://www.ktr.mlit.go.jp/chiiki/fujimi0055.html"
+      },
+      {
+        "label": "Geospatial Information Authority of Japan — Elevations of 1,003 major mountains (Takaosan 599 m)",
+        "url": "https://www.gsi.go.jp/KOKUJYOHO/MOUNTAIN/1003zan20260331.csv"
+      },
+      {
+        "label": "JNTO — The Top 30 Spots for Viewing Mt. Fuji (best viewing conditions)",
+        "url": "https://www.japan.travel/en/fuji-guide/views-of-fuji/"
+      },
+      {
+        "label": "OpenStreetMap — Kiyotaki Station (Trail 1 start)",
+        "url": "https://www.openstreetmap.org/node/675449217"
+      }
+    ],
+    "checkedAt": "2026-10-10",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1652786981900-c842778d1f48?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8TW91bnQlMjBUYWthbyUyMEphcGFufGVufDF8MHx8fDE3OTE1ODU5NzF8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Mount Takao: a view of a mountain range with trees in the foreground",
+        "author": "wanderplans.com",
+        "authorUrl": "https://unsplash.com/@wanderplans?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-a-mountain-range-with-trees-in-the-foreground-tT0sQlKLluk?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1652786982668-d6b4628bdd53?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8TW91bnQlMjBUYWthbyUyMEphcGFufGVufDF8MHx8fDE3OTE1ODU5NzF8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Mount Takao: a stone lion statue in a park setting",
+        "author": "wanderplans.com",
+        "authorUrl": "https://unsplash.com/@wanderplans?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-stone-lion-statue-in-a-park-setting-nmAOnB_lCQk?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1652786982636-c825c0d3b1fe?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8TW91bnQlMjBUYWthbyUyMEphcGFufGVufDF8MHx8fDE3OTE1ODU5NzF8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Mount Takao: a row of buddha statues sitting next to each other",
+        "author": "wanderplans.com",
+        "authorUrl": "https://unsplash.com/@wanderplans?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-row-of-buddha-statues-sitting-next-to-each-other-wNL_R_JGrp8?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-takao/File_Takao-san_hike_during_winter_19.jpg.jpg",
+        "alt": "Mount Takao: Takao-san hike during winter",
+        "author": "Syced",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takao-san_hike_during_winter_19.jpg",
+        "license": "CC0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-takao/File_Mount_Takao_hike_in_January_3.jpg.jpg",
+        "alt": "Mount Takao: Mount Takao hike in January",
+        "author": "Syced",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Takao_hike_in_January_3.jpg",
+        "license": "CC0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-takao/File_Takao-san_hike_during_winter_18.jpg.jpg",
+        "alt": "Mount Takao: Takao-san hike during winter",
+        "author": "Syced",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takao-san_hike_during_winter_18.jpg",
+        "license": "CC0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-takao/File_Takao-san_hike_during_winter.jpg.jpg",
+        "alt": "Mount Takao: Takao-san hike during winter",
+        "author": "Syced",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takao-san_hike_during_winter.jpg",
+        "license": "CC0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/mount-takao/File_Takao-san_hike_during_winter_6.jpg.jpg",
+        "alt": "Mount Takao: Takao-san hike during winter",
+        "author": "Syced",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takao-san_hike_during_winter_6.jpg",
+        "license": "CC0"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "slug": "pedra-da-gavea",
+    "title": "Pedra da Gávea",
+    "continent": "South America",
+    "country": "Brazil",
+    "biome": "Atlantic Forest",
+    "landscapes": [
+      "mountains",
+      "forests",
+      "coasts"
+    ],
+    "description": "Rio de Janeiro's great seaside monolith, 844 m high in Tijuca National Park. The city's hardest hike climbs through Atlantic Forest and up a steep rock wall to a summit above the ocean.",
+    "hikingExplained": "Pedra da Gávea is one of Rio's postcard views. Tijuca National Park calls it the largest seaside monolith in the world, and Rio's tourism office calls its trail the hardest in the city. You start at the top of Estrada Sorimã in Barra da Tijuca and climb through Atlantic Forest, gaining more than 800 m. Riotur gives the summit as 844 m and says the way up alone takes at least 3 hours. The park says the whole hike takes about five hours on average and rates it heavy (difficult).\n\nNear the top is the Carrasqueira, a real rock scramble. Riotur describes it as an almost vertical rock wall about 30 m high, where you need your hands to keep going. The park warns that the route has exposed vertical sections where accidents and even deaths have happened. Go only if you are fit and used to hard hikes. The park says it is always best to go with a guide or an experienced hiker, and it strongly recommends safety gear: harness, rope, carabiners and slings. It also suggests that at least one person in your group has climbing experience. The park does not provide guides, so if you want one, hire a private guide and arrive together.\n\nPlan your timing carefully. The park is open from 8 am to 5 pm. You can't start up the trail after 2 pm, and everyone must be off the trail by 5 pm, when the gate closes. With about five hours needed, starting in the morning gives you the most margin. Bring food and plenty of water for the whole route, plus a hat, sunscreen and repellent, and wear closed shoes with grippy soles. Watch the weather. The park advises climbers to check conditions, and it closes or asks people to stay away when official weather alerts are issued. Mobile signal in the park is weak, and the park publishes no rescue number on its pages. As the park reminds you, you are also responsible for your own safety. Overnight stays on the summit are not allowed.",
+    "officialUrl": "https://parquenacionaldatijuca.rio/locais/pedra-da-gavea/",
+    "map": "/maps/SouthAmerica.svg",
+    "photo": {
+      "src": "/hikes/pedra-da-gavea.jpg",
+      "alt": "Aerial view over Rio: Pedra da Gávea's flat-topped granite block rises from sea haze behind the Dois Irmãos peak, forested hills, the Rocinha favela and Leblon's apartment blocks.",
+      "author": "Chensiyuan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_Pedra_da_G%C3%A1vea_2014.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "status": "draft",
+    "location": {
+      "lat": -23.0021362,
+      "lng": -43.2958664
+    },
+    "details": {
+      "route": "Trilha da Pedra da Gávea via the Carrasqueira, from Estrada Sorimã (Barrinha)",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": 844,
+      "duration": "About 5 hours",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "permit": "No permit or fee: entry to Tijuca National Park is free (only Corcovado charges). The park is open daily from 8 am to 5 pm. You must start up the Pedra da Gávea trail by 2 pm and finish by 5 pm, when the gate closes. Overnight stays are not allowed. The park recommends groups of no more than 10 people.",
+      "gettingThere": "The trailhead is at the top of Estrada Sorimã in Barrinha, between São Conrado and Barra da Tijuca, in the park's Pedra Bonita and Gávea sector. The park recommends taking public transport that goes to Barrinha.",
+      "tips": [
+        "Bring a harness, rope, carabiners and slings for the Carrasqueira, or go with a guide or experienced climber. The park strongly recommends safety gear, and it does not provide guides, so book a private one ahead.",
+        "Start in the morning. The hike takes about five hours on average, the trail closes to new starts at 2 pm, and everyone must be out by 5 pm.",
+        "Carry food and plenty of water for the whole route, plus a hat, sunscreen and repellent. Check the park's news page before you go, because it closes on days with official weather alerts."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parque Nacional da Tijuca (ICMBio) — Pedra da Gávea",
+        "url": "https://parquenacionaldatijuca.rio/locais/pedra-da-gavea/"
+      },
+      {
+        "label": "Parque Nacional da Tijuca — Visitation rules (hours, 2 pm trail start limit)",
+        "url": "https://parquenacionaldatijuca.rio/novas-regras-de-visitacao-no-parque-nacional-da-tijuca/"
+      },
+      {
+        "label": "Parque Nacional da Tijuca — FAQ (free entry, hours, private guides)",
+        "url": "https://parquenacionaldatijuca.rio/faq/"
+      },
+      {
+        "label": "Parque Nacional da Tijuca — Hiking (what to wear and bring)",
+        "url": "https://parquenacionaldatijuca.rio/atividades/caminhada-em-trilha/"
+      },
+      {
+        "label": "Parque Nacional da Tijuca — Climbing (safety equipment, weather, guides)",
+        "url": "https://parquenacionaldatijuca.rio/atividades/escalada/"
+      },
+      {
+        "label": "Parque Nacional da Tijuca — Visitor guidance (weak mobile signal, stay on the trail)",
+        "url": "https://parquenacionaldatijuca.rio/orientacoes"
+      },
+      {
+        "label": "Parque Nacional da Tijuca — Weather advisory example (21 Aug 2026)",
+        "url": "https://parquenacionaldatijuca.rio/evite-vir-ao-parque-nacional-da-tijuca-hoje-21-08-26/"
+      },
+      {
+        "label": "ICMBio — Parque Nacional da Tijuca (Atlantic Forest)",
+        "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-tijuca"
+      },
+      {
+        "label": "Riotur — Pedra da Gávea (844 m, 30 m Carrasqueira, 3+ hours up)",
+        "url": "https://riotur.rio/que_fazer/pedradagavea/"
+      },
+      {
+        "label": "OpenStreetMap — Trilha da Pedra da Gávea trailhead gate, Estrada Sorimã",
+        "url": "https://www.openstreetmap.org/node/2394608207"
+      },
+      {
+        "label": "OpenStreetMap — Trilha da Pedra da Gávea",
+        "url": "https://www.openstreetmap.org/way/231042467"
+      }
+    ],
+    "checkedAt": "2026-10-10",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1544991337-95176b5233c4?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8UGVkcmElMjBkYSUyMEclQzMlQTF2ZWElMjBCcmF6aWx8ZW58MXwwfHx8MTc5MTU4NjU4N3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Pedra da Gávea: aerial photography of mountains surrounded by sea",
+        "author": "Davi Costa",
+        "authorUrl": "https://unsplash.com/@davicostalf?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/aerial-photography-of-mountains-surrounded-by-sea-4lWIQ43CCmM?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1559562591-6de6f7187f56?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8UGVkcmElMjBkYSUyMEclQzMlQTF2ZWElMjBCcmF6aWx8ZW58MXwwfHx8MTc5MTU4NjU4N3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Pedra da Gávea: green covered mountain",
+        "author": "Mateus Campos Felipe",
+        "authorUrl": "https://unsplash.com/@matcfelipe?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-covered-mountain-_fzl2PQH6kw?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/pedra-da-gavea/File_Pedra_da_G_C3_A1vea__2022-12-11__02.jpg.jpg",
+        "alt": "Pedra da Gávea: Pedra da Gávea as viewed from Pedra Bonita on a cloudy day.",
+        "author": "Avelludo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedra_da_G%C3%A1vea_(2022-12-11)_02.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/pedra-da-gavea/File_Pedra_da_G_C3_A1vea__2022-12-11__05.jpg.jpg",
+        "alt": "Pedra da Gávea: Pedra da Gávea as viewed from Pedra Bonita on a cloudy day.",
+        "author": "Avelludo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedra_da_G%C3%A1vea_(2022-12-11)_05.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/pedra-da-gavea/File_Pedra_da_G_C3_A1vea__2022-12-11__01.jpg.jpg",
+        "alt": "Pedra da Gávea: Pedra da Gávea as viewed from Pedra Bonita on a cloudy day.",
+        "author": "Avelludo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedra_da_G%C3%A1vea_(2022-12-11)_01.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/pedra-da-gavea/File_Pedra_da_G_C3_A1vea__2022-12-11__03.jpg.jpg",
+        "alt": "Pedra da Gávea: Pedra da Gávea and Barra da Tijuca as viewed from Pedra Bonita on a cloudy day.",
+        "author": "Avelludo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedra_da_G%C3%A1vea_(2022-12-11)_03.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
   }
 ]
