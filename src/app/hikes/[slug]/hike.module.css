@@ -3,6 +3,17 @@
   display: flex;
   flex-direction: column;
   gap: var(--gh-space-5);
+  /* Hike and trail pages: glass a little more blurred and 10% darker over the fixed photo (owner, 2026-10-10). */
+  --gh-blur: blur(22px);
+  --gh-blur-lg: blur(32px);
+  --gh-glass: rgba(0, 0, 0, 0.7);
+  --gh-glass-strong: rgba(0, 0, 0, 0.84);
+}
+
+/* Light theme: same extra blur, frosted white glass 10% more opaque. */
+:global(:root[data-theme="light"]) .article {
+  --gh-glass: rgba(255, 255, 255, 0.86);
+  --gh-glass-strong: rgba(255, 255, 255, 0.94);
 }
 
 .heroInner {
