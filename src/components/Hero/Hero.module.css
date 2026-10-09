@@ -1,7 +1,8 @@
 .hero {
   position: relative;
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
   margin: calc(-1 * var(--page-pad-top)) calc(-1 * var(--page-pad-x)) var(--gh-space-6)
     calc(-1 * var(--page-pad-left));
   padding: var(--page-pad-top) var(--page-pad-x) var(--gh-space-6) var(--page-pad-left);
@@ -60,6 +61,13 @@
     linear-gradient(180deg, transparent 84%, var(--gh-hero-fade) 100%),
     var(--gh-photo-text-shade),
     var(--gh-photo-vignette);
+}
+
+.crumbs {
+  width: 100%;
+  max-width: var(--gh-content-max);
+  margin-bottom: auto;
+  padding-bottom: var(--gh-space-7);
 }
 
 .content {

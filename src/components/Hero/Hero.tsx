@@ -14,6 +14,8 @@ type Props = {
   /** Background moves slower than the page on scroll. */
   parallax?: boolean;
   priority?: boolean;
+  /** Shown at the top of the hero, under the menu logo; the content stays at the bottom. */
+  breadcrumb?: ReactNode;
   children: ReactNode;
   className?: string;
 };
@@ -28,6 +30,7 @@ export default function Hero({
   parallax = false,
   size = "full",
   priority = true,
+  breadcrumb,
   children,
   className,
 }: Props) {
@@ -38,6 +41,7 @@ export default function Hero({
         {video && <HeroVideo src={video} />}
       </ParallaxLayer>
       <div className={styles.scrim} aria-hidden="true" />
+      {breadcrumb && <div className={styles.crumbs}>{breadcrumb}</div>}
       <div className={styles.content}>{children}</div>
     </section>
   );

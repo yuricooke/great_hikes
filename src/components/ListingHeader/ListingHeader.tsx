@@ -1,7 +1,6 @@
 import type { ReactNode } from "react";
 
 import Breadcrumb from "../Breadcrumb/Breadcrumb";
-import GlassPanel from "../GlassPanel/GlassPanel";
 import Hero from "../Hero/Hero";
 import styles from "./ListingHeader.module.css";
 
@@ -15,18 +14,15 @@ type Props = {
   children?: ReactNode;
 };
 
-/** Photo hero for first-level pages: breadcrumb + glass header (title, description, meta). */
+/** Photo hero for first-level pages: breadcrumb on top, title/description/meta over the photo (no glass). */
 export default function ListingHeader({ image, title, description, meta, breadcrumb, children }: Props) {
   return (
-    <Hero image={image} size="medium">
+    <Hero image={image} size="medium" breadcrumb={<Breadcrumb items={breadcrumb} />}>
       <div className={styles.header}>
-        <Breadcrumb items={breadcrumb} />
-        <GlassPanel tone="light" className={styles.panel}>
-          <h1 className={styles.title}>{title}</h1>
-          <p className={styles.description}>{description}</p>
-          {meta && <p className={styles.count}>{meta}</p>}
-          {children}
-        </GlassPanel>
+        <h1 className={styles.title}>{title}</h1>
+        <p className={styles.description}>{description}</p>
+        {meta && <p className={styles.count}>{meta}</p>}
+        {children}
       </div>
     </Hero>
   );

@@ -79,6 +79,7 @@ test("topic pages show a grid; top 10 is ranked", async ({ page }) => {
 });
 
 test("every hike page renders story, facts, credit, map and breadcrumb", async ({ page }) => {
+  test.setTimeout(120_000); // one visit per hike, and the list keeps growing
   for (const hike of hikes) {
     const res = await page.goto(`/hikes/${hike.slug}`);
     expect(res?.status(), hike.slug).toBe(200);
@@ -172,7 +173,9 @@ test("sign in with the test account, save a hike, see it in favorites", async ({
   await page.context().clearCookies();
 
   await page.goto("/");
-  await page.getByRole("banner").getByRole("link", { name: "Sign in" }).click();
+  // Phones keep Sign in inside the menu card.
+  if (testInfo.project.name === "mobile") await page.getByRole("button", { name: "Menu", exact: true }).click();
+  await page.getByRole("banner").getByRole("link", { name: "Sign in" }).filter({ visible: true }).click();
   const dialog = page.getByRole("dialog", { name: "Sign in" });
   await expect(dialog).toBeVisible();
   await dialog.getByLabel("Email").fill("not-an-email");
@@ -234,6 +237,7 @@ test("map: filters narrow the list and a result opens its page", async ({ page }
   await page.goto("/map?lat=37.74&lng=-119.56&z=11.5");
   const list = page.getByRole("list", { name: "Hikes in view" });
   await expect(list.getByRole("listitem").first()).toBeVisible({ timeout: 15000 });
+  await page.waitForLoadState("networkidle"); // filters work once the page has hydrated
   await page.getByRole("combobox", { name: "Difficulty" }).selectOption("easy");
   await expect(list.getByRole("listitem")).toHaveCount(1);
   await list.getByRole("button", { name: /Sentinel Dome/ }).click();
