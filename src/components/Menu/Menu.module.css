@@ -243,8 +243,8 @@
 
   .header {
     top: var(--gh-space-5);
-    left: var(--gh-space-6);
-    right: var(--gh-space-6);
+    left: var(--gh-space-7);
+    right: var(--gh-space-7);
   }
 
   .primary {
@@ -262,8 +262,37 @@
   }
 }
 
-/* Narrow phones: icon-only logo pill so the bar's four icons fit without touching the edges. */
-@media (max-width: 380px) {
+/* Phones: icon-only logo pill; the bar holds only the Menu button, everything else is in the card
+   (owner, 2026-10-09). */
+@media (max-width: 767px) {
+  .barIcon {
+    display: none;
+  }
+
+  .bar {
+    padding: 0 var(--gh-space-1);
+  }
+
+  .menuLabel {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+  }
+
+  /* Round logo button, same height as the bar. */
+  .logo {
+    justify-content: center;
+    width: var(--gh-header-height);
+    padding: 0;
+  }
+
+  .logo img {
+    width: 32px;
+    height: auto;
+  }
+
   .logoName {
     position: absolute;
     width: 1px;
@@ -271,6 +300,12 @@
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .phoneOnly {
+    display: none;
   }
 }
 

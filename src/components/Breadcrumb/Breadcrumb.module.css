@@ -1,12 +1,18 @@
+/* Plain text trail (no glass box); sits over photos, so it keeps light-on-dark text. */
 .nav {
-  display: inline-flex;
+  display: flex;
   max-width: 100%;
-  padding: var(--gh-space-2) var(--gh-space-4);
-  border: var(--gh-glass-border);
-  border-radius: var(--gh-radius-pill);
-  background: var(--gh-glass);
-  backdrop-filter: var(--gh-blur);
-  -webkit-backdrop-filter: var(--gh-blur);
+  min-width: 0;
+  /* Starts where the menu's logo icon starts (logo pill padding + its 1px border). */
+  padding-left: calc(var(--gh-space-3) + 1px);
+  text-shadow: var(--gh-text-shadow);
+}
+
+/* Phones: the logo is a round button with the icon centred 12px in. */
+@media (max-width: 767px) {
+  .nav {
+    padding-left: var(--gh-space-3);
+  }
 }
 
 .list {
@@ -14,8 +20,9 @@
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
+  min-width: 0;
   gap: var(--gh-space-1) var(--gh-space-2);
   font-size: var(--gh-text-sm);
 }
@@ -24,6 +31,19 @@
   display: inline-flex;
   align-items: center;
   gap: var(--gh-space-2);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* One line only: the current page shrinks and ends in an ellipsis when it is too long. */
+.item:last-child {
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.item:last-child > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .item + .item::before {

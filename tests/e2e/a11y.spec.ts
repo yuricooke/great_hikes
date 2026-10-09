@@ -41,22 +41,27 @@ for (const url of PAGES) {
 test("V7 menu: every section reachable once; card holds what the bar doesn't; Escape closes", async ({ page, isMobile }) => {
   await page.goto(`/hikes/${hikes[0].slug}`);
   await expect(page.getByRole("banner").getByRole("link", { name: "Great Hikes home" })).toBeVisible();
-  await expect(page.getByRole("banner").getByRole("link", { name: "Sign in" })).toBeVisible();
   const toggle = page.getByRole("button", { name: "Menu", exact: true });
+  const primary = page.getByRole("navigation", { name: "Primary" });
+  if (!isMobile) {
+    // Wide screens: text links in the bar (owner order), Search/Favorites/Sign in as icons.
+    await expect(primary.getByRole("link")).toHaveText(["Hikes", "Journal", "Map", "Shop"]);
+    for (const name of ["Search", "Favorites", "Sign in"]) {
+      await expect(page.getByRole("banner").getByRole("link", { name, exact: true }).filter({ visible: true })).toHaveCount(1);
+    }
+  }
   await toggle.click();
   await expect(toggle).toHaveAttribute("aria-expanded", "true");
   const nav = page.getByRole("navigation", { name: "Main" });
   for (const name of ["Share your hike", "Our feed"]) {
     await expect(nav.getByRole("link", { name, exact: true })).toBeVisible();
   }
-  // Shop is an icon in the bar on phones/tablets and a text link on wide screens — never in the card.
-  await expect(page.getByRole("banner").getByRole("link", { name: "Shop", exact: true }).filter({ visible: true })).toHaveCount(1);
-  await expect(page.getByRole("banner").getByRole("link", { name: "Favorites", exact: true })).toBeVisible();
-  for (const name of ["Hikes", "Map", "Search", "Journal"]) {
+  // Phones: the bar holds only the Menu button; every section is in the card, once.
+  for (const name of ["Hikes", "Journal", "Map", "Shop", "Search", "Favorites", "Sign in"]) {
     const inCard = nav.getByRole("link", { name, exact: true });
-    const inBar = page.getByRole("navigation", { name: "Primary" }).getByRole("link", { name, exact: true });
-    await expect(isMobile ? inCard : inBar).toBeVisible();
-    await expect(isMobile ? inBar : inCard).toBeHidden();
+    const inBar = page.getByRole("banner").getByRole("link", { name, exact: true }).and(page.locator(":not(#site-menu *)"));
+    await expect(isMobile ? inCard : inBar.filter({ visible: true })).toHaveCount(1);
+    await expect(isMobile ? inBar.filter({ visible: true }) : inCard.filter({ visible: true })).toHaveCount(0);
   }
   await expect(nav.getByRole("link", { name: /Instagram/ })).toHaveAttribute("href", /instagram\.com\/great_hikes/);
   await page.keyboard.press("Escape");

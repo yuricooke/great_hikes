@@ -13,14 +13,15 @@ import styles from "./Menu.module.css";
 
 type Item = { label: string; href: string; icon: IconName; external?: boolean; match?: string[] };
 
-/** Shown in the top bar on wide screens and in the menu card everywhere. */
+/** Text links in the top bar on wide screens; in the menu card on phones and tablets (owner order, 2026-10-09). */
 const PRIMARY: Item[] = [
   { label: "Hikes", href: "/hikes", icon: "hiking", match: ["/hikes", "/explore"] },
-  { label: "Map", href: "/map", icon: "map" },
-  { label: "Search", href: "/search", icon: "search" },
   { label: "Journal", href: "/journal", icon: "stories" },
+  { label: "Map", href: "/map", icon: "map" },
   { label: "Shop", href: "/shop", icon: "shoppingBag" },
 ];
+
+const SEARCH: Item = { label: "Search", href: "/search", icon: "search" };
 
 const MORE: Item[] = [
   { label: "Share your hike", href: "/share", icon: "add" },
@@ -91,8 +92,8 @@ export default function Menu() {
   // Favorites is always one tap away; the page explains sign-in when needed.
   const favorites: Item = { label: "Favorites", href: "/favorites", icon: "favorite" };
 
-  const cardLink = (item: Item) => (
-    <li key={item.label}>
+  const cardLink = (item: Item, className?: string) => (
+    <li key={item.label} className={className}>
       {item.external ? (
         <a href={item.href} className={styles.cardLink} target="_blank" rel="noopener noreferrer" onClick={close}>
           <Icon name={item.icon} size={24} />
@@ -136,10 +137,10 @@ export default function Menu() {
             ))}
           </ul>
         </nav>
-        {/* Phones and tablets: Shop as an icon in the bar (wide screens show it as a text link). */}
+        {/* Tablets: Shop as an icon (wide screens show it as a text link; phones keep everything in the card). */}
         <Link
           href="/shop"
-          className={`${styles.iconButton} ${styles.compactOnly}`}
+          className={`${styles.iconButton} ${styles.compactOnly} ${styles.barIcon}`}
           title="Shop"
           aria-current={pathname.startsWith("/shop") ? "page" : undefined}
         >
@@ -147,15 +148,24 @@ export default function Menu() {
           <span className="visually-hidden">Shop</span>
         </Link>
         <Link
+          href={SEARCH.href}
+          className={`${styles.iconButton} ${styles.barIcon}`}
+          title="Search"
+          aria-current={isActive(pathname, SEARCH) ? "page" : undefined}
+        >
+          <Icon name="search" size={22} />
+          <span className="visually-hidden">Search</span>
+        </Link>
+        <Link
           href={favorites.href}
-          className={styles.iconButton}
+          className={`${styles.iconButton} ${styles.barIcon}`}
           title="Favorites"
           aria-current={isActive(pathname, favorites) ? "page" : undefined}
         >
           <Icon name="favorite" size={22} />
           <span className="visually-hidden">Favorites</span>
         </Link>
-        <Link href={account.href} scroll={false} className={styles.iconButton} title={account.label}>
+        <Link href={account.href} scroll={false} className={`${styles.iconButton} ${styles.barIcon}`} title={account.label}>
           <Icon name="person" size={22} />
           <span className="visually-hidden">{account.label}</span>
         </Link>
@@ -179,11 +189,13 @@ export default function Menu() {
         hidden={!open}
       >
         <nav aria-label="Main">
-          {/* The bar shows the primary links on wide screens (Shop as an icon on phones), so the card lists the rest. */}
+          {/* Wide screens: the bar holds the primary links and icons, so the card lists the rest.
+              Tablets: the bar keeps the icons. Phones: everything lives in the card. */}
           <ul className={`${styles.cardList} ${styles.cardPrimary}`}>
-            {PRIMARY.filter((item) => item.href !== "/shop").map(cardLink)}
+            {PRIMARY.map((item) => cardLink(item, item.href === "/shop" ? styles.phoneOnly : undefined))}
+            {[SEARCH, favorites, account].map((item) => cardLink(item, styles.phoneOnly))}
           </ul>
-          <ul className={`${styles.cardList} ${styles.cardSecondary}`}>{MORE.map(cardLink)}</ul>
+          <ul className={`${styles.cardList} ${styles.cardSecondary}`}>{MORE.map((item) => cardLink(item))}</ul>
           <ThemeSwitch />
         </nav>
       </div>

@@ -1,21 +1,46 @@
+/* The title panel sits flush on the hero's bottom edge and fades into the page below. */
+section.hero {
+  padding-bottom: 0;
+}
+
 .heroInner {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: var(--gh-space-4);
+  align-items: center;
 }
 
 .heroPanel {
-  width: min(720px, 100%);
-  padding: var(--gh-space-6) var(--gh-space-5);
+  width: min(760px, 100%);
+  padding: var(--gh-space-6) var(--gh-space-5) var(--gh-space-5);
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: var(--gh-space-3);
+  text-align: center;
+  border: 0;
+  border-radius: var(--gh-radius-panel) var(--gh-radius-panel) 0 0;
+  box-shadow: none;
+  background: linear-gradient(180deg, var(--gh-glass) 0%, var(--gh-glass-strong) 45%, var(--gh-hero-fade) 100%);
+}
+
+/* Light theme: a cream panel with dark text that melts into the cream page. */
+:global(:root[data-theme="light"]) .heroPanel {
+  --gh-text: #15181b;
+  --gh-text-muted: rgba(21, 24, 27, 0.78);
+  --gh-text-shadow: none;
+  --gh-focus: #1d4ed8;
+  color: var(--gh-text);
+  background: linear-gradient(180deg, rgba(244, 242, 238, 0.72) 0%, rgba(244, 242, 238, 0.92) 45%, var(--gh-hero-fade) 100%);
+}
+
+.heroPanel :where(a) {
+  color: var(--gh-text);
 }
 
 .eyebrow {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: var(--gh-space-3);
   text-transform: uppercase;
   letter-spacing: var(--gh-tracking-caps);

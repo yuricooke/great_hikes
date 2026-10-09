@@ -71,9 +71,12 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
 
   return (
     <article>
-      <Hero image={cover.photo.src}>
+      <Hero
+        image={cover.photo.src}
+        className={styles.hero}
+        breadcrumb={<Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/journal" }, { label: article.title }]} />}
+      >
         <div className={styles.heroInner}>
-          <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/journal" }, { label: article.title }]} />
           <GlassPanel tone="light" className={styles.heroPanel}>
             <p className={styles.eyebrow}>
               {section}
@@ -86,8 +89,8 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
             <p className={styles.meta}>
               By {article.author} · <time dateTime={article.date}>{formatDate(article.date)}</time> · {article.readMinutes} min read
             </p>
+            <PhotoCredit photo={cover.photo} />
           </GlassPanel>
-          <PhotoCredit photo={cover.photo} />
         </div>
       </Hero>
 
