@@ -39,7 +39,8 @@ export type Article = z.infer<typeof ArticleSchema>;
 export type ArticleBlock = z.infer<typeof Block>;
 
 function load(): Article[] {
-  const articles = z.array(ArticleSchema).parse(rawArticles);
+  // Hidden articles (drafts in production) may point at hikes that are hidden too; only check what's shown.
+  const articles = z.array(ArticleSchema).parse(rawArticles).filter((a) => SHOW_SAMPLES || a.status === "published");
   for (const a of articles) {
     const refs = [a.cover, ...a.relatedHikes, ...a.blocks.flatMap((b) => ("slug" in b ? [b.slug] : "slugs" in b ? b.slugs : "hike" in b ? [b.hike] : []))];
     for (const s of refs) if (!hikeBySlug(s)) throw new Error(`Article ${a.slug}: unknown hike ${s}`);
@@ -51,7 +52,7 @@ const ALL = load();
 
 /** Sample and draft articles are visible on previews only, never in production. */
 export function articles(kind?: Article["kind"]): Article[] {
-  return ALL.filter((a) => (SHOW_SAMPLES || a.status === "published") && (!kind || a.kind === kind));
+  return ALL.filter((a) => !kind || a.kind === kind);
 }
 
 export function articleBySlug(s: string): Article | undefined {
