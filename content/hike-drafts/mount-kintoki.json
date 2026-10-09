@@ -1,0 +1,91 @@
+{
+  "id": 48,
+  "slug": "mount-kintoki",
+  "title": "Mount Kintoki",
+  "continent": "Asia",
+  "country": "Japan",
+  "biome": "Volcanic caldera rim with temperate forest",
+  "landscapes": [
+    "mountains",
+    "forests"
+  ],
+  "description": "The highest point on the outer rim of the Hakone volcano, Mount Kintoki (1,212 m) is a short, steep half-day hike from Kintoki Shrine to a summit with a full view of Mount Fuji.",
+  "hikingExplained": "The Environment Ministry's Kintoki-san Course starts at the Kintoki-jinja-iriguchi bus stop in Sengokuhara. You walk 5 minutes to Kintoki Shrine, which honors Kintarō, the strong boy of Japanese folk tales, then climb through the forest past the Kintoki Yadori-ishi, a huge split boulder that legend says was his shelter. From there the trail gets steeper and rockier up to the summit at 1,212 m. You come down a different way, along the ridge to Yakurazawa Pass, and finish at the Kintoki-tozanguchi bus stop. The whole route is 4.6 km and takes about 2 hours 30 minutes.\n\nThe view is the reason to come. On a clear day you see the whole of Mount Fuji, from the town of Gotemba at its foot to its summit. To the south you look down on Sengokuhara, Lake Ashi and the steam of Owakudani. Two teahouses sit on the summit, but their hours vary, so bring your own water and snacks. Fuji is most likely to be clear early in the morning and in the colder months, from late autumn to winter.",
+  "officialUrl": "https://www.env.go.jp/nature/nationalparks/list/fuji-hakone-izu/course/06/",
+  "map": "/maps/Asia.svg",
+  "photo": {
+    "src": "/hikes/mount-kintoki.jpg",
+    "alt": "Mount Kintoki's pointed brown summit under a clear blue sky in late autumn, with the snow-capped cone of Mount Fuji rising behind its ridge and bamboo grass in front.",
+    "author": "Alpsdake",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Kintoki_and_Mount_Fuji.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 35.27972,
+    "lng": 139.00252
+  },
+  "details": {
+    "route": "Kintoki-san Course: Kintoki Shrine to the summit, down via Yakurazawa Pass",
+    "distanceKm": 4.6,
+    "elevationGainM": null,
+    "maxAltitudeM": 1212,
+    "duration": "About 2 hours 30 minutes",
+    "difficulty": "moderate",
+    "routeType": "point-to-point",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "permit": null,
+    "gettingThere": "From Shinjuku in Tokyo, take the Odakyu Line to Hakone-Yumoto: about 1.5 hours on the Romancecar (extra fee, reserved seats) or about 2 hours on regular trains. From Hakone-Yumoto, take the Hakone Tozan Bus toward Togendai, get off at Sengoku, and change to a bus toward Gotemba. Get off at Kintoki-jinja-iriguchi; Kintoki Shrine is a 5-minute walk away. The hike ends at the Kintoki-tozanguchi bus stop in Sengokuhara.",
+    "tips": [
+      "Start early. The Hakone Tourist Association says Fuji views are best in the early morning and in the colder months.",
+      "Wear sturdy hiking shoes and bring rain gear. The upper trail is steep and rocky, and some parts get slippery.",
+      "The two summit teahouses keep irregular hours, so carry enough water and food. The summit toilet costs 100 yen."
+    ]
+  },
+  "sources": [
+    {
+      "label": "Ministry of the Environment — Fuji-Hakone-Izu National Park: Kintoki-san Course (distance, times, route, views)",
+      "url": "https://www.env.go.jp/nature/nationalparks/list/fuji-hakone-izu/course/06/"
+    },
+    {
+      "label": "Geospatial Information Authority of Japan — Elevations of 1,003 major mountains (Kintokisan 1,212 m)",
+      "url": "https://www.gsi.go.jp/KOKUJYOHO/MOUNTAIN/1003zan20260331.csv"
+    },
+    {
+      "label": "Hakone Tourist Association — Mt. Kintoki hiking trail",
+      "url": "https://hakone-japan.com/discover/national-park/activities/mt-kintoki-course/"
+    },
+    {
+      "label": "Hakone Tourist Association — Hiking Hakone's Kintoki mountain",
+      "url": "https://hakone-japan.com/things-to-do/activities/nature-experience/hiking-hakones-kintoki-mountain/"
+    },
+    {
+      "label": "Hakone Tourist Association — Access from Tokyo",
+      "url": "https://hakone-japan.com/discover/national-park/all/access/from-tokyo/"
+    },
+    {
+      "label": "Hakone Geopark — Mount Kintoki (geology, legend, bus access)",
+      "url": "https://www.hakone-geopark.jp/area-guide/hakone2/009kintokiyama.html"
+    },
+    {
+      "label": "JNTO — The Top 30 Spots for Viewing Mt. Fuji (best viewing conditions)",
+      "url": "https://www.japan.travel/en/fuji-guide/views-of-fuji/"
+    },
+    {
+      "label": "OpenStreetMap — Kintoki Shrine (trailhead)",
+      "url": "https://www.openstreetmap.org/way/1329948976"
+    },
+    {
+      "label": "OpenStreetMap — Kintoki-jinja-iriguchi bus stop",
+      "url": "https://www.openstreetmap.org/node/6031319186"
+    }
+  ],
+  "checkedAt": "2026-10-10",
+  "instagram": [],
+  "gallery": []
+}

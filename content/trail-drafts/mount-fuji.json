@@ -1,0 +1,234 @@
+[
+  {
+    "place": "mount-fuji",
+    "slug": "yoshida-trail",
+    "name": "Yoshida Trail",
+    "status": "draft",
+    "summary": "The most popular way up Mount Fuji and the one with the most mountain huts: switchbacks of volcanic gravel from the Fuji Subaru Line 5th Station to the crater rim, and a separate trail back down.",
+    "osmRelation": 19354640,
+    "details": {
+      "route": "Fuji Subaru Line 5th Station (2,305 m) to the summit, down by the Yoshida descent trail",
+      "distanceKm": 13.8,
+      "elevationGainM": 1450,
+      "maxAltitudeM": 3776,
+      "duration": "About 6 h 10 min up and 3 h 35 min down (official estimate)",
+      "difficulty": "strenuous",
+      "routeType": "loop",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "2026 season rules (July 1 to September 10, 2026, now ended): a Yamanashi hiking fee of 4,000 yen per person per climb, payable in advance through the prefecture's online reservation (optional, open up to the day of the climb). The gate was closed to new climbers from 2 pm to 3 am and once 4,000 climbers had passed that day; hut guests could still go through. Rules for 2027 had not been announced when we checked.",
+      "gettingThere": "Fuji Kyuko climbing buses from Fujikawaguchiko Station and Mt. Fuji Station. In peak season the Fuji Subaru Line is closed to private cars (2026: July 3, 6 pm, to September 10, 6 pm); park at Fujisan Parking and take the shuttle bus.",
+      "tips": [
+        "It gets very crowded where the Subashiri Trail joins at the Original 8th Station, and above the 9th Station the path is narrow and rocky, with falling stones.",
+        "On the way down, follow the yellow signs at the fork near the 8th Station, or you may end up on the Subashiri side.",
+        "The descent has few huts and toilets, and some toilets may close from late August."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official Website for Mt. Fuji Climbing — About each trail",
+        "url": "https://www.fujisan-climb.jp/en/comparison-of-routes"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Yamanashi notice for the 2026 season",
+        "url": "https://www.fujisan-climb.jp/en/yamanashi-notice/"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Facility operating periods (2026)",
+        "url": "https://www.fujisan-climb.jp/en/season/"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Summit rim trail (Kengamine, 3,776 m)",
+        "url": "https://www.fujisan-climb.jp/en/ohachimeguri/"
+      },
+      {
+        "label": "OpenStreetMap — Yoshida Trail (Ascent) route relation",
+        "url": "https://www.openstreetmap.org/relation/19354640"
+      }
+    ],
+    "photo": {
+      "src": "/trails/mount-fuji--yoshida-trail.jpg",
+      "alt": "Hikers walk down a wide path of dark volcanic gravel on the Yoshida Trail, high above forests, towns and ranges of mountains under low clouds.",
+      "author": "Photos of Japan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mt._Fuji_Yoshida_Trail_Jun_21_621am.jpg",
+      "license": "CC0 1.0 (public domain dedication)"
+    }
+  },
+  {
+    "place": "mount-fuji",
+    "slug": "subashiri-trail",
+    "name": "Subashiri Trail",
+    "status": "draft",
+    "summary": "A quieter start through forest on the east side of Mount Fuji, then volcanic sand and rock up to where it joins the Yoshida Trail, with its own sandy descent trail back down.",
+    "osmRelation": 19354641,
+    "details": {
+      "route": "Subashiri Trail 5th Station (2,000 m) to the summit, down by the Subashiri descent trail",
+      "distanceKm": 13.1,
+      "elevationGainM": 1700,
+      "maxAltitudeM": 3776,
+      "duration": "About 6 h 25 min up and 3 h 20 min down (official estimate)",
+      "difficulty": "strenuous",
+      "routeType": "loop",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "2026 season rules (July 1 to September 10, 2026, now ended): a Shizuoka hiking fee of 4,000 yen per person per climb. You registered in advance in the Shizuoka FUJI NAVI app (or on site, about 30 minutes) and completed a short e-learning course on rules and manners with a quiz to get your entry pass. Entering between 2 pm and 3 am needed a mountain hut booking. The prefecture's page did not list a daily limit. Rules for 2027 had not been announced when we checked.",
+      "gettingThere": "Fujikyu Mobility climbing buses from Gotemba Station and Shin-Matsuda Station. The Fuji-azami Line is closed to private cars during the climbing season (2026: July 1 to September 10); park for free at Subashiri Multipurpose Plaza and take the paid shuttle or a taxi.",
+      "tips": [
+        "Rocky ground and loose gravel become more common around the 7th Station, and the trail is very crowded where it joins the Yoshida Trail at the Original 8th Station.",
+        "On the way down, look for the red signs at the Edoya fork near the 8th Station to stay on the Subashiri descent.",
+        "There is a first-aid center at the 5th Station, inside the Subashiri Information Center."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official Website for Mt. Fuji Climbing — About each trail",
+        "url": "https://www.fujisan-climb.jp/en/comparison-of-routes"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Shizuoka trail rules for 2026",
+        "url": "https://www.fujisan-climb.jp/en/info/1722/"
+      },
+      {
+        "label": "Shizuoka Prefecture — Climbing rules on the three Shizuoka trails (2026)",
+        "url": "https://www.pref.shizuoka.jp/kankosports/kanko/mtfuji/1002809/1072062.html"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Facility operating periods (2026)",
+        "url": "https://www.fujisan-climb.jp/en/season/"
+      },
+      {
+        "label": "OpenStreetMap — Subashiri Trail (Ascent) route relation",
+        "url": "https://www.openstreetmap.org/relation/19354641"
+      }
+    ],
+    "photo": {
+      "src": "/trails/mount-fuji--subashiri-trail.jpg",
+      "alt": "A roped path of dark volcanic soil on the Subashiri Trail, with green shrubs below the bare reddish summit cone of Mount Fuji.",
+      "author": "Σ64",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mt.Fuji_from_Subashiri_Trail_01.jpg",
+      "license": "CC BY 3.0"
+    }
+  },
+  {
+    "place": "mount-fuji",
+    "slug": "gotemba-trail",
+    "name": "Gotemba Trail",
+    "status": "draft",
+    "summary": "The longest and emptiest way up Mount Fuji, starting low at 1,440 m with few huts, and coming down a long, fast slope of volcanic sand.",
+    "osmRelation": 1140124,
+    "details": {
+      "route": "Gotemba Trail New 5th Station (1,440 m) to the summit, down by the Gotemba descent trail",
+      "distanceKm": 18.9,
+      "elevationGainM": 2300,
+      "maxAltitudeM": 3776,
+      "duration": "About 8 h 40 min up and 3 h 30 min down (official estimate)",
+      "difficulty": "strenuous",
+      "routeType": "loop",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "2026 season rules (July 10 to September 10, 2026, now ended): a Shizuoka hiking fee of 4,000 yen per person per climb. You registered in advance in the Shizuoka FUJI NAVI app (or on site, about 30 minutes) and completed a short e-learning course on rules and manners with a quiz to get your entry pass. Entering between 2 pm and 3 am needed a mountain hut booking. The prefecture's page did not list a daily limit. Rules for 2027 had not been announced when we checked.",
+      "gettingThere": "Fujikyu Mobility climbing buses from Gotemba Station (JR Gotemba Line). This is the only trail without private car restrictions: there is a free parking lot for about 450 cars at the New 5th Station.",
+      "tips": [
+        "There are few mountain huts and no first-aid center on this trail, so carry enough water, food and warm clothes.",
+        "Near the 8th Station you may need your hands to climb over piles of lava rock; watch for falling stones.",
+        "For the long sandy descent, the official site suggests gaiters, a mask and sunglasses. Toilets and huts on the descent may close from late August."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official Website for Mt. Fuji Climbing — About each trail",
+        "url": "https://www.fujisan-climb.jp/en/comparison-of-routes"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Shizuoka trail rules for 2026",
+        "url": "https://www.fujisan-climb.jp/en/info/1722/"
+      },
+      {
+        "label": "Shizuoka Prefecture — Climbing rules on the three Shizuoka trails (2026)",
+        "url": "https://www.pref.shizuoka.jp/kankosports/kanko/mtfuji/1002809/1072062.html"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Facility operating periods (2026)",
+        "url": "https://www.fujisan-climb.jp/en/season/"
+      },
+      {
+        "label": "OpenStreetMap — Gotemba Trail (Ascent) route relation",
+        "url": "https://www.openstreetmap.org/relation/1140124"
+      }
+    ],
+    "photo": {
+      "src": "/trails/mount-fuji--gotemba-trail.jpg",
+      "alt": "A wooden signpost at Kudari 6th Station on the Gotemba Trail, on a slope of grey volcanic gravel, with the dark cone of Mount Hoei and a sea of clouds behind.",
+      "author": "Alpsdake",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Hoei_from_Kudari_6th_Station.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "place": "mount-fuji",
+    "slug": "fujinomiya-trail",
+    "name": "Fujinomiya Trail",
+    "status": "draft",
+    "summary": "The shortest way to the top of Mount Fuji, starting highest at 2,400 m on the south side. It is steep and rocky, and you go up and down the same path.",
+    "osmRelation": 1140546,
+    "details": {
+      "route": "Fujinomiya Trail 5th Station (2,400 m) to the summit and back the same way",
+      "distanceKm": 8.6,
+      "elevationGainM": 1320,
+      "maxAltitudeM": 3776,
+      "duration": "About 5 h 10 min up and 2 h 40 min down (official estimate)",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "2026 season rules (July 10 to September 10, 2026, now ended): a Shizuoka hiking fee of 4,000 yen per person per climb. You registered in advance in the Shizuoka FUJI NAVI app (or on site, about 30 minutes) and completed a short e-learning course on rules and manners with a quiz to get your entry pass. Entering between 2 pm and 3 am needed a mountain hut booking. The prefecture's page did not list a daily limit. Rules for 2027 had not been announced when we checked.",
+      "gettingThere": "Fuji Kyuko climbing buses from Mishima, Shin-Fuji, Fuji and Fujinomiya stations. The Fuji Skyline is closed to private cars during the climbing season (2026: July 10, 9 am, to September 10, 6 pm); park at Mizugatsuka Parking and take the paid shuttle. In heavy rain the Skyline closes and the shuttle does not run.",
+      "tips": [
+        "Short does not mean easy: above the 7th Station the trail gets rougher and steeper, with falling stones.",
+        "The way down is steep and slippery in places and hard on the knees; walking poles help.",
+        "The first-aid center is at the 8th Station (in 2026 it was open from July 17 to September 4)."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official Website for Mt. Fuji Climbing — About each trail",
+        "url": "https://www.fujisan-climb.jp/en/comparison-of-routes"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Shizuoka trail rules for 2026",
+        "url": "https://www.fujisan-climb.jp/en/info/1722/"
+      },
+      {
+        "label": "Shizuoka Prefecture — Climbing rules on the three Shizuoka trails (2026)",
+        "url": "https://www.pref.shizuoka.jp/kankosports/kanko/mtfuji/1002809/1072062.html"
+      },
+      {
+        "label": "Official Website for Mt. Fuji Climbing — Facility operating periods (2026)",
+        "url": "https://www.fujisan-climb.jp/en/season/"
+      },
+      {
+        "label": "OpenStreetMap — Fujinomiya Trail route relation",
+        "url": "https://www.openstreetmap.org/relation/1140546"
+      }
+    ],
+    "photo": {
+      "src": "/trails/mount-fuji--fujinomiya-trail.jpg",
+      "alt": "Mountain huts on the rocky upper slopes of the Fujinomiya Trail, with patches of late snow below the crater rim on a clear July morning.",
+      "author": "Alpsdake",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fujinomiya_Route_of_Mount_Fuji_in_2024.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  }
+]
