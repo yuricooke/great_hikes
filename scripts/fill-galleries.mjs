@@ -94,7 +94,12 @@ for (const hike of hikes) {
   if (!added.length) continue;
   const all = [...gallery, ...added];
   hike.gallery = [...all.filter(isUnsplash), ...all.filter((p) => !isUnsplash(p))];
-  await writeFile("content/hikes.json", `${JSON.stringify(hikes, null, 2)}\n`);
+  // Re-read before saving: the Unsplash wait can last an hour, and the file may have changed
+  // meanwhile (e.g. drafts published). Only this hike's gallery is written.
+  const fresh = JSON.parse(await readFile("content/hikes.json", "utf8"));
+  const target = fresh.find((h) => h.slug === hike.slug);
+  if (target) target.gallery = hike.gallery;
+  await writeFile("content/hikes.json", `${JSON.stringify(fresh, null, 2)}\n`);
   console.log(`${hike.slug}: +${added.length} ${SOURCE} → ${hike.gallery.length} photos${SOURCE === "unsplash" ? ` (Unsplash left: ${remaining})` : ""}`);
   await sleep(SOURCE === "unsplash" ? 500 : 300);
 }
