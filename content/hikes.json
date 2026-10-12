@@ -1600,6 +1600,30 @@
     "checkedAt": "2026-10-07",
     "gallery": [
       {
+        "src": "https://images.unsplash.com/photo-1631646109206-4b5616964f84?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8S2lsaW1hbmphcm98ZW58MXwwfHx8MTc5MTgyOTA1M3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Kilimanjaro National Park: a group of zebras grazing in a field with a mountain in the background",
+        "author": "Stephan Bechert",
+        "authorUrl": "https://unsplash.com/@steve4c?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-group-of-zebras-grazing-in-a-field-with-a-mountain-in-the-background-xQWelDCacZE?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1613061445510-e296bfedb73e?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8S2lsaW1hbmphcm98ZW58MXwwfHx8MTc5MTgyOTA1M3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Kilimanjaro National Park: green trees near snow covered mountain during daytime",
+        "author": "Sergey Pesterev",
+        "authorUrl": "https://unsplash.com/@sickle?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-trees-near-snow-covered-mountain-during-daytime-mfX814jtyro?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8S2lsaW1hbmphcm98ZW58MXwwfHx8MTc5MTgyOTA1M3ww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Kilimanjaro National Park: Mount Kilimanjaro with a snow-capped peak above clouds in Amboseli National Park",
+        "author": "Sergey Pesterev",
+        "authorUrl": "https://unsplash.com/@sickle?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/mount-kilimanjaro-in-amboseli-national-park-DWXR-nAbxCk?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kilimanjaro-national-park/File_Kilimanjaro_from_Amboseli.jpg.jpg",
         "alt": "Kilimanjaro National Park: View of Kilimanjaro from Amboseli National Park, Kenya.",
         "author": "Sergey Pesterev",
@@ -2681,6 +2705,30 @@
     "checkedAt": "2026-10-07",
     "gallery": [
       {
+        "src": "https://images.unsplash.com/photo-1538703012804-b74999aa11b9?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8SWd1YXp1JTIwZmFsbHN8ZW58MXwwfHx8MTc5MTgyOTA1Nnww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Iguaçú Falls: clear waterfalls",
+        "author": "Gábor Sz.",
+        "authorUrl": "https://unsplash.com/@szagabesz?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/clear-waterfalls-5rbQW61lOSU?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1648510399328-b8981e9fc1bb?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8SWd1YXp1JTIwZmFsbHN8ZW58MXwwfHx8MTc5MTgyOTA1Nnww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Iguaçú Falls: a view of a waterfall with a bridge in the foreground",
+        "author": "Jeffrey Eisen",
+        "authorUrl": "https://unsplash.com/@jeisen?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-a-waterfall-with-a-bridge-in-the-foreground-bBCyYxQ7EnE?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1598496437753-333a2880a98f?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8SWd1YXp1JTIwZmFsbHN8ZW58MXwwfHx8MTc5MTgyOTA1Nnww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Iguaçú Falls: green trees near water falls during daytime",
+        "author": "Nareeta Martin",
+        "authorUrl": "https://unsplash.com/@splashabout?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-trees-near-water-falls-during-daytime-esZgjkS2amQ?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/iguacu-falls/File_The_Igua_C3_A7u_Falls_with_a_rainbow_in_a_sunny_day.jpg.jpg",
         "alt": "Iguaçú Falls: Parque Nacional do Iguaçu de nível Federal, localizado (a) em Céu Azul (PR), Foz do Iguaçu (PR), Matelândia (PR), Medianeira (PR), São Miguel do Iguaçu (PR)",
         "author": "Fellipe Toffolo de Souza",
@@ -2877,6 +2925,30 @@
     ],
     "checkedAt": "2026-10-07",
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1591232635364-707e5827d09f?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8Q2hhcGFkYSUyMERpYW1hbnRpbmF8ZW58MXwwfHx8MTc5MTgyOTA1OXww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Chapada Diamantina National Park: green grass field on hill",
+        "author": "Matheus Seiji Goto",
+        "authorUrl": "https://unsplash.com/@seijigoto?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-grass-field-on-hill-djxeSyUR0j8?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1616379528184-8657a731f24f?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8Q2hhcGFkYSUyMERpYW1hbnRpbmF8ZW58MXwwfHx8MTc5MTgyOTA1OXww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Chapada Diamantina National Park: green and brown trees beside blue body of water during daytime",
+        "author": "Felipe Dias",
+        "authorUrl": "https://unsplash.com/@felipediascreator?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-and-brown-trees-beside-blue-body-of-water-during-daytime-YJmaVwc4-ig?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1723033481526-5050488585cb?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8Q2hhcGFkYSUyMERpYW1hbnRpbmF8ZW58MXwwfHx8MTc5MTgyOTA1OXww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Chapada Diamantina National Park: A person taking a picture of some mountains",
+        "author": "Otacilio Maia",
+        "authorUrl": "https://unsplash.com/@otaciliomaia?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-person-taking-a-picture-of-some-mountains-SdM64cc3bNg?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/chapada-diamantina-national-park/File_Morr_C3_A3o__no_Parque_Nacional_da_Chapada_Diamantina_-_Bahia_crop_2.jpg.jpg",
         "alt": "Chapada Diamantina National Park: Morrão, no Parque Nacional da Chapada Diamantina - Bahia (Palmeiras-BA)",
@@ -3280,6 +3352,30 @@
     ],
     "checkedAt": "2026-10-07",
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1535961652354-923cb08225a7?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8S3VhbmclMjBTaSUyMHdhdGVyZmFsbHxlbnwxfDB8fHwxNzkxODI5MDYyfDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Kuang Si Falls: waterfalls and trees",
+        "author": "simon",
+        "authorUrl": "https://unsplash.com/@simon_berger?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/waterfalls-and-trees-9Ct73yKbpEo?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1578069243572-555899ce17d9?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8S3VhbmclMjBTaSUyMHdhdGVyZmFsbHxlbnwxfDB8fHwxNzkxODI5MDYyfDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Kuang Si Falls: river in forest",
+        "author": "Simone Fischer",
+        "authorUrl": "https://unsplash.com/@simone_denise_fischer?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/river-in-forest-Q6W9PV17ZLg?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1623098473916-e8d4860d36bd?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8S3VhbmclMjBTaSUyMHdhdGVyZmFsbHxlbnwxfDB8fHwxNzkxODI5MDYyfDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Kuang Si Falls: a river filled with green water surrounded by trees",
+        "author": "Peter Fraser",
+        "authorUrl": "https://unsplash.com/@pjf_888?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-river-filled-with-green-water-surrounded-by-trees-az3usA4eIMA?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/kuang-si-falls/File_Kuang_Si_Falls_and_a_turquoise_water_pool_in_Luang_Prabang_province_Laos.jp.jpg",
         "alt": "Kuang Si Falls: Kuang Si Falls and a turquoise water pool, in Luang Prabang province, Laos.",
@@ -3798,32 +3894,28 @@
     ],
     "gallery": [
       {
-        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jumbo-pass/File_Hello_Jumbo-Groningen.jpg.jpg",
-        "alt": "Jumbo Pass: Cyclist passes the Korenbeurs in Groningen with a Jumbo bag",
-        "author": "Matthijs van den Berg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hello_Jumbo-Groningen.jpg",
-        "license": "CC BY-SA 4.0"
+        "src": "https://images.unsplash.com/photo-1637254019271-1efb74a1009a?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8UHVyY2VsbCUyMG1vdW50YWlucyUyMEJyaXRpc2glMjBDb2x1bWJpYXxlbnwxfDB8fHwxNzkxODI5MDY0fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Purcell Mountains, British Columbia: a view of a mountain range from a high point of view",
+        "author": "Lukas Mann",
+        "authorUrl": "https://unsplash.com/@exploromann?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-a-mountain-range-from-a-high-point-of-view-Ixqn51tPfSM?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
       },
       {
-        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jumbo-pass/File_9-4-33__Longchamp__Prix_Juign_C3_A9__Jumbo__cheval_de_course__mont_C3_A9_pa.jpg",
-        "alt": "Jumbo Pass: Sujet : Johnstone, William (1905-1964) Chevaux de course Jockeys Paris (France) -- Hippodrome de Longchamp Référence bibliographique : Rol, 171529 Appartient à l’ensemble documentaire : Ph",
-        "author": "Agence Rol. Agence photographique (commanditaire)",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:9-4-33,_Longchamp,_Prix_Juign%C3%A9,_Jumbo_(cheval_de_course)_mont%C3%A9_par_W._Johnstone_-_btv1b53269534n.jpg",
-        "license": "Public domain"
+        "src": "https://images.unsplash.com/photo-1615700920267-ab9642ba7114?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8UHVyY2VsbCUyMG1vdW50YWlucyUyMEJyaXRpc2glMjBDb2x1bWJpYXxlbnwxfDB8fHwxNzkxODI5MDY0fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Purcell Mountains, British Columbia: snow covered mountain near green trees during daytime",
+        "author": "morbital",
+        "authorUrl": "https://unsplash.com/@morbital?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/snow-covered-mountain-near-green-trees-during-daytime-p1vzh5Ab6jo?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
       },
       {
-        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jumbo-pass/File_9-4-33__Longchamp__Prix_Juign_C3_A9__Jumbo__cheval_de_course__mont_C3_A9_pa.jpg",
-        "alt": "Jumbo Pass: Sujet : Johnstone, William (1905-1964) Jockeys Chevaux de course Paris (France) -- Hippodrome de Longchamp Référence bibliographique : Rol, 171530 Appartient à l’ensemble documentaire : Ph",
-        "author": "Agence Rol. Agence photographique (commanditaire)",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:9-4-33,_Longchamp,_Prix_Juign%C3%A9,_Jumbo_(cheval_de_course)_mont%C3%A9_par_W._Johnstone_-_btv1b532695336.jpg",
-        "license": "Public domain"
-      },
-      {
-        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/jumbo-pass/File_11e__C3_A9tape_Tour_de_France_2022_-__C3_89chapp_C3_A9e_au_pied_du_T_C3_A9l.jpg",
-        "alt": "Jumbo Pass: Sight of the first riders of the break crossing Arc river in Saint-Michel-de-Maurienne (Savoie, France) and starting the climb of Col du Télégraphe and next Col du Galibier passes, during ",
-        "author": "Florian Pépellin",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:11e_%C3%A9tape_Tour_de_France_2022_-_%C3%89chapp%C3%A9e_au_pied_du_T%C3%A9l%C3%A9graphe_(1).JPG",
-        "license": "CC BY-SA 4.0"
+        "src": "https://images.unsplash.com/photo-1568880004336-73fb7648b48a?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8UHVyY2VsbCUyMG1vdW50YWlucyUyMEJyaXRpc2glMjBDb2x1bWJpYXxlbnwxfDB8fHwxNzkxODI5MDY0fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Purcell Mountains, British Columbia: green mountains",
+        "author": "Jonathan Woods",
+        "authorUrl": "https://unsplash.com/@jonwoods?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-mountains-NTR-0vAlAVM?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
       }
     ]
   },
@@ -3921,6 +4013,30 @@
     "checkedAt": "2026-10-08",
     "instagram": [],
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1697746149225-63a33bcb2ea4?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8RXZlcmVzdCUyMEJhc2UlMjBDYW1wJTIwTmVwYWx8ZW58MXwwfHx8MTc5MTgyOTAyMHww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Everest Base Camp: a group of tents set up in the mountains",
+        "author": "Dylan Shaw",
+        "authorUrl": "https://unsplash.com/@dylanshaw?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-group-of-tents-set-up-in-the-mountains-vyUb6VxcH0c?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1678086030304-d358091ee02d?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8RXZlcmVzdCUyMEJhc2UlMjBDYW1wJTIwTmVwYWx8ZW58MXwwfHx8MTc5MTgyOTAyMHww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Everest Base Camp: a group of people sitting outside of a building",
+        "author": "Redmaz Pham",
+        "authorUrl": "https://unsplash.com/@redmaz?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-group-of-people-sitting-outside-of-a-building-CM0pXs5Wyxc?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1642140195053-4b9e26572132?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8RXZlcmVzdCUyMEJhc2UlMjBDYW1wJTIwTmVwYWx8ZW58MXwwfHx8MTc5MTgyOTAyMHww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Everest Base Camp: a man standing in front of a group of tents",
+        "author": "Nabin Poudel",
+        "authorUrl": "https://unsplash.com/@ktmguide?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-man-standing-in-front-of-a-group-of-tents-95XK2gCvyD0?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/everest-base-camp/File_Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg.jpg",
         "alt": "Everest Base Camp: Mount Everest North Face as seen from the path to the base camp, Rongbuk Valley, Tibet (5,160 m).",
@@ -4036,6 +4152,30 @@
     "checkedAt": "2026-10-08",
     "instagram": [],
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1659643027413-187f5603d31a?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8R2xhY2llciUyME5hdGlvbmFsJTIwUGFyayUyMFVuaXRlZCUyMFN0YXRlc3xlbnwxfDB8fHwxNzkxODI5MDIyfDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Glacier National Park: a mountain with snow",
+        "author": "Alek Newton",
+        "authorUrl": "https://unsplash.com/@aleknewton?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-mountain-with-snow-PdKXN_mW_dI?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1617155345628-ef1e65d20c5a?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8R2xhY2llciUyME5hdGlvbmFsJTIwUGFyayUyMFVuaXRlZCUyMFN0YXRlc3xlbnwxfDB8fHwxNzkxODI5MDIyfDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Glacier National Park: green trees on mountain under white clouds and blue sky during daytime",
+        "author": "Nikolay Maslov",
+        "authorUrl": "https://unsplash.com/@ndmaslov?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-trees-on-mountain-under-white-clouds-and-blue-sky-during-daytime-bH1_7RaqxCw?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1617155345508-2ed19a7a87d7?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8R2xhY2llciUyME5hdGlvbmFsJTIwUGFyayUyMFVuaXRlZCUyMFN0YXRlc3xlbnwxfDB8fHwxNzkxODI5MDIyfDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Glacier National Park: green grass field near snow covered mountain during daytime",
+        "author": "Nikolay Maslov",
+        "authorUrl": "https://unsplash.com/@ndmaslov?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/green-grass-field-near-snow-covered-mountain-during-daytime-428BpC2YNzE?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/glacier-national-park/File_Hoary_Marmot_in_Glacier_National_Park.jpg.jpg",
         "alt": "Glacier National Park: Hoary Marmot (Marmota caligata) in Glacier National Park, seen on the Logan Pass hike.",
@@ -4159,6 +4299,30 @@
     "instagram": [],
     "gallery": [
       {
+        "src": "https://images.unsplash.com/photo-1575527048208-6475b441e0a0?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8R3JhbmQlMjBDYW55b24lMjBOYXRpb25hbCUyMFBhcmslMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc5MTgyOTAyNHww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Grand Canyon National Park: Grand Canyon during daytime",
+        "author": "Tim Hart",
+        "authorUrl": "https://unsplash.com/@timhart0421?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/grand-canyon-during-daytime-MMEryLDqkXY?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1646763262723-066a5f6a62a7?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8R3JhbmQlMjBDYW55b24lMjBOYXRpb25hbCUyMFBhcmslMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc5MTgyOTAyNHww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Grand Canyon National Park: a view of the grand canyon of the grand canyon",
+        "author": "Susanne Martinus",
+        "authorUrl": "https://unsplash.com/@susannemartinus?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-the-grand-canyon-of-the-grand-canyon-y0z73VaapxQ?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1646762983229-73f871114406?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8R3JhbmQlMjBDYW55b24lMjBOYXRpb25hbCUyMFBhcmslMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc5MTgyOTAyNHww&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Grand Canyon National Park: a view of the grand canyon from the edge of a cliff",
+        "author": "Susanne Martinus",
+        "authorUrl": "https://unsplash.com/@susannemartinus?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-the-grand-canyon-from-the-edge-of-a-cliff-RDTWCIaRjKg?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/grand-canyon-national-park/File_Grand_canyon_march_2013.jpg.jpg",
         "alt": "Grand Canyon National Park: The Grand Canyon, Arizona, US.",
         "author": "Tomascastelazo",
@@ -4267,6 +4431,30 @@
     "checkedAt": "2026-10-08",
     "instagram": [],
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1599661520791-8aabee470d55?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8VG91ciUyMGR1JTIwTW9udCUyMEJsYW5jJTIwRnJhbmNlfGVufDF8MHx8fDE3OTE4MjkwMjZ8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Tour du Mont Blanc: snow covered mountain under blue sky during daytime",
+        "author": "Randy Yip",
+        "authorUrl": "https://unsplash.com/@randymandyyyyy?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/snow-covered-mountain-under-blue-sky-during-daytime-xgFE3m3kayg?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1572491671313-e2bb1bf15e76?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8VG91ciUyMGR1JTIwTW9udCUyMEJsYW5jJTIwRnJhbmNlfGVufDF8MHx8fDE3OTE4MjkwMjZ8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Tour du Mont Blanc: snow-capped mountain during daytime",
+        "author": "Francois  Hoang",
+        "authorUrl": "https://unsplash.com/@aoirostudio?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/snow-capped-mountain-during-daytime-IcDKs-RI68Y?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1537211568975-f95f2101c8f5?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8VG91ciUyMGR1JTIwTW9udCUyMEJsYW5jJTIwRnJhbmNlfGVufDF8MHx8fDE3OTE4MjkwMjZ8MA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Tour du Mont Blanc: people hiking on snow mountain",
+        "author": "Baptiste Azais",
+        "authorUrl": "https://unsplash.com/@bazais?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/people-hiking-on-snow-mountain-wY2UoTLJiTg?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/tour-du-mont-blanc/File_Glacier_du_Mont_Mallet__Glacier_du_G_C3_A9ant___26_Mont_Blanc__2010_July.jp.jpg",
         "alt": "Tour du Mont Blanc: Glacier du Géant and Mont Blanc in the background in the end of 2010 July.",
@@ -4382,6 +4570,30 @@
     "checkedAt": "2026-10-08",
     "instagram": [],
     "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8MXx8VHJlJTIwQ2ltZSUyMGRpJTIwTGF2YXJlZG8lMjBJdGFseXxlbnwxfDB8fHwxNzkxODI5MDI4fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Tre Cime di Lavaredo: brown rock formation under blue sky",
+        "author": "Cristina Gottardi",
+        "authorUrl": "https://unsplash.com/@cristina_gottardi?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/brown-rock-formation-under-blue-sky-CSpjU6hYo_0?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1609908119408-c5f407e10d06?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8Mnx8VHJlJTIwQ2ltZSUyMGRpJTIwTGF2YXJlZG8lMjBJdGFseXxlbnwxfDB8fHwxNzkxODI5MDI4fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Tre Cime di Lavaredo: person in black jacket and black pants standing on snow covered ground during daytime",
+        "author": "Secret Travel Guide secret-travel.guide",
+        "authorUrl": "https://unsplash.com/@secrettravelguide?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/person-in-black-jacket-and-black-pants-standing-on-snow-covered-ground-during-daytime-qvUR0Ns7uu8?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1582155966507-5ed6351a7bce?ixid=M3wxMDk2NDU0fDB8MXxzZWFyY2h8M3x8VHJlJTIwQ2ltZSUyMGRpJTIwTGF2YXJlZG8lMjBJdGFseXxlbnwxfDB8fHwxNzkxODI5MDI4fDA&ixlib=rb-4.1.0&w=2400&q=80&fm=jpg&fit=max",
+        "alt": "Tre Cime di Lavaredo: brown rock formation on snow covered ground under blue sky during daytime",
+        "author": "Dario Morandotti",
+        "authorUrl": "https://unsplash.com/@madmartigand?utm_source=great_hikes&utm_medium=referral",
+        "sourceUrl": "https://unsplash.com/photos/brown-rock-formation-on-snow-covered-ground-under-blue-sky-during-daytime-VFmyG-1tqQ8?utm_source=great_hikes&utm_medium=referral",
+        "license": "Unsplash License"
+      },
       {
         "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/tre-cime-di-lavaredo/File_Drei_Zinnen_Tre_Cime_di_Lavaredo_Dolomites.jpg.jpg",
         "alt": "Tre Cime di Lavaredo: The Tre Cime di Lavaredo in the Dolomites - Aerial view from a helicopter of the Northern face - Dolomites UNESCO World Heritage Site.",
@@ -5873,6 +6085,612 @@
         "author": "Avelludo",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedra_da_G%C3%A1vea_(2022-12-11)_03.jpg",
         "license": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "slug": "shenandoah-national-park",
+    "title": "Shenandoah National Park",
+    "continent": "North America",
+    "country": "United States",
+    "biome": "Temperate deciduous forest",
+    "landscapes": [
+      "mountains",
+      "forests"
+    ],
+    "description": "A long, narrow national park on the Blue Ridge in Virginia, with more than 500 miles of trails. Its best-known hike is the Old Rag circuit, a 9.4-mile loop with a rock scramble on the way to a 3,291 ft summit.",
+    "hikingExplained": "Old Rag is the most popular destination in Shenandoah National Park, and the park rates its circuit hike as very strenuous. The loop is 9.4 miles (15.1 km) with 2,348 feet (716 m) of elevation gain, and the park suggests planning 6 to 10 hours. From the Old Rag parking area you follow the blue-blazed Ridge Trail up to the rock scramble, where you scramble over large boulders on the way to the 3,291 ft (1,003 m) summit. You come down on the Saddle Trail past Byrds Nest 1 and Old Rag shelters, then turn right onto the yellow-blazed Weakley Hollow Fire Road, and finish on the Ridge Access Trail and the Ridge Trail back to the start. There is no water on the mountain, cell and GPS service are unreliable, and there can be long waits at narrow parts of the scramble, so start early and carry a headlamp. If you want the summit without the scramble, the park also describes a 5.4-mile out-and-back from Berry Hollow on the Saddle Trail, though parking there is very limited.\n\nFrom March 1 to November 30 you need an Old Rag day-use ticket, bought in advance, on top of the park entrance pass. Pets are not allowed on the Ridge, Saddle and Ridge Access trails.\n\nShenandoah has many shorter classics along Skyline Drive. Upper Hawksbill climbs to the park's highest peak in 2.1 miles round trip. Stony Man is a 1.6-mile round trip to a viewpoint, starting from Skyline Drive at mile 41.7. Dark Hollow Falls is a steep 1.4-mile walk down to a waterfall and back up again. Whiteoak Canyon's upper falls are a 4.6-mile round trip with about 1,040 feet of climbing on the way back.",
+    "officialUrl": "https://www.nps.gov/shen/index.htm",
+    "map": "/maps/NorthAmerica.svg",
+    "photo": {
+      "src": "/hikes/shenandoah-national-park.jpg",
+      "alt": "View from the granite boulders on top of Old Rag Mountain over forested Blue Ridge hills in autumn colors, with a gnarled pine in the foreground and a partly cloudy sky.",
+      "author": "Katy Cain / National Park Service (Shenandoah National Park)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atop_Old_Rag_Mountain_(28219264562).jpg",
+      "license": "Public domain (work of a U.S. National Park Service employee)"
+    },
+    "photoDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Atop_Old_Rag_Mountain_%2828219264562%29.jpg",
+    "status": "draft",
+    "location": {
+      "lat": 38.5518,
+      "lng": -78.3142
+    },
+    "details": {
+      "route": "Old Rag circuit: Ridge Trail and rock scramble to the summit, down the Saddle Trail, back on Weakley Hollow Fire Road, the Ridge Access Trail and the Ridge Trail",
+      "distanceKm": 15.1,
+      "elevationGainM": 716,
+      "maxAltitudeM": 1003,
+      "duration": "7–8 h",
+      "difficulty": "strenuous",
+      "routeType": "loop",
+      "bestMonths": [
+        9,
+        10,
+        11
+      ],
+      "permit": "From March 1 to November 30, every hiker of any age needs an Old Rag day-use ticket ($2 per person in 2026), booked in advance on Recreation.gov; tickets are not sold at the trailhead. You also need a park entrance pass ($30 per vehicle for 7 days in 2026). Checked October 2026.",
+      "gettingThere": "The Old Rag parking area is on the park's east boundary, outside Skyline Drive. From Sperryville, take Route 522 south for 0.8 mile, turn right on Route 231 for 8 miles, then right on Route 601 and follow the signs for about 3 miles. From Madison, take Route 231 for 12.8 miles, turn left on Route 602 and follow the signs for about 3 miles. In 2026 the main lot was closed for construction expected to finish by November 2026, with Lot 2 and the overflow lot on Nethers Road open, so check current parking before you go.",
+      "tips": [
+        "Day-use tickets are released on Recreation.gov at 10 a.m. Eastern: 400 tickets 30 days ahead and 400 more 5 days ahead. A ticket does not guarantee a parking space, so arrive early and carpool if you can.",
+        "Do not climb Old Rag when the rocks are wet or icy. Bring sturdy shoes, extra layers, food, a flashlight and plenty of water, because there is no water on the mountain.",
+        "Note the blue numbers painted on the rocks as you hike. In an emergency, tell responders the nearest number. The park emergency line is 1-800-732-0911.",
+        "Fall is the park's busiest season, and fall weekends bring large crowds. Go on a weekday if you can."
+      ]
+    },
+    "sources": [
+      {
+        "label": "NPS — Old Rag Circuit (9.4 miles, 2,348 ft gain, very strenuous, route)",
+        "url": "https://www.nps.gov/places/000/old-rag-circuit.htm"
+      },
+      {
+        "label": "NPS — Old Rag Area map and trail sheet, 06/2024 (6–10 hours, summit 3,291 ft, Berry Hollow route, safety, directions, pets)",
+        "url": "https://www.nps.gov/shen/planyourvisit/upload/OldRag_RoadTrail.pdf"
+      },
+      {
+        "label": "NPS — Old Rag Day-use Ticket FAQ (March 1–November 30, $2, every person needs a ticket)",
+        "url": "https://www.nps.gov/shen/planyourvisit/faqs-oldrag.htm"
+      },
+      {
+        "label": "NPS — Hikes to Old Rag (most popular destination, 2026 parking construction)",
+        "url": "https://www.nps.gov/shen/planyourvisit/hikes-oldrag.htm"
+      },
+      {
+        "label": "Recreation.gov — Old Rag Mountain Hike Day-use Ticket (release schedule, 2026 parking lot project)",
+        "url": "https://www.recreation.gov/ticket/facility/10088450"
+      },
+      {
+        "label": "NPS — Fees & Passes ($30 private vehicle, 7 days)",
+        "url": "https://www.nps.gov/shen/planyourvisit/fees.htm"
+      },
+      {
+        "label": "NPS — Old Rag View Overlook (summit 3,291 ft / 1,003 m)",
+        "url": "https://www.nps.gov/places/000/old-rag-view-overlook.htm"
+      },
+      {
+        "label": "NPS — Hiking (over 500 miles of trails, emergency number)",
+        "url": "https://www.nps.gov/shen/planyourvisit/hiking.htm"
+      },
+      {
+        "label": "NPS — Fall in Shenandoah (late September–November, busiest season, crowds)",
+        "url": "https://www.nps.gov/shen/planyourvisit/fall.htm"
+      },
+      {
+        "label": "NPS — Upper Hawksbill Summit (2.1 miles, highest peak in the park)",
+        "url": "https://www.nps.gov/places/000/upper-hawksbill-summit.htm"
+      },
+      {
+        "label": "NPS — Stony Man (1.6 miles round trip)",
+        "url": "https://www.nps.gov/places/000/stony-man.htm"
+      },
+      {
+        "label": "NPS — Dark Hollow Falls (1.4 miles, steep and rocky)",
+        "url": "https://www.nps.gov/places/000/dark-hollow-falls.htm"
+      },
+      {
+        "label": "NPS — Upper Whiteoak Falls (4.6 miles round trip, 1,040 ft gain)",
+        "url": "https://www.nps.gov/places/upper-whiteoak-falls.htm"
+      },
+      {
+        "label": "OpenStreetMap — Old Rag Mountain summit",
+        "url": "https://www.openstreetmap.org/node/356564264"
+      }
+    ],
+    "checkedAt": "2026-10-12",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/shenandoah-national-park/File_2005-05-21_13-40-05_Riprap_Overlook_looking_west_Shenandoah_National_Park_V.jpg",
+        "alt": "Shenandoah National Park: The view from Riprap Overlook looking west. Riprap Overlook is on the west side of Skyline drive at mile 91.4. Shenandoah National Park, Virginia.",
+        "author": "G. Edward Johnson",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2005-05-21_13-40-05_Riprap_Overlook_looking_west_Shenandoah_National_Park_VA.jpg",
+        "license": "CC BY 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/shenandoah-national-park/File_2005-05-21_14-30-58_Eaton_Hollow_Overlook_from_Skyline_Dr_Shenandoah_Nation.jpg",
+        "alt": "Shenandoah National Park: The view from Eaton Hollow Overlook looking west. Eaton Hollow Overlook is on the west side of Skyline drive at mile 70.3. Shenandoah National Park, Virginia.",
+        "author": "G. Edward Johnson",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2005-05-21_14-30-58_Eaton_Hollow_Overlook_from_Skyline_Dr_Shenandoah_National_Park_VA.jpg",
+        "license": "CC BY 4.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/shenandoah-national-park/File_Old_Rag_Mountain__Shenandoah_National_Park_.jpg.jpg",
+        "alt": "Shenandoah National Park: View from Big Meadows NPS | Luca Pfeiffer",
+        "author": "ShenandoahNPS",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Rag_Mountain_(Shenandoah_National_Park).jpg",
+        "license": "Public domain"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/shenandoah-national-park/File_October_9__2024__Shenandoah_National_Park_.jpg.jpg",
+        "alt": "Shenandoah National Park: Fall color between Skyland and Big Meadows",
+        "author": "ShenandoahNPS",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:October_9,_2024_(Shenandoah_National_Park).jpg",
+        "license": "Public domain"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "slug": "rocky-mountain-national-park",
+    "title": "Rocky Mountain National Park",
+    "continent": "North America",
+    "country": "United States",
+    "biome": "Subalpine forest and alpine tundra",
+    "landscapes": [
+      "mountains",
+      "waterfalls",
+      "forests"
+    ],
+    "description": "High lakes and granite peaks in Colorado's Front Range, reached from the Bear Lake Road corridor. The classic walk climbs from Bear Lake past Nymph and Dream lakes to Emerald Lake.",
+    "hikingExplained": "Most day hikes in Rocky Mountain National Park start along Bear Lake Road, which ends 9.2 miles (about 15 km) from its junction with Trail Ridge Road. The Bear Lake Trailhead sits at 2,888 m (9,475 ft). From there, the trail to Emerald Lake passes Nymph Lake at 0.8 km and Dream Lake further on, then reaches Emerald Lake after 2.9 km (1.8 miles) and 184 m (605 ft) of climbing. Walk back the same way for a round trip of about 5.8 km.\n\nFor a longer day, start at the Glacier Gorge Trailhead (2,816 m / 9,240 ft), the shuttle stop just before Bear Lake. Trails from here lead to Alberta Falls (1.3 km), The Loch (4.8 km) and, furthest, Sky Pond: 7.8 km (4.9 miles) one way with 521 m (1,710 ft) of gain, so about 15.6 km there and back.\n\nThe park's big objective is Longs Peak, 4,345 m (14,259 ft), the highest summit in the park. Its Keyhole Route starts at the Longs Peak Trailhead, not on Bear Lake Road. It is a 15-mile (about 24 km) round trip that averages 10 to 15 hours. The park service says plainly that this is not a hike but a climb, a classic mountaineering route, with narrow ledges, loose rock and steep cliffs. The usual snow- and ice-free window is mid-July to mid-September.",
+    "officialUrl": "https://www.nps.gov/romo/index.htm",
+    "map": "/maps/NorthAmerica.svg",
+    "photo": {
+      "src": "/hikes/rocky-mountain-national-park.jpg",
+      "alt": "Hallett Peak, streaked with spring snow, reflected in the still blue water of Dream Lake, with evergreen forest on both shores.",
+      "author": "National Park Service (NPS Photo)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hallett_Peak_reflected_in_Dream_Lake_(035b3918-1dd8-b71b-0b25-1c76a4dc59e2).jpg",
+      "license": "Public domain"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 40.312,
+      "lng": -105.6459
+    },
+    "details": {
+      "route": "Bear Lake Trailhead to Emerald Lake, past Nymph Lake and Dream Lake, and back the same way",
+      "distanceKm": 5.8,
+      "elevationGainM": 184,
+      "maxAltitudeM": null,
+      "duration": "About 2–3 h (Emerald Lake)",
+      "difficulty": "moderate",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "Checked October 2026: in 2026, driving into the Bear Lake Road corridor between 5 a.m. and 6 p.m. (May 22 to October 18) required a Timed Entry+ Bear Lake Road reservation from Recreation.gov ($2 processing fee), on top of a park entrance pass. The rest of the park, including the Longs Peak Trailhead, required a Timed Entry reservation from 9 a.m. to 2 p.m. (May 22 to October 12). Check the NPS website for next year's rules before you go.",
+      "gettingThere": "Drive Bear Lake Road to the Bear Lake Trailhead at its end, 9.2 miles from Trail Ridge Road. The parking lot fills early, so in season most hikers use the free Bear Lake Shuttle from the Park & Ride on Bear Lake Road (2026 season May 22 to October 18, every 10 to 15 minutes from 6:30 a.m.), which also stops at Glacier Gorge Trailhead. A Hiker Shuttle from the Estes Park Visitor Center needs its own $2 ticket from Recreation.gov.",
+      "tips": [
+        "Lightning is common from June through September. Plan your hike for the morning and get below tree line if a storm builds.",
+        "Outside summer, the trails above Bear Lake are covered in snow and ice. The park recommends traction devices, snowshoes and hiking poles, and the shuttles do not run in winter.",
+        "Longs Peak is a serious climb: start before sunrise, carry at least 3 to 4 quarts of water (there is none on the route), and turn back if you feel unwell or conditions get worse."
+      ]
+    },
+    "sources": [
+      {
+        "label": "NPS Rocky Mountain National Park — List of hiking trails (Bear Lake and Glacier Gorge trailheads, one-way distances and elevation gain for Nymph Lake, Emerald Lake, The Loch, Sky Pond, Longs Peak)",
+        "url": "https://www.nps.gov/romo/planyourvisit/list_hiking_trails.htm"
+      },
+      {
+        "label": "NPS — Bear Lake (end of Bear Lake Road, parking, winter conditions, trails from the trailhead)",
+        "url": "https://www.nps.gov/places/bear-lake.htm"
+      },
+      {
+        "label": "NPS — Timed entry permit system 2026 (dates, hours, Bear Lake Road corridor, Recreation.gov, $2 fee, Longs Peak)",
+        "url": "https://www.nps.gov/romo/planyourvisit/timed-entry-permit-system.htm"
+      },
+      {
+        "label": "NPS — Shuttle buses and public transit (2026 Bear Lake Shuttle and Hiker Shuttle)",
+        "url": "https://www.nps.gov/romo/planyourvisit/shuttle-buses-and-public-transit.htm"
+      },
+      {
+        "label": "NPS — Longs Peak Keyhole Route FAQ (14,259 ft, 15-mile round trip, 10–15 hours, a climb not a hike, mid-July to mid-September, start before sunrise, water, turning back)",
+        "url": "https://www.nps.gov/romo/planyourvisit/longs_peak_faq.htm"
+      },
+      {
+        "label": "NPS — What everyone should know before attempting the Keyhole Route (narrow ledges, loose rock, steep cliffs)",
+        "url": "https://www.nps.gov/romo/learn/news/pr_everyone_should_know_before_attempting_keyhole_route.htm"
+      },
+      {
+        "label": "NPS — Lightning safety (June–September, get below tree line)",
+        "url": "https://www.nps.gov/romo/planyourvisit/lightning-safety.htm"
+      },
+      {
+        "label": "NPS — Weather-ready explorer (plan hikes for the morning when afternoon storms are forecast)",
+        "url": "https://home.nps.gov/subjects/healthandsafety/severe-weather-safety.htm"
+      },
+      {
+        "label": "NPS — Natural features and ecosystems (montane, subalpine, alpine tundra)",
+        "url": "https://www.nps.gov/romo/learn/nature/naturalfeaturesandecosystems.htm"
+      },
+      {
+        "label": "Colorado Trail Explorer (State of Colorado) — Emerald Lake from Bear Lake Trailhead (rated moderate)",
+        "url": "https://trails.colorado.gov/routes/18275"
+      },
+      {
+        "label": "OpenStreetMap — Bear Lake Trailhead",
+        "url": "https://www.openstreetmap.org/node/50823841"
+      }
+    ],
+    "checkedAt": "2026-10-12",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/rocky-mountain-national-park/File_RockyMountainsNationalParkColorado.jpg.jpg",
+        "alt": "Rocky Mountain National Park: A photograph taken of a tundra landscape high in the Rocky Mountains National Park.",
+        "author": "Massimo Catarinella",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:RockyMountainsNationalParkColorado.jpg",
+        "license": "CC BY 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/rocky-mountain-national-park/File_Moraine_Park_Valley__Rocky_Mountain_National_Park.jpg.jpg",
+        "alt": "Rocky Mountain National Park: Moraine Park Valley in Rocky Mountain National Park, Colorado.",
+        "author": "Frank Schulenburg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moraine_Park_Valley,_Rocky_Mountain_National_Park.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "slug": "grand-teton-national-park",
+    "title": "Grand Teton National Park",
+    "continent": "North America",
+    "country": "United States",
+    "biome": "Temperate coniferous forest",
+    "landscapes": [
+      "mountains",
+      "forests",
+      "waterfalls"
+    ],
+    "description": "From Jenny Lake, a trail climbs past Hidden Falls to Inspiration Point, about 420 ft (128 m) above the lake, then follows Cascade Canyon into the Teton Range. In summer a shuttle boat across the lake cuts about 2 miles off each way.",
+    "hikingExplained": "Jenny Lake sits at the foot of the Teton Range in Wyoming, and the trails on its west shore are some of the most popular in Grand Teton National Park. The Jenny Lake Trailhead is next to the east shore boat dock, about 8 miles (13 km) north of Moose Junction on the Teton Park Road. From there you can walk around the south end of the lake, or take the Jenny Lake shuttle boat across to the west shore boat dock. The boat runs only in summer, there is a fee, and it shortens any hike here by about 2 miles each way.\n\nFrom the west shore dock, the first half mile leads to Hidden Falls, a 230 ft (70 m) cascade that you only see when you are less than 100 yards from the viewpoint. The next half mile climbs more steeply to Inspiration Point, at the mouth of Cascade Canyon, with Jenny Lake below you to the east. On foot from the trailhead, Inspiration Point is 5.7 miles (9.2 km) round trip with 870 ft (265 m) of climbing, about 3 hours, rated moderate. With the boat it is 1.8 miles (2.9 km) round trip with 550 ft (168 m) of climbing, about 2.5 hours, rated easy.\n\nPast Inspiration Point, the trail continues up Cascade Canyon to the Forks of Cascade Canyon, where the trail splits toward Lake Solitude (north fork) and Hurricane Pass (south fork). The Forks are 13.3 miles (21.4 km) round trip from the trailhead, with 1,720 ft (524 m) of climbing, about 8 hours, rated strenuous. With the boat both ways it is 9.2 miles (14.8 km) round trip, 1,480 ft (451 m) of climbing and about 6 hours. You can also use the boat one way only.",
+    "officialUrl": "https://www.nps.gov/places/000/jenny-lake-trailhead.htm",
+    "map": "/maps/NorthAmerica.svg",
+    "photo": {
+      "src": "/hikes/grand-teton-national-park.jpg",
+      "alt": "Jenny Lake seen from Inspiration Point on a hazy summer day: pale granite rocks and a lone conifer in front, forest around the blue lake, and flat valley beyond.",
+      "author": "Andrew and Jennifer Parlette (aparlette on Flickr)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jenny_Lake_from_Inspiration_Point_-_Grand_Teton_National_Park.jpg",
+      "license": "CC BY 2.0"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 43.7515,
+      "lng": -110.7223
+    },
+    "details": {
+      "route": "Jenny Lake Trailhead to Hidden Falls, Inspiration Point and the Forks of Cascade Canyon and back, with the option of the Jenny Lake shuttle boat one way or both ways",
+      "distanceKm": 21.4,
+      "elevationGainM": 524,
+      "maxAltitudeM": null,
+      "duration": "About 8 h (6 h by boat)",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "No permit for a day hike (permits are only required for overnight backcountry stays). You need a park entrance pass: $35 for a private vehicle for 7 days (checked October 2026). The shuttle boat has its own fee.",
+      "gettingThere": "Drive the Teton Park Road about 8 miles (13 km) north from Moose Junction to the South Jenny Lake area. The Jenny Lake Trailhead and the east shore boat dock are next to the Jenny Lake Visitor Center. The parking lot is often full from 9 am to 4 pm, so arrive early.",
+      "tips": [
+        "The Jenny Lake shuttle boat runs only in summer and needs no reservation. In 2026 the operator, Jenny Lake Boating, ran from May 15 to September 30 (checked October 2026). Check their website for this year's dates, hours and fares.",
+        "Valley trails are usually snow-free by mid-June, but mountain trails may not be snow-free until late July. Ask at a visitor center about trail conditions and closures before you go.",
+        "This is bear country. Carry bear spray and know how to use it, make noise on the trail, hike in a group of three or more if you can, and stay at least 100 yards from bears.",
+        "Pets are not allowed on any park trails.",
+        "Parts of the Teton Park Road close to vehicles from November 1 to April 30, or longer if there is snow, and many facilities close for the winter."
+      ]
+    },
+    "sources": [
+      {
+        "label": "NPS — Jenny Lake Trailhead (distances, times, climbing and difficulty with and without the boat; location; parking)",
+        "url": "https://www.nps.gov/places/000/jenny-lake-trailhead.htm"
+      },
+      {
+        "label": "NPS — Inspiration Point (420 ft above the lake, mouth of Cascade Canyon, boat saves about 2 miles each way)",
+        "url": "https://www.nps.gov/places/000/inspiration-point.htm"
+      },
+      {
+        "label": "NPS — Hidden Falls (230 ft cascade, route from the west shore boat dock)",
+        "url": "https://www.nps.gov/places/000/hidden-falls.htm"
+      },
+      {
+        "label": "NPS — Jenny Lake Boat Dock (shuttle boat summer only, operated by Jenny Lake Boating)",
+        "url": "https://www.nps.gov/places/000/jenny-lake-boat-dock.htm"
+      },
+      {
+        "label": "Jenny Lake Boating — 2026 season dates, no reservations required",
+        "url": "https://jennylakeboating.com/"
+      },
+      {
+        "label": "NPS — Hiking in Grand Teton (snow on trails, bear spray, overnight permits, parking)",
+        "url": "https://www.nps.gov/grte/planyourvisit/hike.htm"
+      },
+      {
+        "label": "NPS — Fees & Passes (entrance fee, no entry reservations)",
+        "url": "https://www.nps.gov/grte/planyourvisit/fees.htm"
+      },
+      {
+        "label": "NPS — Grand Teton FAQ (Teton Park Road winter closure, overnight permits, pets)",
+        "url": "https://www.nps.gov/grte/faqs.htm"
+      },
+      {
+        "label": "NPS — Alerts & Current Conditions (stay 100 yards from bears)",
+        "url": "https://www.nps.gov/grte/planyourvisit/conditions.htm"
+      },
+      {
+        "label": "OpenStreetMap — Jenny Lake Visitor Center (trailhead location)",
+        "url": "https://www.openstreetmap.org/way/108531030"
+      }
+    ],
+    "checkedAt": "2026-10-12",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/grand-teton-national-park/File_Cascade_creek_teton_20100822_122124_1.jpg.jpg",
+        "alt": "Grand Teton National Park: Cascade Creek flows through Cascade Canyon and in to Jenny Lake in Grand Teton National Park, WY",
+        "author": "G. Edward Johnson",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cascade_creek_teton_20100822_122124_1.jpg",
+        "license": "CC BY 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/grand-teton-national-park/File_Cascade_canyon_trail_teton_20190713_095423_1.jpg.jpg",
+        "alt": "Grand Teton National Park: Part of the Cascade Canyon trail is hewn out of the side of a mountain with many switchbacks, Grand Teton National Park, WY.",
+        "author": "G. Edward Johnson",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cascade_canyon_trail_teton_20190713_095423_1.jpg",
+        "license": "CC BY 3.0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/grand-teton-national-park/File_Grand_Teton_National_Park_-_HCP_-_October_29__2022_-_020.jpg.jpg",
+        "alt": "Grand Teton National Park: Grand Teton National Park",
+        "author": "Vulturesong",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Teton_National_Park_-_HCP_-_October_29,_2022_-_020.jpg",
+        "license": "CC0"
+      },
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/grand-teton-national-park/File_Grand_Teton_National_Park_-_HCP_-_October_31__2022_-_267.jpg.jpg",
+        "alt": "Grand Teton National Park: Grand Teton National Park",
+        "author": "Vulturesong",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Teton_National_Park_-_HCP_-_October_31,_2022_-_267.jpg",
+        "license": "CC0"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "slug": "alta-via-1",
+    "title": "Alta Via 1",
+    "continent": "Europe",
+    "country": "Italy",
+    "biome": "Dolomites",
+    "landscapes": [
+      "mountains",
+      "waterfalls"
+    ],
+    "description": "The classic hut-to-hut trek through the Dolomites, about 125 km from Lago di Braies south to the city of Belluno. It is usually walked in 12 stages, sleeping in mountain huts along the way.",
+    "hikingExplained": "Alta Via 1, the Alta Via delle Dolomiti n. 1, crosses the eastern Dolomites from north to south through the Dolomites UNESCO World Heritage Site. It starts at Lago di Braies in South Tyrol and ends in Belluno, in the Veneto. Most of the route is in the Province of Belluno. In total it is about 125 km with roughly 7,300 m of ascent and 8,400 m of descent, and the usual plan is 12 stages of 3 to 8 hours each.\n\nThe standard stages listed by the Italian Alpine Club (CAI) go from hut to hut: Biella, Fanes, Lagazuoi, Cinque Torri, Croda da Lago, Passo Staulanza, Tissi, Carestiato, Sommariva al Pramperét, Pian de Fontana and 7° Alpini, then down to Belluno. The highest night is at Rifugio Lagazuoi, at 2,752 m. The CAI describes the basic route as not especially demanding for a good hiker, and the hardest sections have fixed protection. The exception is the end. Between Pian de Fontana and Rifugio 7° Alpini, the main line uses the Ferrata Piero Rossi on the Schiara, which is for experts only. A longer, steep footpath avoids it. The last day is mostly downhill, about 1,900 m from the 7° Alpini hut to Belluno at 389 m.\n\nThere are several variants, including via ferratas and summit climbs for experienced hikers, so stage lists and times differ a little between sources. Many people also walk only part of the route.",
+    "officialUrl": "https://prenotarifugi.cai.it/en/itinerario/high-way-no-1-dolomiti",
+    "map": "/maps/Europe.svg",
+    "photo": {
+      "src": "/hikes/alta-via-1.jpg",
+      "alt": "A gravel path with two hikers crosses green pasture toward the Cinque Torri rock towers, with the Tofana di Rozes massif on the left, in the Dolomites.",
+      "author": "Ka23 13",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tofana_CinqueTorri_20170725.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 46.6944,
+      "lng": 12.0854
+    },
+    "details": {
+      "route": "Lago di Braies to Belluno, north to south, in 12 hut-to-hut stages (CAI standard stages)",
+      "distanceKm": 125,
+      "elevationGainM": 7300,
+      "maxAltitudeM": 2752,
+      "duration": "About 12 days",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "permit": null,
+      "gettingThere": "The trek starts at Lago di Braies (Pragser Wildsee). Buses run to the valley from Welsberg/Monguelfo, Niederdorf/Villabassa and Toblach/Dobbiaco in the Puster Valley. From 1 July to 15 September 2026, the Braies valley was open from 9:30 am to 4 pm only to public transport, walkers, cyclists and people with an online reservation, and the shuttle to the lake had to be booked and paid online in advance. At the end, from Bolzano Bellunese, just above Belluno, you can walk into the city or take a taxi or public transport.",
+      "tips": [
+        "Book each night in advance. Some huts on the route can be booked on the CAI's online platform (prenotarifugi.cai.it); others take bookings on their own websites or by phone and email, and some ask for a card deposit. Opening dates and booking rules change each year, so check every hut directly (checked October 2026).",
+        "Huts are generally open from about mid-June to mid-September (Rifugio Biella and Rifugio 7° Alpini both give these dates). Plan your trek inside that window and confirm each hut's dates for your year.",
+        "Stage 11, from Pian de Fontana to Rifugio 7° Alpini, uses the Ferrata Piero Rossi on the Schiara and is rated for experts. Only take it with via ferrata experience and equipment. Otherwise, use the footpath alternative via Forcella Pis Pilon (about 13 km and 8 hours, very steep in places).",
+        "In summer, check the Braies valley access rules on prags.bz before you travel, and book the lake shuttle early if you need it."
+      ]
+    },
+    "sources": [
+      {
+        "label": "CAI Prenotarifugi (Italian Alpine Club): Alta Via delle Dolomiti n. 1 (125 km, 7,300 m of ascent, 12 stages, huts, stage times, difficulty, UNESCO, booking platform)",
+        "url": "https://prenotarifugi.cai.it/en/itinerario/high-way-no-1-dolomiti"
+      },
+      {
+        "label": "Visit Dolomiti Bellunesi (Belluno tourism): Alta Via delle Dolomiti n. 1 (about 125 km, 7,300 m of ascent, 12 stages, Lago di Braies to Belluno)",
+        "url": "https://www.visitdolomitibellunesi.com/it/brochures/alta-via-delle-dolomiti-n-1"
+      },
+      {
+        "label": "Rifugio Biella: Alta Via n. 1 (north to south, mostly in the Province of Belluno, about 12 days, 8,400 m of descent, stage 1, online booking)",
+        "url": "https://rifugiobiella.it/en/routes/alta-via-n1/"
+      },
+      {
+        "label": "Cortina d'Ampezzo tourism (Cortina Marketing): Alta Via N.1 stage list",
+        "url": "https://cortina.dolomiti.org/en/summer/what-to-do/activities/trekking/alta-via-n-1/"
+      },
+      {
+        "label": "Cortina d'Ampezzo tourism: Alta Via N.1 Stage 1 (Lago di Braies, Rifugio Biella 2,327 m, open mid-June to mid-September)",
+        "url": "https://cortina.dolomiti.org/en/escursioni/alta-via-n-1-stage-1-en"
+      },
+      {
+        "label": "Cortina d'Ampezzo tourism: Alta Via N.1 Stage 11 (Ferrata Piero Rossi for experts, Forcella Pis Pilon alternative, Rifugio 7° Alpini open mid-June to mid-September)",
+        "url": "https://cortina.dolomiti.org/it/escursioni/alta-via-n-1-stage-11"
+      },
+      {
+        "label": "Cortina d'Ampezzo tourism: Alta Via N.1 Stage 12 (about 1,900 m of descent, Bolzano Bellunese, Belluno 389 m)",
+        "url": "https://cortina.dolomiti.org/en/escursioni/alta-via-n-1-stage-12/"
+      },
+      {
+        "label": "Lagazuoi: Rifugio Lagazuoi (2,752 m)",
+        "url": "https://lagazuoi.it/EN/Discover-Services-page23-Lagazuoi-refuge"
+      },
+      {
+        "label": "Rifugio Lagazuoi: official website and booking (card deposit)",
+        "url": "https://rifugiolagazuoi.com/index_en.php"
+      },
+      {
+        "label": "Kronplatz tourism: Getting to the Braies valley (2026 summer access rules, lake shuttle booking)",
+        "url": "https://www.kronplatz.com/en/planning-booking/local-mobility/to-braies-valley-and-three-peaks"
+      },
+      {
+        "label": "Drei Zinnen Dolomites (tourism association): Lake Prags (buses from Niederdorf, Welsberg and Toblach)",
+        "url": "https://www.dreizinnen.com/en/region/highlights/lake-prags"
+      },
+      {
+        "label": "Prags/Braies: official arrival and access information",
+        "url": "https://www.prags.bz/en"
+      },
+      {
+        "label": "OpenStreetMap: Lago di Braies (trek start)",
+        "url": "https://www.openstreetmap.org/search?query=Lago%20di%20Braies"
+      }
+    ],
+    "checkedAt": "2026-10-12",
+    "instagram": [],
+    "gallery": []
+  },
+  {
+    "id": 56,
+    "slug": "seceda",
+    "title": "Seceda ridge",
+    "continent": "Europe",
+    "country": "Italy",
+    "biome": "Alpine meadows and limestone peaks",
+    "landscapes": [
+      "mountains"
+    ],
+    "description": "A 2,519 m summit in Puez-Odle Nature Park, above Val Gardena in the Dolomites, with cliffside views of the Odle (Geisler) peaks and the Fermeda towers. Hike up from S. Cristina or take the cable car from Ortisei.",
+    "hikingExplained": "Seceda is on the sunny side of Val Gardena, in Puez-Odle Nature Park, part of the Dolomites UNESCO World Heritage Site. From the summit cross at 2,519 m you look along the Odle (Geisler) peaks and the Fermeda towers. \"Odles\" means \"needles\" in Ladin, one of the valley's three official languages. On clear days the 360° view also takes in the Sella Group, Sassolungo, the Alpe di Siusi and the main Alpine ridge.\n\nThis route is the Val Gardena tourism board's moderate hike from S. Cristina. It starts at the valley station of the Col Raiser cable car and follows the Troi de Frëines (trail 4B), then the Troi dla Schirlates (trail 4), then trail 1A. In total it is 7.9 km with about 995 m of climbing and takes about 3 hours 50 minutes. The last 3.5 km, on trail 1A, gains about 560 m. The route ends where the Seceda Ridge Line begins. The ridge itself is about 1 km long, starts at the top station of the Seceda cable car and leads up to the summit cross. Allow about an hour for it with stops.\n\nIf you want a shorter day, ride the Col Raiser cable car up and walk from its top station. According to the tourism board, that takes 1 to 2 hours with about 500 m of climbing. For the way down, the Seceda cable car runs via Furnes to Ortisei.",
+    "officialUrl": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/",
+    "map": "/maps/Europe.svg",
+    "photo": {
+      "src": "/hikes/seceda.jpg",
+      "alt": "The jagged Odle peaks of Seceda rising above a steep, layered rock ridge, under a deep blue sky streaked with wispy white clouds, with valleys and mountains to the left.",
+      "author": "mendhak",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sweeping_Seceda_(38225459035).jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    "status": "draft",
+    "location": {
+      "lat": 46.6007,
+      "lng": 11.7256
+    },
+    "details": {
+      "route": "From the Col Raiser valley station (S. Cristina) on trails 4B, 4 and 1A to the start of the Seceda Ridge Line",
+      "distanceKm": 7.9,
+      "elevationGainM": 995,
+      "maxAltitudeM": 2519,
+      "duration": "About 4 h up",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "permit": null,
+      "gettingThere": "The Col Raiser valley station above S. Cristina is served by a free shuttle bus from Dosses Square and by bus lines 358 and 356. Parking there is limited and paid, so public transport is the better choice. To get back down, take the Seceda cable car (via Furnes) to Ortisei.",
+      "tips": [
+        "Checked October 2026: the Seceda cable cars (Ortisei–Furnes and Furnes–Seceda) run from 22 May to 2 November 2026, 8:30 am to 5 pm. The Col Raiser cable car runs until 1 November. The Dolomiti Supersummer card is not valid on the Seceda lifts, and buying your ticket online in advance is recommended.",
+        "Checked October 2026: the Val Gardena tourism board lists a turnstile (€5) on trail 6, the descent east from the summit cross towards the Panascharte saddle (Forcella Pana). The board notes that this section isn't needed for the views.",
+        "Stay on marked trails and don't walk across the meadows or climb over fences. The pastures are private land managed by local farmers.",
+        "Flying drones on Seceda is not allowed, and wild camping is strictly prohibited.",
+        "Some sections can still be under snow early in the summer season. Check the weather forecast and the webcams before you go, and wear boots with good grip."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Val Gardena tourism board — Seceda (summit 2,519 m, Puez-Odle Nature Park, views, Odles name)",
+        "url": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/"
+      },
+      {
+        "label": "Val Gardena tourism board — Seceda Ridge Line from S. Cristina via Col Raiser valley station (7.9 km, 995 m, 3:50 h, moderate, trails, access, €5 turnstile)",
+        "url": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-from-s-cristina-via-col-raiser-valley-station-troi-de-freeines/810055442/"
+      },
+      {
+        "label": "Val Gardena tourism board — Seceda Ridge Line (about 1 km, about 1 hour, €5 turnstile on trail 6)",
+        "url": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/ridge-line/"
+      },
+      {
+        "label": "Val Gardena tourism board — The way to the Seceda (Col Raiser shortcut, lifts, parking)",
+        "url": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/the-way-to-the-seceda/"
+      },
+      {
+        "label": "Val Gardena tourism board — Seceda tips & rules of conduct (drones, camping, trails, fences)",
+        "url": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/tips-rules-of-conduct/"
+      },
+      {
+        "label": "Val Gardena tourism board — Seceda best time to visit (season, snow, webcams)",
+        "url": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/best-time-to-visit/"
+      },
+      {
+        "label": "Val Gardena tourism board — Seceda good to know (Ladin language)",
+        "url": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/good-to-know/"
+      },
+      {
+        "label": "Val Gardena tourism board — Lift opening times summer 2026",
+        "url": "https://www.valgardena.it/en/summer-holidays-dolomites/lifts/"
+      },
+      {
+        "label": "Seceda AG (lift company) — Opening times, tickets, Dolomiti Supersummer not valid",
+        "url": "https://www.seceda.it/en/"
+      },
+      {
+        "label": "South Tyrol (IDM Südtirol) — Seceda Ridge Line from Col Raiser mountain station (trail 1A, €5 turnstile, snow early in the season)",
+        "url": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoid219139423c32313f1510b254d89e3a7.seceda---ridge-line-from-col-raiser-mountain-station.selva-selva-di-val-gardena"
+      },
+      {
+        "label": "Autonomous Province of Bolzano — Puez-Geisler / Puez-Odle Nature Park",
+        "url": "https://nature-parks.province.bz.it/en/puez-geisler-puez-odle-nature-park"
+      },
+      {
+        "label": "Alta Badia tourism board — Puez-Odle Nature Park (UNESCO World Heritage)",
+        "url": "https://www.altabadia.org/en/italian-alps-dolomites/alta-badia/natural-park-puez-odle.html"
+      },
+      {
+        "label": "Wikidata — Summit cross of Seceda (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q122229755"
+      }
+    ],
+    "checkedAt": "2026-10-12",
+    "instagram": [],
+    "gallery": [
+      {
+        "src": "https://rtrokalfayyhwguekkln.supabase.co/storage/v1/object/public/media/gallery/seceda/File_Ridge_at_Seceda.jpg.jpg",
+        "alt": "Seceda ridge: Ridge at Seceda. Took the cable car up from Ortisei.",
+        "author": "Eric Kilby",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ridge_at_Seceda.jpg",
+        "license": "CC BY-SA 2.0"
       }
     ]
   }

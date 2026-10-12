@@ -1,0 +1,99 @@
+{
+  "id": 53,
+  "slug": "rocky-mountain-national-park",
+  "title": "Rocky Mountain National Park",
+  "continent": "North America",
+  "country": "United States",
+  "biome": "Subalpine forest and alpine tundra",
+  "landscapes": [
+    "mountains",
+    "waterfalls",
+    "forests"
+  ],
+  "description": "High lakes and granite peaks in Colorado's Front Range, reached from the Bear Lake Road corridor. The classic walk climbs from Bear Lake past Nymph and Dream lakes to Emerald Lake.",
+  "hikingExplained": "Most day hikes in Rocky Mountain National Park start along Bear Lake Road, which ends 9.2 miles (about 15 km) from its junction with Trail Ridge Road. The Bear Lake Trailhead sits at 2,888 m (9,475 ft). From there, the trail to Emerald Lake passes Nymph Lake at 0.8 km and Dream Lake further on, then reaches Emerald Lake after 2.9 km (1.8 miles) and 184 m (605 ft) of climbing. Walk back the same way for a round trip of about 5.8 km.\n\nFor a longer day, start at the Glacier Gorge Trailhead (2,816 m / 9,240 ft), the shuttle stop just before Bear Lake. Trails from here lead to Alberta Falls (1.3 km), The Loch (4.8 km) and, furthest, Sky Pond: 7.8 km (4.9 miles) one way with 521 m (1,710 ft) of gain, so about 15.6 km there and back.\n\nThe park's big objective is Longs Peak, 4,345 m (14,259 ft), the highest summit in the park. Its Keyhole Route starts at the Longs Peak Trailhead, not on Bear Lake Road. It is a 15-mile (about 24 km) round trip that averages 10 to 15 hours. The park service says plainly that this is not a hike but a climb, a classic mountaineering route, with narrow ledges, loose rock and steep cliffs. The usual snow- and ice-free window is mid-July to mid-September.",
+  "officialUrl": "https://www.nps.gov/romo/index.htm",
+  "map": "/maps/NorthAmerica.svg",
+  "photo": {
+    "src": "/hikes/rocky-mountain-national-park.jpg",
+    "alt": "Hallett Peak, streaked with spring snow, reflected in the still blue water of Dream Lake, with evergreen forest on both shores.",
+    "author": "National Park Service (NPS Photo)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hallett_Peak_reflected_in_Dream_Lake_(035b3918-1dd8-b71b-0b25-1c76a4dc59e2).jpg",
+    "license": "Public domain"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 40.312,
+    "lng": -105.6459
+  },
+  "details": {
+    "route": "Bear Lake Trailhead to Emerald Lake, past Nymph Lake and Dream Lake, and back the same way",
+    "distanceKm": 5.8,
+    "elevationGainM": 184,
+    "maxAltitudeM": null,
+    "duration": "About 2–3 h (Emerald Lake)",
+    "difficulty": "moderate",
+    "routeType": "out-and-back",
+    "bestMonths": [
+      7,
+      8,
+      9
+    ],
+    "permit": "Checked October 2026: in 2026, driving into the Bear Lake Road corridor between 5 a.m. and 6 p.m. (May 22 to October 18) required a Timed Entry+ Bear Lake Road reservation from Recreation.gov ($2 processing fee), on top of a park entrance pass. The rest of the park, including the Longs Peak Trailhead, required a Timed Entry reservation from 9 a.m. to 2 p.m. (May 22 to October 12). Check the NPS website for next year's rules before you go.",
+    "gettingThere": "Drive Bear Lake Road to the Bear Lake Trailhead at its end, 9.2 miles from Trail Ridge Road. The parking lot fills early, so in season most hikers use the free Bear Lake Shuttle from the Park & Ride on Bear Lake Road (2026 season May 22 to October 18, every 10 to 15 minutes from 6:30 a.m.), which also stops at Glacier Gorge Trailhead. A Hiker Shuttle from the Estes Park Visitor Center needs its own $2 ticket from Recreation.gov.",
+    "tips": [
+      "Lightning is common from June through September. Plan your hike for the morning and get below tree line if a storm builds.",
+      "Outside summer, the trails above Bear Lake are covered in snow and ice. The park recommends traction devices, snowshoes and hiking poles, and the shuttles do not run in winter.",
+      "Longs Peak is a serious climb: start before sunrise, carry at least 3 to 4 quarts of water (there is none on the route), and turn back if you feel unwell or conditions get worse."
+    ]
+  },
+  "sources": [
+    {
+      "label": "NPS Rocky Mountain National Park — List of hiking trails (Bear Lake and Glacier Gorge trailheads, one-way distances and elevation gain for Nymph Lake, Emerald Lake, The Loch, Sky Pond, Longs Peak)",
+      "url": "https://www.nps.gov/romo/planyourvisit/list_hiking_trails.htm"
+    },
+    {
+      "label": "NPS — Bear Lake (end of Bear Lake Road, parking, winter conditions, trails from the trailhead)",
+      "url": "https://www.nps.gov/places/bear-lake.htm"
+    },
+    {
+      "label": "NPS — Timed entry permit system 2026 (dates, hours, Bear Lake Road corridor, Recreation.gov, $2 fee, Longs Peak)",
+      "url": "https://www.nps.gov/romo/planyourvisit/timed-entry-permit-system.htm"
+    },
+    {
+      "label": "NPS — Shuttle buses and public transit (2026 Bear Lake Shuttle and Hiker Shuttle)",
+      "url": "https://www.nps.gov/romo/planyourvisit/shuttle-buses-and-public-transit.htm"
+    },
+    {
+      "label": "NPS — Longs Peak Keyhole Route FAQ (14,259 ft, 15-mile round trip, 10–15 hours, a climb not a hike, mid-July to mid-September, start before sunrise, water, turning back)",
+      "url": "https://www.nps.gov/romo/planyourvisit/longs_peak_faq.htm"
+    },
+    {
+      "label": "NPS — What everyone should know before attempting the Keyhole Route (narrow ledges, loose rock, steep cliffs)",
+      "url": "https://www.nps.gov/romo/learn/news/pr_everyone_should_know_before_attempting_keyhole_route.htm"
+    },
+    {
+      "label": "NPS — Lightning safety (June–September, get below tree line)",
+      "url": "https://www.nps.gov/romo/planyourvisit/lightning-safety.htm"
+    },
+    {
+      "label": "NPS — Weather-ready explorer (plan hikes for the morning when afternoon storms are forecast)",
+      "url": "https://home.nps.gov/subjects/healthandsafety/severe-weather-safety.htm"
+    },
+    {
+      "label": "NPS — Natural features and ecosystems (montane, subalpine, alpine tundra)",
+      "url": "https://www.nps.gov/romo/learn/nature/naturalfeaturesandecosystems.htm"
+    },
+    {
+      "label": "Colorado Trail Explorer (State of Colorado) — Emerald Lake from Bear Lake Trailhead (rated moderate)",
+      "url": "https://trails.colorado.gov/routes/18275"
+    },
+    {
+      "label": "OpenStreetMap — Bear Lake Trailhead",
+      "url": "https://www.openstreetmap.org/node/50823841"
+    }
+  ],
+  "checkedAt": "2026-10-12",
+  "instagram": [],
+  "gallery": []
+}

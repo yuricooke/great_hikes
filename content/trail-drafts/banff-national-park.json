@@ -1,0 +1,122 @@
+[
+  {
+    "place": "banff-national-park",
+    "slug": "lake-agnes-plain-of-six-glaciers",
+    "name": "Lake Agnes and Plain of Six Glaciers",
+    "status": "draft",
+    "summary": "A loop above Lake Louise that links two classic trails and their seasonal tea houses: up to Lake Agnes beneath tall peaks, across the Highline Trail, and on to the Plain of Six Glaciers before returning along the lakeshore.",
+    "details": {
+      "route": "Lake Louise Lakeshore to Lake Agnes, across the Highline Trail to the Plain of Six Glaciers Trail, and back to Lake Louise Lakeshore",
+      "distanceKm": 14.3,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "About 5 h",
+      "difficulty": "moderate",
+      "routeType": "loop",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "No trail permit is needed, but you need a national park pass to visit Banff; shuttle tickets do not include park entry. Checked October 2026.",
+      "gettingThere": "As published for 2026 (checked October 2026): the Parks Canada shuttle to Lake Louise Lakeshore ran from May 15 to October 12, reservation only, from the Lake Louise Park and Ride at the Lake Louise Ski Resort (free parking for shuttle holders). Fares were CA$12.75 per adult, CA$6 per senior and CA$4 per youth, plus a CA$3.50 online reservation fee. Parking at the Lakeshore cost CA$42 per vehicle per day in the same period and often fills before sunrise. Roam Transit Route 8X runs from the town of Banff to Lake Louise year-round.",
+      "tips": [
+        "The tea houses at Lake Agnes and the Plain of Six Glaciers are privately run and open from mid-May until just after Canadian Thanksgiving in mid-October.",
+        "These trails cross avalanche terrain: Parks Canada advises against hiking them from November to mid-May, and in May and June you should check the trail report before you go.",
+        "From Lake Agnes you can add a side trip to the Little Beehive (0.9 km one way) or the Big Beehive (1.5 km one way) for views over Lake Louise.",
+        "Lake Louise is extremely busy from May through October, especially on holidays and weekends; have a backup plan."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parks Canada — Banff National Park hiking (Lake Agnes, Plain of Six Glaciers, Highline loop)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/activ/randonnee-hiking"
+      },
+      {
+        "label": "Parks Canada — Lake Louise and Moraine Lake (tea houses, avalanche season, busy times)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/les10-top10/louise"
+      },
+      {
+        "label": "Parks Canada — Visiting Lake Louise and Moraine Lake: 2026 shuttle information",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise"
+      },
+      {
+        "label": "Parks Canada — Banff National Park fees (2026 shuttle fares and Lakeshore parking)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/tarifs-fees"
+      },
+      {
+        "label": "Parks Canada — Banff trail conditions",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/activ/randonnee-hiking/etat-sentiers-trail-conditions"
+      }
+    ],
+    "photo": {
+      "src": "/trails/banff-national-park--lake-agnes-plain-of-six-glaciers.jpg",
+      "alt": "Dark cliffs and snow-covered peaks with a hanging glacier rise above a grey valley of rock and snow seen from the Plain of Six Glaciers trail.",
+      "author": "learningis1st",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plain_of_Six_Glaciers.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "place": "banff-national-park",
+    "slug": "larch-valley-sentinel-pass",
+    "name": "Larch Valley and Sentinel Pass",
+    "status": "draft",
+    "summary": "From Moraine Lake, switchbacks climb into a larch forest high above the lake, past the Minnestimma Lakes, then steeply up to Sentinel Pass at 2,611 m, a high point between Larch Valley and Paradise Valley.",
+    "details": {
+      "route": "Moraine Lake (trail starts just past Moraine Lake Lodge) through Larch Valley and past the Minnestimma Lakes to Sentinel Pass, and back the same way",
+      "distanceKm": 11.2,
+      "elevationGainM": 750,
+      "maxAltitudeM": 2611,
+      "duration": "4.5–5.5 h",
+      "difficulty": "challenging",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "No trail permit is needed, but you need a national park pass to visit Banff; shuttle tickets do not include park entry. Parks Canada often puts a restriction on the Larch Valley and Sentinel Pass trails in summer to protect grizzly bears: while it is in effect you must hike in a tight group of four or more. Check current bulletins before you go. Checked October 2026.",
+      "gettingThere": "Moraine Lake Road is closed to personal vehicles year-round. As published for 2026 (checked October 2026): the Parks Canada shuttle to Moraine Lake ran from June 1 to October 12 (weather permitting), reservation only, from the Lake Louise Park and Ride at the Lake Louise Ski Resort. Fares were CA$12.75 per adult, CA$6 per senior and CA$4 per youth, plus a CA$3.50 online reservation fee. Roam Transit Reservable Super Pass holders could also ride the Lake Connector shuttle.",
+      "tips": [
+        "Larch season (weekends in September) is one of the busiest times at Moraine Lake; book the shuttle early.",
+        "The trail is exposed to avalanche hazard, and Parks Canada does not recommend it from mid-October to mid-June.",
+        "The alpine vegetation in Larch Valley is fragile; stay on the trail.",
+        "Turning around in Larch Valley (4.5 km one way, 570 m gain, 3.5–4 h return) makes a shorter, moderate hike."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parks Canada — Banff National Park hiking (Larch Valley, Sentinel Pass via Larch Valley)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/activ/randonnee-hiking"
+      },
+      {
+        "label": "Parks Canada — Mount Temple scrambler's guide (Sentinel Pass elevation, group restriction)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/activ/escalade-scrambling/temple"
+      },
+      {
+        "label": "Parks Canada — Visiting Lake Louise and Moraine Lake: 2026 shuttle information",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise"
+      },
+      {
+        "label": "Parks Canada — Banff National Park fees (2026 shuttle fares)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/tarifs-fees"
+      },
+      {
+        "label": "Parks Canada — Lake Louise and Moraine Lake (busy times)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/les10-top10/louise"
+      },
+      {
+        "label": "Parks Canada — Banff trail conditions",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/activ/randonnee-hiking/etat-sentiers-trail-conditions"
+      }
+    ],
+    "photo": {
+      "src": "/trails/banff-national-park--larch-valley-sentinel-pass.jpg",
+      "alt": "View down from Sentinel Pass over rocky slopes to two small blue lakes and golden larches in Larch Valley, with a row of snow-dusted peaks behind.",
+      "author": "Wilson Hui",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sentinel_Pass_-_Larch_Valley_(15809969418).jpg",
+      "license": "CC BY 2.0"
+    }
+  }
+]

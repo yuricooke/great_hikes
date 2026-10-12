@@ -587,5 +587,779 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fujinomiya_Route_of_Mount_Fuji_in_2024.jpg",
       "license": "CC BY-SA 4.0"
     }
+  },
+  {
+    "place": "zion-national-park",
+    "slug": "angels-landing",
+    "name": "Angels Landing",
+    "status": "draft",
+    "summary": "A steep climb from the Grotto up the West Rim Trail to Scout Lookout, then a narrow sandstone ridge with chains to hold, sheer drop-offs on both sides and wide views over Zion Canyon. The final ridge needs a permit.",
+    "osmRelation": 7387173,
+    "details": {
+      "route": "The Grotto (shuttle stop 6) up the West Rim Trail to Scout Lookout, then the 0.5-mile Angels Landing Trail along the ridge to the top, and back the same way",
+      "distanceKm": 8.7,
+      "elevationGainM": 454,
+      "maxAltitudeM": null,
+      "duration": "About 4 h",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "permit": "Rules as published for 2026 (checked October 2026): everyone going beyond Scout Lookout onto the Angels Landing ridge needs a permit; the walk to Scout Lookout itself does not. Permits come from two lotteries on Recreation.gov. The seasonal lottery for 2026 hike dates opened on February 13 (spring), April 1 (summer), July 1 (fall) and October 1 (winter, December 1, 2026 to February 28, 2027). The day-before lottery takes applications from 12:01 am to 3 pm Mountain Time the day before your hike, with results after 4 pm. Each application costs $6 (non-refundable) plus $3 per person and covers up to 6 people. Your permit time applies at the Grotto.",
+      "gettingThere": "From March through November, most Zion Canyon hikes can only be reached by the free park shuttle, and the Zion Canyon Scenic Drive is closed to private vehicles while the shuttle runs. Board at the Zion Canyon Visitor Center and get off at the Grotto. You still need a park entrance fee or pass.",
+      "tips": [
+        "The ridge is less than 3 ft (1 m) wide in many places, with drop-offs of up to 1,000 ft on each side. Chains serve as handrails on several sections; watch your footing at all times.",
+        "Much of the ridge is only wide enough for one person, so expect to wait and give way to other hikers.",
+        "If you have no permit, Scout Lookout (about 2.25 miles from the Grotto and roughly 1,000 ft higher) is a worthwhile turnaround point with views of its own.",
+        "There are restrooms at the Grotto and at Scout Lookout."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Zion National Park (NPS) — Angels Landing Permits & Hiking",
+        "url": "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — 2026 Angels Landing seasonal lottery dates (news release, February 11, 2026)",
+        "url": "https://www.nps.gov/zion/learn/news/2026-02-11-angels-landing.htm"
+      },
+      {
+        "label": "National Park Service — Angels Landing (trail description and season)",
+        "url": "https://www.nps.gov/thingstodo/hike-angels-landing.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — Zion Canyon trail descriptions (shuttle access March to November)",
+        "url": "https://www.nps.gov/zion/planyourvisit/zion-canyon-trail-descriptions.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — Zion Canyon shuttle system",
+        "url": "https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm"
+      },
+      {
+        "label": "OpenStreetMap — Angels Landing Trail–West Rim Trail route relation",
+        "url": "https://www.openstreetmap.org/relation/7387173"
+      }
+    ],
+    "photo": {
+      "src": "/trails/zion-national-park--angels-landing.jpg",
+      "alt": "A steel chain runs along red sandstone blocks on the narrow Angels Landing ridge, with tall canyon walls, pine trees and a deep blue sky around it.",
+      "author": "Andrew Heneen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angels_Landing_Trail_Zion_NP_27-08-2025_01.jpg",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "place": "zion-national-park",
+    "slug": "the-narrows",
+    "name": "The Narrows (bottom-up)",
+    "status": "draft",
+    "summary": "Walk upstream in the Virgin River itself, between canyon walls about 1,000 ft tall. Start on the paved Riverside Walk, then wade as far as you like, up to Big Spring. No permit is needed for this bottom-up hike.",
+    "details": {
+      "route": "Temple of Sinawava (shuttle stop 9) along the 1-mile Riverside Walk, then upstream in the Virgin River as far as Big Spring, and back the same way",
+      "distanceKm": 15.1,
+      "elevationGainM": 102,
+      "maxAltitudeM": null,
+      "duration": "1–8 h",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "permit": "No permit is needed to hike upstream from the Temple of Sinawava as far as Big Spring. Rules as published for 2026 (checked October 2026): the 16-mile top-down hike from Chamberlain's Ranch needs a wilderness permit. For a one-day trip you can reserve in advance (at least one day before) or apply in the daily lottery two days before your trip (12:00 am to 3 pm Mountain Time, results around 4 pm); unclaimed spaces go first-come, first-served at the Zion Canyon Visitor Center Wilderness Desk the day before. Day trips cost a $6 non-refundable fee plus $10 per person; overnight trips cost $20 plus $7 per person per night. You arrange your own transport to Chamberlain's Ranch. Top-down trips are closed when the river flows above 120 CFS.",
+      "gettingThere": "Take the free park shuttle from the Zion Canyon Visitor Center to the Temple of Sinawava, the last stop (stop 9). The Zion Canyon Scenic Drive is closed to private vehicles during the shuttle season. Check the time of the last shuttle out before you start.",
+      "tips": [
+        "The Narrows closes to all travel when the river flows above 150 CFS, and whenever the National Weather Service issues a Flash Flood Warning; it stays closed for at least two hours after a warning is lifted. Check the forecast and current flow before you go.",
+        "Flash floods can happen at any time, and flash flood warnings are common in the monsoon season, July to September.",
+        "Wear closed-toe shoes and carry a sturdy hiking stick for the slick, uneven rocks; sandals, crocs and bare feet are not appropriate. The park does not sell or rent gear.",
+        "You can explore the first quarter mile of Orderville Canyon, a side canyon, but upstream travel beyond that is not allowed.",
+        "Even an hour in the river is worthwhile; turn around whenever you like."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Zion National Park (NPS) — The Narrows",
+        "url": "https://www.nps.gov/zion/planyourvisit/thenarrows.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — The Narrows from the bottom up",
+        "url": "https://www.nps.gov/zion/planyourvisit/narrowsbottomup.htm"
+      },
+      {
+        "label": "National Park Service — Riverside Walk",
+        "url": "https://www.nps.gov/thingstodo/hike-riverside-walk.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — Virgin River Narrows top-down information",
+        "url": "https://www.nps.gov/zion/planyourvisit/virgin-river-narrows-information.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — The Narrows permits",
+        "url": "https://www.nps.gov/zion/planyourvisit/narrowspermits.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — Zion Canyon shuttle system",
+        "url": "https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm"
+      }
+    ],
+    "photo": {
+      "src": "/trails/zion-national-park--the-narrows.jpg",
+      "alt": "The Virgin River flows past a pebbly bank and green trees between towering red canyon walls in the Zion Narrows, with small figures of hikers in the distance.",
+      "author": "Gillfoto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zion_Narrows_Hike_93.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "place": "banff-national-park",
+    "slug": "lake-agnes-plain-of-six-glaciers",
+    "name": "Lake Agnes and Plain of Six Glaciers",
+    "status": "draft",
+    "summary": "A loop above Lake Louise that links two classic trails and their seasonal tea houses: up to Lake Agnes beneath tall peaks, across the Highline Trail, and on to the Plain of Six Glaciers before returning along the lakeshore.",
+    "details": {
+      "route": "Lake Louise Lakeshore to Lake Agnes, across the Highline Trail to the Plain of Six Glaciers Trail, and back to Lake Louise Lakeshore",
+      "distanceKm": 14.3,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "About 5 h",
+      "difficulty": "moderate",
+      "routeType": "loop",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "No trail permit is needed, but you need a national park pass to visit Banff; shuttle tickets do not include park entry. Checked October 2026.",
+      "gettingThere": "As published for 2026 (checked October 2026): the Parks Canada shuttle to Lake Louise Lakeshore ran from May 15 to October 12, reservation only, from the Lake Louise Park and Ride at the Lake Louise Ski Resort (free parking for shuttle holders). Fares were CA$12.75 per adult, CA$6 per senior and CA$4 per youth, plus a CA$3.50 online reservation fee. Parking at the Lakeshore cost CA$42 per vehicle per day in the same period and often fills before sunrise. Roam Transit Route 8X runs from the town of Banff to Lake Louise year-round.",
+      "tips": [
+        "The tea houses at Lake Agnes and the Plain of Six Glaciers are privately run and open from mid-May until just after Canadian Thanksgiving in mid-October.",
+        "These trails cross avalanche terrain: Parks Canada advises against hiking them from November to mid-May, and in May and June you should check the trail report before you go.",
+        "From Lake Agnes you can add a side trip to the Little Beehive (0.9 km one way) or the Big Beehive (1.5 km one way) for views over Lake Louise.",
+        "Lake Louise is extremely busy from May through October, especially on holidays and weekends; have a backup plan."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parks Canada — Banff National Park hiking (Lake Agnes, Plain of Six Glaciers, Highline loop)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/activ/randonnee-hiking"
+      },
+      {
+        "label": "Parks Canada — Lake Louise and Moraine Lake (tea houses, avalanche season, busy times)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/les10-top10/louise"
+      },
+      {
+        "label": "Parks Canada — Visiting Lake Louise and Moraine Lake: 2026 shuttle information",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise"
+      },
+      {
+        "label": "Parks Canada — Banff National Park fees (2026 shuttle fares and Lakeshore parking)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/tarifs-fees"
+      },
+      {
+        "label": "Parks Canada — Banff trail conditions",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/activ/randonnee-hiking/etat-sentiers-trail-conditions"
+      }
+    ],
+    "photo": {
+      "src": "/trails/banff-national-park--lake-agnes-plain-of-six-glaciers.jpg",
+      "alt": "Dark cliffs and snow-covered peaks with a hanging glacier rise above a grey valley of rock and snow seen from the Plain of Six Glaciers trail.",
+      "author": "learningis1st",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plain_of_Six_Glaciers.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "place": "banff-national-park",
+    "slug": "larch-valley-sentinel-pass",
+    "name": "Larch Valley and Sentinel Pass",
+    "status": "draft",
+    "summary": "From Moraine Lake, switchbacks climb into a larch forest high above the lake, past the Minnestimma Lakes, then steeply up to Sentinel Pass at 2,611 m, a high point between Larch Valley and Paradise Valley.",
+    "details": {
+      "route": "Moraine Lake (trail starts just past Moraine Lake Lodge) through Larch Valley and past the Minnestimma Lakes to Sentinel Pass, and back the same way",
+      "distanceKm": 11.2,
+      "elevationGainM": 750,
+      "maxAltitudeM": 2611,
+      "duration": "4.5–5.5 h",
+      "difficulty": "challenging",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "permit": "No trail permit is needed, but you need a national park pass to visit Banff; shuttle tickets do not include park entry. Parks Canada often puts a restriction on the Larch Valley and Sentinel Pass trails in summer to protect grizzly bears: while it is in effect you must hike in a tight group of four or more. Check current bulletins before you go. Checked October 2026.",
+      "gettingThere": "Moraine Lake Road is closed to personal vehicles year-round. As published for 2026 (checked October 2026): the Parks Canada shuttle to Moraine Lake ran from June 1 to October 12 (weather permitting), reservation only, from the Lake Louise Park and Ride at the Lake Louise Ski Resort. Fares were CA$12.75 per adult, CA$6 per senior and CA$4 per youth, plus a CA$3.50 online reservation fee. Roam Transit Reservable Super Pass holders could also ride the Lake Connector shuttle.",
+      "tips": [
+        "Larch season (weekends in September) is one of the busiest times at Moraine Lake; book the shuttle early.",
+        "The trail is exposed to avalanche hazard, and Parks Canada does not recommend it from mid-October to mid-June.",
+        "The alpine vegetation in Larch Valley is fragile; stay on the trail.",
+        "Turning around in Larch Valley (4.5 km one way, 570 m gain, 3.5–4 h return) makes a shorter, moderate hike."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parks Canada — Banff National Park hiking (Larch Valley, Sentinel Pass via Larch Valley)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/activ/randonnee-hiking"
+      },
+      {
+        "label": "Parks Canada — Mount Temple scrambler's guide (Sentinel Pass elevation, group restriction)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/activ/escalade-scrambling/temple"
+      },
+      {
+        "label": "Parks Canada — Visiting Lake Louise and Moraine Lake: 2026 shuttle information",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise"
+      },
+      {
+        "label": "Parks Canada — Banff National Park fees (2026 shuttle fares)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/tarifs-fees"
+      },
+      {
+        "label": "Parks Canada — Lake Louise and Moraine Lake (busy times)",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/visit/les10-top10/louise"
+      },
+      {
+        "label": "Parks Canada — Banff trail conditions",
+        "url": "https://parks.canada.ca/pn-np/ab/banff/activ/randonnee-hiking/etat-sentiers-trail-conditions"
+      }
+    ],
+    "photo": {
+      "src": "/trails/banff-national-park--larch-valley-sentinel-pass.jpg",
+      "alt": "View down from Sentinel Pass over rocky slopes to two small blue lakes and golden larches in Larch Valley, with a row of snow-dusted peaks behind.",
+      "author": "Wilson Hui",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sentinel_Pass_-_Larch_Valley_(15809969418).jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "place": "torres-del-paine-national-park",
+    "slug": "w-trek",
+    "name": "W Trek",
+    "status": "draft",
+    "summary": "The park's classic multi-day trek: up to the granite towers at Base Torres, into the French Valley below Paine Grande, and out to Grey Glacier, sleeping in booked refugios or campsites along the way.",
+    "details": {
+      "route": "Hotel Las Torres to Paine Grande via Los Cuernos and Italiano, with out-and-back legs to Mirador Base Torres, Mirador Británico in the French Valley, and Grey",
+      "distanceKm": 75.7,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "3–5 days",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "permit": "2026–27 season rules (checked October 2026): buy your park entry online at pasesparques.cl at least 24 hours before you arrive. CONAF's 2026 price list gives 32,400 Chilean pesos for a foreign adult day pass and 48,500 for a stay of more than two days. Every night on the W must be booked in advance at the refugios and campsites run by Las Torres Patagonia or Vértice Patagonia; without a booking you cannot enter the mountain area. The winter rule requiring an accredited guide (April 27 to September 15, 2026) no longer applies.",
+      "gettingThere": "Four bus companies run from Puerto Natales to Laguna Amarga, Pudeto and the park administration, leaving at 7:30 and 14:30. Puerto Natales is 250 km by paved road from Punta Arenas. From Paine Grande at the end, cross Lago Pehoé by boat or walk 17 km to the park administration.",
+      "tips": [
+        "Register at every ranger station you reach; it is mandatory.",
+        "CONAF lists the climb from Guardería Torres to Mirador Base Torres (1.4 km, about 1 hour) as demanding, along a glacial moraine. The 5.4 km from Italiano to Mirador Británico is also rated demanding.",
+        "After heavy rain or snowmelt, rivers rise quickly. Do not try to cross if the water is above your knees.",
+        "There is no phone or internet signal on the park's interior trails, and the weather changes fast, so carry layers for rain, wind and snow.",
+        "The distance here adds up CONAF's official segment lengths for this route. Las Torres Patagonia's accommodation season for the W runs from September 15 to April 26."
+      ]
+    },
+    "sources": [
+      {
+        "label": "CONAF — Parque Nacional Torres del Paine (trail segments, access, Macizo Paine closure)",
+        "url": "https://www.conaf.cl/parques/parque-nacional-torres-del-paine/"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Reservation systems",
+        "url": "https://parquetorresdelpaine.cl/sistemas-de-reservas/"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Fees and hours 2026",
+        "url": "https://parquetorresdelpaine.cl/tarifas-y-horarios-2026/"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Recommendations for your trip 2026",
+        "url": "https://parquetorresdelpaine.cl/recomendaciones-para-su-viaje-2026/"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Home page notices (guide rule lifted from September 16)",
+        "url": "https://parquetorresdelpaine.cl/"
+      },
+      {
+        "label": "Pases Parques (CONAF ticketing) — Torres del Paine entry and 2026 notices",
+        "url": "https://www.pasesparques.cl/en/undefined-undefined/undefined-3412"
+      },
+      {
+        "label": "Las Torres Patagonia — W Circuit (booking and accommodation season)",
+        "url": "https://helpcenter.lastorres.com/en/help-center-las-torres-patagonia/w-circuit"
+      },
+      {
+        "label": "Vértice Patagonia — Accommodation in Torres del Paine",
+        "url": "https://www.vertice.travel/alojamientos-torres-del-paine/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/torres-del-paine-national-park--w-trek.jpg",
+      "alt": "A rocky glacial river runs between green forest in the French Valley, below the snow-covered rock walls of Paine Grande under a pale sky.",
+      "author": "Carlos Teixidor Cadenas",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cerro_Paine_Grande,_glaciar,_r%C3%ADo_y_valle_del_Franc%C3%A9s,_Cordillera_Paine,_Magallanes,_Chile.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "place": "torres-del-paine-national-park",
+    "slug": "o-circuit",
+    "name": "O Circuit (Paine Massif Circuit)",
+    "status": "draft",
+    "summary": "The full loop around the Paine Massif: the quieter north side through Serón, Dickson and Los Perros, over the John Gardner Pass above Grey Glacier, then back along the W. Closed until at least October 31, 2026.",
+    "details": {
+      "route": "One-way loop from Hotel Las Torres via Serón, Dickson, Los Perros, Paso, Grey, Paine Grande, Italiano and Los Cuernos, back to Hotel Las Torres",
+      "distanceKm": 92.9,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "8–10 days",
+      "difficulty": "strenuous",
+      "routeType": "loop",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "permit": "2026–27 season rules (checked October 2026): CONAF has closed the circuit until at least October 31, 2026. It will decide on reopening based on weather and safety and announce it through its official channels. At the last reopening (December 2025), CONAF capped the circuit at 100 people a day, made it one-way only, and required registration at Guardería Coirón. Park entry must be bought at pasesparques.cl at least 24 hours ahead, and every night must be booked with Las Torres Patagonia or Vértice Patagonia.",
+      "gettingThere": "Four bus companies run from Puerto Natales to Laguna Amarga, Pudeto and the park administration, leaving at 7:30 and 14:30. Puerto Natales is 250 km by paved road from Punta Arenas.",
+      "tips": [
+        "Check CONAF and Pases Parques before you book. After a fatal incident on November 17, 2025, CONAF closed the circuit and has reopened and closed it again since then. The Serón–Dickson, Dickson–Los Perros, Los Perros–Paso and Paso–Grey stretches are closed in winter.",
+        "CONAF rates Los Perros to Paso (8 km, about 6 hours, over the pass) and Paso to Grey (7 km, about 5 hours) as demanding. Between Grey and Paso there are two suspension bridges more than 20 m high.",
+        "Register at every ranger station, and at Los Perros and Paso also register when you leave.",
+        "After heavy rain or snowmelt, rivers rise quickly. Do not try to cross if the water is above your knees. There is no phone signal on the interior trails.",
+        "The distance here adds up CONAF's official segment lengths for the loop. Side trips to Mirador Británico (10.8 km return from Italiano) and Mirador Base Torres (18.8 km return from Hotel Las Torres) are extra."
+      ]
+    },
+    "sources": [
+      {
+        "label": "CONAF — Parque Nacional Torres del Paine (trail segments, access, Macizo Paine closure)",
+        "url": "https://www.conaf.cl/parques/parque-nacional-torres-del-paine/"
+      },
+      {
+        "label": "CONAF — CONAF reopens the O Circuit in Torres del Paine (December 5, 2025)",
+        "url": "https://www.conaf.cl/conaf-reabre-el-circuito-o-en-torres-del-paine/"
+      },
+      {
+        "label": "CONAF — Macizo Paine circuit remains closed (November 28, 2025)",
+        "url": "https://www.conaf.cl/mantencion-de-cierre-del-circuito-macizo-paine-del-parque-nacional-torres-del-paine/"
+      },
+      {
+        "label": "Pases Parques (CONAF ticketing) — Paine Massif circuit closed until October 31, 2026",
+        "url": "https://www.pasesparques.cl/en/undefined-undefined/undefined-3412"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Recommendations for your trip 2026",
+        "url": "https://parquetorresdelpaine.cl/recomendaciones-para-su-viaje-2026/"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Reservation systems",
+        "url": "https://parquetorresdelpaine.cl/sistemas-de-reservas/"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Daily trail report (one-way segments)",
+        "url": "https://parquetorresdelpaine.cl/6934-2/"
+      },
+      {
+        "label": "Las Torres Patagonia — Accommodation and booking",
+        "url": "https://lastorres.com/"
+      },
+      {
+        "label": "Vértice Patagonia — Accommodation in Torres del Paine",
+        "url": "https://www.vertice.travel/alojamientos-torres-del-paine/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/torres-del-paine-national-park--o-circuit.jpg",
+      "alt": "A narrow dirt trail runs along a green, shrubby slope high above the crevassed ice of Grey Glacier, with snowy mountains and white clouds beyond.",
+      "author": "Yiyo Zamorano",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glaciar_Grey_y_sendero_al_paso_John_Gardner.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "place": "los-glaciares-national-park",
+    "slug": "laguna-de-los-tres",
+    "name": "Laguna de los Tres",
+    "status": "draft",
+    "summary": "The classic day hike from El Chaltén: through forest past Laguna Capri and the Poincenot campsite, then a very steep last climb to a glacial lake right below Cerro Fitz Roy.",
+    "details": {
+      "route": "Fitz Roy trailhead in El Chaltén to Laguna de los Tres via Laguna Capri or the Fitz Roy viewpoint and the Poincenot campsite, back the same way",
+      "distanceKm": 20,
+      "elevationGainM": 750,
+      "maxAltitudeM": null,
+      "duration": "About 10 h return (official estimate)",
+      "difficulty": "challenging",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "permit": "Rules in force from June 1, 2026 (checked October 2026): entry to Los Glaciares through the El Chaltén gate is paid. The general rate is 50,000 Argentine pesos for a day pass, 100,000 for a 3-day Flexipass and 175,500 for a 7-day Flexipass (Argentine residents pay less). Buy online at ventaweb.apn.gob.ar. If you camp at Laguna Capri or Poincenot, you must book; these campsites are run by the Asociación Amigos del Parque Nacional Los Glaciares.",
+      "gettingThere": "El Chaltén is 213 km by road from El Calafate. The National Parks Visitor Center is just before you enter the village. From there it is about 2 km (20 minutes) to the start of the Fitz Roy trail at the north end of town.",
+      "tips": [
+        "The official brochure calls the trail very steep and dangerous when it is windy or rainy. Most of the climb comes in the last 2 km from Poincenot to the lake.",
+        "Plan your time so you are back in the village before dark. The weather in town is different from the weather in the mountains, and there is little or no phone signal.",
+        "From May to September the trails have ice, mud and snow, and crampons and poles are mandatory.",
+        "No fires anywhere in the park, no pets and no drones. Gas stoves are allowed only in designated camping areas, and you carry all your rubbish back to town."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parques Nacionales (APN) — Los Glaciares North Zone trails brochure, 2024 (English PDF)",
+        "url": "https://www.argentina.gob.ar/sites/default/files/2019/06/folleto_senderos_zona_norte_pnlg_ingles_2024.pdf"
+      },
+      {
+        "label": "Parques Nacionales (APN) — Recommendations for visiting Los Glaciares National Park",
+        "url": "https://www.argentina.gob.ar/parquesnacionales/patagonia-austral/recomendaciones-para-visitar-el-parque-nacional-los-glaciares"
+      },
+      {
+        "label": "Parques Nacionales (APN) — Access fees, from June 1, 2026 (Los Glaciares – Portada El Chaltén)",
+        "url": "https://www.argentina.gob.ar/node/131189"
+      },
+      {
+        "label": "Parques Nacionales (APN) — Los Glaciares: plan your visit",
+        "url": "https://www.argentina.gob.ar/parquesnacionales/losglaciares/actividades"
+      }
+    ],
+    "photo": {
+      "src": "/trails/los-glaciares-national-park--laguna-de-los-tres.jpg",
+      "alt": "The turquoise water of Laguna de los Tres lies in a basin of brown rock and gravel, below a glacier and granite peaks, with Fitz Roy's summit partly hidden in clouds.",
+      "author": "Almonroth",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laguna_de_los_Tres_color.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "place": "camino-frances",
+    "slug": "saint-jean-to-pamplona",
+    "name": "Saint-Jean-Pied-de-Port to Pamplona",
+    "status": "draft",
+    "summary": "The opening days of the Camino Francés: a long climb over the Pyrenees from France to Roncesvalles, then down through the Navarre valleys via Zubiri to Pamplona.",
+    "details": {
+      "route": "Saint-Jean-Pied-de-Port over the Pyrenees to Roncesvalles (Orreaga), then via Zubiri to Pamplona",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "3 days",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "No permit needed. Carry a Credencial (pilgrim passport) and get it stamped where you sleep; it gives access to pilgrim hostels. You can get one from the Pilgrim's Office, parish churches, pilgrim associations or hostels.",
+      "gettingThere": "Saint-Jean-Pied-de-Port (Pyrénées-Atlantiques, France) is on the regional TER line from Bayonne; check SNCF for any replacement buses. The pilgrim welcome office is at 39 rue de la Citadelle.",
+      "tips": [
+        "The high route over the pass (Route Napoléon) is closed from November 1 to March 31. In those months, and in bad weather, take the lower route through Luzaide/Valcarlos. Navarre's tourism board puts it at 16.6 km with 908 m of climbing from Valcarlos to Roncesvalles.",
+        "Navarre's tourism board rates the Pyrenees crossing as hard, so plan it as a full day. From Roncesvalles it measures 21.7 km to Zubiri and 20.3 km on to Pamplona, both rated medium."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Visit Navarra — The French Way of St James in Navarre (stages, distances, difficulty)",
+        "url": "https://www.visitnavarra.es/en/detalle-ruta/-/r/french-way-of-st-james"
+      },
+      {
+        "label": "Visit Navarra — Saint-Jean-Pied-de-Port to Roncesvalles (Valcarlos route, winter closure)",
+        "url": "https://www.visitnavarra.es/en/detalle-tramo/-/t/camino-santiago-frances-lepodeder-roncesvalles"
+      },
+      {
+        "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Credencial",
+        "url": "https://oficinadelperegrino.com/en/pilgrimage/the-credencial/"
+      },
+      {
+        "label": "Pays Basque tourism — Saint-Jean-Pied-de-Port (pilgrim welcome office)",
+        "url": "https://www.en-pays-basque.fr/en/territory-and-destination/saint-jean-pied-de-port-and-its-valleys/saint-jean-pied-de-port/"
+      },
+      {
+        "label": "Région Nouvelle-Aquitaine — TER lines of the Bayonne network (incl. Bayonne–Saint-Jean-Pied-de-Port)",
+        "url": "https://participez.nouvelle-aquitaine.fr/processes/TER-2025-Bayonne"
+      },
+      {
+        "label": "Spain.info (Turespaña) — The French Way of Saint James (best time to go)",
+        "url": "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/camino-frances--saint-jean-to-pamplona.jpg",
+      "alt": "A stone Camino waymark with a yellow scallop shell and arrow on blue stands on a grassy Pyrenees slope near the Lepoeder Pass, with a track and bare woods beyond.",
+      "author": "Hayden Soloviev",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camino_de_Santiago_Waymark_near_Lepoeder_Pass,_Pyrenees.jpg",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "place": "camino-frances",
+    "slug": "pamplona-to-burgos",
+    "name": "Pamplona to Burgos",
+    "status": "draft",
+    "summary": "From Pamplona west through Navarre by Puente la Reina and Estella-Lizarra, across La Rioja, and over the Montes de Oca to the city of Burgos.",
+    "details": {
+      "route": "Pamplona via Puente la Reina, Estella-Lizarra and Viana, through La Rioja, then via Belorado, San Juan de Ortega and Atapuerca to Burgos",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "To be confirmed",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "No permit needed. Carry a Credencial (pilgrim passport) and get it stamped where you sleep; it gives access to pilgrim hostels.",
+      "gettingThere": "Pamplona is the capital of Navarre and the end of the first section of the Camino Francés. The section ends in Burgos, in Castile and León.",
+      "tips": [
+        "Navarre's tourism board measures 23.8 km (405 m of climbing) from Pamplona to Puente la Reina and 25.5 km (404 m) from Puente la Reina to Estella-Lizarra, both rated medium.",
+        "From Villafranca Montes de Oca it is 12 km over the hills to San Juan de Ortega, which stands at 1,040 m, according to the Junta de Castilla y León.",
+        "After San Juan de Ortega there are two ways into Burgos; the more traditional one goes through Agés, Atapuerca, Cardeñuela Riopico, Orbaneja Riopico and Villafría."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Visit Navarra — The French Way of St James in Navarre (stages, distances, difficulty)",
+        "url": "https://www.visitnavarra.es/en/detalle-ruta/-/r/french-way-of-st-james"
+      },
+      {
+        "label": "Junta de Castilla y León (Turismo) — Camino de Santiago Francés por Castilla y León (leaflet, PDF)",
+        "url": "https://www.turismocastillayleon.com/es/caminoscyl.ficheros/252814-Camino%20de%20Santiago%20Franc%C3%A9s%20por%20Castilla%20y%20Le%C3%B3n.pdf"
+      },
+      {
+        "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Credencial",
+        "url": "https://oficinadelperegrino.com/en/pilgrimage/the-credencial/"
+      },
+      {
+        "label": "Spain.info (Turespaña) — The French Way of Saint James (regions, best time to go)",
+        "url": "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/camino-frances--pamplona-to-burgos.jpg",
+      "alt": "Rust-coloured iron silhouettes of medieval pilgrims, some on horses and donkeys, line the grassy ridge of Alto del Perdón, with farmland and hills below under grey clouds.",
+      "author": "Birgitta Hellman Magnusson",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alto_del_Perdon.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "place": "camino-frances",
+    "slug": "burgos-to-leon",
+    "name": "Burgos to León (the Meseta)",
+    "status": "draft",
+    "summary": "The Meseta: the wide, open plains between Burgos and León, through the provinces of Burgos, Palencia and León and small Camino towns such as Castrojeriz, Frómista and Sahagún.",
+    "details": {
+      "route": "Burgos via Hornillos del Camino, Hontanas, Castrojeriz, Frómista, Carrión de los Condes, Sahagún and Mansilla de las Mulas to León",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "To be confirmed",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "No permit needed. Carry a Credencial (pilgrim passport) and get it stamped where you sleep; it gives access to pilgrim hostels.",
+      "gettingThere": "The section starts in Burgos and ends in León, both cities in Castile and León.",
+      "tips": [
+        "From Calzada del Coto there are two ways to Mansilla de las Mulas: follow the main track, or take the route by the Dehesa de Valdelocajos and Calzadilla de los Hermanillos."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Junta de Castilla y León (Turismo) — Camino de Santiago Francés por Castilla y León (leaflet, PDF)",
+        "url": "https://www.turismocastillayleon.com/es/caminoscyl.ficheros/252814-Camino%20de%20Santiago%20Franc%C3%A9s%20por%20Castilla%20y%20Le%C3%B3n.pdf"
+      },
+      {
+        "label": "Junta de Castilla y León (Turismo) — Camino de Santiago Francés (route through Burgos, Palencia and León)",
+        "url": "https://www.turismocastillayleon.com/es/naturaleza/castilla-leon-bicicleta/camino-santiago-frances"
+      },
+      {
+        "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Credencial",
+        "url": "https://oficinadelperegrino.com/en/pilgrimage/the-credencial/"
+      },
+      {
+        "label": "Spain.info (Turespaña) — The French Way of Saint James (regions, best time to go)",
+        "url": "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/camino-frances--burgos-to-leon.jpg",
+      "alt": "A walker's long shadow falls on a pale concrete path running down from the Alto de Mostelares towards wide, golden harvested fields of the Meseta.",
+      "author": "Random username 083794703875938",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Por_el_Alto_de_Mostelares.jpg",
+      "license": "CC0 1.0 (public domain dedication)"
+    }
+  },
+  {
+    "place": "camino-frances",
+    "slug": "leon-to-sarria",
+    "name": "León to Sarria",
+    "status": "draft",
+    "summary": "From León to Astorga, up through the Montes de León to the Cruz de Ferro, down into El Bierzo, and over O Cebreiro into the green hills of Galicia to Sarria.",
+    "details": {
+      "route": "León via Astorga, Foncebadón and the Cruz de Ferro, Ponferrada, Villafranca del Bierzo, O Cebreiro and Triacastela to Sarria",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "To be confirmed",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "No permit needed. Carry a Credencial (pilgrim passport) and get it stamped where you sleep. In Galicia, the public pilgrim hostels cannot be booked: beds go in order of arrival (walkers before cyclists), for one night only, at €10 per person; doors open 13:00–22:00.",
+      "gettingThere": "The section starts in León (Castile and León) and ends in Sarria (Lugo, Galicia).",
+      "tips": [
+        "The climb through the Montes de León takes you past Foncebadón, at 1,439 m on the Junta de Castilla y León's figures, to the Cruz de Ferro.",
+        "O Cebreiro, where the Way enters Galicia, is at about 1,300 m. The Xunta measures 22.2 km on to Triacastela and rates it medium-high, with steep ups and downs.",
+        "From Triacastela you can choose between two routes to Sarria: by San Xil (17.9 km, mostly downhill through woodland) or by the monastery of Samos (25.1 km)."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Junta de Castilla y León (Turismo) — Camino de Santiago Francés por Castilla y León (leaflet, PDF)",
+        "url": "https://www.turismocastillayleon.com/es/caminoscyl.ficheros/252814-Camino%20de%20Santiago%20Franc%C3%A9s%20por%20Castilla%20y%20Le%C3%B3n.pdf"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage O Cebreiro–Triacastela",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-o-cebreiro-triacastela?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Triacastela–Sarria via San Xil",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-san-xil?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Triacastela–Sarria via Samos",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-samos?vid=V2"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Public pilgrim hostel network (rules, price, no reservations)",
+        "url": "https://www.caminodesantiago.gal/es/descubre/el-camino-en-la-actualidad/la-red-de-albergues-publicos"
+      },
+      {
+        "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Credencial",
+        "url": "https://oficinadelperegrino.com/en/pilgrimage/the-credencial/"
+      },
+      {
+        "label": "Spain.info (Turespaña) — The French Way of Saint James (best time to go)",
+        "url": "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/camino-frances--leon-to-sarria.jpg",
+      "alt": "A pilgrim with a red backpack and walking poles approaches the Cruz de Ferro, a tall wooden pole topped by a small iron cross on a mound of stones, under a clear blue sky.",
+      "author": "Random username 083794703875938",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cruz_de_Ferro,_y_peregrino_imgn01.jpg",
+      "license": "CC0 1.0 (public domain dedication)"
+    }
+  },
+  {
+    "place": "camino-frances",
+    "slug": "sarria-to-santiago",
+    "name": "Sarria to Santiago de Compostela",
+    "status": "draft",
+    "summary": "The last 100 km and more, the minimum walk for the Compostela: through Galician meadows, oak and eucalyptus woods and small stone villages, via Portomarín, Melide and Arzúa, to the cathedral in Santiago.",
+    "details": {
+      "route": "Sarria via Portomarín, Palas de Rei, Melide, Arzúa and Arca (O Pino) to Santiago de Compostela",
+      "distanceKm": 114.8,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "6 days",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "No permit needed. For the Compostela certificate, the Pilgrim's Office requires at least the last 100 continuous km on foot on the same route, ending at the Cathedral, with your Credencial stamped and dated at the start and end of each stage. Collect it at the Pilgrim's Office, Rúa Carretas 33, open every day 9:00–19:00 (closed December 25 and January 1); take a QR-code ticket for the queue. At busy times, same-day collection is not guaranteed. Galicia's public hostels cannot be booked: one night, €10.",
+      "gettingThere": "Start in Sarria (Lugo, Galicia). From Santiago de Compostela, high-speed trains run to Madrid, buses serve Galicia, Portugal and France, and the airport is about 10 km from the city.",
+      "tips": [
+        "The day out of Sarria starts with a steep descent to the A Áspera bridge, followed by the hardest climb of the stage. The Xunta rates Sarria to Portomarín (22 km) as medium-high.",
+        "Between Arzúa and A Salceda the Way follows and crosses the N-547 road several times, so watch for traffic.",
+        "From Monte do Gozo (380 m) you get your first view of the cathedral, about 5 km before the end.",
+        "The distance here adds up the Xunta's six official stages: 22, 25.1, 14.6, 14.5, 18.4 and 20.2 km."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Compostela",
+        "url": "https://oficinadelperegrino.com/en/pilgrimage/the-compostela/"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Sarria–Portomarín",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-sarria-portomarin?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Portomarín–Palas de Rei",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-portomarin-palas-de-rei?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Palas de Rei–Melide",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-palas-de-rei-melide?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Melide–Arzúa",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-melide-arzua?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Arzúa–Arca (O Pino)",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-arzua-arca?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Arca (O Pino)–Santiago de Compostela",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-arca-santiago-de-compostela?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Public pilgrim hostel network (rules, price, no reservations)",
+        "url": "https://www.caminodesantiago.gal/es/descubre/el-camino-en-la-actualidad/la-red-de-albergues-publicos"
+      },
+      {
+        "label": "Spain.info (Turespaña) — Santiago de Compostela (getting there: airport, train, bus)",
+        "url": "https://www.spain.info/en/destination/santiago-compostela/"
+      },
+      {
+        "label": "Spain.info (Turespaña) — The French Way of Saint James (best time to go)",
+        "url": "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/camino-frances--sarria-to-santiago.jpg",
+      "alt": "A quiet gravel lane of the Camino Francés runs between leaf-covered banks under tall oak and eucalyptus trees near Melide, Galicia.",
+      "author": "Simon Burchell",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camino_Franc%C3%A9s,_Penas,_Melide.jpg",
+      "license": "CC BY-SA 4.0"
+    }
   }
 ]

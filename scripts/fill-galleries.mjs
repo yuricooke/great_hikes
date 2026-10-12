@@ -8,7 +8,7 @@
  *
  * After a Commons run, copy the photos to our storage: node scripts/mirror-commons.mjs
  *
- * Usage: node scripts/fill-galleries.mjs --source commons --target 4 [slug…]
+ * Usage: node scripts/fill-galleries.mjs --source commons --target 4 [--query "words"] [slug…]
  */
 import { config } from "dotenv";
 import { readFile, writeFile } from "node:fs/promises";
@@ -23,6 +23,7 @@ const opt = (name, fallback) => {
 };
 const SOURCE = opt("source", "commons");
 const TARGET = Number(opt("target", "3"));
+const QUERY = opt("query", undefined); // custom search words (use with one slug)
 const only = argv;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const strip = (html = "") => html.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
@@ -43,7 +44,7 @@ async function unsplashFetch(url) {
 
 async function unsplash(hike, n, skip) {
   if (!KEY || n <= 0) return [];
-  const q = encodeURIComponent(`${hike.title} ${hike.country}`);
+  const q = encodeURIComponent(QUERY ?? `${hike.title} ${hike.country}`);
   const res = await unsplashFetch(`https://api.unsplash.com/search/photos?query=${q}&orientation=landscape&per_page=10&content_filter=high`);
   if (!res.ok) return [];
   const { results } = await res.json();

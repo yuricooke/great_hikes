@@ -1,0 +1,58 @@
+[
+  {
+    "place": "los-glaciares-national-park",
+    "slug": "laguna-de-los-tres",
+    "name": "Laguna de los Tres",
+    "status": "draft",
+    "summary": "The classic day hike from El Chaltén: through forest past Laguna Capri and the Poincenot campsite, then a very steep last climb to a glacial lake right below Cerro Fitz Roy.",
+    "details": {
+      "route": "Fitz Roy trailhead in El Chaltén to Laguna de los Tres via Laguna Capri or the Fitz Roy viewpoint and the Poincenot campsite, back the same way",
+      "distanceKm": 20,
+      "elevationGainM": 750,
+      "maxAltitudeM": null,
+      "duration": "About 10 h return (official estimate)",
+      "difficulty": "challenging",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "permit": "Rules in force from June 1, 2026 (checked October 2026): entry to Los Glaciares through the El Chaltén gate is paid. The general rate is 50,000 Argentine pesos for a day pass, 100,000 for a 3-day Flexipass and 175,500 for a 7-day Flexipass (Argentine residents pay less). Buy online at ventaweb.apn.gob.ar. If you camp at Laguna Capri or Poincenot, you must book; these campsites are run by the Asociación Amigos del Parque Nacional Los Glaciares.",
+      "gettingThere": "El Chaltén is 213 km by road from El Calafate. The National Parks Visitor Center is just before you enter the village. From there it is about 2 km (20 minutes) to the start of the Fitz Roy trail at the north end of town.",
+      "tips": [
+        "The official brochure calls the trail very steep and dangerous when it is windy or rainy. Most of the climb comes in the last 2 km from Poincenot to the lake.",
+        "Plan your time so you are back in the village before dark. The weather in town is different from the weather in the mountains, and there is little or no phone signal.",
+        "From May to September the trails have ice, mud and snow, and crampons and poles are mandatory.",
+        "No fires anywhere in the park, no pets and no drones. Gas stoves are allowed only in designated camping areas, and you carry all your rubbish back to town."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Parques Nacionales (APN) — Los Glaciares North Zone trails brochure, 2024 (English PDF)",
+        "url": "https://www.argentina.gob.ar/sites/default/files/2019/06/folleto_senderos_zona_norte_pnlg_ingles_2024.pdf"
+      },
+      {
+        "label": "Parques Nacionales (APN) — Recommendations for visiting Los Glaciares National Park",
+        "url": "https://www.argentina.gob.ar/parquesnacionales/patagonia-austral/recomendaciones-para-visitar-el-parque-nacional-los-glaciares"
+      },
+      {
+        "label": "Parques Nacionales (APN) — Access fees, from June 1, 2026 (Los Glaciares – Portada El Chaltén)",
+        "url": "https://www.argentina.gob.ar/node/131189"
+      },
+      {
+        "label": "Parques Nacionales (APN) — Los Glaciares: plan your visit",
+        "url": "https://www.argentina.gob.ar/parquesnacionales/losglaciares/actividades"
+      }
+    ],
+    "photo": {
+      "src": "/trails/los-glaciares-national-park--laguna-de-los-tres.jpg",
+      "alt": "The turquoise water of Laguna de los Tres lies in a basin of brown rock and gravel, below a glacier and granite peaks, with Fitz Roy's summit partly hidden in clouds.",
+      "author": "Almonroth",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laguna_de_los_Tres_color.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  }
+]
