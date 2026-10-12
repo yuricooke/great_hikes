@@ -1,0 +1,314 @@
+[
+  {
+    "place": "camino-frances",
+    "slug": "saint-jean-to-pamplona",
+    "name": "Saint-Jean-Pied-de-Port to Pamplona",
+    "status": "draft",
+    "summary": "The opening days of the Camino Francés: a long climb over the Pyrenees from France to Roncesvalles, then down through the Navarre valleys via Zubiri to Pamplona.",
+    "details": {
+      "route": "Saint-Jean-Pied-de-Port over the Pyrenees to Roncesvalles (Orreaga), then via Zubiri to Pamplona",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "3 days",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "No permit needed. Carry a Credencial (pilgrim passport) and get it stamped where you sleep; it gives access to pilgrim hostels. You can get one from the Pilgrim's Office, parish churches, pilgrim associations or hostels.",
+      "gettingThere": "Saint-Jean-Pied-de-Port (Pyrénées-Atlantiques, France) is on the regional TER line from Bayonne; check SNCF for any replacement buses. The pilgrim welcome office is at 39 rue de la Citadelle.",
+      "tips": [
+        "The high route over the pass (Route Napoléon) is closed from November 1 to March 31. In those months, and in bad weather, take the lower route through Luzaide/Valcarlos. Navarre's tourism board puts it at 16.6 km with 908 m of climbing from Valcarlos to Roncesvalles.",
+        "Navarre's tourism board rates the Pyrenees crossing as hard, so plan it as a full day. From Roncesvalles it measures 21.7 km to Zubiri and 20.3 km on to Pamplona, both rated medium."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Visit Navarra — The French Way of St James in Navarre (stages, distances, difficulty)",
+        "url": "https://www.visitnavarra.es/en/detalle-ruta/-/r/french-way-of-st-james"
+      },
+      {
+        "label": "Visit Navarra — Saint-Jean-Pied-de-Port to Roncesvalles (Valcarlos route, winter closure)",
+        "url": "https://www.visitnavarra.es/en/detalle-tramo/-/t/camino-santiago-frances-lepodeder-roncesvalles"
+      },
+      {
+        "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Credencial",
+        "url": "https://oficinadelperegrino.com/en/pilgrimage/the-credencial/"
+      },
+      {
+        "label": "Pays Basque tourism — Saint-Jean-Pied-de-Port (pilgrim welcome office)",
+        "url": "https://www.en-pays-basque.fr/en/territory-and-destination/saint-jean-pied-de-port-and-its-valleys/saint-jean-pied-de-port/"
+      },
+      {
+        "label": "Région Nouvelle-Aquitaine — TER lines of the Bayonne network (incl. Bayonne–Saint-Jean-Pied-de-Port)",
+        "url": "https://participez.nouvelle-aquitaine.fr/processes/TER-2025-Bayonne"
+      },
+      {
+        "label": "Spain.info (Turespaña) — The French Way of Saint James (best time to go)",
+        "url": "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/camino-frances--saint-jean-to-pamplona.jpg",
+      "alt": "A stone Camino waymark with a yellow scallop shell and arrow on blue stands on a grassy Pyrenees slope near the Lepoeder Pass, with a track and bare woods beyond.",
+      "author": "Hayden Soloviev",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camino_de_Santiago_Waymark_near_Lepoeder_Pass,_Pyrenees.jpg",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "place": "camino-frances",
+    "slug": "pamplona-to-burgos",
+    "name": "Pamplona to Burgos",
+    "status": "draft",
+    "summary": "From Pamplona west through Navarre by Puente la Reina and Estella-Lizarra, across La Rioja, and over the Montes de Oca to the city of Burgos.",
+    "details": {
+      "route": "Pamplona via Puente la Reina, Estella-Lizarra and Viana, through La Rioja, then via Belorado, San Juan de Ortega and Atapuerca to Burgos",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "To be confirmed",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "No permit needed. Carry a Credencial (pilgrim passport) and get it stamped where you sleep; it gives access to pilgrim hostels.",
+      "gettingThere": "Pamplona is the capital of Navarre and the end of the first section of the Camino Francés. The section ends in Burgos, in Castile and León.",
+      "tips": [
+        "Navarre's tourism board measures 23.8 km (405 m of climbing) from Pamplona to Puente la Reina and 25.5 km (404 m) from Puente la Reina to Estella-Lizarra, both rated medium.",
+        "From Villafranca Montes de Oca it is 12 km over the hills to San Juan de Ortega, which stands at 1,040 m, according to the Junta de Castilla y León.",
+        "After San Juan de Ortega there are two ways into Burgos; the more traditional one goes through Agés, Atapuerca, Cardeñuela Riopico, Orbaneja Riopico and Villafría."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Visit Navarra — The French Way of St James in Navarre (stages, distances, difficulty)",
+        "url": "https://www.visitnavarra.es/en/detalle-ruta/-/r/french-way-of-st-james"
+      },
+      {
+        "label": "Junta de Castilla y León (Turismo) — Camino de Santiago Francés por Castilla y León (leaflet, PDF)",
+        "url": "https://www.turismocastillayleon.com/es/caminoscyl.ficheros/252814-Camino%20de%20Santiago%20Franc%C3%A9s%20por%20Castilla%20y%20Le%C3%B3n.pdf"
+      },
+      {
+        "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Credencial",
+        "url": "https://oficinadelperegrino.com/en/pilgrimage/the-credencial/"
+      },
+      {
+        "label": "Spain.info (Turespaña) — The French Way of Saint James (regions, best time to go)",
+        "url": "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/camino-frances--pamplona-to-burgos.jpg",
+      "alt": "Rust-coloured iron silhouettes of medieval pilgrims, some on horses and donkeys, line the grassy ridge of Alto del Perdón, with farmland and hills below under grey clouds.",
+      "author": "Birgitta Hellman Magnusson",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alto_del_Perdon.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "place": "camino-frances",
+    "slug": "burgos-to-leon",
+    "name": "Burgos to León (the Meseta)",
+    "status": "draft",
+    "summary": "The Meseta: the wide, open plains between Burgos and León, through the provinces of Burgos, Palencia and León and small Camino towns such as Castrojeriz, Frómista and Sahagún.",
+    "details": {
+      "route": "Burgos via Hornillos del Camino, Hontanas, Castrojeriz, Frómista, Carrión de los Condes, Sahagún and Mansilla de las Mulas to León",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "To be confirmed",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "No permit needed. Carry a Credencial (pilgrim passport) and get it stamped where you sleep; it gives access to pilgrim hostels.",
+      "gettingThere": "The section starts in Burgos and ends in León, both cities in Castile and León.",
+      "tips": [
+        "From Calzada del Coto there are two ways to Mansilla de las Mulas: follow the main track, or take the route by the Dehesa de Valdelocajos and Calzadilla de los Hermanillos."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Junta de Castilla y León (Turismo) — Camino de Santiago Francés por Castilla y León (leaflet, PDF)",
+        "url": "https://www.turismocastillayleon.com/es/caminoscyl.ficheros/252814-Camino%20de%20Santiago%20Franc%C3%A9s%20por%20Castilla%20y%20Le%C3%B3n.pdf"
+      },
+      {
+        "label": "Junta de Castilla y León (Turismo) — Camino de Santiago Francés (route through Burgos, Palencia and León)",
+        "url": "https://www.turismocastillayleon.com/es/naturaleza/castilla-leon-bicicleta/camino-santiago-frances"
+      },
+      {
+        "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Credencial",
+        "url": "https://oficinadelperegrino.com/en/pilgrimage/the-credencial/"
+      },
+      {
+        "label": "Spain.info (Turespaña) — The French Way of Saint James (regions, best time to go)",
+        "url": "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/camino-frances--burgos-to-leon.jpg",
+      "alt": "A walker's long shadow falls on a pale concrete path running down from the Alto de Mostelares towards wide, golden harvested fields of the Meseta.",
+      "author": "Random username 083794703875938",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Por_el_Alto_de_Mostelares.jpg",
+      "license": "CC0 1.0 (public domain dedication)"
+    }
+  },
+  {
+    "place": "camino-frances",
+    "slug": "leon-to-sarria",
+    "name": "León to Sarria",
+    "status": "draft",
+    "summary": "From León to Astorga, up through the Montes de León to the Cruz de Ferro, down into El Bierzo, and over O Cebreiro into the green hills of Galicia to Sarria.",
+    "details": {
+      "route": "León via Astorga, Foncebadón and the Cruz de Ferro, Ponferrada, Villafranca del Bierzo, O Cebreiro and Triacastela to Sarria",
+      "distanceKm": null,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "To be confirmed",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "No permit needed. Carry a Credencial (pilgrim passport) and get it stamped where you sleep. In Galicia, the public pilgrim hostels cannot be booked: beds go in order of arrival (walkers before cyclists), for one night only, at €10 per person; doors open 13:00–22:00.",
+      "gettingThere": "The section starts in León (Castile and León) and ends in Sarria (Lugo, Galicia).",
+      "tips": [
+        "The climb through the Montes de León takes you past Foncebadón, at 1,439 m on the Junta de Castilla y León's figures, to the Cruz de Ferro.",
+        "O Cebreiro, where the Way enters Galicia, is at about 1,300 m. The Xunta measures 22.2 km on to Triacastela and rates it medium-high, with steep ups and downs.",
+        "From Triacastela you can choose between two routes to Sarria: by San Xil (17.9 km, mostly downhill through woodland) or by the monastery of Samos (25.1 km)."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Junta de Castilla y León (Turismo) — Camino de Santiago Francés por Castilla y León (leaflet, PDF)",
+        "url": "https://www.turismocastillayleon.com/es/caminoscyl.ficheros/252814-Camino%20de%20Santiago%20Franc%C3%A9s%20por%20Castilla%20y%20Le%C3%B3n.pdf"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage O Cebreiro–Triacastela",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-o-cebreiro-triacastela?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Triacastela–Sarria via San Xil",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-san-xil?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Triacastela–Sarria via Samos",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-triacastela-sarria-por-samos?vid=V2"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Public pilgrim hostel network (rules, price, no reservations)",
+        "url": "https://www.caminodesantiago.gal/es/descubre/el-camino-en-la-actualidad/la-red-de-albergues-publicos"
+      },
+      {
+        "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Credencial",
+        "url": "https://oficinadelperegrino.com/en/pilgrimage/the-credencial/"
+      },
+      {
+        "label": "Spain.info (Turespaña) — The French Way of Saint James (best time to go)",
+        "url": "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/camino-frances--leon-to-sarria.jpg",
+      "alt": "A pilgrim with a red backpack and walking poles approaches the Cruz de Ferro, a tall wooden pole topped by a small iron cross on a mound of stones, under a clear blue sky.",
+      "author": "Random username 083794703875938",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cruz_de_Ferro,_y_peregrino_imgn01.jpg",
+      "license": "CC0 1.0 (public domain dedication)"
+    }
+  },
+  {
+    "place": "camino-frances",
+    "slug": "sarria-to-santiago",
+    "name": "Sarria to Santiago de Compostela",
+    "status": "draft",
+    "summary": "The last 100 km and more, the minimum walk for the Compostela: through Galician meadows, oak and eucalyptus woods and small stone villages, via Portomarín, Melide and Arzúa, to the cathedral in Santiago.",
+    "details": {
+      "route": "Sarria via Portomarín, Palas de Rei, Melide, Arzúa and Arca (O Pino) to Santiago de Compostela",
+      "distanceKm": 114.8,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "6 days",
+      "difficulty": "moderate",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "permit": "No permit needed. For the Compostela certificate, the Pilgrim's Office requires at least the last 100 continuous km on foot on the same route, ending at the Cathedral, with your Credencial stamped and dated at the start and end of each stage. Collect it at the Pilgrim's Office, Rúa Carretas 33, open every day 9:00–19:00 (closed December 25 and January 1); take a QR-code ticket for the queue. At busy times, same-day collection is not guaranteed. Galicia's public hostels cannot be booked: one night, €10.",
+      "gettingThere": "Start in Sarria (Lugo, Galicia). From Santiago de Compostela, high-speed trains run to Madrid, buses serve Galicia, Portugal and France, and the airport is about 10 km from the city.",
+      "tips": [
+        "The day out of Sarria starts with a steep descent to the A Áspera bridge, followed by the hardest climb of the stage. The Xunta rates Sarria to Portomarín (22 km) as medium-high.",
+        "Between Arzúa and A Salceda the Way follows and crosses the N-547 road several times, so watch for traffic.",
+        "From Monte do Gozo (380 m) you get your first view of the cathedral, about 5 km before the end.",
+        "The distance here adds up the Xunta's six official stages: 22, 25.1, 14.6, 14.5, 18.4 and 20.2 km."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Pilgrim's Reception Office (Oficina del Peregrino) — The Compostela",
+        "url": "https://oficinadelperegrino.com/en/pilgrimage/the-compostela/"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Sarria–Portomarín",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-sarria-portomarin?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Portomarín–Palas de Rei",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-portomarin-palas-de-rei?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Palas de Rei–Melide",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-palas-de-rei-melide?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Melide–Arzúa",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-melide-arzua?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Arzúa–Arca (O Pino)",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-arzua-arca?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Camino Francés, stage Arca (O Pino)–Santiago de Compostela",
+        "url": "https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-frances/etapa-arca-santiago-de-compostela?vid=V1"
+      },
+      {
+        "label": "Xacobeo / Xunta de Galicia — Public pilgrim hostel network (rules, price, no reservations)",
+        "url": "https://www.caminodesantiago.gal/es/descubre/el-camino-en-la-actualidad/la-red-de-albergues-publicos"
+      },
+      {
+        "label": "Spain.info (Turespaña) — Santiago de Compostela (getting there: airport, train, bus)",
+        "url": "https://www.spain.info/en/destination/santiago-compostela/"
+      },
+      {
+        "label": "Spain.info (Turespaña) — The French Way of Saint James (best time to go)",
+        "url": "https://www.spain.info/en/camino-santiago/french-way-camino-santiago/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/camino-frances--sarria-to-santiago.jpg",
+      "alt": "A quiet gravel lane of the Camino Francés runs between leaf-covered banks under tall oak and eucalyptus trees near Melide, Galicia.",
+      "author": "Simon Burchell",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camino_Franc%C3%A9s,_Penas,_Melide.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  }
+]

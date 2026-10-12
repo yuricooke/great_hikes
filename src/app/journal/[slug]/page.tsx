@@ -97,10 +97,12 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
       <div className={styles.column}>
         <ArticleBody blocks={article.blocks} inlinePromo={inlinePromo} />
         {article.sources.length > 0 && (
-          <section className={styles.sources} aria-labelledby="sources-title">
-            <h2 id="sources-title" className={styles.sourcesTitle}>
-              Sources
-            </h2>
+          <details className={styles.sources}>
+            <summary>
+              <h2 id="sources-title" className={styles.sourcesTitle}>
+                Sources
+              </h2>
+            </summary>
             <ul>
               {article.sources.map((s) => (
                 <li key={s.url}>
@@ -110,7 +112,7 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
                 </li>
               ))}
             </ul>
-          </section>
+          </details>
         )}
       </div>
 

@@ -1,0 +1,108 @@
+{
+  "id": 55,
+  "slug": "alta-via-1",
+  "title": "Alta Via 1",
+  "continent": "Europe",
+  "country": "Italy",
+  "biome": "Dolomites",
+  "landscapes": [
+    "mountains",
+    "waterfalls"
+  ],
+  "description": "The classic hut-to-hut trek through the Dolomites, about 125 km from Lago di Braies south to the city of Belluno. It is usually walked in 12 stages, sleeping in mountain huts along the way.",
+  "hikingExplained": "Alta Via 1, the Alta Via delle Dolomiti n. 1, crosses the eastern Dolomites from north to south through the Dolomites UNESCO World Heritage Site. It starts at Lago di Braies in South Tyrol and ends in Belluno, in the Veneto. Most of the route is in the Province of Belluno. In total it is about 125 km with roughly 7,300 m of ascent and 8,400 m of descent, and the usual plan is 12 stages of 3 to 8 hours each.\n\nThe standard stages listed by the Italian Alpine Club (CAI) go from hut to hut: Biella, Fanes, Lagazuoi, Cinque Torri, Croda da Lago, Passo Staulanza, Tissi, Carestiato, Sommariva al Pramperét, Pian de Fontana and 7° Alpini, then down to Belluno. The highest night is at Rifugio Lagazuoi, at 2,752 m. The CAI describes the basic route as not especially demanding for a good hiker, and the hardest sections have fixed protection. The exception is the end. Between Pian de Fontana and Rifugio 7° Alpini, the main line uses the Ferrata Piero Rossi on the Schiara, which is for experts only. A longer, steep footpath avoids it. The last day is mostly downhill, about 1,900 m from the 7° Alpini hut to Belluno at 389 m.\n\nThere are several variants, including via ferratas and summit climbs for experienced hikers, so stage lists and times differ a little between sources. Many people also walk only part of the route.",
+  "officialUrl": "https://prenotarifugi.cai.it/en/itinerario/high-way-no-1-dolomiti",
+  "map": "/maps/Europe.svg",
+  "photo": {
+    "src": "/hikes/alta-via-1.jpg",
+    "alt": "A gravel path with two hikers crosses green pasture toward the Cinque Torri rock towers, with the Tofana di Rozes massif on the left, in the Dolomites.",
+    "author": "Ka23 13",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tofana_CinqueTorri_20170725.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 46.6944,
+    "lng": 12.0854
+  },
+  "details": {
+    "route": "Lago di Braies to Belluno, north to south, in 12 hut-to-hut stages (CAI standard stages)",
+    "distanceKm": 125,
+    "elevationGainM": 7300,
+    "maxAltitudeM": 2752,
+    "duration": "About 12 days",
+    "difficulty": "challenging",
+    "routeType": "point-to-point",
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "permit": null,
+    "gettingThere": "The trek starts at Lago di Braies (Pragser Wildsee). Buses run to the valley from Welsberg/Monguelfo, Niederdorf/Villabassa and Toblach/Dobbiaco in the Puster Valley. From 1 July to 15 September 2026, the Braies valley was open from 9:30 am to 4 pm only to public transport, walkers, cyclists and people with an online reservation, and the shuttle to the lake had to be booked and paid online in advance. At the end, from Bolzano Bellunese, just above Belluno, you can walk into the city or take a taxi or public transport.",
+    "tips": [
+      "Book each night in advance. Some huts on the route can be booked on the CAI's online platform (prenotarifugi.cai.it); others take bookings on their own websites or by phone and email, and some ask for a card deposit. Opening dates and booking rules change each year, so check every hut directly (checked October 2026).",
+      "Huts are generally open from about mid-June to mid-September (Rifugio Biella and Rifugio 7° Alpini both give these dates). Plan your trek inside that window and confirm each hut's dates for your year.",
+      "Stage 11, from Pian de Fontana to Rifugio 7° Alpini, uses the Ferrata Piero Rossi on the Schiara and is rated for experts. Only take it with via ferrata experience and equipment. Otherwise, use the footpath alternative via Forcella Pis Pilon (about 13 km and 8 hours, very steep in places).",
+      "In summer, check the Braies valley access rules on prags.bz before you travel, and book the lake shuttle early if you need it."
+    ]
+  },
+  "sources": [
+    {
+      "label": "CAI Prenotarifugi (Italian Alpine Club): Alta Via delle Dolomiti n. 1 (125 km, 7,300 m of ascent, 12 stages, huts, stage times, difficulty, UNESCO, booking platform)",
+      "url": "https://prenotarifugi.cai.it/en/itinerario/high-way-no-1-dolomiti"
+    },
+    {
+      "label": "Visit Dolomiti Bellunesi (Belluno tourism): Alta Via delle Dolomiti n. 1 (about 125 km, 7,300 m of ascent, 12 stages, Lago di Braies to Belluno)",
+      "url": "https://www.visitdolomitibellunesi.com/it/brochures/alta-via-delle-dolomiti-n-1"
+    },
+    {
+      "label": "Rifugio Biella: Alta Via n. 1 (north to south, mostly in the Province of Belluno, about 12 days, 8,400 m of descent, stage 1, online booking)",
+      "url": "https://rifugiobiella.it/en/routes/alta-via-n1/"
+    },
+    {
+      "label": "Cortina d'Ampezzo tourism (Cortina Marketing): Alta Via N.1 stage list",
+      "url": "https://cortina.dolomiti.org/en/summer/what-to-do/activities/trekking/alta-via-n-1/"
+    },
+    {
+      "label": "Cortina d'Ampezzo tourism: Alta Via N.1 Stage 1 (Lago di Braies, Rifugio Biella 2,327 m, open mid-June to mid-September)",
+      "url": "https://cortina.dolomiti.org/en/escursioni/alta-via-n-1-stage-1-en"
+    },
+    {
+      "label": "Cortina d'Ampezzo tourism: Alta Via N.1 Stage 11 (Ferrata Piero Rossi for experts, Forcella Pis Pilon alternative, Rifugio 7° Alpini open mid-June to mid-September)",
+      "url": "https://cortina.dolomiti.org/it/escursioni/alta-via-n-1-stage-11"
+    },
+    {
+      "label": "Cortina d'Ampezzo tourism: Alta Via N.1 Stage 12 (about 1,900 m of descent, Bolzano Bellunese, Belluno 389 m)",
+      "url": "https://cortina.dolomiti.org/en/escursioni/alta-via-n-1-stage-12/"
+    },
+    {
+      "label": "Lagazuoi: Rifugio Lagazuoi (2,752 m)",
+      "url": "https://lagazuoi.it/EN/Discover-Services-page23-Lagazuoi-refuge"
+    },
+    {
+      "label": "Rifugio Lagazuoi: official website and booking (card deposit)",
+      "url": "https://rifugiolagazuoi.com/index_en.php"
+    },
+    {
+      "label": "Kronplatz tourism: Getting to the Braies valley (2026 summer access rules, lake shuttle booking)",
+      "url": "https://www.kronplatz.com/en/planning-booking/local-mobility/to-braies-valley-and-three-peaks"
+    },
+    {
+      "label": "Drei Zinnen Dolomites (tourism association): Lake Prags (buses from Niederdorf, Welsberg and Toblach)",
+      "url": "https://www.dreizinnen.com/en/region/highlights/lake-prags"
+    },
+    {
+      "label": "Prags/Braies: official arrival and access information",
+      "url": "https://www.prags.bz/en"
+    },
+    {
+      "label": "OpenStreetMap: Lago di Braies (trek start)",
+      "url": "https://www.openstreetmap.org/search?query=Lago%20di%20Braies"
+    }
+  ],
+  "checkedAt": "2026-10-12",
+  "instagram": [],
+  "gallery": []
+}

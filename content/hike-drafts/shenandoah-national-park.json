@@ -1,0 +1,112 @@
+{
+  "id": 52,
+  "slug": "shenandoah-national-park",
+  "title": "Shenandoah National Park",
+  "continent": "North America",
+  "country": "United States",
+  "biome": "Temperate deciduous forest",
+  "landscapes": [
+    "mountains",
+    "forests"
+  ],
+  "description": "A long, narrow national park on the Blue Ridge in Virginia, with more than 500 miles of trails. Its best-known hike is the Old Rag circuit, a 9.4-mile loop with a rock scramble on the way to a 3,291 ft summit.",
+  "hikingExplained": "Old Rag is the most popular destination in Shenandoah National Park, and the park rates its circuit hike as very strenuous. The loop is 9.4 miles (15.1 km) with 2,348 feet (716 m) of elevation gain, and the park suggests planning 6 to 10 hours. From the Old Rag parking area you follow the blue-blazed Ridge Trail up to the rock scramble, where you scramble over large boulders on the way to the 3,291 ft (1,003 m) summit. You come down on the Saddle Trail past Byrds Nest 1 and Old Rag shelters, then turn right onto the yellow-blazed Weakley Hollow Fire Road, and finish on the Ridge Access Trail and the Ridge Trail back to the start. There is no water on the mountain, cell and GPS service are unreliable, and there can be long waits at narrow parts of the scramble, so start early and carry a headlamp. If you want the summit without the scramble, the park also describes a 5.4-mile out-and-back from Berry Hollow on the Saddle Trail, though parking there is very limited.\n\nFrom March 1 to November 30 you need an Old Rag day-use ticket, bought in advance, on top of the park entrance pass. Pets are not allowed on the Ridge, Saddle and Ridge Access trails.\n\nShenandoah has many shorter classics along Skyline Drive. Upper Hawksbill climbs to the park's highest peak in 2.1 miles round trip. Stony Man is a 1.6-mile round trip to a viewpoint, starting from Skyline Drive at mile 41.7. Dark Hollow Falls is a steep 1.4-mile walk down to a waterfall and back up again. Whiteoak Canyon's upper falls are a 4.6-mile round trip with about 1,040 feet of climbing on the way back.",
+  "officialUrl": "https://www.nps.gov/shen/index.htm",
+  "map": "/maps/NorthAmerica.svg",
+  "photo": {
+    "src": "/hikes/shenandoah-national-park.jpg",
+    "alt": "View from the granite boulders on top of Old Rag Mountain over forested Blue Ridge hills in autumn colors, with a gnarled pine in the foreground and a partly cloudy sky.",
+    "author": "Katy Cain / National Park Service (Shenandoah National Park)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atop_Old_Rag_Mountain_(28219264562).jpg",
+    "license": "Public domain (work of a U.S. National Park Service employee)"
+  },
+  "photoDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Atop_Old_Rag_Mountain_%2828219264562%29.jpg",
+  "status": "draft",
+  "location": {
+    "lat": 38.5518,
+    "lng": -78.3142
+  },
+  "details": {
+    "route": "Old Rag circuit: Ridge Trail and rock scramble to the summit, down the Saddle Trail, back on Weakley Hollow Fire Road, the Ridge Access Trail and the Ridge Trail",
+    "distanceKm": 15.1,
+    "elevationGainM": 716,
+    "maxAltitudeM": 1003,
+    "duration": "6–10 h",
+    "difficulty": "strenuous",
+    "routeType": "loop",
+    "bestMonths": [
+      9,
+      10,
+      11
+    ],
+    "permit": "From March 1 to November 30, every hiker of any age needs an Old Rag day-use ticket ($2 per person in 2026), booked in advance on Recreation.gov; tickets are not sold at the trailhead. You also need a park entrance pass ($30 per vehicle for 7 days in 2026). Checked October 2026.",
+    "gettingThere": "The Old Rag parking area is on the park's east boundary, outside Skyline Drive. From Sperryville, take Route 522 south for 0.8 mile, turn right on Route 231 for 8 miles, then right on Route 601 and follow the signs for about 3 miles. From Madison, take Route 231 for 12.8 miles, turn left on Route 602 and follow the signs for about 3 miles. In 2026 the main lot was closed for construction expected to finish by November 2026, with Lot 2 and the overflow lot on Nethers Road open, so check current parking before you go.",
+    "tips": [
+      "Day-use tickets are released on Recreation.gov at 10 a.m. Eastern: 400 tickets 30 days ahead and 400 more 5 days ahead. A ticket does not guarantee a parking space, so arrive early and carpool if you can.",
+      "Do not climb Old Rag when the rocks are wet or icy. Bring sturdy shoes, extra layers, food, a flashlight and plenty of water, because there is no water on the mountain.",
+      "Note the blue numbers painted on the rocks as you hike. In an emergency, tell responders the nearest number. The park emergency line is 1-800-732-0911.",
+      "Fall is the park's busiest season, and fall weekends bring large crowds. Go on a weekday if you can."
+    ]
+  },
+  "sources": [
+    {
+      "label": "NPS — Old Rag Circuit (9.4 miles, 2,348 ft gain, very strenuous, route)",
+      "url": "https://www.nps.gov/places/000/old-rag-circuit.htm"
+    },
+    {
+      "label": "NPS — Old Rag Area map and trail sheet, 06/2024 (6–10 hours, summit 3,291 ft, Berry Hollow route, safety, directions, pets)",
+      "url": "https://www.nps.gov/shen/planyourvisit/upload/OldRag_RoadTrail.pdf"
+    },
+    {
+      "label": "NPS — Old Rag Day-use Ticket FAQ (March 1–November 30, $2, every person needs a ticket)",
+      "url": "https://www.nps.gov/shen/planyourvisit/faqs-oldrag.htm"
+    },
+    {
+      "label": "NPS — Hikes to Old Rag (most popular destination, 2026 parking construction)",
+      "url": "https://www.nps.gov/shen/planyourvisit/hikes-oldrag.htm"
+    },
+    {
+      "label": "Recreation.gov — Old Rag Mountain Hike Day-use Ticket (release schedule, 2026 parking lot project)",
+      "url": "https://www.recreation.gov/ticket/facility/10088450"
+    },
+    {
+      "label": "NPS — Fees & Passes ($30 private vehicle, 7 days)",
+      "url": "https://www.nps.gov/shen/planyourvisit/fees.htm"
+    },
+    {
+      "label": "NPS — Old Rag View Overlook (summit 3,291 ft / 1,003 m)",
+      "url": "https://www.nps.gov/places/000/old-rag-view-overlook.htm"
+    },
+    {
+      "label": "NPS — Hiking (over 500 miles of trails, emergency number)",
+      "url": "https://www.nps.gov/shen/planyourvisit/hiking.htm"
+    },
+    {
+      "label": "NPS — Fall in Shenandoah (late September–November, busiest season, crowds)",
+      "url": "https://www.nps.gov/shen/planyourvisit/fall.htm"
+    },
+    {
+      "label": "NPS — Upper Hawksbill Summit (2.1 miles, highest peak in the park)",
+      "url": "https://www.nps.gov/places/000/upper-hawksbill-summit.htm"
+    },
+    {
+      "label": "NPS — Stony Man (1.6 miles round trip)",
+      "url": "https://www.nps.gov/places/000/stony-man.htm"
+    },
+    {
+      "label": "NPS — Dark Hollow Falls (1.4 miles, steep and rocky)",
+      "url": "https://www.nps.gov/places/000/dark-hollow-falls.htm"
+    },
+    {
+      "label": "NPS — Upper Whiteoak Falls (4.6 miles round trip, 1,040 ft gain)",
+      "url": "https://www.nps.gov/places/upper-whiteoak-falls.htm"
+    },
+    {
+      "label": "OpenStreetMap — Old Rag Mountain summit",
+      "url": "https://www.openstreetmap.org/node/356564264"
+    }
+  ],
+  "checkedAt": "2026-10-12",
+  "instagram": [],
+  "gallery": []
+}

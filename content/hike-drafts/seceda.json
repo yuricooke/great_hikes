@@ -1,0 +1,109 @@
+{
+  "id": 56,
+  "slug": "seceda",
+  "title": "Seceda ridge",
+  "continent": "Europe",
+  "country": "Italy",
+  "biome": "Alpine meadows and limestone peaks",
+  "landscapes": [
+    "mountains"
+  ],
+  "description": "A 2,519 m summit in Puez-Odle Nature Park, above Val Gardena in the Dolomites, with cliffside views of the Odle (Geisler) peaks and the Fermeda towers. Hike up from S. Cristina or take the cable car from Ortisei.",
+  "hikingExplained": "Seceda is on the sunny side of Val Gardena, in Puez-Odle Nature Park, part of the Dolomites UNESCO World Heritage Site. From the summit cross at 2,519 m you look along the Odle (Geisler) peaks and the Fermeda towers. \"Odles\" means \"needles\" in Ladin, one of the valley's three official languages. On clear days the 360° view also takes in the Sella Group, Sassolungo, the Alpe di Siusi and the main Alpine ridge.\n\nThis route is the Val Gardena tourism board's moderate hike from S. Cristina. It starts at the valley station of the Col Raiser cable car and follows the Troi de Frëines (trail 4B), then the Troi dla Schirlates (trail 4), then trail 1A. In total it is 7.9 km with about 995 m of climbing and takes about 3 hours 50 minutes. The last 3.5 km, on trail 1A, gains about 560 m. The route ends where the Seceda Ridge Line begins. The ridge itself is about 1 km long, starts at the top station of the Seceda cable car and leads up to the summit cross. Allow about an hour for it with stops.\n\nIf you want a shorter day, ride the Col Raiser cable car up and walk from its top station. According to the tourism board, that takes 1 to 2 hours with about 500 m of climbing. For the way down, the Seceda cable car runs via Furnes to Ortisei.",
+  "officialUrl": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/",
+  "map": "/maps/Europe.svg",
+  "photo": {
+    "src": "/hikes/seceda.jpg",
+    "alt": "The jagged Odle peaks of Seceda rising above a steep, layered rock ridge, under a deep blue sky streaked with wispy white clouds, with valleys and mountains to the left.",
+    "author": "mendhak",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sweeping_Seceda_(38225459035).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 46.6007,
+    "lng": 11.7256
+  },
+  "details": {
+    "route": "From the Col Raiser valley station (S. Cristina) on trails 4B, 4 and 1A to the start of the Seceda Ridge Line",
+    "distanceKm": 7.9,
+    "elevationGainM": 995,
+    "maxAltitudeM": 2519,
+    "duration": "About 4 h up",
+    "difficulty": "moderate",
+    "routeType": "point-to-point",
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "permit": null,
+    "gettingThere": "The Col Raiser valley station above S. Cristina is served by a free shuttle bus from Dosses Square and by bus lines 358 and 356. Parking there is limited and paid, so public transport is the better choice. To get back down, take the Seceda cable car (via Furnes) to Ortisei.",
+    "tips": [
+      "Checked October 2026: the Seceda cable cars (Ortisei–Furnes and Furnes–Seceda) run from 22 May to 2 November 2026, 8:30 am to 5 pm. The Col Raiser cable car runs until 1 November. The Dolomiti Supersummer card is not valid on the Seceda lifts, and buying your ticket online in advance is recommended.",
+      "Checked October 2026: the Val Gardena tourism board lists a turnstile (€5) on trail 6, the descent east from the summit cross towards the Panascharte saddle (Forcella Pana). The board notes that this section isn't needed for the views.",
+      "Stay on marked trails and don't walk across the meadows or climb over fences. The pastures are private land managed by local farmers.",
+      "Flying drones on Seceda is not allowed, and wild camping is strictly prohibited.",
+      "Some sections can still be under snow early in the summer season. Check the weather forecast and the webcams before you go, and wear boots with good grip."
+    ]
+  },
+  "sources": [
+    {
+      "label": "Val Gardena tourism board — Seceda (summit 2,519 m, Puez-Odle Nature Park, views, Odles name)",
+      "url": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/"
+    },
+    {
+      "label": "Val Gardena tourism board — Seceda Ridge Line from S. Cristina via Col Raiser valley station (7.9 km, 995 m, 3:50 h, moderate, trails, access, €5 turnstile)",
+      "url": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-from-s-cristina-via-col-raiser-valley-station-troi-de-freeines/810055442/"
+    },
+    {
+      "label": "Val Gardena tourism board — Seceda Ridge Line (about 1 km, about 1 hour, €5 turnstile on trail 6)",
+      "url": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/ridge-line/"
+    },
+    {
+      "label": "Val Gardena tourism board — The way to the Seceda (Col Raiser shortcut, lifts, parking)",
+      "url": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/the-way-to-the-seceda/"
+    },
+    {
+      "label": "Val Gardena tourism board — Seceda tips & rules of conduct (drones, camping, trails, fences)",
+      "url": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/tips-rules-of-conduct/"
+    },
+    {
+      "label": "Val Gardena tourism board — Seceda best time to visit (season, snow, webcams)",
+      "url": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/best-time-to-visit/"
+    },
+    {
+      "label": "Val Gardena tourism board — Seceda good to know (Ladin language)",
+      "url": "https://www.valgardena.it/en/summer-holidays-dolomites/trekking/seceda/good-to-know/"
+    },
+    {
+      "label": "Val Gardena tourism board — Lift opening times summer 2026",
+      "url": "https://www.valgardena.it/en/summer-holidays-dolomites/lifts/"
+    },
+    {
+      "label": "Seceda AG (lift company) — Opening times, tickets, Dolomiti Supersummer not valid",
+      "url": "https://www.seceda.it/en/"
+    },
+    {
+      "label": "South Tyrol (IDM Südtirol) — Seceda Ridge Line from Col Raiser mountain station (trail 1A, €5 turnstile, snow early in the season)",
+      "url": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoid219139423c32313f1510b254d89e3a7.seceda---ridge-line-from-col-raiser-mountain-station.selva-selva-di-val-gardena"
+    },
+    {
+      "label": "Autonomous Province of Bolzano — Puez-Geisler / Puez-Odle Nature Park",
+      "url": "https://nature-parks.province.bz.it/en/puez-geisler-puez-odle-nature-park"
+    },
+    {
+      "label": "Alta Badia tourism board — Puez-Odle Nature Park (UNESCO World Heritage)",
+      "url": "https://www.altabadia.org/en/italian-alps-dolomites/alta-badia/natural-park-puez-odle.html"
+    },
+    {
+      "label": "Wikidata — Summit cross of Seceda (coordinates)",
+      "url": "https://www.wikidata.org/wiki/Q122229755"
+    }
+  ],
+  "checkedAt": "2026-10-12",
+  "instagram": [],
+  "gallery": []
+}

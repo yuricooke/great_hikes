@@ -1,0 +1,152 @@
+[
+  {
+    "place": "torres-del-paine-national-park",
+    "slug": "w-trek",
+    "name": "W Trek",
+    "status": "draft",
+    "summary": "The park's classic multi-day trek: up to the granite towers at Base Torres, into the French Valley below Paine Grande, and out to Grey Glacier, sleeping in booked refugios or campsites along the way.",
+    "details": {
+      "route": "Hotel Las Torres to Paine Grande via Los Cuernos and Italiano, with out-and-back legs to Mirador Base Torres, Mirador Británico in the French Valley, and Grey",
+      "distanceKm": 75.7,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "3–5 days",
+      "difficulty": "challenging",
+      "routeType": "point-to-point",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "permit": "2026–27 season rules (checked October 2026): buy your park entry online at pasesparques.cl at least 24 hours before you arrive. CONAF's 2026 price list gives 32,400 Chilean pesos for a foreign adult day pass and 48,500 for a stay of more than two days. Every night on the W must be booked in advance at the refugios and campsites run by Las Torres Patagonia or Vértice Patagonia; without a booking you cannot enter the mountain area. The winter rule requiring an accredited guide (April 27 to September 15, 2026) no longer applies.",
+      "gettingThere": "Four bus companies run from Puerto Natales to Laguna Amarga, Pudeto and the park administration, leaving at 7:30 and 14:30. Puerto Natales is 250 km by paved road from Punta Arenas. From Paine Grande at the end, cross Lago Pehoé by boat or walk 17 km to the park administration.",
+      "tips": [
+        "Register at every ranger station you reach; it is mandatory.",
+        "CONAF lists the climb from Guardería Torres to Mirador Base Torres (1.4 km, about 1 hour) as demanding, along a glacial moraine. The 5.4 km from Italiano to Mirador Británico is also rated demanding.",
+        "After heavy rain or snowmelt, rivers rise quickly. Do not try to cross if the water is above your knees.",
+        "There is no phone or internet signal on the park's interior trails, and the weather changes fast, so carry layers for rain, wind and snow.",
+        "The distance here adds up CONAF's official segment lengths for this route. Las Torres Patagonia's accommodation season for the W runs from September 15 to April 26."
+      ]
+    },
+    "sources": [
+      {
+        "label": "CONAF — Parque Nacional Torres del Paine (trail segments, access, Macizo Paine closure)",
+        "url": "https://www.conaf.cl/parques/parque-nacional-torres-del-paine/"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Reservation systems",
+        "url": "https://parquetorresdelpaine.cl/sistemas-de-reservas/"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Fees and hours 2026",
+        "url": "https://parquetorresdelpaine.cl/tarifas-y-horarios-2026/"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Recommendations for your trip 2026",
+        "url": "https://parquetorresdelpaine.cl/recomendaciones-para-su-viaje-2026/"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Home page notices (guide rule lifted from September 16)",
+        "url": "https://parquetorresdelpaine.cl/"
+      },
+      {
+        "label": "Pases Parques (CONAF ticketing) — Torres del Paine entry and 2026 notices",
+        "url": "https://www.pasesparques.cl/en/undefined-undefined/undefined-3412"
+      },
+      {
+        "label": "Las Torres Patagonia — W Circuit (booking and accommodation season)",
+        "url": "https://helpcenter.lastorres.com/en/help-center-las-torres-patagonia/w-circuit"
+      },
+      {
+        "label": "Vértice Patagonia — Accommodation in Torres del Paine",
+        "url": "https://www.vertice.travel/alojamientos-torres-del-paine/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/torres-del-paine-national-park--w-trek.jpg",
+      "alt": "A rocky glacial river runs between green forest in the French Valley, below the snow-covered rock walls of Paine Grande under a pale sky.",
+      "author": "Carlos Teixidor Cadenas",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cerro_Paine_Grande,_glaciar,_r%C3%ADo_y_valle_del_Franc%C3%A9s,_Cordillera_Paine,_Magallanes,_Chile.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "place": "torres-del-paine-national-park",
+    "slug": "o-circuit",
+    "name": "O Circuit (Paine Massif Circuit)",
+    "status": "draft",
+    "summary": "The full loop around the Paine Massif: the quieter north side through Serón, Dickson and Los Perros, over the John Gardner Pass above Grey Glacier, then back along the W. Closed until at least October 31, 2026.",
+    "details": {
+      "route": "One-way loop from Hotel Las Torres via Serón, Dickson, Los Perros, Paso, Grey, Paine Grande, Italiano and Los Cuernos, back to Hotel Las Torres",
+      "distanceKm": 92.9,
+      "elevationGainM": null,
+      "maxAltitudeM": null,
+      "duration": "8–10 days",
+      "difficulty": "strenuous",
+      "routeType": "loop",
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "permit": "2026–27 season rules (checked October 2026): CONAF has closed the circuit until at least October 31, 2026. It will decide on reopening based on weather and safety and announce it through its official channels. At the last reopening (December 2025), CONAF capped the circuit at 100 people a day, made it one-way only, and required registration at Guardería Coirón. Park entry must be bought at pasesparques.cl at least 24 hours ahead, and every night must be booked with Las Torres Patagonia or Vértice Patagonia.",
+      "gettingThere": "Four bus companies run from Puerto Natales to Laguna Amarga, Pudeto and the park administration, leaving at 7:30 and 14:30. Puerto Natales is 250 km by paved road from Punta Arenas.",
+      "tips": [
+        "Check CONAF and Pases Parques before you book. After a fatal incident on November 17, 2025, CONAF closed the circuit and has reopened and closed it again since then. The Serón–Dickson, Dickson–Los Perros, Los Perros–Paso and Paso–Grey stretches are closed in winter.",
+        "CONAF rates Los Perros to Paso (8 km, about 6 hours, over the pass) and Paso to Grey (7 km, about 5 hours) as demanding. Between Grey and Paso there are two suspension bridges more than 20 m high.",
+        "Register at every ranger station, and at Los Perros and Paso also register when you leave.",
+        "After heavy rain or snowmelt, rivers rise quickly. Do not try to cross if the water is above your knees. There is no phone signal on the interior trails.",
+        "The distance here adds up CONAF's official segment lengths for the loop. Side trips to Mirador Británico (10.8 km return from Italiano) and Mirador Base Torres (18.8 km return from Hotel Las Torres) are extra."
+      ]
+    },
+    "sources": [
+      {
+        "label": "CONAF — Parque Nacional Torres del Paine (trail segments, access, Macizo Paine closure)",
+        "url": "https://www.conaf.cl/parques/parque-nacional-torres-del-paine/"
+      },
+      {
+        "label": "CONAF — CONAF reopens the O Circuit in Torres del Paine (December 5, 2025)",
+        "url": "https://www.conaf.cl/conaf-reabre-el-circuito-o-en-torres-del-paine/"
+      },
+      {
+        "label": "CONAF — Macizo Paine circuit remains closed (November 28, 2025)",
+        "url": "https://www.conaf.cl/mantencion-de-cierre-del-circuito-macizo-paine-del-parque-nacional-torres-del-paine/"
+      },
+      {
+        "label": "Pases Parques (CONAF ticketing) — Paine Massif circuit closed until October 31, 2026",
+        "url": "https://www.pasesparques.cl/en/undefined-undefined/undefined-3412"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Recommendations for your trip 2026",
+        "url": "https://parquetorresdelpaine.cl/recomendaciones-para-su-viaje-2026/"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Reservation systems",
+        "url": "https://parquetorresdelpaine.cl/sistemas-de-reservas/"
+      },
+      {
+        "label": "Parque Nacional Torres del Paine (CONAF) — Daily trail report (one-way segments)",
+        "url": "https://parquetorresdelpaine.cl/6934-2/"
+      },
+      {
+        "label": "Las Torres Patagonia — Accommodation and booking",
+        "url": "https://lastorres.com/"
+      },
+      {
+        "label": "Vértice Patagonia — Accommodation in Torres del Paine",
+        "url": "https://www.vertice.travel/alojamientos-torres-del-paine/"
+      }
+    ],
+    "photo": {
+      "src": "/trails/torres-del-paine-national-park--o-circuit.jpg",
+      "alt": "A narrow dirt trail runs along a green, shrubby slope high above the crevassed ice of Grey Glacier, with snowy mountains and white clouds beyond.",
+      "author": "Yiyo Zamorano",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glaciar_Grey_y_sendero_al_paso_John_Gardner.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  }
+]

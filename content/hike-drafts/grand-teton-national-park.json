@@ -1,0 +1,97 @@
+{
+  "id": 54,
+  "slug": "grand-teton-national-park",
+  "title": "Grand Teton National Park",
+  "continent": "North America",
+  "country": "United States",
+  "biome": "Temperate coniferous forest",
+  "landscapes": [
+    "mountains",
+    "forests",
+    "waterfalls"
+  ],
+  "description": "From Jenny Lake, a trail climbs past Hidden Falls to Inspiration Point, about 420 ft (128 m) above the lake, then follows Cascade Canyon into the Teton Range. In summer a shuttle boat across the lake cuts about 2 miles off each way.",
+  "hikingExplained": "Jenny Lake sits at the foot of the Teton Range in Wyoming, and the trails on its west shore are some of the most popular in Grand Teton National Park. The Jenny Lake Trailhead is next to the east shore boat dock, about 8 miles (13 km) north of Moose Junction on the Teton Park Road. From there you can walk around the south end of the lake, or take the Jenny Lake shuttle boat across to the west shore boat dock. The boat runs only in summer, there is a fee, and it shortens any hike here by about 2 miles each way.\n\nFrom the west shore dock, the first half mile leads to Hidden Falls, a 230 ft (70 m) cascade that you only see when you are less than 100 yards from the viewpoint. The next half mile climbs more steeply to Inspiration Point, at the mouth of Cascade Canyon, with Jenny Lake below you to the east. On foot from the trailhead, Inspiration Point is 5.7 miles (9.2 km) round trip with 870 ft (265 m) of climbing, about 3 hours, rated moderate. With the boat it is 1.8 miles (2.9 km) round trip with 550 ft (168 m) of climbing, about 2.5 hours, rated easy.\n\nPast Inspiration Point, the trail continues up Cascade Canyon to the Forks of Cascade Canyon, where the trail splits toward Lake Solitude (north fork) and Hurricane Pass (south fork). The Forks are 13.3 miles (21.4 km) round trip from the trailhead, with 1,720 ft (524 m) of climbing, about 8 hours, rated strenuous. With the boat both ways it is 9.2 miles (14.8 km) round trip, 1,480 ft (451 m) of climbing and about 6 hours. You can also use the boat one way only.",
+  "officialUrl": "https://www.nps.gov/places/000/jenny-lake-trailhead.htm",
+  "map": "/maps/NorthAmerica.svg",
+  "photo": {
+    "src": "/hikes/grand-teton-national-park.jpg",
+    "alt": "Jenny Lake seen from Inspiration Point on a hazy summer day: pale granite rocks and a lone conifer in front, forest around the blue lake, and flat valley beyond.",
+    "author": "Andrew and Jennifer Parlette (aparlette on Flickr)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jenny_Lake_from_Inspiration_Point_-_Grand_Teton_National_Park.jpg",
+    "license": "CC BY 2.0"
+  },
+  "status": "draft",
+  "location": {
+    "lat": 43.7515,
+    "lng": -110.7223
+  },
+  "details": {
+    "route": "Jenny Lake Trailhead to Hidden Falls, Inspiration Point and the Forks of Cascade Canyon and back, with the option of the Jenny Lake shuttle boat one way or both ways",
+    "distanceKm": 21.4,
+    "elevationGainM": 524,
+    "maxAltitudeM": null,
+    "duration": "About 8 h (6 h by boat)",
+    "difficulty": "strenuous",
+    "routeType": "out-and-back",
+    "bestMonths": [
+      7,
+      8,
+      9
+    ],
+    "permit": "No permit for a day hike (permits are only required for overnight backcountry stays). You need a park entrance pass: $35 for a private vehicle for 7 days (checked October 2026). The shuttle boat has its own fee.",
+    "gettingThere": "Drive the Teton Park Road about 8 miles (13 km) north from Moose Junction to the South Jenny Lake area. The Jenny Lake Trailhead and the east shore boat dock are next to the Jenny Lake Visitor Center. The parking lot is often full from 9 am to 4 pm, so arrive early.",
+    "tips": [
+      "The Jenny Lake shuttle boat runs only in summer and needs no reservation. In 2026 the operator, Jenny Lake Boating, ran from May 15 to September 30 (checked October 2026). Check their website for this year's dates, hours and fares.",
+      "Valley trails are usually snow-free by mid-June, but mountain trails may not be snow-free until late July. Ask at a visitor center about trail conditions and closures before you go.",
+      "This is bear country. Carry bear spray and know how to use it, make noise on the trail, hike in a group of three or more if you can, and stay at least 100 yards from bears.",
+      "Pets are not allowed on any park trails.",
+      "Parts of the Teton Park Road close to vehicles from November 1 to April 30, or longer if there is snow, and many facilities close for the winter."
+    ]
+  },
+  "sources": [
+    {
+      "label": "NPS — Jenny Lake Trailhead (distances, times, climbing and difficulty with and without the boat; location; parking)",
+      "url": "https://www.nps.gov/places/000/jenny-lake-trailhead.htm"
+    },
+    {
+      "label": "NPS — Inspiration Point (420 ft above the lake, mouth of Cascade Canyon, boat saves about 2 miles each way)",
+      "url": "https://www.nps.gov/places/000/inspiration-point.htm"
+    },
+    {
+      "label": "NPS — Hidden Falls (230 ft cascade, route from the west shore boat dock)",
+      "url": "https://www.nps.gov/places/000/hidden-falls.htm"
+    },
+    {
+      "label": "NPS — Jenny Lake Boat Dock (shuttle boat summer only, operated by Jenny Lake Boating)",
+      "url": "https://www.nps.gov/places/000/jenny-lake-boat-dock.htm"
+    },
+    {
+      "label": "Jenny Lake Boating — 2026 season dates, no reservations required",
+      "url": "https://jennylakeboating.com/"
+    },
+    {
+      "label": "NPS — Hiking in Grand Teton (snow on trails, bear spray, overnight permits, parking)",
+      "url": "https://www.nps.gov/grte/planyourvisit/hike.htm"
+    },
+    {
+      "label": "NPS — Fees & Passes (entrance fee, no entry reservations)",
+      "url": "https://www.nps.gov/grte/planyourvisit/fees.htm"
+    },
+    {
+      "label": "NPS — Grand Teton FAQ (Teton Park Road winter closure, overnight permits, pets)",
+      "url": "https://www.nps.gov/grte/faqs.htm"
+    },
+    {
+      "label": "NPS — Alerts & Current Conditions (stay 100 yards from bears)",
+      "url": "https://www.nps.gov/grte/planyourvisit/conditions.htm"
+    },
+    {
+      "label": "OpenStreetMap — Jenny Lake Visitor Center (trailhead location)",
+      "url": "https://www.openstreetmap.org/way/108531030"
+    }
+  ],
+  "checkedAt": "2026-10-12",
+  "instagram": [],
+  "gallery": []
+}

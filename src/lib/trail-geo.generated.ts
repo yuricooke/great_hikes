@@ -10,4 +10,5 @@ export const TRAIL_GEO: Record<string, () => Promise<{ default: unknown }>> = {
   "yosemite-national-park--mist-trail": () => import("@content/trail-geo/yosemite-national-park--mist-trail.json"),
   "yosemite-national-park--sentinel-dome": () => import("@content/trail-geo/yosemite-national-park--sentinel-dome.json"),
   "yosemite-national-park--upper-yosemite-fall": () => import("@content/trail-geo/yosemite-national-park--upper-yosemite-fall.json"),
+  "zion-national-park--angels-landing": () => import("@content/trail-geo/zion-national-park--angels-landing.json"),
 };

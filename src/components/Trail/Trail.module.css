@@ -71,6 +71,7 @@
 .filters button[aria-pressed="true"] {
   background: var(--gh-accent);
   border-color: var(--gh-accent);
+  color: #fff; /* white on the green in both themes (5.4:1) */
 }
 
 .filters button:focus-visible {

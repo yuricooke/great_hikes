@@ -1,0 +1,138 @@
+[
+  {
+    "place": "zion-national-park",
+    "slug": "angels-landing",
+    "name": "Angels Landing",
+    "status": "draft",
+    "summary": "A steep climb from the Grotto up the West Rim Trail to Scout Lookout, then a narrow sandstone ridge with chains to hold, sheer drop-offs on both sides and wide views over Zion Canyon. The final ridge needs a permit.",
+    "osmRelation": 7387173,
+    "details": {
+      "route": "The Grotto (shuttle stop 6) up the West Rim Trail to Scout Lookout, then the 0.5-mile Angels Landing Trail along the ridge to the top, and back the same way",
+      "distanceKm": 8.7,
+      "elevationGainM": 454,
+      "maxAltitudeM": null,
+      "duration": "About 4 h",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "permit": "Rules as published for 2026 (checked October 2026): everyone going beyond Scout Lookout onto the Angels Landing ridge needs a permit; the walk to Scout Lookout itself does not. Permits come from two lotteries on Recreation.gov. The seasonal lottery for 2026 hike dates opened on February 13 (spring), April 1 (summer), July 1 (fall) and October 1 (winter, December 1, 2026 to February 28, 2027). The day-before lottery takes applications from 12:01 am to 3 pm Mountain Time the day before your hike, with results after 4 pm. Each application costs $6 (non-refundable) plus $3 per person and covers up to 6 people. Your permit time applies at the Grotto.",
+      "gettingThere": "From March through November, most Zion Canyon hikes can only be reached by the free park shuttle, and the Zion Canyon Scenic Drive is closed to private vehicles while the shuttle runs. Board at the Zion Canyon Visitor Center and get off at the Grotto. You still need a park entrance fee or pass.",
+      "tips": [
+        "The ridge is less than 3 ft (1 m) wide in many places, with drop-offs of up to 1,000 ft on each side. Chains serve as handrails on several sections; watch your footing at all times.",
+        "Much of the ridge is only wide enough for one person, so expect to wait and give way to other hikers.",
+        "If you have no permit, Scout Lookout (about 2.25 miles from the Grotto and roughly 1,000 ft higher) is a worthwhile turnaround point with views of its own.",
+        "There are restrooms at the Grotto and at Scout Lookout."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Zion National Park (NPS) — Angels Landing Permits & Hiking",
+        "url": "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — 2026 Angels Landing seasonal lottery dates (news release, February 11, 2026)",
+        "url": "https://www.nps.gov/zion/learn/news/2026-02-11-angels-landing.htm"
+      },
+      {
+        "label": "National Park Service — Angels Landing (trail description and season)",
+        "url": "https://www.nps.gov/thingstodo/hike-angels-landing.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — Zion Canyon trail descriptions (shuttle access March to November)",
+        "url": "https://www.nps.gov/zion/planyourvisit/zion-canyon-trail-descriptions.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — Zion Canyon shuttle system",
+        "url": "https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm"
+      },
+      {
+        "label": "OpenStreetMap — Angels Landing Trail–West Rim Trail route relation",
+        "url": "https://www.openstreetmap.org/relation/7387173"
+      }
+    ],
+    "photo": {
+      "src": "/trails/zion-national-park--angels-landing.jpg",
+      "alt": "A steel chain runs along red sandstone blocks on the narrow Angels Landing ridge, with tall canyon walls, pine trees and a deep blue sky around it.",
+      "author": "Andrew Heneen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angels_Landing_Trail_Zion_NP_27-08-2025_01.jpg",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "place": "zion-national-park",
+    "slug": "the-narrows",
+    "name": "The Narrows (bottom-up)",
+    "status": "draft",
+    "summary": "Walk upstream in the Virgin River itself, between canyon walls about 1,000 ft tall. Start on the paved Riverside Walk, then wade as far as you like, up to Big Spring. No permit is needed for this bottom-up hike.",
+    "details": {
+      "route": "Temple of Sinawava (shuttle stop 9) along the 1-mile Riverside Walk, then upstream in the Virgin River as far as Big Spring, and back the same way",
+      "distanceKm": 15.1,
+      "elevationGainM": 102,
+      "maxAltitudeM": null,
+      "duration": "1–8 h",
+      "difficulty": "strenuous",
+      "routeType": "out-and-back",
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "permit": "No permit is needed to hike upstream from the Temple of Sinawava as far as Big Spring. Rules as published for 2026 (checked October 2026): the 16-mile top-down hike from Chamberlain's Ranch needs a wilderness permit. For a one-day trip you can reserve in advance (at least one day before) or apply in the daily lottery two days before your trip (12:00 am to 3 pm Mountain Time, results around 4 pm); unclaimed spaces go first-come, first-served at the Zion Canyon Visitor Center Wilderness Desk the day before. Day trips cost a $6 non-refundable fee plus $10 per person; overnight trips cost $20 plus $7 per person per night. You arrange your own transport to Chamberlain's Ranch. Top-down trips are closed when the river flows above 120 CFS.",
+      "gettingThere": "Take the free park shuttle from the Zion Canyon Visitor Center to the Temple of Sinawava, the last stop (stop 9). The Zion Canyon Scenic Drive is closed to private vehicles during the shuttle season. Check the time of the last shuttle out before you start.",
+      "tips": [
+        "The Narrows closes to all travel when the river flows above 150 CFS, and whenever the National Weather Service issues a Flash Flood Warning; it stays closed for at least two hours after a warning is lifted. Check the forecast and current flow before you go.",
+        "Flash floods can happen at any time, and flash flood warnings are common in the monsoon season, July to September.",
+        "Wear closed-toe shoes and carry a sturdy hiking stick for the slick, uneven rocks; sandals, crocs and bare feet are not appropriate. The park does not sell or rent gear.",
+        "You can explore the first quarter mile of Orderville Canyon, a side canyon, but upstream travel beyond that is not allowed.",
+        "Even an hour in the river is worthwhile; turn around whenever you like."
+      ]
+    },
+    "sources": [
+      {
+        "label": "Zion National Park (NPS) — The Narrows",
+        "url": "https://www.nps.gov/zion/planyourvisit/thenarrows.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — The Narrows from the bottom up",
+        "url": "https://www.nps.gov/zion/planyourvisit/narrowsbottomup.htm"
+      },
+      {
+        "label": "National Park Service — Riverside Walk",
+        "url": "https://www.nps.gov/thingstodo/hike-riverside-walk.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — Virgin River Narrows top-down information",
+        "url": "https://www.nps.gov/zion/planyourvisit/virgin-river-narrows-information.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — The Narrows permits",
+        "url": "https://www.nps.gov/zion/planyourvisit/narrowspermits.htm"
+      },
+      {
+        "label": "Zion National Park (NPS) — Zion Canyon shuttle system",
+        "url": "https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm"
+      }
+    ],
+    "photo": {
+      "src": "/trails/zion-national-park--the-narrows.jpg",
+      "alt": "The Virgin River flows past a pebbly bank and green trees between towering red canyon walls in the Zion Narrows, with small figures of hikers in the distance.",
+      "author": "Gillfoto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zion_Narrows_Hike_93.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  }
+]
