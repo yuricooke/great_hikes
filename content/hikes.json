@@ -6111,7 +6111,7 @@
       "license": "Public domain (work of a U.S. National Park Service employee)"
     },
     "photoDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Atop_Old_Rag_Mountain_%2828219264562%29.jpg",
-    "status": "draft",
+    "status": "published",
     "location": {
       "lat": 38.5518,
       "lng": -78.3142
@@ -6252,7 +6252,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hallett_Peak_reflected_in_Dream_Lake_(035b3918-1dd8-b71b-0b25-1c76a4dc59e2).jpg",
       "license": "Public domain"
     },
-    "status": "draft",
+    "status": "published",
     "location": {
       "lat": 40.312,
       "lng": -105.6459
@@ -6366,7 +6366,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jenny_Lake_from_Inspiration_Point_-_Grand_Teton_National_Park.jpg",
       "license": "CC BY 2.0"
     },
-    "status": "draft",
+    "status": "published",
     "location": {
       "lat": 43.7515,
       "lng": -110.7223
@@ -6491,7 +6491,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tofana_CinqueTorri_20170725.jpg",
       "license": "CC BY-SA 4.0"
     },
-    "status": "draft",
+    "status": "published",
     "location": {
       "lat": 46.6944,
       "lng": 12.0854
@@ -6598,7 +6598,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sweeping_Seceda_(38225459035).jpg",
       "license": "CC BY-SA 2.0"
     },
-    "status": "draft",
+    "status": "published",
     "location": {
       "lat": 46.6007,
       "lng": 11.7256

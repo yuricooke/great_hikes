@@ -592,7 +592,7 @@
     "place": "zion-national-park",
     "slug": "angels-landing",
     "name": "Angels Landing",
-    "status": "draft",
+    "status": "published",
     "summary": "A steep climb from the Grotto up the West Rim Trail to Scout Lookout, then a narrow sandstone ridge with chains to hold, sheer drop-offs on both sides and wide views over Zion Canyon. The final ridge needs a permit.",
     "osmRelation": 7387173,
     "details": {
@@ -664,7 +664,7 @@
     "place": "zion-national-park",
     "slug": "the-narrows",
     "name": "The Narrows (bottom-up)",
-    "status": "draft",
+    "status": "published",
     "summary": "Walk upstream in the Virgin River itself, between canyon walls about 1,000 ft tall. Start on the paved Riverside Walk, then wade as far as you like, up to Big Spring. No permit is needed for this bottom-up hike.",
     "details": {
       "route": "Temple of Sinawava (shuttle stop 9) along the 1-mile Riverside Walk, then upstream in the Virgin River as far as Big Spring, and back the same way",
@@ -728,7 +728,7 @@
     "place": "banff-national-park",
     "slug": "lake-agnes-plain-of-six-glaciers",
     "name": "Lake Agnes and Plain of Six Glaciers",
-    "status": "draft",
+    "status": "published",
     "summary": "A loop above Lake Louise that links two classic trails and their seasonal tea houses: up to Lake Agnes beneath tall peaks, across the Highline Trail, and on to the Plain of Six Glaciers before returning along the lakeshore.",
     "details": {
       "route": "Lake Louise Lakeshore to Lake Agnes, across the Highline Trail to the Plain of Six Glaciers Trail, and back to Lake Louise Lakeshore",
@@ -786,7 +786,7 @@
     "place": "banff-national-park",
     "slug": "larch-valley-sentinel-pass",
     "name": "Larch Valley and Sentinel Pass",
-    "status": "draft",
+    "status": "published",
     "summary": "From Moraine Lake, switchbacks climb into a larch forest high above the lake, past the Minnestimma Lakes, then steeply up to Sentinel Pass at 2,611 m, a high point between Larch Valley and Paradise Valley.",
     "details": {
       "route": "Moraine Lake (trail starts just past Moraine Lake Lodge) through Larch Valley and past the Minnestimma Lakes to Sentinel Pass, and back the same way",
@@ -848,7 +848,7 @@
     "place": "torres-del-paine-national-park",
     "slug": "w-trek",
     "name": "W Trek",
-    "status": "draft",
+    "status": "published",
     "summary": "The park's classic multi-day trek: up to the granite towers at Base Torres, into the French Valley below Paine Grande, and out to Grey Glacier, sleeping in booked refugios or campsites along the way.",
     "details": {
       "route": "Hotel Las Torres to Paine Grande via Los Cuernos and Italiano, with out-and-back legs to Mirador Base Torres, Mirador Británico in the French Valley, and Grey",
@@ -921,7 +921,7 @@
     "place": "torres-del-paine-national-park",
     "slug": "o-circuit",
     "name": "O Circuit (Paine Massif Circuit)",
-    "status": "draft",
+    "status": "published",
     "summary": "The full loop around the Paine Massif: the quieter north side through Serón, Dickson and Los Perros, over the John Gardner Pass above Grey Glacier, then back along the W. Closed until at least October 31, 2026.",
     "details": {
       "route": "One-way loop from Hotel Las Torres via Serón, Dickson, Los Perros, Paso, Grey, Paine Grande, Italiano and Los Cuernos, back to Hotel Las Torres",
@@ -998,7 +998,7 @@
     "place": "los-glaciares-national-park",
     "slug": "laguna-de-los-tres",
     "name": "Laguna de los Tres",
-    "status": "draft",
+    "status": "published",
     "summary": "The classic day hike from El Chaltén: through forest past Laguna Capri and the Poincenot campsite, then a very steep last climb to a glacial lake right below Cerro Fitz Roy.",
     "details": {
       "route": "Fitz Roy trailhead in El Chaltén to Laguna de los Tres via Laguna Capri or the Fitz Roy viewpoint and the Poincenot campsite, back the same way",
@@ -1054,7 +1054,7 @@
     "place": "camino-frances",
     "slug": "saint-jean-to-pamplona",
     "name": "Saint-Jean-Pied-de-Port to Pamplona",
-    "status": "draft",
+    "status": "published",
     "summary": "The opening days of the Camino Francés: a long climb over the Pyrenees from France to Roncesvalles, then down through the Navarre valleys via Zubiri to Pamplona.",
     "details": {
       "route": "Saint-Jean-Pied-de-Port over the Pyrenees to Roncesvalles (Orreaga), then via Zubiri to Pamplona",
@@ -1115,7 +1115,7 @@
     "place": "camino-frances",
     "slug": "pamplona-to-burgos",
     "name": "Pamplona to Burgos",
-    "status": "draft",
+    "status": "published",
     "summary": "From Pamplona west through Navarre by Puente la Reina and Estella-Lizarra, across La Rioja, and over the Montes de Oca to the city of Burgos.",
     "details": {
       "route": "Pamplona via Puente la Reina, Estella-Lizarra and Viana, through La Rioja, then via Belorado, San Juan de Ortega and Atapuerca to Burgos",
@@ -1169,7 +1169,7 @@
     "place": "camino-frances",
     "slug": "burgos-to-leon",
     "name": "Burgos to León (the Meseta)",
-    "status": "draft",
+    "status": "published",
     "summary": "The Meseta: the wide, open plains between Burgos and León, through the provinces of Burgos, Palencia and León and small Camino towns such as Castrojeriz, Frómista and Sahagún.",
     "details": {
       "route": "Burgos via Hornillos del Camino, Hontanas, Castrojeriz, Frómista, Carrión de los Condes, Sahagún and Mansilla de las Mulas to León",
@@ -1221,7 +1221,7 @@
     "place": "camino-frances",
     "slug": "leon-to-sarria",
     "name": "León to Sarria",
-    "status": "draft",
+    "status": "published",
     "summary": "From León to Astorga, up through the Montes de León to the Cruz de Ferro, down into El Bierzo, and over O Cebreiro into the green hills of Galicia to Sarria.",
     "details": {
       "route": "León via Astorga, Foncebadón and the Cruz de Ferro, Ponferrada, Villafranca del Bierzo, O Cebreiro and Triacastela to Sarria",
@@ -1287,7 +1287,7 @@
     "place": "camino-frances",
     "slug": "sarria-to-santiago",
     "name": "Sarria to Santiago de Compostela",
-    "status": "draft",
+    "status": "published",
     "summary": "The last 100 km and more, the minimum walk for the Compostela: through Galician meadows, oak and eucalyptus woods and small stone villages, via Portomarín, Melide and Arzúa, to the cathedral in Santiago.",
     "details": {
       "route": "Sarria via Portomarín, Palas de Rei, Melide, Arzúa and Arca (O Pino) to Santiago de Compostela",

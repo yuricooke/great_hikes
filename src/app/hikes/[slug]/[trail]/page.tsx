@@ -170,10 +170,12 @@ export default async function TrailPage({ params }: { params: Promise<Params> })
 
             <AdBanner ad={pickAd("hike", { hikes: [place] })} />
 
-            <section aria-labelledby="sources" className={styles.sources}>
-              <h2 id="sources" className={styles.sectionTitle}>
-                Sources
-              </h2>
+            <details className={styles.sources}>
+              <summary>
+                <h2 id="sources" className={styles.sectionTitle}>
+                  Sources
+                </h2>
+              </summary>
               <ul>
                 {trail.sources.map((source) => (
                   <li key={source.url}>
@@ -187,7 +189,7 @@ export default async function TrailPage({ params }: { params: Promise<Params> })
                 Official figures where published; other numbers are measured on the map and approximate.
                 Conditions and rules change — confirm with the official source before you go.
               </p>
-            </section>
+            </details>
           </GlassPanel>
 
           <aside className={styles.aside}>

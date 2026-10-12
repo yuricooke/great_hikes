@@ -214,10 +214,12 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
             <AdBanner ad={pickAd("hike", { hikes: [hike] })} />
 
             {hike.sources.length > 0 && (
-              <section aria-labelledby="sources" className={styles.sources}>
-                <h2 id="sources" className={styles.sectionTitle}>
-                  Sources
-                </h2>
+              <details className={styles.sources}>
+                <summary>
+                  <h2 id="sources" className={styles.sectionTitle}>
+                    Sources
+                  </h2>
+                </summary>
                 <ul>
                   {hike.sources.map((source) => (
                     <li key={source.url}>
@@ -232,7 +234,7 @@ export default async function HikePage({ params }: { params: Promise<Params> }) 
                   above; conditions, permits and fees change — confirm with the official source before
                   you go.
                 </p>
-              </section>
+              </details>
             )}
           </GlassPanel>
 
