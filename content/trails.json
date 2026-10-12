@@ -361,7 +361,7 @@
     "place": "mount-fuji",
     "slug": "yoshida-trail",
     "name": "Yoshida Trail",
-    "status": "draft",
+    "status": "published",
     "summary": "The most popular way up Mount Fuji and the one with the most mountain huts: switchbacks of volcanic gravel from the Fuji Subaru Line 5th Station to the crater rim, and a separate trail back down.",
     "details": {
       "route": "Fuji Subaru Line 5th Station (2,305 m) to the summit, down by the Yoshida descent trail",
@@ -418,7 +418,7 @@
     "place": "mount-fuji",
     "slug": "subashiri-trail",
     "name": "Subashiri Trail",
-    "status": "draft",
+    "status": "published",
     "summary": "A quieter start through forest on the east side of Mount Fuji, then volcanic sand and rock up to where it joins the Yoshida Trail, with its own sandy descent trail back down.",
     "osmRelation": 19354641,
     "details": {
@@ -476,7 +476,7 @@
     "place": "mount-fuji",
     "slug": "gotemba-trail",
     "name": "Gotemba Trail",
-    "status": "draft",
+    "status": "published",
     "summary": "The longest and emptiest way up Mount Fuji, starting low at 1,440 m with few huts, and coming down a long, fast slope of volcanic sand.",
     "osmRelation": 1140124,
     "details": {
@@ -534,7 +534,7 @@
     "place": "mount-fuji",
     "slug": "fujinomiya-trail",
     "name": "Fujinomiya Trail",
-    "status": "draft",
+    "status": "published",
     "summary": "The shortest way to the top of Mount Fuji, starting highest at 2,400 m on the south side. It is steep and rocky, and you go up and down the same path.",
     "osmRelation": 1140546,
     "details": {
