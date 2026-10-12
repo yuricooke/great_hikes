@@ -28,6 +28,8 @@
   position: absolute;
   inset: 0;
   z-index: -2;
+  /* Black until the photo or video paints (the landing video starts on black). */
+  background: #0b0b0b;
 }
 
 /* Taller than the hero so the slower-moving media never shows a gap. */
