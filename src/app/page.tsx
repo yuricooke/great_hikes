@@ -36,7 +36,7 @@ export function generateMetadata(): Metadata {
   };
 }
 
-/** Shown while the video loads and on phones / reduced motion (no video). */
+/** Shown only when the video won't play (reduced motion / data saver); the hero is black while it loads. */
 const HERO_POSTER = "/hikes/los-glaciares-national-park.jpg";
 
 function todayLabel(now = new Date()) {

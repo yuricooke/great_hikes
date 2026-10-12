@@ -9,7 +9,7 @@ type Props = {
   image: string;
   /** full = first screen (landing, hike); medium = listing and article headers */
   size?: "full" | "landing" | "medium";
-  /** Optional looping background video; `image` is its poster/fallback. */
+  /** Optional looping background video; `image` is shown only when the video can't play. */
   video?: string;
   /** Background moves slower than the page on scroll. */
   parallax?: boolean;
@@ -34,11 +34,12 @@ export default function Hero({
   children,
   className,
 }: Props) {
+  const photo = <Image src={image} alt="" fill priority={priority} sizes="100vw" quality={70} className={styles.image} />;
+
   return (
     <section className={[styles.hero, styles[size], className].filter(Boolean).join(" ")} data-surface="photo">
       <ParallaxLayer parallax={parallax}>
-        <Image src={image} alt="" fill priority={priority} sizes="100vw" quality={70} className={styles.image} />
-        {video && <HeroVideo src={video} />}
+        {video ? <HeroVideo src={video} fallback={photo} /> : photo}
       </ParallaxLayer>
       <div className={styles.scrim} aria-hidden="true" />
       {breadcrumb && <div className={styles.crumbs}>{breadcrumb}</div>}
